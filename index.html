@@ -151,6 +151,15 @@
             position: sticky;
             top: 0;
             z-index: 3;
+            box-sizing: border-box;
+        }
+        /* Align over the leg time numbers */
+        .results-table-header div:nth-child(4) {
+            text-align: right;
+        }
+        /* Align over the split pace numbers */
+        .results-table-header div:nth-child(5) {
+            text-align: right;
         }
         .results-row {
             display: grid;
@@ -167,6 +176,13 @@
         }
         .results-row-strip-odd {
             background-color: #ffffff;
+        }
+
+        .cell-time {
+            text-align: right;
+        }
+        .cell-pace {
+            text-align: right;
         }
 
         .year-heading {
@@ -316,21 +332,20 @@
             }
             div.results-row div.cell-name {
                 grid-column: 1;
-                grid-row: 1; /* Locks name to the first row line */
+                grid-row: 1;
                 font-weight: 600;
                 font-size: 0.95rem;
                 text-align: left;
             }
             div.results-row div.cell-time {
                 grid-column: 2;
-                grid-row: 1; /* Locks time to the first row line alongside name */
+                grid-row: 1;
                 font-weight: 700;
                 font-size: 1rem;
                 text-align: right;
             }
             div.results-row div.cell-club {
                 grid-column: 1;
-                grid-row: 2; /* Locks club to the second row line */
                 font-size: 0.85rem;
                 color: #4b5563;
                 text-align: left;
@@ -444,7 +459,30 @@
             const searchTerm = queryInput.value.toLowerCase().trim();
             const selectedStage = stageSelect.value;
 
-            const filtered = relayResults.filter(row => {
+            const processedResults = relayResults.map(row => {
+                let cleanedClub = row.club || '';
+                let cleanedName = row.name || '';
+
+                let clubBase = cleanedClub.replace(/\s*\(\d+\)\s*$/, '').trim();
+                let teamNumMatch = cleanedClub.match(/\s*\(\d+\)\s*$/);
+                let teamSuffix = teamNumMatch ? teamNumMatch[0] : '';
+
+                if (clubBase.toLowerCase() === 'parc') {
+                    cleanedClub = `Parc Bryn Bach${teamSuffix}`;
+                }
+
+                if (clubBase.toLowerCase() === 'individual') {
+                    cleanedClub = '-';
+                }
+
+                cleanedName = cleanedName.replace(/\s*\([MF]\d*\)\s*$/i, '').trim();
+
+                return { ...row, club: cleanedClub, name: cleanedName };
+            });
+
+            const filtered = processedResults.filter(row => {
+                if (defTimeToSeconds(row.time) < 600) return false;
+
                 const matchesSearch = row.name.toLowerCase().includes(searchTerm) || 
                                       row.club.toLowerCase().includes(searchTerm);
                 const matchesYear = activeSelectedYear === "" || row.year.toString() === activeSelectedYear;
@@ -480,8 +518,8 @@
                         <div>Pos</div>
                         <div>Name</div>
                         <div>Club</div>
-                        <div style="text-align: right;">Time</div>
-                        <div style="text-align: right;">Pace</div>
+                        <div>Time</div>
+                        <div>Pace</div>
                     </div>`;
 
                 const sortedStages = Object.keys(groups[year]).sort((a, b) => a - b);
