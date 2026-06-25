@@ -1,0 +1,92 @@
+[
+  {
+    "year": 2024,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "position": 2024,
+    "name": "RACK",
+    "club": "RAID 2",
+    "time": "00:34:40"
+  },
+  {
+    "year": 2024,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "position": 25,
+    "name": "00:44:36 Steph Iveson (33)",
+    "club": "Bridgend",
+    "time": "00:10:22"
+  },
+  {
+    "year": 2024,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "position": 26,
+    "name": "00:44:42 Mel Hall (32)",
+    "club": "Brackla B",
+    "time": "00:10:28"
+  },
+  {
+    "year": 2024,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "position": 1,
+    "name": "(47)",
+    "club": "Lliswerry A",
+    "time": "10:37:50"
+  },
+  {
+    "year": 2024,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "position": 2,
+    "name": "(51)",
+    "club": "Parc Bryn Bach A",
+    "time": "11:05:02"
+  },
+  {
+    "year": 2024,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "position": 3,
+    "name": "(55)",
+    "club": "Pontypridd A",
+    "time": "11:07:17"
+  },
+  {
+    "year": 2024,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "position": 4,
+    "name": "(44)",
+    "club": "Islwyn A",
+    "time": "11:44:10"
+  },
+  {
+    "year": 2024,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "position": 5,
+    "name": "(39)",
+    "club": "Chepstow A",
+    "time": "11:47:33"
+  },
+  {
+    "year": 2024,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "position": 6,
+    "name": "(46)",
+    "club": "Les Croupiers",
+    "time": "11:51:20"
+  },
+  {
+    "year": 2024,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "position": 7,
+    "name": "(36)",
+    "club": "Caerphilly",
+    "time": "11:55:15"
+  }
+]

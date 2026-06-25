@@ -22,20 +22,20 @@ STAGE_MAP = {
 
 DISTANCE_LOOKUP = {
     0:  {"miles": 4.1,  "km": 6.6},
-    1:  {"miles": 5.5,  "km": 8.8},
-    2:  {"miles": 7.1,  "km": 11.4},
-    3:  {"miles": 4.9,  "km": 7.9},
-    4:  {"miles": 6.3,  "km": 10.1},
-    5:  {"miles": 7.3,  "km": 11.7},
-    6:  {"miles": 5.6,  "km": 9.0},
-    7:  {"miles": 6.8,  "km": 10.9},
-    8:  {"miles": 7.8,  "km": 12.5},
-    9:  {"miles": 5.4,  "km": 8.7},
-    10: {"miles": 6.2,  "km": 10.0},
-    11: {"miles": 6.6,  "km": 10.6},
-    12: {"miles": 5.8,  "km": 9.3},
-    13: {"miles": 6.9,  "km": 11.1},
-    14: {"miles": 6.1,  "km": 9.8}
+    1:  {"miles": 5.1,  "km": 8.2},
+    2:  {"miles": 6.93,  "km": 11.2},
+    3:  {"miles": 7.51,  "km": 12.1},
+    4:  {"miles": 6.7,  "km": 10.8},
+    5:  {"miles": 8.1,  "km": 13.0},
+    6:  {"miles": 12.6,  "km": 20.3},
+    7:  {"miles": 5.53,  "km": 8.9},
+    8:  {"miles": 13.1,  "km": 21.1},
+    9:  {"miles": 10.0,  "km": 16.0},
+    10: {"miles": 7.6,  "km": 12.16},
+    11: {"miles": 8.4,  "km": 13.4},
+    12: {"miles": 6.64,  "km": 10.7},
+    13: {"miles": 5.43,  "km": 8.7},
+    14: {"miles": 5.1,  "km": 8.2}
 }
 
 def get_stage_name(stage_num):
@@ -47,6 +47,7 @@ def parse_pdf_robust(pdf_path, year):
     
     current_stage = 1
     current_cut_off = None
+    stage_positions = {}
     
     print(f"Processing {pdf_path}...")
     time_pattern = re.compile(r'(\d{1,2}:\d{2}:\d{2})')
@@ -96,7 +97,7 @@ def parse_pdf_robust(pdf_path, year):
                 row_items = sorted(horizontal_rows[r_top], key=lambda x: x['x0'])
                 row_text_full = " ".join([item['text'] for item in row_items])
                 
-                if "cut off" in row_text_full.lower():
+                if "cut off" in row_text_full.lower() or "winning time" in row_text_full.lower():
                     continue
                 
                 time_matches = time_pattern.findall(row_text_full)
@@ -105,19 +106,24 @@ def parse_pdf_robust(pdf_path, year):
                     
                 leg_time_val = time_matches[0]
                 
+                try:
+                    hour_val = int(leg_time_val.split(':')[0])
+                    if hour_val >= 2:
+                        continue
+                except ValueError:
+                    pass
+                
                 name_tokens = []
-                club_tokens = []
-                all_found_numbers = []
+                gender_flag = ""
                 
                 if current_stage == 1:
-                    # Stage 1: Tightened bounds to isolate Name completely from trailing metadata fields
                     name_min, name_max = page.width * 0.40, page.width * 0.60
                     club_min, club_max = page.width * 0.60, page.width * 0.85
                 else:
-                    # Stages 2-14: Lower boundary captures leading club registration indices smoothly
                     name_min, name_max = page.width * 0.05, page.width * 0.26
-                    club_min, club_max = page.width * 0.03, page.width * 0.55
+                    club_min, club_max = page.width * 0.26, page.width * 0.60
 
+                club_zone_tokens = []
                 for item in row_items:
                     item_text = item['text'].strip()
                     item_center = (item['x0'] + item['x1']) / 2.0
@@ -125,39 +131,51 @@ def parse_pdf_robust(pdf_path, year):
                     if time_pattern.match(item_text) or item_text == ":" or item_text.lower() == "lead":
                         continue
                         
+                    clean_token = re.sub(r'[\(\)]', '', item_text).upper()
+                    if clean_token in ['M', 'F'] or re.match(r'^[MF]\d+$', clean_token):
+                        gender_flag = f"({clean_token})"
+                        continue
+
                     if name_min <= item_center <= name_max:
                         if current_stage != 1 and item_text.isdigit() and item_center < page.width * 0.08:
                             continue
-                        # Prevent bracketed layout artifacts leaking straight into the clean runner name
-                        if not (item_text.startswith('(') and item_text.endswith(')')) and item_text.upper() not in ['M', 'F']:
-                            name_tokens.append(item_text)
-                        
+                        name_tokens.append(item_text)
                     elif club_min <= item_center <= club_max:
-                        # Extract any standalone digit sequences to identify team references
-                        digits = re.findall(r'\d+', item_text)
-                        if digits:
-                            all_found_numbers.extend(digits)
-                        elif item_text.upper() not in ['M', 'F'] and not re.match(r'^[MF]\d+$', item_text.upper()):
-                            club_tokens.append(item_text)
+                        club_zone_tokens.append(item_text)
 
                 name_str = " ".join(name_tokens).strip()
-                club_str = " ".join(club_tokens).strip()
+                name_str = re.sub(r'[\(\)\'\"]', '', name_str).strip()
 
                 if not name_str or name_str == "-":
                     continue
-                if not club_str or club_str == "-":
-                    club_str = "Individual"
 
-                # Standardise Team Identification layout to your exact preference: Club Name (##)
-                if all_found_numbers:
-                    # The first sequence parsed is always the master club registration number entry
-                    target_team_num = all_found_numbers[0]
-                    final_club_str = f"{club_str} ({int(target_team_num):02d})"
+                if gender_flag:
+                    name_str = f"{name_str} {gender_flag}"
+
+                club_zone_text = " ".join(club_zone_tokens).strip()
+                club_numbers = re.findall(r'\d+', club_zone_text)
+                
+                # Clean up numbers and punctuation strings
+                clean_club_name = re.sub(r'\d+', '', club_zone_text)
+                clean_club_name = re.sub(r'[\(\)\'\"]', '', clean_club_name)
+                
+                # FIXED: Strip any residue 'TOTAL' or 'TIME' keywords leaked from cumulative summary blocks
+                clean_club_name = re.sub(r'\b(?:TOTAL|TIME)\b', '', clean_club_name, flags=re.IGNORECASE)
+                clean_club_name = re.sub(r'\s+', ' ', clean_club_name).strip()
+
+                if not clean_club_name or clean_club_name == "-":
+                    clean_club_name = "Individual"
+
+                if club_numbers:
+                    target_team_num = club_numbers[0]
+                    final_club_str = f"{clean_club_name} ({int(target_team_num):02d})"
                 else:
-                    final_club_str = club_str
+                    final_club_str = clean_club_name
 
                 dist_info = DISTANCE_LOOKUP.get(current_stage, {"miles": None, "km": None})
-                stage_pos = sum(1 for res in results if res['stage'] == current_stage) + 1
+                
+                stage_pos = stage_positions.get(current_stage, 0) + 1
+                stage_positions[current_stage] = stage_pos
 
                 results.append({
                     "year": int(year),
@@ -189,7 +207,7 @@ if __name__ == "__main__":
             continue
             
         year = int(year_match.group(1))
-        if year == 2012:
+        if year == 2012 or year == 2023:
             continue
             
         try:
