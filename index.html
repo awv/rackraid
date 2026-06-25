@@ -628,7 +628,7 @@
                         htmlOutput += `
                             <div class="results-row ${rowModifierClass}">
                                 <div class="cell-position">${row.position}</div>
-                                <div class="cell-name">${row.name}</div>
+                                <div class="cell-name"><a href="athlete.html?name=${encodeURIComponent(row.name)}" style="color: #222; text-decoration: none; font-weight: 600; border-bottom: 1px dashed #999;">${row.name}</a></div>
                                 <div class="cell-club">${row.club}</div>
                                 ${timeMarkup}
                                 <div class="cell-pace">

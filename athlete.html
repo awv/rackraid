@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athlete Profile - Rack Raid Archive</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            width: 95%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            background-color: #fcfcfc;
+        }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            color: #555;
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        .back-link:hover {
+            color: #222;
+        }
+        .profile-header {
+            display: grid;
+            grid-template-columns: max-content 1fr;
+            gap: 30px;
+            background: #fff;
+            border: 1px solid #e1e1e1;
+            border-radius: 6px;
+            padding: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            margin-bottom: 30px;
+            align-items: center;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 6px;
+            object-fit: cover;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+        }
+        .profile-title h1 {
+            margin: 0 0 5px 0;
+            font-size: 2.2rem;
+            color: #111;
+        }
+        .profile-club {
+            font-size: 1.2rem;
+            color: #666;
+            font-weight: 500;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+        .stat-card {
+            background: #fff;
+            border: 1px solid #e1e1e1;
+            border-radius: 6px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+        }
+        .stat-value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #222;
+            margin-bottom: 5px;
+        }
+        .stat-label {
+            font-size: 0.9rem;
+            color: #666;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .history-block {
+            background: #fff;
+            border: 1px solid #e1e1e1;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+            overflow: hidden;
+        }
+        .history-header {
+            display: grid;
+            grid-template-columns: 10% 15% 35% 20% 20%;
+            background-color: #f8f9fa;
+            font-weight: 600;
+            color: #444;
+            border-bottom: 2px solid #e1e1e1;
+            padding: 12px 14px;
+        }
+        .history-row {
+            display: grid;
+            grid-template-columns: 10% 15% 35% 20% 20%;
+            padding: 14px;
+            border-bottom: 1px solid #eee;
+            align-items: center;
+        }
+        .history-row:last-child {
+            border-bottom: none;
+        }
+        .history-row:nth-child(even) {
+            background-color: #fcfcfc;
+        }
+        .text-right {
+            text-align: right;
+        }
+        .badge-win {
+            background-color: #fffdf5;
+            border-left: 4px solid #b58900;
+        }
+        .record-tag {
+            background-color: #e6f4ea;
+            color: #137333;
+            font-weight: bold;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+
+        @media screen and (max-width: 640px) {
+            .profile-header {
+                grid-template-columns: 1fr;
+                text-align: center;
+                padding: 20px;
+            }
+            .profile-pic {
+                margin: 0 auto;
+            }
+            .history-header {
+                display: none;
+            }
+            .history-row {
+                grid-template-columns: 1fr 1fr;
+                gap: 5px;
+                padding: 12px;
+            }
+            .history-row div {
+                text-align: left !important;
+            }
+            .history-row div:nth-child(1) { font-weight: 700; grid-column: 1; }
+            .history-row div:nth-child(2) { font-weight: 700; grid-column: 2; text-align: right !important; }
+            .history-row div:nth-child(3) { grid-column: 1 / span 2; color: #555; }
+            .history-row div:nth-child(4) { grid-column: 1; font-weight: 600; }
+            .history-row div:nth-child(5) { grid-column: 2; text-align: right !important; }
+        }
+    </style>
+</head>
+<body>
+
+    <a href="index.html" class="back-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+        </svg>
+        Back to Results Archive
+    </a>
+
+    <div class="profile-header">
+        <img id="athletePhoto" class="profile-pic" src="" alt="Runner Placeholder">
+        <div class="profile-title">
+            <h1 id="athleteName">-</h1>
+            <div id="athleteClub" class="profile-club">-</div>
+        </div>
+    </div>
+
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div id="statAppearances" class="stat-value">0</div>
+            <div class="stat-label">Stages Run</div>
+        </div>
+        <div class="stat-card">
+            <div id="statWins" class="stat-value">0</div>
+            <div class="stat-label">Stage Wins</div>
+        </div>
+        <div class="stat-card">
+            <div id="statHighest" class="stat-value">-</div>
+            <div class="stat-label">Highest Position</div>
+        </div>
+        <div class="stat-card">
+            <div id="statRecords" class="stat-value">0</div>
+            <div class="stat-label">Records Broken</div>
+        </div>
+    </div>
+
+    <h2>Race History</h2>
+    <div class="history-block">
+        <div class="history-header">
+            <div>Year</div>
+            <div>Stage</div>
+            <div>Course Leg Info</div>
+            <div class="text-right">Pos</div>
+            <div class="text-right">Time</div>
+        </div>
+        <div id="historyRowsContainer"></div>
+    </div>
+
+    <script src="data.js"></script>
+    <script>
+        // Baseline course records lookup mapping inside the profile engine
+        const courseRecords = {
+            "2026": {"1":"00:31:14","2":"00:38:40","3":"00:43:25","4":"00:36:12","5":"00:41:20","6":"00:33:15","7":"00:39:45","8":"00:42:10","9":"00:35:50","10":"00:38:15","11":"00:40:05","12":"00:37:20","13":"00:44:10","14":"00:31:55"},
+            "2025": {"1":"00:34:14","2":"00:39:15","3":"00:44:50","4":"00:37:00","5":"00:42:55","6":"00:34:20","7":"00:41:00","8":"00:43:40","9":"00:36:45","10":"00:39:30","11":"00:41:20","12":"00:38:50","13":"00:45:30","14":"00:32:40"},
+            "2024": {"1":"00:35:40","2":"00:40:20","3":"00:45:12","4":"00:38:10","5":"00:43:15","6":"00:35:05","7":"00:42:15","8":"00:44:55","9":"00:37:30","10":"00:40:45","11":"00:42:50","12":"00:39:15","13":"00:46:20","14":"00:33:10"}
+        };
+
+        const defTimeToSeconds = (tStr) => {
+            if (!tStr) return 0;
+            const p = tStr.split(':');
+            return parseInt(p[0],10) * 3600 + parseInt(p[1],10) * 60 + parseInt(p[2],10);
+        };
+
+        // Get the target athlete name from the URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const targetName = urlParams.get('name');
+
+        if (targetName) {
+            document.title = `${targetName} - Athlete Profile`;
+            document.getElementById('athleteName').textContent = targetName;
+
+            // Handle Photo File Name Normalisation (e.g., "Clare Patterson" -> "clare-patterson.jpg")
+            const photoFileName = targetName.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-') + '.jpg';
+            const imgElement = document.getElementById('athletePhoto');
+            imgElement.src = `assets/images/athletes/${photoFileName}`;
+            
+            // Fallback placeholder handle if photo file doesn't exist yet
+            imgElement.onerror = function() {
+                this.src = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 24 24' fill='none' stroke='%23999' stroke-width='1.5'><path d='M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2'></path><circle cx='12' cy='7' r='4'></circle></svg>";
+            };
+
+            // Query and process athlete records chronologically
+            const runnerHistory = relayResults.filter(row => {
+                const cleanRowName = row.name.replace(/\s*\([MF]\d*\)\s*$/i, '').trim();
+                return cleanRowName.toLowerCase() === targetName.toLowerCase();
+            }).sort((a, b) => b.year - a.year || a.stage - a.stage);
+
+            if (runnerHistory.length > 0) {
+                // Determine their primary/most recent club representation
+                let latestClub = runnerHistory[0].club.replace(/\s*\(\d+\)\s*$/, '').trim();
+                if (latestClub.toLowerCase() === 'parc') latestClub = 'Parc Bryn Bach';
+                document.getElementById('athleteClub').textContent = latestClub === '-' ? 'Independent' : latestClub;
+
+                let wins = 0;
+                let recordsBroken = 0;
+                let highestPos = 999;
+                let htmlOutput = '';
+
+                runnerHistory.forEach(row => {
+                    if (row.position === 1) wins++;
+                    if (row.position < highestPos) highestPos = row.position;
+
+                    // Calculate standing record milestones
+                    const standingRecord = courseRecords[row.year.toString()] ? courseRecords[row.year.toString()][row.stage.toString()] : null;
+                    const runSeconds = defTimeToSeconds(row.time);
+                    const brokeRecord = standingRecord && runSeconds <= defTimeToSeconds(standingRecord);
+                    
+                    if (brokeRecord) recordsBroken++;
+
+                    let rowClass = row.position === 1 ? 'history-row badge-win' : 'history-row';
+                    let timeDisplay = brokeRecord ? `<span class="record-tag">${row.time}</span>` : row.time;
+                    let displayClub = row.club.replace(/\s*\(\d+\)\s*$/, '').trim();
+                    if (displayClub.toLowerCase() === 'parc') displayClub = 'Parc Bryn Bach';
+
+                    htmlOutput += `
+                        <div class="${rowClass}">
+                            <div><strong>${row.year}</strong></div>
+                            <div>Stage ${row.stage}</div>
+                            <div>${row.stage_name || 'Leg Details'} <span style="font-size:12px;color:#666;">(${displayClub === '-' ? 'Ind' : displayClub})</span></div>
+                            <div class="text-right"><strong>${row.position}</strong></div>
+                            <div class="text-right">${timeDisplay}</div>
+                        </div>`;
+                });
+
+                document.getElementById('statAppearances').textContent = runnerHistory.length;
+                document.getElementById('statWins').textContent = wins;
+                document.getElementById('statHighest').textContent = highestPos === 999 ? '-' : highestPos;
+                document.getElementById('statRecords').textContent = recordsBroken;
+                document.getElementById('historyRowsContainer').innerHTML = htmlOutput;
+            }
+        }
+    </script>
+</body>
+</html>
