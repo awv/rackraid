@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rack Raid Results Archive</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            width: 95%;
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            background-color: #fcfcfc;
+        }
+        h1 {
+            font-size: 2.2rem;
+            text-align: center;
+            margin-bottom: 5px;
+            color: #111;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+        .year-tabs-label {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #444;
+            margin-bottom: 8px;
+        }
+        .year-tabs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 25px;
+        }
+        .year-tab {
+            padding: 10px 20px;
+            font-size: 15px;
+            font-weight: 600;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
+            color: #555;
+            transition: all 0.15s ease;
+        }
+        .year-tab:hover {
+            background-color: #f5f5f5;
+            color: #222;
+            border-color: #999;
+        }
+        .year-tab.active {
+            background-color: #222;
+            color: #fff;
+            border-color: #222;
+        }
+        .search-panel {
+            background: #fff;
+            border: 1px solid #e1e1e1;
+            border-radius: 6px;
+            padding: 25px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            margin-bottom: 30px;
+        }
+        .search-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .action-bar {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            align-items: center;
+        }
+        input, select {
+            padding: 12px;
+            font-size: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #fff;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        input:focus, select:focus {
+            border-color: #222;
+            outline: none;
+        }
+        .btn {
+            padding: 12px 24px;
+            font-size: 15px;
+            font-weight: 600;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            box-sizing: border-box;
+        }
+        .btn-primary {
+            background-color: #222;
+            color: #fff;
+            border: 1px solid #222;
+        }
+        .btn-primary:hover {
+            background-color: #444;
+            border-color: #444;
+        }
+        .btn-secondary {
+            background-color: #fff;
+            color: #555;
+            border: 1px solid #ccc;
+        }
+        .btn-secondary:hover {
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .initial-state {
+            text-align: center;
+            padding: 60px 20px;
+            border: 2px dashed #e1e1e1;
+            border-radius: 6px;
+            color: #777;
+            background-color: #fff;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            margin-bottom: 40px;
+            background: #fff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+        }
+        
+        /* Ensure table headers layout properly with sticky sub-rows */
+        thead th {
+            position: sticky;
+            top: 0;
+            z-index: 3;
+            background-color: #f8f9fa;
+            font-weight: 600;
+            color: #444;
+            border-bottom: 2px solid #e1e1e1;
+            padding: 12px 14px;
+            text-align: left;
+        }
+        th {
+            text-align: left;
+        }
+        td {
+            padding: 12px 14px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        
+        tbody tr:nth-child(even) {
+            background-color: #fcfcfc;
+        }
+        tbody tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        .year-heading {
+            background-color: #222;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 10px 15px;
+            margin-top: 40px;
+            margin-bottom: 0;
+            border-radius: 4px 4px 0 0;
+        }
+
+        /* STICKY STAGE NAVIGATION INDICATOR */
+        .stage-header-row, 
+        tbody tr.stage-header-row:nth-child(even), 
+        tbody tr.stage-header-row:nth-child(odd) {
+            position: sticky;
+            top: 45px; /* Sits cleanly directly beneath the master table headers */
+            z-index: 2;
+            background-color: #f1f3f5 !important;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .stage-header-row td {
+            padding: 12px 14px;
+            color: #343a40;
+            border-bottom: 2px solid #dee2e6;
+        }
+        
+        .winner-row, tbody tr.winner-row:nth-child(even), tbody tr.winner-row:nth-child(odd) {
+            font-weight: bold;
+            color: #b58900;
+            background-color: #fffdf5 !important;
+        }
+        .winner-row td {
+            border-bottom: 1px solid #f9f1d1;
+        }
+        .cutoff-row, tbody tr.cutoff-row:nth-child(even), tbody tr.cutoff-row:nth-child(odd) {
+            font-weight: bold;
+            color: #d9534f;
+            background-color: #fdf6f6 !important;
+        }
+        .cutoff-row td {
+            border-bottom: 1px solid #f7e1e1;
+        }
+        .meta-info {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+        .stage-title {
+            font-weight: normal;
+            font-size: 13px;
+            color: #6c757d;
+            margin-left: 8px;
+        }
+        .stage-distance {
+            font-weight: 600;
+            font-size: 13px;
+            color: #2b6cb0;
+            background-color: #ebf8ff;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-left: 10px;
+            border: 1px solid #bee3f8;
+        }
+        .cutoff-badge {
+            float: right;
+            font-size: 11px;
+            background-color: #6c757d;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-weight: normal;
+            margin-top: 2px;
+        }
+        .pace-subtext {
+            display: block;
+            font-size: 11px;
+            color: #777;
+            font-weight: normal;
+            margin-top: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Rack Raid Results Archive</h1>
+    <div class="subtitle">Historical individual stage results database</div>
+    
+    <div class="search-panel">
+        <div class="year-tabs-label">Select Year:</div>
+        <div class="year-tabs" id="yearTabsContainer">
+            <button class="year-tab active" data-year="">All Years</button>
+        </div>
+
+        <div class="search-grid">
+            <input type="text" id="searchQuery" placeholder="Search runner name or club...">
+            <select id="filterStage"><option value="">All Stages</option></select>
+        </div>
+        
+        <div class="action-bar">
+            <button class="btn btn-secondary" id="clearBtn">Reset Filters</button>
+            <button class="btn btn-primary" id="searchBtn">Find Results</button>
+        </div>
+    </div>
+
+    <div id="metaContainer" style="display: none;" class="meta-info"></div>
+    <div id="resultsContainer">
+        <div class="initial-state">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="2" style="margin-bottom:10px;">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <p>Configure your filter options above and click <strong>Find Results</strong> to view historical database records.</p>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script>
+        const queryInput = document.getElementById('searchQuery');
+        const stageSelect = document.getElementById('filterStage');
+        const yearTabsContainer = document.getElementById('yearTabsContainer');
+        const searchBtn = document.getElementById('searchBtn');
+        const clearBtn = document.getElementById('clearBtn');
+        const resultsContainer = document.getElementById('resultsContainer');
+        const metaContainer = document.getElementById('metaContainer');
+
+        let activeSelectedYear = "";
+
+        const uniqueYears = [...new Set(relayResults.map(r => r.year))].sort((a,b) => b-a);
+        uniqueYears.forEach(year => {
+            const btn = document.createElement('button');
+            btn.className = 'year-tab';
+            btn.textContent = year;
+            btn.setAttribute('data-year', year);
+            yearTabsContainer.appendChild(btn);
+        });
+
+        yearTabsContainer.addEventListener('click', (e) => {
+            if (e.target.classList.contains('year-tab')) {
+                document.querySelectorAll('.year-tab').forEach(t => t.classList.remove('active'));
+                e.target.classList.add('active');
+                activeSelectedYear = e.target.getAttribute('data-year');
+            }
+        });
+
+        const uniqueStages = [...new Set(relayResults.map(r => r.stage))].sort((a,b) => a-b);
+        uniqueStages.forEach(s => { 
+            stageSelect.options.add(new Option(`Stage ${s}`, s));
+        });
+
+        const defTimeToSeconds = (tStr) => {
+            if (!tStr) return 0;
+            const p = tStr.split(':');
+            return parseInt(p[0],10) * 3600 + parseInt(p[1],10) * 60 + parseInt(p[2],10);
+        };
+
+        const formatPaceValue = (totalSeconds, distance) => {
+            if (!distance || totalSeconds <= 0) return "-";
+            const paceSecs = Math.round(totalSeconds / distance);
+            const mins = Math.floor(paceSecs / 60);
+            const secs = paceSecs % 60;
+            return `${mins}:${secs.toString().padStart(2, '0')}`;
+        };
+
+        function performSearch() {
+            const searchTerm = queryInput.value.toLowerCase().trim();
+            const selectedStage = stageSelect.value;
+
+            const filtered = relayResults.filter(row => {
+                const matchesSearch = row.name.toLowerCase().includes(searchTerm) || 
+                                      row.club.toLowerCase().includes(searchTerm);
+                const matchesYear = activeSelectedYear === "" || row.year.toString() === activeSelectedYear;
+                const matchesStage = selectedStage === "" || row.stage.toString() === selectedStage;
+                return matchesSearch && matchesYear && matchesStage;
+            });
+
+            metaContainer.style.display = "block";
+            metaContainer.textContent = `Found ${filtered.length} matching record${filtered.length === 1 ? '' : 's'}.`;
+
+            if (filtered.length === 0) {
+                resultsContainer.innerHTML = `
+                    <div class="initial-state" style="border-style: solid;">
+                        <p>No matching database records found. Please update your search criteria parameters.</p>
+                    </div>`;
+                return;
+            }
+
+            const groups = {};
+            filtered.forEach(row => {
+                if (!groups[row.year]) groups[row.year] = {};
+                if (!groups[row.year][row.stage]) groups[row.year][row.stage] = [];
+                groups[row.year][row.stage].push(row);
+            });
+
+            let htmlOutput = '';
+            const sortedYears = Object.keys(groups).sort((a, b) => b - a);
+
+            sortedYears.forEach(year => {
+                htmlOutput += `<div class="year-heading">${year} Results</div>`;
+                htmlOutput += `<table>
+                    <thead>
+                        <tr>
+                            <th style="width: 6%;">Pos</th>
+                            <th style="width: 34%;">Name</th>
+                            <th style="width: 36%;">Club</th>
+                            <th style="width: 12%;">Time</th>
+                            <th style="width: 12%;">Pace</th>
+                        </tr>
+                    </thead>
+                    <tbody>`;
+
+                const sortedStages = Object.keys(groups[year]).sort((a, b) => a - b);
+                sortedStages.forEach(stage => {
+                    const stageRows = groups[year][stage];
+                    const stageTitle = stageRows[0]?.stage_name || '';
+                    const cutOffTime = stageRows[0]?.cut_off || null;
+                    const miles = stageRows[0]?.miles || null;
+                    const km = stageRows[0]?.km || null;
+
+                    const cutoffLabel = cutOffTime ? `<span class="cutoff-badge">Stage Cut Off: ${cutOffTime}</span>` : '';
+                    
+                    let distanceLabel = '';
+                    if (miles && km) {
+                        distanceLabel = `<span class="stage-distance">${miles} mi / ${km} km</span>`;
+                    } else if (miles) {
+                        distanceLabel = `<span class="stage-distance">${miles} mi</span>`;
+                    }
+
+                    htmlOutput += `
+                        <tr class="stage-header-row">
+                            <td colspan="5">
+                                Stage ${stage} <span class="stage-title">${stageTitle}</span>
+                                ${distanceLabel}
+                                ${cutoffLabel}
+                            </td>
+                        </tr>`;
+
+                    stageRows.forEach(row => {
+                        const isWinner = row.position === 1;
+                        const runSeconds = defTimeToSeconds(row.time);
+                        const missedCutoff = cutOffTime && runSeconds > defTimeToSeconds(cutOffTime);
+                        
+                        const milePace = formatPaceValue(runSeconds, miles);
+                        const kmPace = formatPaceValue(runSeconds, km);
+                        
+                        let rowClass = '';
+                        if (missedCutoff) {
+                            rowClass = 'class="cutoff-row"';
+                        } else if (isWinner) {
+                            rowClass = 'class="winner-row"';
+                        }
+                        
+                        htmlOutput += `
+                            <tr ${rowClass}>
+                                <td>${row.position}</td>
+                                <td>${row.name}</td>
+                                <td>${row.club}</td>
+                                <td>${row.time}</td>
+                                <td>
+                                    <strong>${milePace}</strong> <span style="font-size:11px;color:#555;">/mi</span>
+                                    <span class="pace-subtext">${kmPace} /km</span>
+                                </td>
+                            </tr>`;
+                    });
+                });
+
+                htmlOutput += `</tbody></table>`;
+            });
+
+            resultsContainer.innerHTML = htmlOutput;
+        }
+
+        function resetInterface() {
+            queryInput.value = "";
+            stageSelect.value = "";
+            activeSelectedYear = "";
+            
+            document.querySelectorAll('.year-tab').forEach(t => t.classList.remove('active'));
+            document.querySelector('.year-tab[data-year=""]').classList.add('active');
+            
+            metaContainer.style.display = "none";
+            resultsContainer.innerHTML = `
+                <div class="initial-state">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="2" style="margin-bottom:10px;">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <p>Configure your filter options above and click <strong>Find Results</strong> to view historical database records.</p>
+                </div>`;
+        }
+
+        searchBtn.addEventListener('click', performSearch);
+        clearBtn.addEventListener('click', resetInterface);
+    </script>
+</body>
+</html>
