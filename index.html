@@ -68,6 +68,7 @@
             box-shadow: 0 2px 8px rgba(0,0,0,0.04);
             margin-bottom: 30px;
         }
+        
         .search-grid {
             display: grid;
             grid-template-columns: 2fr 1fr;
@@ -128,40 +129,43 @@
             color: #777;
             background-color: #fff;
         }
-        table {
+
+        /* FLEXBOX ARCHIVE BASE BLOCKS */
+        .results-block {
             width: 100%;
-            border-collapse: collapse;
             margin-top: 10px;
             margin-bottom: 40px;
             background: #fff;
             box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+            border: 1px solid #e1e1e1;
+            border-radius: 4px;
         }
-        
-        /* Ensure table headers layout properly with sticky sub-rows */
-        thead th {
-            position: sticky;
-            top: 0;
-            z-index: 3;
+        .results-table-header {
+            display: grid;
+            grid-template-columns: 6% 34% 36% 12% 12%;
             background-color: #f8f9fa;
             font-weight: 600;
             color: #444;
             border-bottom: 2px solid #e1e1e1;
             padding: 12px 14px;
-            text-align: left;
+            position: sticky;
+            top: 0;
+            z-index: 3;
         }
-        th {
-            text-align: left;
-        }
-        td {
+        .results-row {
+            display: grid;
+            grid-template-columns: 6% 34% 36% 12% 12%;
             padding: 12px 14px;
-            text-align: left;
             border-bottom: 1px solid #eee;
+            align-items: center;
         }
-        
-        tbody tr:nth-child(even) {
+        .results-row:last-child {
+            border-bottom: none;
+        }
+        .results-row-strip-even {
             background-color: #fcfcfc;
         }
-        tbody tr:nth-child(odd) {
+        .results-row-strip-odd {
             background-color: #ffffff;
         }
 
@@ -177,38 +181,47 @@
         }
 
         /* STICKY STAGE NAVIGATION INDICATOR */
-        .stage-header-row, 
-        tbody tr.stage-header-row:nth-child(even), 
-        tbody tr.stage-header-row:nth-child(odd) {
+        .stage-header-row {
             position: sticky;
-            top: 45px; /* Sits cleanly directly beneath the master table headers */
+            top: 45px;
             z-index: 2;
-            background-color: #f1f3f5 !important;
+            background-color: #f1f3f5;
             font-weight: bold;
             box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-        }
-        .stage-header-row td {
             padding: 12px 14px;
             color: #343a40;
             border-bottom: 2px solid #dee2e6;
         }
+        .stage-header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+        .stage-header-left {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
         
-        .winner-row, tbody tr.winner-row:nth-child(even), tbody tr.winner-row:nth-child(odd) {
+        /* RESULT THEME MODIFIERS */
+        .winner-row {
             font-weight: bold;
             color: #b58900;
-            background-color: #fffdf5 !important;
+            background-color: #fffdf5;
         }
-        .winner-row td {
+        .winner-row-border {
             border-bottom: 1px solid #f9f1d1;
         }
-        .cutoff-row, tbody tr.cutoff-row:nth-child(even), tbody tr.cutoff-row:nth-child(odd) {
+        .cutoff-row {
             font-weight: bold;
             color: #d9534f;
-            background-color: #fdf6f6 !important;
+            background-color: #fdf6f6;
         }
-        .cutoff-row td {
+        .cutoff-row-border {
             border-bottom: 1px solid #f7e1e1;
         }
+
         .meta-info {
             font-size: 14px;
             color: #555;
@@ -232,14 +245,12 @@
             border: 1px solid #bee3f8;
         }
         .cutoff-badge {
-            float: right;
             font-size: 11px;
             background-color: #6c757d;
             color: white;
             padding: 2px 8px;
             border-radius: 12px;
             font-weight: normal;
-            margin-top: 2px;
         }
         .pace-subtext {
             display: block;
@@ -247,6 +258,104 @@
             color: #777;
             font-weight: normal;
             margin-top: 2px;
+        }
+
+        /* --- RESPONSIVE MOBILE SELECTORS --- */
+        @media screen and (max-width: 640px) {
+            body {
+                padding: 15px 10px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            div.search-panel {
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+            div.search-panel div.year-tabs {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+                gap: 8px;
+                width: 100%;
+            }
+            div.search-panel div.year-tabs button.year-tab {
+                width: 100%;
+                margin: 0;
+                padding: 8px 4px;
+                text-align: center;
+            }
+            div.search-panel div.search-grid {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+            div.search-panel div.action-bar {
+                justify-content: space-between;
+            }
+            div.search-panel div.action-bar button {
+                flex: 1;
+            }
+            div.results-block div.results-table-header {
+                display: none;
+            }
+            div.results-block div.results-row {
+                position: relative;
+                display: grid;
+                grid-template-columns: 1fr max-content;
+                column-gap: 12px;
+                row-gap: 2px;
+                padding: 10px 8px 10px 32px;
+            }
+            div.results-row div.cell-position {
+                position: absolute;
+                left: 8px;
+                top: 10px;
+                width: 20px;
+                font-weight: 700;
+                font-size: 1.05rem;
+                text-align: left;
+            }
+            div.results-row div.cell-name {
+                grid-column: 1;
+                grid-row: 1; /* Locks name to the first row line */
+                font-weight: 600;
+                font-size: 0.95rem;
+                text-align: left;
+            }
+            div.results-row div.cell-time {
+                grid-column: 2;
+                grid-row: 1; /* Locks time to the first row line alongside name */
+                font-weight: 700;
+                font-size: 1rem;
+                text-align: right;
+            }
+            div.results-row div.cell-club {
+                grid-column: 1;
+                grid-row: 2; /* Locks club to the second row line */
+                font-size: 0.85rem;
+                color: #4b5563;
+                text-align: left;
+            }
+            div.results-row div.cell-pace {
+                grid-column: 2;
+                font-size: 0.75rem;
+                color: #6b7280;
+                text-align: right;
+                line-height: 1.2;
+            }
+            div.results-block div.stage-header-row {
+                padding: 12px 8px;
+            }
+            div.stage-header-row div.stage-header-container {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 6px;
+            }
+            div.stage-header-container div.stage-header-left {
+                width: 100%;
+            }
+            div.stage-header-container span.stage-cutoff {
+                margin-top: 4px;
+            }
         }
     </style>
 </head>
@@ -366,17 +475,14 @@
 
             sortedYears.forEach(year => {
                 htmlOutput += `<div class="year-heading">${year} Results</div>`;
-                htmlOutput += `<table>
-                    <thead>
-                        <tr>
-                            <th style="width: 6%;">Pos</th>
-                            <th style="width: 34%;">Name</th>
-                            <th style="width: 36%;">Club</th>
-                            <th style="width: 12%;">Time</th>
-                            <th style="width: 12%;">Pace</th>
-                        </tr>
-                    </thead>
-                    <tbody>`;
+                htmlOutput += `<div class="results-block">
+                    <div class="results-table-header">
+                        <div>Pos</div>
+                        <div>Name</div>
+                        <div>Club</div>
+                        <div style="text-align: right;">Time</div>
+                        <div style="text-align: right;">Pace</div>
+                    </div>`;
 
                 const sortedStages = Object.keys(groups[year]).sort((a, b) => a - b);
                 sortedStages.forEach(stage => {
@@ -386,7 +492,7 @@
                     const miles = stageRows[0]?.miles || null;
                     const km = stageRows[0]?.km || null;
 
-                    const cutoffLabel = cutOffTime ? `<span class="cutoff-badge">Stage Cut Off: ${cutOffTime}</span>` : '';
+                    const cutoffLabel = cutOffTime ? `<span class="stage-cutoff cutoff-badge">Stage Cut Off: ${cutOffTime}</span>` : '';
                     
                     let distanceLabel = '';
                     if (miles && km) {
@@ -396,15 +502,17 @@
                     }
 
                     htmlOutput += `
-                        <tr class="stage-header-row">
-                            <td colspan="5">
-                                Stage ${stage} <span class="stage-title">${stageTitle}</span>
-                                ${distanceLabel}
+                        <div class="stage-header-row">
+                            <div class="stage-header-container">
+                                <div class="stage-header-left">
+                                    Stage ${stage} <span class="stage-title">${stageTitle}</span>
+                                    ${distanceLabel}
+                                </div>
                                 ${cutoffLabel}
-                            </td>
-                        </tr>`;
+                            </div>
+                        </div>`;
 
-                    stageRows.forEach(row => {
+                    stageRows.forEach((row, index) => {
                         const isWinner = row.position === 1;
                         const runSeconds = defTimeToSeconds(row.time);
                         const missedCutoff = cutOffTime && runSeconds > defTimeToSeconds(cutOffTime);
@@ -412,28 +520,28 @@
                         const milePace = formatPaceValue(runSeconds, miles);
                         const kmPace = formatPaceValue(runSeconds, km);
                         
-                        let rowClass = '';
+                        let rowModifierClass = index % 2 === 0 ? 'results-row-strip-even' : 'results-row-strip-odd';
                         if (missedCutoff) {
-                            rowClass = 'class="cutoff-row"';
+                            rowModifierClass += ' cutoff-row cutoff-row-border';
                         } else if (isWinner) {
-                            rowClass = 'class="winner-row"';
+                            rowModifierClass += ' winner-row winner-row-border';
                         }
                         
                         htmlOutput += `
-                            <tr ${rowClass}>
-                                <td>${row.position}</td>
-                                <td>${row.name}</td>
-                                <td>${row.club}</td>
-                                <td>${row.time}</td>
-                                <td>
+                            <div class="results-row ${rowModifierClass}">
+                                <div class="cell-position">${row.position}</div>
+                                <div class="cell-name">${row.name}</div>
+                                <div class="cell-club">${row.club}</div>
+                                <div class="cell-time">${row.time}</div>
+                                <div class="cell-pace">
                                     <strong>${milePace}</strong> <span style="font-size:11px;color:#555;">/mi</span>
                                     <span class="pace-subtext">${kmPace} /km</span>
-                                </td>
-                            </tr>`;
+                                </div>
+                            </div>`;
                     });
                 });
 
-                htmlOutput += `</tbody></table>`;
+                htmlOutput += `</div>`;
             });
 
             resultsContainer.innerHTML = htmlOutput;
