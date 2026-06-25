@@ -666,6 +666,30 @@
 
         searchBtn.addEventListener('click', performSearch);
         clearBtn.addEventListener('click', resetInterface);
+        // --- DEEP LINKING URL PARAMETER INTERCEPTOR ---
+        window.addEventListener('DOMContentLoaded', () => {
+            const params = new URLSearchParams(window.location.search);
+            const urlYear = params.get('year');
+            const urlStage = params.get('stage');
+
+            if (urlYear || urlStage) {
+                if (urlYear) {
+                    activeSelectedYear = urlYear;
+                    // Deactivate the "All Years" default tab visual state
+                    document.querySelectorAll('.year-tab').forEach(t => t.classList.remove('active'));
+                    // Find and activate the matching year tab button element
+                    const targetTab = document.querySelector(`.year-tab[data-year="${urlYear}"]`);
+                    if (targetTab) targetTab.classList.add('active');
+                }
+
+                if (urlStage) {
+                    stageSelect.value = urlStage;
+                }
+
+                // Fire the search engine immediately using the pre-populated values
+                performSearch();
+            }
+        });
     </script>
 </body>
 </html>
