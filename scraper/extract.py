@@ -49,6 +49,9 @@ def parse_pdf_robust(pdf_path, year):
     current_cut_off = None
     stage_positions = {}
     
+    # Dynamic club name lookup per team number to auto-heal leaks
+    team_name_master = {}
+    
     print(f"Processing {pdf_path}...")
     time_pattern = re.compile(r'(\d{1,2}:\d{2}:\d{2})')
 
@@ -155,11 +158,8 @@ def parse_pdf_robust(pdf_path, year):
                 club_zone_text = " ".join(club_zone_tokens).strip()
                 club_numbers = re.findall(r'\d+', club_zone_text)
                 
-                # Clean up numbers and punctuation strings
                 clean_club_name = re.sub(r'\d+', '', club_zone_text)
                 clean_club_name = re.sub(r'[\(\)\'\"]', '', clean_club_name)
-                
-                # FIXED: Strip any residue 'TOTAL' or 'TIME' keywords leaked from cumulative summary blocks
                 clean_club_name = re.sub(r'\b(?:TOTAL|TIME)\b', '', clean_club_name, flags=re.IGNORECASE)
                 clean_club_name = re.sub(r'\s+', ' ', clean_club_name).strip()
 
@@ -167,8 +167,31 @@ def parse_pdf_robust(pdf_path, year):
                     clean_club_name = "Individual"
 
                 if club_numbers:
-                    target_team_num = club_numbers[0]
-                    final_club_str = f"{clean_club_name} ({int(target_team_num):02d})"
+                    target_team_num = int(club_numbers[0])
+                    
+                    # FUZZY SELF-HEALING ENGINE:
+                    # If this team number has a stored master name, check if the current name leaked extra words.
+                    if target_team_num in team_name_master:
+                        master_name = team_name_master[target_team_num]
+                        # If the master name matches the start of our string, use the clean version to drop leaks
+                        if clean_club_name.lower().startswith(master_name.lower()) or master_name.lower().startswith(clean_club_name.lower()):
+                            clean_club_name = master_name
+                    else:
+                        # Split by spaces and look for clear visual leak signals like isolated 'A' or 'B' team flags
+                        tokens = clean_club_name.split()
+                        if len(tokens) > 1:
+                            # If a leak happened on the very first encounter, truncate trailing words
+                            if tokens[1] in ['A', 'B', "'A'", "'B'"] or len(tokens[0]) > 3:
+                                # Keep the base club and its team marker tag
+                                if tokens[1] in ['A', 'B', "'A'", "'B'"]:
+                                    clean_club_name = f"{tokens[0]} {tokens[1]}"
+                                else:
+                                    clean_club_name = tokens[0]
+                        
+                        # Store the verified base string into our dynamic lookups
+                        team_name_master[target_team_num] = clean_club_name
+
+                    final_club_str = f"{clean_club_name} ({target_team_num:02d})"
                 else:
                     final_club_str = clean_club_name
 
