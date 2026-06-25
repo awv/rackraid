@@ -463,18 +463,22 @@
                 let cleanedClub = row.club || '';
                 let cleanedName = row.name || '';
 
+                // 1. Extract base club label by stripping trailing team numbers in parentheses
                 let clubBase = cleanedClub.replace(/\s*\(\d+\)\s*$/, '').trim();
-                let teamNumMatch = cleanedClub.match(/\s*\(\d+\)\s*$/);
-                let teamSuffix = teamNumMatch ? teamNumMatch[0] : '';
 
+                // 2. Resolve "Parc" down to "Parc Bryn Bach"
                 if (clubBase.toLowerCase() === 'parc') {
-                    cleanedClub = `Parc Bryn Bach${teamSuffix}`;
+                    cleanedClub = 'Parc Bryn Bach';
+                } else {
+                    cleanedClub = clubBase; // Set the club name to the clean base without numbers
                 }
 
-                if (clubBase.toLowerCase() === 'individual') {
+                // 3. Clear out unassigned "Individual" runners
+                if (cleanedClub.toLowerCase() === 'individual' || cleanedClub === '-') {
                     cleanedClub = '-';
                 }
 
+                // 4. Strip trailing sex labels out of names
                 cleanedName = cleanedName.replace(/\s*\([MF]\d*\)\s*$/i, '').trim();
 
                 return { ...row, club: cleanedClub, name: cleanedName };
