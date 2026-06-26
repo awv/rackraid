@@ -218,6 +218,31 @@
             }
             .profile-pic { margin: 0 auto !important; }
             .profile-name-row { justify-content: center !important; gap: 10px !important; }
+
+            /* Center the name heading and bio headers on mobile viewports */
+            .hero-bio-panel h1,
+            .hero-bio-panel h2,
+            .hero-bio-panel div { 
+                text-align: center !important; 
+            }
+
+            /* If the club badge is inside a flex wrapper, force it to center alignment */
+            .club-badge-container,
+            .profile-info-column {
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: center !important;
+                text-align: center !important;
+                width: 100% !important;
+            }
+
+            /* Ensure the club badge element itself doesn't stretch full width */
+            .club-tag, 
+            .badge-win,
+            .hero-bio-panel .club-badge {
+                margin: 0 auto !important;
+                display: inline-block !important;
+            }
             
             .history-header { display: none !important; }
             
