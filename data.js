@@ -7,8 +7,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 1,
-    "name": "Emily Davies (F)",
-    "club": "Neath (18)",
+    "name": "Emily Davies",
+    "club": "Neath Harriers",
     "time": "00:29:16"
   },
   {
@@ -19,8 +19,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 2,
-    "name": "Clare Patterson (F)",
-    "club": "Parc (20)",
+    "name": "Clare Patterson",
+    "club": "Parc Bryn Bach RC",
     "time": "00:32:09"
   },
   {
@@ -31,8 +31,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 3,
-    "name": "Niki Morgan (F)",
-    "club": "Chepstow A (10)",
+    "name": "Niki Morgan",
+    "club": "Chepstow Harriers",
     "time": "00:33:21"
   },
   {
@@ -43,8 +43,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 4,
-    "name": "Lauren Williams (F)",
-    "club": "Caerleon A (06)",
+    "name": "Lauren Williams",
+    "club": "Caerleon RC",
     "time": "00:34:39"
   },
   {
@@ -55,8 +55,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 5,
-    "name": "Kate Phillips (F)",
-    "club": "Cornelly (11)",
+    "name": "Kate Phillips",
+    "club": "Cornelly Striders",
     "time": "00:35:03"
   },
   {
@@ -67,8 +67,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 6,
-    "name": "Charlotte Holland Wright (F)",
-    "club": "Griffithstown (12)",
+    "name": "Charlotte Holland Wright",
+    "club": "Griffithstown Harriers",
     "time": "00:35:34"
   },
   {
@@ -79,8 +79,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 7,
-    "name": "Shannon Jones (F)",
-    "club": "Les Croupiers (14)",
+    "name": "Shannon Jones",
+    "club": "Les Croupiers RC",
     "time": "00:35:54"
   },
   {
@@ -91,8 +91,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 8,
-    "name": "Carys Thomas (F)",
-    "club": "Aberdare (02)",
+    "name": "Carys Thomas",
+    "club": "Aberdare",
     "time": "00:35:56"
   },
   {
@@ -103,8 +103,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 9,
-    "name": "Rachel Bovington (F)",
-    "club": "San Domenico (26)",
+    "name": "Rachel Bovington",
+    "club": "San Domenico RC",
     "time": "00:36:01"
   },
   {
@@ -115,8 +115,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 10,
-    "name": "Sarah Baker (F)",
-    "club": "Monmouth (16)",
+    "name": "Sarah Baker",
+    "club": "Spirit of Monmouth",
     "time": "00:36:24"
   },
   {
@@ -127,8 +127,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 11,
-    "name": "Isabelle Robinson (F)",
-    "club": "Builth (05)",
+    "name": "Isabelle Robinson",
+    "club": "Builth & District RC",
     "time": "00:36:54"
   },
   {
@@ -139,8 +139,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 12,
-    "name": "Michelle Gooch (F)",
-    "club": "Pont-y-pwl A (23)",
+    "name": "Michelle Gooch",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:37:32"
   },
   {
@@ -151,8 +151,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 13,
-    "name": "Sam Clarkstone (F)",
-    "club": "Pontypridd (22)",
+    "name": "Sam Clarkstone",
+    "club": "Pontypridd Roadents",
     "time": "00:37:33"
   },
   {
@@ -163,8 +163,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 14,
-    "name": "Trina Sami (F)",
-    "club": "Monross (17)",
+    "name": "Trina Sami",
+    "club": "Monross Trailblazers",
     "time": "00:38:12"
   },
   {
@@ -175,8 +175,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 15,
-    "name": "Amy Edwards (F)",
-    "club": "Rhondda (25)",
+    "name": "Amy Edwards",
+    "club": "Rhondda Valley Runners",
     "time": "00:38:24"
   },
   {
@@ -187,8 +187,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 16,
-    "name": "Michelle Wachter (F)",
-    "club": "Caldicot (08)",
+    "name": "Michelle Wachter",
+    "club": "Caldicot RC",
     "time": "00:38:29"
   },
   {
@@ -199,8 +199,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 17,
-    "name": "Hannah Matthewson (F)",
-    "club": "Porthcawl (24)",
+    "name": "Hannah Matthewson",
+    "club": "Porthcawl Runners",
     "time": "00:38:46"
   },
   {
@@ -211,8 +211,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 18,
-    "name": "Alysha Bunston (F)",
-    "club": "Islwyn (13)",
+    "name": "Alysha Bunston",
+    "club": "Islwyn RC",
     "time": "00:39:31"
   },
   {
@@ -223,8 +223,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 19,
-    "name": "Kim Carwardine (F)",
-    "club": "Chepstow B (28)",
+    "name": "Kim Carwardine",
+    "club": "Chepstow Harriers",
     "time": "00:40:26"
   },
   {
@@ -235,8 +235,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 20,
-    "name": "Chloe Norton (F)",
-    "club": "Caerleon B (27)",
+    "name": "Chloe Norton",
+    "club": "Caerleon RC",
     "time": "00:40:59"
   },
   {
@@ -247,8 +247,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 21,
-    "name": "Jane Lewis (F)",
-    "club": "Lliswerry (15)",
+    "name": "Jane Lewis",
+    "club": "Lliswerry Runners",
     "time": "00:41:18"
   },
   {
@@ -259,8 +259,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 22,
-    "name": "Nicola Brunnock (F)",
-    "club": "Pont-y-pwl B (29)",
+    "name": "Nicola Brunnock",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:41:33"
   },
   {
@@ -271,8 +271,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 23,
-    "name": "Rebecca White (F)",
-    "club": "Pontyclun (21)",
+    "name": "Rebecca White",
+    "club": "Pontyclun Road Runners",
     "time": "00:42:03"
   },
   {
@@ -283,8 +283,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 24,
-    "name": "Charlotte Parry (F)",
-    "club": "Caerphilly (07)",
+    "name": "Charlotte Parry",
+    "club": "Caerphilly Runners",
     "time": "00:42:23"
   },
   {
@@ -295,8 +295,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 25,
-    "name": "Lucy-Ann Jones (F)",
-    "club": "Albany (03)",
+    "name": "Lucy-Ann Jones",
+    "club": "Albany Road Club",
     "time": "00:43:13"
   },
   {
@@ -307,8 +307,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 26,
-    "name": "Georgia Laflain (F)",
-    "club": "CDF (09)",
+    "name": "Georgia Laflain",
+    "club": "CDF Runners",
     "time": "00:44:52"
   },
   {
@@ -319,8 +319,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 27,
-    "name": "Tia Barter (F)",
-    "club": "Fairwater B (30)",
+    "name": "Tia Barter",
+    "club": "Fairwater Runners",
     "time": "00:45:13"
   },
   {
@@ -331,8 +331,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 28,
-    "name": "Cerris Dawe (F)",
-    "club": "Fairwater A (01)",
+    "name": "Cerris Dawe",
+    "club": "Fairwater Runners",
     "time": "00:45:36"
   },
   {
@@ -343,8 +343,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 29,
-    "name": "Leanne Parsons (F)",
-    "club": "Ogmore (19)",
+    "name": "Leanne Parsons",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:45:37"
   },
   {
@@ -355,8 +355,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 1,
-    "name": "Daniel Bodman (M)",
-    "club": "Parc (20)",
+    "name": "Daniel Bodman",
+    "club": "Parc Bryn Bach RC",
     "time": "00:40:58"
   },
   {
@@ -367,8 +367,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 2,
-    "name": "James Bull (M)",
-    "club": "Les Croupiers (14)",
+    "name": "James Bull",
+    "club": "Les Croupiers RC",
     "time": "00:44:44"
   },
   {
@@ -379,8 +379,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 3,
-    "name": "Ross Owen (M)",
-    "club": "Rhondda (25)",
+    "name": "Ross Owen",
+    "club": "Rhondda Valley Runners",
     "time": "00:46:09"
   },
   {
@@ -391,8 +391,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 4,
-    "name": "Gavin Jones (M)",
-    "club": "Monross (17)",
+    "name": "Gavin Jones",
+    "club": "Monross Trailblazers",
     "time": "00:47:00"
   },
   {
@@ -403,8 +403,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 5,
-    "name": "Georgie Dobbs (F)",
-    "club": "Chepstow A (10)",
+    "name": "Georgie Dobbs",
+    "club": "Chepstow Harriers",
     "time": "00:47:49"
   },
   {
@@ -415,8 +415,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 6,
-    "name": "Jim Murray (M)",
-    "club": "Pontypridd (22)",
+    "name": "Jim Murray",
+    "club": "Pontypridd Roadents",
     "time": "00:48:11"
   },
   {
@@ -427,8 +427,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 7,
-    "name": "Rhydian Darcy (M)",
-    "club": "CDF (09)",
+    "name": "Rhydian Darcy",
+    "club": "CDF Runners",
     "time": "00:48:52"
   },
   {
@@ -439,8 +439,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 8,
-    "name": "Chloe Leek (F)",
-    "club": "Pont-y-pwl A (23)",
+    "name": "Chloe Leek",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:49:04"
   },
   {
@@ -451,8 +451,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 9,
-    "name": "Shane Roberts (M)",
-    "club": "Griffithstown (12)",
+    "name": "Shane Roberts",
+    "club": "Griffithstown Harriers",
     "time": "00:49:25"
   },
   {
@@ -463,8 +463,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 10,
-    "name": "Matthew Visser (M)",
-    "club": "Monmouth (16)",
+    "name": "Matthew Visser",
+    "club": "Spirit of Monmouth",
     "time": "00:49:29"
   },
   {
@@ -475,8 +475,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 11,
-    "name": "Sarah Howard (F)",
-    "club": "Neath (18)",
+    "name": "Sarah Howard",
+    "club": "Neath Harriers",
     "time": "00:49:30"
   },
   {
@@ -487,8 +487,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 12,
-    "name": "Andrew Phillips (M)",
-    "club": "Cornelly (11)",
+    "name": "Andrew Phillips",
+    "club": "Cornelly Striders",
     "time": "00:50:10"
   },
   {
@@ -499,8 +499,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 13,
-    "name": "Giuseppe Santese (M)",
-    "club": "Brackla (04)",
+    "name": "Giuseppe Santese",
+    "club": "Brackla Harriers",
     "time": "00:51:01"
   },
   {
@@ -511,8 +511,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 14,
-    "name": "Jade Wakely (F)",
-    "club": "Caerleon A (06)",
+    "name": "Jade Wakely",
+    "club": "Caerleon RC",
     "time": "00:51:17"
   },
   {
@@ -523,8 +523,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 15,
-    "name": "Susannah Bulpin (F)",
-    "club": "San Domenico (26)",
+    "name": "Susannah Bulpin",
+    "club": "San Domenico RC",
     "time": "00:51:43"
   },
   {
@@ -535,8 +535,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 16,
-    "name": "Keith James (M)",
-    "club": "Lliswerry (15)",
+    "name": "Keith James",
+    "club": "Lliswerry Runners",
     "time": "00:51:50"
   },
   {
@@ -547,8 +547,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 17,
-    "name": "John Hickman (M)",
-    "club": "Caerphilly (07)",
+    "name": "John Hickman",
+    "club": "Caerphilly Runners",
     "time": "00:52:22"
   },
   {
@@ -559,8 +559,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 18,
-    "name": "Kate Mills (F)",
-    "club": "Builth (05)",
+    "name": "Kate Mills",
+    "club": "Builth & District RC",
     "time": "00:52:46"
   },
   {
@@ -571,8 +571,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 19,
-    "name": "Tom Harding (M)",
-    "club": "Pontyclun (21)",
+    "name": "Tom Harding",
+    "club": "Pontyclun Road Runners",
     "time": "00:52:59"
   },
   {
@@ -583,8 +583,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 20,
-    "name": "Polly Lord (F)",
-    "club": "Caldicot (08)",
+    "name": "Polly Lord",
+    "club": "Caldicot RC",
     "time": "00:54:04"
   },
   {
@@ -595,8 +595,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 21,
-    "name": "Freya Allen (F)",
-    "club": "Porthcawl (24)",
+    "name": "Freya Allen",
+    "club": "Porthcawl Runners",
     "time": "00:54:38"
   },
   {
@@ -607,8 +607,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 22,
-    "name": "Llyr Roberts (M)",
-    "club": "Albany (03)",
+    "name": "Llyr Roberts",
+    "club": "Albany Road Club",
     "time": "00:54:54"
   },
   {
@@ -619,8 +619,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 23,
-    "name": "Tracy Baker (F)",
-    "club": "Pont-y-pwl B (29)",
+    "name": "Tracy Baker",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:56:52"
   },
   {
@@ -631,8 +631,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 24,
-    "name": "Sarah Morris (F)",
-    "club": "Aberdare (02)",
+    "name": "Sarah Morris",
+    "club": "Aberdare",
     "time": "00:57:32"
   },
   {
@@ -643,8 +643,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 25,
-    "name": "Leonie Roberts (F)",
-    "club": "Fairwater A (01)",
+    "name": "Leonie Roberts",
+    "club": "Fairwater Runners",
     "time": "00:58:51"
   },
   {
@@ -655,8 +655,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 26,
-    "name": "Julia Bajjada (F)",
-    "club": "Chepstow B (28)",
+    "name": "Julia Bajjada",
+    "club": "Chepstow Harriers",
     "time": "00:59:59"
   },
   {
@@ -667,8 +667,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 27,
-    "name": "Julia Esmond (F)",
-    "club": "Ogmore (19)",
+    "name": "Julia Esmond",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:02:00"
   },
   {
@@ -679,8 +679,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 28,
-    "name": "Michelle Clabon (F)",
-    "club": "Caerleon B (27)",
+    "name": "Michelle Clabon",
+    "club": "Caerleon RC",
     "time": "01:02:01"
   },
   {
@@ -691,8 +691,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 29,
-    "name": "Rebecca Davies (F)",
-    "club": "Islwyn (13)",
+    "name": "Rebecca Davies",
+    "club": "Islwyn RC",
     "time": "01:02:02"
   },
   {
@@ -703,8 +703,8 @@ const relayResults = [
     "miles": 6.93,
     "km": 11.2,
     "position": 30,
-    "name": "Charlie Matthews (F)",
-    "club": "Fairwater B (30)",
+    "name": "Charlie Matthews",
+    "club": "Fairwater Runners",
     "time": "01:12:00"
   },
   {
@@ -715,8 +715,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 1,
-    "name": "Tom McCarthy (M)",
-    "club": "Pontypridd (22)",
+    "name": "Tom McCarthy",
+    "club": "Pontypridd Roadents",
     "time": "00:41:44"
   },
   {
@@ -727,8 +727,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 2,
-    "name": "Martyn Rowling (M)",
-    "club": "Aberdare (02)",
+    "name": "Martyn Rowling",
+    "club": "Aberdare",
     "time": "00:42:41"
   },
   {
@@ -739,8 +739,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 3,
-    "name": "Joe Walbyoff (M)",
-    "club": "Pont-y-pwl A (23)",
+    "name": "Joe Walbyoff",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:46:35"
   },
   {
@@ -751,8 +751,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 4,
-    "name": "Joe Matthews (M)",
-    "club": "Chepstow A (10)",
+    "name": "Joe Matthews",
+    "club": "Chepstow Harriers",
     "time": "00:47:23"
   },
   {
@@ -763,8 +763,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 5,
-    "name": "Elizabeth Dimond (F)",
-    "club": "Lliswerry (15)",
+    "name": "Elizabeth Dimond",
+    "club": "Lliswerry Runners",
     "time": "00:47:40"
   },
   {
@@ -775,8 +775,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 6,
-    "name": "Steve Drewitt (M)",
-    "club": "Fairwater A (01)",
+    "name": "Steve Drewitt",
+    "club": "Fairwater Runners",
     "time": "00:47:46"
   },
   {
@@ -787,8 +787,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 7,
-    "name": "Tony Marshall (M)",
-    "club": "Chepstow B (28)",
+    "name": "Tony Marshall",
+    "club": "Chepstow Harriers",
     "time": "00:48:19"
   },
   {
@@ -799,8 +799,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 8,
-    "name": "James Jones (M)",
-    "club": "Builth (05)",
+    "name": "James Jones",
+    "club": "Builth & District RC",
     "time": "00:48:24"
   },
   {
@@ -811,8 +811,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 9,
-    "name": "Lily Williams (F)",
-    "club": "Neath (18)",
+    "name": "Lily Williams",
+    "club": "Neath Harriers",
     "time": "00:48:43"
   },
   {
@@ -823,8 +823,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 10,
-    "name": "Lloyd Dowden (M)",
-    "club": "Caerleon A (06)",
+    "name": "Lloyd Dowden",
+    "club": "Caerleon RC",
     "time": "00:49:11"
   },
   {
@@ -835,8 +835,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 11,
-    "name": "James Davies (M)",
-    "club": "Cornelly (11)",
+    "name": "James Davies",
+    "club": "Cornelly Striders",
     "time": "00:50:18"
   },
   {
@@ -847,8 +847,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 12,
-    "name": "Beth Jones (F)",
-    "club": "Parc (20)",
+    "name": "Beth Jones",
+    "club": "Parc Bryn Bach RC",
     "time": "00:50:53"
   },
   {
@@ -859,8 +859,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 13,
-    "name": "Paul Chappell (M)",
-    "club": "Porthcawl (24)",
+    "name": "Paul Chappell",
+    "club": "Porthcawl Runners",
     "time": "00:51:12"
   },
   {
@@ -871,8 +871,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 14,
-    "name": "Elizabeth Joslin (F)",
-    "club": "Caldicot (08)",
+    "name": "Elizabeth Joslin",
+    "club": "Caldicot RC",
     "time": "00:52:32"
   },
   {
@@ -883,8 +883,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 15,
-    "name": "Tom Cumiskey (M)",
-    "club": "Albany (03)",
+    "name": "Tom Cumiskey",
+    "club": "Albany Road Club",
     "time": "00:53:02"
   },
   {
@@ -895,8 +895,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 16,
-    "name": "Alice Gray (F)",
-    "club": "Monross (17)",
+    "name": "Alice Gray",
+    "club": "Monross Trailblazers",
     "time": "00:54:33"
   },
   {
@@ -907,8 +907,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 17,
-    "name": "Kayleigh Evans (F)",
-    "club": "Pontyclun (21)",
+    "name": "Kayleigh Evans",
+    "club": "Pontyclun Road Runners",
     "time": "00:54:37"
   },
   {
@@ -919,8 +919,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 18,
-    "name": "Neil Thorpe (M)",
-    "club": "Islwyn (13)",
+    "name": "Neil Thorpe",
+    "club": "Islwyn RC",
     "time": "00:54:52"
   },
   {
@@ -931,8 +931,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 19,
-    "name": "Matt Mulcahy (M)",
-    "club": "Caerleon B (27)",
+    "name": "Matt Mulcahy",
+    "club": "Caerleon RC",
     "time": "00:55:27"
   },
   {
@@ -943,8 +943,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 20,
-    "name": "Elizabeth Neville (F)",
-    "club": "Les Croupiers (14)",
+    "name": "Elizabeth Neville",
+    "club": "Les Croupiers RC",
     "time": "00:56:19"
   },
   {
@@ -955,8 +955,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 21,
-    "name": "Rowena White (F)",
-    "club": "San Domenico (26)",
+    "name": "Rowena White",
+    "club": "San Domenico RC",
     "time": "00:57:02"
   },
   {
@@ -967,8 +967,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 22,
-    "name": "Laura Lewis-Copeman (F)",
-    "club": "Griffithstown (12)",
+    "name": "Laura Lewis-Copeman",
+    "club": "Griffithstown Harriers",
     "time": "00:58:27"
   },
   {
@@ -979,8 +979,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 23,
-    "name": "Joanne Ryan (F)",
-    "club": "Rhondda (25)",
+    "name": "Joanne Ryan",
+    "club": "Rhondda Valley Runners",
     "time": "00:58:29"
   },
   {
@@ -991,8 +991,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 24,
-    "name": "Charlotte Johns (F)",
-    "club": "Brackla (04)",
+    "name": "Charlotte Johns",
+    "club": "Brackla Harriers",
     "time": "00:59:55"
   },
   {
@@ -1003,8 +1003,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 25,
-    "name": "Marina Wright (F)",
-    "club": "Monmouth (16)",
+    "name": "Marina Wright",
+    "club": "Spirit of Monmouth",
     "time": "01:01:24"
   },
   {
@@ -1015,8 +1015,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 26,
-    "name": "Mangawa Itumu (M)",
-    "club": "Pont-y-pwl B (29)",
+    "name": "Mangawa Itumu",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:03:19"
   },
   {
@@ -1027,8 +1027,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 27,
-    "name": "Rachel Matthews (F)",
-    "club": "Caerphilly (07)",
+    "name": "Rachel Matthews",
+    "club": "Caerphilly Runners",
     "time": "01:03:30"
   },
   {
@@ -1039,8 +1039,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 28,
-    "name": "Rhys Williams (M)",
-    "club": "Fairwater B (30)",
+    "name": "Rhys Williams",
+    "club": "Fairwater Runners",
     "time": "01:05:33"
   },
   {
@@ -1051,8 +1051,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 29,
-    "name": "Rhodri Davies (M)",
-    "club": "Ogmore (19)",
+    "name": "Rhodri Davies",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:05:34"
   },
   {
@@ -1063,8 +1063,8 @@ const relayResults = [
     "miles": 7.51,
     "km": 12.1,
     "position": 30,
-    "name": "Florence Waddington (F)",
-    "club": "CDF (09)",
+    "name": "Florence Waddington",
+    "club": "CDF Runners",
     "time": "01:18:00"
   },
   {
@@ -1075,8 +1075,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 1,
-    "name": "Tom Callard (M)",
-    "club": "Neath (18)",
+    "name": "Tom Callard",
+    "club": "Neath Harriers",
     "time": "00:40:59"
   },
   {
@@ -1087,8 +1087,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 2,
-    "name": "Aaron Jeffs (M)",
-    "club": "Aberdare (02)",
+    "name": "Aaron Jeffs",
+    "club": "Aberdare",
     "time": "00:42:36"
   },
   {
@@ -1099,8 +1099,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 3,
-    "name": "Ken Caulkett (M)",
-    "club": "Albany (03)",
+    "name": "Ken Caulkett",
+    "club": "Albany Road Club",
     "time": "00:42:53"
   },
   {
@@ -1111,8 +1111,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 4,
-    "name": "Ben Tyrrell (M)",
-    "club": "Caldicot (08)",
+    "name": "Ben Tyrrell",
+    "club": "Caldicot RC",
     "time": "00:45:51"
   },
   {
@@ -1123,8 +1123,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 5,
-    "name": "William Edwards (M)",
-    "club": "Porthcawl (24)",
+    "name": "William Edwards",
+    "club": "Porthcawl Runners",
     "time": "00:46:16"
   },
   {
@@ -1135,8 +1135,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 6,
-    "name": "Laura Cameron (F)",
-    "club": "Lliswerry (15)",
+    "name": "Laura Cameron",
+    "club": "Lliswerry Runners",
     "time": "00:46:21"
   },
   {
@@ -1147,8 +1147,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 7,
-    "name": "Kani Hinshelwood (F)",
-    "club": "Parc (20)",
+    "name": "Kani Hinshelwood",
+    "club": "Parc Bryn Bach RC",
     "time": "00:46:23"
   },
   {
@@ -1159,8 +1159,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 8,
-    "name": "Chris Medcalf (M)",
-    "club": "San Domenico (26)",
+    "name": "Chris Medcalf",
+    "club": "San Domenico RC",
     "time": "00:46:27"
   },
   {
@@ -1171,8 +1171,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 9,
-    "name": "Owen Rivers (M)",
-    "club": "Les Croupiers (14)",
+    "name": "Owen Rivers",
+    "club": "Les Croupiers RC",
     "time": "00:46:34"
   },
   {
@@ -1183,8 +1183,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 10,
-    "name": "Egan Thomas-Williams (M)",
-    "club": "Griffithstown (12)",
+    "name": "Egan Thomas-Williams",
+    "club": "Griffithstown Harriers",
     "time": "00:46:53"
   },
   {
@@ -1195,8 +1195,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 11,
-    "name": "Katie Adams (F)",
-    "club": "Monmouth (16)",
+    "name": "Katie Adams",
+    "club": "Spirit of Monmouth",
     "time": "00:47:12"
   },
   {
@@ -1207,8 +1207,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 12,
-    "name": "Matt Turner (M)",
-    "club": "Caerleon A (06)",
+    "name": "Matt Turner",
+    "club": "Caerleon RC",
     "time": "00:47:57"
   },
   {
@@ -1219,8 +1219,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 13,
-    "name": "Kath Matthews (F)",
-    "club": "Chepstow A (10)",
+    "name": "Kath Matthews",
+    "club": "Chepstow Harriers",
     "time": "00:48:32"
   },
   {
@@ -1231,8 +1231,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 14,
-    "name": "Chris Ford (M)",
-    "club": "Caerleon B (27)",
+    "name": "Chris Ford",
+    "club": "Caerleon RC",
     "time": "00:48:50"
   },
   {
@@ -1243,8 +1243,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 15,
-    "name": "Emma Edwards (F)",
-    "club": "Pontypridd (22)",
+    "name": "Emma Edwards",
+    "club": "Pontypridd Roadents",
     "time": "00:49:20"
   },
   {
@@ -1255,8 +1255,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 16,
-    "name": "Sam Jones (M)",
-    "club": "CDF (09)",
+    "name": "Sam Jones",
+    "club": "CDF Runners",
     "time": "00:49:25"
   },
   {
@@ -1267,8 +1267,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 17,
-    "name": "Faye Johnson (F)",
-    "club": "Monross (17)",
+    "name": "Faye Johnson",
+    "club": "Monross Trailblazers",
     "time": "00:51:02"
   },
   {
@@ -1279,8 +1279,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 18,
-    "name": "Rachael Baralos (F)",
-    "club": "Caerphilly (07)",
+    "name": "Rachael Baralos",
+    "club": "Caerphilly Runners",
     "time": "00:51:14"
   },
   {
@@ -1291,8 +1291,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 19,
-    "name": "Natalie Burchell (F)",
-    "club": "Pont-y-pwl A (23)",
+    "name": "Natalie Burchell",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:51:39"
   },
   {
@@ -1303,8 +1303,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 20,
-    "name": "Willow Hughes (F)",
-    "club": "Ogmore (19)",
+    "name": "Willow Hughes",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:54:10"
   },
   {
@@ -1315,8 +1315,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 21,
-    "name": "Tracey Bond (F)",
-    "club": "Cornelly (11)",
+    "name": "Tracey Bond",
+    "club": "Cornelly Striders",
     "time": "00:54:44"
   },
   {
@@ -1327,8 +1327,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 22,
-    "name": "Jan Morris (F)",
-    "club": "Chepstow B (28)",
+    "name": "Jan Morris",
+    "club": "Chepstow Harriers",
     "time": "00:54:50"
   },
   {
@@ -1339,8 +1339,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 23,
-    "name": "Natalie Davies (F)",
-    "club": "Rhondda (25)",
+    "name": "Natalie Davies",
+    "club": "Rhondda Valley Runners",
     "time": "00:55:53"
   },
   {
@@ -1351,8 +1351,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 24,
-    "name": "Maria Siliciano (F)",
-    "club": "Pontyclun (21)",
+    "name": "Maria Siliciano",
+    "club": "Pontyclun Road Runners",
     "time": "00:55:54"
   },
   {
@@ -1363,8 +1363,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 25,
-    "name": "Maya Lawrie-Jessop (F)",
-    "club": "Builth (05)",
+    "name": "Maya Lawrie-Jessop",
+    "club": "Builth & District RC",
     "time": "00:56:15"
   },
   {
@@ -1375,8 +1375,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 26,
-    "name": "Melissa Morgan (F)",
-    "club": "Islwyn (13)",
+    "name": "Melissa Morgan",
+    "club": "Islwyn RC",
     "time": "00:57:19"
   },
   {
@@ -1387,8 +1387,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 27,
-    "name": "Kirsty Rhodes (F)",
-    "club": "Pont-y-pwl B (29)",
+    "name": "Kirsty Rhodes",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:59:00"
   },
   {
@@ -1399,8 +1399,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 28,
-    "name": "Tammy Thomas (F)",
-    "club": "Brackla (04)",
+    "name": "Tammy Thomas",
+    "club": "Brackla Harriers",
     "time": "00:59:03"
   },
   {
@@ -1411,8 +1411,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 29,
-    "name": "Liz Walsh (F)",
-    "club": "Fairwater A (01)",
+    "name": "Liz Walsh",
+    "club": "Fairwater Runners",
     "time": "00:59:29"
   },
   {
@@ -1423,8 +1423,8 @@ const relayResults = [
     "miles": 6.7,
     "km": 10.8,
     "position": 30,
-    "name": "Sheree Hampton (F)",
-    "club": "Fairwater B (30)",
+    "name": "Sheree Hampton",
+    "club": "Fairwater Runners",
     "time": "01:01:00"
   },
   {
@@ -1435,8 +1435,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 1,
-    "name": "Dominic Davies (M)",
-    "club": "Parc (20)",
+    "name": "Dominic Davies",
+    "club": "Parc Bryn Bach RC",
     "time": "00:43:38"
   },
   {
@@ -1447,8 +1447,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 2,
-    "name": "Scott Williams (M)",
-    "club": "Neath (18)",
+    "name": "Scott Williams",
+    "club": "Neath Harriers",
     "time": "00:44:00"
   },
   {
@@ -1459,8 +1459,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 3,
-    "name": "James Blore (M)",
-    "club": "Chepstow A (10)",
+    "name": "James Blore",
+    "club": "Chepstow Harriers",
     "time": "00:46:44"
   },
   {
@@ -1471,8 +1471,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 4,
-    "name": "Aaron Rowling (M)",
-    "club": "Pontypridd (22)",
+    "name": "Aaron Rowling",
+    "club": "Pontypridd Roadents",
     "time": "00:47:37"
   },
   {
@@ -1483,8 +1483,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 5,
-    "name": "Toby Culling (M)",
-    "club": "San Domenico (26)",
+    "name": "Toby Culling",
+    "club": "San Domenico RC",
     "time": "00:48:03"
   },
   {
@@ -1495,8 +1495,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 6,
-    "name": "Iestyn Rhodes (M)",
-    "club": "Pont-y-pwl A (23)",
+    "name": "Iestyn Rhodes",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:48:41"
   },
   {
@@ -1507,8 +1507,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 7,
-    "name": "Kyle Harvey (M)",
-    "club": "Fairwater A (01)",
+    "name": "Kyle Harvey",
+    "club": "Fairwater Runners",
     "time": "00:49:26"
   },
   {
@@ -1519,8 +1519,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 8,
-    "name": "Arwel Evans (M)",
-    "club": "Les Croupiers (14)",
+    "name": "Arwel Evans",
+    "club": "Les Croupiers RC",
     "time": "00:49:45"
   },
   {
@@ -1531,8 +1531,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 9,
-    "name": "Richard Cronin (M)",
-    "club": "Monross (17)",
+    "name": "Richard Cronin",
+    "club": "Monross Trailblazers",
     "time": "00:49:54"
   },
   {
@@ -1543,8 +1543,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 10,
-    "name": "Tom Newman (M)",
-    "club": "Caerleon A (06)",
+    "name": "Tom Newman",
+    "club": "Caerleon RC",
     "time": "00:50:09"
   },
   {
@@ -1555,8 +1555,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 11,
-    "name": "Ross Howells (M)",
-    "club": "Chepstow B (28)",
+    "name": "Ross Howells",
+    "club": "Chepstow Harriers",
     "time": "00:51:32"
   },
   {
@@ -1567,8 +1567,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 12,
-    "name": "Richard Matthews (M)",
-    "club": "Aberdare (02)",
+    "name": "Richard Matthews",
+    "club": "Aberdare",
     "time": "00:52:00"
   },
   {
@@ -1579,8 +1579,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 13,
-    "name": "Gareth Merion (M)",
-    "club": "Cornelly (11)",
+    "name": "Gareth Merion",
+    "club": "Cornelly Striders",
     "time": "00:53:28"
   },
   {
@@ -1591,8 +1591,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 14,
-    "name": "John Seaward (M)",
-    "club": "Caerphilly (07)",
+    "name": "John Seaward",
+    "club": "Caerphilly Runners",
     "time": "00:55:09"
   },
   {
@@ -1603,8 +1603,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 15,
-    "name": "Anh Quan Tran (M)",
-    "club": "CDF (09)",
+    "name": "Anh Quan Tran",
+    "club": "CDF Runners",
     "time": "00:55:18"
   },
   {
@@ -1615,8 +1615,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 16,
-    "name": "Robyne Mugrati (M)",
-    "club": "Griffithstown (12)",
+    "name": "Robyne Mugrati",
+    "club": "Griffithstown Harriers",
     "time": "00:55:41"
   },
   {
@@ -1627,8 +1627,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 17,
-    "name": "Ben Vaughan (M)",
-    "club": "Caldicot (08)",
+    "name": "Ben Vaughan",
+    "club": "Caldicot RC",
     "time": "00:55:55"
   },
   {
@@ -1639,8 +1639,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 18,
-    "name": "Kirk Hill (M)",
-    "club": "Monmouth (16)",
+    "name": "Kirk Hill",
+    "club": "Spirit of Monmouth",
     "time": "00:56:13"
   },
   {
@@ -1651,8 +1651,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 19,
-    "name": "Craig Bexon (M)",
-    "club": "Albany (03)",
+    "name": "Craig Bexon",
+    "club": "Albany Road Club",
     "time": "00:57:39"
   },
   {
@@ -1663,8 +1663,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 20,
-    "name": "Mark Griffiths (M)",
-    "club": "Rhondda (25)",
+    "name": "Mark Griffiths",
+    "club": "Rhondda Valley Runners",
     "time": "00:58:22"
   },
   {
@@ -1675,8 +1675,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 21,
-    "name": "Leonie Mainwaring (F)",
-    "club": "Brackla (04)",
+    "name": "Leonie Mainwaring",
+    "club": "Brackla Harriers",
     "time": "00:58:26"
   },
   {
@@ -1687,8 +1687,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 22,
-    "name": "Mathew Webb (M)",
-    "club": "Pont-y-pwl B (29)",
+    "name": "Mathew Webb",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:59:00"
   },
   {
@@ -1699,8 +1699,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 23,
-    "name": "Cornel Pirvu (M)",
-    "club": "Caerleon B (27)",
+    "name": "Cornel Pirvu",
+    "club": "Caerleon RC",
     "time": "00:59:25"
   },
   {
@@ -1711,8 +1711,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 24,
-    "name": "Alex Hay (M)",
-    "club": "Islwyn (13)",
+    "name": "Alex Hay",
+    "club": "Islwyn RC",
     "time": "01:00:22"
   },
   {
@@ -1723,8 +1723,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 25,
-    "name": "Julian Howe (M)",
-    "club": "Lliswerry (15)",
+    "name": "Julian Howe",
+    "club": "Lliswerry Runners",
     "time": "01:00:37"
   },
   {
@@ -1735,8 +1735,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 26,
-    "name": "Jenny Farrow (F)",
-    "club": "Builth (05)",
+    "name": "Jenny Farrow",
+    "club": "Builth & District RC",
     "time": "01:00:57"
   },
   {
@@ -1747,8 +1747,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 27,
-    "name": "Angharad Croot (F)",
-    "club": "Ogmore (19)",
+    "name": "Angharad Croot",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:01:44"
   },
   {
@@ -1759,8 +1759,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 28,
-    "name": "Hannah Jenkins (F)",
-    "club": "Porthcawl (24)",
+    "name": "Hannah Jenkins",
+    "club": "Porthcawl Runners",
     "time": "01:02:08"
   },
   {
@@ -1771,8 +1771,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 29,
-    "name": "Adam Thomas (M)",
-    "club": "Pontyclun (21)",
+    "name": "Adam Thomas",
+    "club": "Pontyclun Road Runners",
     "time": "01:07:16"
   },
   {
@@ -1783,8 +1783,8 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 30,
-    "name": "Ian Smith (M)",
-    "club": "Fairwater B (30)",
+    "name": "Ian Smith",
+    "club": "Fairwater Runners",
     "time": "01:11:23"
   },
   {
@@ -1795,8 +1795,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 1,
-    "name": "Joby Eynon (M)",
-    "club": "Parc (20)",
+    "name": "Joby Eynon",
+    "club": "Parc Bryn Bach RC",
     "time": "01:10:42"
   },
   {
@@ -1807,8 +1807,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 2,
-    "name": "Peter Nimmo (M)",
-    "club": "Chepstow A (10)",
+    "name": "Peter Nimmo",
+    "club": "Chepstow Harriers",
     "time": "01:11:27"
   },
   {
@@ -1819,8 +1819,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 3,
-    "name": "Andrei Arcana (M)",
-    "club": "Pont-y-pwl A (23)",
+    "name": "Andrei Arcana",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:16:16"
   },
   {
@@ -1831,8 +1831,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 4,
-    "name": "Richard Foster (M)",
-    "club": "Monross (17)",
+    "name": "Richard Foster",
+    "club": "Monross Trailblazers",
     "time": "01:16:44"
   },
   {
@@ -1843,8 +1843,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 5,
-    "name": "Matthew Green (M)",
-    "club": "Les Croupiers (14)",
+    "name": "Matthew Green",
+    "club": "Les Croupiers RC",
     "time": "01:17:21"
   },
   {
@@ -1855,8 +1855,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 6,
-    "name": "Harry Woodward (M)",
-    "club": "Caldicot (08)",
+    "name": "Harry Woodward",
+    "club": "Caldicot RC",
     "time": "01:17:36"
   },
   {
@@ -1867,8 +1867,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 7,
-    "name": "Michael Ralph (M)",
-    "club": "Caerphilly (07)",
+    "name": "Michael Ralph",
+    "club": "Caerphilly Runners",
     "time": "01:17:45"
   },
   {
@@ -1879,8 +1879,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 8,
-    "name": "Matt Turner (M)",
-    "club": "San Domenico (26)",
+    "name": "Matt Turner",
+    "club": "San Domenico RC",
     "time": "01:17:58"
   },
   {
@@ -1891,8 +1891,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 9,
-    "name": "Ashley Oram (M)",
-    "club": "Aberdare (02)",
+    "name": "Ashley Oram",
+    "club": "Aberdare",
     "time": "01:18:48"
   },
   {
@@ -1903,8 +1903,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 10,
-    "name": "Jason Ivins (M)",
-    "club": "Rhondda (25)",
+    "name": "Jason Ivins",
+    "club": "Rhondda Valley Runners",
     "time": "01:19:13"
   },
   {
@@ -1915,8 +1915,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 11,
-    "name": "Ben Saunders (M)",
-    "club": "Monmouth (16)",
+    "name": "Ben Saunders",
+    "club": "Spirit of Monmouth",
     "time": "01:20:07"
   },
   {
@@ -1927,8 +1927,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 12,
-    "name": "Idris Hamner (M)",
-    "club": "Neath (18)",
+    "name": "Idris Hamner",
+    "club": "Neath Harriers",
     "time": "01:20:46"
   },
   {
@@ -1939,8 +1939,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 13,
-    "name": "John Williams (M)",
-    "club": "Griffithstown (12)",
+    "name": "John Williams",
+    "club": "Griffithstown Harriers",
     "time": "01:22:28"
   },
   {
@@ -1951,8 +1951,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 14,
-    "name": "Rae Elias (M)",
-    "club": "Fairwater A (01)",
+    "name": "Rae Elias",
+    "club": "Fairwater Runners",
     "time": "01:23:40"
   },
   {
@@ -1963,8 +1963,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 15,
-    "name": "Tracy Jenkins (F)",
-    "club": "Porthcawl (24)",
+    "name": "Tracy Jenkins",
+    "club": "Porthcawl Runners",
     "time": "01:24:12"
   },
   {
@@ -1975,8 +1975,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 16,
-    "name": "Dickie Hudd (M)",
-    "club": "Chepstow B (28)",
+    "name": "Dickie Hudd",
+    "club": "Chepstow Harriers",
     "time": "01:24:13"
   },
   {
@@ -1987,8 +1987,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 17,
-    "name": "Dean Johnson (M)",
-    "club": "Caerleon A (06)",
+    "name": "Dean Johnson",
+    "club": "Caerleon RC",
     "time": "01:24:49"
   },
   {
@@ -1999,8 +1999,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 18,
-    "name": "Alex Hayman (M)",
-    "club": "CDF (09)",
+    "name": "Alex Hayman",
+    "club": "CDF Runners",
     "time": "01:25:03"
   },
   {
@@ -2011,8 +2011,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 19,
-    "name": "Huw Williams (M)",
-    "club": "Albany (03)",
+    "name": "Huw Williams",
+    "club": "Albany Road Club",
     "time": "01:26:15"
   },
   {
@@ -2023,8 +2023,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 20,
-    "name": "Kieran Chaplin (M)",
-    "club": "Lliswerry (15)",
+    "name": "Kieran Chaplin",
+    "club": "Lliswerry Runners",
     "time": "01:28:49"
   },
   {
@@ -2035,8 +2035,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 21,
-    "name": "Jon Payman (M)",
-    "club": "Caerleon B (27)",
+    "name": "Jon Payman",
+    "club": "Caerleon RC",
     "time": "01:29:46"
   },
   {
@@ -2047,8 +2047,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 22,
-    "name": "David Shewring (M)",
-    "club": "Pontyclun (21)",
+    "name": "David Shewring",
+    "club": "Pontyclun Road Runners",
     "time": "01:30:18"
   },
   {
@@ -2059,8 +2059,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 23,
-    "name": "Nathan Maloney (M)",
-    "club": "Pont-y-pwl B (29)",
+    "name": "Nathan Maloney",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:31:02"
   },
   {
@@ -2071,8 +2071,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 24,
-    "name": "Jonathan Monk (M)",
-    "club": "Pontypridd (22)",
+    "name": "Jonathan Monk",
+    "club": "Pontypridd Roadents",
     "time": "01:33:50"
   },
   {
@@ -2083,8 +2083,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 25,
-    "name": "Luke Holmes (M)",
-    "club": "Brackla (04)",
+    "name": "Luke Holmes",
+    "club": "Brackla Harriers",
     "time": "01:33:51"
   },
   {
@@ -2095,8 +2095,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 26,
-    "name": "Mohamed Mustafa (M)",
-    "club": "Builth (05)",
+    "name": "Mohamed Mustafa",
+    "club": "Builth & District RC",
     "time": "01:35:19"
   },
   {
@@ -2107,8 +2107,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 27,
-    "name": "Gareth Jones (M)",
-    "club": "Ogmore (19)",
+    "name": "Gareth Jones",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:35:50"
   },
   {
@@ -2119,8 +2119,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 28,
-    "name": "Mark Groves (M)",
-    "club": "Fairwater B (30)",
+    "name": "Mark Groves",
+    "club": "Fairwater Runners",
     "time": "01:39:07"
   },
   {
@@ -2131,8 +2131,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 29,
-    "name": "Justine Dawkins (F)",
-    "club": "Cornelly (11)",
+    "name": "Justine Dawkins",
+    "club": "Cornelly Striders",
     "time": "01:43:50"
   },
   {
@@ -2143,8 +2143,8 @@ const relayResults = [
     "miles": 12.6,
     "km": 20.3,
     "position": 30,
-    "name": "Aled Wynne (M)",
-    "club": "Islwyn (13)",
+    "name": "Aled Wynne",
+    "club": "Islwyn RC",
     "time": "01:49:15"
   },
   {
@@ -2155,8 +2155,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 1,
-    "name": "Carly Stone (F)",
-    "club": "Lliswerry (15)",
+    "name": "Carly Stone",
+    "club": "Lliswerry Runners",
     "time": "00:35:14"
   },
   {
@@ -2167,8 +2167,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 2,
-    "name": "Nicola Jukes (F)",
-    "club": "Parc (20)",
+    "name": "Nicola Jukes",
+    "club": "Parc Bryn Bach RC",
     "time": "00:36:27"
   },
   {
@@ -2179,8 +2179,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 3,
-    "name": "Kathy Stringer (F)",
-    "club": "Chepstow A (10)",
+    "name": "Kathy Stringer",
+    "club": "Chepstow Harriers",
     "time": "00:36:35"
   },
   {
@@ -2191,8 +2191,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 4,
-    "name": "Bryony Eames (F)",
-    "club": "Les Croupiers (14)",
+    "name": "Bryony Eames",
+    "club": "Les Croupiers RC",
     "time": "00:38:13"
   },
   {
@@ -2203,8 +2203,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 5,
-    "name": "Joanne Hudson (F)",
-    "club": "Caerphilly (07)",
+    "name": "Joanne Hudson",
+    "club": "Caerphilly Runners",
     "time": "00:38:28"
   },
   {
@@ -2215,8 +2215,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 6,
-    "name": "Laura Hunt (F)",
-    "club": "Caldicot (08)",
+    "name": "Laura Hunt",
+    "club": "Caldicot RC",
     "time": "00:38:31"
   },
   {
@@ -2227,8 +2227,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 7,
-    "name": "Liz May (F)",
-    "club": "Pontypridd (22)",
+    "name": "Liz May",
+    "club": "Pontypridd Roadents",
     "time": "00:38:51"
   },
   {
@@ -2239,8 +2239,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 8,
-    "name": "Catherine Whittle (F)",
-    "club": "San Domenico (26)",
+    "name": "Catherine Whittle",
+    "club": "San Domenico RC",
     "time": "00:39:48"
   },
   {
@@ -2251,8 +2251,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 9,
-    "name": "Bethan Ball (F)",
-    "club": "Neath (18)",
+    "name": "Bethan Ball",
+    "club": "Neath Harriers",
     "time": "00:40:20"
   },
   {
@@ -2263,8 +2263,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 10,
-    "name": "Cerys Evans (F)",
-    "club": "Aberdare (02)",
+    "name": "Cerys Evans",
+    "club": "Aberdare",
     "time": "00:40:29"
   },
   {
@@ -2275,8 +2275,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 11,
-    "name": "Charlotte Giles (F)",
-    "club": "Chepstow B (28)",
+    "name": "Charlotte Giles",
+    "club": "Chepstow Harriers",
     "time": "00:40:56"
   },
   {
@@ -2287,8 +2287,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 12,
-    "name": "Marrisa Benjamin (F)",
-    "club": "Pont-y-pwl A (23)",
+    "name": "Marrisa Benjamin",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:42:01"
   },
   {
@@ -2299,8 +2299,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 13,
-    "name": "Jake Jones (M)",
-    "club": "Porthcawl (24)",
+    "name": "Jake Jones",
+    "club": "Porthcawl Runners",
     "time": "00:42:30"
   },
   {
@@ -2311,8 +2311,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 14,
-    "name": "Bryony Lewis (F)",
-    "club": "Islwyn (13)",
+    "name": "Bryony Lewis",
+    "club": "Islwyn RC",
     "time": "00:42:43"
   },
   {
@@ -2323,8 +2323,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 15,
-    "name": "Joanne Rees (F)",
-    "club": "Builth (05)",
+    "name": "Joanne Rees",
+    "club": "Builth & District RC",
     "time": "00:42:54"
   },
   {
@@ -2335,8 +2335,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 16,
-    "name": "Emma Humphries (F)",
-    "club": "Monross (17)",
+    "name": "Emma Humphries",
+    "club": "Monross Trailblazers",
     "time": "00:43:20"
   },
   {
@@ -2347,8 +2347,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 17,
-    "name": "Tammy Fry (F)",
-    "club": "Caerleon A (06)",
+    "name": "Tammy Fry",
+    "club": "Caerleon RC",
     "time": "00:43:24"
   },
   {
@@ -2359,8 +2359,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 18,
-    "name": "Marie Hurford (F)",
-    "club": "Griffithstown (12)",
+    "name": "Marie Hurford",
+    "club": "Griffithstown Harriers",
     "time": "00:44:05"
   },
   {
@@ -2371,8 +2371,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 19,
-    "name": "Cariad Worrilow (F)",
-    "club": "Pont-y-pwl B (29)",
+    "name": "Cariad Worrilow",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:44:25"
   },
   {
@@ -2383,8 +2383,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 20,
-    "name": "Kayleigh Sutton (F)",
-    "club": "Cornelly (11)",
+    "name": "Kayleigh Sutton",
+    "club": "Cornelly Striders",
     "time": "00:45:00"
   },
   {
@@ -2395,8 +2395,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 21,
-    "name": "Liz Hughes (F)",
-    "club": "Pontyclun (21)",
+    "name": "Liz Hughes",
+    "club": "Pontyclun Road Runners",
     "time": "00:45:26"
   },
   {
@@ -2407,8 +2407,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 22,
-    "name": "Louise Hartree (F)",
-    "club": "Monmouth (16)",
+    "name": "Louise Hartree",
+    "club": "Spirit of Monmouth",
     "time": "00:46:01"
   },
   {
@@ -2419,8 +2419,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 23,
-    "name": "Jenna Ford (F)",
-    "club": "Rhondda (25)",
+    "name": "Jenna Ford",
+    "club": "Rhondda Valley Runners",
     "time": "00:46:11"
   },
   {
@@ -2431,8 +2431,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 24,
-    "name": "Tanya O’Neill (F)",
-    "club": "Albany (03)",
+    "name": "Tanya O’Neill",
+    "club": "Albany Road Club",
     "time": "00:47:27"
   },
   {
@@ -2443,8 +2443,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 25,
-    "name": "Hattie Jenkins (F)",
-    "club": "Caerleon B (27)",
+    "name": "Hattie Jenkins",
+    "club": "Caerleon RC",
     "time": "00:49:11"
   },
   {
@@ -2455,8 +2455,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 26,
-    "name": "Alys Rogers (F)",
-    "club": "CDF (09)",
+    "name": "Alys Rogers",
+    "club": "CDF Runners",
     "time": "00:49:30"
   },
   {
@@ -2467,8 +2467,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 27,
-    "name": "Jane Dorrian (F)",
-    "club": "Fairwater A (01)",
+    "name": "Jane Dorrian",
+    "club": "Fairwater Runners",
     "time": "00:50:00"
   },
   {
@@ -2479,8 +2479,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 28,
-    "name": "Sarah Price (F)",
-    "club": "Fairwater B (30)",
+    "name": "Sarah Price",
+    "club": "Fairwater Runners",
     "time": "00:50:01"
   },
   {
@@ -2491,8 +2491,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 29,
-    "name": "Olivia Corbett (F)",
-    "club": "Ogmore (19)",
+    "name": "Olivia Corbett",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:50:02"
   },
   {
@@ -2503,8 +2503,8 @@ const relayResults = [
     "miles": 5.53,
     "km": 8.9,
     "position": 30,
-    "name": "Geraldine Tucker (F)",
-    "club": "Brackla (04)",
+    "name": "Geraldine Tucker",
+    "club": "Brackla Harriers",
     "time": "01:00:00"
   },
   {
@@ -2515,8 +2515,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 1,
-    "name": "Tim Batchelor (M)",
-    "club": "Chepstow A (10)",
+    "name": "Tim Batchelor",
+    "club": "Chepstow Harriers",
     "time": "01:20:35"
   },
   {
@@ -2527,8 +2527,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 2,
-    "name": "Laurence Humphreys (M)",
-    "club": "Caerleon A (06)",
+    "name": "Laurence Humphreys",
+    "club": "Caerleon RC",
     "time": "01:22:17"
   },
   {
@@ -2539,8 +2539,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 3,
-    "name": "Thomas Wade (M)",
-    "club": "Parc (20)",
+    "name": "Thomas Wade",
+    "club": "Parc Bryn Bach RC",
     "time": "01:23:46"
   },
   {
@@ -2551,8 +2551,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 4,
-    "name": "Mike Marsh (M)",
-    "club": "Pont-y-pwl A (23)",
+    "name": "Mike Marsh",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:27:52"
   },
   {
@@ -2563,8 +2563,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 5,
-    "name": "Joseph Mainwaring (M)",
-    "club": "Porthcawl (24)",
+    "name": "Joseph Mainwaring",
+    "club": "Porthcawl Runners",
     "time": "01:28:01"
   },
   {
@@ -2575,8 +2575,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 6,
-    "name": "Rhys Davies (M)",
-    "club": "Builth (05)",
+    "name": "Rhys Davies",
+    "club": "Builth & District RC",
     "time": "01:28:31"
   },
   {
@@ -2587,8 +2587,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 7,
-    "name": "Daniel Beech (M)",
-    "club": "Pontypridd (22)",
+    "name": "Daniel Beech",
+    "club": "Pontypridd Roadents",
     "time": "01:29:06"
   },
   {
@@ -2599,8 +2599,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 8,
-    "name": "Jack Millar (M)",
-    "club": "Monross (17)",
+    "name": "Jack Millar",
+    "club": "Monross Trailblazers",
     "time": "01:29:25"
   },
   {
@@ -2611,8 +2611,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 9,
-    "name": "Matthew Pottenger (M)",
-    "club": "Caldicot (08)",
+    "name": "Matthew Pottenger",
+    "club": "Caldicot RC",
     "time": "01:29:31"
   },
   {
@@ -2623,8 +2623,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 10,
-    "name": "Tom Chinnick (M)",
-    "club": "Monmouth (16)",
+    "name": "Tom Chinnick",
+    "club": "Spirit of Monmouth",
     "time": "01:29:32"
   },
   {
@@ -2635,8 +2635,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 11,
-    "name": "Neil Jones (M)",
-    "club": "Pontyclun (21)",
+    "name": "Neil Jones",
+    "club": "Pontyclun Road Runners",
     "time": "01:30:02"
   },
   {
@@ -2647,8 +2647,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 12,
-    "name": "John Howells (M)",
-    "club": "Aberdare (02)",
+    "name": "John Howells",
+    "club": "Aberdare",
     "time": "01:30:19"
   },
   {
@@ -2659,8 +2659,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 13,
-    "name": "Joel Price (M)",
-    "club": "Les Croupiers (14)",
+    "name": "Joel Price",
+    "club": "Les Croupiers RC",
     "time": "01:31:11"
   },
   {
@@ -2671,8 +2671,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 14,
-    "name": "Andy Hughes (M)",
-    "club": "Chepstow B (28)",
+    "name": "Andy Hughes",
+    "club": "Chepstow Harriers",
     "time": "01:33:20"
   },
   {
@@ -2683,8 +2683,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 15,
-    "name": "Shaun Styles (M)",
-    "club": "Griffithstown (12)",
+    "name": "Shaun Styles",
+    "club": "Griffithstown Harriers",
     "time": "01:33:25"
   },
   {
@@ -2695,8 +2695,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 16,
-    "name": "Anthony Malaczyk (M)",
-    "club": "Islwyn (13)",
+    "name": "Anthony Malaczyk",
+    "club": "Islwyn RC",
     "time": "01:33:32"
   },
   {
@@ -2707,8 +2707,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 17,
-    "name": "Joshua Powell (M)",
-    "club": "Cornelly (11)",
+    "name": "Joshua Powell",
+    "club": "Cornelly Striders",
     "time": "01:34:07"
   },
   {
@@ -2719,8 +2719,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 18,
-    "name": "Phil Cross (M)",
-    "club": "Caerphilly (07)",
+    "name": "Phil Cross",
+    "club": "Caerphilly Runners",
     "time": "01:34:13"
   },
   {
@@ -2731,8 +2731,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 19,
-    "name": "Ian Owen (M)",
-    "club": "San Domenico (26)",
+    "name": "Ian Owen",
+    "club": "San Domenico RC",
     "time": "01:34:19"
   },
   {
@@ -2743,8 +2743,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 20,
-    "name": "Scott Ruse (M)",
-    "club": "Neath (18)",
+    "name": "Scott Ruse",
+    "club": "Neath Harriers",
     "time": "01:35:25"
   },
   {
@@ -2755,8 +2755,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 21,
-    "name": "Adam Thomas (M)",
-    "club": "Albany (03)",
+    "name": "Adam Thomas",
+    "club": "Albany Road Club",
     "time": "01:36:10"
   },
   {
@@ -2767,8 +2767,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 22,
-    "name": "Jack Rowland (M)",
-    "club": "Lliswerry (15)",
+    "name": "Jack Rowland",
+    "club": "Lliswerry Runners",
     "time": "01:36:43"
   },
   {
@@ -2779,8 +2779,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 23,
-    "name": "Lee Arundell (M)",
-    "club": "Rhondda (25)",
+    "name": "Lee Arundell",
+    "club": "Rhondda Valley Runners",
     "time": "01:37:13"
   },
   {
@@ -2791,8 +2791,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 24,
-    "name": "Nick Landon (M)",
-    "club": "Brackla (04)",
+    "name": "Nick Landon",
+    "club": "Brackla Harriers",
     "time": "01:37:53"
   },
   {
@@ -2803,8 +2803,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 25,
-    "name": "Lee Harvey (M)",
-    "club": "Pont-y-pwl B (29)",
+    "name": "Lee Harvey",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:38:42"
   },
   {
@@ -2815,8 +2815,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 26,
-    "name": "Jonathan Matthews (M)",
-    "club": "Ogmore (19)",
+    "name": "Jonathan Matthews",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:39:34"
   },
   {
@@ -2827,8 +2827,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 27,
-    "name": "Dylan Davies (M)",
-    "club": "CDF (09)",
+    "name": "Dylan Davies",
+    "club": "CDF Runners",
     "time": "01:39:53"
   },
   {
@@ -2839,8 +2839,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 28,
-    "name": "Léon Gleed (M)",
-    "club": "Fairwater A (01)",
+    "name": "Léon Gleed",
+    "club": "Fairwater Runners",
     "time": "01:45:36"
   },
   {
@@ -2851,8 +2851,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 29,
-    "name": "Jason Pritchard (M)",
-    "club": "Caerleon B (27)",
+    "name": "Jason Pritchard",
+    "club": "Caerleon RC",
     "time": "01:52:56"
   },
   {
@@ -2863,8 +2863,8 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 30,
-    "name": "Michael Barnes (M)",
-    "club": "Fairwater B (30)",
+    "name": "Michael Barnes",
+    "club": "Fairwater Runners",
     "time": "01:55:14"
   },
   {
@@ -2875,8 +2875,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 1,
-    "name": "Chris Oxley (M)",
-    "club": "San Domenico (26)",
+    "name": "Chris Oxley",
+    "club": "San Domenico RC",
     "time": "00:59:54"
   },
   {
@@ -2887,8 +2887,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 2,
-    "name": "James Thie (M)",
-    "club": "Pontypridd (22)",
+    "name": "James Thie",
+    "club": "Pontypridd Roadents",
     "time": "01:00:53"
   },
   {
@@ -2899,8 +2899,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 3,
-    "name": "Patrick Jarvis (M)",
-    "club": "Parc (20)",
+    "name": "Patrick Jarvis",
+    "club": "Parc Bryn Bach RC",
     "time": "01:01:40"
   },
   {
@@ -2911,8 +2911,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 4,
-    "name": "Gareth Davey (M)",
-    "club": "Neath (18)",
+    "name": "Gareth Davey",
+    "club": "Neath Harriers",
     "time": "01:02:00"
   },
   {
@@ -2923,8 +2923,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 5,
-    "name": "Kieron Brown (M)",
-    "club": "Monross (17)",
+    "name": "Kieron Brown",
+    "club": "Monross Trailblazers",
     "time": "01:03:04"
   },
   {
@@ -2935,8 +2935,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 6,
-    "name": "Paul Murrin (M)",
-    "club": "Chepstow A (10)",
+    "name": "Paul Murrin",
+    "club": "Chepstow Harriers",
     "time": "01:04:50"
   },
   {
@@ -2947,8 +2947,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 7,
-    "name": "Jack Reddaway (M)",
-    "club": "Les Croupiers (14)",
+    "name": "Jack Reddaway",
+    "club": "Les Croupiers RC",
     "time": "01:05:30"
   },
   {
@@ -2959,8 +2959,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 8,
-    "name": "Kris Humphries (M)",
-    "club": "Caerleon A (06)",
+    "name": "Kris Humphries",
+    "club": "Caerleon RC",
     "time": "01:06:15"
   },
   {
@@ -2971,8 +2971,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 9,
-    "name": "Owen Staddon (M)",
-    "club": "Caldicot (08)",
+    "name": "Owen Staddon",
+    "club": "Caldicot RC",
     "time": "01:06:30"
   },
   {
@@ -2983,8 +2983,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 10,
-    "name": "Ricci Watts (M)",
-    "club": "Pont-y-pwl A (23)",
+    "name": "Ricci Watts",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:07:07"
   },
   {
@@ -2995,8 +2995,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 11,
-    "name": "Jonathan Starling (M)",
-    "club": "Aberdare (02)",
+    "name": "Jonathan Starling",
+    "club": "Aberdare",
     "time": "01:08:43"
   },
   {
@@ -3007,8 +3007,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 12,
-    "name": "Ffion Price (F)",
-    "club": "Builth (05)",
+    "name": "Ffion Price",
+    "club": "Builth & District RC",
     "time": "01:09:02"
   },
   {
@@ -3019,8 +3019,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 13,
-    "name": "Jonathan Anstee (M)",
-    "club": "CDF (09)",
+    "name": "Jonathan Anstee",
+    "club": "CDF Runners",
     "time": "01:09:06"
   },
   {
@@ -3031,8 +3031,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 14,
-    "name": "Dylan Panting (M)",
-    "club": "Ogmore (19)",
+    "name": "Dylan Panting",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:09:12"
   },
   {
@@ -3043,8 +3043,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 15,
-    "name": "Steffan Cole (M)",
-    "club": "Chepstow B (28)",
+    "name": "Steffan Cole",
+    "club": "Chepstow Harriers",
     "time": "01:10:10"
   },
   {
@@ -3055,8 +3055,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 16,
-    "name": "Ashley Swift (M)",
-    "club": "Caerphilly (07)",
+    "name": "Ashley Swift",
+    "club": "Caerphilly Runners",
     "time": "01:11:29"
   },
   {
@@ -3067,8 +3067,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 17,
-    "name": "David Witts (M)",
-    "club": "Islwyn (13)",
+    "name": "David Witts",
+    "club": "Islwyn RC",
     "time": "01:11:56"
   },
   {
@@ -3079,8 +3079,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 18,
-    "name": "Fred Windsor (M)",
-    "club": "Albany (03)",
+    "name": "Fred Windsor",
+    "club": "Albany Road Club",
     "time": "01:12:26"
   },
   {
@@ -3091,8 +3091,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 19,
-    "name": "James Robinson (M)",
-    "club": "Monmouth (16)",
+    "name": "James Robinson",
+    "club": "Spirit of Monmouth",
     "time": "01:12:55"
   },
   {
@@ -3103,8 +3103,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 20,
-    "name": "James King (M)",
-    "club": "Fairwater A (01)",
+    "name": "James King",
+    "club": "Fairwater Runners",
     "time": "01:12:56"
   },
   {
@@ -3115,8 +3115,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 21,
-    "name": "Lee Smith (M)",
-    "club": "Caerleon B (27)",
+    "name": "Lee Smith",
+    "club": "Caerleon RC",
     "time": "01:13:30"
   },
   {
@@ -3127,8 +3127,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 22,
-    "name": "Nicky Tudor (M)",
-    "club": "Griffithstown (12)",
+    "name": "Nicky Tudor",
+    "club": "Griffithstown Harriers",
     "time": "01:13:41"
   },
   {
@@ -3139,8 +3139,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 23,
-    "name": "Reuben Edwards (M)",
-    "club": "Rhondda (25)",
+    "name": "Reuben Edwards",
+    "club": "Rhondda Valley Runners",
     "time": "01:14:49"
   },
   {
@@ -3151,8 +3151,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 24,
-    "name": "Christopher Mainwaring-Wheeler (M)",
-    "club": "Porthcawl (24)",
+    "name": "Christopher Mainwaring-Wheeler",
+    "club": "Porthcawl Runners",
     "time": "01:16:17"
   },
   {
@@ -3163,8 +3163,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 25,
-    "name": "Elain Wharmby (F)",
-    "club": "Brackla (04)",
+    "name": "Elain Wharmby",
+    "club": "Brackla Harriers",
     "time": "01:16:23"
   },
   {
@@ -3175,8 +3175,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 26,
-    "name": "Michal Hajdon (M)",
-    "club": "Lliswerry (15)",
+    "name": "Michal Hajdon",
+    "club": "Lliswerry Runners",
     "time": "01:17:16"
   },
   {
@@ -3187,8 +3187,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 27,
-    "name": "Greg Morgan (M)",
-    "club": "Cornelly (11)",
+    "name": "Greg Morgan",
+    "club": "Cornelly Striders",
     "time": "01:18:33"
   },
   {
@@ -3199,8 +3199,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 28,
-    "name": "Katy Thomas (F)",
-    "club": "Pontyclun (21)",
+    "name": "Katy Thomas",
+    "club": "Pontyclun Road Runners",
     "time": "01:19:01"
   },
   {
@@ -3211,8 +3211,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 29,
-    "name": "Michael Skyrme (M)",
-    "club": "Fairwater B (30)",
+    "name": "Michael Skyrme",
+    "club": "Fairwater Runners",
     "time": "01:22:33"
   },
   {
@@ -3223,8 +3223,8 @@ const relayResults = [
     "miles": 10.0,
     "km": 16.0,
     "position": 30,
-    "name": "Sophie James (F)",
-    "club": "Pont-y-pwl B (29)",
+    "name": "Sophie James",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:30:00"
   },
   {
@@ -3235,8 +3235,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 1,
-    "name": "Sam Lewis Jones (M)",
-    "club": "Parc (20)",
+    "name": "Sam Lewis Jones",
+    "club": "Parc Bryn Bach RC",
     "time": "00:46:14"
   },
   {
@@ -3247,8 +3247,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 2,
-    "name": "Craig Cheedy (M)",
-    "club": "Pont-y-pwl A (23)",
+    "name": "Craig Cheedy",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:49:46"
   },
   {
@@ -3259,8 +3259,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 3,
-    "name": "Stuart Nash (M)",
-    "club": "Chepstow A (10)",
+    "name": "Stuart Nash",
+    "club": "Chepstow Harriers",
     "time": "00:49:59"
   },
   {
@@ -3271,8 +3271,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 4,
-    "name": "Alex Barnston (M)",
-    "club": "Caldicot (08)",
+    "name": "Alex Barnston",
+    "club": "Caldicot RC",
     "time": "00:50:04"
   },
   {
@@ -3283,8 +3283,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 5,
-    "name": "Steve Dilley (M)",
-    "club": "Chepstow B (28)",
+    "name": "Steve Dilley",
+    "club": "Chepstow Harriers",
     "time": "00:53:17"
   },
   {
@@ -3295,8 +3295,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 6,
-    "name": "Julie Chamberlain (F)",
-    "club": "Les Croupiers (14)",
+    "name": "Julie Chamberlain",
+    "club": "Les Croupiers RC",
     "time": "00:53:34"
   },
   {
@@ -3307,8 +3307,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 7,
-    "name": "Holly Greenwood (F)",
-    "club": "Caerleon A (06)",
+    "name": "Holly Greenwood",
+    "club": "Caerleon RC",
     "time": "00:53:48"
   },
   {
@@ -3319,8 +3319,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 8,
-    "name": "Tom Walmsley (M)",
-    "club": "Monross (17)",
+    "name": "Tom Walmsley",
+    "club": "Monross Trailblazers",
     "time": "00:54:19"
   },
   {
@@ -3331,8 +3331,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 9,
-    "name": "Lauren Mackie (F)",
-    "club": "Aberdare (02)",
+    "name": "Lauren Mackie",
+    "club": "Aberdare",
     "time": "00:54:28"
   },
   {
@@ -3343,8 +3343,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 10,
-    "name": "Sean Wassall (M)",
-    "club": "Fairwater B (30)",
+    "name": "Sean Wassall",
+    "club": "Fairwater Runners",
     "time": "00:55:18"
   },
   {
@@ -3355,8 +3355,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 11,
-    "name": "Inein Victor Garrick (M)",
-    "club": "Porthcawl (24)",
+    "name": "Inein Victor Garrick",
+    "club": "Porthcawl Runners",
     "time": "00:55:29"
   },
   {
@@ -3367,8 +3367,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 12,
-    "name": "Delyth Williams (F)",
-    "club": "San Domenico (26)",
+    "name": "Delyth Williams",
+    "club": "San Domenico RC",
     "time": "00:56:13"
   },
   {
@@ -3379,8 +3379,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 13,
-    "name": "Stuart Ball (M)",
-    "club": "Fairwater A (01)",
+    "name": "Stuart Ball",
+    "club": "Fairwater Runners",
     "time": "00:57:55"
   },
   {
@@ -3391,8 +3391,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 14,
-    "name": "Beth Butler-Madden (F)",
-    "club": "Pontypridd (22)",
+    "name": "Beth Butler-Madden",
+    "club": "Pontypridd Roadents",
     "time": "00:59:41"
   },
   {
@@ -3403,8 +3403,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 15,
-    "name": "Carwyn Price (M)",
-    "club": "Builth (05)",
+    "name": "Carwyn Price",
+    "club": "Builth & District RC",
     "time": "00:59:51"
   },
   {
@@ -3415,8 +3415,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 16,
-    "name": "Eve Tranter (F)",
-    "club": "Islwyn (13)",
+    "name": "Eve Tranter",
+    "club": "Islwyn RC",
     "time": "01:00:23"
   },
   {
@@ -3427,8 +3427,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 17,
-    "name": "Jennifer Roberts (F)",
-    "club": "Neath (18)",
+    "name": "Jennifer Roberts",
+    "club": "Neath Harriers",
     "time": "01:00:29"
   },
   {
@@ -3439,8 +3439,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 18,
-    "name": "Libby Barlow (F)",
-    "club": "Monmouth (16)",
+    "name": "Libby Barlow",
+    "club": "Spirit of Monmouth",
     "time": "01:00:48"
   },
   {
@@ -3451,8 +3451,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 19,
-    "name": "Stephen Protheroe-Hewitt (M)",
-    "club": "Caerphilly (07)",
+    "name": "Stephen Protheroe-Hewitt",
+    "club": "Caerphilly Runners",
     "time": "01:00:53"
   },
   {
@@ -3463,8 +3463,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 20,
-    "name": "Shane Baker (M)",
-    "club": "Pont-y-pwl B (29)",
+    "name": "Shane Baker",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:00:58"
   },
   {
@@ -3475,8 +3475,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 21,
-    "name": "Karen Silver (F)",
-    "club": "Griffithstown (12)",
+    "name": "Karen Silver",
+    "club": "Griffithstown Harriers",
     "time": "01:01:56"
   },
   {
@@ -3487,8 +3487,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 22,
-    "name": "Richard Giddy (M)",
-    "club": "Pontyclun (21)",
+    "name": "Richard Giddy",
+    "club": "Pontyclun Road Runners",
     "time": "01:02:40"
   },
   {
@@ -3499,8 +3499,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 23,
-    "name": "Gabriella Smith (F)",
-    "club": "Cornelly (11)",
+    "name": "Gabriella Smith",
+    "club": "Cornelly Striders",
     "time": "01:03:57"
   },
   {
@@ -3511,8 +3511,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 24,
-    "name": "Luke Davis (M)",
-    "club": "Ogmore (19)",
+    "name": "Luke Davis",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:04:51"
   },
   {
@@ -3523,8 +3523,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 25,
-    "name": "Josh Gilby (M)",
-    "club": "Lliswerry (15)",
+    "name": "Josh Gilby",
+    "club": "Lliswerry Runners",
     "time": "01:05:25"
   },
   {
@@ -3535,8 +3535,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 26,
-    "name": "Jemma Henderson (F)",
-    "club": "Albany (03)",
+    "name": "Jemma Henderson",
+    "club": "Albany Road Club",
     "time": "01:06:05"
   },
   {
@@ -3547,8 +3547,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 27,
-    "name": "Janet Edwards (F)",
-    "club": "Rhondda (25)",
+    "name": "Janet Edwards",
+    "club": "Rhondda Valley Runners",
     "time": "01:06:23"
   },
   {
@@ -3559,8 +3559,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 28,
-    "name": "Stuart Draper (M)",
-    "club": "Brackla (04)",
+    "name": "Stuart Draper",
+    "club": "Brackla Harriers",
     "time": "01:06:28"
   },
   {
@@ -3571,8 +3571,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 29,
-    "name": "Yangi Vundamina (F)",
-    "club": "Caerleon B (27)",
+    "name": "Yangi Vundamina",
+    "club": "Caerleon RC",
     "time": "01:09:47"
   },
   {
@@ -3583,8 +3583,8 @@ const relayResults = [
     "miles": 7.6,
     "km": 12.16,
     "position": 30,
-    "name": "Lianne Rees (F)",
-    "club": "CDF (09)",
+    "name": "Lianne Rees",
+    "club": "CDF Runners",
     "time": "01:20:00"
   },
   {
@@ -3595,8 +3595,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 1,
-    "name": "Josh Fitton (M)",
-    "club": "Lliswerry (15)",
+    "name": "Josh Fitton",
+    "club": "Lliswerry Runners",
     "time": "00:46:46"
   },
   {
@@ -3607,8 +3607,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 2,
-    "name": "Jon Ford (M)",
-    "club": "Fairwater A (01)",
+    "name": "Jon Ford",
+    "club": "Fairwater Runners",
     "time": "00:46:53"
   },
   {
@@ -3619,8 +3619,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 3,
-    "name": "Mark Gillet (M)",
-    "club": "Chepstow A (10)",
+    "name": "Mark Gillet",
+    "club": "Chepstow Harriers",
     "time": "00:49:06"
   },
   {
@@ -3631,8 +3631,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 4,
-    "name": "Paul White (M)",
-    "club": "Parc (20)",
+    "name": "Paul White",
+    "club": "Parc Bryn Bach RC",
     "time": "00:50:06"
   },
   {
@@ -3643,8 +3643,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 5,
-    "name": "Ashley Temudo (M)",
-    "club": "Caldicot (08)",
+    "name": "Ashley Temudo",
+    "club": "Caldicot RC",
     "time": "00:51:50"
   },
   {
@@ -3655,8 +3655,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 6,
-    "name": "Edward Gwynne-Harris (M)",
-    "club": "Builth (05)",
+    "name": "Edward Gwynne-Harris",
+    "club": "Builth & District RC",
     "time": "00:51:55"
   },
   {
@@ -3667,8 +3667,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 7,
-    "name": "Matthew Jacklin (M)",
-    "club": "Aberdare (02)",
+    "name": "Matthew Jacklin",
+    "club": "Aberdare",
     "time": "00:52:21"
   },
   {
@@ -3679,8 +3679,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 8,
-    "name": "Charlie Bleasdale (M)",
-    "club": "Pontypridd (22)",
+    "name": "Charlie Bleasdale",
+    "club": "Pontypridd Roadents",
     "time": "00:53:11"
   },
   {
@@ -3691,8 +3691,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 9,
-    "name": "Dan Snelling (M)",
-    "club": "Pont-y-pwl A (23)",
+    "name": "Dan Snelling",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:55:10"
   },
   {
@@ -3703,8 +3703,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 10,
-    "name": "Chris Haeffner (M)",
-    "club": "Chepstow B (28)",
+    "name": "Chris Haeffner",
+    "club": "Chepstow Harriers",
     "time": "00:55:20"
   },
   {
@@ -3715,8 +3715,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 11,
-    "name": "John Adams (M)",
-    "club": "Rhondda (25)",
+    "name": "John Adams",
+    "club": "Rhondda Valley Runners",
     "time": "00:55:36"
   },
   {
@@ -3727,8 +3727,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 12,
-    "name": "Daniel Fletcher (M)",
-    "club": "Griffithstown (12)",
+    "name": "Daniel Fletcher",
+    "club": "Griffithstown Harriers",
     "time": "00:56:26"
   },
   {
@@ -3739,8 +3739,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 13,
-    "name": "Olivia Michael (F)",
-    "club": "Neath (18)",
+    "name": "Olivia Michael",
+    "club": "Neath Harriers",
     "time": "00:56:33"
   },
   {
@@ -3751,8 +3751,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 14,
-    "name": "Alfie Sargeant (M)",
-    "club": "Les Croupiers (14)",
+    "name": "Alfie Sargeant",
+    "club": "Les Croupiers RC",
     "time": "00:57:59"
   },
   {
@@ -3763,8 +3763,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 15,
-    "name": "Neil Probert (M)",
-    "club": "Islwyn (13)",
+    "name": "Neil Probert",
+    "club": "Islwyn RC",
     "time": "00:58:04"
   },
   {
@@ -3775,8 +3775,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 16,
-    "name": "Vicky Roberts (F)",
-    "club": "Monmouth (16)",
+    "name": "Vicky Roberts",
+    "club": "Spirit of Monmouth",
     "time": "00:58:11"
   },
   {
@@ -3787,8 +3787,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 17,
-    "name": "Alex Haycock (M)",
-    "club": "CDF (09)",
+    "name": "Alex Haycock",
+    "club": "CDF Runners",
     "time": "00:58:58"
   },
   {
@@ -3799,8 +3799,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 18,
-    "name": "Thomas Munro (M)",
-    "club": "Porthcawl (24)",
+    "name": "Thomas Munro",
+    "club": "Porthcawl Runners",
     "time": "00:59:35"
   },
   {
@@ -3811,8 +3811,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 19,
-    "name": "Bex Millar (F)",
-    "club": "Albany (03)",
+    "name": "Bex Millar",
+    "club": "Albany Road Club",
     "time": "00:59:38"
   },
   {
@@ -3823,8 +3823,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 20,
-    "name": "Kevin Plank (M)",
-    "club": "San Domenico (26)",
+    "name": "Kevin Plank",
+    "club": "San Domenico RC",
     "time": "01:00:04"
   },
   {
@@ -3835,8 +3835,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 21,
-    "name": "Calum McLeish (M)",
-    "club": "Monross (17)",
+    "name": "Calum McLeish",
+    "club": "Monross Trailblazers",
     "time": "01:00:30"
   },
   {
@@ -3847,8 +3847,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 22,
-    "name": "Gareth Jenkins (M)",
-    "club": "Ogmore (19)",
+    "name": "Gareth Jenkins",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:01:15"
   },
   {
@@ -3859,8 +3859,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 23,
-    "name": "Carl Feiven (M)",
-    "club": "Cornelly (11)",
+    "name": "Carl Feiven",
+    "club": "Cornelly Striders",
     "time": "01:01:18"
   },
   {
@@ -3871,8 +3871,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 24,
-    "name": "Rhys Pritchard (M)",
-    "club": "Caerleon A (06)",
+    "name": "Rhys Pritchard",
+    "club": "Caerleon RC",
     "time": "01:01:45"
   },
   {
@@ -3883,8 +3883,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 25,
-    "name": "Anna Williams (F)",
-    "club": "Caerphilly (07)",
+    "name": "Anna Williams",
+    "club": "Caerphilly Runners",
     "time": "01:02:38"
   },
   {
@@ -3895,8 +3895,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 26,
-    "name": "Matt Tooby (M)",
-    "club": "Caerleon B (27)",
+    "name": "Matt Tooby",
+    "club": "Caerleon RC",
     "time": "01:03:45"
   },
   {
@@ -3907,8 +3907,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 27,
-    "name": "John Lloyd (M)",
-    "club": "Brackla (04)",
+    "name": "John Lloyd",
+    "club": "Brackla Harriers",
     "time": "01:04:01"
   },
   {
@@ -3919,8 +3919,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 28,
-    "name": "Sam Martin (M)",
-    "club": "Fairwater B (30)",
+    "name": "Sam Martin",
+    "club": "Fairwater Runners",
     "time": "01:05:24"
   },
   {
@@ -3931,8 +3931,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 29,
-    "name": "Rhyddian John (M)",
-    "club": "Pontyclun (21)",
+    "name": "Rhyddian John",
+    "club": "Pontyclun Road Runners",
     "time": "01:07:17"
   },
   {
@@ -3943,8 +3943,8 @@ const relayResults = [
     "miles": 8.4,
     "km": 13.4,
     "position": 30,
-    "name": "Simon Fish (M)",
-    "club": "Pont-y-pwl B (29)",
+    "name": "Simon Fish",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:09:28"
   },
   {
@@ -3955,8 +3955,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 1,
-    "name": "Antoinette Rose (F)",
-    "club": "Lliswerry (15)",
+    "name": "Antoinette Rose",
+    "club": "Lliswerry Runners",
     "time": "00:38:11"
   },
   {
@@ -3967,8 +3967,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 2,
-    "name": "Elinor Mattey (F)",
-    "club": "Parc (20)",
+    "name": "Elinor Mattey",
+    "club": "Parc Bryn Bach RC",
     "time": "00:41:22"
   },
   {
@@ -3979,8 +3979,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 3,
-    "name": "Johnny Keeble (M)",
-    "club": "Islwyn (13)",
+    "name": "Johnny Keeble",
+    "club": "Islwyn RC",
     "time": "00:41:36"
   },
   {
@@ -3991,8 +3991,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 4,
-    "name": "Lowenna Taylor (F)",
-    "club": "Caerleon A (06)",
+    "name": "Lowenna Taylor",
+    "club": "Caerleon RC",
     "time": "00:42:51"
   },
   {
@@ -4003,8 +4003,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 5,
-    "name": "Megan Parry (F)",
-    "club": "San Domenico (26)",
+    "name": "Megan Parry",
+    "club": "San Domenico RC",
     "time": "00:43:24"
   },
   {
@@ -4015,8 +4015,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 6,
-    "name": "Sarah Bell (F)",
-    "club": "Chepstow A (10)",
+    "name": "Sarah Bell",
+    "club": "Chepstow Harriers",
     "time": "00:43:46"
   },
   {
@@ -4027,8 +4027,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 7,
-    "name": "Ieuan walker (M)",
-    "club": "Pont-y-pwl B (29)",
+    "name": "Ieuan walker",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:44:05"
   },
   {
@@ -4039,8 +4039,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 8,
-    "name": "Anna Symmonds (F)",
-    "club": "Caerleon B (27)",
+    "name": "Anna Symmonds",
+    "club": "Caerleon RC",
     "time": "00:46:28"
   },
   {
@@ -4051,8 +4051,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 9,
-    "name": "Lubi Ford (F)",
-    "club": "Pont-y-pwl A (23)",
+    "name": "Lubi Ford",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:46:42"
   },
   {
@@ -4063,8 +4063,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 10,
-    "name": "Rachael Aitken (F)",
-    "club": "Monross (17)",
+    "name": "Rachael Aitken",
+    "club": "Monross Trailblazers",
     "time": "00:46:50"
   },
   {
@@ -4075,8 +4075,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 11,
-    "name": "Sue Watson (F)",
-    "club": "Les Croupiers (14)",
+    "name": "Sue Watson",
+    "club": "Les Croupiers RC",
     "time": "00:46:56"
   },
   {
@@ -4087,8 +4087,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 12,
-    "name": "Corrina Jones (F)",
-    "club": "Aberdare (02)",
+    "name": "Corrina Jones",
+    "club": "Aberdare",
     "time": "00:47:14"
   },
   {
@@ -4099,8 +4099,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 13,
-    "name": "Rebekah Clarke (F)",
-    "club": "Caldicot (08)",
+    "name": "Rebekah Clarke",
+    "club": "Caldicot RC",
     "time": "00:49:13"
   },
   {
@@ -4111,8 +4111,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 14,
-    "name": "Rebecca Reily (F)",
-    "club": "Cornelly (11)",
+    "name": "Rebecca Reily",
+    "club": "Cornelly Striders",
     "time": "00:49:37"
   },
   {
@@ -4123,8 +4123,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 15,
-    "name": "Matthew Langford (M)",
-    "club": "Rhondda (25)",
+    "name": "Matthew Langford",
+    "club": "Rhondda Valley Runners",
     "time": "00:49:39"
   },
   {
@@ -4135,8 +4135,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 16,
-    "name": "Malc Gonnella (M)",
-    "club": "Builth (05)",
+    "name": "Malc Gonnella",
+    "club": "Builth & District RC",
     "time": "00:49:51"
   },
   {
@@ -4147,8 +4147,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 17,
-    "name": "Darren Woods (M)",
-    "club": "Pontyclun (21)",
+    "name": "Darren Woods",
+    "club": "Pontyclun Road Runners",
     "time": "00:49:55"
   },
   {
@@ -4159,8 +4159,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 18,
-    "name": "Isabel Hendry (F)",
-    "club": "Neath (18)",
+    "name": "Isabel Hendry",
+    "club": "Neath Harriers",
     "time": "00:50:16"
   },
   {
@@ -4171,8 +4171,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 19,
-    "name": "Ruth Richardson (F)",
-    "club": "Chepstow B (28)",
+    "name": "Ruth Richardson",
+    "club": "Chepstow Harriers",
     "time": "00:50:20"
   },
   {
@@ -4183,8 +4183,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 20,
-    "name": "Nadene Leder (F)",
-    "club": "Albany (03)",
+    "name": "Nadene Leder",
+    "club": "Albany Road Club",
     "time": "00:51:10"
   },
   {
@@ -4195,8 +4195,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 21,
-    "name": "Nick Sloper (M)",
-    "club": "Monmouth (16)",
+    "name": "Nick Sloper",
+    "club": "Spirit of Monmouth",
     "time": "00:51:31"
   },
   {
@@ -4207,8 +4207,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 22,
-    "name": "Stephanie Morgan (F)",
-    "club": "Porthcawl (24)",
+    "name": "Stephanie Morgan",
+    "club": "Porthcawl Runners",
     "time": "00:53:57"
   },
   {
@@ -4219,8 +4219,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 23,
-    "name": "Marina Konstantinova (F)",
-    "club": "Ogmore (19)",
+    "name": "Marina Konstantinova",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:54:20"
   },
   {
@@ -4231,8 +4231,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 24,
-    "name": "Nia Reddy (F)",
-    "club": "Pontypridd (22)",
+    "name": "Nia Reddy",
+    "club": "Pontypridd Roadents",
     "time": "00:54:32"
   },
   {
@@ -4243,8 +4243,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 25,
-    "name": "Mikiko Minty (F)",
-    "club": "Griffithstown (12)",
+    "name": "Mikiko Minty",
+    "club": "Griffithstown Harriers",
     "time": "00:54:58"
   },
   {
@@ -4255,8 +4255,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 26,
-    "name": "Evie Hoare (F)",
-    "club": "Fairwater B (30)",
+    "name": "Evie Hoare",
+    "club": "Fairwater Runners",
     "time": "00:55:32"
   },
   {
@@ -4267,8 +4267,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 27,
-    "name": "Owen Higgs (M)",
-    "club": "Caerphilly (07)",
+    "name": "Owen Higgs",
+    "club": "Caerphilly Runners",
     "time": "00:55:37"
   },
   {
@@ -4279,8 +4279,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 28,
-    "name": "Lucy Whittall (F)",
-    "club": "CDF (09)",
+    "name": "Lucy Whittall",
+    "club": "CDF Runners",
     "time": "00:58:08"
   },
   {
@@ -4291,8 +4291,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 29,
-    "name": "Andrea Erail (F)",
-    "club": "Brackla (04)",
+    "name": "Andrea Erail",
+    "club": "Brackla Harriers",
     "time": "01:00:00"
   },
   {
@@ -4303,8 +4303,8 @@ const relayResults = [
     "miles": 6.64,
     "km": 10.7,
     "position": 30,
-    "name": "Jessica Henry (F)",
-    "club": "Fairwater A (01)",
+    "name": "Jessica Henry",
+    "club": "Fairwater Runners",
     "time": "01:00:01"
   },
   {
@@ -4315,8 +4315,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 1,
-    "name": "Ian Ogilvie (M)",
-    "club": "Brackla (04)",
+    "name": "Ian Ogilvie",
+    "club": "Brackla Harriers",
     "time": "00:39:39"
   },
   {
@@ -4327,8 +4327,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 2,
-    "name": "Kimberley Price (F)",
-    "club": "Parc (20)",
+    "name": "Kimberley Price",
+    "club": "Parc Bryn Bach RC",
     "time": "00:40:03"
   },
   {
@@ -4339,8 +4339,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 3,
-    "name": "Rhodri Thomas (M)",
-    "club": "Ogmore (19)",
+    "name": "Rhodri Thomas",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:41:13"
   },
   {
@@ -4351,8 +4351,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 4,
-    "name": "Aimee Ferguson (F)",
-    "club": "Builth (05)",
+    "name": "Aimee Ferguson",
+    "club": "Builth & District RC",
     "time": "00:41:40"
   },
   {
@@ -4363,8 +4363,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 5,
-    "name": "Sarah Hamill (F)",
-    "club": "Les Croupiers (14)",
+    "name": "Sarah Hamill",
+    "club": "Les Croupiers RC",
     "time": "00:41:48"
   },
   {
@@ -4375,8 +4375,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 6,
-    "name": "Sarah Woodley-Williams (F)",
-    "club": "San Domenico (26)",
+    "name": "Sarah Woodley-Williams",
+    "club": "San Domenico RC",
     "time": "00:41:57"
   },
   {
@@ -4387,8 +4387,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 7,
-    "name": "Caroline Duder (F)",
-    "club": "Chepstow A (10)",
+    "name": "Caroline Duder",
+    "club": "Chepstow Harriers",
     "time": "00:42:35"
   },
   {
@@ -4399,8 +4399,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 8,
-    "name": "Bethan Richardson (F)",
-    "club": "Pont-y-pwl A (23)",
+    "name": "Bethan Richardson",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:42:49"
   },
   {
@@ -4411,8 +4411,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 9,
-    "name": "Liz Richards (F)",
-    "club": "Caerleon A (06)",
+    "name": "Liz Richards",
+    "club": "Caerleon RC",
     "time": "00:43:13"
   },
   {
@@ -4423,8 +4423,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 10,
-    "name": "Laura Lelievre (F)",
-    "club": "Monross (17)",
+    "name": "Laura Lelievre",
+    "club": "Monross Trailblazers",
     "time": "00:43:54"
   },
   {
@@ -4435,8 +4435,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 11,
-    "name": "Jen Daffin (F)",
-    "club": "Pontypridd (22)",
+    "name": "Jen Daffin",
+    "club": "Pontypridd Roadents",
     "time": "00:44:36"
   },
   {
@@ -4447,8 +4447,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 12,
-    "name": "Lisa Jeffrey (F)",
-    "club": "Chepstow B (28)",
+    "name": "Lisa Jeffrey",
+    "club": "Chepstow Harriers",
     "time": "00:44:39"
   },
   {
@@ -4460,7 +4460,7 @@ const relayResults = [
     "km": 8.7,
     "position": 13,
     "name": "Martin BroroughM",
-    "club": "Monmouth (16)",
+    "club": "Spirit of Monmouth",
     "time": "00:45:00"
   },
   {
@@ -4471,8 +4471,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 14,
-    "name": "Zoe Windos (F)",
-    "club": "Cornelly (11)",
+    "name": "Zoe Windos",
+    "club": "Cornelly Striders",
     "time": "00:45:22"
   },
   {
@@ -4483,8 +4483,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 15,
-    "name": "Steve Williams (M)",
-    "club": "Neath (18)",
+    "name": "Steve Williams",
+    "club": "Neath Harriers",
     "time": "00:45:46"
   },
   {
@@ -4495,8 +4495,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 16,
-    "name": "Chloe Buttery (F)",
-    "club": "Caldicot (08)",
+    "name": "Chloe Buttery",
+    "club": "Caldicot RC",
     "time": "00:46:13"
   },
   {
@@ -4507,8 +4507,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 17,
-    "name": "Catherine Sharp (F)",
-    "club": "Pontyclun (21)",
+    "name": "Catherine Sharp",
+    "club": "Pontyclun Road Runners",
     "time": "00:46:59"
   },
   {
@@ -4519,8 +4519,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 18,
-    "name": "Karen Southgate (F)",
-    "club": "Pont-y-pwl B (29)",
+    "name": "Karen Southgate",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:47:00"
   },
   {
@@ -4531,8 +4531,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 19,
-    "name": "Carys Jenkins (F)",
-    "club": "Porthcawl (24)",
+    "name": "Carys Jenkins",
+    "club": "Porthcawl Runners",
     "time": "00:47:10"
   },
   {
@@ -4543,8 +4543,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 20,
-    "name": "Sarah-Louise Francis (F)",
-    "club": "Lliswerry (15)",
+    "name": "Sarah-Louise Francis",
+    "club": "Lliswerry Runners",
     "time": "00:47:13"
   },
   {
@@ -4555,8 +4555,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 21,
-    "name": "Andrea Matthews (F)",
-    "club": "Aberdare (02)",
+    "name": "Andrea Matthews",
+    "club": "Aberdare",
     "time": "00:47:41"
   },
   {
@@ -4567,8 +4567,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 22,
-    "name": "Cari Sawyer (F)",
-    "club": "Albany (03)",
+    "name": "Cari Sawyer",
+    "club": "Albany Road Club",
     "time": "00:48:38"
   },
   {
@@ -4579,8 +4579,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 23,
-    "name": "Charlotte Davies (F)",
-    "club": "Islwyn (13)",
+    "name": "Charlotte Davies",
+    "club": "Islwyn RC",
     "time": "00:48:58"
   },
   {
@@ -4591,8 +4591,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 24,
-    "name": "Catherine James (F)",
-    "club": "Caerphilly (07)",
+    "name": "Catherine James",
+    "club": "Caerphilly Runners",
     "time": "00:49:00"
   },
   {
@@ -4603,8 +4603,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 25,
-    "name": "Clare Jeffries (F)",
-    "club": "Caerleon B (27)",
+    "name": "Clare Jeffries",
+    "club": "Caerleon RC",
     "time": "00:49:01"
   },
   {
@@ -4615,8 +4615,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 26,
-    "name": "Jennifer McPadden (F)",
-    "club": "Griffithstown (12)",
+    "name": "Jennifer McPadden",
+    "club": "Griffithstown Harriers",
     "time": "00:49:02"
   },
   {
@@ -4627,8 +4627,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 27,
-    "name": "Meghan Brickley (F)",
-    "club": "Fairwater A (01)",
+    "name": "Meghan Brickley",
+    "club": "Fairwater Runners",
     "time": "00:49:03"
   },
   {
@@ -4639,8 +4639,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 28,
-    "name": "Katie Lamb (F)",
-    "club": "CDF (09)",
+    "name": "Katie Lamb",
+    "club": "CDF Runners",
     "time": "00:49:04"
   },
   {
@@ -4651,8 +4651,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 29,
-    "name": "Natalie Bartlett (F)",
-    "club": "Rhondda (25)",
+    "name": "Natalie Bartlett",
+    "club": "Rhondda Valley Runners",
     "time": "00:49:05"
   },
   {
@@ -4663,8 +4663,8 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 30,
-    "name": "Alison Davis (F)",
-    "club": "Fairwater B (30)",
+    "name": "Alison Davis",
+    "club": "Fairwater Runners",
     "time": "00:59:00"
   },
   {
@@ -4675,8 +4675,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 1,
-    "name": "Aiden Zembrzuski (M)",
-    "club": "Builth (05)",
+    "name": "Aiden Zembrzuski",
+    "club": "Builth & District RC",
     "time": "00:28:42"
   },
   {
@@ -4687,8 +4687,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 2,
-    "name": "Liam Oak (M)",
-    "club": "Neath (18)",
+    "name": "Liam Oak",
+    "club": "Neath Harriers",
     "time": "00:29:36"
   },
   {
@@ -4699,8 +4699,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 3,
-    "name": "Maisie Pearce (F)",
-    "club": "Parc (20)",
+    "name": "Maisie Pearce",
+    "club": "Parc Bryn Bach RC",
     "time": "00:35:03"
   },
   {
@@ -4711,8 +4711,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 4,
-    "name": "Lilly Jacklin (F)",
-    "club": "Aberdare (02)",
+    "name": "Lilly Jacklin",
+    "club": "Aberdare",
     "time": "00:35:35"
   },
   {
@@ -4723,8 +4723,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 5,
-    "name": "Jhon Hewitt (M)",
-    "club": "San Domenico (26)",
+    "name": "Jhon Hewitt",
+    "club": "San Domenico RC",
     "time": "00:36:13"
   },
   {
@@ -4735,8 +4735,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 6,
-    "name": "Megan Gore (F)",
-    "club": "Monross (17)",
+    "name": "Megan Gore",
+    "club": "Monross Trailblazers",
     "time": "00:36:28"
   },
   {
@@ -4747,8 +4747,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 7,
-    "name": "Rachel Bowen (F)",
-    "club": "Lliswerry (15)",
+    "name": "Rachel Bowen",
+    "club": "Lliswerry Runners",
     "time": "00:37:55"
   },
   {
@@ -4759,8 +4759,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 8,
-    "name": "Jane Roscoe (F)",
-    "club": "Chepstow B (28)",
+    "name": "Jane Roscoe",
+    "club": "Chepstow Harriers",
     "time": "00:38:10"
   },
   {
@@ -4771,8 +4771,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 9,
-    "name": "Abbie Thomas (F)",
-    "club": "Caerleon A (06)",
+    "name": "Abbie Thomas",
+    "club": "Caerleon RC",
     "time": "00:38:38"
   },
   {
@@ -4783,8 +4783,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 10,
-    "name": "Anthony Wilkinson (M)",
-    "club": "Cornelly (11)",
+    "name": "Anthony Wilkinson",
+    "club": "Cornelly Striders",
     "time": "00:38:43"
   },
   {
@@ -4795,8 +4795,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 11,
-    "name": "Mary Lynes (F)",
-    "club": "Chepstow A (10)",
+    "name": "Mary Lynes",
+    "club": "Chepstow Harriers",
     "time": "00:38:46"
   },
   {
@@ -4807,8 +4807,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 12,
-    "name": "Lee Bodenham (F)",
-    "club": "Porthcawl (24)",
+    "name": "Lee Bodenham",
+    "club": "Porthcawl Runners",
     "time": "00:39:01"
   },
   {
@@ -4819,8 +4819,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 13,
-    "name": "Molly Dennis (F)",
-    "club": "Les Croupiers (14)",
+    "name": "Molly Dennis",
+    "club": "Les Croupiers RC",
     "time": "00:39:07"
   },
   {
@@ -4831,8 +4831,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 14,
-    "name": "Robyn Lee (F)",
-    "club": "Albany (03)",
+    "name": "Robyn Lee",
+    "club": "Albany Road Club",
     "time": "00:39:44"
   },
   {
@@ -4843,8 +4843,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 15,
-    "name": "Michelle Johnson (F)",
-    "club": "Islwyn (13)",
+    "name": "Michelle Johnson",
+    "club": "Islwyn RC",
     "time": "00:40:55"
   },
   {
@@ -4855,8 +4855,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 16,
-    "name": "Emily Adams (F)",
-    "club": "Pontypridd (22)",
+    "name": "Emily Adams",
+    "club": "Pontypridd Roadents",
     "time": "00:41:02"
   },
   {
@@ -4867,8 +4867,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 17,
-    "name": "Samantha Sinclair (F)",
-    "club": "Pont-y-pwl A (23)",
+    "name": "Samantha Sinclair",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:41:49"
   },
   {
@@ -4879,8 +4879,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 18,
-    "name": "Jo Jenkins (F)",
-    "club": "Ogmore (19)",
+    "name": "Jo Jenkins",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:41:53"
   },
   {
@@ -4891,8 +4891,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 19,
-    "name": "Sarah Roberts (F)",
-    "club": "Griffithstown (12)",
+    "name": "Sarah Roberts",
+    "club": "Griffithstown Harriers",
     "time": "00:42:25"
   },
   {
@@ -4903,8 +4903,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 20,
-    "name": "Juliana Reimberg (F)",
-    "club": "CDF (09)",
+    "name": "Juliana Reimberg",
+    "club": "CDF Runners",
     "time": "00:42:46"
   },
   {
@@ -4915,8 +4915,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 21,
-    "name": "Jojo Train (F)",
-    "club": "Caldicot (08)",
+    "name": "Jojo Train",
+    "club": "Caldicot RC",
     "time": "00:43:16"
   },
   {
@@ -4927,8 +4927,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 22,
-    "name": "Lizzie Marsh (F)",
-    "club": "Caerleon B (27)",
+    "name": "Lizzie Marsh",
+    "club": "Caerleon RC",
     "time": "00:43:57"
   },
   {
@@ -4939,8 +4939,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 23,
-    "name": "Rachel Waters (F)",
-    "club": "Monmouth (16)",
+    "name": "Rachel Waters",
+    "club": "Spirit of Monmouth",
     "time": "00:44:02"
   },
   {
@@ -4951,8 +4951,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 24,
-    "name": "Louise Bright (F)",
-    "club": "Pont-y-pwl B (29)",
+    "name": "Louise Bright",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:44:47"
   },
   {
@@ -4963,8 +4963,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 25,
-    "name": "Martyn Jones (M)",
-    "club": "Brackla (04)",
+    "name": "Martyn Jones",
+    "club": "Brackla Harriers",
     "time": "00:44:58"
   },
   {
@@ -4975,8 +4975,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 26,
-    "name": "Rebecca Davies (F)",
-    "club": "Rhondda (25)",
+    "name": "Rebecca Davies",
+    "club": "Rhondda Valley Runners",
     "time": "00:45:57"
   },
   {
@@ -4987,8 +4987,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 27,
-    "name": "Sarah Scorey (F)",
-    "club": "Pontyclun (21)",
+    "name": "Sarah Scorey",
+    "club": "Pontyclun Road Runners",
     "time": "00:46:00"
   },
   {
@@ -4999,8 +4999,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 28,
-    "name": "Elizabeth Stephens (F)",
-    "club": "Caerphilly (07)",
+    "name": "Elizabeth Stephens",
+    "club": "Caerphilly Runners",
     "time": "00:46:01"
   },
   {
@@ -5011,8 +5011,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 29,
-    "name": "Megan Jackson (F)",
-    "club": "Fairwater A (01)",
+    "name": "Megan Jackson",
+    "club": "Fairwater Runners",
     "time": "00:46:02"
   },
   {
@@ -5023,8 +5023,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 30,
-    "name": "Helen Brown (F)",
-    "club": "Fairwater B (30)",
+    "name": "Helen Brown",
+    "club": "Fairwater Runners",
     "time": "00:56:00"
   },
   {
@@ -5035,8 +5035,8 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 1,
-    "name": "Clare Patterson (M)",
-    "club": "Parc (81)",
+    "name": "Clare Patterson",
+    "club": "Parc Bryn Bach RC",
     "time": "00:31:14"
   },
   {
@@ -5048,7 +5048,7 @@ const relayResults = [
     "km": 8.2,
     "position": 2,
     "name": "Lauren Mackie",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:00:24"
   },
   {
@@ -5060,7 +5060,7 @@ const relayResults = [
     "km": 8.2,
     "position": 3,
     "name": "Bryan Meredith",
-    "club": "Rhondda (87)",
+    "club": "Rhondda Valley Runners",
     "time": "00:32:49"
   },
   {
@@ -5072,7 +5072,7 @@ const relayResults = [
     "km": 8.2,
     "position": 4,
     "name": "Jen Coleman",
-    "club": "Les Croupiers A (75)",
+    "club": "Les Croupiers RC",
     "time": "00:33:51"
   },
   {
@@ -5084,7 +5084,7 @@ const relayResults = [
     "km": 8.2,
     "position": 5,
     "name": "Elin Lewis",
-    "club": "Caerphilly (65)",
+    "club": "Caerphilly Runners",
     "time": "00:34:12"
   },
   {
@@ -5096,7 +5096,7 @@ const relayResults = [
     "km": 8.2,
     "position": 6,
     "name": "Emily Laing",
-    "club": "Caerleon A (63)",
+    "club": "Caerleon RC",
     "time": "00:34:22"
   },
   {
@@ -5108,7 +5108,7 @@ const relayResults = [
     "km": 8.2,
     "position": 7,
     "name": "Liz Joslin",
-    "club": "Caldicot (66)",
+    "club": "Caldicot RC",
     "time": "00:34:30"
   },
   {
@@ -5120,7 +5120,7 @@ const relayResults = [
     "km": 8.2,
     "position": 8,
     "name": "Laura Lelievre",
-    "club": "Monross (79)",
+    "club": "Monross Trailblazers",
     "time": "00:34:56"
   },
   {
@@ -5132,7 +5132,7 @@ const relayResults = [
     "km": 8.2,
     "position": 9,
     "name": "Sarah Heath",
-    "club": "Spirit (89)",
+    "club": "Spirit of Monmouth",
     "time": "00:35:26"
   },
   {
@@ -5144,7 +5144,7 @@ const relayResults = [
     "km": 8.2,
     "position": 10,
     "name": "Rachel Bowen",
-    "club": "Lliswerry A (77)",
+    "club": "Lliswerry Runners",
     "time": "00:35:35"
   },
   {
@@ -5156,7 +5156,7 @@ const relayResults = [
     "km": 8.2,
     "position": 11,
     "name": "Julia Bajjada",
-    "club": "Chepstow A (68)",
+    "club": "Chepstow Harriers",
     "time": "00:36:24"
   },
   {
@@ -5168,7 +5168,7 @@ const relayResults = [
     "km": 8.2,
     "position": 12,
     "name": "Charlotte O’Leary",
-    "club": "San Domenico (88)",
+    "club": "San Domenico RC",
     "time": "00:37:19"
   },
   {
@@ -5180,7 +5180,7 @@ const relayResults = [
     "km": 8.2,
     "position": 13,
     "name": "Siwan Purkis",
-    "club": "Caerleon B (64)",
+    "club": "Caerleon RC",
     "time": "00:37:35"
   },
   {
@@ -5192,7 +5192,7 @@ const relayResults = [
     "km": 8.2,
     "position": 14,
     "name": "Marisa Benjamin",
-    "club": "Pont-y-pwl A (84)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:39:21"
   },
   {
@@ -5204,7 +5204,7 @@ const relayResults = [
     "km": 8.2,
     "position": 15,
     "name": "Samantha Bills",
-    "club": "Parc (82)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:39:46"
   },
   {
@@ -5216,7 +5216,7 @@ const relayResults = [
     "km": 8.2,
     "position": 16,
     "name": "Jane Ogilvie",
-    "club": "Brackla (61)",
+    "club": "Brackla Harriers",
     "time": "00:40:21"
   },
   {
@@ -5228,7 +5228,7 @@ const relayResults = [
     "km": 8.2,
     "position": 17,
     "name": "Charlotte Davis",
-    "club": "Islwyn A (73)",
+    "club": "Islwyn RC",
     "time": "00:40:42"
   },
   {
@@ -5240,7 +5240,7 @@ const relayResults = [
     "km": 8.2,
     "position": 18,
     "name": "Katy Barfoot",
-    "club": "Pontypridd (86)",
+    "club": "Pontypridd Roadents",
     "time": "00:40:50"
   },
   {
@@ -5252,7 +5252,7 @@ const relayResults = [
     "km": 8.2,
     "position": 19,
     "name": "Kate Humphreys",
-    "club": "Lliswerry B (78)",
+    "club": "Lliswerry Runners",
     "time": "00:41:00"
   },
   {
@@ -5276,7 +5276,7 @@ const relayResults = [
     "km": 8.2,
     "position": 21,
     "name": "Julie Lees",
-    "club": "Fairwater A (70)",
+    "club": "Fairwater Runners",
     "time": "00:41:54"
   },
   {
@@ -5288,7 +5288,7 @@ const relayResults = [
     "km": 8.2,
     "position": 22,
     "name": "Megan Smith",
-    "club": "CDF (67)",
+    "club": "CDF Runners",
     "time": "00:42:01"
   },
   {
@@ -5300,7 +5300,7 @@ const relayResults = [
     "km": 8.2,
     "position": 23,
     "name": "Mikiko Minty",
-    "club": "Griffithstown (72)",
+    "club": "Griffithstown Harriers",
     "time": "00:42:34"
   },
   {
@@ -5312,7 +5312,7 @@ const relayResults = [
     "km": 8.2,
     "position": 24,
     "name": "Hayley Coristine",
-    "club": "Chepstow B (69)",
+    "club": "Chepstow Harriers",
     "time": "00:43:31"
   },
   {
@@ -5324,7 +5324,7 @@ const relayResults = [
     "km": 8.2,
     "position": 25,
     "name": "Karen Francis",
-    "club": "Les Croupiers B (76)",
+    "club": "Les Croupiers RC",
     "time": "00:43:39"
   },
   {
@@ -5336,7 +5336,7 @@ const relayResults = [
     "km": 8.2,
     "position": 26,
     "name": "Nigel Hammersley",
-    "club": "Pegasus (83)",
+    "club": "Pegasus RC",
     "time": "00:44:21"
   },
   {
@@ -5348,7 +5348,7 @@ const relayResults = [
     "km": 8.2,
     "position": 27,
     "name": "Sian Edwards",
-    "club": "Islwyn B (74)",
+    "club": "Islwyn RC",
     "time": "00:45:42"
   },
   {
@@ -5360,7 +5360,7 @@ const relayResults = [
     "km": 8.2,
     "position": 28,
     "name": "Leanne Parsons",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:00:01"
   },
   {
@@ -5372,7 +5372,7 @@ const relayResults = [
     "km": 8.2,
     "position": 29,
     "name": "Helen Brown",
-    "club": "Fairwater B (71)",
+    "club": "Fairwater Runners",
     "time": "00:46:02"
   },
   {
@@ -5384,7 +5384,7 @@ const relayResults = [
     "km": 11.2,
     "position": 1,
     "name": "Jack Reddy",
-    "club": "Pontypridd (86)",
+    "club": "Pontypridd Roadents",
     "time": "00:41:35"
   },
   {
@@ -5396,7 +5396,7 @@ const relayResults = [
     "km": 11.2,
     "position": 2,
     "name": "Jack Rowland",
-    "club": "Lliswerry A (77)",
+    "club": "Lliswerry Runners",
     "time": "00:45:59"
   },
   {
@@ -5408,7 +5408,7 @@ const relayResults = [
     "km": 11.2,
     "position": 3,
     "name": "Alexander James",
-    "club": "CDF (67)",
+    "club": "CDF Runners",
     "time": "00:46:21"
   },
   {
@@ -5420,7 +5420,7 @@ const relayResults = [
     "km": 11.2,
     "position": 4,
     "name": "Carl Nealon",
-    "club": "Les Croupiers A (75)",
+    "club": "Les Croupiers RC",
     "time": "00:48:12"
   },
   {
@@ -5432,7 +5432,7 @@ const relayResults = [
     "km": 11.2,
     "position": 5,
     "name": "Grant White",
-    "club": "Monross (79)",
+    "club": "Monross Trailblazers",
     "time": "00:48:50"
   },
   {
@@ -5444,7 +5444,7 @@ const relayResults = [
     "km": 11.2,
     "position": 6,
     "name": "Lowenna Huggins",
-    "club": "Caerleon A (63)",
+    "club": "Caerleon RC",
     "time": "00:49:13"
   },
   {
@@ -5456,7 +5456,7 @@ const relayResults = [
     "km": 11.2,
     "position": 7,
     "name": "Niki Morgan",
-    "club": "Chepstow A (68)",
+    "club": "Chepstow Harriers",
     "time": "00:49:28"
   },
   {
@@ -5468,7 +5468,7 @@ const relayResults = [
     "km": 11.2,
     "position": 8,
     "name": "Kimberley Price",
-    "club": "Parc (81)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:50:36"
   },
   {
@@ -5480,7 +5480,7 @@ const relayResults = [
     "km": 11.2,
     "position": 9,
     "name": "Steve Lane",
-    "club": "Islwyn A (73)",
+    "club": "Islwyn RC",
     "time": "00:50:53"
   },
   {
@@ -5492,7 +5492,7 @@ const relayResults = [
     "km": 11.2,
     "position": 10,
     "name": "Matthew Visser",
-    "club": "Spirit (89)",
+    "club": "Spirit of Monmouth",
     "time": "00:51:47"
   },
   {
@@ -5504,7 +5504,7 @@ const relayResults = [
     "km": 11.2,
     "position": 11,
     "name": "Megan Poulson",
-    "club": "San Domenico (88)",
+    "club": "San Domenico RC",
     "time": "00:51:53"
   },
   {
@@ -5516,7 +5516,7 @@ const relayResults = [
     "km": 11.2,
     "position": 12,
     "name": "Kieran Chaplin",
-    "club": "Lliswerry B (78)",
+    "club": "Lliswerry Runners",
     "time": "00:51:55"
   },
   {
@@ -5528,7 +5528,7 @@ const relayResults = [
     "km": 11.2,
     "position": 13,
     "name": "Lloyd Hambridge",
-    "club": "Islwyn B (74)",
+    "club": "Islwyn RC",
     "time": "00:52:41"
   },
   {
@@ -5540,7 +5540,7 @@ const relayResults = [
     "km": 11.2,
     "position": 14,
     "name": "Carys Thomas",
-    "club": "Aberdare (60)",
+    "club": "Aberdare",
     "time": "00:54:40"
   },
   {
@@ -5552,7 +5552,7 @@ const relayResults = [
     "km": 11.2,
     "position": 15,
     "name": "Polly Lord",
-    "club": "Caldicot (66)",
+    "club": "Caldicot RC",
     "time": "00:55:11"
   },
   {
@@ -5564,7 +5564,7 @@ const relayResults = [
     "km": 11.2,
     "position": 16,
     "name": "Emily Sams",
-    "club": "Caerphilly (65)",
+    "club": "Caerphilly Runners",
     "time": "00:55:31"
   },
   {
@@ -5576,7 +5576,7 @@ const relayResults = [
     "km": 11.2,
     "position": 17,
     "name": "Richard Self",
-    "club": "Les Croupiers B (76)",
+    "club": "Les Croupiers RC",
     "time": "00:56:04"
   },
   {
@@ -5588,7 +5588,7 @@ const relayResults = [
     "km": 11.2,
     "position": 18,
     "name": "Ade Parry-Welson",
-    "club": "Griffithstown (72)",
+    "club": "Griffithstown Harriers",
     "time": "00:57:18"
   },
   {
@@ -5600,7 +5600,7 @@ const relayResults = [
     "km": 11.2,
     "position": 19,
     "name": "Janet Edwards",
-    "club": "Rhondda (87)",
+    "club": "Rhondda Valley Runners",
     "time": "00:57:23"
   },
   {
@@ -5612,7 +5612,7 @@ const relayResults = [
     "km": 11.2,
     "position": 20,
     "name": "Michelle Gooch",
-    "club": "Pont-y-pwl A (84)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:58:11"
   },
   {
@@ -5624,7 +5624,7 @@ const relayResults = [
     "km": 11.2,
     "position": 21,
     "name": "Jan Morris",
-    "club": "Chepstow B (69)",
+    "club": "Chepstow Harriers",
     "time": "00:58:34"
   },
   {
@@ -5636,7 +5636,7 @@ const relayResults = [
     "km": 11.2,
     "position": 22,
     "name": "Emily Ay",
-    "club": "Pegasus (83)",
+    "club": "Pegasus RC",
     "time": "00:59:53"
   },
   {
@@ -5648,7 +5648,7 @@ const relayResults = [
     "km": 11.2,
     "position": 23,
     "name": "Victoria Boxhall-James",
-    "club": "Parc (82)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:00:22"
   },
   {
@@ -5660,7 +5660,7 @@ const relayResults = [
     "km": 11.2,
     "position": 24,
     "name": "Elizabeth Walsh",
-    "club": "Fairwater A (70)",
+    "club": "Fairwater Runners",
     "time": "01:01:49"
   },
   {
@@ -5684,7 +5684,7 @@ const relayResults = [
     "km": 11.2,
     "position": 26,
     "name": "Carys Landon",
-    "club": "Brackla (61)",
+    "club": "Brackla Harriers",
     "time": "01:02:01"
   },
   {
@@ -5696,7 +5696,7 @@ const relayResults = [
     "km": 11.2,
     "position": 27,
     "name": "Yangi Vundamina",
-    "club": "Caerleon B (64)",
+    "club": "Caerleon RC",
     "time": "01:02:02"
   },
   {
@@ -5708,7 +5708,7 @@ const relayResults = [
     "km": 11.2,
     "position": 28,
     "name": "Maria Richards",
-    "club": "Pont-y-pwl B (85)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:02:03"
   },
   {
@@ -5720,7 +5720,7 @@ const relayResults = [
     "km": 11.2,
     "position": 29,
     "name": "Gemma Richards",
-    "club": "Ogmore (80)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:02:04"
   },
   {
@@ -5732,7 +5732,7 @@ const relayResults = [
     "km": 11.2,
     "position": 30,
     "name": "Heather Rumble",
-    "club": "Fairwater B (71)",
+    "club": "Fairwater Runners",
     "time": "01:02:05"
   },
   {
@@ -5744,7 +5744,7 @@ const relayResults = [
     "km": 12.1,
     "position": 1,
     "name": "Ross Matthews",
-    "club": "Parc (81)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:42:45"
   },
   {
@@ -5756,7 +5756,7 @@ const relayResults = [
     "km": 12.1,
     "position": 2,
     "name": "Martin Johns",
-    "club": "Lliswerry A (77)",
+    "club": "Lliswerry Runners",
     "time": "00:45:47"
   },
   {
@@ -5768,7 +5768,7 @@ const relayResults = [
     "km": 12.1,
     "position": 3,
     "name": "Charlie Bleasdale",
-    "club": "Pontypridd (86)",
+    "club": "Pontypridd Roadents",
     "time": "00:46:40"
   },
   {
@@ -5780,7 +5780,7 @@ const relayResults = [
     "km": 12.1,
     "position": 4,
     "name": "Ash Temudo",
-    "club": "Caldicot (66)",
+    "club": "Caldicot RC",
     "time": "00:46:44"
   },
   {
@@ -5792,7 +5792,7 @@ const relayResults = [
     "km": 12.1,
     "position": 5,
     "name": "Anthony Marshal",
-    "club": "Chepstow A (68)",
+    "club": "Chepstow Harriers",
     "time": "00:47:06"
   },
   {
@@ -5804,7 +5804,7 @@ const relayResults = [
     "km": 12.1,
     "position": 6,
     "name": "Steve Drewitt",
-    "club": "Fairwater A (70)",
+    "club": "Fairwater Runners",
     "time": "00:47:41"
   },
   {
@@ -5816,7 +5816,7 @@ const relayResults = [
     "km": 12.1,
     "position": 7,
     "name": "Craig Hopkins",
-    "club": "Pont-y-pwl A (84)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:47:47"
   },
   {
@@ -5828,7 +5828,7 @@ const relayResults = [
     "km": 12.1,
     "position": 8,
     "name": "Andy Hughes",
-    "club": "Chepstow B (69)",
+    "club": "Chepstow Harriers",
     "time": "00:48:12"
   },
   {
@@ -5840,7 +5840,7 @@ const relayResults = [
     "km": 12.1,
     "position": 9,
     "name": "Richard Matthews",
-    "club": "Aberdare (60)",
+    "club": "Aberdare",
     "time": "00:48:13"
   },
   {
@@ -5852,7 +5852,7 @@ const relayResults = [
     "km": 12.1,
     "position": 10,
     "name": "Leighton Everett",
-    "club": "Lliswerry B (78)",
+    "club": "Lliswerry Runners",
     "time": "00:50:47"
   },
   {
@@ -5864,7 +5864,7 @@ const relayResults = [
     "km": 12.1,
     "position": 11,
     "name": "Neil Profit",
-    "club": "Islwyn B (74)",
+    "club": "Islwyn RC",
     "time": "00:52:00"
   },
   {
@@ -5876,7 +5876,7 @@ const relayResults = [
     "km": 12.1,
     "position": 12,
     "name": "Kimberley Mcgourlick",
-    "club": "Islwyn A (73)",
+    "club": "Islwyn RC",
     "time": "00:52:25"
   },
   {
@@ -5888,7 +5888,7 @@ const relayResults = [
     "km": 12.1,
     "position": 13,
     "name": "Rachael Baralos",
-    "club": "Caerphilly (65)",
+    "club": "Caerphilly Runners",
     "time": "00:52:45"
   },
   {
@@ -5900,7 +5900,7 @@ const relayResults = [
     "km": 12.1,
     "position": 14,
     "name": "Sarah Hamill",
-    "club": "Les Croupiers A (75)",
+    "club": "Les Croupiers RC",
     "time": "00:53:14"
   },
   {
@@ -5912,7 +5912,7 @@ const relayResults = [
     "km": 12.1,
     "position": 15,
     "name": "Elaine Wharmby",
-    "club": "Brackla (61)",
+    "club": "Brackla Harriers",
     "time": "00:53:26"
   },
   {
@@ -5924,7 +5924,7 @@ const relayResults = [
     "km": 12.1,
     "position": 16,
     "name": "Vicky Roberts",
-    "club": "Spirit (89)",
+    "club": "Spirit of Monmouth",
     "time": "00:54:24"
   },
   {
@@ -5936,7 +5936,7 @@ const relayResults = [
     "km": 12.1,
     "position": 17,
     "name": "Jason Pritchard",
-    "club": "Caerleon A (63)",
+    "club": "Caerleon RC",
     "time": "00:55:00"
   },
   {
@@ -5948,7 +5948,7 @@ const relayResults = [
     "km": 12.1,
     "position": 18,
     "name": "Scott Greaves",
-    "club": "Parc (82)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:55:54"
   },
   {
@@ -5960,7 +5960,7 @@ const relayResults = [
     "km": 12.1,
     "position": 19,
     "name": "Nadine Morgan",
-    "club": "San Domenico (88)",
+    "club": "San Domenico RC",
     "time": "00:56:04"
   },
   {
@@ -5972,7 +5972,7 @@ const relayResults = [
     "km": 12.1,
     "position": 20,
     "name": "Andrew Stephens",
-    "club": "Monross (79)",
+    "club": "Monross Trailblazers",
     "time": "00:57:03"
   },
   {
@@ -5984,7 +5984,7 @@ const relayResults = [
     "km": 12.1,
     "position": 21,
     "name": "Tony Mackay",
-    "club": "Pegasus (83)",
+    "club": "Pegasus RC",
     "time": "00:57:21"
   },
   {
@@ -5996,7 +5996,7 @@ const relayResults = [
     "km": 12.1,
     "position": 22,
     "name": "Justin Pocknell",
-    "club": "Caerleon B (64)",
+    "club": "Caerleon RC",
     "time": "00:57:31"
   },
   {
@@ -6008,7 +6008,7 @@ const relayResults = [
     "km": 12.1,
     "position": 23,
     "name": "Shane Baker",
-    "club": "Pont-y-pwl B (85)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:57:48"
   },
   {
@@ -6020,7 +6020,7 @@ const relayResults = [
     "km": 12.1,
     "position": 24,
     "name": "Natalie Davies",
-    "club": "Rhondda (87)",
+    "club": "Rhondda Valley Runners",
     "time": "00:58:58"
   },
   {
@@ -6032,7 +6032,7 @@ const relayResults = [
     "km": 12.1,
     "position": 25,
     "name": "Dallyn Shaw",
-    "club": "Griffithstown (72)",
+    "club": "Griffithstown Harriers",
     "time": "00:59:01"
   },
   {
@@ -6056,7 +6056,7 @@ const relayResults = [
     "km": 12.1,
     "position": 27,
     "name": "Donna Hamer",
-    "club": "Les Croupiers B (76)",
+    "club": "Les Croupiers RC",
     "time": "01:00:55"
   },
   {
@@ -6068,7 +6068,7 @@ const relayResults = [
     "km": 12.1,
     "position": 28,
     "name": "Marina Konstantinova",
-    "club": "Ogmore (80)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:02:09"
   },
   {
@@ -6080,7 +6080,7 @@ const relayResults = [
     "km": 12.1,
     "position": 29,
     "name": "Peri Vaughan Jones",
-    "club": "CDF (67)",
+    "club": "CDF Runners",
     "time": "01:03:17"
   },
   {
@@ -6092,7 +6092,7 @@ const relayResults = [
     "km": 12.1,
     "position": 30,
     "name": "Julie Roche",
-    "club": "Fairwater B (71)",
+    "club": "Fairwater Runners",
     "time": "01:04:04"
   },
   {
@@ -6104,7 +6104,7 @@ const relayResults = [
     "km": 10.8,
     "position": 1,
     "name": "Phillip Matthews",
-    "club": "Parc (81)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:36:47"
   },
   {
@@ -6116,7 +6116,7 @@ const relayResults = [
     "km": 10.8,
     "position": 2,
     "name": "Toby Culling",
-    "club": "San Domenico (88)",
+    "club": "San Domenico RC",
     "time": "00:42:58"
   },
   {
@@ -6128,7 +6128,7 @@ const relayResults = [
     "km": 10.8,
     "position": 3,
     "name": "Elizabeth Dimond",
-    "club": "Lliswerry A (77)",
+    "club": "Lliswerry Runners",
     "time": "00:43:17"
   },
   {
@@ -6140,7 +6140,7 @@ const relayResults = [
     "km": 10.8,
     "position": 4,
     "name": "Shaun Styles",
-    "club": "Griffithstown (72)",
+    "club": "Griffithstown Harriers",
     "time": "00:44:17"
   },
   {
@@ -6152,7 +6152,7 @@ const relayResults = [
     "km": 10.8,
     "position": 5,
     "name": "Wayne Humphreys",
-    "club": "Les Croupiers A (75)",
+    "club": "Les Croupiers RC",
     "time": "00:45:02"
   },
   {
@@ -6164,7 +6164,7 @@ const relayResults = [
     "km": 10.8,
     "position": 6,
     "name": "Stephen George",
-    "club": "Parc (82)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:45:33"
   },
   {
@@ -6176,7 +6176,7 @@ const relayResults = [
     "km": 10.8,
     "position": 7,
     "name": "Gareth Davies",
-    "club": "Pont-y-pwl A (84)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:46:15"
   },
   {
@@ -6188,7 +6188,7 @@ const relayResults = [
     "km": 10.8,
     "position": 8,
     "name": "Adrian Lewis",
-    "club": "Aberdare (60)",
+    "club": "Aberdare",
     "time": "00:47:14"
   },
   {
@@ -6200,7 +6200,7 @@ const relayResults = [
     "km": 10.8,
     "position": 9,
     "name": "Rhydian Darcy",
-    "club": "CDF (67)",
+    "club": "CDF Runners",
     "time": "00:48:00"
   },
   {
@@ -6212,7 +6212,7 @@ const relayResults = [
     "km": 10.8,
     "position": 10,
     "name": "Kathy Stringer",
-    "club": "Chepstow A (68)",
+    "club": "Chepstow Harriers",
     "time": "00:49:12"
   },
   {
@@ -6224,7 +6224,7 @@ const relayResults = [
     "km": 10.8,
     "position": 11,
     "name": "Lucinda Lumley",
-    "club": "Monross (79)",
+    "club": "Monross Trailblazers",
     "time": "00:49:26"
   },
   {
@@ -6236,7 +6236,7 @@ const relayResults = [
     "km": 10.8,
     "position": 12,
     "name": "John Hickman",
-    "club": "Caerphilly (65)",
+    "club": "Caerphilly Runners",
     "time": "00:51:35"
   },
   {
@@ -6248,7 +6248,7 @@ const relayResults = [
     "km": 10.8,
     "position": 13,
     "name": "Annette Sanford",
-    "club": "Lliswerry B (78)",
+    "club": "Lliswerry Runners",
     "time": "00:51:40"
   },
   {
@@ -6260,7 +6260,7 @@ const relayResults = [
     "km": 10.8,
     "position": 14,
     "name": "Phil Hyatt",
-    "club": "Caerleon A (63)",
+    "club": "Caerleon RC",
     "time": "00:51:50"
   },
   {
@@ -6272,7 +6272,7 @@ const relayResults = [
     "km": 10.8,
     "position": 15,
     "name": "Joseph Mordey",
-    "club": "Les Croupiers B (76)",
+    "club": "Les Croupiers RC",
     "time": "00:53:47"
   },
   {
@@ -6284,7 +6284,7 @@ const relayResults = [
     "km": 10.8,
     "position": 16,
     "name": "Katie Pescod",
-    "club": "Caldicot (66)",
+    "club": "Caldicot RC",
     "time": "00:53:59"
   },
   {
@@ -6308,7 +6308,7 @@ const relayResults = [
     "km": 10.8,
     "position": 18,
     "name": "James Exton",
-    "club": "Spirit (89)",
+    "club": "Spirit of Monmouth",
     "time": "00:54:33"
   },
   {
@@ -6320,7 +6320,7 @@ const relayResults = [
     "km": 10.8,
     "position": 19,
     "name": "Carl Edwards",
-    "club": "Rhondda (87)",
+    "club": "Rhondda Valley Runners",
     "time": "00:54:45"
   },
   {
@@ -6332,7 +6332,7 @@ const relayResults = [
     "km": 10.8,
     "position": 20,
     "name": "Michelle Johnson",
-    "club": "Islwyn A (73)",
+    "club": "Islwyn RC",
     "time": "00:55:23"
   },
   {
@@ -6344,7 +6344,7 @@ const relayResults = [
     "km": 10.8,
     "position": 21,
     "name": "Ruth Richardson",
-    "club": "Chepstow B (69)",
+    "club": "Chepstow Harriers",
     "time": "00:55:45"
   },
   {
@@ -6356,7 +6356,7 @@ const relayResults = [
     "km": 10.8,
     "position": 22,
     "name": "Mark Prosser",
-    "club": "Fairwater B (71)",
+    "club": "Fairwater Runners",
     "time": "00:56:56"
   },
   {
@@ -6368,7 +6368,7 @@ const relayResults = [
     "km": 10.8,
     "position": 23,
     "name": "Coral Putman",
-    "club": "Islwyn B (74)",
+    "club": "Islwyn RC",
     "time": "00:57:37"
   },
   {
@@ -6380,7 +6380,7 @@ const relayResults = [
     "km": 10.8,
     "position": 24,
     "name": "Megan Balmont",
-    "club": "Caerleon B (64)",
+    "club": "Caerleon RC",
     "time": "00:59:38"
   },
   {
@@ -6392,7 +6392,7 @@ const relayResults = [
     "km": 10.8,
     "position": 25,
     "name": "Evie Hoare",
-    "club": "Fairwater A (70)",
+    "club": "Fairwater Runners",
     "time": "01:01:00"
   },
   {
@@ -6404,7 +6404,7 @@ const relayResults = [
     "km": 10.8,
     "position": 26,
     "name": "Fiona Davies",
-    "club": "Pontypridd (86)",
+    "club": "Pontypridd Roadents",
     "time": "01:01:01"
   },
   {
@@ -6416,7 +6416,7 @@ const relayResults = [
     "km": 10.8,
     "position": 27,
     "name": "Alison Allen",
-    "club": "Ogmore (80)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:01:02"
   },
   {
@@ -6428,7 +6428,7 @@ const relayResults = [
     "km": 10.8,
     "position": 28,
     "name": "Charlotte Bethell",
-    "club": "Pegasus (83)",
+    "club": "Pegasus RC",
     "time": "01:01:03"
   },
   {
@@ -6440,7 +6440,7 @@ const relayResults = [
     "km": 10.8,
     "position": 29,
     "name": "Melanie Hall",
-    "club": "Brackla (61)",
+    "club": "Brackla Harriers",
     "time": "01:11:00"
   },
   {
@@ -6452,7 +6452,7 @@ const relayResults = [
     "km": 10.8,
     "position": 30,
     "name": "Eigen Halpin",
-    "club": "Pont-y-pwl B (85)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:11:00"
   },
   {
@@ -6464,7 +6464,7 @@ const relayResults = [
     "km": 13.0,
     "position": 1,
     "name": "Lloyd Cottrell",
-    "club": "Parc (81)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:42:40"
   },
   {
@@ -6476,7 +6476,7 @@ const relayResults = [
     "km": 13.0,
     "position": 2,
     "name": "Jordan Bray",
-    "club": "Lliswerry A (77)",
+    "club": "Lliswerry Runners",
     "time": "00:44:41"
   },
   {
@@ -6488,7 +6488,7 @@ const relayResults = [
     "km": 13.0,
     "position": 3,
     "name": "Jonathon Ford",
-    "club": "Fairwater A (70)",
+    "club": "Fairwater Runners",
     "time": "00:44:56"
   },
   {
@@ -6500,7 +6500,7 @@ const relayResults = [
     "km": 13.0,
     "position": 4,
     "name": "Charles Bendall",
-    "club": "Chepstow A (68)",
+    "club": "Chepstow Harriers",
     "time": "00:48:43"
   },
   {
@@ -6512,7 +6512,7 @@ const relayResults = [
     "km": 13.0,
     "position": 5,
     "name": "Alex Barnston",
-    "club": "Caldicot (66)",
+    "club": "Caldicot RC",
     "time": "00:48:51"
   },
   {
@@ -6524,7 +6524,7 @@ const relayResults = [
     "km": 13.0,
     "position": 6,
     "name": "Adrian Jeremiah",
-    "club": "Pontypridd (86)",
+    "club": "Pontypridd Roadents",
     "time": "00:50:48"
   },
   {
@@ -6536,7 +6536,7 @@ const relayResults = [
     "km": 13.0,
     "position": 7,
     "name": "Kieran Harries",
-    "club": "CDF (67)",
+    "club": "CDF Runners",
     "time": "00:52:42"
   },
   {
@@ -6548,7 +6548,7 @@ const relayResults = [
     "km": 13.0,
     "position": 8,
     "name": "Gareth Logan",
-    "club": "Les Croupiers A (75)",
+    "club": "Les Croupiers RC",
     "time": "00:52:47"
   },
   {
@@ -6560,7 +6560,7 @@ const relayResults = [
     "km": 13.0,
     "position": 9,
     "name": "Hywel Edwards",
-    "club": "San Domenico (88)",
+    "club": "San Domenico RC",
     "time": "00:53:35"
   },
   {
@@ -6572,7 +6572,7 @@ const relayResults = [
     "km": 13.0,
     "position": 10,
     "name": "Brendan Price",
-    "club": "Aberdare (60)",
+    "club": "Aberdare",
     "time": "00:54:53"
   },
   {
@@ -6584,7 +6584,7 @@ const relayResults = [
     "km": 13.0,
     "position": 11,
     "name": "Ethan Sayce",
-    "club": "Parc (82)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:55:20"
   },
   {
@@ -6596,7 +6596,7 @@ const relayResults = [
     "km": 13.0,
     "position": 12,
     "name": "Kevin Harford",
-    "club": "Chepstow B (69)",
+    "club": "Chepstow Harriers",
     "time": "00:55:28"
   },
   {
@@ -6608,7 +6608,7 @@ const relayResults = [
     "km": 13.0,
     "position": 13,
     "name": "Lubica Ford",
-    "club": "Pont-y-pwl A (84)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:55:34"
   },
   {
@@ -6620,7 +6620,7 @@ const relayResults = [
     "km": 13.0,
     "position": 14,
     "name": "John Lee",
-    "club": "Islwyn A (73)",
+    "club": "Islwyn RC",
     "time": "00:55:57"
   },
   {
@@ -6632,7 +6632,7 @@ const relayResults = [
     "km": 13.0,
     "position": 15,
     "name": "Lenny Sayers",
-    "club": "Les Croupiers B (76)",
+    "club": "Les Croupiers RC",
     "time": "00:55:58"
   },
   {
@@ -6644,7 +6644,7 @@ const relayResults = [
     "km": 13.0,
     "position": 16,
     "name": "James Arnold",
-    "club": "Pont-y-pwl B (85)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:57:11"
   },
   {
@@ -6656,7 +6656,7 @@ const relayResults = [
     "km": 13.0,
     "position": 17,
     "name": "Simon Cawthorn",
-    "club": "Lliswerry B (78)",
+    "club": "Lliswerry Runners",
     "time": "00:58:28"
   },
   {
@@ -6668,7 +6668,7 @@ const relayResults = [
     "km": 13.0,
     "position": 18,
     "name": "Dai Hamm",
-    "club": "Islwyn B (74)",
+    "club": "Islwyn RC",
     "time": "00:58:32"
   },
   {
@@ -6680,7 +6680,7 @@ const relayResults = [
     "km": 13.0,
     "position": 19,
     "name": "Robert Hodson",
-    "club": "Caerphilly (65)",
+    "club": "Caerphilly Runners",
     "time": "00:58:58"
   },
   {
@@ -6692,7 +6692,7 @@ const relayResults = [
     "km": 13.0,
     "position": 20,
     "name": "Tammy Fry",
-    "club": "Caerleon A (63)",
+    "club": "Caerleon RC",
     "time": "00:59:40"
   },
   {
@@ -6704,7 +6704,7 @@ const relayResults = [
     "km": 13.0,
     "position": 21,
     "name": "Eleri Powell",
-    "club": "Brackla (61)",
+    "club": "Brackla Harriers",
     "time": "01:00:42"
   },
   {
@@ -6716,7 +6716,7 @@ const relayResults = [
     "km": 13.0,
     "position": 22,
     "name": "Paul Watkins",
-    "club": "Griffithstown (72)",
+    "club": "Griffithstown Harriers",
     "time": "01:01:40"
   },
   {
@@ -6740,7 +6740,7 @@ const relayResults = [
     "km": 13.0,
     "position": 24,
     "name": "Sarah Baker",
-    "club": "Spirit (89)",
+    "club": "Spirit of Monmouth",
     "time": "01:02:22"
   },
   {
@@ -6752,7 +6752,7 @@ const relayResults = [
     "km": 13.0,
     "position": 25,
     "name": "Ben Lewis",
-    "club": "Rhondda (87)",
+    "club": "Rhondda Valley Runners",
     "time": "01:03:24"
   },
   {
@@ -6764,7 +6764,7 @@ const relayResults = [
     "km": 13.0,
     "position": 26,
     "name": "David Kembrey",
-    "club": "Ogmore (80)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:05:25"
   },
   {
@@ -6776,7 +6776,7 @@ const relayResults = [
     "km": 13.0,
     "position": 27,
     "name": "Lee Holland",
-    "club": "Caerleon B (64)",
+    "club": "Caerleon RC",
     "time": "01:05:29"
   },
   {
@@ -6788,7 +6788,7 @@ const relayResults = [
     "km": 13.0,
     "position": 28,
     "name": "Adam Gray",
-    "club": "Monross (79)",
+    "club": "Monross Trailblazers",
     "time": "01:07:17"
   },
   {
@@ -6800,7 +6800,7 @@ const relayResults = [
     "km": 13.0,
     "position": 29,
     "name": "Rob Jones",
-    "club": "Pegasus (83)",
+    "club": "Pegasus RC",
     "time": "01:13:00"
   },
   {
@@ -6812,7 +6812,7 @@ const relayResults = [
     "km": 13.0,
     "position": 30,
     "name": "Suzanne Williams",
-    "club": "Fairwater B (71)",
+    "club": "Fairwater Runners",
     "time": "01:23:00"
   },
   {
@@ -6824,7 +6824,7 @@ const relayResults = [
     "km": 20.3,
     "position": 1,
     "name": "Daniel Bodman",
-    "club": "Parc (81)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:06:45"
   },
   {
@@ -6836,7 +6836,7 @@ const relayResults = [
     "km": 20.3,
     "position": 2,
     "name": "Ben Demellweek",
-    "club": "Pontypridd (86)",
+    "club": "Pontypridd Roadents",
     "time": "01:13:14"
   },
   {
@@ -6848,7 +6848,7 @@ const relayResults = [
     "km": 20.3,
     "position": 3,
     "name": "Jonathan Like",
-    "club": "Parc (82)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:13:23"
   },
   {
@@ -6860,7 +6860,7 @@ const relayResults = [
     "km": 20.3,
     "position": 4,
     "name": "Alex Line",
-    "club": "Islwyn A (73)",
+    "club": "Islwyn RC",
     "time": "01:13:45"
   },
   {
@@ -6872,7 +6872,7 @@ const relayResults = [
     "km": 20.3,
     "position": 5,
     "name": "Adam Grey",
-    "club": "Pont-y-pwl A (84)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:13:56"
   },
   {
@@ -6884,7 +6884,7 @@ const relayResults = [
     "km": 20.3,
     "position": 6,
     "name": "Thomas Henry",
-    "club": "Lliswerry A (77)",
+    "club": "Lliswerry Runners",
     "time": "01:16:14"
   },
   {
@@ -6896,7 +6896,7 @@ const relayResults = [
     "km": 20.3,
     "position": 7,
     "name": "Arwel Evans",
-    "club": "Les Croupiers A (75)",
+    "club": "Les Croupiers RC",
     "time": "01:16:52"
   },
   {
@@ -6908,7 +6908,7 @@ const relayResults = [
     "km": 20.3,
     "position": 8,
     "name": "Ian Owen",
-    "club": "San Domenico (88)",
+    "club": "San Domenico RC",
     "time": "01:17:23"
   },
   {
@@ -6920,7 +6920,7 @@ const relayResults = [
     "km": 20.3,
     "position": 9,
     "name": "Lee Arundell",
-    "club": "Rhondda (87)",
+    "club": "Rhondda Valley Runners",
     "time": "01:17:35"
   },
   {
@@ -6932,7 +6932,7 @@ const relayResults = [
     "km": 20.3,
     "position": 10,
     "name": "Tim Batchelor",
-    "club": "Chepstow A (68)",
+    "club": "Chepstow Harriers",
     "time": "01:18:11"
   },
   {
@@ -6944,7 +6944,7 @@ const relayResults = [
     "km": 20.3,
     "position": 11,
     "name": "Richard Foster",
-    "club": "Monross (79)",
+    "club": "Monross Trailblazers",
     "time": "01:18:35"
   },
   {
@@ -6956,7 +6956,7 @@ const relayResults = [
     "km": 20.3,
     "position": 12,
     "name": "Haaziq Reza",
-    "club": "CDF (67)",
+    "club": "CDF Runners",
     "time": "01:20:47"
   },
   {
@@ -6968,7 +6968,7 @@ const relayResults = [
     "km": 20.3,
     "position": 13,
     "name": "Matthew Jones",
-    "club": "Les Croupiers B (76)",
+    "club": "Les Croupiers RC",
     "time": "01:21:46"
   },
   {
@@ -6980,7 +6980,7 @@ const relayResults = [
     "km": 20.3,
     "position": 14,
     "name": "Kyle Harvey",
-    "club": "Fairwater A (70)",
+    "club": "Fairwater Runners",
     "time": "01:23:19"
   },
   {
@@ -6992,7 +6992,7 @@ const relayResults = [
     "km": 20.3,
     "position": 15,
     "name": "Ben Vaughan",
-    "club": "Caldicot (66)",
+    "club": "Caldicot RC",
     "time": "01:24:18"
   },
   {
@@ -7004,7 +7004,7 @@ const relayResults = [
     "km": 20.3,
     "position": 16,
     "name": "Nick Landon",
-    "club": "Brackla (61)",
+    "club": "Brackla Harriers",
     "time": "01:24:45"
   },
   {
@@ -7016,7 +7016,7 @@ const relayResults = [
     "km": 20.3,
     "position": 17,
     "name": "Katerina Adams",
-    "club": "Spirit (89)",
+    "club": "Spirit of Monmouth",
     "time": "01:26:42"
   },
   {
@@ -7040,7 +7040,7 @@ const relayResults = [
     "km": 20.3,
     "position": 19,
     "name": "Richard Hudd",
-    "club": "Chepstow B (69)",
+    "club": "Chepstow Harriers",
     "time": "01:26:55"
   },
   {
@@ -7052,7 +7052,7 @@ const relayResults = [
     "km": 20.3,
     "position": 20,
     "name": "Nathan Maloney",
-    "club": "Pont-y-pwl B (85)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:27:30"
   },
   {
@@ -7064,7 +7064,7 @@ const relayResults = [
     "km": 20.3,
     "position": 21,
     "name": "Jamie Verran",
-    "club": "Ogmore (80)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:28:39"
   },
   {
@@ -7076,7 +7076,7 @@ const relayResults = [
     "km": 20.3,
     "position": 22,
     "name": "Jade Wakely",
-    "club": "Caerleon A (63)",
+    "club": "Caerleon RC",
     "time": "01:28:52"
   },
   {
@@ -7088,7 +7088,7 @@ const relayResults = [
     "km": 20.3,
     "position": 23,
     "name": "Ashley Swift",
-    "club": "Caerphilly (65)",
+    "club": "Caerphilly Runners",
     "time": "01:29:30"
   },
   {
@@ -7100,7 +7100,7 @@ const relayResults = [
     "km": 20.3,
     "position": 24,
     "name": "Richard Everett",
-    "club": "Aberdare (60)",
+    "club": "Aberdare",
     "time": "01:30:53"
   },
   {
@@ -7112,7 +7112,7 @@ const relayResults = [
     "km": 20.3,
     "position": 25,
     "name": "Jason Dixon",
-    "club": "Islwyn B (74)",
+    "club": "Islwyn RC",
     "time": "01:36:06"
   },
   {
@@ -7124,7 +7124,7 @@ const relayResults = [
     "km": 20.3,
     "position": 26,
     "name": "Stuart Ball",
-    "club": "Fairwater B (71)",
+    "club": "Fairwater Runners",
     "time": "01:36:11"
   },
   {
@@ -7136,7 +7136,7 @@ const relayResults = [
     "km": 20.3,
     "position": 27,
     "name": "Michal Hajdon",
-    "club": "Lliswerry B (78)",
+    "club": "Lliswerry Runners",
     "time": "01:36:48"
   },
   {
@@ -7148,7 +7148,7 @@ const relayResults = [
     "km": 20.3,
     "position": 28,
     "name": "David Casado",
-    "club": "Pegasus (83)",
+    "club": "Pegasus RC",
     "time": "01:39:39"
   },
   {
@@ -7160,7 +7160,7 @@ const relayResults = [
     "km": 20.3,
     "position": 29,
     "name": "Sam Skelton",
-    "club": "Caerleon B (64)",
+    "club": "Caerleon RC",
     "time": "01:40:35"
   },
   {
@@ -7172,7 +7172,7 @@ const relayResults = [
     "km": 20.3,
     "position": 30,
     "name": "Andrew Smith",
-    "club": "Griffithstown (72)",
+    "club": "Griffithstown Harriers",
     "time": "01:41:47"
   },
   {
@@ -7184,7 +7184,7 @@ const relayResults = [
     "km": 8.9,
     "position": 1,
     "name": "Ewelina Ciesielska",
-    "club": "Parc (81)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:34:33"
   },
   {
@@ -7196,7 +7196,7 @@ const relayResults = [
     "km": 8.9,
     "position": 2,
     "name": "Matt Turner",
-    "club": "Caerleon A (63)",
+    "club": "Caerleon RC",
     "time": "00:35:16"
   },
   {
@@ -7208,7 +7208,7 @@ const relayResults = [
     "km": 8.9,
     "position": 3,
     "name": "Dan Lewis",
-    "club": "San Domenico (88)",
+    "club": "San Domenico RC",
     "time": "00:35:36"
   },
   {
@@ -7220,7 +7220,7 @@ const relayResults = [
     "km": 8.9,
     "position": 4,
     "name": "Natalie Burchell",
-    "club": "Lliswerry A (77)",
+    "club": "Lliswerry Runners",
     "time": "00:38:56"
   },
   {
@@ -7232,7 +7232,7 @@ const relayResults = [
     "km": 8.9,
     "position": 5,
     "name": "Paige Horsnell",
-    "club": "Pontypridd (86)",
+    "club": "Pontypridd Roadents",
     "time": "00:39:17"
   },
   {
@@ -7244,7 +7244,7 @@ const relayResults = [
     "km": 8.9,
     "position": 6,
     "name": "Olivia Overton",
-    "club": "Les Croupiers A (75)",
+    "club": "Les Croupiers RC",
     "time": "00:40:04"
   },
   {
@@ -7256,7 +7256,7 @@ const relayResults = [
     "km": 8.9,
     "position": 7,
     "name": "Charlotte Pember",
-    "club": "Aberdare (60)",
+    "club": "Aberdare",
     "time": "00:40:25"
   },
   {
@@ -7268,7 +7268,7 @@ const relayResults = [
     "km": 8.9,
     "position": 8,
     "name": "Lisa Jeffrey",
-    "club": "Chepstow A (68)",
+    "club": "Chepstow Harriers",
     "time": "00:40:31"
   },
   {
@@ -7280,7 +7280,7 @@ const relayResults = [
     "km": 8.9,
     "position": 9,
     "name": "Rebakah Clarke",
-    "club": "Caldicot (66)",
+    "club": "Caldicot RC",
     "time": "00:40:51"
   },
   {
@@ -7292,7 +7292,7 @@ const relayResults = [
     "km": 8.9,
     "position": 10,
     "name": "Charlotte Holland Wright",
-    "club": "Griffithstown (72)",
+    "club": "Griffithstown Harriers",
     "time": "00:41:05"
   },
   {
@@ -7304,7 +7304,7 @@ const relayResults = [
     "km": 8.9,
     "position": 11,
     "name": "Tracy Baker",
-    "club": "Pont-y-pwl A (84)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:41:10"
   },
   {
@@ -7316,7 +7316,7 @@ const relayResults = [
     "km": 8.9,
     "position": 12,
     "name": "Avisa Talemi",
-    "club": "Caerleon B (64)",
+    "club": "Caerleon RC",
     "time": "00:41:16"
   },
   {
@@ -7328,7 +7328,7 @@ const relayResults = [
     "km": 8.9,
     "position": 13,
     "name": "Carly Bunston",
-    "club": "Islwyn A (73)",
+    "club": "Islwyn RC",
     "time": "00:41:57"
   },
   {
@@ -7340,7 +7340,7 @@ const relayResults = [
     "km": 8.9,
     "position": 14,
     "name": "Rachel Matthews",
-    "club": "Caerphilly (65)",
+    "club": "Caerphilly Runners",
     "time": "00:42:07"
   },
   {
@@ -7352,7 +7352,7 @@ const relayResults = [
     "km": 8.9,
     "position": 15,
     "name": "Rebecca Foster",
-    "club": "Monross (79)",
+    "club": "Monross Trailblazers",
     "time": "00:42:19"
   },
   {
@@ -7364,7 +7364,7 @@ const relayResults = [
     "km": 8.9,
     "position": 16,
     "name": "Marina Wright",
-    "club": "Spirit (89)",
+    "club": "Spirit of Monmouth",
     "time": "00:43:14"
   },
   {
@@ -7376,7 +7376,7 @@ const relayResults = [
     "km": 8.9,
     "position": 17,
     "name": "Nicola Louise Crockett",
-    "club": "Chepstow B (69)",
+    "club": "Chepstow Harriers",
     "time": "00:43:35"
   },
   {
@@ -7388,7 +7388,7 @@ const relayResults = [
     "km": 8.9,
     "position": 18,
     "name": "Melissa Pearce",
-    "club": "Parc (82)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:43:56"
   },
   {
@@ -7400,7 +7400,7 @@ const relayResults = [
     "km": 8.9,
     "position": 19,
     "name": "Alysha Bunston",
-    "club": "Islwyn B (74)",
+    "club": "Islwyn RC",
     "time": "00:45:15"
   },
   {
@@ -7412,7 +7412,7 @@ const relayResults = [
     "km": 8.9,
     "position": 20,
     "name": "Jo Jenkins",
-    "club": "Ogmore (80)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:45:25"
   },
   {
@@ -7424,7 +7424,7 @@ const relayResults = [
     "km": 8.9,
     "position": 21,
     "name": "Joanne Ryan",
-    "club": "Rhondda (87)",
+    "club": "Rhondda Valley Runners",
     "time": "00:46:20"
   },
   {
@@ -7436,7 +7436,7 @@ const relayResults = [
     "km": 8.9,
     "position": 22,
     "name": "Florence Waddington",
-    "club": "CDF (67)",
+    "club": "CDF Runners",
     "time": "00:47:14"
   },
   {
@@ -7448,7 +7448,7 @@ const relayResults = [
     "km": 8.9,
     "position": 23,
     "name": "Jo Dunscombe",
-    "club": "Pegasus (83)",
+    "club": "Pegasus RC",
     "time": "00:47:24"
   },
   {
@@ -7472,7 +7472,7 @@ const relayResults = [
     "km": 8.9,
     "position": 25,
     "name": "Jessica Henry",
-    "club": "Fairwater A (70)",
+    "club": "Fairwater Runners",
     "time": "00:48:31"
   },
   {
@@ -7484,7 +7484,7 @@ const relayResults = [
     "km": 8.9,
     "position": 26,
     "name": "Mandy Robinson",
-    "club": "Pont-y-pwl B (85)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:48:37"
   },
   {
@@ -7496,7 +7496,7 @@ const relayResults = [
     "km": 8.9,
     "position": 27,
     "name": "Claire Bruce",
-    "club": "Les Croupiers B (76)",
+    "club": "Les Croupiers RC",
     "time": "00:49:57"
   },
   {
@@ -7508,7 +7508,7 @@ const relayResults = [
     "km": 8.9,
     "position": 28,
     "name": "Vicky Fear",
-    "club": "Lliswerry B (78)",
+    "club": "Lliswerry Runners",
     "time": "00:50:00"
   },
   {
@@ -7520,7 +7520,7 @@ const relayResults = [
     "km": 8.9,
     "position": 29,
     "name": "Rebecca Martin",
-    "club": "Fairwater B (71)",
+    "club": "Fairwater Runners",
     "time": "00:50:01"
   },
   {
@@ -7532,7 +7532,7 @@ const relayResults = [
     "km": 8.9,
     "position": 30,
     "name": "Geraldine Tucker",
-    "club": "Brackla (61)",
+    "club": "Brackla Harriers",
     "time": "00:50:02"
   },
   {
@@ -7544,7 +7544,7 @@ const relayResults = [
     "km": 21.1,
     "position": 1,
     "name": "James Salter",
-    "club": "San Domenico (88)",
+    "club": "San Domenico RC",
     "time": "01:21:08"
   },
   {
@@ -7556,7 +7556,7 @@ const relayResults = [
     "km": 21.1,
     "position": 2,
     "name": "James Peters",
-    "club": "Pontypridd (86)",
+    "club": "Pontypridd Roadents",
     "time": "01:21:23"
   },
   {
@@ -7568,7 +7568,7 @@ const relayResults = [
     "km": 21.1,
     "position": 3,
     "name": "Dane Williams",
-    "club": "Parc (81)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:21:36"
   },
   {
@@ -7580,7 +7580,7 @@ const relayResults = [
     "km": 21.1,
     "position": 4,
     "name": "David Craig",
-    "club": "Les Croupiers A (75)",
+    "club": "Les Croupiers RC",
     "time": "01:22:54"
   },
   {
@@ -7592,7 +7592,7 @@ const relayResults = [
     "km": 21.1,
     "position": 5,
     "name": "Mark Gillett",
-    "club": "Chepstow A (68)",
+    "club": "Chepstow Harriers",
     "time": "01:24:10"
   },
   {
@@ -7604,7 +7604,7 @@ const relayResults = [
     "km": 21.1,
     "position": 6,
     "name": "Lee Drew",
-    "club": "Lliswerry A (77)",
+    "club": "Lliswerry Runners",
     "time": "01:25:23"
   },
   {
@@ -7616,7 +7616,7 @@ const relayResults = [
     "km": 21.1,
     "position": 7,
     "name": "Andrei Arcana",
-    "club": "Pont-y-pwl A (84)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:26:34"
   },
   {
@@ -7628,7 +7628,7 @@ const relayResults = [
     "km": 21.1,
     "position": 8,
     "name": "David Hazell",
-    "club": "Caerphilly (65)",
+    "club": "Caerphilly Runners",
     "time": "01:26:44"
   },
   {
@@ -7640,7 +7640,7 @@ const relayResults = [
     "km": 21.1,
     "position": 9,
     "name": "Ryan Worlock-Morgan",
-    "club": "Parc (82)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:26:48"
   },
   {
@@ -7652,7 +7652,7 @@ const relayResults = [
     "km": 21.1,
     "position": 10,
     "name": "Kieron Brown",
-    "club": "Monross (79)",
+    "club": "Monross Trailblazers",
     "time": "01:27:28"
   },
   {
@@ -7664,7 +7664,7 @@ const relayResults = [
     "km": 21.1,
     "position": 11,
     "name": "Marc Wachter",
-    "club": "Caldicot (66)",
+    "club": "Caldicot RC",
     "time": "01:29:50"
   },
   {
@@ -7676,7 +7676,7 @@ const relayResults = [
     "km": 21.1,
     "position": 12,
     "name": "Anthony Malarczyk",
-    "club": "Islwyn A (73)",
+    "club": "Islwyn RC",
     "time": "01:30:47"
   },
   {
@@ -7688,7 +7688,7 @@ const relayResults = [
     "km": 21.1,
     "position": 13,
     "name": "Emyr Bissmire",
-    "club": "Ogmore (80)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:31:25"
   },
   {
@@ -7700,7 +7700,7 @@ const relayResults = [
     "km": 21.1,
     "position": 14,
     "name": "Jason Ivins",
-    "club": "Rhondda (87)",
+    "club": "Rhondda Valley Runners",
     "time": "01:31:38"
   },
   {
@@ -7712,7 +7712,7 @@ const relayResults = [
     "km": 21.1,
     "position": 15,
     "name": "John Williams",
-    "club": "Griffithstown (72)",
+    "club": "Griffithstown Harriers",
     "time": "01:31:43"
   },
   {
@@ -7724,7 +7724,7 @@ const relayResults = [
     "km": 21.1,
     "position": 16,
     "name": "Antoinette Rose",
-    "club": "Lliswerry B (78)",
+    "club": "Lliswerry Runners",
     "time": "01:31:56"
   },
   {
@@ -7736,7 +7736,7 @@ const relayResults = [
     "km": 21.1,
     "position": 17,
     "name": "Ross Howells",
-    "club": "Chepstow B (69)",
+    "club": "Chepstow Harriers",
     "time": "01:32:04"
   },
   {
@@ -7760,7 +7760,7 @@ const relayResults = [
     "km": 21.1,
     "position": 19,
     "name": "Rhys Allerston",
-    "club": "CDF (67)",
+    "club": "CDF Runners",
     "time": "01:35:08"
   },
   {
@@ -7772,7 +7772,7 @@ const relayResults = [
     "km": 21.1,
     "position": 20,
     "name": "Jonathan Starling",
-    "club": "Aberdare (60)",
+    "club": "Aberdare",
     "time": "01:35:38"
   },
   {
@@ -7784,7 +7784,7 @@ const relayResults = [
     "km": 21.1,
     "position": 21,
     "name": "James Bruce",
-    "club": "Les Croupiers B (76)",
+    "club": "Les Croupiers RC",
     "time": "01:37:31"
   },
   {
@@ -7796,7 +7796,7 @@ const relayResults = [
     "km": 21.1,
     "position": 22,
     "name": "Alex Walden",
-    "club": "Caerleon A (63)",
+    "club": "Caerleon RC",
     "time": "01:39:40"
   },
   {
@@ -7808,7 +7808,7 @@ const relayResults = [
     "km": 21.1,
     "position": 23,
     "name": "Rae Elias",
-    "club": "Fairwater A (70)",
+    "club": "Fairwater Runners",
     "time": "01:39:50"
   },
   {
@@ -7820,7 +7820,7 @@ const relayResults = [
     "km": 21.1,
     "position": 24,
     "name": "Giuseppe Santese",
-    "club": "Brackla (61)",
+    "club": "Brackla Harriers",
     "time": "01:43:52"
   },
   {
@@ -7832,7 +7832,7 @@ const relayResults = [
     "km": 21.1,
     "position": 25,
     "name": "Anelu Cornel Pirvu",
-    "club": "Caerleon B (64)",
+    "club": "Caerleon RC",
     "time": "01:45:03"
   },
   {
@@ -7844,7 +7844,7 @@ const relayResults = [
     "km": 21.1,
     "position": 26,
     "name": "David Newman",
-    "club": "Pont-y-pwl B (85)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:45:40"
   },
   {
@@ -7856,7 +7856,7 @@ const relayResults = [
     "km": 21.1,
     "position": 27,
     "name": "Simon Bird",
-    "club": "Pegasus (83)",
+    "club": "Pegasus RC",
     "time": "01:51:14"
   },
   {
@@ -7868,7 +7868,7 @@ const relayResults = [
     "km": 21.1,
     "position": 28,
     "name": "Martin Jones",
-    "club": "Islwyn B (74)",
+    "club": "Islwyn RC",
     "time": "01:51:51"
   },
   {
@@ -7880,7 +7880,7 @@ const relayResults = [
     "km": 21.1,
     "position": 29,
     "name": "Brian Evans",
-    "club": "Spirit (89)",
+    "club": "Spirit of Monmouth",
     "time": "01:54:01"
   },
   {
@@ -7892,7 +7892,7 @@ const relayResults = [
     "km": 16.0,
     "position": 1,
     "name": "David Jones",
-    "club": "Pontypridd (86)",
+    "club": "Pontypridd Roadents",
     "time": "01:00:18"
   },
   {
@@ -7904,7 +7904,7 @@ const relayResults = [
     "km": 16.0,
     "position": 2,
     "name": "Sam Lewis Jones",
-    "club": "Parc (81)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:01:01"
   },
   {
@@ -7916,7 +7916,7 @@ const relayResults = [
     "km": 16.0,
     "position": 3,
     "name": "Ricci Watts",
-    "club": "Pont-y-pwl A (84)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:01:47"
   },
   {
@@ -7928,7 +7928,7 @@ const relayResults = [
     "km": 16.0,
     "position": 4,
     "name": "Nicholas Tulp",
-    "club": "Lliswerry A (77)",
+    "club": "Lliswerry Runners",
     "time": "01:02:18"
   },
   {
@@ -7940,7 +7940,7 @@ const relayResults = [
     "km": 16.0,
     "position": 5,
     "name": "Matt Turner",
-    "club": "San Domenico (88)",
+    "club": "San Domenico RC",
     "time": "01:03:43"
   },
   {
@@ -7952,7 +7952,7 @@ const relayResults = [
     "km": 16.0,
     "position": 6,
     "name": "Tom Newman",
-    "club": "Caerleon A (63)",
+    "club": "Caerleon RC",
     "time": "01:03:47"
   },
   {
@@ -7964,7 +7964,7 @@ const relayResults = [
     "km": 16.0,
     "position": 7,
     "name": "Stephen Campbell",
-    "club": "Les Croupiers A (75)",
+    "club": "Les Croupiers RC",
     "time": "01:03:54"
   },
   {
@@ -7976,7 +7976,7 @@ const relayResults = [
     "km": 16.0,
     "position": 8,
     "name": "Matthew Jacklin",
-    "club": "Aberdare (60)",
+    "club": "Aberdare",
     "time": "01:03:55"
   },
   {
@@ -7988,7 +7988,7 @@ const relayResults = [
     "km": 16.0,
     "position": 9,
     "name": "Paul Murrin",
-    "club": "Chepstow A (68)",
+    "club": "Chepstow Harriers",
     "time": "01:04:11"
   },
   {
@@ -8000,7 +8000,7 @@ const relayResults = [
     "km": 16.0,
     "position": 10,
     "name": "Harry Woodward",
-    "club": "Caldicot (66)",
+    "club": "Caldicot RC",
     "time": "01:04:20"
   },
   {
@@ -8012,7 +8012,7 @@ const relayResults = [
     "km": 16.0,
     "position": 11,
     "name": "Tom Rees",
-    "club": "CDF (67)",
+    "club": "CDF Runners",
     "time": "01:05:56"
   },
   {
@@ -8024,7 +8024,7 @@ const relayResults = [
     "km": 16.0,
     "position": 12,
     "name": "Ryan Bunce",
-    "club": "Brackla (61)",
+    "club": "Brackla Harriers",
     "time": "01:06:36"
   },
   {
@@ -8036,7 +8036,7 @@ const relayResults = [
     "km": 16.0,
     "position": 13,
     "name": "Paul Jones",
-    "club": "Fairwater A (70)",
+    "club": "Fairwater Runners",
     "time": "01:06:50"
   },
   {
@@ -8048,7 +8048,7 @@ const relayResults = [
     "km": 16.0,
     "position": 14,
     "name": "Ben Beckingsale",
-    "club": "Les Croupiers B (76)",
+    "club": "Les Croupiers RC",
     "time": "01:07:16"
   },
   {
@@ -8060,7 +8060,7 @@ const relayResults = [
     "km": 16.0,
     "position": 15,
     "name": "James Tucker",
-    "club": "Chepstow B (69)",
+    "club": "Chepstow Harriers",
     "time": "01:08:41"
   },
   {
@@ -8072,7 +8072,7 @@ const relayResults = [
     "km": 16.0,
     "position": 16,
     "name": "John Adams",
-    "club": "Rhondda (87)",
+    "club": "Rhondda Valley Runners",
     "time": "01:09:58"
   },
   {
@@ -8084,7 +8084,7 @@ const relayResults = [
     "km": 16.0,
     "position": 17,
     "name": "David Witts",
-    "club": "Islwyn A (73)",
+    "club": "Islwyn RC",
     "time": "01:11:09"
   },
   {
@@ -8096,7 +8096,7 @@ const relayResults = [
     "km": 16.0,
     "position": 18,
     "name": "Kirk Hill",
-    "club": "Spirit (89)",
+    "club": "Spirit of Monmouth",
     "time": "01:12:09"
   },
   {
@@ -8108,7 +8108,7 @@ const relayResults = [
     "km": 16.0,
     "position": 19,
     "name": "Adrian Murkin",
-    "club": "Pont-y-pwl B (85)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:12:31"
   },
   {
@@ -8132,7 +8132,7 @@ const relayResults = [
     "km": 16.0,
     "position": 21,
     "name": "Martin Turner",
-    "club": "Monross (79)",
+    "club": "Monross Trailblazers",
     "time": "01:12:58"
   },
   {
@@ -8144,7 +8144,7 @@ const relayResults = [
     "km": 16.0,
     "position": 22,
     "name": "Huw James",
-    "club": "Caerphilly (65)",
+    "club": "Caerphilly Runners",
     "time": "01:13:20"
   },
   {
@@ -8156,7 +8156,7 @@ const relayResults = [
     "km": 16.0,
     "position": 23,
     "name": "Nick Osman",
-    "club": "Parc (82)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:13:33"
   },
   {
@@ -8168,7 +8168,7 @@ const relayResults = [
     "km": 16.0,
     "position": 24,
     "name": "David Waters",
-    "club": "Islwyn B (74)",
+    "club": "Islwyn RC",
     "time": "01:14:08"
   },
   {
@@ -8180,7 +8180,7 @@ const relayResults = [
     "km": 16.0,
     "position": 25,
     "name": "Luciano Tomasulo",
-    "club": "Griffithstown (72)",
+    "club": "Griffithstown Harriers",
     "time": "01:14:29"
   },
   {
@@ -8192,7 +8192,7 @@ const relayResults = [
     "km": 16.0,
     "position": 26,
     "name": "Gareth Jenkins",
-    "club": "Ogmore (80)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:15:45"
   },
   {
@@ -8204,7 +8204,7 @@ const relayResults = [
     "km": 16.0,
     "position": 27,
     "name": "Christopher Guy",
-    "club": "Lliswerry B (78)",
+    "club": "Lliswerry Runners",
     "time": "01:16:27"
   },
   {
@@ -8216,7 +8216,7 @@ const relayResults = [
     "km": 16.0,
     "position": 28,
     "name": "Mark Walsh",
-    "club": "Caerleon B (64)",
+    "club": "Caerleon RC",
     "time": "01:20:50"
   },
   {
@@ -8228,7 +8228,7 @@ const relayResults = [
     "km": 16.0,
     "position": 29,
     "name": "Aled Powys Williams",
-    "club": "Pegasus (83)",
+    "club": "Pegasus RC",
     "time": "01:23:47"
   },
   {
@@ -8240,7 +8240,7 @@ const relayResults = [
     "km": 16.0,
     "position": 30,
     "name": "Phillip Allsopp",
-    "club": "Fairwater B (71)",
+    "club": "Fairwater Runners",
     "time": "01:25:26"
   },
   {
@@ -8252,7 +8252,7 @@ const relayResults = [
     "km": 12.16,
     "position": 1,
     "name": "Christopher Martey",
-    "club": "Chepstow A (68)",
+    "club": "Chepstow Harriers",
     "time": "00:48:31"
   },
   {
@@ -8264,7 +8264,7 @@ const relayResults = [
     "km": 12.16,
     "position": 2,
     "name": "Thomas Lewis",
-    "club": "Chepstow B (69)",
+    "club": "Chepstow Harriers",
     "time": "00:49:45"
   },
   {
@@ -8276,7 +8276,7 @@ const relayResults = [
     "km": 12.16,
     "position": 3,
     "name": "Lauren Cooper",
-    "club": "Parc (81)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:50:33"
   },
   {
@@ -8288,7 +8288,7 @@ const relayResults = [
     "km": 12.16,
     "position": 4,
     "name": "Chloe Leek",
-    "club": "Pont-y-pwl A (84)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:52:06"
   },
   {
@@ -8300,7 +8300,7 @@ const relayResults = [
     "km": 12.16,
     "position": 5,
     "name": "Brett Thornbury",
-    "club": "Islwyn A (73)",
+    "club": "Islwyn RC",
     "time": "00:53:04"
   },
   {
@@ -8312,7 +8312,7 @@ const relayResults = [
     "km": 12.16,
     "position": 6,
     "name": "Liam Moore",
-    "club": "Caerleon A (63)",
+    "club": "Caerleon RC",
     "time": "00:53:53"
   },
   {
@@ -8324,7 +8324,7 @@ const relayResults = [
     "km": 12.16,
     "position": 7,
     "name": "Liz May",
-    "club": "Pontypridd (86)",
+    "club": "Pontypridd Roadents",
     "time": "00:54:14"
   },
   {
@@ -8336,7 +8336,7 @@ const relayResults = [
     "km": 12.16,
     "position": 8,
     "name": "Michael Ewins",
-    "club": "Caldicot (66)",
+    "club": "Caldicot RC",
     "time": "00:54:30"
   },
   {
@@ -8348,7 +8348,7 @@ const relayResults = [
     "km": 12.16,
     "position": 9,
     "name": "Emily A Jones",
-    "club": "Les Croupiers A (75)",
+    "club": "Les Croupiers RC",
     "time": "00:55:00"
   },
   {
@@ -8360,7 +8360,7 @@ const relayResults = [
     "km": 12.16,
     "position": 10,
     "name": "Sandra Chipper",
-    "club": "Lliswerry A (77)",
+    "club": "Lliswerry Runners",
     "time": "00:55:09"
   },
   {
@@ -8372,7 +8372,7 @@ const relayResults = [
     "km": 12.16,
     "position": 11,
     "name": "James King",
-    "club": "Fairwater A (70)",
+    "club": "Fairwater Runners",
     "time": "00:55:21"
   },
   {
@@ -8384,7 +8384,7 @@ const relayResults = [
     "km": 12.16,
     "position": 12,
     "name": "Emma Edwards",
-    "club": "Caerphilly (65)",
+    "club": "Caerphilly Runners",
     "time": "00:55:28"
   },
   {
@@ -8408,7 +8408,7 @@ const relayResults = [
     "km": 12.16,
     "position": 14,
     "name": "Jhon Hewitt",
-    "club": "San Domenico (88)",
+    "club": "San Domenico RC",
     "time": "00:56:50"
   },
   {
@@ -8420,7 +8420,7 @@ const relayResults = [
     "km": 12.16,
     "position": 15,
     "name": "Lee Davies",
-    "club": "Spirit (89)",
+    "club": "Spirit of Monmouth",
     "time": "00:58:27"
   },
   {
@@ -8432,7 +8432,7 @@ const relayResults = [
     "km": 12.16,
     "position": 16,
     "name": "Sian Jones",
-    "club": "Parc (82)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:58:30"
   },
   {
@@ -8444,7 +8444,7 @@ const relayResults = [
     "km": 12.16,
     "position": 17,
     "name": "Holli Jehu",
-    "club": "Aberdare (60)",
+    "club": "Aberdare",
     "time": "00:59:17"
   },
   {
@@ -8456,7 +8456,7 @@ const relayResults = [
     "km": 12.16,
     "position": 18,
     "name": "Tara Paisley",
-    "club": "Griffithstown (72)",
+    "club": "Griffithstown Harriers",
     "time": "00:59:55"
   },
   {
@@ -8468,7 +8468,7 @@ const relayResults = [
     "km": 12.16,
     "position": 19,
     "name": "Tracey Arthur",
-    "club": "Lliswerry B (78)",
+    "club": "Lliswerry Runners",
     "time": "01:01:49"
   },
   {
@@ -8480,7 +8480,7 @@ const relayResults = [
     "km": 12.16,
     "position": 20,
     "name": "Charlotte Moran",
-    "club": "Caerleon B (64)",
+    "club": "Caerleon RC",
     "time": "01:02:07"
   },
   {
@@ -8492,7 +8492,7 @@ const relayResults = [
     "km": 12.16,
     "position": 21,
     "name": "Amy Edwards",
-    "club": "Rhondda (87)",
+    "club": "Rhondda Valley Runners",
     "time": "01:02:47"
   },
   {
@@ -8504,7 +8504,7 @@ const relayResults = [
     "km": 12.16,
     "position": 22,
     "name": "Chris Pratt",
-    "club": "Ogmore (80)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:03:45"
   },
   {
@@ -8516,7 +8516,7 @@ const relayResults = [
     "km": 12.16,
     "position": 23,
     "name": "Kat Nguyen",
-    "club": "CDF (67)",
+    "club": "CDF Runners",
     "time": "01:05:14"
   },
   {
@@ -8528,7 +8528,7 @@ const relayResults = [
     "km": 12.16,
     "position": 24,
     "name": "Rachael Aitken",
-    "club": "Monross (79)",
+    "club": "Monross Trailblazers",
     "time": "01:05:30"
   },
   {
@@ -8540,7 +8540,7 @@ const relayResults = [
     "km": 12.16,
     "position": 25,
     "name": "Jenna Groves",
-    "club": "Pegasus (83)",
+    "club": "Pegasus RC",
     "time": "01:05:37"
   },
   {
@@ -8552,7 +8552,7 @@ const relayResults = [
     "km": 12.16,
     "position": 26,
     "name": "Ian Smith",
-    "club": "Fairwater B (71)",
+    "club": "Fairwater Runners",
     "time": "01:05:48"
   },
   {
@@ -8564,7 +8564,7 @@ const relayResults = [
     "km": 12.16,
     "position": 27,
     "name": "Roland Matthews",
-    "club": "Brackla (61)",
+    "club": "Brackla Harriers",
     "time": "01:07:50"
   },
   {
@@ -8576,7 +8576,7 @@ const relayResults = [
     "km": 12.16,
     "position": 28,
     "name": "Sarah Pryor",
-    "club": "Les Croupiers B (76)",
+    "club": "Les Croupiers RC",
     "time": "01:08:03"
   },
   {
@@ -8588,7 +8588,7 @@ const relayResults = [
     "km": 12.16,
     "position": 29,
     "name": "Louise Bright",
-    "club": "Pont-y-pwl B (85)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:08:32"
   },
   {
@@ -8600,7 +8600,7 @@ const relayResults = [
     "km": 12.16,
     "position": 30,
     "name": "Lauren Holtham -",
-    "club": "Morgan Islwyn B Fairwater (74)",
+    "club": "Fairwater Runners",
     "time": "01:10:00"
   },
   {
@@ -8612,7 +8612,7 @@ const relayResults = [
     "km": 13.4,
     "position": 1,
     "name": "Oliver Price",
-    "club": "Pontypridd (86)",
+    "club": "Pontypridd Roadents",
     "time": "00:48:07"
   },
   {
@@ -8624,7 +8624,7 @@ const relayResults = [
     "km": 13.4,
     "position": 2,
     "name": "James Blore",
-    "club": "Chepstow A (68)",
+    "club": "Chepstow Harriers",
     "time": "00:48:21"
   },
   {
@@ -8636,7 +8636,7 @@ const relayResults = [
     "km": 13.4,
     "position": 3,
     "name": "Dominic Davies",
-    "club": "Parc (81)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:48:59"
   },
   {
@@ -8648,7 +8648,7 @@ const relayResults = [
     "km": 13.4,
     "position": 4,
     "name": "Gary Wilks",
-    "club": "Islwyn A (73)",
+    "club": "Islwyn RC",
     "time": "00:49:28"
   },
   {
@@ -8660,7 +8660,7 @@ const relayResults = [
     "km": 13.4,
     "position": 5,
     "name": "Joshua Fitton",
-    "club": "Lliswerry A (77)",
+    "club": "Lliswerry Runners",
     "time": "00:50:14"
   },
   {
@@ -8672,7 +8672,7 @@ const relayResults = [
     "km": 13.4,
     "position": 6,
     "name": "Owen Staddon",
-    "club": "Caldicot (66)",
+    "club": "Caldicot RC",
     "time": "00:52:20"
   },
   {
@@ -8684,7 +8684,7 @@ const relayResults = [
     "km": 13.4,
     "position": 7,
     "name": "Sam Wilson",
-    "club": "Les Croupiers A (75)",
+    "club": "Les Croupiers RC",
     "time": "00:53:14"
   },
   {
@@ -8696,7 +8696,7 @@ const relayResults = [
     "km": 13.4,
     "position": 8,
     "name": "James Booth",
-    "club": "Lliswerry B (78)",
+    "club": "Lliswerry Runners",
     "time": "00:53:43"
   },
   {
@@ -8708,7 +8708,7 @@ const relayResults = [
     "km": 13.4,
     "position": 9,
     "name": "Luke Griffiths",
-    "club": "Aberdare (60)",
+    "club": "Aberdare",
     "time": "00:54:16"
   },
   {
@@ -8720,7 +8720,7 @@ const relayResults = [
     "km": 13.4,
     "position": 10,
     "name": "Patrick Jarvis",
-    "club": "Parc (82)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:54:25"
   },
   {
@@ -8732,7 +8732,7 @@ const relayResults = [
     "km": 13.4,
     "position": 11,
     "name": "Andrew Stamp",
-    "club": "Griffithstown (72)",
+    "club": "Griffithstown Harriers",
     "time": "00:54:41"
   },
   {
@@ -8744,7 +8744,7 @@ const relayResults = [
     "km": 13.4,
     "position": 12,
     "name": "Ben Saunders",
-    "club": "Spirit (89)",
+    "club": "Spirit of Monmouth",
     "time": "00:54:53"
   },
   {
@@ -8756,7 +8756,7 @@ const relayResults = [
     "km": 13.4,
     "position": 13,
     "name": "Matthew Phillips",
-    "club": "Caerphilly (65)",
+    "club": "Caerphilly Runners",
     "time": "00:55:24"
   },
   {
@@ -8768,7 +8768,7 @@ const relayResults = [
     "km": 13.4,
     "position": 14,
     "name": "David James",
-    "club": "Les Croupiers B (76)",
+    "club": "Les Croupiers RC",
     "time": "00:55:47"
   },
   {
@@ -8780,7 +8780,7 @@ const relayResults = [
     "km": 13.4,
     "position": 15,
     "name": "Brian Jones",
-    "club": "Pont-y-pwl A (84)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:56:16"
   },
   {
@@ -8792,7 +8792,7 @@ const relayResults = [
     "km": 13.4,
     "position": 16,
     "name": "George Walker",
-    "club": "CDF (67)",
+    "club": "CDF Runners",
     "time": "00:56:25"
   },
   {
@@ -8816,7 +8816,7 @@ const relayResults = [
     "km": 13.4,
     "position": 18,
     "name": "Delyth Williams",
-    "club": "San Domenico (88)",
+    "club": "San Domenico RC",
     "time": "00:57:39"
   },
   {
@@ -8828,7 +8828,7 @@ const relayResults = [
     "km": 13.4,
     "position": 19,
     "name": "Rob Potter",
-    "club": "Monross (79)",
+    "club": "Monross Trailblazers",
     "time": "00:59:37"
   },
   {
@@ -8840,7 +8840,7 @@ const relayResults = [
     "km": 13.4,
     "position": 20,
     "name": "Jamie Goddard",
-    "club": "Chepstow B (69)",
+    "club": "Chepstow Harriers",
     "time": "01:00:09"
   },
   {
@@ -8852,7 +8852,7 @@ const relayResults = [
     "km": 13.4,
     "position": 21,
     "name": "Steve Holderness",
-    "club": "Rhondda (87)",
+    "club": "Rhondda Valley Runners",
     "time": "01:00:45"
   },
   {
@@ -8864,7 +8864,7 @@ const relayResults = [
     "km": 13.4,
     "position": 22,
     "name": "Matthew Webb",
-    "club": "Pont-y-pwl B (85)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:01:23"
   },
   {
@@ -8876,7 +8876,7 @@ const relayResults = [
     "km": 13.4,
     "position": 23,
     "name": "Leon Gleed",
-    "club": "Fairwater A (70)",
+    "club": "Fairwater Runners",
     "time": "01:01:48"
   },
   {
@@ -8888,7 +8888,7 @@ const relayResults = [
     "km": 13.4,
     "position": 24,
     "name": "Elizabeth Richards",
-    "club": "Caerleon A (63)",
+    "club": "Caerleon RC",
     "time": "01:02:01"
   },
   {
@@ -8900,7 +8900,7 @@ const relayResults = [
     "km": 13.4,
     "position": 25,
     "name": "Kim Wehden",
-    "club": "Islwyn B (74)",
+    "club": "Islwyn RC",
     "time": "01:02:33"
   },
   {
@@ -8912,7 +8912,7 @@ const relayResults = [
     "km": 13.4,
     "position": 26,
     "name": "Stephan Tietz",
-    "club": "Fairwater B (71)",
+    "club": "Fairwater Runners",
     "time": "01:05:45"
   },
   {
@@ -8924,7 +8924,7 @@ const relayResults = [
     "km": 13.4,
     "position": 27,
     "name": "Phil Tucker",
-    "club": "Brackla (61)",
+    "club": "Brackla Harriers",
     "time": "01:06:08"
   },
   {
@@ -8936,7 +8936,7 @@ const relayResults = [
     "km": 13.4,
     "position": 28,
     "name": "Christian Ford",
-    "club": "Caerleon B (64)",
+    "club": "Caerleon RC",
     "time": "01:06:23"
   },
   {
@@ -8948,7 +8948,7 @@ const relayResults = [
     "km": 13.4,
     "position": 29,
     "name": "Freya Allen",
-    "club": "Ogmore (80)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:08:32"
   },
   {
@@ -8960,7 +8960,7 @@ const relayResults = [
     "km": 13.4,
     "position": 30,
     "name": "Rhydian Sandbrook",
-    "club": "Pegasus (83)",
+    "club": "Pegasus RC",
     "time": "01:11:16"
   },
   {
@@ -8972,7 +8972,7 @@ const relayResults = [
     "km": 10.7,
     "position": 1,
     "name": "Kani Hinshelwood",
-    "club": "Parc (81)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:39:27"
   },
   {
@@ -8984,7 +8984,7 @@ const relayResults = [
     "km": 10.7,
     "position": 2,
     "name": "Carly Stone",
-    "club": "Lliswerry A (77)",
+    "club": "Lliswerry Runners",
     "time": "00:40:35"
   },
   {
@@ -8996,7 +8996,7 @@ const relayResults = [
     "km": 10.7,
     "position": 3,
     "name": "Lee Harvey",
-    "club": "Pont-y-pwl A (84)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:41:37"
   },
   {
@@ -9008,7 +9008,7 @@ const relayResults = [
     "km": 10.7,
     "position": 4,
     "name": "Sarah Bell",
-    "club": "Chepstow A (68)",
+    "club": "Chepstow Harriers",
     "time": "00:43:02"
   },
   {
@@ -9020,7 +9020,7 @@ const relayResults = [
     "km": 10.7,
     "position": 5,
     "name": "Susannah Bulpin",
-    "club": "San Domenico (88)",
+    "club": "San Domenico RC",
     "time": "00:43:25"
   },
   {
@@ -9032,7 +9032,7 @@ const relayResults = [
     "km": 10.7,
     "position": 6,
     "name": "Matt Tooby",
-    "club": "Caerleon A (63)",
+    "club": "Caerleon RC",
     "time": "00:43:58"
   },
   {
@@ -9056,7 +9056,7 @@ const relayResults = [
     "km": 10.7,
     "position": 8,
     "name": "Melissa Morgan",
-    "club": "Islwyn A (73)",
+    "club": "Islwyn RC",
     "time": "00:45:12"
   },
   {
@@ -9068,7 +9068,7 @@ const relayResults = [
     "km": 10.7,
     "position": 9,
     "name": "Laura Hunt",
-    "club": "Caldicot (66)",
+    "club": "Caldicot RC",
     "time": "00:45:36"
   },
   {
@@ -9080,7 +9080,7 @@ const relayResults = [
     "km": 10.7,
     "position": 10,
     "name": "Daniel Davies",
-    "club": "Caerphilly (65)",
+    "club": "Caerphilly Runners",
     "time": "00:47:07"
   },
   {
@@ -9092,7 +9092,7 @@ const relayResults = [
     "km": 10.7,
     "position": 11,
     "name": "Emily Harrison",
-    "club": "Monross (79)",
+    "club": "Monross Trailblazers",
     "time": "00:47:18"
   },
   {
@@ -9104,7 +9104,7 @@ const relayResults = [
     "km": 10.7,
     "position": 12,
     "name": "Sam Clarkstone",
-    "club": "Pontypridd (86)",
+    "club": "Pontypridd Roadents",
     "time": "00:47:59"
   },
   {
@@ -9116,7 +9116,7 @@ const relayResults = [
     "km": 10.7,
     "position": 13,
     "name": "Bryony Eames",
-    "club": "Les Croupiers A (75)",
+    "club": "Les Croupiers RC",
     "time": "00:48:25"
   },
   {
@@ -9128,7 +9128,7 @@ const relayResults = [
     "km": 10.7,
     "position": 14,
     "name": "Charlotte Giles",
-    "club": "Chepstow B (69)",
+    "club": "Chepstow Harriers",
     "time": "00:48:25"
   },
   {
@@ -9140,7 +9140,7 @@ const relayResults = [
     "km": 10.7,
     "position": 15,
     "name": "Sarah Roberts",
-    "club": "Griffithstown (72)",
+    "club": "Griffithstown Harriers",
     "time": "00:50:21"
   },
   {
@@ -9152,7 +9152,7 @@ const relayResults = [
     "km": 10.7,
     "position": 16,
     "name": "Graham Foster",
-    "club": "Brackla (61)",
+    "club": "Brackla Harriers",
     "time": "00:50:27"
   },
   {
@@ -9164,7 +9164,7 @@ const relayResults = [
     "km": 10.7,
     "position": 17,
     "name": "Ryan Godsall",
-    "club": "Caerleon B (64)",
+    "club": "Caerleon RC",
     "time": "00:50:54"
   },
   {
@@ -9176,7 +9176,7 @@ const relayResults = [
     "km": 10.7,
     "position": 18,
     "name": "Sarah Louise Francis",
-    "club": "Lliswerry B (78)",
+    "club": "Lliswerry Runners",
     "time": "00:51:10"
   },
   {
@@ -9188,7 +9188,7 @@ const relayResults = [
     "km": 10.7,
     "position": 19,
     "name": "Andrea Matthews",
-    "club": "Aberdare (60)",
+    "club": "Aberdare",
     "time": "00:52:03"
   },
   {
@@ -9200,7 +9200,7 @@ const relayResults = [
     "km": 10.7,
     "position": 20,
     "name": "Meghan Brickley",
-    "club": "Fairwater A (70)",
+    "club": "Fairwater Runners",
     "time": "00:53:30"
   },
   {
@@ -9212,7 +9212,7 @@ const relayResults = [
     "km": 10.7,
     "position": 21,
     "name": "Emma Chivers",
-    "club": "Rhondda (87)",
+    "club": "Rhondda Valley Runners",
     "time": "00:53:50"
   },
   {
@@ -9224,7 +9224,7 @@ const relayResults = [
     "km": 10.7,
     "position": 22,
     "name": "Rachel Hooper",
-    "club": "Les Croupiers B (76)",
+    "club": "Les Croupiers RC",
     "time": "00:54:23"
   },
   {
@@ -9236,7 +9236,7 @@ const relayResults = [
     "km": 10.7,
     "position": 23,
     "name": "Nicola Brunnock",
-    "club": "Pont-y-pwl B (85)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:55:01"
   },
   {
@@ -9248,7 +9248,7 @@ const relayResults = [
     "km": 10.7,
     "position": 24,
     "name": "Sheryl Clark",
-    "club": "Islwyn B (74)",
+    "club": "Islwyn RC",
     "time": "00:55:08"
   },
   {
@@ -9260,7 +9260,7 @@ const relayResults = [
     "km": 10.7,
     "position": 25,
     "name": "Julia Evans",
-    "club": "Pegasus (83)",
+    "club": "Pegasus RC",
     "time": "00:55:21"
   },
   {
@@ -9272,7 +9272,7 @@ const relayResults = [
     "km": 10.7,
     "position": 26,
     "name": "Rachel Waters",
-    "club": "Spirit (89)",
+    "club": "Spirit of Monmouth",
     "time": "00:55:30"
   },
   {
@@ -9284,7 +9284,7 @@ const relayResults = [
     "km": 10.7,
     "position": 27,
     "name": "Megan Smith",
-    "club": "CDF (67)",
+    "club": "CDF Runners",
     "time": "00:56:33"
   },
   {
@@ -9296,7 +9296,7 @@ const relayResults = [
     "km": 10.7,
     "position": 28,
     "name": "Laura Pinney",
-    "club": "Parc (82)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:57:55"
   },
   {
@@ -9308,7 +9308,7 @@ const relayResults = [
     "km": 10.7,
     "position": 29,
     "name": "Liam OSullivan",
-    "club": "Ogmore (80)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:59:14"
   },
   {
@@ -9320,7 +9320,7 @@ const relayResults = [
     "km": 10.7,
     "position": 30,
     "name": "Alison Davis",
-    "club": "Fairwater B (71)",
+    "club": "Fairwater Runners",
     "time": "01:00:00"
   },
   {
@@ -9344,7 +9344,7 @@ const relayResults = [
     "km": 8.7,
     "position": 2,
     "name": "Emma Wookey",
-    "club": "Lliswerry A (77)",
+    "club": "Lliswerry Runners",
     "time": "00:36:52"
   },
   {
@@ -9356,7 +9356,7 @@ const relayResults = [
     "km": 8.7,
     "position": 3,
     "name": "Chloe Piggott",
-    "club": "Aberdare (60)",
+    "club": "Aberdare",
     "time": "00:40:24"
   },
   {
@@ -9368,7 +9368,7 @@ const relayResults = [
     "km": 8.7,
     "position": 4,
     "name": "Sarah Jones",
-    "club": "Pontypridd (86)",
+    "club": "Pontypridd Roadents",
     "time": "00:41:02"
   },
   {
@@ -9380,7 +9380,7 @@ const relayResults = [
     "km": 8.7,
     "position": 5,
     "name": "Lauren Williams",
-    "club": "Caerleon A (63)",
+    "club": "Caerleon RC",
     "time": "00:41:39"
   },
   {
@@ -9392,7 +9392,7 @@ const relayResults = [
     "km": 8.7,
     "position": 6,
     "name": "Mary Lynes",
-    "club": "Chepstow A (68)",
+    "club": "Chepstow Harriers",
     "time": "00:41:54"
   },
   {
@@ -9404,7 +9404,7 @@ const relayResults = [
     "km": 8.7,
     "position": 7,
     "name": "Liz Neville",
-    "club": "Les Croupiers A (75)",
+    "club": "Les Croupiers RC",
     "time": "00:42:13"
   },
   {
@@ -9416,7 +9416,7 @@ const relayResults = [
     "km": 8.7,
     "position": 8,
     "name": "Sara Williams",
-    "club": "Caerphilly (65)",
+    "club": "Caerphilly Runners",
     "time": "00:43:28"
   },
   {
@@ -9428,7 +9428,7 @@ const relayResults = [
     "km": 8.7,
     "position": 9,
     "name": "Nathan Williams",
-    "club": "Brackla (61)",
+    "club": "Brackla Harriers",
     "time": "00:43:47"
   },
   {
@@ -9440,7 +9440,7 @@ const relayResults = [
     "km": 8.7,
     "position": 10,
     "name": "Joanne Kilby",
-    "club": "Parc (81)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:43:52"
   },
   {
@@ -9452,7 +9452,7 @@ const relayResults = [
     "km": 8.7,
     "position": 11,
     "name": "Caroline Duder",
-    "club": "Chepstow B (69)",
+    "club": "Chepstow Harriers",
     "time": "00:44:18"
   },
   {
@@ -9464,7 +9464,7 @@ const relayResults = [
     "km": 8.7,
     "position": 12,
     "name": "Matthew Lloyd",
-    "club": "Fairwater B (71)",
+    "club": "Fairwater Runners",
     "time": "00:44:24"
   },
   {
@@ -9476,7 +9476,7 @@ const relayResults = [
     "km": 8.7,
     "position": 13,
     "name": "Vanessa Ward",
-    "club": "Monross (79)",
+    "club": "Monross Trailblazers",
     "time": "00:44:29"
   },
   {
@@ -9488,7 +9488,7 @@ const relayResults = [
     "km": 8.7,
     "position": 14,
     "name": "Carys Malarczyk",
-    "club": "Islwyn A (73)",
+    "club": "Islwyn RC",
     "time": "00:45:01"
   },
   {
@@ -9500,7 +9500,7 @@ const relayResults = [
     "km": 8.7,
     "position": 15,
     "name": "Karen Southgate",
-    "club": "Pont-y-pwl A (84)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:45:35"
   },
   {
@@ -9512,7 +9512,7 @@ const relayResults = [
     "km": 8.7,
     "position": 16,
     "name": "Michelle Wachter",
-    "club": "Caldicot (66)",
+    "club": "Caldicot RC",
     "time": "00:45:38"
   },
   {
@@ -9524,7 +9524,7 @@ const relayResults = [
     "km": 8.7,
     "position": 17,
     "name": "Lolly Evans",
-    "club": "Les Croupiers B (76)",
+    "club": "Les Croupiers RC",
     "time": "00:46:34"
   },
   {
@@ -9536,7 +9536,7 @@ const relayResults = [
     "km": 8.7,
     "position": 18,
     "name": "Cat Whittle",
-    "club": "San Domenico (88)",
+    "club": "San Domenico RC",
     "time": "00:46:47"
   },
   {
@@ -9548,7 +9548,7 @@ const relayResults = [
     "km": 8.7,
     "position": 19,
     "name": "Chris Richards",
-    "club": "Ogmore (80)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:47:06"
   },
   {
@@ -9560,7 +9560,7 @@ const relayResults = [
     "km": 8.7,
     "position": 20,
     "name": "Alexandra Fellows",
-    "club": "CDF (67)",
+    "club": "CDF Runners",
     "time": "00:47:46"
   },
   {
@@ -9572,7 +9572,7 @@ const relayResults = [
     "km": 8.7,
     "position": 21,
     "name": "Leonie Roberts",
-    "club": "Fairwater A (70)",
+    "club": "Fairwater Runners",
     "time": "00:47:55"
   },
   {
@@ -9584,7 +9584,7 @@ const relayResults = [
     "km": 8.7,
     "position": 22,
     "name": "Sharon Carrafa",
-    "club": "Islwyn B (74)",
+    "club": "Islwyn RC",
     "time": "00:48:53"
   },
   {
@@ -9596,7 +9596,7 @@ const relayResults = [
     "km": 8.7,
     "position": 23,
     "name": "Jane Lewis",
-    "club": "Lliswerry B (78)",
+    "club": "Lliswerry Runners",
     "time": "00:49:00"
   },
   {
@@ -9608,7 +9608,7 @@ const relayResults = [
     "km": 8.7,
     "position": 24,
     "name": "Andy Clifton",
-    "club": "Spirit (89)",
+    "club": "Spirit of Monmouth",
     "time": "00:49:01"
   },
   {
@@ -9620,7 +9620,7 @@ const relayResults = [
     "km": 8.7,
     "position": 25,
     "name": "Lisa Price",
-    "club": "Rhondda (87)",
+    "club": "Rhondda Valley Runners",
     "time": "00:49:02"
   },
   {
@@ -9632,7 +9632,7 @@ const relayResults = [
     "km": 8.7,
     "position": 26,
     "name": "Rachel Yeoman",
-    "club": "Caerleon B (64)",
+    "club": "Caerleon RC",
     "time": "00:49:03"
   },
   {
@@ -9644,7 +9644,7 @@ const relayResults = [
     "km": 8.7,
     "position": 27,
     "name": "Lowri Feighoney",
-    "club": "Pegasus (83)",
+    "club": "Pegasus RC",
     "time": "00:49:04"
   },
   {
@@ -9656,7 +9656,7 @@ const relayResults = [
     "km": 8.7,
     "position": 28,
     "name": "Anna Wilkinson",
-    "club": "Griffithstown (72)",
+    "club": "Griffithstown Harriers",
     "time": "00:49:05"
   },
   {
@@ -9668,7 +9668,7 @@ const relayResults = [
     "km": 8.7,
     "position": 29,
     "name": "Jessica James",
-    "club": "Parc (82)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:49:06"
   },
   {
@@ -9680,7 +9680,7 @@ const relayResults = [
     "km": 8.7,
     "position": 30,
     "name": "Stephen Matthews",
-    "club": "Pont-y-pwl B (85)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:49:07"
   },
   {
@@ -9692,7 +9692,7 @@ const relayResults = [
     "km": 8.2,
     "position": 1,
     "name": "Natalie Burchell",
-    "club": "Griffithstown (43)",
+    "club": "Griffithstown Harriers",
     "time": "00:34:14"
   },
   {
@@ -9704,7 +9704,7 @@ const relayResults = [
     "km": 8.2,
     "position": 2,
     "name": "Kimberley Price",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:00:26"
   },
   {
@@ -9716,7 +9716,7 @@ const relayResults = [
     "km": 8.2,
     "position": 3,
     "name": "Emily Sams",
-    "club": "Caerphilly (36)",
+    "club": "Caerphilly Runners",
     "time": "00:35:02"
   },
   {
@@ -9728,7 +9728,7 @@ const relayResults = [
     "km": 8.2,
     "position": 4,
     "name": "Bethan Moor",
-    "club": "Ogmore (50)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:35:36"
   },
   {
@@ -9740,7 +9740,7 @@ const relayResults = [
     "km": 8.2,
     "position": 5,
     "name": "Sarah Heath",
-    "club": "Spirit (59)",
+    "club": "Spirit of Monmouth",
     "time": "00:35:42"
   },
   {
@@ -9752,7 +9752,7 @@ const relayResults = [
     "km": 8.2,
     "position": 6,
     "name": "Sammi Sinclair",
-    "club": "Pont-y-pwl (54)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:36:01"
   },
   {
@@ -9764,7 +9764,7 @@ const relayResults = [
     "km": 8.2,
     "position": 7,
     "name": "Angela Potter",
-    "club": "Lliswerry A (47)",
+    "club": "Lliswerry Runners",
     "time": "00:36:14"
   },
   {
@@ -9776,7 +9776,7 @@ const relayResults = [
     "km": 8.2,
     "position": 8,
     "name": "Michelle Johnson",
-    "club": "Islwyn A (44)",
+    "club": "Islwyn RC",
     "time": "00:36:57"
   },
   {
@@ -9788,7 +9788,7 @@ const relayResults = [
     "km": 8.2,
     "position": 9,
     "name": "Jan Morris",
-    "club": "Chepstow A (39)",
+    "club": "Chepstow Harriers",
     "time": "00:37:13"
   },
   {
@@ -9800,7 +9800,7 @@ const relayResults = [
     "km": 8.2,
     "position": 10,
     "name": "Vanessa Lawson",
-    "club": "Chepstow B (40)",
+    "club": "Chepstow Harriers",
     "time": "00:37:38"
   },
   {
@@ -9812,7 +9812,7 @@ const relayResults = [
     "km": 8.2,
     "position": 11,
     "name": "Jane Ogilvie",
-    "club": "Brackla A (31)",
+    "club": "Brackla Harriers",
     "time": "00:37:53"
   },
   {
@@ -9824,7 +9824,7 @@ const relayResults = [
     "km": 8.2,
     "position": 12,
     "name": "Siwan Purkis",
-    "club": "Caerleon A (34)",
+    "club": "Caerleon RC",
     "time": "00:38:06"
   },
   {
@@ -9836,7 +9836,7 @@ const relayResults = [
     "km": 8.2,
     "position": 13,
     "name": "Stuart Ball",
-    "club": "Fairwater B (42)",
+    "club": "Fairwater Runners",
     "time": "00:38:47"
   },
   {
@@ -9848,7 +9848,7 @@ const relayResults = [
     "km": 8.2,
     "position": 14,
     "name": "Catherine Finlay",
-    "club": "Monross (49)",
+    "club": "Monross Trailblazers",
     "time": "00:39:43"
   },
   {
@@ -9860,7 +9860,7 @@ const relayResults = [
     "km": 8.2,
     "position": 15,
     "name": "Emma Blow",
-    "club": "Pontypridd A (55)",
+    "club": "Pontypridd Roadents",
     "time": "00:39:44"
   },
   {
@@ -9872,7 +9872,7 @@ const relayResults = [
     "km": 8.2,
     "position": 16,
     "name": "Lolly Evans",
-    "club": "Les Croupiers (46)",
+    "club": "Les Croupiers RC",
     "time": "00:40:24"
   },
   {
@@ -9884,7 +9884,7 @@ const relayResults = [
     "km": 8.2,
     "position": 17,
     "name": "Jane Lewis",
-    "club": "Fairwater A (41)",
+    "club": "Fairwater Runners",
     "time": "00:40:56"
   },
   {
@@ -9896,7 +9896,7 @@ const relayResults = [
     "km": 8.2,
     "position": 18,
     "name": "Alex Holloway",
-    "club": "Caldicot (37)",
+    "club": "Caldicot RC",
     "time": "00:40:58"
   },
   {
@@ -9908,7 +9908,7 @@ const relayResults = [
     "km": 8.2,
     "position": 19,
     "name": "Sue Cottrell",
-    "club": "Lliswerry B (48)",
+    "club": "Lliswerry Runners",
     "time": "00:41:16"
   },
   {
@@ -9920,7 +9920,7 @@ const relayResults = [
     "km": 8.2,
     "position": 20,
     "name": "Charlie Davies",
-    "club": "Islwyn B (45)",
+    "club": "Islwyn RC",
     "time": "00:41:40"
   },
   {
@@ -9932,7 +9932,7 @@ const relayResults = [
     "km": 8.2,
     "position": 21,
     "name": "Deborah Evans",
-    "club": "Aberdare (30)",
+    "club": "Aberdare",
     "time": "00:42:48"
   },
   {
@@ -9944,7 +9944,7 @@ const relayResults = [
     "km": 8.2,
     "position": 22,
     "name": "Hannah Withers",
-    "club": "San Domenico (58)",
+    "club": "San Domenico RC",
     "time": "00:43:09"
   },
   {
@@ -9956,7 +9956,7 @@ const relayResults = [
     "km": 8.2,
     "position": 23,
     "name": "Katherine Axten",
-    "club": "CDF (38)",
+    "club": "CDF Runners",
     "time": "00:43:42"
   },
   {
@@ -9968,7 +9968,7 @@ const relayResults = [
     "km": 8.2,
     "position": 24,
     "name": "Nigel Hammersley",
-    "club": "Pegasus (53)",
+    "club": "Pegasus RC",
     "time": "00:44:28"
   },
   {
@@ -9992,7 +9992,7 @@ const relayResults = [
     "km": 8.2,
     "position": 26,
     "name": "Mel Hall",
-    "club": "Brackla B (32)",
+    "club": "Brackla Harriers",
     "time": "00:44:42"
   },
   {
@@ -10004,7 +10004,7 @@ const relayResults = [
     "km": 8.2,
     "position": 27,
     "name": "Rhian Durham",
-    "club": "Pontypridd B (56)",
+    "club": "Pontypridd Roadents",
     "time": "00:45:40"
   },
   {
@@ -10016,7 +10016,7 @@ const relayResults = [
     "km": 8.2,
     "position": 28,
     "name": "Vanessa Pritchard",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:00:20"
   },
   {
@@ -10028,7 +10028,7 @@ const relayResults = [
     "km": 8.2,
     "position": 29,
     "name": "Jaye Price",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:00:01"
   },
   {
@@ -10040,7 +10040,7 @@ const relayResults = [
     "km": 11.2,
     "position": 1,
     "name": "Dan Thrift",
-    "club": "Pontypridd A (55)",
+    "club": "Pontypridd Roadents",
     "time": "00:42:21"
   },
   {
@@ -10052,7 +10052,7 @@ const relayResults = [
     "km": 11.2,
     "position": 2,
     "name": "Alex Line",
-    "club": "Islwyn A (44)",
+    "club": "Islwyn RC",
     "time": "00:43:15"
   },
   {
@@ -10064,7 +10064,7 @@ const relayResults = [
     "km": 11.2,
     "position": 3,
     "name": "Robert Nicholls",
-    "club": "Monross (49)",
+    "club": "Monross Trailblazers",
     "time": "00:43:43"
   },
   {
@@ -10076,7 +10076,7 @@ const relayResults = [
     "km": 11.2,
     "position": 4,
     "name": "Keith James",
-    "club": "Pontypridd B (56)",
+    "club": "Pontypridd Roadents",
     "time": "00:44:20"
   },
   {
@@ -10088,7 +10088,7 @@ const relayResults = [
     "km": 11.2,
     "position": 5,
     "name": "Tony Marshal",
-    "club": "Chepstow A (39)",
+    "club": "Chepstow Harriers",
     "time": "00:44:51"
   },
   {
@@ -10100,7 +10100,7 @@ const relayResults = [
     "km": 11.2,
     "position": 6,
     "name": "Lizzie Dimond",
-    "club": "Lliswerry A (47)",
+    "club": "Lliswerry Runners",
     "time": "00:44:55"
   },
   {
@@ -10112,7 +10112,7 @@ const relayResults = [
     "km": 11.2,
     "position": 7,
     "name": "Gareth Logan",
-    "club": "Les Croupiers (46)",
+    "club": "Les Croupiers RC",
     "time": "00:46:01"
   },
   {
@@ -10124,7 +10124,7 @@ const relayResults = [
     "km": 11.2,
     "position": 8,
     "name": "Andrew Stamp",
-    "club": "Griffithstown (43)",
+    "club": "Griffithstown Harriers",
     "time": "00:47:04"
   },
   {
@@ -10136,7 +10136,7 @@ const relayResults = [
     "km": 11.2,
     "position": 9,
     "name": "Tom Webb",
-    "club": "Parc (52)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:47:24"
   },
   {
@@ -10148,7 +10148,7 @@ const relayResults = [
     "km": 11.2,
     "position": 10,
     "name": "Tomas Cox",
-    "club": "CDF (38)",
+    "club": "CDF Runners",
     "time": "00:47:45"
   },
   {
@@ -10160,7 +10160,7 @@ const relayResults = [
     "km": 11.2,
     "position": 11,
     "name": "Steven Duggan",
-    "club": "Parc (51)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:47:56"
   },
   {
@@ -10172,7 +10172,7 @@ const relayResults = [
     "km": 11.2,
     "position": 12,
     "name": "James Tucker",
-    "club": "Chepstow B (40)",
+    "club": "Chepstow Harriers",
     "time": "00:48:33"
   },
   {
@@ -10184,7 +10184,7 @@ const relayResults = [
     "km": 11.2,
     "position": 13,
     "name": "Archie Davies",
-    "club": "Pont-y-pwl (54)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:48:57"
   },
   {
@@ -10196,7 +10196,7 @@ const relayResults = [
     "km": 11.2,
     "position": 14,
     "name": "Rachael Baralos",
-    "club": "Caerphilly (36)",
+    "club": "Caerphilly Runners",
     "time": "00:50:07"
   },
   {
@@ -10208,7 +10208,7 @@ const relayResults = [
     "km": 11.2,
     "position": 15,
     "name": "Jade Wakley",
-    "club": "Caerleon A (34)",
+    "club": "Caerleon RC",
     "time": "00:50:21"
   },
   {
@@ -10220,7 +10220,7 @@ const relayResults = [
     "km": 11.2,
     "position": 16,
     "name": "Lee Davies",
-    "club": "Spirit (59)",
+    "club": "Spirit of Monmouth",
     "time": "00:51:25"
   },
   {
@@ -10232,7 +10232,7 @@ const relayResults = [
     "km": 11.2,
     "position": 17,
     "name": "Chloe Piggott",
-    "club": "Aberdare (30)",
+    "club": "Aberdare",
     "time": "00:53:14"
   },
   {
@@ -10244,7 +10244,7 @@ const relayResults = [
     "km": 11.2,
     "position": 18,
     "name": "Martin jones",
-    "club": "Islwyn B (45)",
+    "club": "Islwyn RC",
     "time": "00:53:38"
   },
   {
@@ -10256,7 +10256,7 @@ const relayResults = [
     "km": 11.2,
     "position": 19,
     "name": "Jamie Verran",
-    "club": "Ogmore (50)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:54:25"
   },
   {
@@ -10268,7 +10268,7 @@ const relayResults = [
     "km": 11.2,
     "position": 20,
     "name": "Steve Holderness",
-    "club": "Rhondda (57)",
+    "club": "Rhondda Valley Runners",
     "time": "00:55:55"
   },
   {
@@ -10280,7 +10280,7 @@ const relayResults = [
     "km": 11.2,
     "position": 21,
     "name": "Karen Pennell",
-    "club": "Caldicot (37)",
+    "club": "Caldicot RC",
     "time": "00:56:18"
   },
   {
@@ -10304,7 +10304,7 @@ const relayResults = [
     "km": 11.2,
     "position": 23,
     "name": "Tom Baker",
-    "club": "San Domenico (58)",
+    "club": "San Domenico RC",
     "time": "00:58:25"
   },
   {
@@ -10316,7 +10316,7 @@ const relayResults = [
     "km": 11.2,
     "position": 24,
     "name": "Emily Ay",
-    "club": "Pegasus (53)",
+    "club": "Pegasus RC",
     "time": "00:59:00"
   },
   {
@@ -10328,7 +10328,7 @@ const relayResults = [
     "km": 11.2,
     "position": 25,
     "name": "Sarah Lauder",
-    "club": "Lliswerry B (48)",
+    "club": "Lliswerry Runners",
     "time": "00:59:11"
   },
   {
@@ -10340,7 +10340,7 @@ const relayResults = [
     "km": 11.2,
     "position": 26,
     "name": "Tom Beard",
-    "club": "Caerleon B (35)",
+    "club": "Caerleon RC",
     "time": "01:01:16"
   },
   {
@@ -10352,7 +10352,7 @@ const relayResults = [
     "km": 11.2,
     "position": 27,
     "name": "Evie Hoare",
-    "club": "Fairwater A (41)",
+    "club": "Fairwater Runners",
     "time": "01:02:00"
   },
   {
@@ -10364,7 +10364,7 @@ const relayResults = [
     "km": 11.2,
     "position": 28,
     "name": "Louise Harries",
-    "club": "Brackla B (32)",
+    "club": "Brackla Harriers",
     "time": "01:02:01"
   },
   {
@@ -10376,7 +10376,7 @@ const relayResults = [
     "km": 11.2,
     "position": 29,
     "name": "Wayne Frewen",
-    "club": "Brackla A (31)",
+    "club": "Brackla Harriers",
     "time": "01:02:02"
   },
   {
@@ -10388,7 +10388,7 @@ const relayResults = [
     "km": 11.2,
     "position": 30,
     "name": "Nyree Temby",
-    "club": "Fairwater B (42)",
+    "club": "Fairwater Runners",
     "time": "01:12:00"
   },
   {
@@ -10400,7 +10400,7 @@ const relayResults = [
     "km": 12.1,
     "position": 1,
     "name": "Owen Thomas",
-    "club": "Aberdare (30)",
+    "club": "Aberdare",
     "time": "00:43:25"
   },
   {
@@ -10412,7 +10412,7 @@ const relayResults = [
     "km": 12.1,
     "position": 2,
     "name": "Martin Norton",
-    "club": "Lliswerry A (47)",
+    "club": "Lliswerry Runners",
     "time": "00:43:39"
   },
   {
@@ -10424,7 +10424,7 @@ const relayResults = [
     "km": 12.1,
     "position": 3,
     "name": "Nick Liu",
-    "club": "Pontypridd A (55)",
+    "club": "Pontypridd Roadents",
     "time": "00:44:41"
   },
   {
@@ -10436,7 +10436,7 @@ const relayResults = [
     "km": 12.1,
     "position": 4,
     "name": "owen hacker",
-    "club": "Islwyn A (44)",
+    "club": "Islwyn RC",
     "time": "00:48:26"
   },
   {
@@ -10448,7 +10448,7 @@ const relayResults = [
     "km": 12.1,
     "position": 5,
     "name": "Kani Hinshelwood",
-    "club": "Parc (51)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:49:12"
   },
   {
@@ -10460,7 +10460,7 @@ const relayResults = [
     "km": 12.1,
     "position": 6,
     "name": "John Seaward",
-    "club": "Caerphilly (36)",
+    "club": "Caerphilly Runners",
     "time": "00:49:20"
   },
   {
@@ -10472,7 +10472,7 @@ const relayResults = [
     "km": 12.1,
     "position": 7,
     "name": "Dylan Panting",
-    "club": "Ogmore (50)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:52:08"
   },
   {
@@ -10484,7 +10484,7 @@ const relayResults = [
     "km": 12.1,
     "position": 8,
     "name": "Adrian Smith",
-    "club": "Griffithstown (43)",
+    "club": "Griffithstown Harriers",
     "time": "00:52:09"
   },
   {
@@ -10496,7 +10496,7 @@ const relayResults = [
     "km": 12.1,
     "position": 9,
     "name": "Lowenna Taylor",
-    "club": "Caerleon A (34)",
+    "club": "Caerleon RC",
     "time": "00:52:10"
   },
   {
@@ -10520,7 +10520,7 @@ const relayResults = [
     "km": 12.1,
     "position": 11,
     "name": "Josh Malony",
-    "club": "Pont-y-pwl (54)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:53:33"
   },
   {
@@ -10532,7 +10532,7 @@ const relayResults = [
     "km": 12.1,
     "position": 12,
     "name": "Luc Shide",
-    "club": "Islwyn B (45)",
+    "club": "Islwyn RC",
     "time": "00:53:44"
   },
   {
@@ -10544,7 +10544,7 @@ const relayResults = [
     "km": 12.1,
     "position": 13,
     "name": "Taylor Brinicombe",
-    "club": "Pontypridd B (56)",
+    "club": "Pontypridd Roadents",
     "time": "00:54:08"
   },
   {
@@ -10556,7 +10556,7 @@ const relayResults = [
     "km": 12.1,
     "position": 14,
     "name": "Scott Place",
-    "club": "CDF (38)",
+    "club": "CDF Runners",
     "time": "00:54:11"
   },
   {
@@ -10568,7 +10568,7 @@ const relayResults = [
     "km": 12.1,
     "position": 15,
     "name": "Jamie Goddard",
-    "club": "Chepstow B (40)",
+    "club": "Chepstow Harriers",
     "time": "00:54:15"
   },
   {
@@ -10580,7 +10580,7 @@ const relayResults = [
     "km": 12.1,
     "position": 16,
     "name": "Neil Pearson",
-    "club": "Caldicot (37)",
+    "club": "Caldicot RC",
     "time": "00:54:18"
   },
   {
@@ -10592,7 +10592,7 @@ const relayResults = [
     "km": 12.1,
     "position": 17,
     "name": "Beth Jones",
-    "club": "Parc (52)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:55:02"
   },
   {
@@ -10604,7 +10604,7 @@ const relayResults = [
     "km": 12.1,
     "position": 18,
     "name": "Sarah Beeching",
-    "club": "Les Croupiers (46)",
+    "club": "Les Croupiers RC",
     "time": "00:56:27"
   },
   {
@@ -10616,7 +10616,7 @@ const relayResults = [
     "km": 12.1,
     "position": 19,
     "name": "Garreth Smith",
-    "club": "Lliswerry B (48)",
+    "club": "Lliswerry Runners",
     "time": "00:56:49"
   },
   {
@@ -10628,7 +10628,7 @@ const relayResults = [
     "km": 12.1,
     "position": 20,
     "name": "Lucy MacDonald",
-    "club": "Spirit (59)",
+    "club": "Spirit of Monmouth",
     "time": "00:56:56"
   },
   {
@@ -10640,7 +10640,7 @@ const relayResults = [
     "km": 12.1,
     "position": 21,
     "name": "Eleri Powell",
-    "club": "Brackla A (31)",
+    "club": "Brackla Harriers",
     "time": "00:59:36"
   },
   {
@@ -10652,7 +10652,7 @@ const relayResults = [
     "km": 12.1,
     "position": 22,
     "name": "Graham Foster",
-    "club": "Brackla B (32)",
+    "club": "Brackla Harriers",
     "time": "00:59:38"
   },
   {
@@ -10664,7 +10664,7 @@ const relayResults = [
     "km": 12.1,
     "position": 23,
     "name": "Gareth Purkis",
-    "club": "Caerleon B (35)",
+    "club": "Caerleon RC",
     "time": "00:59:55"
   },
   {
@@ -10676,7 +10676,7 @@ const relayResults = [
     "km": 12.1,
     "position": 24,
     "name": "Emma Davies",
-    "club": "Monross (49)",
+    "club": "Monross Trailblazers",
     "time": "01:01:11"
   },
   {
@@ -10688,7 +10688,7 @@ const relayResults = [
     "km": 12.1,
     "position": 25,
     "name": "Amy Edwards",
-    "club": "Rhondda (57)",
+    "club": "Rhondda Valley Runners",
     "time": "01:01:58"
   },
   {
@@ -10700,7 +10700,7 @@ const relayResults = [
     "km": 12.1,
     "position": 26,
     "name": "Rebecca Poole",
-    "club": "Fairwater A (41)",
+    "club": "Fairwater Runners",
     "time": "01:03:51"
   },
   {
@@ -10712,7 +10712,7 @@ const relayResults = [
     "km": 12.1,
     "position": 27,
     "name": "Julie Roche",
-    "club": "Fairwater B (42)",
+    "club": "Fairwater Runners",
     "time": "01:07:01"
   },
   {
@@ -10724,7 +10724,7 @@ const relayResults = [
     "km": 12.1,
     "position": 28,
     "name": "Niall Hughes",
-    "club": "San Domenico (58)",
+    "club": "San Domenico RC",
     "time": "01:07:12"
   },
   {
@@ -10736,7 +10736,7 @@ const relayResults = [
     "km": 12.1,
     "position": 29,
     "name": "Ellen Sugden",
-    "club": "Pegasus (53)",
+    "club": "Pegasus RC",
     "time": "01:08:00"
   },
   {
@@ -10748,7 +10748,7 @@ const relayResults = [
     "km": 12.1,
     "position": 30,
     "name": "Will Ganley",
-    "club": "Chepstow A (39)",
+    "club": "Chepstow Harriers",
     "time": "01:18:00"
   },
   {
@@ -10760,7 +10760,7 @@ const relayResults = [
     "km": 10.8,
     "position": 1,
     "name": "Nettie Rose",
-    "club": "Lliswerry A (47)",
+    "club": "Lliswerry Runners",
     "time": "00:42:06"
   },
   {
@@ -10772,7 +10772,7 @@ const relayResults = [
     "km": 10.8,
     "position": 2,
     "name": "Clare Patterson",
-    "club": "Parc (51)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:45:01"
   },
   {
@@ -10784,7 +10784,7 @@ const relayResults = [
     "km": 10.8,
     "position": 3,
     "name": "Steve Drewitt",
-    "club": "Fairwater A (41)",
+    "club": "Fairwater Runners",
     "time": "00:46:32"
   },
   {
@@ -10796,7 +10796,7 @@ const relayResults = [
     "km": 10.8,
     "position": 4,
     "name": "Sarah Bell",
-    "club": "Chepstow A (39)",
+    "club": "Chepstow Harriers",
     "time": "00:47:10"
   },
   {
@@ -10808,7 +10808,7 @@ const relayResults = [
     "km": 10.8,
     "position": 5,
     "name": "Lubica Ford",
-    "club": "Griffithstown (43)",
+    "club": "Griffithstown Harriers",
     "time": "00:47:43"
   },
   {
@@ -10820,7 +10820,7 @@ const relayResults = [
     "km": 10.8,
     "position": 6,
     "name": "Lauren Mackie",
-    "club": "Aberdare (30)",
+    "club": "Aberdare",
     "time": "00:48:00"
   },
   {
@@ -10832,7 +10832,7 @@ const relayResults = [
     "km": 10.8,
     "position": 7,
     "name": "Emma Edwards",
-    "club": "Caerphilly (36)",
+    "club": "Caerphilly Runners",
     "time": "00:48:15"
   },
   {
@@ -10844,7 +10844,7 @@ const relayResults = [
     "km": 10.8,
     "position": 8,
     "name": "Ian Ogilvie",
-    "club": "Brackla A (31)",
+    "club": "Brackla Harriers",
     "time": "00:48:49"
   },
   {
@@ -10856,7 +10856,7 @@ const relayResults = [
     "km": 10.8,
     "position": 9,
     "name": "Anh Quan Tran",
-    "club": "CDF (38)",
+    "club": "CDF Runners",
     "time": "00:49:34"
   },
   {
@@ -10868,7 +10868,7 @@ const relayResults = [
     "km": 10.8,
     "position": 10,
     "name": "Tammy Fry",
-    "club": "Caerleon A (34)",
+    "club": "Caerleon RC",
     "time": "00:51:19"
   },
   {
@@ -10880,7 +10880,7 @@ const relayResults = [
     "km": 10.8,
     "position": 11,
     "name": "David Calvert",
-    "club": "Rhondda (57)",
+    "club": "Rhondda Valley Runners",
     "time": "00:51:45"
   },
   {
@@ -10892,7 +10892,7 @@ const relayResults = [
     "km": 10.8,
     "position": 12,
     "name": "Shannon Walker",
-    "club": "Les Croupiers (46)",
+    "club": "Les Croupiers RC",
     "time": "00:51:55"
   },
   {
@@ -10904,7 +10904,7 @@ const relayResults = [
     "km": 10.8,
     "position": 13,
     "name": "Nadine Morgan",
-    "club": "San Domenico (58)",
+    "club": "San Domenico RC",
     "time": "00:52:33"
   },
   {
@@ -10916,7 +10916,7 @@ const relayResults = [
     "km": 10.8,
     "position": 14,
     "name": "Melissa Morgan",
-    "club": "Islwyn A (44)",
+    "club": "Islwyn RC",
     "time": "00:52:53"
   },
   {
@@ -10928,7 +10928,7 @@ const relayResults = [
     "km": 10.8,
     "position": 15,
     "name": "James Hague",
-    "club": "Spirit (59)",
+    "club": "Spirit of Monmouth",
     "time": "00:53:09"
   },
   {
@@ -10940,7 +10940,7 @@ const relayResults = [
     "km": 10.8,
     "position": 16,
     "name": "Julia Bajjada",
-    "club": "Chepstow B (40)",
+    "club": "Chepstow Harriers",
     "time": "00:53:10"
   },
   {
@@ -10952,7 +10952,7 @@ const relayResults = [
     "km": 10.8,
     "position": 17,
     "name": "Polly Lord",
-    "club": "Caldicot (37)",
+    "club": "Caldicot RC",
     "time": "00:54:07"
   },
   {
@@ -10964,7 +10964,7 @@ const relayResults = [
     "km": 10.8,
     "position": 18,
     "name": "Seren Allin",
-    "club": "Brackla B (32)",
+    "club": "Brackla Harriers",
     "time": "00:54:13"
   },
   {
@@ -10976,7 +10976,7 @@ const relayResults = [
     "km": 10.8,
     "position": 19,
     "name": "Sam Clarkstone",
-    "club": "Pontypridd A (55)",
+    "club": "Pontypridd Roadents",
     "time": "00:54:31"
   },
   {
@@ -10988,7 +10988,7 @@ const relayResults = [
     "km": 10.8,
     "position": 20,
     "name": "Bethan Richardson",
-    "club": "Pont-y-pwl (54)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:55:34"
   },
   {
@@ -11000,7 +11000,7 @@ const relayResults = [
     "km": 10.8,
     "position": 21,
     "name": "Liz Sims",
-    "club": "Caerleon B (35)",
+    "club": "Caerleon RC",
     "time": "00:57:48"
   },
   {
@@ -11012,7 +11012,7 @@ const relayResults = [
     "km": 10.8,
     "position": 22,
     "name": "Sian Price",
-    "club": "Ogmore (50)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:58:00"
   },
   {
@@ -11024,7 +11024,7 @@ const relayResults = [
     "km": 10.8,
     "position": 23,
     "name": "Sarah Davies",
-    "club": "Islwyn B (45)",
+    "club": "Islwyn RC",
     "time": "00:58:15"
   },
   {
@@ -11036,7 +11036,7 @@ const relayResults = [
     "km": 10.8,
     "position": 24,
     "name": "Jennet Holmes",
-    "club": "Pontypridd B (56)",
+    "club": "Pontypridd Roadents",
     "time": "00:59:11"
   },
   {
@@ -11048,7 +11048,7 @@ const relayResults = [
     "km": 10.8,
     "position": 25,
     "name": "Samantha Bills",
-    "club": "Parc (52)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:59:38"
   },
   {
@@ -11072,7 +11072,7 @@ const relayResults = [
     "km": 10.8,
     "position": 27,
     "name": "Charlotte Bethell",
-    "club": "Pegasus (53)",
+    "club": "Pegasus RC",
     "time": "01:00:46"
   },
   {
@@ -11084,7 +11084,7 @@ const relayResults = [
     "km": 10.8,
     "position": 28,
     "name": "Rachael Aitken",
-    "club": "Monross (49)",
+    "club": "Monross Trailblazers",
     "time": "01:00:58"
   },
   {
@@ -11096,7 +11096,7 @@ const relayResults = [
     "km": 10.8,
     "position": 29,
     "name": "Janet Richards",
-    "club": "Lliswerry B (48)",
+    "club": "Lliswerry Runners",
     "time": "01:01:00"
   },
   {
@@ -11108,7 +11108,7 @@ const relayResults = [
     "km": 10.8,
     "position": 30,
     "name": "Ceri Jenkins",
-    "club": "Fairwater B (42)",
+    "club": "Fairwater Runners",
     "time": "01:01:01"
   },
   {
@@ -11120,7 +11120,7 @@ const relayResults = [
     "km": 13.0,
     "position": 1,
     "name": "Toby Jones",
-    "club": "Lliswerry A (47)",
+    "club": "Lliswerry Runners",
     "time": "00:49:06"
   },
   {
@@ -11132,7 +11132,7 @@ const relayResults = [
     "km": 13.0,
     "position": 2,
     "name": "Tim Bachelor",
-    "club": "Chepstow A (39)",
+    "club": "Chepstow Harriers",
     "time": "00:49:17"
   },
   {
@@ -11144,7 +11144,7 @@ const relayResults = [
     "km": 13.0,
     "position": 3,
     "name": "Sam Richards",
-    "club": "Pontypridd A (55)",
+    "club": "Pontypridd Roadents",
     "time": "00:49:19"
   },
   {
@@ -11156,7 +11156,7 @@ const relayResults = [
     "km": 13.0,
     "position": 4,
     "name": "Jack Reddy",
-    "club": "Aberdare (30)",
+    "club": "Aberdare",
     "time": "00:50:03"
   },
   {
@@ -11180,7 +11180,7 @@ const relayResults = [
     "km": 13.0,
     "position": 6,
     "name": "Ben Sinclair",
-    "club": "Pont-y-pwl (54)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:52:20"
   },
   {
@@ -11192,7 +11192,7 @@ const relayResults = [
     "km": 13.0,
     "position": 7,
     "name": "James Blore",
-    "club": "Chepstow B (40)",
+    "club": "Chepstow Harriers",
     "time": "00:53:02"
   },
   {
@@ -11204,7 +11204,7 @@ const relayResults = [
     "km": 13.0,
     "position": 8,
     "name": "Lewis Daniels",
-    "club": "Parc (51)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:53:06"
   },
   {
@@ -11216,7 +11216,7 @@ const relayResults = [
     "km": 13.0,
     "position": 9,
     "name": "Adrian Jeremiah",
-    "club": "Pontypridd B (56)",
+    "club": "Pontypridd Roadents",
     "time": "00:53:31"
   },
   {
@@ -11228,7 +11228,7 @@ const relayResults = [
     "km": 13.0,
     "position": 10,
     "name": "Henry Williams",
-    "club": "Lliswerry B (48)",
+    "club": "Lliswerry Runners",
     "time": "00:53:40"
   },
   {
@@ -11240,7 +11240,7 @@ const relayResults = [
     "km": 13.0,
     "position": 11,
     "name": "Marc Wachter",
-    "club": "Caldicot (37)",
+    "club": "Caldicot RC",
     "time": "00:53:56"
   },
   {
@@ -11252,7 +11252,7 @@ const relayResults = [
     "km": 13.0,
     "position": 12,
     "name": "Steve Lane",
-    "club": "Islwyn A (44)",
+    "club": "Islwyn RC",
     "time": "00:55:13"
   },
   {
@@ -11264,7 +11264,7 @@ const relayResults = [
     "km": 13.0,
     "position": 13,
     "name": "Paul Hayward",
-    "club": "Islwyn B (45)",
+    "club": "Islwyn RC",
     "time": "00:55:52"
   },
   {
@@ -11276,7 +11276,7 @@ const relayResults = [
     "km": 13.0,
     "position": 14,
     "name": "Mark Burchell",
-    "club": "Griffithstown (43)",
+    "club": "Griffithstown Harriers",
     "time": "00:57:12"
   },
   {
@@ -11288,7 +11288,7 @@ const relayResults = [
     "km": 13.0,
     "position": 15,
     "name": "Lenny Sayers",
-    "club": "Les Croupiers (46)",
+    "club": "Les Croupiers RC",
     "time": "00:58:27"
   },
   {
@@ -11300,7 +11300,7 @@ const relayResults = [
     "km": 13.0,
     "position": 16,
     "name": "Vicky Roberts",
-    "club": "Spirit (59)",
+    "club": "Spirit of Monmouth",
     "time": "00:59:02"
   },
   {
@@ -11312,7 +11312,7 @@ const relayResults = [
     "km": 13.0,
     "position": 17,
     "name": "Neil Harper",
-    "club": "Monross (49)",
+    "club": "Monross Trailblazers",
     "time": "00:59:31"
   },
   {
@@ -11324,7 +11324,7 @@ const relayResults = [
     "km": 13.0,
     "position": 18,
     "name": "Nicholas Hurley",
-    "club": "Caerphilly (36)",
+    "club": "Caerphilly Runners",
     "time": "00:59:40"
   },
   {
@@ -11336,7 +11336,7 @@ const relayResults = [
     "km": 13.0,
     "position": 19,
     "name": "Leon Gleed",
-    "club": "Fairwater A (41)",
+    "club": "Fairwater Runners",
     "time": "01:02:33"
   },
   {
@@ -11348,7 +11348,7 @@ const relayResults = [
     "km": 13.0,
     "position": 20,
     "name": "Gareth Burkitt",
-    "club": "Caerleon A (34)",
+    "club": "Caerleon RC",
     "time": "01:02:55"
   },
   {
@@ -11360,7 +11360,7 @@ const relayResults = [
     "km": 13.0,
     "position": 21,
     "name": "Natalie Davies",
-    "club": "Rhondda (57)",
+    "club": "Rhondda Valley Runners",
     "time": "01:03:02"
   },
   {
@@ -11372,7 +11372,7 @@ const relayResults = [
     "km": 13.0,
     "position": 22,
     "name": "Adam Johnson",
-    "club": "CDF (38)",
+    "club": "CDF Runners",
     "time": "01:04:26"
   },
   {
@@ -11384,7 +11384,7 @@ const relayResults = [
     "km": 13.0,
     "position": 23,
     "name": "Katie Plimmer",
-    "club": "Ogmore (50)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:05:04"
   },
   {
@@ -11396,7 +11396,7 @@ const relayResults = [
     "km": 13.0,
     "position": 24,
     "name": "Adrian Lewis",
-    "club": "Brackla A (31)",
+    "club": "Brackla Harriers",
     "time": "01:05:19"
   },
   {
@@ -11408,7 +11408,7 @@ const relayResults = [
     "km": 13.0,
     "position": 25,
     "name": "Lucy Green",
-    "club": "San Domenico (58)",
+    "club": "San Domenico RC",
     "time": "01:06:23"
   },
   {
@@ -11420,7 +11420,7 @@ const relayResults = [
     "km": 13.0,
     "position": 26,
     "name": "Ryan Martin",
-    "club": "Fairwater B (42)",
+    "club": "Fairwater Runners",
     "time": "01:08:12"
   },
   {
@@ -11432,7 +11432,7 @@ const relayResults = [
     "km": 13.0,
     "position": 27,
     "name": "Tammy Thomas",
-    "club": "Brackla B (32)",
+    "club": "Brackla Harriers",
     "time": "01:10:09"
   },
   {
@@ -11444,7 +11444,7 @@ const relayResults = [
     "km": 13.0,
     "position": 28,
     "name": "Joanne Kilby",
-    "club": "Parc (52)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:11:09"
   },
   {
@@ -11456,7 +11456,7 @@ const relayResults = [
     "km": 13.0,
     "position": 29,
     "name": "Paul Adams",
-    "club": "Caerleon B (35)",
+    "club": "Caerleon RC",
     "time": "01:13:00"
   },
   {
@@ -11468,7 +11468,7 @@ const relayResults = [
     "km": 13.0,
     "position": 30,
     "name": "Joanne Davies",
-    "club": "Pegasus (53)",
+    "club": "Pegasus RC",
     "time": "01:13:01"
   },
   {
@@ -11480,7 +11480,7 @@ const relayResults = [
     "km": 20.3,
     "position": 1,
     "name": "Michael Lewis",
-    "club": "Parc (51)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:12:33"
   },
   {
@@ -11492,7 +11492,7 @@ const relayResults = [
     "km": 20.3,
     "position": 2,
     "name": "Richard Jones",
-    "club": "Lliswerry A (47)",
+    "club": "Lliswerry Runners",
     "time": "01:12:46"
   },
   {
@@ -11504,7 +11504,7 @@ const relayResults = [
     "km": 20.3,
     "position": 3,
     "name": "Grant Medcraft",
-    "club": "Pontypridd A (55)",
+    "club": "Pontypridd Roadents",
     "time": "01:13:29"
   },
   {
@@ -11516,7 +11516,7 @@ const relayResults = [
     "km": 20.3,
     "position": 4,
     "name": "Lewis Munro",
-    "club": "Islwyn A (44)",
+    "club": "Islwyn RC",
     "time": "01:15:52"
   },
   {
@@ -11528,7 +11528,7 @@ const relayResults = [
     "km": 20.3,
     "position": 5,
     "name": "Mike Erskine",
-    "club": "Pont-y-pwl (54)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:16:29"
   },
   {
@@ -11540,7 +11540,7 @@ const relayResults = [
     "km": 20.3,
     "position": 6,
     "name": "Richard Foster",
-    "club": "Monross (49)",
+    "club": "Monross Trailblazers",
     "time": "01:17:23"
   },
   {
@@ -11552,7 +11552,7 @@ const relayResults = [
     "km": 20.3,
     "position": 7,
     "name": "Mark Gillet",
-    "club": "Chepstow A (39)",
+    "club": "Chepstow Harriers",
     "time": "01:20:34"
   },
   {
@@ -11564,7 +11564,7 @@ const relayResults = [
     "km": 20.3,
     "position": 8,
     "name": "Ryan Pugsley",
-    "club": "Les Croupiers (46)",
+    "club": "Les Croupiers RC",
     "time": "01:21:19"
   },
   {
@@ -11576,7 +11576,7 @@ const relayResults = [
     "km": 20.3,
     "position": 9,
     "name": "Aaron Jeffs",
-    "club": "Aberdare (30)",
+    "club": "Aberdare",
     "time": "01:22:34"
   },
   {
@@ -11588,7 +11588,7 @@ const relayResults = [
     "km": 20.3,
     "position": 10,
     "name": "David Hazell",
-    "club": "Caerphilly (36)",
+    "club": "Caerphilly Runners",
     "time": "01:22:58"
   },
   {
@@ -11600,7 +11600,7 @@ const relayResults = [
     "km": 20.3,
     "position": 11,
     "name": "Phil Lee",
-    "club": "Lliswerry B (48)",
+    "club": "Lliswerry Runners",
     "time": "01:23:31"
   },
   {
@@ -11612,7 +11612,7 @@ const relayResults = [
     "km": 20.3,
     "position": 12,
     "name": "Sean Martin",
-    "club": "Pontypridd B (56)",
+    "club": "Pontypridd Roadents",
     "time": "01:23:45"
   },
   {
@@ -11624,7 +11624,7 @@ const relayResults = [
     "km": 20.3,
     "position": 13,
     "name": "Ross Howells",
-    "club": "Chepstow B (40)",
+    "club": "Chepstow Harriers",
     "time": "01:24:12"
   },
   {
@@ -11636,7 +11636,7 @@ const relayResults = [
     "km": 20.3,
     "position": 14,
     "name": "Harry Woodward",
-    "club": "Caldicot (37)",
+    "club": "Caldicot RC",
     "time": "01:25:18"
   },
   {
@@ -11648,7 +11648,7 @@ const relayResults = [
     "km": 20.3,
     "position": 15,
     "name": "John Adams",
-    "club": "Rhondda (57)",
+    "club": "Rhondda Valley Runners",
     "time": "01:26:32"
   },
   {
@@ -11660,7 +11660,7 @@ const relayResults = [
     "km": 20.3,
     "position": 16,
     "name": "Gareth Richards",
-    "club": "Ogmore (50)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:27:00"
   },
   {
@@ -11672,7 +11672,7 @@ const relayResults = [
     "km": 20.3,
     "position": 17,
     "name": "David Witts",
-    "club": "Islwyn B (45)",
+    "club": "Islwyn RC",
     "time": "01:30:00"
   },
   {
@@ -11684,7 +11684,7 @@ const relayResults = [
     "km": 20.3,
     "position": 18,
     "name": "Cassie Jones",
-    "club": "CDF (38)",
+    "club": "CDF Runners",
     "time": "01:34:15"
   },
   {
@@ -11696,7 +11696,7 @@ const relayResults = [
     "km": 20.3,
     "position": 19,
     "name": "Matt Tooby",
-    "club": "Caerleon A (34)",
+    "club": "Caerleon RC",
     "time": "01:34:35"
   },
   {
@@ -11708,7 +11708,7 @@ const relayResults = [
     "km": 20.3,
     "position": 20,
     "name": "Mel Williams",
-    "club": "Brackla B (32)",
+    "club": "Brackla Harriers",
     "time": "01:34:48"
   },
   {
@@ -11720,7 +11720,7 @@ const relayResults = [
     "km": 20.3,
     "position": 21,
     "name": "Paul Mason",
-    "club": "Griffithstown (43)",
+    "club": "Griffithstown Harriers",
     "time": "01:35:40"
   },
   {
@@ -11732,7 +11732,7 @@ const relayResults = [
     "km": 20.3,
     "position": 22,
     "name": "John Lloyd",
-    "club": "Brackla A (31)",
+    "club": "Brackla Harriers",
     "time": "01:36:15"
   },
   {
@@ -11744,7 +11744,7 @@ const relayResults = [
     "km": 20.3,
     "position": 23,
     "name": "Joey Scutt",
-    "club": "San Domenico (58)",
+    "club": "San Domenico RC",
     "time": "01:37:34"
   },
   {
@@ -11768,7 +11768,7 @@ const relayResults = [
     "km": 20.3,
     "position": 25,
     "name": "Brian Evans",
-    "club": "Spirit (59)",
+    "club": "Spirit of Monmouth",
     "time": "01:38:59"
   },
   {
@@ -11780,7 +11780,7 @@ const relayResults = [
     "km": 20.3,
     "position": 26,
     "name": "Peter Edwards",
-    "club": "Fairwater A (41)",
+    "club": "Fairwater Runners",
     "time": "01:42:39"
   },
   {
@@ -11792,7 +11792,7 @@ const relayResults = [
     "km": 20.3,
     "position": 27,
     "name": "David Casado",
-    "club": "Pegasus (53)",
+    "club": "Pegasus RC",
     "time": "01:54:00"
   },
   {
@@ -11804,7 +11804,7 @@ const relayResults = [
     "km": 20.3,
     "position": 28,
     "name": "Andy Baker",
-    "club": "Fairwater B (42)",
+    "club": "Fairwater Runners",
     "time": "01:54:01"
   },
   {
@@ -11816,7 +11816,7 @@ const relayResults = [
     "km": 20.3,
     "position": 29,
     "name": "Daniel Jones",
-    "club": "Caerleon B (35)",
+    "club": "Caerleon RC",
     "time": "01:54:02"
   },
   {
@@ -11828,7 +11828,7 @@ const relayResults = [
     "km": 8.9,
     "position": 1,
     "name": "Jack Rowland",
-    "club": "Lliswerry B (48)",
+    "club": "Lliswerry Runners",
     "time": "00:32:28"
   },
   {
@@ -11840,7 +11840,7 @@ const relayResults = [
     "km": 8.9,
     "position": 2,
     "name": "Emma Wookey",
-    "club": "Lliswerry A (47)",
+    "club": "Lliswerry Runners",
     "time": "00:34:50"
   },
   {
@@ -11852,7 +11852,7 @@ const relayResults = [
     "km": 8.9,
     "position": 3,
     "name": "Kathy Stringer",
-    "club": "Chepstow A (39)",
+    "club": "Chepstow Harriers",
     "time": "00:35:38"
   },
   {
@@ -11864,7 +11864,7 @@ const relayResults = [
     "km": 8.9,
     "position": 4,
     "name": "Megan Turner",
-    "club": "San Domenico (58)",
+    "club": "San Domenico RC",
     "time": "00:36:02"
   },
   {
@@ -11888,7 +11888,7 @@ const relayResults = [
     "km": 8.9,
     "position": 6,
     "name": "Beth Butler – Madden",
-    "club": "Pontypridd A (55)",
+    "club": "Pontypridd Roadents",
     "time": "00:38:10"
   },
   {
@@ -11900,7 +11900,7 @@ const relayResults = [
     "km": 8.9,
     "position": 7,
     "name": "Leonie Roberts",
-    "club": "Fairwater A (41)",
+    "club": "Fairwater Runners",
     "time": "00:38:39"
   },
   {
@@ -11912,7 +11912,7 @@ const relayResults = [
     "km": 8.9,
     "position": 8,
     "name": "Carys Thomas",
-    "club": "Aberdare (30)",
+    "club": "Aberdare",
     "time": "00:39:06"
   },
   {
@@ -11924,7 +11924,7 @@ const relayResults = [
     "km": 8.9,
     "position": 9,
     "name": "Joanne Hudson",
-    "club": "Caerphilly (36)",
+    "club": "Caerphilly Runners",
     "time": "00:39:12"
   },
   {
@@ -11936,7 +11936,7 @@ const relayResults = [
     "km": 8.9,
     "position": 10,
     "name": "Emily Harrison",
-    "club": "Monross (49)",
+    "club": "Monross Trailblazers",
     "time": "00:40:11"
   },
   {
@@ -11948,7 +11948,7 @@ const relayResults = [
     "km": 8.9,
     "position": 11,
     "name": "Sarah Jeremiah",
-    "club": "Parc (51)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:40:27"
   },
   {
@@ -11960,7 +11960,7 @@ const relayResults = [
     "km": 8.9,
     "position": 12,
     "name": "Liz Richards",
-    "club": "Caerleon A (34)",
+    "club": "Caerleon RC",
     "time": "00:40:30"
   },
   {
@@ -11972,7 +11972,7 @@ const relayResults = [
     "km": 8.9,
     "position": 13,
     "name": "Charlotte Healy",
-    "club": "Griffithstown (43)",
+    "club": "Griffithstown Harriers",
     "time": "00:41:23"
   },
   {
@@ -11984,7 +11984,7 @@ const relayResults = [
     "km": 8.9,
     "position": 14,
     "name": "Julie Gould",
-    "club": "Islwyn A (44)",
+    "club": "Islwyn RC",
     "time": "00:42:59"
   },
   {
@@ -11996,7 +11996,7 @@ const relayResults = [
     "km": 8.9,
     "position": 15,
     "name": "Janet Edwards",
-    "club": "Rhondda (57)",
+    "club": "Rhondda Valley Runners",
     "time": "00:43:05"
   },
   {
@@ -12008,7 +12008,7 @@ const relayResults = [
     "km": 8.9,
     "position": 16,
     "name": "Michelle Wachter",
-    "club": "Caldicot (37)",
+    "club": "Caldicot RC",
     "time": "00:43:06"
   },
   {
@@ -12020,7 +12020,7 @@ const relayResults = [
     "km": 8.9,
     "position": 17,
     "name": "Michelle Amblin",
-    "club": "Les Croupiers (46)",
+    "club": "Les Croupiers RC",
     "time": "00:43:23"
   },
   {
@@ -12032,7 +12032,7 @@ const relayResults = [
     "km": 8.9,
     "position": 18,
     "name": "Sarah Davies",
-    "club": "Ogmore (50)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:43:37"
   },
   {
@@ -12044,7 +12044,7 @@ const relayResults = [
     "km": 8.9,
     "position": 19,
     "name": "Kim Carwardine",
-    "club": "Chepstow B (40)",
+    "club": "Chepstow Harriers",
     "time": "00:44:33"
   },
   {
@@ -12056,7 +12056,7 @@ const relayResults = [
     "km": 8.9,
     "position": 20,
     "name": "Linsey Holt",
-    "club": "Spirit (59)",
+    "club": "Spirit of Monmouth",
     "time": "00:45:13"
   },
   {
@@ -12068,7 +12068,7 @@ const relayResults = [
     "km": 8.9,
     "position": 21,
     "name": "Roland Matthews",
-    "club": "Brackla A (31)",
+    "club": "Brackla Harriers",
     "time": "00:45:51"
   },
   {
@@ -12080,7 +12080,7 @@ const relayResults = [
     "km": 8.9,
     "position": 22,
     "name": "Amelia Davies",
-    "club": "Pont-y-pwl (54)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:47:08"
   },
   {
@@ -12092,7 +12092,7 @@ const relayResults = [
     "km": 8.9,
     "position": 23,
     "name": "Alysha Bunston",
-    "club": "Islwyn B (45)",
+    "club": "Islwyn RC",
     "time": "00:47:31"
   },
   {
@@ -12104,7 +12104,7 @@ const relayResults = [
     "km": 8.9,
     "position": 24,
     "name": "Rachel Yeoman",
-    "club": "Caerleon B (35)",
+    "club": "Caerleon RC",
     "time": "00:48:36"
   },
   {
@@ -12116,7 +12116,7 @@ const relayResults = [
     "km": 8.9,
     "position": 25,
     "name": "Caitlin Tew",
-    "club": "Parc (52)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:49:33"
   },
   {
@@ -12128,7 +12128,7 @@ const relayResults = [
     "km": 8.9,
     "position": 26,
     "name": "Rhiain Davies",
-    "club": "CDF (38)",
+    "club": "CDF Runners",
     "time": "00:49:59"
   },
   {
@@ -12140,7 +12140,7 @@ const relayResults = [
     "km": 8.9,
     "position": 27,
     "name": "Hannah Griffiths",
-    "club": "Pontypridd B (56)",
+    "club": "Pontypridd Roadents",
     "time": "00:50:00"
   },
   {
@@ -12152,7 +12152,7 @@ const relayResults = [
     "km": 8.9,
     "position": 28,
     "name": "Andrew Hollins",
-    "club": "Pegasus (53)",
+    "club": "Pegasus RC",
     "time": "00:50:01"
   },
   {
@@ -12164,7 +12164,7 @@ const relayResults = [
     "km": 8.9,
     "position": 29,
     "name": "Geraldine Tucker",
-    "club": "Brackla B (32)",
+    "club": "Brackla Harriers",
     "time": "00:50:02"
   },
   {
@@ -12176,7 +12176,7 @@ const relayResults = [
     "km": 8.9,
     "position": 30,
     "name": "Sheree Mann",
-    "club": "Fairwater B (42)",
+    "club": "Fairwater Runners",
     "time": "00:50:03"
   },
   {
@@ -12188,7 +12188,7 @@ const relayResults = [
     "km": 21.1,
     "position": 1,
     "name": "Jake Tasker",
-    "club": "Ogmore (50)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:12:40"
   },
   {
@@ -12200,7 +12200,7 @@ const relayResults = [
     "km": 21.1,
     "position": 2,
     "name": "Tom Baird",
-    "club": "Pontypridd A (55)",
+    "club": "Pontypridd Roadents",
     "time": "01:16:59"
   },
   {
@@ -12212,7 +12212,7 @@ const relayResults = [
     "km": 21.1,
     "position": 3,
     "name": "Nick Tulp",
-    "club": "Lliswerry A (47)",
+    "club": "Lliswerry Runners",
     "time": "01:23:41"
   },
   {
@@ -12224,7 +12224,7 @@ const relayResults = [
     "km": 21.1,
     "position": 4,
     "name": "Jonathan Like",
-    "club": "Parc (51)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:24:28"
   },
   {
@@ -12236,7 +12236,7 @@ const relayResults = [
     "km": 21.1,
     "position": 5,
     "name": "Tom Whitmarsh",
-    "club": "Knight Les Croupiers Aberdare (46)",
+    "club": "Les Croupiers RC",
     "time": "01:24:59"
   },
   {
@@ -12248,7 +12248,7 @@ const relayResults = [
     "km": 21.1,
     "position": 6,
     "name": "Tom Tiley",
-    "club": "Islwyn A (44)",
+    "club": "Islwyn RC",
     "time": "01:27:35"
   },
   {
@@ -12260,7 +12260,7 @@ const relayResults = [
     "km": 21.1,
     "position": 7,
     "name": "Ricci Watts",
-    "club": "Pont-y-pwl (54)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:27:42"
   },
   {
@@ -12272,7 +12272,7 @@ const relayResults = [
     "km": 21.1,
     "position": 8,
     "name": "Paul Murrin",
-    "club": "Chepstow A (39)",
+    "club": "Chepstow Harriers",
     "time": "01:27:54"
   },
   {
@@ -12284,7 +12284,7 @@ const relayResults = [
     "km": 21.1,
     "position": 9,
     "name": "Kyle Harvey",
-    "club": "Fairwater A (41)",
+    "club": "Fairwater Runners",
     "time": "01:29:13"
   },
   {
@@ -12296,7 +12296,7 @@ const relayResults = [
     "km": 21.1,
     "position": 10,
     "name": "Gareth Knight",
-    "club": "Griffithstown (43)",
+    "club": "Griffithstown Harriers",
     "time": "01:30:51"
   },
   {
@@ -12308,7 +12308,7 @@ const relayResults = [
     "km": 21.1,
     "position": 11,
     "name": "Alex Hutton-Lewis",
-    "club": "Caerphilly (36)",
+    "club": "Caerphilly Runners",
     "time": "01:33:17"
   },
   {
@@ -12320,7 +12320,7 @@ const relayResults = [
     "km": 21.1,
     "position": 12,
     "name": "Toby Dickens",
-    "club": "Monross (49)",
+    "club": "Monross Trailblazers",
     "time": "01:33:20"
   },
   {
@@ -12332,7 +12332,7 @@ const relayResults = [
     "km": 21.1,
     "position": 13,
     "name": "Tom Newman",
-    "club": "Caerleon A (34)",
+    "club": "Caerleon RC",
     "time": "01:33:22"
   },
   {
@@ -12344,7 +12344,7 @@ const relayResults = [
     "km": 21.1,
     "position": 14,
     "name": "Ben Vaughan",
-    "club": "Caldicot (37)",
+    "club": "Caldicot RC",
     "time": "01:33:54"
   },
   {
@@ -12356,7 +12356,7 @@ const relayResults = [
     "km": 21.1,
     "position": 15,
     "name": "Simon Gill",
-    "club": "Lliswerry B (48)",
+    "club": "Lliswerry Runners",
     "time": "01:36:15"
   },
   {
@@ -12368,7 +12368,7 @@ const relayResults = [
     "km": 21.1,
     "position": 16,
     "name": "Dickie Hudd",
-    "club": "Chepstow B (40)",
+    "club": "Chepstow Harriers",
     "time": "01:37:07"
   },
   {
@@ -12380,7 +12380,7 @@ const relayResults = [
     "km": 21.1,
     "position": 17,
     "name": "James Miller",
-    "club": "Pegasus (53)",
+    "club": "Pegasus RC",
     "time": "01:37:18"
   },
   {
@@ -12392,7 +12392,7 @@ const relayResults = [
     "km": 21.1,
     "position": 18,
     "name": "Ritchie Matthews",
-    "club": "Aberdare (30)",
+    "club": "Aberdare",
     "time": "01:37:48"
   },
   {
@@ -12404,7 +12404,7 @@ const relayResults = [
     "km": 21.1,
     "position": 19,
     "name": "Ryan Bunce",
-    "club": "Brackla A (31)",
+    "club": "Brackla Harriers",
     "time": "01:38:46"
   },
   {
@@ -12416,7 +12416,7 @@ const relayResults = [
     "km": 21.1,
     "position": 20,
     "name": "Ross Owen",
-    "club": "Rhondda (57)",
+    "club": "Rhondda Valley Runners",
     "time": "01:44:47"
   },
   {
@@ -12428,7 +12428,7 @@ const relayResults = [
     "km": 21.1,
     "position": 21,
     "name": "Nicholas Landon",
-    "club": "Brackla B (32)",
+    "club": "Brackla Harriers",
     "time": "01:47:46"
   },
   {
@@ -12440,7 +12440,7 @@ const relayResults = [
     "km": 21.1,
     "position": 22,
     "name": "Matthew Powell",
-    "club": "Pontypridd B (56)",
+    "club": "Pontypridd Roadents",
     "time": "01:48:31"
   },
   {
@@ -12452,7 +12452,7 @@ const relayResults = [
     "km": 21.1,
     "position": 23,
     "name": "Neil Williams",
-    "club": "San Domenico (58)",
+    "club": "San Domenico RC",
     "time": "01:49:22"
   },
   {
@@ -12476,7 +12476,7 @@ const relayResults = [
     "km": 21.1,
     "position": 25,
     "name": "Joe Luckett",
-    "club": "CDF (38)",
+    "club": "CDF Runners",
     "time": "01:51:50"
   },
   {
@@ -12488,7 +12488,7 @@ const relayResults = [
     "km": 21.1,
     "position": 26,
     "name": "Neil Beynon",
-    "club": "Parc (52)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:53:42"
   },
   {
@@ -12500,7 +12500,7 @@ const relayResults = [
     "km": 21.1,
     "position": 27,
     "name": "Jason Dixon",
-    "club": "Islwyn B (45)",
+    "club": "Islwyn RC",
     "time": "01:57:54"
   },
   {
@@ -12512,7 +12512,7 @@ const relayResults = [
     "km": 21.1,
     "position": 28,
     "name": "Julian Howe",
-    "club": "Spirit (59)",
+    "club": "Spirit of Monmouth",
     "time": "01:58:00"
   },
   {
@@ -12524,7 +12524,7 @@ const relayResults = [
     "km": 16.0,
     "position": 1,
     "name": "James Thie",
-    "club": "Pontypridd A (55)",
+    "club": "Pontypridd Roadents",
     "time": "01:00:48"
   },
   {
@@ -12536,7 +12536,7 @@ const relayResults = [
     "km": 16.0,
     "position": 2,
     "name": "Paul White",
-    "club": "Parc (51)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:01:44"
   },
   {
@@ -12548,7 +12548,7 @@ const relayResults = [
     "km": 16.0,
     "position": 3,
     "name": "Martin Johns",
-    "club": "Lliswerry A (47)",
+    "club": "Lliswerry Runners",
     "time": "01:02:50"
   },
   {
@@ -12560,7 +12560,7 @@ const relayResults = [
     "km": 16.0,
     "position": 4,
     "name": "Ryan Cullen",
-    "club": "Pontypridd B (56)",
+    "club": "Pontypridd Roadents",
     "time": "01:03:52"
   },
   {
@@ -12572,7 +12572,7 @@ const relayResults = [
     "km": 16.0,
     "position": 5,
     "name": "Ben Demellweek",
-    "club": "Caerphilly (36)",
+    "club": "Caerphilly Runners",
     "time": "01:04:54"
   },
   {
@@ -12584,7 +12584,7 @@ const relayResults = [
     "km": 16.0,
     "position": 6,
     "name": "Kieran Brown",
-    "club": "Monross (49)",
+    "club": "Monross Trailblazers",
     "time": "01:05:06"
   },
   {
@@ -12596,7 +12596,7 @@ const relayResults = [
     "km": 16.0,
     "position": 7,
     "name": "Dafydd Lambeth",
-    "club": "Islwyn A (44)",
+    "club": "Islwyn RC",
     "time": "01:05:22"
   },
   {
@@ -12608,7 +12608,7 @@ const relayResults = [
     "km": 16.0,
     "position": 8,
     "name": "Stephen Campbell",
-    "club": "Les Croupiers (46)",
+    "club": "Les Croupiers RC",
     "time": "01:05:40"
   },
   {
@@ -12620,7 +12620,7 @@ const relayResults = [
     "km": 16.0,
     "position": 9,
     "name": "Jonathan Carter",
-    "club": "Chepstow A (39)",
+    "club": "Chepstow Harriers",
     "time": "01:06:30"
   },
   {
@@ -12632,7 +12632,7 @@ const relayResults = [
     "km": 16.0,
     "position": 10,
     "name": "Doug Briggs",
-    "club": "Chepstow B (40)",
+    "club": "Chepstow Harriers",
     "time": "01:06:58"
   },
   {
@@ -12644,7 +12644,7 @@ const relayResults = [
     "km": 16.0,
     "position": 11,
     "name": "Jonathan Starling",
-    "club": "Aberdare (30)",
+    "club": "Aberdare",
     "time": "01:08:12"
   },
   {
@@ -12656,7 +12656,7 @@ const relayResults = [
     "km": 16.0,
     "position": 12,
     "name": "Brian Jones",
-    "club": "Pont-y-pwl (54)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:09:03"
   },
   {
@@ -12668,7 +12668,7 @@ const relayResults = [
     "km": 16.0,
     "position": 13,
     "name": "Shaun Styles",
-    "club": "Griffithstown (43)",
+    "club": "Griffithstown Harriers",
     "time": "01:10:00"
   },
   {
@@ -12680,7 +12680,7 @@ const relayResults = [
     "km": 16.0,
     "position": 14,
     "name": "Matt Turner",
-    "club": "Caerleon A (34)",
+    "club": "Caerleon RC",
     "time": "01:10:19"
   },
   {
@@ -12692,7 +12692,7 @@ const relayResults = [
     "km": 16.0,
     "position": 15,
     "name": "Ash Temudo",
-    "club": "Caldicot (37)",
+    "club": "Caldicot RC",
     "time": "01:11:14"
   },
   {
@@ -12704,7 +12704,7 @@ const relayResults = [
     "km": 16.0,
     "position": 16,
     "name": "Connor Panting",
-    "club": "Ogmore (50)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:12:58"
   },
   {
@@ -12728,7 +12728,7 @@ const relayResults = [
     "km": 16.0,
     "position": 18,
     "name": "Alex James",
-    "club": "CDF (38)",
+    "club": "CDF Runners",
     "time": "01:14:15"
   },
   {
@@ -12740,7 +12740,7 @@ const relayResults = [
     "km": 16.0,
     "position": 19,
     "name": "Michael Cleaver",
-    "club": "Lliswerry B (48)",
+    "club": "Lliswerry Runners",
     "time": "01:14:24"
   },
   {
@@ -12752,7 +12752,7 @@ const relayResults = [
     "km": 16.0,
     "position": 20,
     "name": "Giuseppe Santese",
-    "club": "Brackla B (32)",
+    "club": "Brackla Harriers",
     "time": "01:15:24"
   },
   {
@@ -12764,7 +12764,7 @@ const relayResults = [
     "km": 16.0,
     "position": 21,
     "name": "Katie Adams",
-    "club": "Spirit (59)",
+    "club": "Spirit of Monmouth",
     "time": "01:19:06"
   },
   {
@@ -12776,7 +12776,7 @@ const relayResults = [
     "km": 16.0,
     "position": 22,
     "name": "Sam harmer",
-    "club": "Islwyn B (45)",
+    "club": "Islwyn RC",
     "time": "01:19:48"
   },
   {
@@ -12788,7 +12788,7 @@ const relayResults = [
     "km": 16.0,
     "position": 23,
     "name": "Gary Webber",
-    "club": "Rhondda (57)",
+    "club": "Rhondda Valley Runners",
     "time": "01:22:01"
   },
   {
@@ -12800,7 +12800,7 @@ const relayResults = [
     "km": 16.0,
     "position": 24,
     "name": "Stephen Smith",
-    "club": "Fairwater A (41)",
+    "club": "Fairwater Runners",
     "time": "01:22:11"
   },
   {
@@ -12812,7 +12812,7 @@ const relayResults = [
     "km": 16.0,
     "position": 25,
     "name": "Charlotte Johns",
-    "club": "Brackla A (31)",
+    "club": "Brackla Harriers",
     "time": "01:22:53"
   },
   {
@@ -12824,7 +12824,7 @@ const relayResults = [
     "km": 16.0,
     "position": 26,
     "name": "Andrew Underhill",
-    "club": "San Domenico (58)",
+    "club": "San Domenico RC",
     "time": "01:23:40"
   },
   {
@@ -12836,7 +12836,7 @@ const relayResults = [
     "km": 16.0,
     "position": 27,
     "name": "Nick Osman",
-    "club": "Parc (52)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:23:51"
   },
   {
@@ -12848,7 +12848,7 @@ const relayResults = [
     "km": 16.0,
     "position": 28,
     "name": "Phil Allsopp",
-    "club": "Fairwater B (42)",
+    "club": "Fairwater Runners",
     "time": "01:24:13"
   },
   {
@@ -12860,7 +12860,7 @@ const relayResults = [
     "km": 16.0,
     "position": 29,
     "name": "Aled Williams",
-    "club": "Pegasus (53)",
+    "club": "Pegasus RC",
     "time": "01:27:08"
   },
   {
@@ -12872,7 +12872,7 @@ const relayResults = [
     "km": 16.0,
     "position": 30,
     "name": "Gareth Yeoman",
-    "club": "Caerleon B (35)",
+    "club": "Caerleon RC",
     "time": "01:30:00"
   },
   {
@@ -12884,7 +12884,7 @@ const relayResults = [
     "km": 12.16,
     "position": 1,
     "name": "Elinor Mattey",
-    "club": "Parc (51)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:42:18"
   },
   {
@@ -12896,7 +12896,7 @@ const relayResults = [
     "km": 12.16,
     "position": 2,
     "name": "Laura Davies",
-    "club": "Lliswerry A (47)",
+    "club": "Lliswerry Runners",
     "time": "00:42:36"
   },
   {
@@ -12908,7 +12908,7 @@ const relayResults = [
     "km": 12.16,
     "position": 3,
     "name": "Niki Morgan",
-    "club": "Chepstow A (39)",
+    "club": "Chepstow Harriers",
     "time": "00:44:39"
   },
   {
@@ -12920,7 +12920,7 @@ const relayResults = [
     "km": 12.16,
     "position": 4,
     "name": "Bryan Meredith",
-    "club": "Rhondda (57)",
+    "club": "Rhondda Valley Runners",
     "time": "00:45:09"
   },
   {
@@ -12932,7 +12932,7 @@ const relayResults = [
     "km": 12.16,
     "position": 5,
     "name": "Huw James",
-    "club": "Caerphilly (36)",
+    "club": "Caerphilly Runners",
     "time": "00:45:52"
   },
   {
@@ -12944,7 +12944,7 @@ const relayResults = [
     "km": 12.16,
     "position": 6,
     "name": "Barry Burns",
-    "club": "Spirit (59)",
+    "club": "Spirit of Monmouth",
     "time": "00:46:06"
   },
   {
@@ -12956,7 +12956,7 @@ const relayResults = [
     "km": 12.16,
     "position": 7,
     "name": "Carly Stone",
-    "club": "Griffithstown (43)",
+    "club": "Griffithstown Harriers",
     "time": "00:46:43"
   },
   {
@@ -12968,7 +12968,7 @@ const relayResults = [
     "km": 12.16,
     "position": 8,
     "name": "Paige Mathews",
-    "club": "Islwyn A (44)",
+    "club": "Islwyn RC",
     "time": "00:47:16"
   },
   {
@@ -12980,7 +12980,7 @@ const relayResults = [
     "km": 12.16,
     "position": 9,
     "name": "Claire Jacobs",
-    "club": "Les Croupiers (46)",
+    "club": "Les Croupiers RC",
     "time": "00:47:47"
   },
   {
@@ -12992,7 +12992,7 @@ const relayResults = [
     "km": 12.16,
     "position": 10,
     "name": "Catherine Powell",
-    "club": "Pontypridd A (55)",
+    "club": "Pontypridd Roadents",
     "time": "00:47:52"
   },
   {
@@ -13004,7 +13004,7 @@ const relayResults = [
     "km": 12.16,
     "position": 11,
     "name": "Delyth Williams",
-    "club": "San Domenico (58)",
+    "club": "San Domenico RC",
     "time": "00:47:58"
   },
   {
@@ -13028,7 +13028,7 @@ const relayResults = [
     "km": 12.16,
     "position": 13,
     "name": "Stephen Price",
-    "club": "Parc (52)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:49:41"
   },
   {
@@ -13040,7 +13040,7 @@ const relayResults = [
     "km": 12.16,
     "position": 14,
     "name": "Corinna Jones",
-    "club": "Aberdare (30)",
+    "club": "Aberdare",
     "time": "00:50:26"
   },
   {
@@ -13052,7 +13052,7 @@ const relayResults = [
     "km": 12.16,
     "position": 15,
     "name": "Laura Hunt",
-    "club": "Caldicot (37)",
+    "club": "Caldicot RC",
     "time": "00:51:25"
   },
   {
@@ -13064,7 +13064,7 @@ const relayResults = [
     "km": 12.16,
     "position": 16,
     "name": "Jane Roscoe",
-    "club": "Chepstow B (40)",
+    "club": "Chepstow Harriers",
     "time": "00:52:23"
   },
   {
@@ -13076,7 +13076,7 @@ const relayResults = [
     "km": 12.16,
     "position": 17,
     "name": "Avisa Talemi",
-    "club": "Caerleon A (34)",
+    "club": "Caerleon RC",
     "time": "00:52:24"
   },
   {
@@ -13088,7 +13088,7 @@ const relayResults = [
     "km": 12.16,
     "position": 18,
     "name": "Alison Meredith",
-    "club": "Jones Brackla A Bridgend (31)",
+    "club": "Brackla Harriers",
     "time": "00:52:42"
   },
   {
@@ -13100,7 +13100,7 @@ const relayResults = [
     "km": 12.16,
     "position": 19,
     "name": "Carys Bissmire",
-    "club": "Ogmore (50)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:53:08"
   },
   {
@@ -13112,7 +13112,7 @@ const relayResults = [
     "km": 12.16,
     "position": 20,
     "name": "Karen Talbot",
-    "club": "Lliswerry B (48)",
+    "club": "Lliswerry Runners",
     "time": "00:54:24"
   },
   {
@@ -13124,7 +13124,7 @@ const relayResults = [
     "km": 12.16,
     "position": 21,
     "name": "Phil Tucker",
-    "club": "Brackla B (32)",
+    "club": "Brackla Harriers",
     "time": "00:55:36"
   },
   {
@@ -13136,7 +13136,7 @@ const relayResults = [
     "km": 12.16,
     "position": 22,
     "name": "Coral Putman",
-    "club": "Islwyn B (45)",
+    "club": "Islwyn RC",
     "time": "00:55:41"
   },
   {
@@ -13148,7 +13148,7 @@ const relayResults = [
     "km": 12.16,
     "position": 23,
     "name": "Abbie Thomas",
-    "club": "Caerleon B (35)",
+    "club": "Caerleon RC",
     "time": "00:56:00"
   },
   {
@@ -13160,7 +13160,7 @@ const relayResults = [
     "km": 12.16,
     "position": 24,
     "name": "Sue Potter",
-    "club": "Pegasus (53)",
+    "club": "Pegasus RC",
     "time": "00:57:53"
   },
   {
@@ -13172,7 +13172,7 @@ const relayResults = [
     "km": 12.16,
     "position": 25,
     "name": "Kelly Cameron",
-    "club": "Fairwater A (41)",
+    "club": "Fairwater Runners",
     "time": "00:57:55"
   },
   {
@@ -13184,7 +13184,7 @@ const relayResults = [
     "km": 12.16,
     "position": 26,
     "name": "Louise Bright",
-    "club": "Pont-y-pwl (54)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:58:08"
   },
   {
@@ -13196,7 +13196,7 @@ const relayResults = [
     "km": 12.16,
     "position": 27,
     "name": "Sioned Thomas",
-    "club": "CDF (38)",
+    "club": "CDF Runners",
     "time": "00:58:43"
   },
   {
@@ -13208,7 +13208,7 @@ const relayResults = [
     "km": 12.16,
     "position": 28,
     "name": "Nerys Chaplin",
-    "club": "Monross (49)",
+    "club": "Monross Trailblazers",
     "time": "01:00:00"
   },
   {
@@ -13220,7 +13220,7 @@ const relayResults = [
     "km": 12.16,
     "position": 29,
     "name": "Bretti Paxton",
-    "club": "Pontypridd B (56)",
+    "club": "Pontypridd Roadents",
     "time": "01:00:01"
   },
   {
@@ -13232,7 +13232,7 @@ const relayResults = [
     "km": 12.16,
     "position": 30,
     "name": "Stewart Seaborne",
-    "club": "Fairwater B (42)",
+    "club": "Fairwater Runners",
     "time": "01:10:00"
   },
   {
@@ -13244,7 +13244,7 @@ const relayResults = [
     "km": 13.4,
     "position": 1,
     "name": "George Collinson",
-    "club": "Les Croupiers (46)",
+    "club": "Les Croupiers RC",
     "time": "00:48:47"
   },
   {
@@ -13256,7 +13256,7 @@ const relayResults = [
     "km": 13.4,
     "position": 2,
     "name": "Dane Williams",
-    "club": "Parc (51)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:50:44"
   },
   {
@@ -13268,7 +13268,7 @@ const relayResults = [
     "km": 13.4,
     "position": 3,
     "name": "Jon Belcher",
-    "club": "Lliswerry A (47)",
+    "club": "Lliswerry Runners",
     "time": "00:51:34"
   },
   {
@@ -13280,7 +13280,7 @@ const relayResults = [
     "km": 13.4,
     "position": 4,
     "name": "Jarrad Rowlands",
-    "club": "Pontypridd A (55)",
+    "club": "Pontypridd Roadents",
     "time": "00:51:55"
   },
   {
@@ -13292,7 +13292,7 @@ const relayResults = [
     "km": 13.4,
     "position": 5,
     "name": "Willam Carter",
-    "club": "Chepstow A (39)",
+    "club": "Chepstow Harriers",
     "time": "00:52:16"
   },
   {
@@ -13304,7 +13304,7 @@ const relayResults = [
     "km": 13.4,
     "position": 6,
     "name": "Niki Puleio",
-    "club": "Ogmore (50)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:52:26"
   },
   {
@@ -13316,7 +13316,7 @@ const relayResults = [
     "km": 13.4,
     "position": 7,
     "name": "Gavin Jones",
-    "club": "Monross (49)",
+    "club": "Monross Trailblazers",
     "time": "00:53:31"
   },
   {
@@ -13328,7 +13328,7 @@ const relayResults = [
     "km": 13.4,
     "position": 8,
     "name": "Anthony Malarczyk",
-    "club": "Islwyn A (44)",
+    "club": "Islwyn RC",
     "time": "00:54:16"
   },
   {
@@ -13340,7 +13340,7 @@ const relayResults = [
     "km": 13.4,
     "position": 9,
     "name": "Charlie Bleasdale",
-    "club": "Pontypridd B (56)",
+    "club": "Pontypridd Roadents",
     "time": "00:55:05"
   },
   {
@@ -13352,7 +13352,7 @@ const relayResults = [
     "km": 13.4,
     "position": 10,
     "name": "Ash Cole",
-    "club": "Pont-y-pwl (54)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:56:28"
   },
   {
@@ -13364,7 +13364,7 @@ const relayResults = [
     "km": 13.4,
     "position": 11,
     "name": "Pete Mackie",
-    "club": "Aberdare (30)",
+    "club": "Aberdare",
     "time": "00:56:55"
   },
   {
@@ -13376,7 +13376,7 @@ const relayResults = [
     "km": 13.4,
     "position": 12,
     "name": "Charlie Bendall",
-    "club": "Chepstow B (40)",
+    "club": "Chepstow Harriers",
     "time": "00:57:33"
   },
   {
@@ -13388,7 +13388,7 @@ const relayResults = [
     "km": 13.4,
     "position": 13,
     "name": "James Brown",
-    "club": "Lliswerry B (48)",
+    "club": "Lliswerry Runners",
     "time": "00:58:48"
   },
   {
@@ -13400,7 +13400,7 @@ const relayResults = [
     "km": 13.4,
     "position": 14,
     "name": "Michael Ralph",
-    "club": "Caerphilly (36)",
+    "club": "Caerphilly Runners",
     "time": "01:00:36"
   },
   {
@@ -13424,7 +13424,7 @@ const relayResults = [
     "km": 13.4,
     "position": 16,
     "name": "Kirk Hill",
-    "club": "Spirit (59)",
+    "club": "Spirit of Monmouth",
     "time": "01:02:29"
   },
   {
@@ -13436,7 +13436,7 @@ const relayResults = [
     "km": 13.4,
     "position": 17,
     "name": "Daniel Lane",
-    "club": "Griffithstown (43)",
+    "club": "Griffithstown Harriers",
     "time": "01:03:22"
   },
   {
@@ -13448,7 +13448,7 @@ const relayResults = [
     "km": 13.4,
     "position": 18,
     "name": "Cornel Pirvu",
-    "club": "Caerleon A (34)",
+    "club": "Caerleon RC",
     "time": "01:04:05"
   },
   {
@@ -13460,7 +13460,7 @@ const relayResults = [
     "km": 13.4,
     "position": 19,
     "name": "David Jones",
-    "club": "Caldicot (37)",
+    "club": "Caldicot RC",
     "time": "01:04:24"
   },
   {
@@ -13472,7 +13472,7 @@ const relayResults = [
     "km": 13.4,
     "position": 20,
     "name": "Elle Goodridge",
-    "club": "Brackla A (31)",
+    "club": "Brackla Harriers",
     "time": "01:05:08"
   },
   {
@@ -13484,7 +13484,7 @@ const relayResults = [
     "km": 13.4,
     "position": 21,
     "name": "Ryan lambeth",
-    "club": "Islwyn B (45)",
+    "club": "Islwyn RC",
     "time": "01:05:45"
   },
   {
@@ -13496,7 +13496,7 @@ const relayResults = [
     "km": 13.4,
     "position": 22,
     "name": "Jack Hocking",
-    "club": "CDF (38)",
+    "club": "CDF Runners",
     "time": "01:06:19"
   },
   {
@@ -13508,7 +13508,7 @@ const relayResults = [
     "km": 13.4,
     "position": 23,
     "name": "Ted Quantock",
-    "club": "Fairwater B (42)",
+    "club": "Fairwater Runners",
     "time": "01:06:50"
   },
   {
@@ -13520,7 +13520,7 @@ const relayResults = [
     "km": 13.4,
     "position": 24,
     "name": "Simon Cartlidge",
-    "club": "San Domenico (58)",
+    "club": "San Domenico RC",
     "time": "01:08:29"
   },
   {
@@ -13532,7 +13532,7 @@ const relayResults = [
     "km": 13.4,
     "position": 25,
     "name": "Charlotte Moran",
-    "club": "Caerleon B (35)",
+    "club": "Caerleon RC",
     "time": "01:08:51"
   },
   {
@@ -13544,7 +13544,7 @@ const relayResults = [
     "km": 13.4,
     "position": 26,
     "name": "David Morgan",
-    "club": "Rhondda (57)",
+    "club": "Rhondda Valley Runners",
     "time": "01:09:56"
   },
   {
@@ -13556,7 +13556,7 @@ const relayResults = [
     "km": 13.4,
     "position": 27,
     "name": "Mark Prosser",
-    "club": "Fairwater A (41)",
+    "club": "Fairwater Runners",
     "time": "01:09:56"
   },
   {
@@ -13568,7 +13568,7 @@ const relayResults = [
     "km": 13.4,
     "position": 28,
     "name": "Stephen Wiles",
-    "club": "Parc (52)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:10:03"
   },
   {
@@ -13580,7 +13580,7 @@ const relayResults = [
     "km": 13.4,
     "position": 29,
     "name": "Grant McMellin",
-    "club": "Pegasus (53)",
+    "club": "Pegasus RC",
     "time": "01:15:00"
   },
   {
@@ -13592,7 +13592,7 @@ const relayResults = [
     "km": 13.4,
     "position": 30,
     "name": "Dave Curran",
-    "club": "Brackla B (32)",
+    "club": "Brackla Harriers",
     "time": "01:15:01"
   },
   {
@@ -13604,7 +13604,7 @@ const relayResults = [
     "km": 10.7,
     "position": 1,
     "name": "Lloyd Cottrell",
-    "club": "Lliswerry A (47)",
+    "club": "Lliswerry Runners",
     "time": "00:34:50"
   },
   {
@@ -13616,7 +13616,7 @@ const relayResults = [
     "km": 10.7,
     "position": 2,
     "name": "Kath Matthews",
-    "club": "Chepstow A (39)",
+    "club": "Chepstow Harriers",
     "time": "00:42:16"
   },
   {
@@ -13628,7 +13628,7 @@ const relayResults = [
     "km": 10.7,
     "position": 3,
     "name": "Benjamin Russell",
-    "club": "Aberdare (30)",
+    "club": "Aberdare",
     "time": "00:42:22"
   },
   {
@@ -13640,7 +13640,7 @@ const relayResults = [
     "km": 10.7,
     "position": 4,
     "name": "Alex Lyne",
-    "club": "Caldicot (37)",
+    "club": "Caldicot RC",
     "time": "00:42:26"
   },
   {
@@ -13652,7 +13652,7 @@ const relayResults = [
     "km": 10.7,
     "position": 5,
     "name": "Karl Coughlin",
-    "club": "Parc (51)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:43:03"
   },
   {
@@ -13664,7 +13664,7 @@ const relayResults = [
     "km": 10.7,
     "position": 6,
     "name": "Liz May",
-    "club": "Pontypridd A (55)",
+    "club": "Pontypridd Roadents",
     "time": "00:44:01"
   },
   {
@@ -13676,7 +13676,7 @@ const relayResults = [
     "km": 10.7,
     "position": 7,
     "name": "Naomi Davies",
-    "club": "Caerphilly (36)",
+    "club": "Caerphilly Runners",
     "time": "00:44:55"
   },
   {
@@ -13688,7 +13688,7 @@ const relayResults = [
     "km": 10.7,
     "position": 8,
     "name": "Wesley Harris",
-    "club": "Caerleon A (34)",
+    "club": "Caerleon RC",
     "time": "00:46:29"
   },
   {
@@ -13700,7 +13700,7 @@ const relayResults = [
     "km": 10.7,
     "position": 9,
     "name": "Caroline Duder",
-    "club": "Chepstow B (40)",
+    "club": "Chepstow Harriers",
     "time": "00:47:56"
   },
   {
@@ -13712,7 +13712,7 @@ const relayResults = [
     "km": 10.7,
     "position": 10,
     "name": "Tracy Baker",
-    "club": "Pont-y-pwl (54)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:48:04"
   },
   {
@@ -13724,7 +13724,7 @@ const relayResults = [
     "km": 10.7,
     "position": 11,
     "name": "Carys Malarczyk",
-    "club": "Islwyn A (44)",
+    "club": "Islwyn RC",
     "time": "00:48:51"
   },
   {
@@ -13736,7 +13736,7 @@ const relayResults = [
     "km": 10.7,
     "position": 12,
     "name": "Sue Watson",
-    "club": "Les Croupiers (46)",
+    "club": "Les Croupiers RC",
     "time": "00:48:56"
   },
   {
@@ -13748,7 +13748,7 @@ const relayResults = [
     "km": 10.7,
     "position": 13,
     "name": "Kate Jones",
-    "club": "Pontypridd B (56)",
+    "club": "Pontypridd Roadents",
     "time": "00:49:00"
   },
   {
@@ -13760,7 +13760,7 @@ const relayResults = [
     "km": 10.7,
     "position": 14,
     "name": "Daniel Symmonds",
-    "club": "Caerleon B (35)",
+    "club": "Caerleon RC",
     "time": "00:49:05"
   },
   {
@@ -13772,7 +13772,7 @@ const relayResults = [
     "km": 10.7,
     "position": 15,
     "name": "James Exton",
-    "club": "Spirit (59)",
+    "club": "Spirit of Monmouth",
     "time": "00:50:56"
   },
   {
@@ -13784,7 +13784,7 @@ const relayResults = [
     "km": 10.7,
     "position": 16,
     "name": "Rebecca Foster",
-    "club": "Monross (49)",
+    "club": "Monross Trailblazers",
     "time": "00:51:01"
   },
   {
@@ -13796,7 +13796,7 @@ const relayResults = [
     "km": 10.7,
     "position": 17,
     "name": "Peri Jones",
-    "club": "CDF (38)",
+    "club": "CDF Runners",
     "time": "00:51:30"
   },
   {
@@ -13808,7 +13808,7 @@ const relayResults = [
     "km": 10.7,
     "position": 18,
     "name": "Bec Read",
-    "club": "San Domenico (58)",
+    "club": "San Domenico RC",
     "time": "00:52:04"
   },
   {
@@ -13820,7 +13820,7 @@ const relayResults = [
     "km": 10.7,
     "position": 19,
     "name": "Laura Mustoe",
-    "club": "Brackla B (32)",
+    "club": "Brackla Harriers",
     "time": "00:52:13"
   },
   {
@@ -13832,7 +13832,7 @@ const relayResults = [
     "km": 10.7,
     "position": 20,
     "name": "Hollie Harmer",
-    "club": "Islwyn B (45)",
+    "club": "Islwyn RC",
     "time": "00:53:18"
   },
   {
@@ -13844,7 +13844,7 @@ const relayResults = [
     "km": 10.7,
     "position": 21,
     "name": "Matt Bunce",
-    "club": "Brackla A (31)",
+    "club": "Brackla Harriers",
     "time": "00:54:05"
   },
   {
@@ -13856,7 +13856,7 @@ const relayResults = [
     "km": 10.7,
     "position": 22,
     "name": "Sarah Lyle",
-    "club": "Pegasus (53)",
+    "club": "Pegasus RC",
     "time": "00:54:49"
   },
   {
@@ -13868,7 +13868,7 @@ const relayResults = [
     "km": 10.7,
     "position": 23,
     "name": "Natalie Bartlett",
-    "club": "Rhondda (57)",
+    "club": "Rhondda Valley Runners",
     "time": "00:55:11"
   },
   {
@@ -13880,7 +13880,7 @@ const relayResults = [
     "km": 10.7,
     "position": 24,
     "name": "Jennifer McPadden",
-    "club": "Griffithstown (43)",
+    "club": "Griffithstown Harriers",
     "time": "00:55:15"
   },
   {
@@ -13892,7 +13892,7 @@ const relayResults = [
     "km": 10.7,
     "position": 25,
     "name": "Arwen Rees",
-    "club": "Ogmore (50)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:56:53"
   },
   {
@@ -13904,7 +13904,7 @@ const relayResults = [
     "km": 10.7,
     "position": 26,
     "name": "Vicky Fear",
-    "club": "Lliswerry B (48)",
+    "club": "Lliswerry Runners",
     "time": "00:57:34"
   },
   {
@@ -13928,7 +13928,7 @@ const relayResults = [
     "km": 10.7,
     "position": 28,
     "name": "Laura Pinney",
-    "club": "Parc (52)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:00:00"
   },
   {
@@ -13940,7 +13940,7 @@ const relayResults = [
     "km": 10.7,
     "position": 29,
     "name": "Andrew North",
-    "club": "Fairwater B (42)",
+    "club": "Fairwater Runners",
     "time": "01:00:01"
   },
   {
@@ -13952,7 +13952,7 @@ const relayResults = [
     "km": 10.7,
     "position": 30,
     "name": "Bev Bradbury Jones",
-    "club": "Fairwater A (41)",
+    "club": "Fairwater Runners",
     "time": "01:00:02"
   },
   {
@@ -13964,7 +13964,7 @@ const relayResults = [
     "km": 8.7,
     "position": 1,
     "name": "Daniel Bodman",
-    "club": "Parc (52)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:31:55"
   },
   {
@@ -13976,7 +13976,7 @@ const relayResults = [
     "km": 8.7,
     "position": 2,
     "name": "Matt Govier",
-    "club": "Les Croupiers (46)",
+    "club": "Les Croupiers RC",
     "time": "00:37:15"
   },
   {
@@ -13988,7 +13988,7 @@ const relayResults = [
     "km": 8.7,
     "position": 3,
     "name": "Sandra Chipper",
-    "club": "Lliswerry A (47)",
+    "club": "Lliswerry Runners",
     "time": "00:38:43"
   },
   {
@@ -14000,7 +14000,7 @@ const relayResults = [
     "km": 8.7,
     "position": 4,
     "name": "Nicola Jukes",
-    "club": "Parc (51)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:39:50"
   },
   {
@@ -14012,7 +14012,7 @@ const relayResults = [
     "km": 8.7,
     "position": 5,
     "name": "Emyr Bissmire",
-    "club": "Ogmore (50)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:40:32"
   },
   {
@@ -14024,7 +14024,7 @@ const relayResults = [
     "km": 8.7,
     "position": 6,
     "name": "Anna Williams",
-    "club": "Caerphilly (36)",
+    "club": "Caerphilly Runners",
     "time": "00:41:07"
   },
   {
@@ -14036,7 +14036,7 @@ const relayResults = [
     "km": 8.7,
     "position": 7,
     "name": "Lisa Jeffrey",
-    "club": "Chepstow A (39)",
+    "club": "Chepstow Harriers",
     "time": "00:41:15"
   },
   {
@@ -14048,7 +14048,7 @@ const relayResults = [
     "km": 8.7,
     "position": 8,
     "name": "Elaine Ferguson",
-    "club": "Pontypridd A (55)",
+    "club": "Pontypridd Roadents",
     "time": "00:43:27"
   },
   {
@@ -14060,7 +14060,7 @@ const relayResults = [
     "km": 8.7,
     "position": 9,
     "name": "Dallyn Shaw",
-    "club": "Griffithstown (43)",
+    "club": "Griffithstown Harriers",
     "time": "00:43:45"
   },
   {
@@ -14072,7 +14072,7 @@ const relayResults = [
     "km": 8.7,
     "position": 10,
     "name": "Jason Pritchard",
-    "club": "Caerleon A (34)",
+    "club": "Caerleon RC",
     "time": "00:44:07"
   },
   {
@@ -14084,7 +14084,7 @@ const relayResults = [
     "km": 8.7,
     "position": 11,
     "name": "Charlotte Giles",
-    "club": "Chepstow B (40)",
+    "club": "Chepstow Harriers",
     "time": "00:45:07"
   },
   {
@@ -14096,7 +14096,7 @@ const relayResults = [
     "km": 8.7,
     "position": 12,
     "name": "Carly Bunston",
-    "club": "Islwyn A (44)",
+    "club": "Islwyn RC",
     "time": "00:45:15"
   },
   {
@@ -14108,7 +14108,7 @@ const relayResults = [
     "km": 8.7,
     "position": 13,
     "name": "Alan Legge",
-    "club": "Fairwater A (41)",
+    "club": "Fairwater Runners",
     "time": "00:45:28"
   },
   {
@@ -14120,7 +14120,7 @@ const relayResults = [
     "km": 8.7,
     "position": 14,
     "name": "Nia Reddy",
-    "club": "Aberdare (30)",
+    "club": "Aberdare",
     "time": "00:46:26"
   },
   {
@@ -14132,7 +14132,7 @@ const relayResults = [
     "km": 8.7,
     "position": 15,
     "name": "Karen Southgate",
-    "club": "Pont-y-pwl (54)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:46:38"
   },
   {
@@ -14144,7 +14144,7 @@ const relayResults = [
     "km": 8.7,
     "position": 16,
     "name": "Joanne Ryan",
-    "club": "Rhondda (57)",
+    "club": "Rhondda Valley Runners",
     "time": "00:46:39"
   },
   {
@@ -14156,7 +14156,7 @@ const relayResults = [
     "km": 8.7,
     "position": 17,
     "name": "Sharon Carrafa",
-    "club": "Islwyn B (45)",
+    "club": "Islwyn RC",
     "time": "00:46:55"
   },
   {
@@ -14168,7 +14168,7 @@ const relayResults = [
     "km": 8.7,
     "position": 18,
     "name": "Rowena White",
-    "club": "San Domenico (58)",
+    "club": "San Domenico RC",
     "time": "00:46:57"
   },
   {
@@ -14192,7 +14192,7 @@ const relayResults = [
     "km": 8.7,
     "position": 20,
     "name": "Adam Gray",
-    "club": "Monross (49)",
+    "club": "Monross Trailblazers",
     "time": "00:48:02"
   },
   {
@@ -14204,7 +14204,7 @@ const relayResults = [
     "km": 8.7,
     "position": 21,
     "name": "Rhydian Sandbrook",
-    "club": "Pegasus (53)",
+    "club": "Pegasus RC",
     "time": "00:48:21"
   },
   {
@@ -14216,7 +14216,7 @@ const relayResults = [
     "km": 8.7,
     "position": 22,
     "name": "Rebekah Clarke",
-    "club": "Caldicot (37)",
+    "club": "Caldicot RC",
     "time": "00:48:33"
   },
   {
@@ -14228,7 +14228,7 @@ const relayResults = [
     "km": 8.7,
     "position": 23,
     "name": "Claire Finley",
-    "club": "Spirit (59)",
+    "club": "Spirit of Monmouth",
     "time": "00:48:58"
   },
   {
@@ -14240,7 +14240,7 @@ const relayResults = [
     "km": 8.7,
     "position": 24,
     "name": "Karen Day",
-    "club": "Lliswerry B (48)",
+    "club": "Lliswerry Runners",
     "time": "00:49:00"
   },
   {
@@ -14252,7 +14252,7 @@ const relayResults = [
     "km": 8.7,
     "position": 25,
     "name": "Carys Parry",
-    "club": "Brackla A (31)",
+    "club": "Brackla Harriers",
     "time": "00:49:01"
   },
   {
@@ -14264,7 +14264,7 @@ const relayResults = [
     "km": 8.7,
     "position": 26,
     "name": "Sarah Cooper",
-    "club": "CDF (38)",
+    "club": "CDF Runners",
     "time": "00:49:02"
   },
   {
@@ -14276,7 +14276,7 @@ const relayResults = [
     "km": 8.7,
     "position": 27,
     "name": "Megan Holly",
-    "club": "Fairwater B (42)",
+    "club": "Fairwater Runners",
     "time": "00:49:03"
   },
   {
@@ -14288,7 +14288,7 @@ const relayResults = [
     "km": 8.7,
     "position": 28,
     "name": "Bethan Ford",
-    "club": "Pontypridd B (56)",
+    "club": "Pontypridd Roadents",
     "time": "00:49:04"
   },
   {
@@ -14300,7 +14300,7 @@ const relayResults = [
     "km": 8.7,
     "position": 29,
     "name": "Matt Robertson",
-    "club": "Brackla B (32)",
+    "club": "Brackla Harriers",
     "time": "00:49:05"
   },
   {
@@ -14312,7 +14312,7 @@ const relayResults = [
     "km": 8.7,
     "position": 30,
     "name": "Jasmine Arnold",
-    "club": "Caerleon B (35)",
+    "club": "Caerleon RC",
     "time": "00:59:00"
   },
   {
@@ -14324,7 +14324,7 @@ const relayResults = [
     "km": 8.2,
     "position": 1,
     "name": "Chole Leek",
-    "club": "Pont-y-pwl A (25)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:32:28"
   },
   {
@@ -14336,8 +14336,8 @@ const relayResults = [
     "km": 8.2,
     "position": 2,
     "name": "Niki Morgan",
-    "club": "Individual",
-    "time": "00:00:40"
+    "club": "Chepstow Harriers",
+    "time": "00:33:08"
   },
   {
     "year": 2022,
@@ -14348,7 +14348,7 @@ const relayResults = [
     "km": 8.2,
     "position": 3,
     "name": "Natalie Meyrick",
-    "club": "Griffithstown A (12)",
+    "club": "Griffithstown Harriers",
     "time": "00:34:20"
   },
   {
@@ -14360,7 +14360,7 @@ const relayResults = [
     "km": 8.2,
     "position": 4,
     "name": "Caitlin Roberts",
-    "club": "Aberdare A (03)",
+    "club": "Aberdare",
     "time": "00:35:24"
   },
   {
@@ -14372,7 +14372,7 @@ const relayResults = [
     "km": 8.2,
     "position": 5,
     "name": "Alison Hobbs",
-    "club": "Caerphilly B (08)",
+    "club": "Caerphilly Runners",
     "time": "00:36:39"
   },
   {
@@ -14384,7 +14384,7 @@ const relayResults = [
     "km": 8.2,
     "position": 6,
     "name": "Kimberley Price",
-    "club": "Parc (22)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:36:52"
   },
   {
@@ -14396,7 +14396,7 @@ const relayResults = [
     "km": 8.2,
     "position": 7,
     "name": "Avisa Talemi",
-    "club": "Caerleon A (05)",
+    "club": "Caerleon RC",
     "time": "00:36:57"
   },
   {
@@ -14408,7 +14408,7 @@ const relayResults = [
     "km": 8.2,
     "position": 8,
     "name": "Charlotte Ralph",
-    "club": "Lliswerry A (17)",
+    "club": "Lliswerry Runners",
     "time": "00:37:12"
   },
   {
@@ -14420,7 +14420,7 @@ const relayResults = [
     "km": 8.2,
     "position": 9,
     "name": "Sophie Hutchings",
-    "club": "Caerphilly A (07)",
+    "club": "Caerphilly Runners",
     "time": "00:37:41"
   },
   {
@@ -14432,7 +14432,7 @@ const relayResults = [
     "km": 8.2,
     "position": 10,
     "name": "Kim Carwardine",
-    "club": "Chepstow B (11)",
+    "club": "Chepstow Harriers",
     "time": "00:38:09"
   },
   {
@@ -14444,7 +14444,7 @@ const relayResults = [
     "km": 8.2,
     "position": 11,
     "name": "Marina Wright",
-    "club": "Monmouth A (19)",
+    "club": "Spirit of Monmouth",
     "time": "00:39:14"
   },
   {
@@ -14456,7 +14456,7 @@ const relayResults = [
     "km": 8.2,
     "position": 12,
     "name": "Sarah Davies",
-    "club": "Ogmore A (20)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:40:03"
   },
   {
@@ -14468,7 +14468,7 @@ const relayResults = [
     "km": 8.2,
     "position": 13,
     "name": "Rhiannon Thomas",
-    "club": "Fairwater A (01)",
+    "club": "Fairwater Runners",
     "time": "00:40:38"
   },
   {
@@ -14480,7 +14480,7 @@ const relayResults = [
     "km": 8.2,
     "position": 14,
     "name": "Jane Ogilvie",
-    "club": "Brackla A (04)",
+    "club": "Brackla Harriers",
     "time": "00:40:59"
   },
   {
@@ -14492,7 +14492,7 @@ const relayResults = [
     "km": 8.2,
     "position": 15,
     "name": "Sarah Lauder",
-    "club": "Lliswerry B (18)",
+    "club": "Lliswerry Runners",
     "time": "00:41:48"
   },
   {
@@ -14504,7 +14504,7 @@ const relayResults = [
     "km": 8.2,
     "position": 16,
     "name": "Lianne Lusty",
-    "club": "Islwyn A (14)",
+    "club": "Islwyn RC",
     "time": "00:41:58"
   },
   {
@@ -14516,7 +14516,7 @@ const relayResults = [
     "km": 8.2,
     "position": 17,
     "name": "Aislin Fields",
-    "club": "San Domenico A (28)",
+    "club": "San Domenico RC",
     "time": "00:42:40"
   },
   {
@@ -14528,7 +14528,7 @@ const relayResults = [
     "km": 8.2,
     "position": 18,
     "name": "Emma Spuffard",
-    "club": "Caldicot A (09)",
+    "club": "Caldicot RC",
     "time": "00:42:49"
   },
   {
@@ -14540,7 +14540,7 @@ const relayResults = [
     "km": 8.2,
     "position": 19,
     "name": "Eve Gallop-Evans",
-    "club": "Les Croupiers A (16)",
+    "club": "Les Croupiers RC",
     "time": "00:43:07"
   },
   {
@@ -14552,7 +14552,7 @@ const relayResults = [
     "km": 8.2,
     "position": 20,
     "name": "Angela Lewis",
-    "club": "Pontypridd A (24)",
+    "club": "Pontypridd Roadents",
     "time": "00:43:29"
   },
   {
@@ -14564,7 +14564,7 @@ const relayResults = [
     "km": 8.2,
     "position": 21,
     "name": "Marisa Benjamin",
-    "club": "Pont-y-pwl B (26)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:43:58"
   },
   {
@@ -14576,7 +14576,7 @@ const relayResults = [
     "km": 8.2,
     "position": 22,
     "name": "Jules Esmond",
-    "club": "Ogmore B (21)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:44:15"
   },
   {
@@ -14588,7 +14588,7 @@ const relayResults = [
     "km": 8.2,
     "position": 23,
     "name": "Kirsty Smith",
-    "club": "Rhondda A (27)",
+    "club": "Rhondda Valley Runners",
     "time": "00:44:26"
   },
   {
@@ -14600,7 +14600,7 @@ const relayResults = [
     "km": 8.2,
     "position": 24,
     "name": "Samantha Walker",
-    "club": "Griffithstown B (13)",
+    "club": "Griffithstown Harriers",
     "time": "00:46:03"
   },
   {
@@ -14612,7 +14612,7 @@ const relayResults = [
     "km": 11.2,
     "position": 1,
     "name": "Benjamin Russell",
-    "club": "Aberdare A (03)",
+    "club": "Aberdare",
     "time": "00:45:49"
   },
   {
@@ -14624,7 +14624,7 @@ const relayResults = [
     "km": 11.2,
     "position": 2,
     "name": "Gareth Richards",
-    "club": "Ogmore A (20)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:46:27"
   },
   {
@@ -14636,7 +14636,7 @@ const relayResults = [
     "km": 11.2,
     "position": 3,
     "name": "Tony Marshall",
-    "club": "Chepstow A (10)",
+    "club": "Chepstow Harriers",
     "time": "00:47:10"
   },
   {
@@ -14648,7 +14648,7 @@ const relayResults = [
     "km": 11.2,
     "position": 4,
     "name": "Shaun Styles",
-    "club": "Griffithstown A (12)",
+    "club": "Griffithstown Harriers",
     "time": "00:48:18"
   },
   {
@@ -14660,7 +14660,7 @@ const relayResults = [
     "km": 11.2,
     "position": 5,
     "name": "Antoinette Dumayne",
-    "club": "Lliswerry A (17)",
+    "club": "Lliswerry Runners",
     "time": "00:48:48"
   },
   {
@@ -14672,7 +14672,7 @@ const relayResults = [
     "km": 11.2,
     "position": 6,
     "name": "Lloyd Hughes",
-    "club": "Caerleon A (05)",
+    "club": "Caerleon RC",
     "time": "00:48:55"
   },
   {
@@ -14684,7 +14684,7 @@ const relayResults = [
     "km": 11.2,
     "position": 7,
     "name": "Andrew Howells",
-    "club": "Islwyn A (14)",
+    "club": "Islwyn RC",
     "time": "00:50:18"
   },
   {
@@ -14696,7 +14696,7 @@ const relayResults = [
     "km": 11.2,
     "position": 8,
     "name": "Jamie Goddard",
-    "club": "Chepstow B (11)",
+    "club": "Chepstow Harriers",
     "time": "00:51:50"
   },
   {
@@ -14708,7 +14708,7 @@ const relayResults = [
     "km": 11.2,
     "position": 9,
     "name": "Tom Longley",
-    "club": "Caerphilly A (07)",
+    "club": "Caerphilly Runners",
     "time": "00:51:54"
   },
   {
@@ -14720,7 +14720,7 @@ const relayResults = [
     "km": 11.2,
     "position": 10,
     "name": "John Lloyd",
-    "club": "Brackla A (04)",
+    "club": "Brackla Harriers",
     "time": "00:52:21"
   },
   {
@@ -14732,7 +14732,7 @@ const relayResults = [
     "km": 11.2,
     "position": 11,
     "name": "Lisa Ericson",
-    "club": "Pont-y-pwl A (25)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:52:53"
   },
   {
@@ -14744,7 +14744,7 @@ const relayResults = [
     "km": 11.2,
     "position": 12,
     "name": "Suzanne Tew",
-    "club": "Parc (22)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:53:15"
   },
   {
@@ -14756,7 +14756,7 @@ const relayResults = [
     "km": 11.2,
     "position": 13,
     "name": "Neema Mal",
-    "club": "Les Croupiers A (16)",
+    "club": "Les Croupiers RC",
     "time": "00:54:01"
   },
   {
@@ -14768,7 +14768,7 @@ const relayResults = [
     "km": 11.2,
     "position": 14,
     "name": "Luc Shide",
-    "club": "Islwyn B (15)",
+    "club": "Islwyn RC",
     "time": "00:55:03"
   },
   {
@@ -14780,7 +14780,7 @@ const relayResults = [
     "km": 11.2,
     "position": 15,
     "name": "Alex Wilson",
-    "club": "Monmouth A (19)",
+    "club": "Spirit of Monmouth",
     "time": "00:55:18"
   },
   {
@@ -14792,7 +14792,7 @@ const relayResults = [
     "km": 11.2,
     "position": 16,
     "name": "Alex Gater",
-    "club": "Caerphilly B (08)",
+    "club": "Caerphilly Runners",
     "time": "00:55:26"
   },
   {
@@ -14804,7 +14804,7 @@ const relayResults = [
     "km": 11.2,
     "position": 17,
     "name": "Michael Barnes",
-    "club": "Fairwater B (02)",
+    "club": "Fairwater Runners",
     "time": "00:55:31"
   },
   {
@@ -14816,7 +14816,7 @@ const relayResults = [
     "km": 11.2,
     "position": 18,
     "name": "Morwenna Charman",
-    "club": "San Domenico A (28)",
+    "club": "San Domenico RC",
     "time": "00:57:47"
   },
   {
@@ -14828,7 +14828,7 @@ const relayResults = [
     "km": 11.2,
     "position": 19,
     "name": "Amy Edwards",
-    "club": "Rhondda A (27)",
+    "club": "Rhondda Valley Runners",
     "time": "00:58:07"
   },
   {
@@ -14840,7 +14840,7 @@ const relayResults = [
     "km": 11.2,
     "position": 20,
     "name": "Julie Roche",
-    "club": "Fairwater A (01)",
+    "club": "Fairwater Runners",
     "time": "00:58:56"
   },
   {
@@ -14852,7 +14852,7 @@ const relayResults = [
     "km": 11.2,
     "position": 21,
     "name": "Angela Potter",
-    "club": "Lliswerry B (18)",
+    "club": "Lliswerry Runners",
     "time": "00:58:59"
   },
   {
@@ -14864,7 +14864,7 @@ const relayResults = [
     "km": 11.2,
     "position": 22,
     "name": "Alun Job",
-    "club": "Ogmore B (21)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:59:37"
   },
   {
@@ -14876,7 +14876,7 @@ const relayResults = [
     "km": 11.2,
     "position": 23,
     "name": "Claire Swann",
-    "club": "Caldicot A (09)",
+    "club": "Caldicot RC",
     "time": "01:00:26"
   },
   {
@@ -14888,7 +14888,7 @@ const relayResults = [
     "km": 11.2,
     "position": 24,
     "name": "Royston Vincent",
-    "club": "Pontypridd A (24)",
+    "club": "Pontypridd Roadents",
     "time": "01:01:58"
   },
   {
@@ -14900,7 +14900,7 @@ const relayResults = [
     "km": 11.2,
     "position": 25,
     "name": "Sharon Woods",
-    "club": "Pont-y-pwl B (26)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:02:00"
   },
   {
@@ -14912,7 +14912,7 @@ const relayResults = [
     "km": 11.2,
     "position": 26,
     "name": "Paul Hancox",
-    "club": "Griffithstown B (13)",
+    "club": "Griffithstown Harriers",
     "time": "01:02:01"
   },
   {
@@ -14924,7 +14924,7 @@ const relayResults = [
     "km": 11.2,
     "position": 27,
     "name": "Charlotte Bethell",
-    "club": "Pegasus A (23)",
+    "club": "Pegasus RC",
     "time": "01:02:03"
   },
   {
@@ -14936,7 +14936,7 @@ const relayResults = [
     "km": 11.2,
     "position": 28,
     "name": "Katie Kenward-Gibbs",
-    "club": "Caerleon B (06)",
+    "club": "Caerleon RC",
     "time": "01:02:03"
   },
   {
@@ -14948,7 +14948,7 @@ const relayResults = [
     "km": 12.1,
     "position": 1,
     "name": "Mike Lewis",
-    "club": "Fairwater A (01)",
+    "club": "Fairwater Runners",
     "time": "00:43:39"
   },
   {
@@ -14960,7 +14960,7 @@ const relayResults = [
     "km": 12.1,
     "position": 2,
     "name": "Lloyd Cottrell",
-    "club": "Lliswerry A (17)",
+    "club": "Lliswerry Runners",
     "time": "00:46:47"
   },
   {
@@ -14972,7 +14972,7 @@ const relayResults = [
     "km": 12.1,
     "position": 3,
     "name": "Paul Hayward",
-    "club": "Islwyn A (14)",
+    "club": "Islwyn RC",
     "time": "00:47:11"
   },
   {
@@ -14984,7 +14984,7 @@ const relayResults = [
     "km": 12.1,
     "position": 4,
     "name": "Bobby Pritchard",
-    "club": "Chepstow A (10)",
+    "club": "Chepstow Harriers",
     "time": "00:48:20"
   },
   {
@@ -14996,7 +14996,7 @@ const relayResults = [
     "km": 12.1,
     "position": 5,
     "name": "Matt Mulcahy",
-    "club": "Caerleon A (05)",
+    "club": "Caerleon RC",
     "time": "00:50:08"
   },
   {
@@ -15008,7 +15008,7 @@ const relayResults = [
     "km": 12.1,
     "position": 6,
     "name": "Nathan Maloney",
-    "club": "Pont-y-pwl A (25)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:50:52"
   },
   {
@@ -15020,7 +15020,7 @@ const relayResults = [
     "km": 12.1,
     "position": 7,
     "name": "Carl Williams",
-    "club": "Griffithstown A (12)",
+    "club": "Griffithstown Harriers",
     "time": "00:51:20"
   },
   {
@@ -15032,7 +15032,7 @@ const relayResults = [
     "km": 12.1,
     "position": 8,
     "name": "Rachael Baralos",
-    "club": "Caerphilly A (07)",
+    "club": "Caerphilly Runners",
     "time": "00:52:12"
   },
   {
@@ -15044,7 +15044,7 @@ const relayResults = [
     "km": 12.1,
     "position": 9,
     "name": "Jason Edwards",
-    "club": "Pont-y-pwl B (26)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:53:30"
   },
   {
@@ -15056,7 +15056,7 @@ const relayResults = [
     "km": 12.1,
     "position": 10,
     "name": "Susannah Bulpin",
-    "club": "San Domenico A (28)",
+    "club": "San Domenico RC",
     "time": "00:53:50"
   },
   {
@@ -15068,7 +15068,7 @@ const relayResults = [
     "km": 12.1,
     "position": 11,
     "name": "Steve Owen",
-    "club": "Chepstow B (11)",
+    "club": "Chepstow Harriers",
     "time": "00:53:56"
   },
   {
@@ -15080,7 +15080,7 @@ const relayResults = [
     "km": 12.1,
     "position": 12,
     "name": "Ryan Lambeth",
-    "club": "Islwyn B (15)",
+    "club": "Islwyn RC",
     "time": "00:55:43"
   },
   {
@@ -15092,7 +15092,7 @@ const relayResults = [
     "km": 12.1,
     "position": 13,
     "name": "Yuan Huang",
-    "club": "Pontypridd A (24)",
+    "club": "Pontypridd Roadents",
     "time": "00:57:10"
   },
   {
@@ -15104,7 +15104,7 @@ const relayResults = [
     "km": 12.1,
     "position": 14,
     "name": "Daniel Symmonds",
-    "club": "Caerleon B (06)",
+    "club": "Caerleon RC",
     "time": "00:57:45"
   },
   {
@@ -15116,7 +15116,7 @@ const relayResults = [
     "km": 12.1,
     "position": 15,
     "name": "Stephen Morgan",
-    "club": "Fairwater B (02)",
+    "club": "Fairwater Runners",
     "time": "00:58:24"
   },
   {
@@ -15128,7 +15128,7 @@ const relayResults = [
     "km": 12.1,
     "position": 16,
     "name": "Marcus Smith",
-    "club": "Parc (22)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:58:38"
   },
   {
@@ -15140,7 +15140,7 @@ const relayResults = [
     "km": 12.1,
     "position": 17,
     "name": "Elaine Wharmby",
-    "club": "Brackla A (04)",
+    "club": "Brackla Harriers",
     "time": "00:58:43"
   },
   {
@@ -15152,7 +15152,7 @@ const relayResults = [
     "km": 12.1,
     "position": 18,
     "name": "Claire Law",
-    "club": "Caldicot A (09)",
+    "club": "Caldicot RC",
     "time": "01:00:07"
   },
   {
@@ -15164,7 +15164,7 @@ const relayResults = [
     "km": 12.1,
     "position": 19,
     "name": "Katrina Edmonds Daniel",
-    "club": "Caerphilly B (08)",
+    "club": "Caerphilly Runners",
     "time": "01:01:44"
   },
   {
@@ -15176,7 +15176,7 @@ const relayResults = [
     "km": 12.1,
     "position": 20,
     "name": "Clive Denton",
-    "club": "Rhondda A (27)",
+    "club": "Rhondda Valley Runners",
     "time": "01:02:11"
   },
   {
@@ -15188,7 +15188,7 @@ const relayResults = [
     "km": 12.1,
     "position": 21,
     "name": "Michelle Amblin",
-    "club": "Les Croupiers A (16)",
+    "club": "Les Croupiers RC",
     "time": "01:02:36"
   },
   {
@@ -15200,7 +15200,7 @@ const relayResults = [
     "km": 12.1,
     "position": 22,
     "name": "Andy Clifton",
-    "club": "Monmouth A (19)",
+    "club": "Spirit of Monmouth",
     "time": "01:02:41"
   },
   {
@@ -15212,7 +15212,7 @@ const relayResults = [
     "km": 12.1,
     "position": 23,
     "name": "Sarah Lyle",
-    "club": "Pegasus A (23)",
+    "club": "Pegasus RC",
     "time": "01:02:44"
   },
   {
@@ -15224,7 +15224,7 @@ const relayResults = [
     "km": 12.1,
     "position": 24,
     "name": "Gareth Yeoman",
-    "club": "Lliswerry B (18)",
+    "club": "Lliswerry Runners",
     "time": "01:02:58"
   },
   {
@@ -15236,7 +15236,7 @@ const relayResults = [
     "km": 12.1,
     "position": 25,
     "name": "Kirsty Evans",
-    "club": "Ogmore A (20)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:03:16"
   },
   {
@@ -15248,7 +15248,7 @@ const relayResults = [
     "km": 12.1,
     "position": 26,
     "name": "Nicholas Clarke",
-    "club": "Griffithstown B (13)",
+    "club": "Griffithstown Harriers",
     "time": "01:03:40"
   },
   {
@@ -15260,7 +15260,7 @@ const relayResults = [
     "km": 12.1,
     "position": 27,
     "name": "Nathan Williams",
-    "club": "Aberdare A (03)",
+    "club": "Aberdare",
     "time": "01:04:27"
   },
   {
@@ -15272,7 +15272,7 @@ const relayResults = [
     "km": 12.1,
     "position": 28,
     "name": "Liz Davis",
-    "club": "Ogmore B (21)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:08:00"
   },
   {
@@ -15284,7 +15284,7 @@ const relayResults = [
     "km": 10.8,
     "position": 1,
     "name": "Paul Dodd",
-    "club": "Chepstow A (10)",
+    "club": "Chepstow Harriers",
     "time": "00:44:43"
   },
   {
@@ -15296,7 +15296,7 @@ const relayResults = [
     "km": 10.8,
     "position": 2,
     "name": "Emma Wookey",
-    "club": "Lliswerry A (17)",
+    "club": "Lliswerry Runners",
     "time": "00:46:11"
   },
   {
@@ -15308,7 +15308,7 @@ const relayResults = [
     "km": 10.8,
     "position": 3,
     "name": "Aled Hughes",
-    "club": "Ogmore A (20)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:46:43"
   },
   {
@@ -15320,7 +15320,7 @@ const relayResults = [
     "km": 10.8,
     "position": 4,
     "name": "Emma Edwards",
-    "club": "Caerphilly A (07)",
+    "club": "Caerphilly Runners",
     "time": "00:47:41"
   },
   {
@@ -15332,7 +15332,7 @@ const relayResults = [
     "km": 10.8,
     "position": 5,
     "name": "Annette Sanford",
-    "club": "Griffithstown A (12)",
+    "club": "Griffithstown Harriers",
     "time": "00:47:54"
   },
   {
@@ -15344,7 +15344,7 @@ const relayResults = [
     "km": 10.8,
     "position": 6,
     "name": "Megan Turner",
-    "club": "San Domenico A (28)",
+    "club": "San Domenico RC",
     "time": "00:48:06"
   },
   {
@@ -15356,7 +15356,7 @@ const relayResults = [
     "km": 10.8,
     "position": 7,
     "name": "Faye Johnson",
-    "club": "Pont-y-pwl A (25)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:48:17"
   },
   {
@@ -15368,7 +15368,7 @@ const relayResults = [
     "km": 10.8,
     "position": 8,
     "name": "Kim Wehden",
-    "club": "Islwyn A (14)",
+    "club": "Islwyn RC",
     "time": "00:48:49"
   },
   {
@@ -15380,7 +15380,7 @@ const relayResults = [
     "km": 10.8,
     "position": 9,
     "name": "Joanna Summerfield",
-    "club": "Parc (22)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:50:11"
   },
   {
@@ -15392,7 +15392,7 @@ const relayResults = [
     "km": 10.8,
     "position": 10,
     "name": "Charlotte Pike",
-    "club": "Fairwater A (01)",
+    "club": "Fairwater Runners",
     "time": "00:50:37"
   },
   {
@@ -15404,7 +15404,7 @@ const relayResults = [
     "km": 10.8,
     "position": 11,
     "name": "Lowenna Taylor",
-    "club": "Caerleon A (05)",
+    "club": "Caerleon RC",
     "time": "00:51:43"
   },
   {
@@ -15416,7 +15416,7 @@ const relayResults = [
     "km": 10.8,
     "position": 12,
     "name": "Neil Profit",
-    "club": "Islwyn B (15)",
+    "club": "Islwyn RC",
     "time": "00:52:49"
   },
   {
@@ -15428,7 +15428,7 @@ const relayResults = [
     "km": 10.8,
     "position": 13,
     "name": "Zoe Rees",
-    "club": "Caerphilly B (08)",
+    "club": "Caerphilly Runners",
     "time": "00:52:58"
   },
   {
@@ -15440,7 +15440,7 @@ const relayResults = [
     "km": 10.8,
     "position": 14,
     "name": "Kath Sage",
-    "club": "Caldicot A (09)",
+    "club": "Caldicot RC",
     "time": "00:53:23"
   },
   {
@@ -15452,7 +15452,7 @@ const relayResults = [
     "km": 10.8,
     "position": 15,
     "name": "Aimee Ferguson",
-    "club": "Aberdare A (03)",
+    "club": "Aberdare",
     "time": "00:54:20"
   },
   {
@@ -15464,7 +15464,7 @@ const relayResults = [
     "km": 10.8,
     "position": 16,
     "name": "Jen Watkins",
-    "club": "Pont-y-pwl B (26)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:55:15"
   },
   {
@@ -15476,7 +15476,7 @@ const relayResults = [
     "km": 10.8,
     "position": 17,
     "name": "Dave George",
-    "club": "Les Croupiers A (16)",
+    "club": "Les Croupiers RC",
     "time": "00:55:16"
   },
   {
@@ -15488,7 +15488,7 @@ const relayResults = [
     "km": 10.8,
     "position": 18,
     "name": "Louise Muteham",
-    "club": "Lliswerry B (18)",
+    "club": "Lliswerry Runners",
     "time": "00:55:38"
   },
   {
@@ -15500,7 +15500,7 @@ const relayResults = [
     "km": 10.8,
     "position": 19,
     "name": "Graham Foster",
-    "club": "Brackla A (04)",
+    "club": "Brackla Harriers",
     "time": "00:55:48"
   },
   {
@@ -15512,7 +15512,7 @@ const relayResults = [
     "km": 10.8,
     "position": 20,
     "name": "Tara Paisey",
-    "club": "Griffithstown B (13)",
+    "club": "Griffithstown Harriers",
     "time": "00:56:06"
   },
   {
@@ -15524,7 +15524,7 @@ const relayResults = [
     "km": 10.8,
     "position": 21,
     "name": "Jane Roscoe",
-    "club": "Chepstow B (11)",
+    "club": "Chepstow Harriers",
     "time": "00:56:20"
   },
   {
@@ -15536,7 +15536,7 @@ const relayResults = [
     "km": 10.8,
     "position": 22,
     "name": "Neil Fitzgerald",
-    "club": "Pontypridd A (24)",
+    "club": "Pontypridd Roadents",
     "time": "00:58:49"
   },
   {
@@ -15548,7 +15548,7 @@ const relayResults = [
     "km": 10.8,
     "position": 23,
     "name": "Hannah Morgan",
-    "club": "Fairwater B (02)",
+    "club": "Fairwater Runners",
     "time": "01:01:00"
   },
   {
@@ -15560,7 +15560,7 @@ const relayResults = [
     "km": 10.8,
     "position": 24,
     "name": "Paul Adams",
-    "club": "Caerleon B (06)",
+    "club": "Caerleon RC",
     "time": "01:01:01"
   },
   {
@@ -15572,7 +15572,7 @@ const relayResults = [
     "km": 10.8,
     "position": 25,
     "name": "Neil Jones",
-    "club": "Rhondda A (27)",
+    "club": "Rhondda Valley Runners",
     "time": "01:01:02"
   },
   {
@@ -15584,7 +15584,7 @@ const relayResults = [
     "km": 10.8,
     "position": 26,
     "name": "Jo Valentine",
-    "club": "Pegasus A (23)",
+    "club": "Pegasus RC",
     "time": "01:01:03"
   },
   {
@@ -15596,7 +15596,7 @@ const relayResults = [
     "km": 10.8,
     "position": 27,
     "name": "Kate Plimmer",
-    "club": "Ogmore B (21)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:01:04"
   },
   {
@@ -15608,7 +15608,7 @@ const relayResults = [
     "km": 10.8,
     "position": 28,
     "name": "Kirk Hill",
-    "club": "Monmouth A (19)",
+    "club": "Spirit of Monmouth",
     "time": "01:11:00"
   },
   {
@@ -15620,7 +15620,7 @@ const relayResults = [
     "km": 13.0,
     "position": 1,
     "name": "Martin Johns",
-    "club": "Lliswerry A (17)",
+    "club": "Lliswerry Runners",
     "time": "00:49:20"
   },
   {
@@ -15632,7 +15632,7 @@ const relayResults = [
     "km": 13.0,
     "position": 2,
     "name": "Kath Matthews",
-    "club": "Chepstow A (10)",
+    "club": "Chepstow Harriers",
     "time": "00:50:40"
   },
   {
@@ -15644,7 +15644,7 @@ const relayResults = [
     "km": 13.0,
     "position": 3,
     "name": "Andy Lee",
-    "club": "Pont-y-pwl A (25)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:51:37"
   },
   {
@@ -15656,7 +15656,7 @@ const relayResults = [
     "km": 13.0,
     "position": 4,
     "name": "Adrian Pearce",
-    "club": "Brackla A (04)",
+    "club": "Brackla Harriers",
     "time": "00:56:21"
   },
   {
@@ -15668,7 +15668,7 @@ const relayResults = [
     "km": 13.0,
     "position": 5,
     "name": "Charlie Bendall",
-    "club": "Chepstow B (11)",
+    "club": "Chepstow Harriers",
     "time": "00:56:49"
   },
   {
@@ -15680,7 +15680,7 @@ const relayResults = [
     "km": 13.0,
     "position": 6,
     "name": "Richard Kulisa",
-    "club": "Caerphilly A (07)",
+    "club": "Caerphilly Runners",
     "time": "00:57:15"
   },
   {
@@ -15692,7 +15692,7 @@ const relayResults = [
     "km": 13.0,
     "position": 7,
     "name": "Gareth Knight",
-    "club": "Fairwater A (01)",
+    "club": "Fairwater Runners",
     "time": "00:57:23"
   },
   {
@@ -15704,7 +15704,7 @@ const relayResults = [
     "km": 13.0,
     "position": 8,
     "name": "Craig Cheedy",
-    "club": "Griffithstown A (12)",
+    "club": "Griffithstown Harriers",
     "time": "00:57:27"
   },
   {
@@ -15716,7 +15716,7 @@ const relayResults = [
     "km": 13.0,
     "position": 9,
     "name": "Rachel Brenton",
-    "club": "Caerleon A (05)",
+    "club": "Caerleon RC",
     "time": "00:58:04"
   },
   {
@@ -15728,7 +15728,7 @@ const relayResults = [
     "km": 13.0,
     "position": 10,
     "name": "Tammi Preece",
-    "club": "Parc (22)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:58:15"
   },
   {
@@ -15740,7 +15740,7 @@ const relayResults = [
     "km": 13.0,
     "position": 11,
     "name": "Nicholas Walsh",
-    "club": "Griffithstown B (13)",
+    "club": "Griffithstown Harriers",
     "time": "00:58:47"
   },
   {
@@ -15752,7 +15752,7 @@ const relayResults = [
     "km": 13.0,
     "position": 12,
     "name": "Paul Harris",
-    "club": "Lliswerry B (18)",
+    "club": "Lliswerry Runners",
     "time": "00:59:23"
   },
   {
@@ -15764,7 +15764,7 @@ const relayResults = [
     "km": 13.0,
     "position": 13,
     "name": "Matthew Lloyd",
-    "club": "Fairwater B (02)",
+    "club": "Fairwater Runners",
     "time": "00:59:36"
   },
   {
@@ -15776,7 +15776,7 @@ const relayResults = [
     "km": 13.0,
     "position": 14,
     "name": "Gareth Jenkins",
-    "club": "Ogmore B (21)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:00:22"
   },
   {
@@ -15788,7 +15788,7 @@ const relayResults = [
     "km": 13.0,
     "position": 15,
     "name": "Robert Price",
-    "club": "Aberdare A (03)",
+    "club": "Aberdare",
     "time": "01:00:31"
   },
   {
@@ -15800,7 +15800,7 @@ const relayResults = [
     "km": 13.0,
     "position": 16,
     "name": "Paige Matthews",
-    "club": "Islwyn A (14)",
+    "club": "Islwyn RC",
     "time": "01:01:53"
   },
   {
@@ -15812,7 +15812,7 @@ const relayResults = [
     "km": 13.0,
     "position": 17,
     "name": "Lloyd Hambridge",
-    "club": "Islwyn B (15)",
+    "club": "Islwyn RC",
     "time": "01:01:54"
   },
   {
@@ -15824,7 +15824,7 @@ const relayResults = [
     "km": 13.0,
     "position": 18,
     "name": "Delyth Williams",
-    "club": "San Domenico A (28)",
+    "club": "San Domenico RC",
     "time": "01:03:53"
   },
   {
@@ -15836,7 +15836,7 @@ const relayResults = [
     "km": 13.0,
     "position": 19,
     "name": "Richard Ford",
-    "club": "Caldicot A (09)",
+    "club": "Caldicot RC",
     "time": "01:04:41"
   },
   {
@@ -15848,7 +15848,7 @@ const relayResults = [
     "km": 13.0,
     "position": 20,
     "name": "Kate Jones",
-    "club": "Pontypridd A (24)",
+    "club": "Pontypridd Roadents",
     "time": "01:04:42"
   },
   {
@@ -15860,7 +15860,7 @@ const relayResults = [
     "km": 13.0,
     "position": 21,
     "name": "Ceri Irvine",
-    "club": "Caerphilly B (08)",
+    "club": "Caerphilly Runners",
     "time": "01:05:51"
   },
   {
@@ -15872,7 +15872,7 @@ const relayResults = [
     "km": 13.0,
     "position": 22,
     "name": "Claire Dunbar-Bowen",
-    "club": "Ogmore A (20)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:06:34"
   },
   {
@@ -15884,7 +15884,7 @@ const relayResults = [
     "km": 13.0,
     "position": 23,
     "name": "Vicky Roberts",
-    "club": "Monmouth A (19)",
+    "club": "Spirit of Monmouth",
     "time": "01:06:48"
   },
   {
@@ -15896,7 +15896,7 @@ const relayResults = [
     "km": 13.0,
     "position": 24,
     "name": "Nicola Brunnock",
-    "club": "Pont-y-pwl B (26)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:08:10"
   },
   {
@@ -15908,7 +15908,7 @@ const relayResults = [
     "km": 13.0,
     "position": 25,
     "name": "Steve Holderness",
-    "club": "Rhondda A (27)",
+    "club": "Rhondda Valley Runners",
     "time": "01:09:45"
   },
   {
@@ -15920,7 +15920,7 @@ const relayResults = [
     "km": 13.0,
     "position": 26,
     "name": "Yangi Vundamina",
-    "club": "Caerleon B (06)",
+    "club": "Caerleon RC",
     "time": "01:11:40"
   },
   {
@@ -15932,7 +15932,7 @@ const relayResults = [
     "km": 13.0,
     "position": 27,
     "name": "Stephen Quin",
-    "club": "Les Croupiers A (16)",
+    "club": "Les Croupiers RC",
     "time": "01:12:27"
   },
   {
@@ -15944,7 +15944,7 @@ const relayResults = [
     "km": 13.0,
     "position": 28,
     "name": "Paul Charles",
-    "club": "Pegasus A (23)",
+    "club": "Pegasus RC",
     "time": "01:13:00"
   },
   {
@@ -15956,7 +15956,7 @@ const relayResults = [
     "km": 20.3,
     "position": 1,
     "name": "Steve Davies",
-    "club": "Pont-y-pwl A (25)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:24:30"
   },
   {
@@ -15968,7 +15968,7 @@ const relayResults = [
     "km": 20.3,
     "position": 2,
     "name": "Ricci Watts",
-    "club": "Pont-y-pwl B (26)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:25:41"
   },
   {
@@ -15980,7 +15980,7 @@ const relayResults = [
     "km": 20.3,
     "position": 3,
     "name": "Steve Drewitt",
-    "club": "Fairwater A (01)",
+    "club": "Fairwater Runners",
     "time": "01:26:40"
   },
   {
@@ -15992,7 +15992,7 @@ const relayResults = [
     "km": 20.3,
     "position": 4,
     "name": "Paul Speyer",
-    "club": "Brackla A (04)",
+    "club": "Brackla Harriers",
     "time": "01:26:42"
   },
   {
@@ -16004,7 +16004,7 @@ const relayResults = [
     "km": 20.3,
     "position": 5,
     "name": "Daniel Price",
-    "club": "Parc (22)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:28:50"
   },
   {
@@ -16016,7 +16016,7 @@ const relayResults = [
     "km": 20.3,
     "position": 6,
     "name": "Rob Hook",
-    "club": "Chepstow B (11)",
+    "club": "Chepstow Harriers",
     "time": "01:30:07"
   },
   {
@@ -16028,7 +16028,7 @@ const relayResults = [
     "km": 20.3,
     "position": 7,
     "name": "Andy Dean",
-    "club": "Griffithstown A (12)",
+    "club": "Griffithstown Harriers",
     "time": "01:17:14"
   },
   {
@@ -16040,7 +16040,7 @@ const relayResults = [
     "km": 20.3,
     "position": 8,
     "name": "Phillip Evans",
-    "club": "Pontypridd A (24)",
+    "club": "Pontypridd Roadents",
     "time": "01:31:22"
   },
   {
@@ -16052,7 +16052,7 @@ const relayResults = [
     "km": 20.3,
     "position": 9,
     "name": "Kevin Harford",
-    "club": "Lliswerry B (18)",
+    "club": "Lliswerry Runners",
     "time": "01:31:32"
   },
   {
@@ -16064,7 +16064,7 @@ const relayResults = [
     "km": 20.3,
     "position": 10,
     "name": "Tony Mackay",
-    "club": "Pegasus A (23)",
+    "club": "Pegasus RC",
     "time": "01:31:51"
   },
   {
@@ -16076,7 +16076,7 @@ const relayResults = [
     "km": 20.3,
     "position": 11,
     "name": "Chase Bray",
-    "club": "Monmouth A (19)",
+    "club": "Spirit of Monmouth",
     "time": "01:32:12"
   },
   {
@@ -16088,7 +16088,7 @@ const relayResults = [
     "km": 20.3,
     "position": 12,
     "name": "Paul Murrin",
-    "club": "Chepstow A (10)",
+    "club": "Chepstow Harriers",
     "time": "01:19:27"
   },
   {
@@ -16100,7 +16100,7 @@ const relayResults = [
     "km": 20.3,
     "position": 13,
     "name": "Dave Jones",
-    "club": "Caldicot A (09)",
+    "club": "Caldicot RC",
     "time": "01:32:45"
   },
   {
@@ -16112,7 +16112,7 @@ const relayResults = [
     "km": 20.3,
     "position": 14,
     "name": "Cliff Burton",
-    "club": "Islwyn B (15)",
+    "club": "Islwyn RC",
     "time": "01:33:25"
   },
   {
@@ -16124,7 +16124,7 @@ const relayResults = [
     "km": 20.3,
     "position": 15,
     "name": "Alexander Hutton-Lewis",
-    "club": "Caerphilly A (07)",
+    "club": "Caerphilly Runners",
     "time": "01:19:09"
   },
   {
@@ -16136,7 +16136,7 @@ const relayResults = [
     "km": 20.3,
     "position": 16,
     "name": "Craig Collins",
-    "club": "Lliswerry A (17)",
+    "club": "Lliswerry Runners",
     "time": "01:22:34"
   },
   {
@@ -16148,7 +16148,7 @@ const relayResults = [
     "km": 20.3,
     "position": 17,
     "name": "Josh Bond",
-    "club": "Aberdare A (03)",
+    "club": "Aberdare",
     "time": "01:22:54"
   },
   {
@@ -16160,7 +16160,7 @@ const relayResults = [
     "km": 20.3,
     "position": 18,
     "name": "Jason Pritchard",
-    "club": "Caerleon A (05)",
+    "club": "Caerleon RC",
     "time": "01:39:00"
   },
   {
@@ -16172,7 +16172,7 @@ const relayResults = [
     "km": 20.3,
     "position": 19,
     "name": "Marcus Meyrick",
-    "club": "Les Croupiers A (16)",
+    "club": "Les Croupiers RC",
     "time": "01:39:39"
   },
   {
@@ -16184,7 +16184,7 @@ const relayResults = [
     "km": 20.3,
     "position": 20,
     "name": "Roger Williams",
-    "club": "Griffithstown B (13)",
+    "club": "Griffithstown Harriers",
     "time": "01:40:00"
   },
   {
@@ -16196,7 +16196,7 @@ const relayResults = [
     "km": 20.3,
     "position": 21,
     "name": "Dafydd Lambeth",
-    "club": "Islwyn A (14)",
+    "club": "Islwyn RC",
     "time": "01:24:30"
   },
   {
@@ -16208,7 +16208,7 @@ const relayResults = [
     "km": 20.3,
     "position": 22,
     "name": "Peter Jones",
-    "club": "Fairwater B (02)",
+    "club": "Fairwater Runners",
     "time": "01:42:55"
   },
   {
@@ -16220,7 +16220,7 @@ const relayResults = [
     "km": 20.3,
     "position": 23,
     "name": "Stuart Ward",
-    "club": "Caerphilly B (08)",
+    "club": "Caerphilly Runners",
     "time": "01:43:38"
   },
   {
@@ -16232,7 +16232,7 @@ const relayResults = [
     "km": 20.3,
     "position": 24,
     "name": "Huw Williams",
-    "club": "Rhondda A (27)",
+    "club": "Rhondda Valley Runners",
     "time": "01:45:02"
   },
   {
@@ -16244,7 +16244,7 @@ const relayResults = [
     "km": 20.3,
     "position": 25,
     "name": "Justin Pocknell",
-    "club": "Caerleon B (06)",
+    "club": "Caerleon RC",
     "time": "01:45:26"
   },
   {
@@ -16256,7 +16256,7 @@ const relayResults = [
     "km": 20.3,
     "position": 26,
     "name": "Nicky Bennett",
-    "club": "Ogmore A (20)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:29:55"
   },
   {
@@ -16268,7 +16268,7 @@ const relayResults = [
     "km": 20.3,
     "position": 27,
     "name": "Chris Oxley",
-    "club": "San Domenico A (28)",
+    "club": "San Domenico RC",
     "time": "01:30:10"
   },
   {
@@ -16280,7 +16280,7 @@ const relayResults = [
     "km": 20.3,
     "position": 28,
     "name": "Ken Salvatore",
-    "club": "Ogmore B (21)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:47:16"
   },
   {
@@ -16292,7 +16292,7 @@ const relayResults = [
     "km": 8.9,
     "position": 1,
     "name": "Laura Davies",
-    "club": "Lliswerry A (17)",
+    "club": "Lliswerry Runners",
     "time": "00:35:37"
   },
   {
@@ -16304,7 +16304,7 @@ const relayResults = [
     "km": 8.9,
     "position": 2,
     "name": "Sarah Bell",
-    "club": "Chepstow A (10)",
+    "club": "Chepstow Harriers",
     "time": "00:35:59"
   },
   {
@@ -16316,7 +16316,7 @@ const relayResults = [
     "km": 8.9,
     "position": 3,
     "name": "Lubi Ford",
-    "club": "Pont-y-pwl A (25)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:36:32"
   },
   {
@@ -16328,7 +16328,7 @@ const relayResults = [
     "km": 8.9,
     "position": 4,
     "name": "Joanne Hudson",
-    "club": "Caerphilly A (07)",
+    "club": "Caerphilly Runners",
     "time": "00:38:43"
   },
   {
@@ -16340,7 +16340,7 @@ const relayResults = [
     "km": 8.9,
     "position": 5,
     "name": "Emily Harrison",
-    "club": "Monmouth A (19)",
+    "club": "Spirit of Monmouth",
     "time": "00:40:12"
   },
   {
@@ -16352,7 +16352,7 @@ const relayResults = [
     "km": 8.9,
     "position": 6,
     "name": "Jan Morris",
-    "club": "Chepstow B (11)",
+    "club": "Chepstow Harriers",
     "time": "00:41:03"
   },
   {
@@ -16364,7 +16364,7 @@ const relayResults = [
     "km": 8.9,
     "position": 7,
     "name": "Rose Charles",
-    "club": "Griffithstown A (12)",
+    "club": "Griffithstown Harriers",
     "time": "00:41:12"
   },
   {
@@ -16376,7 +16376,7 @@ const relayResults = [
     "km": 8.9,
     "position": 8,
     "name": "Charlene Henshall",
-    "club": "Caerleon A (05)",
+    "club": "Caerleon RC",
     "time": "00:41:56"
   },
   {
@@ -16388,7 +16388,7 @@ const relayResults = [
     "km": 8.9,
     "position": 9,
     "name": "Sarah Woodley- Williams",
-    "club": "San Domenico A (28)",
+    "club": "San Domenico RC",
     "time": "00:42:14"
   },
   {
@@ -16400,7 +16400,7 @@ const relayResults = [
     "km": 8.9,
     "position": 10,
     "name": "Alison Williams",
-    "club": "Caerphilly B (08)",
+    "club": "Caerphilly Runners",
     "time": "00:42:40"
   },
   {
@@ -16412,7 +16412,7 @@ const relayResults = [
     "km": 8.9,
     "position": 11,
     "name": "Rhiannon Jenkins",
-    "club": "Parc (22)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:42:47"
   },
   {
@@ -16424,7 +16424,7 @@ const relayResults = [
     "km": 8.9,
     "position": 12,
     "name": "Michelle Taylor",
-    "club": "Islwyn A (14)",
+    "club": "Islwyn RC",
     "time": "00:42:56"
   },
   {
@@ -16436,7 +16436,7 @@ const relayResults = [
     "km": 8.9,
     "position": 13,
     "name": "Richard Beach",
-    "club": "Caldicot A (09)",
+    "club": "Caldicot RC",
     "time": "00:43:39"
   },
   {
@@ -16448,7 +16448,7 @@ const relayResults = [
     "km": 8.9,
     "position": 14,
     "name": "Hollie Jehu",
-    "club": "Aberdare A (03)",
+    "club": "Aberdare",
     "time": "00:44:13"
   },
   {
@@ -16460,7 +16460,7 @@ const relayResults = [
     "km": 8.9,
     "position": 15,
     "name": "Carly Bunston",
-    "club": "Islwyn B (15)",
+    "club": "Islwyn RC",
     "time": "00:44:14"
   },
   {
@@ -16472,7 +16472,7 @@ const relayResults = [
     "km": 8.9,
     "position": 16,
     "name": "Martin Green",
-    "club": "Pontypridd A (24)",
+    "club": "Pontypridd Roadents",
     "time": "00:45:02"
   },
   {
@@ -16484,7 +16484,7 @@ const relayResults = [
     "km": 8.9,
     "position": 17,
     "name": "Rosie Salvatore",
-    "club": "Ogmore A (20)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:45:04"
   },
   {
@@ -16496,7 +16496,7 @@ const relayResults = [
     "km": 8.9,
     "position": 18,
     "name": "Sarah-Louise Francis",
-    "club": "Lliswerry B (18)",
+    "club": "Lliswerry Runners",
     "time": "00:45:53"
   },
   {
@@ -16508,7 +16508,7 @@ const relayResults = [
     "km": 8.9,
     "position": 19,
     "name": "Lauren Old",
-    "club": "Pegasus A (23)",
+    "club": "Pegasus RC",
     "time": "00:46:09"
   },
   {
@@ -16520,7 +16520,7 @@ const relayResults = [
     "km": 8.9,
     "position": 20,
     "name": "Emma Bagley",
-    "club": "Fairwater A (01)",
+    "club": "Fairwater Runners",
     "time": "00:46:19"
   },
   {
@@ -16532,7 +16532,7 @@ const relayResults = [
     "km": 8.9,
     "position": 21,
     "name": "Jenny Martin",
-    "club": "Les Croupiers A (16)",
+    "club": "Les Croupiers RC",
     "time": "00:48:07"
   },
   {
@@ -16544,7 +16544,7 @@ const relayResults = [
     "km": 8.9,
     "position": 22,
     "name": "Steph Iveson-Holmes",
-    "club": "Ogmore B (21)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:48:26"
   },
   {
@@ -16556,7 +16556,7 @@ const relayResults = [
     "km": 8.9,
     "position": 23,
     "name": "Lindsay Davies",
-    "club": "Pont-y-pwl B (26)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:48:50"
   },
   {
@@ -16568,7 +16568,7 @@ const relayResults = [
     "km": 8.9,
     "position": 24,
     "name": "Wendy Hughes",
-    "club": "Fairwater B (02)",
+    "club": "Fairwater Runners",
     "time": "00:50:00"
   },
   {
@@ -16580,7 +16580,7 @@ const relayResults = [
     "km": 8.9,
     "position": 25,
     "name": "Maddy Clabon",
-    "club": "Caerleon B (06)",
+    "club": "Caerleon RC",
     "time": "00:50:01"
   },
   {
@@ -16592,7 +16592,7 @@ const relayResults = [
     "km": 8.9,
     "position": 26,
     "name": "Gemma Green",
-    "club": "Rhondda A (27)",
+    "club": "Rhondda Valley Runners",
     "time": "00:50:02"
   },
   {
@@ -16604,7 +16604,7 @@ const relayResults = [
     "km": 8.9,
     "position": 27,
     "name": "Jo Paling",
-    "club": "Griffithstown B (13)",
+    "club": "Griffithstown Harriers",
     "time": "00:50:03"
   },
   {
@@ -16616,7 +16616,7 @@ const relayResults = [
     "km": 8.9,
     "position": 28,
     "name": "Tina Lloyd",
-    "club": "Brackla A (04)",
+    "club": "Brackla Harriers",
     "time": "01:00:00"
   },
   {
@@ -16628,7 +16628,7 @@ const relayResults = [
     "km": 21.1,
     "position": 1,
     "name": "Jacob Tasker",
-    "club": "Ogmore A (20)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:17:32"
   },
   {
@@ -16640,7 +16640,7 @@ const relayResults = [
     "km": 21.1,
     "position": 2,
     "name": "Richard Jones",
-    "club": "Lliswerry A (17)",
+    "club": "Lliswerry Runners",
     "time": "01:22:56"
   },
   {
@@ -16652,7 +16652,7 @@ const relayResults = [
     "km": 21.1,
     "position": 3,
     "name": "Sean Taylor",
-    "club": "Griffithstown A (12)",
+    "club": "Griffithstown Harriers",
     "time": "01:26:15"
   },
   {
@@ -16664,7 +16664,7 @@ const relayResults = [
     "km": 21.1,
     "position": 4,
     "name": "Owen Staddon",
-    "club": "Caldicot A (09)",
+    "club": "Caldicot RC",
     "time": "01:30:20"
   },
   {
@@ -16676,7 +16676,7 @@ const relayResults = [
     "km": 21.1,
     "position": 5,
     "name": "Jonathan Carter",
-    "club": "Chepstow A (10)",
+    "club": "Chepstow Harriers",
     "time": "01:31:24"
   },
   {
@@ -16688,7 +16688,7 @@ const relayResults = [
     "km": 21.1,
     "position": 6,
     "name": "David Hazell",
-    "club": "Caerphilly A (07)",
+    "club": "Caerphilly Runners",
     "time": "01:32:35"
   },
   {
@@ -16700,7 +16700,7 @@ const relayResults = [
     "km": 21.1,
     "position": 7,
     "name": "Adrian Lewis",
-    "club": "Aberdare A (03)",
+    "club": "Aberdare",
     "time": "01:34:21"
   },
   {
@@ -16712,7 +16712,7 @@ const relayResults = [
     "km": 21.1,
     "position": 8,
     "name": "Paul Josua",
-    "club": "San Domenico A (28)",
+    "club": "San Domenico RC",
     "time": "01:37:49"
   },
   {
@@ -16724,7 +16724,7 @@ const relayResults = [
     "km": 21.1,
     "position": 9,
     "name": "Richard Price",
-    "club": "Parc (22)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:42:27"
   },
   {
@@ -16736,7 +16736,7 @@ const relayResults = [
     "km": 21.1,
     "position": 10,
     "name": "Colin Wilmott",
-    "club": "Griffithstown B (13)",
+    "club": "Griffithstown Harriers",
     "time": "01:43:02"
   },
   {
@@ -16748,7 +16748,7 @@ const relayResults = [
     "km": 21.1,
     "position": 11,
     "name": "John Keeble",
-    "club": "Pont-y-pwl A (25)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:43:50"
   },
   {
@@ -16760,7 +16760,7 @@ const relayResults = [
     "km": 21.1,
     "position": 12,
     "name": "Ian Davies",
-    "club": "Caerleon A (05)",
+    "club": "Caerleon RC",
     "time": "01:44:24"
   },
   {
@@ -16772,7 +16772,7 @@ const relayResults = [
     "km": 21.1,
     "position": 13,
     "name": "Rob Walker",
-    "club": "Pont-y-pwl B (26)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:45:08"
   },
   {
@@ -16784,7 +16784,7 @@ const relayResults = [
     "km": 21.1,
     "position": 14,
     "name": "Craig Thomas",
-    "club": "Caerphilly B (08)",
+    "club": "Caerphilly Runners",
     "time": "01:45:43"
   },
   {
@@ -16796,7 +16796,7 @@ const relayResults = [
     "km": 21.1,
     "position": 15,
     "name": "Jordan Brown",
-    "club": "Pontypridd A (24)",
+    "club": "Pontypridd Roadents",
     "time": "01:46:24"
   },
   {
@@ -16808,7 +16808,7 @@ const relayResults = [
     "km": 21.1,
     "position": 16,
     "name": "David Brown",
-    "club": "Lliswerry B (18)",
+    "club": "Lliswerry Runners",
     "time": "01:47:43"
   },
   {
@@ -16820,7 +16820,7 @@ const relayResults = [
     "km": 21.1,
     "position": 17,
     "name": "Alan Aird",
-    "club": "Monmouth A (19)",
+    "club": "Spirit of Monmouth",
     "time": "01:48:13"
   },
   {
@@ -16832,7 +16832,7 @@ const relayResults = [
     "km": 21.1,
     "position": 18,
     "name": "Paul Chapman",
-    "club": "Les Croupiers A (16)",
+    "club": "Les Croupiers RC",
     "time": "01:52:52"
   },
   {
@@ -16844,7 +16844,7 @@ const relayResults = [
     "km": 21.1,
     "position": 19,
     "name": "Andy Hughes",
-    "club": "Chepstow B (11)",
+    "club": "Chepstow Harriers",
     "time": "01:53:53"
   },
   {
@@ -16856,7 +16856,7 @@ const relayResults = [
     "km": 21.1,
     "position": 20,
     "name": "Steve Lane",
-    "club": "Islwyn A (14)",
+    "club": "Islwyn RC",
     "time": "01:54:02"
   },
   {
@@ -16868,7 +16868,7 @@ const relayResults = [
     "km": 21.1,
     "position": 21,
     "name": "Martin Jones",
-    "club": "Islwyn B (15)",
+    "club": "Islwyn RC",
     "time": "01:54:03"
   },
   {
@@ -16880,7 +16880,7 @@ const relayResults = [
     "km": 21.1,
     "position": 22,
     "name": "Giuseppe Santese",
-    "club": "Brackla A (04)",
+    "club": "Brackla Harriers",
     "time": "01:54:54"
   },
   {
@@ -16892,7 +16892,7 @@ const relayResults = [
     "km": 21.1,
     "position": 23,
     "name": "Gareth Purkis",
-    "club": "Caerleon B (06)",
+    "club": "Caerleon RC",
     "time": "01:55:39"
   },
   {
@@ -16904,7 +16904,7 @@ const relayResults = [
     "km": 21.1,
     "position": 24,
     "name": "Leonie Roberts",
-    "club": "Fairwater A (01)",
+    "club": "Fairwater Runners",
     "time": "01:57:08"
   },
   {
@@ -16916,7 +16916,7 @@ const relayResults = [
     "km": 21.1,
     "position": 25,
     "name": "Kevin Raymond",
-    "club": "Ogmore B (21)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:57:38"
   },
   {
@@ -16928,7 +16928,7 @@ const relayResults = [
     "km": 21.1,
     "position": 26,
     "name": "Stuart Felix",
-    "club": "Rhondda A (27)",
+    "club": "Rhondda Valley Runners",
     "time": "01:58:00"
   },
   {
@@ -16940,7 +16940,7 @@ const relayResults = [
     "km": 16.0,
     "position": 1,
     "name": "Nick Tulp",
-    "club": "Lliswerry A (17)",
+    "club": "Lliswerry Runners",
     "time": "01:00:02"
   },
   {
@@ -16952,7 +16952,7 @@ const relayResults = [
     "km": 16.0,
     "position": 2,
     "name": "Tim Batchelor",
-    "club": "Chepstow A (10)",
+    "club": "Chepstow Harriers",
     "time": "01:04:02"
   },
   {
@@ -16964,7 +16964,7 @@ const relayResults = [
     "km": 16.0,
     "position": 3,
     "name": "Niki Puleio",
-    "club": "Ogmore A (20)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:05:10"
   },
   {
@@ -16976,7 +16976,7 @@ const relayResults = [
     "km": 16.0,
     "position": 4,
     "name": "Grant Lewis",
-    "club": "Griffithstown A (12)",
+    "club": "Griffithstown Harriers",
     "time": "01:05:13"
   },
   {
@@ -16988,7 +16988,7 @@ const relayResults = [
     "km": 16.0,
     "position": 5,
     "name": "Matt Turner",
-    "club": "Caerleon A (05)",
+    "club": "Caerleon RC",
     "time": "01:06:41"
   },
   {
@@ -17000,7 +17000,7 @@ const relayResults = [
     "km": 16.0,
     "position": 6,
     "name": "Jon Ford",
-    "club": "Fairwater A (01)",
+    "club": "Fairwater Runners",
     "time": "01:07:45"
   },
   {
@@ -17012,7 +17012,7 @@ const relayResults = [
     "km": 16.0,
     "position": 7,
     "name": "Doug Briggs",
-    "club": "Chepstow B (11)",
+    "club": "Chepstow Harriers",
     "time": "01:08:01"
   },
   {
@@ -17024,7 +17024,7 @@ const relayResults = [
     "km": 16.0,
     "position": 8,
     "name": "John Seaward",
-    "club": "Caerphilly A (07)",
+    "club": "Caerphilly Runners",
     "time": "01:08:22"
   },
   {
@@ -17036,7 +17036,7 @@ const relayResults = [
     "km": 16.0,
     "position": 9,
     "name": "Jason Dixon",
-    "club": "Islwyn A (14)",
+    "club": "Islwyn RC",
     "time": "01:12:20"
   },
   {
@@ -17048,7 +17048,7 @@ const relayResults = [
     "km": 16.0,
     "position": 10,
     "name": "Richard Matthews",
-    "club": "Aberdare A (03)",
+    "club": "Aberdare",
     "time": "01:12:28"
   },
   {
@@ -17060,7 +17060,7 @@ const relayResults = [
     "km": 16.0,
     "position": 11,
     "name": "Simon Gill",
-    "club": "Lliswerry B (18)",
+    "club": "Lliswerry Runners",
     "time": "01:12:40"
   },
   {
@@ -17072,7 +17072,7 @@ const relayResults = [
     "km": 16.0,
     "position": 12,
     "name": "Elizabeth May",
-    "club": "Pontypridd A (24)",
+    "club": "Pontypridd Roadents",
     "time": "01:13:38"
   },
   {
@@ -17084,7 +17084,7 @@ const relayResults = [
     "km": 16.0,
     "position": 13,
     "name": "Brian Lovett",
-    "club": "San Domenico A (28)",
+    "club": "San Domenico RC",
     "time": "01:14:04"
   },
   {
@@ -17096,7 +17096,7 @@ const relayResults = [
     "km": 16.0,
     "position": 14,
     "name": "Ian Ogilvie",
-    "club": "Brackla A (04)",
+    "club": "Brackla Harriers",
     "time": "01:14:20"
   },
   {
@@ -17108,7 +17108,7 @@ const relayResults = [
     "km": 16.0,
     "position": 15,
     "name": "Jamie Edwards",
-    "club": "Pont-y-pwl A (25)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:15:18"
   },
   {
@@ -17120,7 +17120,7 @@ const relayResults = [
     "km": 16.0,
     "position": 16,
     "name": "Lee Turner",
-    "club": "Griffithstown B (13)",
+    "club": "Griffithstown Harriers",
     "time": "01:15:25"
   },
   {
@@ -17132,7 +17132,7 @@ const relayResults = [
     "km": 16.0,
     "position": 17,
     "name": "David Waters",
-    "club": "Islwyn B (15)",
+    "club": "Islwyn RC",
     "time": "01:15:43"
   },
   {
@@ -17144,7 +17144,7 @@ const relayResults = [
     "km": 16.0,
     "position": 18,
     "name": "Ethan Sayce",
-    "club": "Parc (22)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:16:25"
   },
   {
@@ -17156,7 +17156,7 @@ const relayResults = [
     "km": 16.0,
     "position": 19,
     "name": "Ieuan Kingston",
-    "club": "Fairwater B (02)",
+    "club": "Fairwater Runners",
     "time": "01:18:40"
   },
   {
@@ -17168,7 +17168,7 @@ const relayResults = [
     "km": 16.0,
     "position": 20,
     "name": "Harry Woodward",
-    "club": "Caldicot A (09)",
+    "club": "Caldicot RC",
     "time": "01:19:09"
   },
   {
@@ -17180,7 +17180,7 @@ const relayResults = [
     "km": 16.0,
     "position": 21,
     "name": "Steve Chadwell",
-    "club": "Les Croupiers A (16)",
+    "club": "Les Croupiers RC",
     "time": "01:20:24"
   },
   {
@@ -17192,7 +17192,7 @@ const relayResults = [
     "km": 16.0,
     "position": 22,
     "name": "Peter Rodger",
-    "club": "Caerleon B (06)",
+    "club": "Caerleon RC",
     "time": "01:20:59"
   },
   {
@@ -17204,7 +17204,7 @@ const relayResults = [
     "km": 16.0,
     "position": 23,
     "name": "Martin Clayton",
-    "club": "Pont-y-pwl B (26)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:22:22"
   },
   {
@@ -17216,7 +17216,7 @@ const relayResults = [
     "km": 16.0,
     "position": 24,
     "name": "Martin Blakeborough",
-    "club": "Monmouth A (19)",
+    "club": "Spirit of Monmouth",
     "time": "01:22:31"
   },
   {
@@ -17228,7 +17228,7 @@ const relayResults = [
     "km": 16.0,
     "position": 25,
     "name": "Wayne Randall",
-    "club": "Ogmore B (21)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:22:58"
   },
   {
@@ -17240,7 +17240,7 @@ const relayResults = [
     "km": 16.0,
     "position": 26,
     "name": "Joanne Ryan",
-    "club": "Rhondda A (27)",
+    "club": "Rhondda Valley Runners",
     "time": "01:26:58"
   },
   {
@@ -17252,7 +17252,7 @@ const relayResults = [
     "km": 16.0,
     "position": 27,
     "name": "Emily Sams",
-    "club": "Caerphilly B (08)",
+    "club": "Caerphilly Runners",
     "time": "01:28:15"
   },
   {
@@ -17264,7 +17264,7 @@ const relayResults = [
     "km": 16.0,
     "position": 28,
     "name": "Aled Williams",
-    "club": "Pegasus A (23)",
+    "club": "Pegasus RC",
     "time": "01:28:23"
   },
   {
@@ -17276,7 +17276,7 @@ const relayResults = [
     "km": 12.16,
     "position": 1,
     "name": "Sandra Chipper",
-    "club": "Lliswerry A (17)",
+    "club": "Lliswerry Runners",
     "time": "00:42:23"
   },
   {
@@ -17288,7 +17288,7 @@ const relayResults = [
     "km": 12.16,
     "position": 2,
     "name": "Kyle Harvey",
-    "club": "Fairwater A (01)",
+    "club": "Fairwater Runners",
     "time": "00:42:52"
   },
   {
@@ -17300,7 +17300,7 @@ const relayResults = [
     "km": 12.16,
     "position": 3,
     "name": "Cherry Fowler",
-    "club": "Chepstow A (10)",
+    "club": "Chepstow Harriers",
     "time": "00:43:34"
   },
   {
@@ -17312,7 +17312,7 @@ const relayResults = [
     "km": 12.16,
     "position": 4,
     "name": "Andrew Barham",
-    "club": "Caerphilly A (07)",
+    "club": "Caerphilly Runners",
     "time": "00:44:30"
   },
   {
@@ -17324,7 +17324,7 @@ const relayResults = [
     "km": 12.16,
     "position": 5,
     "name": "James Brown",
-    "club": "Lliswerry B (18)",
+    "club": "Lliswerry Runners",
     "time": "00:46:38"
   },
   {
@@ -17336,7 +17336,7 @@ const relayResults = [
     "km": 12.16,
     "position": 6,
     "name": "Emma Morris",
-    "club": "Ogmore A (20)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:48:50"
   },
   {
@@ -17348,7 +17348,7 @@ const relayResults = [
     "km": 12.16,
     "position": 7,
     "name": "Matt Webb",
-    "club": "Pont-y-pwl B (26)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:49:53"
   },
   {
@@ -17360,7 +17360,7 @@ const relayResults = [
     "km": 12.16,
     "position": 8,
     "name": "Charlotte Moran",
-    "club": "Caerleon A (05)",
+    "club": "Caerleon RC",
     "time": "00:50:20"
   },
   {
@@ -17372,7 +17372,7 @@ const relayResults = [
     "km": 12.16,
     "position": 9,
     "name": "Neil Beynon",
-    "club": "Parc (22)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:50:51"
   },
   {
@@ -17384,7 +17384,7 @@ const relayResults = [
     "km": 12.16,
     "position": 10,
     "name": "Luke Davis",
-    "club": "Ogmore B (21)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:51:06"
   },
   {
@@ -17396,7 +17396,7 @@ const relayResults = [
     "km": 12.16,
     "position": 11,
     "name": "Emma Tracey",
-    "club": "Caldicot A (09)",
+    "club": "Caldicot RC",
     "time": "00:51:34"
   },
   {
@@ -17408,7 +17408,7 @@ const relayResults = [
     "km": 12.16,
     "position": 12,
     "name": "Lyndsay Poulsom",
-    "club": "Pont-y-pwl A (25)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:52:25"
   },
   {
@@ -17420,7 +17420,7 @@ const relayResults = [
     "km": 12.16,
     "position": 13,
     "name": "Julie Gould",
-    "club": "Islwyn B (15)",
+    "club": "Islwyn RC",
     "time": "00:53:04"
   },
   {
@@ -17432,7 +17432,7 @@ const relayResults = [
     "km": 12.16,
     "position": 14,
     "name": "Tammy Fry",
-    "club": "Caerleon B (06)",
+    "club": "Caerleon RC",
     "time": "00:53:12"
   },
   {
@@ -17444,7 +17444,7 @@ const relayResults = [
     "km": 12.16,
     "position": 15,
     "name": "Steven Hoare",
-    "club": "Pontypridd A (24)",
+    "club": "Pontypridd Roadents",
     "time": "00:53:43"
   },
   {
@@ -17456,7 +17456,7 @@ const relayResults = [
     "km": 12.16,
     "position": 16,
     "name": "Lolly Evans",
-    "club": "Les Croupiers A (16)",
+    "club": "Les Croupiers RC",
     "time": "00:54:05"
   },
   {
@@ -17468,7 +17468,7 @@ const relayResults = [
     "km": 12.16,
     "position": 17,
     "name": "Mex Gaillard",
-    "club": "Monmouth A (19)",
+    "club": "Spirit of Monmouth",
     "time": "00:54:13"
   },
   {
@@ -17480,7 +17480,7 @@ const relayResults = [
     "km": 12.16,
     "position": 18,
     "name": "Aimee Backhouse",
-    "club": "Chepstow B (11)",
+    "club": "Chepstow Harriers",
     "time": "00:54:20"
   },
   {
@@ -17492,7 +17492,7 @@ const relayResults = [
     "km": 12.16,
     "position": 19,
     "name": "Sarah Davies",
-    "club": "Islwyn A (14)",
+    "club": "Islwyn RC",
     "time": "00:54:22"
   },
   {
@@ -17504,7 +17504,7 @@ const relayResults = [
     "km": 12.16,
     "position": 20,
     "name": "Mitch Bosse",
-    "club": "Caerphilly B (08)",
+    "club": "Caerphilly Runners",
     "time": "00:55:41"
   },
   {
@@ -17516,7 +17516,7 @@ const relayResults = [
     "km": 12.16,
     "position": 21,
     "name": "Elizabeth Stokes",
-    "club": "Griffithstown A (12)",
+    "club": "Griffithstown Harriers",
     "time": "00:56:46"
   },
   {
@@ -17528,7 +17528,7 @@ const relayResults = [
     "km": 12.16,
     "position": 22,
     "name": "Sheena Egan",
-    "club": "Brackla A (04)",
+    "club": "Brackla Harriers",
     "time": "00:56:58"
   },
   {
@@ -17540,7 +17540,7 @@ const relayResults = [
     "km": 12.16,
     "position": 23,
     "name": "Sal Bissex",
-    "club": "Pegasus A (23)",
+    "club": "Pegasus RC",
     "time": "00:57:35"
   },
   {
@@ -17552,7 +17552,7 @@ const relayResults = [
     "km": 12.16,
     "position": 24,
     "name": "Leanne Bassett",
-    "club": "Rhondda A (27)",
+    "club": "Rhondda Valley Runners",
     "time": "00:58:15"
   },
   {
@@ -17564,7 +17564,7 @@ const relayResults = [
     "km": 12.16,
     "position": 25,
     "name": "Sara Wakefield",
-    "club": "Griffithstown B (13)",
+    "club": "Griffithstown Harriers",
     "time": "00:58:47"
   },
   {
@@ -17576,7 +17576,7 @@ const relayResults = [
     "km": 12.16,
     "position": 26,
     "name": "Niall Hughes",
-    "club": "San Domenico A (28)",
+    "club": "San Domenico RC",
     "time": "00:59:23"
   },
   {
@@ -17588,7 +17588,7 @@ const relayResults = [
     "km": 12.16,
     "position": 27,
     "name": "Bridget Garrod",
-    "club": "Fairwater B (02)",
+    "club": "Fairwater Runners",
     "time": "01:00:00"
   },
   {
@@ -17600,7 +17600,7 @@ const relayResults = [
     "km": 12.16,
     "position": 28,
     "name": "Deborah Evans",
-    "club": "Aberdare A (03)",
+    "club": "Aberdare",
     "time": "01:00:01"
   },
   {
@@ -17612,7 +17612,7 @@ const relayResults = [
     "km": 13.4,
     "position": 1,
     "name": "Paul White",
-    "club": "Pont-y-pwl A (25)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:52:19"
   },
   {
@@ -17624,7 +17624,7 @@ const relayResults = [
     "km": 13.4,
     "position": 2,
     "name": "Will Ganley",
-    "club": "Chepstow A (10)",
+    "club": "Chepstow Harriers",
     "time": "00:52:49"
   },
   {
@@ -17636,7 +17636,7 @@ const relayResults = [
     "km": 13.4,
     "position": 3,
     "name": "Paul Bruton",
-    "club": "Lliswerry A (17)",
+    "club": "Lliswerry Runners",
     "time": "00:54:13"
   },
   {
@@ -17648,7 +17648,7 @@ const relayResults = [
     "km": 13.4,
     "position": 4,
     "name": "Brian Jones",
-    "club": "Griffithstown A (12)",
+    "club": "Griffithstown Harriers",
     "time": "00:55:58"
   },
   {
@@ -17660,7 +17660,7 @@ const relayResults = [
     "km": 13.4,
     "position": 5,
     "name": "Ross Howells",
-    "club": "Chepstow B (11)",
+    "club": "Chepstow Harriers",
     "time": "00:56:02"
   },
   {
@@ -17672,7 +17672,7 @@ const relayResults = [
     "km": 13.4,
     "position": 6,
     "name": "Mark Teesdale",
-    "club": "Ogmore A (20)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:57:08"
   },
   {
@@ -17684,7 +17684,7 @@ const relayResults = [
     "km": 13.4,
     "position": 7,
     "name": "Matt Tooby",
-    "club": "Caerleon A (05)",
+    "club": "Caerleon RC",
     "time": "00:57:17"
   },
   {
@@ -17696,7 +17696,7 @@ const relayResults = [
     "km": 13.4,
     "position": 8,
     "name": "Matthew Phillips",
-    "club": "Caerphilly A (07)",
+    "club": "Caerphilly Runners",
     "time": "00:58:31"
   },
   {
@@ -17708,7 +17708,7 @@ const relayResults = [
     "km": 13.4,
     "position": 9,
     "name": "Ross Owen",
-    "club": "Rhondda A (27)",
+    "club": "Rhondda Valley Runners",
     "time": "01:00:09"
   },
   {
@@ -17720,7 +17720,7 @@ const relayResults = [
     "km": 13.4,
     "position": 10,
     "name": "Lee Mills",
-    "club": "Islwyn A (14)",
+    "club": "Islwyn RC",
     "time": "01:00:30"
   },
   {
@@ -17732,7 +17732,7 @@ const relayResults = [
     "km": 13.4,
     "position": 11,
     "name": "Kristie O’Connell-James",
-    "club": "Pontypridd A (24)",
+    "club": "Pontypridd Roadents",
     "time": "01:00:48"
   },
   {
@@ -17744,7 +17744,7 @@ const relayResults = [
     "km": 13.4,
     "position": 12,
     "name": "Brendon Price",
-    "club": "Aberdare A (03)",
+    "club": "Aberdare",
     "time": "01:00:52"
   },
   {
@@ -17756,7 +17756,7 @@ const relayResults = [
     "km": 13.4,
     "position": 13,
     "name": "Sian Jones",
-    "club": "Parc (22)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:02:32"
   },
   {
@@ -17768,7 +17768,7 @@ const relayResults = [
     "km": 13.4,
     "position": 14,
     "name": "Barry Burns",
-    "club": "Monmouth A (19)",
+    "club": "Spirit of Monmouth",
     "time": "01:03:47"
   },
   {
@@ -17780,7 +17780,7 @@ const relayResults = [
     "km": 13.4,
     "position": 15,
     "name": "Gavin Perkins",
-    "club": "Lliswerry B (18)",
+    "club": "Lliswerry Runners",
     "time": "01:04:25"
   },
   {
@@ -17792,7 +17792,7 @@ const relayResults = [
     "km": 13.4,
     "position": 16,
     "name": "Andrew Smith",
-    "club": "Pont-y-pwl B (26)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:04:52"
   },
   {
@@ -17804,7 +17804,7 @@ const relayResults = [
     "km": 13.4,
     "position": 17,
     "name": "Dean Oliver",
-    "club": "Caerphilly B (08)",
+    "club": "Caerphilly Runners",
     "time": "01:05:14"
   },
   {
@@ -17816,7 +17816,7 @@ const relayResults = [
     "km": 13.4,
     "position": 18,
     "name": "Mick Tabor",
-    "club": "Les Croupiers A (16)",
+    "club": "Les Croupiers RC",
     "time": "01:05:22"
   },
   {
@@ -17828,7 +17828,7 @@ const relayResults = [
     "km": 13.4,
     "position": 19,
     "name": "Alex Lyne",
-    "club": "Caldicot A (09)",
+    "club": "Caldicot RC",
     "time": "01:06:57"
   },
   {
@@ -17840,7 +17840,7 @@ const relayResults = [
     "km": 13.4,
     "position": 20,
     "name": "Rhys Williams",
-    "club": "San Domenico A (28)",
+    "club": "San Domenico RC",
     "time": "01:08:01"
   },
   {
@@ -17852,7 +17852,7 @@ const relayResults = [
     "km": 13.4,
     "position": 21,
     "name": "Liz Richards",
-    "club": "Caerleon B (06)",
+    "club": "Caerleon RC",
     "time": "01:08:34"
   },
   {
@@ -17864,7 +17864,7 @@ const relayResults = [
     "km": 13.4,
     "position": 22,
     "name": "Luke Styles",
-    "club": "Griffithstown B (13)",
+    "club": "Griffithstown Harriers",
     "time": "01:09:31"
   },
   {
@@ -17876,7 +17876,7 @@ const relayResults = [
     "km": 13.4,
     "position": 23,
     "name": "Em Bissex",
-    "club": "Pegasus A (23)",
+    "club": "Pegasus RC",
     "time": "01:11:12"
   },
   {
@@ -17888,7 +17888,7 @@ const relayResults = [
     "km": 13.4,
     "position": 24,
     "name": "Stuart Fowler",
-    "club": "Fairwater B (02)",
+    "club": "Fairwater Runners",
     "time": "01:11:32"
   },
   {
@@ -17900,7 +17900,7 @@ const relayResults = [
     "km": 13.4,
     "position": 25,
     "name": "Sharon Carrafa",
-    "club": "Islwyn B (15)",
+    "club": "Islwyn RC",
     "time": "01:13:12"
   },
   {
@@ -17912,7 +17912,7 @@ const relayResults = [
     "km": 13.4,
     "position": 26,
     "name": "Elizabeth Walsh",
-    "club": "Fairwater A (01)",
+    "club": "Fairwater Runners",
     "time": "01:15:00"
   },
   {
@@ -17924,7 +17924,7 @@ const relayResults = [
     "km": 13.4,
     "position": 27,
     "name": "Dave Curran",
-    "club": "Brackla A (04)",
+    "club": "Brackla Harriers",
     "time": "01:15:01"
   },
   {
@@ -17936,7 +17936,7 @@ const relayResults = [
     "km": 13.4,
     "position": 28,
     "name": "Rebecca Newton",
-    "club": "Ogmore B (21)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:15:02"
   },
   {
@@ -17948,7 +17948,7 @@ const relayResults = [
     "km": 10.7,
     "position": 1,
     "name": "Clare Patterson",
-    "club": "Griffithstown A (12)",
+    "club": "Griffithstown Harriers",
     "time": "00:43:21"
   },
   {
@@ -17960,7 +17960,7 @@ const relayResults = [
     "km": 10.7,
     "position": 2,
     "name": "Georgie Parnell",
-    "club": "Chepstow A (10)",
+    "club": "Chepstow Harriers",
     "time": "00:43:58"
   },
   {
@@ -17972,7 +17972,7 @@ const relayResults = [
     "km": 10.7,
     "position": 3,
     "name": "Peter Edwards",
-    "club": "Fairwater A (01)",
+    "club": "Fairwater Runners",
     "time": "00:45:43"
   },
   {
@@ -17984,7 +17984,7 @@ const relayResults = [
     "km": 10.7,
     "position": 4,
     "name": "Adam Grey",
-    "club": "Pont-y-pwl B (26)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:46:07"
   },
   {
@@ -17996,7 +17996,7 @@ const relayResults = [
     "km": 10.7,
     "position": 5,
     "name": "Jade Wakely",
-    "club": "Caerleon A (05)",
+    "club": "Caerleon RC",
     "time": "00:46:14"
   },
   {
@@ -18008,7 +18008,7 @@ const relayResults = [
     "km": 10.7,
     "position": 6,
     "name": "Emma Price-Stephens",
-    "club": "Pont-y-pwl A (25)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:46:23"
   },
   {
@@ -18020,7 +18020,7 @@ const relayResults = [
     "km": 10.7,
     "position": 7,
     "name": "Bryan Meredith",
-    "club": "Rhondda A (27)",
+    "club": "Rhondda Valley Runners",
     "time": "00:47:03"
   },
   {
@@ -18032,7 +18032,7 @@ const relayResults = [
     "km": 10.7,
     "position": 8,
     "name": "Catherine Powell",
-    "club": "Pontypridd A (24)",
+    "club": "Pontypridd Roadents",
     "time": "00:47:09"
   },
   {
@@ -18044,7 +18044,7 @@ const relayResults = [
     "km": 10.7,
     "position": 9,
     "name": "Naomi Davies",
-    "club": "Caerphilly A (07)",
+    "club": "Caerphilly Runners",
     "time": "00:47:45"
   },
   {
@@ -18056,7 +18056,7 @@ const relayResults = [
     "km": 10.7,
     "position": 10,
     "name": "Charlotte Johns",
-    "club": "Brackla A (04)",
+    "club": "Brackla Harriers",
     "time": "00:48:05"
   },
   {
@@ -18068,7 +18068,7 @@ const relayResults = [
     "km": 10.7,
     "position": 11,
     "name": "Victoria Hobbs",
-    "club": "Lliswerry A (17)",
+    "club": "Lliswerry Runners",
     "time": "00:48:19"
   },
   {
@@ -18080,7 +18080,7 @@ const relayResults = [
     "km": 10.7,
     "position": 12,
     "name": "Cyril Williams",
-    "club": "Parc (22)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:50:05"
   },
   {
@@ -18092,7 +18092,7 @@ const relayResults = [
     "km": 10.7,
     "position": 13,
     "name": "Melissa Morgan",
-    "club": "Islwyn A (14)",
+    "club": "Islwyn RC",
     "time": "00:50:34"
   },
   {
@@ -18104,7 +18104,7 @@ const relayResults = [
     "km": 10.7,
     "position": 14,
     "name": "Steph Rhodes",
-    "club": "Lliswerry B (18)",
+    "club": "Lliswerry Runners",
     "time": "00:51:26"
   },
   {
@@ -18116,7 +18116,7 @@ const relayResults = [
     "km": 10.7,
     "position": 15,
     "name": "Carys Thomas",
-    "club": "Aberdare A (03)",
+    "club": "Aberdare",
     "time": "00:51:59"
   },
   {
@@ -18128,7 +18128,7 @@ const relayResults = [
     "km": 10.7,
     "position": 16,
     "name": "Julia Bajjada",
-    "club": "Chepstow B (11)",
+    "club": "Chepstow Harriers",
     "time": "00:52:12"
   },
   {
@@ -18140,7 +18140,7 @@ const relayResults = [
     "km": 10.7,
     "position": 17,
     "name": "Lisa Freeman",
-    "club": "Caldicot A (09)",
+    "club": "Caldicot RC",
     "time": "00:52:29"
   },
   {
@@ -18152,7 +18152,7 @@ const relayResults = [
     "km": 10.7,
     "position": 18,
     "name": "Lowri Williams",
-    "club": "Islwyn B (15)",
+    "club": "Islwyn RC",
     "time": "00:53:19"
   },
   {
@@ -18164,7 +18164,7 @@ const relayResults = [
     "km": 10.7,
     "position": 19,
     "name": "Rebecca Foster",
-    "club": "Monmouth A (19)",
+    "club": "Spirit of Monmouth",
     "time": "00:53:27"
   },
   {
@@ -18176,7 +18176,7 @@ const relayResults = [
     "km": 10.7,
     "position": 20,
     "name": "Emma Loyns",
-    "club": "Ogmore A (20)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:54:11"
   },
   {
@@ -18188,7 +18188,7 @@ const relayResults = [
     "km": 10.7,
     "position": 21,
     "name": "Sarah Pryor",
-    "club": "Les Croupiers A (16)",
+    "club": "Les Croupiers RC",
     "time": "00:54:22"
   },
   {
@@ -18200,7 +18200,7 @@ const relayResults = [
     "km": 10.7,
     "position": 22,
     "name": "Jonathan Churchill",
-    "club": "Pegasus A (23)",
+    "club": "Pegasus RC",
     "time": "00:56:19"
   },
   {
@@ -18212,7 +18212,7 @@ const relayResults = [
     "km": 10.7,
     "position": 23,
     "name": "Jane Lewis",
-    "club": "Fairwater B (02)",
+    "club": "Fairwater Runners",
     "time": "00:56:48"
   },
   {
@@ -18224,7 +18224,7 @@ const relayResults = [
     "km": 10.7,
     "position": 24,
     "name": "David Bailyes",
-    "club": "Caerphilly B (08)",
+    "club": "Caerphilly Runners",
     "time": "00:57:10"
   },
   {
@@ -18236,7 +18236,7 @@ const relayResults = [
     "km": 10.7,
     "position": 25,
     "name": "Mariona del Mar Adrover",
-    "club": "Amengual San Domenico A (28)",
+    "club": "San Domenico RC",
     "time": "00:57:17"
   },
   {
@@ -18248,7 +18248,7 @@ const relayResults = [
     "km": 10.7,
     "position": 26,
     "name": "Jo Jenkins",
-    "club": "Ogmore B (21)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:57:38"
   },
   {
@@ -18260,7 +18260,7 @@ const relayResults = [
     "km": 10.7,
     "position": 27,
     "name": "Ann Timbrell",
-    "club": "Caerleon B (06)",
+    "club": "Caerleon RC",
     "time": "01:00:00"
   },
   {
@@ -18272,7 +18272,7 @@ const relayResults = [
     "km": 10.7,
     "position": 28,
     "name": "Allison Hughes",
-    "club": "Griffithstown B (13)",
+    "club": "Griffithstown Harriers",
     "time": "01:00:01"
   },
   {
@@ -18284,7 +18284,7 @@ const relayResults = [
     "km": 8.7,
     "position": 1,
     "name": "Lee Drew",
-    "club": "Lliswerry A (17)",
+    "club": "Lliswerry Runners",
     "time": "00:32:45"
   },
   {
@@ -18296,7 +18296,7 @@ const relayResults = [
     "km": 8.7,
     "position": 2,
     "name": "Luke Williams",
-    "club": "San Domenico A (28)",
+    "club": "San Domenico RC",
     "time": "00:34:15"
   },
   {
@@ -18308,7 +18308,7 @@ const relayResults = [
     "km": 8.7,
     "position": 3,
     "name": "Adrian Murkin",
-    "club": "Pont-y-pwl A (25)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:38:59"
   },
   {
@@ -18320,7 +18320,7 @@ const relayResults = [
     "km": 8.7,
     "position": 4,
     "name": "Neil Price",
-    "club": "Ogmore A (20)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:39:34"
   },
   {
@@ -18332,7 +18332,7 @@ const relayResults = [
     "km": 8.7,
     "position": 5,
     "name": "Richard Lloyd",
-    "club": "Fairwater A (01)",
+    "club": "Fairwater Runners",
     "time": "00:39:52"
   },
   {
@@ -18344,7 +18344,7 @@ const relayResults = [
     "km": 8.7,
     "position": 6,
     "name": "Lisa Jeffrey",
-    "club": "Chepstow B (11)",
+    "club": "Chepstow Harriers",
     "time": "00:39:58"
   },
   {
@@ -18356,7 +18356,7 @@ const relayResults = [
     "km": 8.7,
     "position": 7,
     "name": "Tabitha Collins",
-    "club": "Chepstow A (10)",
+    "club": "Chepstow Harriers",
     "time": "00:40:17"
   },
   {
@@ -18368,7 +18368,7 @@ const relayResults = [
     "km": 8.7,
     "position": 8,
     "name": "Emma Maloney",
-    "club": "Lliswerry B (18)",
+    "club": "Lliswerry Runners",
     "time": "00:40:34"
   },
   {
@@ -18380,7 +18380,7 @@ const relayResults = [
     "km": 8.7,
     "position": 9,
     "name": "Carly Stone",
-    "club": "Griffithstown A (12)",
+    "club": "Griffithstown Harriers",
     "time": "00:41:50"
   },
   {
@@ -18392,7 +18392,7 @@ const relayResults = [
     "km": 8.7,
     "position": 10,
     "name": "Ryan Davies",
-    "club": "Caerleon A (05)",
+    "club": "Caerleon RC",
     "time": "00:42:01"
   },
   {
@@ -18404,7 +18404,7 @@ const relayResults = [
     "km": 8.7,
     "position": 11,
     "name": "Sara Williams",
-    "club": "Caerphilly A (07)",
+    "club": "Caerphilly Runners",
     "time": "00:43:23"
   },
   {
@@ -18416,7 +18416,7 @@ const relayResults = [
     "km": 8.7,
     "position": 12,
     "name": "Hollie Harmer",
-    "club": "Islwyn A (14)",
+    "club": "Islwyn RC",
     "time": "00:43:37"
   },
   {
@@ -18428,7 +18428,7 @@ const relayResults = [
     "km": 8.7,
     "position": 13,
     "name": "Chris Collin",
-    "club": "Ogmore B (21)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:44:08"
   },
   {
@@ -18440,7 +18440,7 @@ const relayResults = [
     "km": 8.7,
     "position": 14,
     "name": "Karen Southgate",
-    "club": "Pont-y-pwl B (26)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:45:06"
   },
   {
@@ -18452,7 +18452,7 @@ const relayResults = [
     "km": 8.7,
     "position": 15,
     "name": "Claire Bruce",
-    "club": "Les Croupiers A (16)",
+    "club": "Les Croupiers RC",
     "time": "00:45:51"
   },
   {
@@ -18464,7 +18464,7 @@ const relayResults = [
     "km": 8.7,
     "position": 16,
     "name": "Anthony Lewis",
-    "club": "Parc (22)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:46:47"
   },
   {
@@ -18476,7 +18476,7 @@ const relayResults = [
     "km": 8.7,
     "position": 17,
     "name": "Rachel Waters",
-    "club": "Monmouth A (19)",
+    "club": "Spirit of Monmouth",
     "time": "00:47:16"
   },
   {
@@ -18488,7 +18488,7 @@ const relayResults = [
     "km": 8.7,
     "position": 18,
     "name": "Lyndsey Reddy",
-    "club": "Aberdare A (03)",
+    "club": "Aberdare",
     "time": "00:47:49"
   },
   {
@@ -18500,7 +18500,7 @@ const relayResults = [
     "km": 8.7,
     "position": 19,
     "name": "Tim Davies",
-    "club": "Pontypridd A (24)",
+    "club": "Pontypridd Roadents",
     "time": "00:48:01"
   },
   {
@@ -18512,7 +18512,7 @@ const relayResults = [
     "km": 8.7,
     "position": 20,
     "name": "Kaylea Palkowski",
-    "club": "Caerphilly B (08)",
+    "club": "Caerphilly Runners",
     "time": "00:48:13"
   },
   {
@@ -18524,7 +18524,7 @@ const relayResults = [
     "km": 8.7,
     "position": 21,
     "name": "Kevin Howells",
-    "club": "Caerleon B (06)",
+    "club": "Caerleon RC",
     "time": "00:49:00"
   },
   {
@@ -18536,7 +18536,7 @@ const relayResults = [
     "km": 8.7,
     "position": 22,
     "name": "Nick Ramsden",
-    "club": "Caldicot A (09)",
+    "club": "Caldicot RC",
     "time": "00:49:01"
   },
   {
@@ -18548,7 +18548,7 @@ const relayResults = [
     "km": 8.7,
     "position": 23,
     "name": "Rebecca Davies",
-    "club": "Rhondda A (27)",
+    "club": "Rhondda Valley Runners",
     "time": "00:49:02"
   },
   {
@@ -18560,7 +18560,7 @@ const relayResults = [
     "km": 8.7,
     "position": 24,
     "name": "Nikki Hancox",
-    "club": "Griffithstown B (13)",
+    "club": "Griffithstown Harriers",
     "time": "00:49:03"
   },
   {
@@ -18572,7 +18572,7 @@ const relayResults = [
     "km": 8.7,
     "position": 25,
     "name": "Nicola Cox",
-    "club": "Islwyn B (15)",
+    "club": "Islwyn RC",
     "time": "00:49:04"
   },
   {
@@ -18584,7 +18584,7 @@ const relayResults = [
     "km": 8.7,
     "position": 26,
     "name": "Nyree Temby",
-    "club": "Fairwater B (02)",
+    "club": "Fairwater Runners",
     "time": "00:49:05"
   },
   {
@@ -18596,7 +18596,7 @@ const relayResults = [
     "km": 8.7,
     "position": 27,
     "name": "Nigel Hammersley",
-    "club": "Pegasus A (23)",
+    "club": "Pegasus RC",
     "time": "00:49:06"
   },
   {
@@ -18608,7 +18608,7 @@ const relayResults = [
     "km": 8.7,
     "position": 28,
     "name": "Melanie Hall",
-    "club": "Brackla A (04)",
+    "club": "Brackla Harriers",
     "time": "00:49:07"
   },
   {
@@ -18620,7 +18620,7 @@ const relayResults = [
     "km": 8.2,
     "position": 1,
     "name": "Aimee Ferguson",
-    "club": "Aberdare Valley A",
+    "club": "Aberdare",
     "time": "00:34:30"
   },
   {
@@ -18632,7 +18632,7 @@ const relayResults = [
     "km": 8.2,
     "position": 2,
     "name": "Rachel cid:9Brenton",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:00:34"
   },
   {
@@ -18644,7 +18644,7 @@ const relayResults = [
     "km": 8.2,
     "position": 3,
     "name": "Lisa Jeffrey",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:35:11"
   },
   {
@@ -18656,7 +18656,7 @@ const relayResults = [
     "km": 8.2,
     "position": 4,
     "name": "Claire Bruce",
-    "club": "Les Croupiers A",
+    "club": "Les Croupiers RC",
     "time": "00:35:53"
   },
   {
@@ -18668,7 +18668,7 @@ const relayResults = [
     "km": 8.2,
     "position": 5,
     "name": "Jeremy Creasey",
-    "club": "Spirit of Monmouth A",
+    "club": "Spirit of Monmouth",
     "time": "00:36:17"
   },
   {
@@ -18680,7 +18680,7 @@ const relayResults = [
     "km": 8.2,
     "position": 6,
     "name": "Beth Jones",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach RC",
     "time": "00:36:57"
   },
   {
@@ -18692,7 +18692,7 @@ const relayResults = [
     "km": 8.2,
     "position": 7,
     "name": "Kelly Wall",
-    "club": "Islwyn A",
+    "club": "Islwyn RC",
     "time": "00:37:02"
   },
   {
@@ -18704,7 +18704,7 @@ const relayResults = [
     "km": 8.2,
     "position": 8,
     "name": "Rachel Bowen",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:37:04"
   },
   {
@@ -18716,7 +18716,7 @@ const relayResults = [
     "km": 8.2,
     "position": 9,
     "name": "Sarah Lauder",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:37:10"
   },
   {
@@ -18728,7 +18728,7 @@ const relayResults = [
     "km": 8.2,
     "position": 10,
     "name": "Stephanie Davies",
-    "club": "Pontypridd A",
+    "club": "Pontypridd Roadents",
     "time": "00:37:22"
   },
   {
@@ -18740,7 +18740,7 @@ const relayResults = [
     "km": 8.2,
     "position": 11,
     "name": "Jan Morris",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:37:39"
   },
   {
@@ -18752,7 +18752,7 @@ const relayResults = [
     "km": 8.2,
     "position": 12,
     "name": "Kelly Marie Cameron",
-    "club": "Fairwater Cwmbran A",
+    "club": "Fairwater Runners",
     "time": "00:38:04"
   },
   {
@@ -18764,7 +18764,7 @@ const relayResults = [
     "km": 8.2,
     "position": 13,
     "name": "Jen Watkins",
-    "club": "Pont-y-pwl & District A",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:38:18"
   },
   {
@@ -18776,7 +18776,7 @@ const relayResults = [
     "km": 8.2,
     "position": 14,
     "name": "Charlotte Moran",
-    "club": "Caerleon A",
+    "club": "Caerleon RC",
     "time": "00:38:30"
   },
   {
@@ -18788,7 +18788,7 @@ const relayResults = [
     "km": 8.2,
     "position": 15,
     "name": "Kaylie Porter",
-    "club": "Griffithstown A",
+    "club": "Griffithstown Harriers",
     "time": "00:39:49"
   },
   {
@@ -18800,7 +18800,7 @@ const relayResults = [
     "km": 8.2,
     "position": 16,
     "name": "Sara Williams",
-    "club": "Caerphilly A",
+    "club": "Caerphilly Runners",
     "time": "00:40:30"
   },
   {
@@ -18812,7 +18812,7 @@ const relayResults = [
     "km": 8.2,
     "position": 17,
     "name": "Jo Gamba",
-    "club": "Ogmore Phoenix A",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:41:09"
   },
   {
@@ -18824,7 +18824,7 @@ const relayResults = [
     "km": 8.2,
     "position": 18,
     "name": "Hannah Withers",
-    "club": "San Domenico A",
+    "club": "San Domenico RC",
     "time": "00:41:29"
   },
   {
@@ -18836,7 +18836,7 @@ const relayResults = [
     "km": 8.2,
     "position": 19,
     "name": "Paige Luff",
-    "club": "Caldicot A",
+    "club": "Caldicot RC",
     "time": "00:42:03"
   },
   {
@@ -18848,7 +18848,7 @@ const relayResults = [
     "km": 8.2,
     "position": 20,
     "name": "Louise Saddler",
-    "club": "Islwyn B",
+    "club": "Islwyn RC",
     "time": "00:43:59"
   },
   {
@@ -18860,7 +18860,7 @@ const relayResults = [
     "km": 8.2,
     "position": 21,
     "name": "Lianne Willetts",
-    "club": "Caerphilly B",
+    "club": "Caerphilly Runners",
     "time": "00:44:12"
   },
   {
@@ -18872,7 +18872,7 @@ const relayResults = [
     "km": 8.2,
     "position": 22,
     "name": "Kath Jervis",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach RC",
     "time": "00:44:53"
   },
   {
@@ -18884,7 +18884,7 @@ const relayResults = [
     "km": 8.2,
     "position": 23,
     "name": "Vanessa Pritchard",
-    "club": "Caerleon B",
+    "club": "Caerleon RC",
     "time": "00:45:08"
   },
   {
@@ -18896,7 +18896,7 @@ const relayResults = [
     "km": 8.2,
     "position": 24,
     "name": "Jenna Groves",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:00:32"
   },
   {
@@ -18908,7 +18908,7 @@ const relayResults = [
     "km": 8.2,
     "position": 25,
     "name": "Liz Beech",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:00:09"
   },
   {
@@ -18920,7 +18920,7 @@ const relayResults = [
     "km": 8.2,
     "position": 26,
     "name": "Kay Morgan",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:00:11"
   },
   {
@@ -18932,7 +18932,7 @@ const relayResults = [
     "km": 8.2,
     "position": 27,
     "name": "Alison Davis",
-    "club": "Fairwater Cwmbran B",
+    "club": "Fairwater Runners",
     "time": "00:46:01"
   },
   {
@@ -18944,7 +18944,7 @@ const relayResults = [
     "km": 8.2,
     "position": 28,
     "name": "Dawne Meynell-Western",
-    "club": "Rhondda Valley A",
+    "club": "Rhondda Valley Runners",
     "time": "00:46:02"
   },
   {
@@ -18956,7 +18956,7 @@ const relayResults = [
     "km": 11.2,
     "position": 1,
     "name": "Steve Caldwell",
-    "club": "Chepstow A (01)",
+    "club": "Chepstow Harriers",
     "time": "00:46:45"
   },
   {
@@ -18968,7 +18968,7 @@ const relayResults = [
     "km": 11.2,
     "position": 2,
     "name": "Tony Marshall",
-    "club": "Chepstow B (02)",
+    "club": "Chepstow Harriers",
     "time": "00:47:41"
   },
   {
@@ -18980,7 +18980,7 @@ const relayResults = [
     "km": 11.2,
     "position": 3,
     "name": "Elizabeth Dimond",
-    "club": "Lliswerry A (03)",
+    "club": "Lliswerry Runners",
     "time": "00:47:48"
   },
   {
@@ -18992,7 +18992,7 @@ const relayResults = [
     "km": 11.2,
     "position": 4,
     "name": "Craig Ccid:9heedy",
-    "club": "Torfaen A (04)",
+    "club": "Torfaen",
     "time": "00:48:14"
   },
   {
@@ -19004,7 +19004,7 @@ const relayResults = [
     "km": 11.2,
     "position": 5,
     "name": "Neema Mal",
-    "club": "Les Croupiers A Lliswerry (05)",
+    "club": "Les Croupiers RC",
     "time": "00:48:52"
   },
   {
@@ -19016,7 +19016,7 @@ const relayResults = [
     "km": 11.2,
     "position": 6,
     "name": "Owen Thomas",
-    "club": "Aberdare (06)",
+    "club": "Aberdare",
     "time": "00:49:08"
   },
   {
@@ -19028,7 +19028,7 @@ const relayResults = [
     "km": 11.2,
     "position": 7,
     "name": "Ross Phillips",
-    "club": "Caerphilly A (07)",
+    "club": "Caerphilly Runners",
     "time": "00:50:18"
   },
   {
@@ -19040,7 +19040,7 @@ const relayResults = [
     "km": 11.2,
     "position": 8,
     "name": "Dai James",
-    "club": "Ogmore (08)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:50:55"
   },
   {
@@ -19052,7 +19052,7 @@ const relayResults = [
     "km": 11.2,
     "position": 9,
     "name": "Ray Morgan",
-    "club": "Pont-y-pwl (09)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:51:32"
   },
   {
@@ -19064,7 +19064,7 @@ const relayResults = [
     "km": 11.2,
     "position": 10,
     "name": "Meryon Roderick",
-    "club": "Spirit (10)",
+    "club": "Spirit of Monmouth",
     "time": "00:52:00"
   },
   {
@@ -19076,7 +19076,7 @@ const relayResults = [
     "km": 11.2,
     "position": 11,
     "name": "Paul Harris",
-    "club": "Lliswerry B (11)",
+    "club": "Lliswerry Runners",
     "time": "00:52:21"
   },
   {
@@ -19088,7 +19088,7 @@ const relayResults = [
     "km": 11.2,
     "position": 12,
     "name": "Matthew Bunce",
-    "club": "Brackla A (12)",
+    "club": "Brackla Harriers",
     "time": "00:52:42"
   },
   {
@@ -19100,7 +19100,7 @@ const relayResults = [
     "km": 11.2,
     "position": 13,
     "name": "Luc Shide",
-    "club": "Islwyn B (13)",
+    "club": "Islwyn RC",
     "time": "00:55:01"
   },
   {
@@ -19112,7 +19112,7 @@ const relayResults = [
     "km": 11.2,
     "position": 14,
     "name": "Jason Dixon",
-    "club": "Islwyn A (14)",
+    "club": "Islwyn RC",
     "time": "00:55:07"
   },
   {
@@ -19124,7 +19124,7 @@ const relayResults = [
     "km": 11.2,
     "position": 15,
     "name": "Dave Harness",
-    "club": "San Domenico A Parc Bryn (15)",
+    "club": "San Domenico RC",
     "time": "00:55:20"
   },
   {
@@ -19136,7 +19136,7 @@ const relayResults = [
     "km": 11.2,
     "position": 16,
     "name": "Paul Adams",
-    "club": "Caerleon A (16)",
+    "club": "Caerleon RC",
     "time": "00:54:40"
   },
   {
@@ -19148,7 +19148,7 @@ const relayResults = [
     "km": 11.2,
     "position": 17,
     "name": "Philip Evans",
-    "club": "Pontypridd A (17)",
+    "club": "Pontypridd Roadents",
     "time": "00:55:42"
   },
   {
@@ -19160,7 +19160,7 @@ const relayResults = [
     "km": 11.2,
     "position": 18,
     "name": "Emma Tracey",
-    "club": "Caldicot A (18)",
+    "club": "Caldicot RC",
     "time": "00:58:33"
   },
   {
@@ -19172,7 +19172,7 @@ const relayResults = [
     "km": 11.2,
     "position": 19,
     "name": "Keri-Lyn Jones",
-    "club": "Parc (19)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:58:49"
   },
   {
@@ -19184,7 +19184,7 @@ const relayResults = [
     "km": 11.2,
     "position": 20,
     "name": "Stuart Ward",
-    "club": "Caerphilly B (20)",
+    "club": "Caerphilly Runners",
     "time": "00:58:56"
   },
   {
@@ -19196,7 +19196,7 @@ const relayResults = [
     "km": 11.2,
     "position": 21,
     "name": "Elizabeth Walsh",
-    "club": "Fairwater (21)",
+    "club": "Fairwater Runners",
     "time": "00:59:54"
   },
   {
@@ -19208,7 +19208,7 @@ const relayResults = [
     "km": 11.2,
     "position": 22,
     "name": "Rosie Bristow",
-    "club": "Pegasus A (22)",
+    "club": "Pegasus RC",
     "time": "01:01:06"
   },
   {
@@ -19220,7 +19220,7 @@ const relayResults = [
     "km": 11.2,
     "position": 23,
     "name": "Matthew Crowle",
-    "club": "Parc (23)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:01:21"
   },
   {
@@ -19232,7 +19232,7 @@ const relayResults = [
     "km": 11.2,
     "position": 24,
     "name": "Joanne Ryan",
-    "club": "Rhondda (24)",
+    "club": "Rhondda Valley Runners",
     "time": "01:02:00"
   },
   {
@@ -19244,7 +19244,7 @@ const relayResults = [
     "km": 11.2,
     "position": 25,
     "name": "Chris Hill",
-    "club": "Caerleon B (25)",
+    "club": "Caerleon RC",
     "time": "01:02:01"
   },
   {
@@ -19256,7 +19256,7 @@ const relayResults = [
     "km": 11.2,
     "position": 26,
     "name": "Alex Jones",
-    "club": "Pont-y-pwl (26)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:02:03"
   },
   {
@@ -19268,7 +19268,7 @@ const relayResults = [
     "km": 11.2,
     "position": 27,
     "name": "Jessica Appleby",
-    "club": "Griffithstown A (27)",
+    "club": "Griffithstown Harriers",
     "time": "01:02:03"
   },
   {
@@ -19280,7 +19280,7 @@ const relayResults = [
     "km": 11.2,
     "position": 28,
     "name": "Sharon Elizabeth Varley",
-    "club": "Fairwater (28)",
+    "club": "Fairwater Runners",
     "time": "01:02:04"
   },
   {
@@ -19292,7 +19292,7 @@ const relayResults = [
     "km": 12.1,
     "position": 1,
     "name": "Ieuan Smith",
-    "club": "Lliswerry A Chepstow (01)",
+    "club": "Lliswerry Runners",
     "time": "00:46:07"
   },
   {
@@ -19304,7 +19304,7 @@ const relayResults = [
     "km": 12.1,
     "position": 2,
     "name": "Dave Richardson",
-    "club": "Pont-y-pwl & District A Lliswerry (02)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:46:47"
   },
   {
@@ -19316,7 +19316,7 @@ const relayResults = [
     "km": 12.1,
     "position": 3,
     "name": "Karie Atkins",
-    "club": "Chepstow A Chepstow (03)",
+    "club": "Chepstow Harriers",
     "time": "00:47:11"
   },
   {
@@ -19328,7 +19328,7 @@ const relayResults = [
     "km": 12.1,
     "position": 4,
     "name": "Paul Dodd",
-    "club": "Chepstow B Pont-y-pwl (04)",
+    "club": "Chepstow Harriers",
     "time": "00:48:04"
   },
   {
@@ -19340,7 +19340,7 @@ const relayResults = [
     "km": 12.1,
     "position": 5,
     "name": "Paul Hayward",
-    "club": "Islwyn A Torfaen (05)",
+    "club": "Islwyn RC",
     "time": "00:49:49"
   },
   {
@@ -19352,7 +19352,7 @@ const relayResults = [
     "km": 12.1,
     "position": 6,
     "name": "Lou Scid:9ummers",
-    "club": "Torfaen A Les (06)",
+    "club": "Torfaen",
     "time": "00:53:24"
   },
   {
@@ -19364,7 +19364,7 @@ const relayResults = [
     "km": 12.1,
     "position": 7,
     "name": "Michael Skyrme",
-    "club": "Fairwater Cwmbran A Islwyn A (07)",
+    "club": "Fairwater Runners",
     "time": "00:53:53"
   },
   {
@@ -19376,7 +19376,7 @@ const relayResults = [
     "km": 12.1,
     "position": 8,
     "name": "Neil Profit",
-    "club": "Islwyn B Aberdare (08)",
+    "club": "Islwyn RC",
     "time": "00:54:35"
   },
   {
@@ -19388,7 +19388,7 @@ const relayResults = [
     "km": 12.1,
     "position": 9,
     "name": "Lowenna Taylor",
-    "club": "Caerleon A Spirit of (09)",
+    "club": "Caerleon RC",
     "time": "00:54:50"
   },
   {
@@ -19400,7 +19400,7 @@ const relayResults = [
     "km": 12.1,
     "position": 10,
     "name": "Delyth Williams",
-    "club": "San Domenico A Caerphilly (10)",
+    "club": "San Domenico RC",
     "time": "00:54:55"
   },
   {
@@ -19412,7 +19412,7 @@ const relayResults = [
     "km": 12.1,
     "position": 11,
     "name": "Gareth Jenkins",
-    "club": "Ogmore Phoenix A Ogmore (11)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:55:07"
   },
   {
@@ -19424,7 +19424,7 @@ const relayResults = [
     "km": 12.1,
     "position": 12,
     "name": "Danielle Phillips",
-    "club": "Les Croupiers A Caerleon (12)",
+    "club": "Les Croupiers RC",
     "time": "00:55:08"
   },
   {
@@ -19436,7 +19436,7 @@ const relayResults = [
     "km": 12.1,
     "position": 13,
     "name": "Naomi Davies",
-    "club": "Caerphilly A Lliswerry (13)",
+    "club": "Caerphilly Runners",
     "time": "00:55:37"
   },
   {
@@ -19448,7 +19448,7 @@ const relayResults = [
     "km": 12.1,
     "position": 14,
     "name": "Katy Luff",
-    "club": "Caldicot A Pontypridd (14)",
+    "club": "Caldicot RC",
     "time": "00:56:34"
   },
   {
@@ -19460,7 +19460,7 @@ const relayResults = [
     "km": 12.1,
     "position": 15,
     "name": "Emma King",
-    "club": "Spirit of Monmouth A San (15)",
+    "club": "Spirit of Monmouth",
     "time": "00:57:46"
   },
   {
@@ -19472,7 +19472,7 @@ const relayResults = [
     "km": 12.1,
     "position": 16,
     "name": "Janet Edwards",
-    "club": "Pontypridd A Fairwater (16)",
+    "club": "Pontypridd Roadents",
     "time": "00:58:14"
   },
   {
@@ -19484,7 +19484,7 @@ const relayResults = [
     "km": 12.1,
     "position": 17,
     "name": "Chris Cummins",
-    "club": "Parc Bryn Bach B Islwyn B (17)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:58:20"
   },
   {
@@ -19496,7 +19496,7 @@ const relayResults = [
     "km": 12.1,
     "position": 18,
     "name": "Richard Roberts",
-    "club": "Griffithstown A Parc Bryn (18)",
+    "club": "Griffithstown Harriers",
     "time": "00:58:53"
   },
   {
@@ -19508,7 +19508,7 @@ const relayResults = [
     "km": 12.1,
     "position": 19,
     "name": "Huw Williams",
-    "club": "Rhondda Valley A Caldicot (19)",
+    "club": "Rhondda Valley Runners",
     "time": "01:00:35"
   },
   {
@@ -19520,7 +19520,7 @@ const relayResults = [
     "km": 12.1,
     "position": 20,
     "name": "Zoe Rees",
-    "club": "Caerphilly B (20)",
+    "club": "Caerphilly Runners",
     "time": "01:00:38"
   },
   {
@@ -19532,7 +19532,7 @@ const relayResults = [
     "km": 12.1,
     "position": 21,
     "name": "Sarah Lane Coote",
-    "club": "Parc Bryn Bach A Caerphilly (21)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:00:40"
   },
   {
@@ -19544,7 +19544,7 @@ const relayResults = [
     "km": 12.1,
     "position": 22,
     "name": "Nick Davies",
-    "club": "Lliswerry B Parc Bryn (22)",
+    "club": "Lliswerry Runners",
     "time": "01:01:46"
   },
   {
@@ -19556,7 +19556,7 @@ const relayResults = [
     "km": 12.1,
     "position": 23,
     "name": "Emma Blow",
-    "club": "Aberdare Valley A Brackla (23)",
+    "club": "Aberdare",
     "time": "01:02:21"
   },
   {
@@ -19568,7 +19568,7 @@ const relayResults = [
     "km": 12.1,
     "position": 24,
     "name": "Julia Evans",
-    "club": "Pegasus A Rhondda (24)",
+    "club": "Pegasus RC",
     "time": "01:02:33"
   },
   {
@@ -19580,7 +19580,7 @@ const relayResults = [
     "km": 12.1,
     "position": 25,
     "name": "Jonathan Bussy",
-    "club": "Fairwater Cwmbran B Pegasus (25)",
+    "club": "Fairwater Runners",
     "time": "01:03:02"
   },
   {
@@ -19592,7 +19592,7 @@ const relayResults = [
     "km": 12.1,
     "position": 26,
     "name": "Louise Bright",
-    "club": "Pont-y-pwl (26)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:03:12"
   },
   {
@@ -19604,7 +19604,7 @@ const relayResults = [
     "km": 12.1,
     "position": 27,
     "name": "Mary Beech",
-    "club": "Brackla A Pont-y-pwl (27)",
+    "club": "Brackla Harriers",
     "time": "01:07:19"
   },
   {
@@ -19616,7 +19616,7 @@ const relayResults = [
     "km": 12.1,
     "position": 28,
     "name": "Charlotte Leigh",
-    "club": "Caerleon B Caerleon (28)",
+    "club": "Caerleon RC",
     "time": "01:08:00"
   },
   {
@@ -19628,7 +19628,7 @@ const relayResults = [
     "km": 10.8,
     "position": 1,
     "name": "Richard Elgar",
-    "club": "Lliswerry A Lliswerry (01)",
+    "club": "Lliswerry Runners",
     "time": "00:41:44"
   },
   {
@@ -19640,7 +19640,7 @@ const relayResults = [
     "km": 10.8,
     "position": 2,
     "name": "Jacob Griffiths",
-    "club": "Brackla A Chepstow (02)",
+    "club": "Brackla Harriers",
     "time": "00:42:05"
   },
   {
@@ -19652,7 +19652,7 @@ const relayResults = [
     "km": 10.8,
     "position": 3,
     "name": "Tom cid:9Turner",
-    "club": "Torfaen A Torfaen (03)",
+    "club": "Torfaen",
     "time": "00:43:21"
   },
   {
@@ -19664,7 +19664,7 @@ const relayResults = [
     "km": 10.8,
     "position": 4,
     "name": "Kath Matthews",
-    "club": "Chepstow A Chepstow (04)",
+    "club": "Chepstow Harriers",
     "time": "00:45:00"
   },
   {
@@ -19676,7 +19676,7 @@ const relayResults = [
     "km": 10.8,
     "position": 5,
     "name": "Nathan Reeks",
-    "club": "Caldicot A Les (05)",
+    "club": "Caldicot RC",
     "time": "00:45:19"
   },
   {
@@ -19688,7 +19688,7 @@ const relayResults = [
     "km": 10.8,
     "position": 6,
     "name": "Shaun Styles",
-    "club": "Griffithstown A Pont-y-pwl (06)",
+    "club": "Griffithstown Harriers",
     "time": "00:46:12"
   },
   {
@@ -19700,7 +19700,7 @@ const relayResults = [
     "km": 10.8,
     "position": 7,
     "name": "Matthew Mulcahy",
-    "club": "Caerleon A Caerphilly (07)",
+    "club": "Caerleon RC",
     "time": "00:46:22"
   },
   {
@@ -19712,7 +19712,7 @@ const relayResults = [
     "km": 10.8,
     "position": 8,
     "name": "Chris Truman",
-    "club": "Ogmore (08)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:46:53"
   },
   {
@@ -19724,7 +19724,7 @@ const relayResults = [
     "km": 10.8,
     "position": 9,
     "name": "Paul Francis",
-    "club": "Caerphilly A Spirit of (09)",
+    "club": "Caerphilly Runners",
     "time": "00:47:02"
   },
   {
@@ -19736,7 +19736,7 @@ const relayResults = [
     "km": 10.8,
     "position": 10,
     "name": "Matt Unsworth",
-    "club": "Spirit (10)",
+    "club": "Spirit of Monmouth",
     "time": "00:48:04"
   },
   {
@@ -19748,7 +19748,7 @@ const relayResults = [
     "km": 10.8,
     "position": 11,
     "name": "Sharon Newell",
-    "club": "Parc Bryn Bach A Islwyn (11)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:50:31"
   },
   {
@@ -19760,7 +19760,7 @@ const relayResults = [
     "km": 10.8,
     "position": 12,
     "name": "Sue Watson",
-    "club": "Les Croupiers A Aberdare (12)",
+    "club": "Les Croupiers RC",
     "time": "00:50:36"
   },
   {
@@ -19772,7 +19772,7 @@ const relayResults = [
     "km": 10.8,
     "position": 13,
     "name": "Ross Owen",
-    "club": "Rhondda Valley A Caldicot (13)",
+    "club": "Rhondda Valley Runners",
     "time": "00:50:52"
   },
   {
@@ -19784,7 +19784,7 @@ const relayResults = [
     "km": 10.8,
     "position": 14,
     "name": "Clare Griffiths",
-    "club": "Aberdare Valley A Fairwater (14)",
+    "club": "Aberdare",
     "time": "00:51:28"
   },
   {
@@ -19796,7 +19796,7 @@ const relayResults = [
     "km": 10.8,
     "position": 15,
     "name": "Emma Price",
-    "club": "Fairwater Cwmbran A San (15)",
+    "club": "Fairwater Runners",
     "time": "00:52:32"
   },
   {
@@ -19808,7 +19808,7 @@ const relayResults = [
     "km": 10.8,
     "position": 16,
     "name": "Esther Caldwell",
-    "club": "Chepstow B Lliswerry (16)",
+    "club": "Chepstow Harriers",
     "time": "00:53:20"
   },
   {
@@ -19820,7 +19820,7 @@ const relayResults = [
     "km": 10.8,
     "position": 17,
     "name": "William Probert",
-    "club": "Pont-y-pwl & District B Griffithstown (17)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:54:03"
   },
   {
@@ -19832,7 +19832,7 @@ const relayResults = [
     "km": 10.8,
     "position": 18,
     "name": "Emily Capener",
-    "club": "San Domenico A Parc (18)",
+    "club": "San Domenico RC",
     "time": "00:54:10"
   },
   {
@@ -19844,7 +19844,7 @@ const relayResults = [
     "km": 10.8,
     "position": 19,
     "name": "Nicola Smith",
-    "club": "Pont-y-pwl & District A Brackla (19)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:54:34"
   },
   {
@@ -19856,7 +19856,7 @@ const relayResults = [
     "km": 10.8,
     "position": 20,
     "name": "Janet Richards",
-    "club": "Lliswerry B Pontypridd (20)",
+    "club": "Lliswerry Runners",
     "time": "00:55:05"
   },
   {
@@ -19868,7 +19868,7 @@ const relayResults = [
     "km": 10.8,
     "position": 21,
     "name": "Hannah Davies",
-    "club": "Islwyn A Islwyn (21)",
+    "club": "Islwyn RC",
     "time": "00:55:16"
   },
   {
@@ -19880,7 +19880,7 @@ const relayResults = [
     "km": 10.8,
     "position": 22,
     "name": "Neil Williams",
-    "club": "Caerleon B Rhondda (22)",
+    "club": "Caerleon RC",
     "time": "00:55:51"
   },
   {
@@ -19892,7 +19892,7 @@ const relayResults = [
     "km": 10.8,
     "position": 23,
     "name": "Jo Valentine",
-    "club": "Pegasus A Parc (23)",
+    "club": "Pegasus RC",
     "time": "00:57:19"
   },
   {
@@ -19904,7 +19904,7 @@ const relayResults = [
     "km": 10.8,
     "position": 24,
     "name": "Jennet Holmes",
-    "club": "Pontypridd A Caerphilly (24)",
+    "club": "Pontypridd Roadents",
     "time": "00:57:58"
   },
   {
@@ -19916,7 +19916,7 @@ const relayResults = [
     "km": 10.8,
     "position": 25,
     "name": "Cyril Williams",
-    "club": "Parc Bryn Bach B Pont-y-pwl (25)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:58:05"
   },
   {
@@ -19928,7 +19928,7 @@ const relayResults = [
     "km": 10.8,
     "position": 26,
     "name": "Sheryl Clark",
-    "club": "Islwyn B Pegasus (26)",
+    "club": "Islwyn RC",
     "time": "00:58:55"
   },
   {
@@ -19940,7 +19940,7 @@ const relayResults = [
     "km": 10.8,
     "position": 27,
     "name": "David Bailyes",
-    "club": "Caerphilly B Caerleon (27)",
+    "club": "Caerphilly Runners",
     "time": "01:00:36"
   },
   {
@@ -19952,7 +19952,7 @@ const relayResults = [
     "km": 10.8,
     "position": 28,
     "name": "Jane Lewis",
-    "club": "Fairwater (28)",
+    "club": "Fairwater Runners",
     "time": "01:01:00"
   },
   {
@@ -19964,7 +19964,7 @@ const relayResults = [
     "km": 13.0,
     "position": 1,
     "name": "Martin Thomas",
-    "club": "Parc Bryn Bach A Lliswerry (01)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:49:24"
   },
   {
@@ -19976,7 +19976,7 @@ const relayResults = [
     "km": 13.0,
     "position": 2,
     "name": "Jon Belcher",
-    "club": "Lliswerry A Chepstow (02)",
+    "club": "Lliswerry Runners",
     "time": "00:49:29"
   },
   {
@@ -19988,7 +19988,7 @@ const relayResults = [
     "km": 13.0,
     "position": 3,
     "name": "Bobby Pritchard",
-    "club": "Chepstow A Torfaen (03)",
+    "club": "Chepstow Harriers",
     "time": "00:51:04"
   },
   {
@@ -20000,7 +20000,7 @@ const relayResults = [
     "km": 13.0,
     "position": 4,
     "name": "Dave Moore",
-    "club": "Brackla A Chepstow (04)",
+    "club": "Brackla Harriers",
     "time": "00:51:21"
   },
   {
@@ -20012,7 +20012,7 @@ const relayResults = [
     "km": 13.0,
     "position": 5,
     "name": "Mark cid:9Hurford",
-    "club": "Torfaen A Les (05)",
+    "club": "Torfaen",
     "time": "00:51:43"
   },
   {
@@ -20024,7 +20024,7 @@ const relayResults = [
     "km": 13.0,
     "position": 6,
     "name": "Andrew Reddy",
-    "club": "Aberdare (06)",
+    "club": "Aberdare",
     "time": "00:52:07"
   },
   {
@@ -20036,7 +20036,7 @@ const relayResults = [
     "km": 13.0,
     "position": 7,
     "name": "Martin Williams",
-    "club": "Les Croupiers A Ogmore (07)",
+    "club": "Les Croupiers RC",
     "time": "00:52:42"
   },
   {
@@ -20048,7 +20048,7 @@ const relayResults = [
     "km": 13.0,
     "position": 8,
     "name": "Jon Ford",
-    "club": "Fairwater Cwmbran A Caerphilly (08)",
+    "club": "Fairwater Runners",
     "time": "00:52:48"
   },
   {
@@ -20060,7 +20060,7 @@ const relayResults = [
     "km": 13.0,
     "position": 9,
     "name": "Neil Price",
-    "club": "Ogmore Phoenix A Aberdare (09)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:55:15"
   },
   {
@@ -20072,7 +20072,7 @@ const relayResults = [
     "km": 13.0,
     "position": 10,
     "name": "Liam Hynes",
-    "club": "Caerleon B Spirit of (10)",
+    "club": "Caerleon RC",
     "time": "00:55:49"
   },
   {
@@ -20084,7 +20084,7 @@ const relayResults = [
     "km": 13.0,
     "position": 11,
     "name": "Matthew Golledge",
-    "club": "Caerphilly A Parc Bryn (11)",
+    "club": "Caerphilly Runners",
     "time": "00:56:02"
   },
   {
@@ -20096,7 +20096,7 @@ const relayResults = [
     "km": 13.0,
     "position": 12,
     "name": "Dennis Geoghegan",
-    "club": "Caldicot A Fairwater (12)",
+    "club": "Caldicot RC",
     "time": "00:56:12"
   },
   {
@@ -20108,7 +20108,7 @@ const relayResults = [
     "km": 13.0,
     "position": 13,
     "name": "David Wheeler",
-    "club": "Chepstow B Islwyn (13)",
+    "club": "Chepstow Harriers",
     "time": "00:56:26"
   },
   {
@@ -20120,7 +20120,7 @@ const relayResults = [
     "km": 13.0,
     "position": 14,
     "name": "Paul Mason",
-    "club": "Griffithstown A Caerleon (14)",
+    "club": "Griffithstown Harriers",
     "time": "00:57:26"
   },
   {
@@ -20132,7 +20132,7 @@ const relayResults = [
     "km": 13.0,
     "position": 15,
     "name": "Lisa Erickson",
-    "club": "Pont-y-pwl & District A Caldicot (15)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:57:38"
   },
   {
@@ -20144,7 +20144,7 @@ const relayResults = [
     "km": 13.0,
     "position": 16,
     "name": "Emily Lagomarsino",
-    "club": "San Domenico A Brackla (16)",
+    "club": "San Domenico RC",
     "time": "00:58:35"
   },
   {
@@ -20156,7 +20156,7 @@ const relayResults = [
     "km": 13.0,
     "position": 17,
     "name": "Jackie Hartwell",
-    "club": "Islwyn A Griffithstown (17)",
+    "club": "Islwyn RC",
     "time": "01:00:12"
   },
   {
@@ -20168,7 +20168,7 @@ const relayResults = [
     "km": 13.0,
     "position": 18,
     "name": "Laura Morris",
-    "club": "Spirit of Monmouth A San (18)",
+    "club": "Spirit of Monmouth",
     "time": "01:00:18"
   },
   {
@@ -20180,7 +20180,7 @@ const relayResults = [
     "km": 13.0,
     "position": 19,
     "name": "Amy Edwards",
-    "club": "Rhondda Valley A Lliswerry (19)",
+    "club": "Rhondda Valley Runners",
     "time": "01:02:43"
   },
   {
@@ -20192,7 +20192,7 @@ const relayResults = [
     "km": 13.0,
     "position": 20,
     "name": "Ceri Irvine",
-    "club": "Caerphilly B (20)",
+    "club": "Caerphilly Runners",
     "time": "01:02:47"
   },
   {
@@ -20204,7 +20204,7 @@ const relayResults = [
     "km": 13.0,
     "position": 21,
     "name": "Matt Ham",
-    "club": "Islwyn B Rhondda (21)",
+    "club": "Islwyn RC",
     "time": "01:03:43"
   },
   {
@@ -20216,7 +20216,7 @@ const relayResults = [
     "km": 13.0,
     "position": 22,
     "name": "Liz Richards",
-    "club": "Caerleon A Pontypridd (22)",
+    "club": "Caerleon RC",
     "time": "01:04:11"
   },
   {
@@ -20228,7 +20228,7 @@ const relayResults = [
     "km": 13.0,
     "position": 23,
     "name": "Sarah Kembrey",
-    "club": "Lliswerry B Caerleon (23)",
+    "club": "Lliswerry Runners",
     "time": "01:06:11"
   },
   {
@@ -20240,7 +20240,7 @@ const relayResults = [
     "km": 13.0,
     "position": 24,
     "name": "Delphine Jones",
-    "club": "Parc Bryn Bach B Caerphilly (24)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:09:36"
   },
   {
@@ -20252,7 +20252,7 @@ const relayResults = [
     "km": 13.0,
     "position": 25,
     "name": "Michael Barnes",
-    "club": "Fairwater Cwmbran B Parc Bryn (25)",
+    "club": "Fairwater Runners",
     "time": "01:09:44"
   },
   {
@@ -20264,7 +20264,7 @@ const relayResults = [
     "km": 13.0,
     "position": 26,
     "name": "Kevin Fowler",
-    "club": "Pegasus A Pegasus (26)",
+    "club": "Pegasus RC",
     "time": "01:10:12"
   },
   {
@@ -20276,7 +20276,7 @@ const relayResults = [
     "km": 13.0,
     "position": 27,
     "name": "Rhian Hopkins",
-    "club": "Pontypridd A Fairwater (27)",
+    "club": "Pontypridd Roadents",
     "time": "01:13:00"
   },
   {
@@ -20288,7 +20288,7 @@ const relayResults = [
     "km": 13.0,
     "position": 28,
     "name": "DNF",
-    "club": "Pont-y-pwl & District B Pont-y-pwl (28)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:23:00"
   },
   {
@@ -20300,7 +20300,7 @@ const relayResults = [
     "km": 20.3,
     "position": 1,
     "name": "Jon cid:9Like",
-    "club": "Torfaen A Lliswerry (01)",
+    "club": "Torfaen",
     "time": "01:15:00"
   },
   {
@@ -20312,7 +20312,7 @@ const relayResults = [
     "km": 20.3,
     "position": 2,
     "name": "James Blore",
-    "club": "Chepstow A Chepstow (02)",
+    "club": "Chepstow Harriers",
     "time": "01:16:29"
   },
   {
@@ -20324,7 +20324,7 @@ const relayResults = [
     "km": 20.3,
     "position": 3,
     "name": "Martin Norton",
-    "club": "Lliswerry A (03)",
+    "club": "Lliswerry Runners",
     "time": "01:17:11"
   },
   {
@@ -20336,7 +20336,7 @@ const relayResults = [
     "km": 20.3,
     "position": 4,
     "name": "David Jones",
-    "club": "Caerphilly A Les (04)",
+    "club": "Caerphilly Runners",
     "time": "01:18:07"
   },
   {
@@ -20348,7 +20348,7 @@ const relayResults = [
     "km": 20.3,
     "position": 5,
     "name": "Phil Hambleton",
-    "club": "Les Croupiers A Caerphilly (05)",
+    "club": "Les Croupiers RC",
     "time": "01:18:17"
   },
   {
@@ -20360,7 +20360,7 @@ const relayResults = [
     "km": 20.3,
     "position": 6,
     "name": "Gareth Jones",
-    "club": "Spirit of Monmouth A Chepstow (06)",
+    "club": "Spirit of Monmouth",
     "time": "01:20:29"
   },
   {
@@ -20372,7 +20372,7 @@ const relayResults = [
     "km": 20.3,
     "position": 7,
     "name": "Dafydd Lambeth",
-    "club": "Islwyn A Ogmore (07)",
+    "club": "Islwyn RC",
     "time": "01:20:52"
   },
   {
@@ -20384,7 +20384,7 @@ const relayResults = [
     "km": 20.3,
     "position": 8,
     "name": "Niki Puleio",
-    "club": "Ogmore (08)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:21:59"
   },
   {
@@ -20396,7 +20396,7 @@ const relayResults = [
     "km": 20.3,
     "position": 9,
     "name": "CJ de Mooi",
-    "club": "Caldicot A Spirit (09)",
+    "club": "Caldicot RC",
     "time": "01:22:40"
   },
   {
@@ -20408,7 +20408,7 @@ const relayResults = [
     "km": 20.3,
     "position": 10,
     "name": "Paul Bruton",
-    "club": "Lliswerry B Islwyn (10)",
+    "club": "Lliswerry Runners",
     "time": "01:23:58"
   },
   {
@@ -20420,7 +20420,7 @@ const relayResults = [
     "km": 20.3,
     "position": 11,
     "name": "Dave Hughes",
-    "club": "Aberdare Valley A Pont-y-pwl (11)",
+    "club": "Aberdare",
     "time": "01:25:15"
   },
   {
@@ -20432,7 +20432,7 @@ const relayResults = [
     "km": 20.3,
     "position": 12,
     "name": "Josua Jones",
-    "club": "Griffithstown A Caldicot (12)",
+    "club": "Griffithstown Harriers",
     "time": "01:25:31"
   },
   {
@@ -20444,7 +20444,7 @@ const relayResults = [
     "km": 20.3,
     "position": 13,
     "name": "Phil Bristow",
-    "club": "San Domenico A Fairwater (13)",
+    "club": "San Domenico RC",
     "time": "01:25:40"
   },
   {
@@ -20456,7 +20456,7 @@ const relayResults = [
     "km": 20.3,
     "position": 14,
     "name": "Dickie Hudd",
-    "club": "Chepstow B (14)",
+    "club": "Chepstow Harriers",
     "time": "01:25:48"
   },
   {
@@ -20468,7 +20468,7 @@ const relayResults = [
     "km": 20.3,
     "position": 15,
     "name": "Matthew Williams",
-    "club": "Rhondda Valley A San (15)",
+    "club": "Rhondda Valley Runners",
     "time": "01:25:57"
   },
   {
@@ -20480,7 +20480,7 @@ const relayResults = [
     "km": 20.3,
     "position": 16,
     "name": "Steve Davies",
-    "club": "Pont-y-pwl & District A Parc (16)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:30:20"
   },
   {
@@ -20492,7 +20492,7 @@ const relayResults = [
     "km": 20.3,
     "position": 17,
     "name": "Lee Hammond",
-    "club": "Fairwater Cwmbran A Caerleon (17)",
+    "club": "Fairwater Runners",
     "time": "01:31:04"
   },
   {
@@ -20504,7 +20504,7 @@ const relayResults = [
     "km": 20.3,
     "position": 18,
     "name": "Richard Edge",
-    "club": "Pegasus A Lliswerry (18)",
+    "club": "Pegasus RC",
     "time": "01:32:05"
   },
   {
@@ -20516,7 +20516,7 @@ const relayResults = [
     "km": 20.3,
     "position": 19,
     "name": "Nick Hurley",
-    "club": "Caerphilly B Brackla (19)",
+    "club": "Caerphilly Runners",
     "time": "01:32:37"
   },
   {
@@ -20528,7 +20528,7 @@ const relayResults = [
     "km": 20.3,
     "position": 20,
     "name": "Ian Davies",
-    "club": "Caerleon A Rhondda (20)",
+    "club": "Caerleon RC",
     "time": "01:35:43"
   },
   {
@@ -20540,7 +20540,7 @@ const relayResults = [
     "km": 20.3,
     "position": 21,
     "name": "Owain Williams",
-    "club": "Parc Bryn Bach A Islwyn (21)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:36:53"
   },
   {
@@ -20552,7 +20552,7 @@ const relayResults = [
     "km": 20.3,
     "position": 22,
     "name": "Robbie Oliver",
-    "club": "Brackla A Caerphilly (22)",
+    "club": "Brackla Harriers",
     "time": "01:38:09"
   },
   {
@@ -20564,7 +20564,7 @@ const relayResults = [
     "km": 20.3,
     "position": 23,
     "name": "Peter Rodger",
-    "club": "Caerleon B Caerleon (23)",
+    "club": "Caerleon RC",
     "time": "01:38:24"
   },
   {
@@ -20576,7 +20576,7 @@ const relayResults = [
     "km": 20.3,
     "position": 24,
     "name": "Stephen Smith",
-    "club": "Fairwater Cwmbran B Pegasus (24)",
+    "club": "Fairwater Runners",
     "time": "01:39:24"
   },
   {
@@ -20588,7 +20588,7 @@ const relayResults = [
     "km": 20.3,
     "position": 25,
     "name": "Andrew Lawrence",
-    "club": "Islwyn B Parc (25)",
+    "club": "Islwyn RC",
     "time": "01:39:43"
   },
   {
@@ -20600,7 +20600,7 @@ const relayResults = [
     "km": 20.3,
     "position": 26,
     "name": "Roger Freeman",
-    "club": "Parc Bryn Bach B Pontypridd (26)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:40:21"
   },
   {
@@ -20612,7 +20612,7 @@ const relayResults = [
     "km": 20.3,
     "position": 27,
     "name": "Keith Langley",
-    "club": "Pont-y-pwl & District B Fairwater (27)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:48:25"
   },
   {
@@ -20624,7 +20624,7 @@ const relayResults = [
     "km": 20.3,
     "position": 28,
     "name": "Darren Griffiths-Warner",
-    "club": "Pontypridd A Pont-y-pwl (28)",
+    "club": "Pontypridd Roadents",
     "time": "01:54:00"
   },
   {
@@ -20636,7 +20636,7 @@ const relayResults = [
     "km": 8.9,
     "position": 1,
     "name": "Niki Morgan",
-    "club": "Chepstow A (01)",
+    "club": "Chepstow Harriers",
     "time": "00:35:52"
   },
   {
@@ -20648,7 +20648,7 @@ const relayResults = [
     "km": 8.9,
     "position": 2,
     "name": "Sandra Chipper",
-    "club": "Lliswerry A Chepstow (02)",
+    "club": "Lliswerry Runners",
     "time": "00:36:40"
   },
   {
@@ -20660,7 +20660,7 @@ const relayResults = [
     "km": 8.9,
     "position": 3,
     "name": "Hannah Williams",
-    "club": "Parc Bryn Bach A Torfaen (03)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:38:09"
   },
   {
@@ -20672,7 +20672,7 @@ const relayResults = [
     "km": 8.9,
     "position": 4,
     "name": "Joanne Hudson",
-    "club": "Caerphilly A Les (04)",
+    "club": "Caerphilly Runners",
     "time": "00:38:35"
   },
   {
@@ -20684,7 +20684,7 @@ const relayResults = [
     "km": 8.9,
     "position": 5,
     "name": "Lisa cid:9Griffin",
-    "club": "Torfaen A Caerphilly (05)",
+    "club": "Torfaen",
     "time": "00:40:04"
   },
   {
@@ -20696,7 +20696,7 @@ const relayResults = [
     "km": 8.9,
     "position": 6,
     "name": "Natasha Roderick",
-    "club": "Spirit of Monmouth A Chepstow (06)",
+    "club": "Spirit of Monmouth",
     "time": "00:40:20"
   },
   {
@@ -20708,7 +20708,7 @@ const relayResults = [
     "km": 8.9,
     "position": 7,
     "name": "Tammy Fry",
-    "club": "Caerleon A Spirit (07)",
+    "club": "Caerleon RC",
     "time": "00:41:04"
   },
   {
@@ -20720,7 +20720,7 @@ const relayResults = [
     "km": 8.9,
     "position": 8,
     "name": "Katrina Edmonds-Daniels",
-    "club": "Caerphilly B Ogmore (08)",
+    "club": "Caerphilly Runners",
     "time": "00:42:11"
   },
   {
@@ -20732,7 +20732,7 @@ const relayResults = [
     "km": 8.9,
     "position": 9,
     "name": "Martyn Jones",
-    "club": "Lliswerry B Islwyn (09)",
+    "club": "Lliswerry Runners",
     "time": "00:42:17"
   },
   {
@@ -20744,7 +20744,7 @@ const relayResults = [
     "km": 8.9,
     "position": 10,
     "name": "Rebecca Poole",
-    "club": "Fairwater Cwmbran A Pont-y-pwl (10)",
+    "club": "Fairwater Runners",
     "time": "00:42:30"
   },
   {
@@ -20756,7 +20756,7 @@ const relayResults = [
     "km": 8.9,
     "position": 11,
     "name": "Rachel Hipkiss",
-    "club": "Chepstow B Aberdare (11)",
+    "club": "Chepstow Harriers",
     "time": "00:43:24"
   },
   {
@@ -20768,7 +20768,7 @@ const relayResults = [
     "km": 8.9,
     "position": 12,
     "name": "Sarah Davies",
-    "club": "Islwyn A Caldicot (12)",
+    "club": "Islwyn RC",
     "time": "00:43:30"
   },
   {
@@ -20780,7 +20780,7 @@ const relayResults = [
     "km": 8.9,
     "position": 13,
     "name": "Lubi Ford",
-    "club": "Pont-y-pwl & District A Fairwater (13)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:43:33"
   },
   {
@@ -20792,7 +20792,7 @@ const relayResults = [
     "km": 8.9,
     "position": 14,
     "name": "Sarah Burdett",
-    "club": "Les Croupiers A Parc (14)",
+    "club": "Les Croupiers RC",
     "time": "00:44:16"
   },
   {
@@ -20804,7 +20804,7 @@ const relayResults = [
     "km": 8.9,
     "position": 15,
     "name": "Ceri Denning",
-    "club": "Caldicot A Caerleon (15)",
+    "club": "Caldicot RC",
     "time": "00:45:08"
   },
   {
@@ -20816,7 +20816,7 @@ const relayResults = [
     "km": 8.9,
     "position": 16,
     "name": "Sarah Davies",
-    "club": "Ogmore Phoenix A San (16)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:45:34"
   },
   {
@@ -20828,7 +20828,7 @@ const relayResults = [
     "km": 8.9,
     "position": 17,
     "name": "Lyndsay Poulsom",
-    "club": "Pont-y-pwl & District B Lliswerry (17)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:45:53"
   },
   {
@@ -20840,7 +20840,7 @@ const relayResults = [
     "km": 8.9,
     "position": 18,
     "name": "Caren Parker",
-    "club": "Islwyn B (18)",
+    "club": "Islwyn RC",
     "time": "00:45:58"
   },
   {
@@ -20852,7 +20852,7 @@ const relayResults = [
     "km": 8.9,
     "position": 19,
     "name": "Darren Swift",
-    "club": "Parc (19)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:46:58"
   },
   {
@@ -20864,7 +20864,7 @@ const relayResults = [
     "km": 8.9,
     "position": 20,
     "name": "Gail Havard",
-    "club": "San Domenico A Rhondda (20)",
+    "club": "San Domenico RC",
     "time": "00:48:35"
   },
   {
@@ -20876,7 +20876,7 @@ const relayResults = [
     "km": 8.9,
     "position": 21,
     "name": "Keely Jarvis",
-    "club": "Aberdare Valley A Islwyn (21)",
+    "club": "Aberdare",
     "time": "00:48:36"
   },
   {
@@ -20888,7 +20888,7 @@ const relayResults = [
     "km": 8.9,
     "position": 22,
     "name": "Yangi Vundamina",
-    "club": "Caerleon B Caerphilly (22)",
+    "club": "Caerleon RC",
     "time": "00:50:00"
   },
   {
@@ -20900,7 +20900,7 @@ const relayResults = [
     "km": 8.9,
     "position": 23,
     "name": "Mark Douglas",
-    "club": "Pontypridd A Caerleon (23)",
+    "club": "Pontypridd Roadents",
     "time": "00:50:01"
   },
   {
@@ -20912,7 +20912,7 @@ const relayResults = [
     "km": 8.9,
     "position": 24,
     "name": "Jody Morris",
-    "club": "Rhondda (24)",
+    "club": "Rhondda Valley Runners",
     "time": "00:50:02"
   },
   {
@@ -20924,7 +20924,7 @@ const relayResults = [
     "km": 8.9,
     "position": 25,
     "name": "Phil Groves",
-    "club": "Pegasus A Parc (25)",
+    "club": "Pegasus RC",
     "time": "00:50:02"
   },
   {
@@ -20936,7 +20936,7 @@ const relayResults = [
     "km": 8.9,
     "position": 26,
     "name": "Vicky OBrien",
-    "club": "Fairwater Cwmbran B Pontypridd (26)",
+    "club": "Fairwater Runners",
     "time": "00:50:03"
   },
   {
@@ -20948,7 +20948,7 @@ const relayResults = [
     "km": 8.9,
     "position": 27,
     "name": "Tina Lloyd",
-    "club": "Brackla A Fairwater (27)",
+    "club": "Brackla Harriers",
     "time": "01:00:00"
   },
   {
@@ -20960,7 +20960,7 @@ const relayResults = [
     "km": 8.9,
     "position": 28,
     "name": "DNS",
-    "club": "Griffithstown A Pont-y-pwl (28)",
+    "club": "Griffithstown Harriers",
     "time": "01:00:01"
   },
   {
@@ -20972,7 +20972,7 @@ const relayResults = [
     "km": 21.1,
     "position": 1,
     "name": "Adam Bull",
-    "club": "Aberdare Valley A Chepstow (01)",
+    "club": "Aberdare",
     "time": "01:14:50"
   },
   {
@@ -20984,7 +20984,7 @@ const relayResults = [
     "km": 21.1,
     "position": 2,
     "name": "Andy Lee",
-    "club": "Pont-y-pwl & District A Lliswerry (02)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:23:13"
   },
   {
@@ -20996,7 +20996,7 @@ const relayResults = [
     "km": 21.1,
     "position": 3,
     "name": "David Lawson",
-    "club": "Les Croupiers A Torfaen A (03)",
+    "club": "Les Croupiers RC",
     "time": "01:24:11"
   },
   {
@@ -21008,7 +21008,7 @@ const relayResults = [
     "km": 21.1,
     "position": 4,
     "name": "Martyn Winser",
-    "club": "Chepstow A Les Croupiers (04)",
+    "club": "Chepstow Harriers",
     "time": "01:25:02"
   },
   {
@@ -21020,7 +21020,7 @@ const relayResults = [
     "km": 21.1,
     "position": 5,
     "name": "David Hazell",
-    "club": "Caerphilly A Caerphilly (05)",
+    "club": "Caerphilly Runners",
     "time": "01:25:28"
   },
   {
@@ -21032,7 +21032,7 @@ const relayResults = [
     "km": 21.1,
     "position": 6,
     "name": "Sam Lewis Jones",
-    "club": "Parc Bryn Bach A Aberdare (06)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:26:31"
   },
   {
@@ -21044,7 +21044,7 @@ const relayResults = [
     "km": 21.1,
     "position": 7,
     "name": "Alistair Downes",
-    "club": "San Domenico A Chepstow (07)",
+    "club": "San Domenico RC",
     "time": "01:26:59"
   },
   {
@@ -21056,7 +21056,7 @@ const relayResults = [
     "km": 21.1,
     "position": 8,
     "name": "Iwan cid:9Morton",
-    "club": "Torfaen A Pont-y-pwl (08)",
+    "club": "Torfaen",
     "time": "01:27:39"
   },
   {
@@ -21068,7 +21068,7 @@ const relayResults = [
     "km": 21.1,
     "position": 9,
     "name": "Jonathan Carter",
-    "club": "Chepstow B Spirit of (09)",
+    "club": "Chepstow Harriers",
     "time": "01:30:45"
   },
   {
@@ -21080,7 +21080,7 @@ const relayResults = [
     "km": 21.1,
     "position": 10,
     "name": "Lee Drew",
-    "club": "Lliswerry A Ogmore (10)",
+    "club": "Lliswerry Runners",
     "time": "01:31:05"
   },
   {
@@ -21092,7 +21092,7 @@ const relayResults = [
     "km": 21.1,
     "position": 11,
     "name": "Rob Nicholls",
-    "club": "Spirit of Monmouth A Islwyn A (11)",
+    "club": "Spirit of Monmouth",
     "time": "01:31:37"
   },
   {
@@ -21104,7 +21104,7 @@ const relayResults = [
     "km": 21.1,
     "position": 12,
     "name": "Rob Bickel",
-    "club": "Caerleon A Parc Bryn (12)",
+    "club": "Caerleon RC",
     "time": "01:32:44"
   },
   {
@@ -21116,7 +21116,7 @@ const relayResults = [
     "km": 21.1,
     "position": 13,
     "name": "Steve Lane",
-    "club": "Islwyn A Caldicot (13)",
+    "club": "Islwyn RC",
     "time": "01:33:53"
   },
   {
@@ -21128,7 +21128,7 @@ const relayResults = [
     "km": 21.1,
     "position": 14,
     "name": "Rob Clarke",
-    "club": "Caldicot A San (14)",
+    "club": "Caldicot RC",
     "time": "01:34:24"
   },
   {
@@ -21140,7 +21140,7 @@ const relayResults = [
     "km": 21.1,
     "position": 15,
     "name": "Gerard Gormley",
-    "club": "Griffithstown A Caerleon (15)",
+    "club": "Griffithstown Harriers",
     "time": "01:35:30"
   },
   {
@@ -21152,7 +21152,7 @@ const relayResults = [
     "km": 21.1,
     "position": 16,
     "name": "Anneliese Loveluck",
-    "club": "Ogmore Phoenix A Fairwater (16)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:36:45"
   },
   {
@@ -21164,7 +21164,7 @@ const relayResults = [
     "km": 21.1,
     "position": 17,
     "name": "Richard Williams",
-    "club": "Rhondda Valley A Lliswerry (17)",
+    "club": "Rhondda Valley Runners",
     "time": "01:39:47"
   },
   {
@@ -21176,7 +21176,7 @@ const relayResults = [
     "km": 21.1,
     "position": 18,
     "name": "Chris OBrien",
-    "club": "Fairwater Cwmbran A Griffithstown (18)",
+    "club": "Fairwater Runners",
     "time": "01:39:54"
   },
   {
@@ -21188,7 +21188,7 @@ const relayResults = [
     "km": 21.1,
     "position": 19,
     "name": "Jamie Davies",
-    "club": "Lliswerry B Rhondda (19)",
+    "club": "Lliswerry Runners",
     "time": "01:40:56"
   },
   {
@@ -21200,7 +21200,7 @@ const relayResults = [
     "km": 21.1,
     "position": 20,
     "name": "Richard Steele",
-    "club": "Brackla A Brackla A (20)",
+    "club": "Brackla Harriers",
     "time": "01:43:49"
   },
   {
@@ -21212,7 +21212,7 @@ const relayResults = [
     "km": 21.1,
     "position": 21,
     "name": "Carl Urquhart",
-    "club": "Pont-y-pwl & District B Islwyn B (21)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:45:24"
   },
   {
@@ -21224,7 +21224,7 @@ const relayResults = [
     "km": 21.1,
     "position": 22,
     "name": "Russell Dobbs",
-    "club": "Islwyn B Caerleon (22)",
+    "club": "Islwyn RC",
     "time": "01:46:26"
   },
   {
@@ -21236,7 +21236,7 @@ const relayResults = [
     "km": 21.1,
     "position": 23,
     "name": "Tim Davies",
-    "club": "Pontypridd A Parc Bryn (23)",
+    "club": "Pontypridd Roadents",
     "time": "01:47:06"
   },
   {
@@ -21248,7 +21248,7 @@ const relayResults = [
     "km": 21.1,
     "position": 24,
     "name": "Sian Jones",
-    "club": "Parc Bryn Bach B Caerphilly (24)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:47:32"
   },
   {
@@ -21260,7 +21260,7 @@ const relayResults = [
     "km": 21.1,
     "position": 25,
     "name": "Ryan Jones",
-    "club": "Caerleon B (25)",
+    "club": "Caerleon RC",
     "time": "01:49:31"
   },
   {
@@ -21272,7 +21272,7 @@ const relayResults = [
     "km": 21.1,
     "position": 26,
     "name": "Andrew Williamson",
-    "club": "Pegasus A Pegasus (26)",
+    "club": "Pegasus RC",
     "time": "01:55:40"
   },
   {
@@ -21284,7 +21284,7 @@ const relayResults = [
     "km": 21.1,
     "position": 27,
     "name": "Mark Prosser",
-    "club": "Fairwater Cwmbran B Pont-y-pwl (27)",
+    "club": "Fairwater Runners",
     "time": "01:58:00"
   },
   {
@@ -21296,7 +21296,7 @@ const relayResults = [
     "km": 16.0,
     "position": 1,
     "name": "Daniel Bodman",
-    "club": "Aberdare Valley A Chepstow (01)",
+    "club": "Aberdare",
     "time": "00:54:33"
   },
   {
@@ -21308,7 +21308,7 @@ const relayResults = [
     "km": 16.0,
     "position": 2,
     "name": "Paul Murrin",
-    "club": "Chepstow A Lliswerry (02)",
+    "club": "Chepstow Harriers",
     "time": "01:02:17"
   },
   {
@@ -21320,7 +21320,7 @@ const relayResults = [
     "km": 16.0,
     "position": 3,
     "name": "Dan Madden",
-    "club": "Les Croupiers A Torfaen (03)",
+    "club": "Les Croupiers RC",
     "time": "01:04:08"
   },
   {
@@ -21332,7 +21332,7 @@ const relayResults = [
     "km": 16.0,
     "position": 4,
     "name": "Mark Hobbs",
-    "club": "Griffithstown A Aberdare (04)",
+    "club": "Griffithstown Harriers",
     "time": "01:05:20"
   },
   {
@@ -21344,7 +21344,7 @@ const relayResults = [
     "km": 16.0,
     "position": 5,
     "name": "Tom cid:9Mollekin",
-    "club": "Torfaen A Les (05)",
+    "club": "Torfaen",
     "time": "01:05:48"
   },
   {
@@ -21356,7 +21356,7 @@ const relayResults = [
     "km": 16.0,
     "position": 6,
     "name": "Richard Basham",
-    "club": "Lliswerry A Caerphilly (06)",
+    "club": "Lliswerry Runners",
     "time": "01:06:00"
   },
   {
@@ -21368,7 +21368,7 @@ const relayResults = [
     "km": 16.0,
     "position": 7,
     "name": "Mike Dury",
-    "club": "Islwyn A Chepstow (07)",
+    "club": "Islwyn RC",
     "time": "01:06:58"
   },
   {
@@ -21380,7 +21380,7 @@ const relayResults = [
     "km": 16.0,
     "position": 8,
     "name": "James Tucker",
-    "club": "Chepstow B (08)",
+    "club": "Chepstow Harriers",
     "time": "01:07:29"
   },
   {
@@ -21392,7 +21392,7 @@ const relayResults = [
     "km": 16.0,
     "position": 9,
     "name": "Alex Hutton-Lewis",
-    "club": "Caerphilly A Spirit (09)",
+    "club": "Caerphilly Runners",
     "time": "01:08:54"
   },
   {
@@ -21404,7 +21404,7 @@ const relayResults = [
     "km": 16.0,
     "position": 10,
     "name": "Gareth Knight",
-    "club": "Fairwater Cwmbran A Islwyn (10)",
+    "club": "Fairwater Runners",
     "time": "01:09:11"
   },
   {
@@ -21416,7 +21416,7 @@ const relayResults = [
     "km": 16.0,
     "position": 11,
     "name": "Andrew Gunter",
-    "club": "Parc Bryn Bach A Parc (11)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:11:00"
   },
   {
@@ -21428,7 +21428,7 @@ const relayResults = [
     "km": 16.0,
     "position": 12,
     "name": "Sean Kelly",
-    "club": "Rhondda Valley A Ogmore (12)",
+    "club": "Rhondda Valley Runners",
     "time": "01:11:18"
   },
   {
@@ -21440,7 +21440,7 @@ const relayResults = [
     "km": 16.0,
     "position": 13,
     "name": "Adrian Murkin",
-    "club": "Pont-y-pwl & District A Caldicot (13)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:12:17"
   },
   {
@@ -21452,7 +21452,7 @@ const relayResults = [
     "km": 16.0,
     "position": 14,
     "name": "Mickey Havard",
-    "club": "San Domenico A San (14)",
+    "club": "San Domenico RC",
     "time": "01:12:22"
   },
   {
@@ -21464,7 +21464,7 @@ const relayResults = [
     "km": 16.0,
     "position": 15,
     "name": "Andrew Dawe",
-    "club": "Lliswerry B Fairwater (15)",
+    "club": "Lliswerry Runners",
     "time": "01:12:24"
   },
   {
@@ -21476,7 +21476,7 @@ const relayResults = [
     "km": 16.0,
     "position": 16,
     "name": "Jeremy Masters",
-    "club": "Spirit of Monmouth A Caerleon (16)",
+    "club": "Spirit of Monmouth",
     "time": "01:12:27"
   },
   {
@@ -21488,7 +21488,7 @@ const relayResults = [
     "km": 16.0,
     "position": 17,
     "name": "Leif Geoghegan",
-    "club": "Caldicot A (17)",
+    "club": "Caldicot RC",
     "time": "01:12:40"
   },
   {
@@ -21500,7 +21500,7 @@ const relayResults = [
     "km": 16.0,
     "position": 18,
     "name": "Philip Jones",
-    "club": "Islwyn B Lliswerry (18)",
+    "club": "Islwyn RC",
     "time": "01:14:33"
   },
   {
@@ -21512,7 +21512,7 @@ const relayResults = [
     "km": 16.0,
     "position": 19,
     "name": "Tony Mackay",
-    "club": "Pegasus A Rhondda (19)",
+    "club": "Pegasus RC",
     "time": "01:14:44"
   },
   {
@@ -21524,7 +21524,7 @@ const relayResults = [
     "km": 16.0,
     "position": 20,
     "name": "Steven James",
-    "club": "Ogmore Phoenix A Islwyn (20)",
+    "club": "Ogmore Phoenix Runners",
     "time": "01:17:14"
   },
   {
@@ -21536,7 +21536,7 @@ const relayResults = [
     "km": 16.0,
     "position": 21,
     "name": "Andrew Little",
-    "club": "Caerphilly B Brackla (21)",
+    "club": "Caerphilly Runners",
     "time": "01:18:21"
   },
   {
@@ -21548,7 +21548,7 @@ const relayResults = [
     "km": 16.0,
     "position": 22,
     "name": "Matt Tooby",
-    "club": "Caerleon A Caerleon (22)",
+    "club": "Caerleon RC",
     "time": "01:18:52"
   },
   {
@@ -21560,7 +21560,7 @@ const relayResults = [
     "km": 16.0,
     "position": 23,
     "name": "Martin Stark",
-    "club": "Pont-y-pwl & District B Caerphilly (23)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:19:08"
   },
   {
@@ -21572,7 +21572,7 @@ const relayResults = [
     "km": 16.0,
     "position": 24,
     "name": "Huw Keveren Davies",
-    "club": "Pontypridd A Pegasus (24)",
+    "club": "Pontypridd Roadents",
     "time": "01:22:45"
   },
   {
@@ -21584,7 +21584,7 @@ const relayResults = [
     "km": 16.0,
     "position": 25,
     "name": "Justin Pocknell",
-    "club": "Caerleon B (25)",
+    "club": "Caerleon RC",
     "time": "01:23:02"
   },
   {
@@ -21596,7 +21596,7 @@ const relayResults = [
     "km": 16.0,
     "position": 26,
     "name": "Elle Goodridge",
-    "club": "Brackla A Parc (26)",
+    "club": "Brackla Harriers",
     "time": "01:25:44"
   },
   {
@@ -21608,7 +21608,7 @@ const relayResults = [
     "km": 16.0,
     "position": 27,
     "name": "Nathan Harper",
-    "club": "Parc Bryn Bach B (27)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:30:00"
   },
   {
@@ -21620,7 +21620,7 @@ const relayResults = [
     "km": 16.0,
     "position": 28,
     "name": "Adam Gardner",
-    "club": "Fairwater (28)",
+    "club": "Fairwater Runners",
     "time": "01:30:01"
   },
   {
@@ -21632,7 +21632,7 @@ const relayResults = [
     "km": 12.16,
     "position": 1,
     "name": "Mike Lewis",
-    "club": "Fairwater Cwmbran A Chepstow (01)",
+    "club": "Fairwater Runners",
     "time": "00:32:46"
   },
   {
@@ -21644,7 +21644,7 @@ const relayResults = [
     "km": 12.16,
     "position": 2,
     "name": "Ben Miles",
-    "club": "Pont-y-pwl & District A Lliswerry (02)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:33:39"
   },
   {
@@ -21656,7 +21656,7 @@ const relayResults = [
     "km": 12.16,
     "position": 3,
     "name": "Nicky Collin",
-    "club": "Lliswerry A (03)",
+    "club": "Lliswerry Runners",
     "time": "00:37:43"
   },
   {
@@ -21668,7 +21668,7 @@ const relayResults = [
     "km": 12.16,
     "position": 4,
     "name": "Sarah Bell",
-    "club": "Chepstow A Aberdare (04)",
+    "club": "Chepstow Harriers",
     "time": "00:37:49"
   },
   {
@@ -21680,7 +21680,7 @@ const relayResults = [
     "km": 12.16,
     "position": 5,
     "name": "Harri cid:9Like",
-    "club": "Torfaen A Les (05)",
+    "club": "Torfaen",
     "time": "00:38:28"
   },
   {
@@ -21692,7 +21692,7 @@ const relayResults = [
     "km": 12.16,
     "position": 6,
     "name": "Emma Edwards",
-    "club": "Caerphilly A Caerphilly (06)",
+    "club": "Caerphilly Runners",
     "time": "00:40:13"
   },
   {
@@ -21704,7 +21704,7 @@ const relayResults = [
     "km": 12.16,
     "position": 7,
     "name": "Alex Wilson",
-    "club": "Spirit of Monmouth A Pont-y-pwl (07)",
+    "club": "Spirit of Monmouth",
     "time": "00:41:30"
   },
   {
@@ -21716,7 +21716,7 @@ const relayResults = [
     "km": 12.16,
     "position": 8,
     "name": "Kevin Dupe",
-    "club": "Caerleon A Chepstow (08)",
+    "club": "Caerleon RC",
     "time": "00:42:48"
   },
   {
@@ -21728,7 +21728,7 @@ const relayResults = [
     "km": 12.16,
     "position": 9,
     "name": "Carys Shun Malarczyk",
-    "club": "Islwyn A Spirit of (09)",
+    "club": "Islwyn RC",
     "time": "00:43:14"
   },
   {
@@ -21740,7 +21740,7 @@ const relayResults = [
     "km": 12.16,
     "position": 10,
     "name": "Lolly Evans",
-    "club": "Les Croupiers A Islwyn A (10)",
+    "club": "Les Croupiers RC",
     "time": "00:43:28"
   },
   {
@@ -21752,7 +21752,7 @@ const relayResults = [
     "km": 12.16,
     "position": 11,
     "name": "Rachel Lewis",
-    "club": "Parc Bryn Bach A Parc Bryn (11)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:43:37"
   },
   {
@@ -21764,7 +21764,7 @@ const relayResults = [
     "km": 12.16,
     "position": 12,
     "name": "Paul Harvey",
-    "club": "Pont-y-pwl & District B Fairwater (12)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:43:46"
   },
   {
@@ -21776,7 +21776,7 @@ const relayResults = [
     "km": 12.16,
     "position": 13,
     "name": "Holly Ryder",
-    "club": "Aberdare Valley A Caldicot (13)",
+    "club": "Aberdare",
     "time": "00:43:50"
   },
   {
@@ -21788,7 +21788,7 @@ const relayResults = [
     "km": 12.16,
     "position": 14,
     "name": "Ruth Mampilly",
-    "club": "Pontypridd A Ogmore (14)",
+    "club": "Pontypridd Roadents",
     "time": "00:44:52"
   },
   {
@@ -21800,7 +21800,7 @@ const relayResults = [
     "km": 12.16,
     "position": 15,
     "name": "Ella Boorman",
-    "club": "Lliswerry B San (15)",
+    "club": "Lliswerry Runners",
     "time": "00:45:06"
   },
   {
@@ -21812,7 +21812,7 @@ const relayResults = [
     "km": 12.16,
     "position": 16,
     "name": "Megan Poulson",
-    "club": "San Domenico A Caerleon (16)",
+    "club": "San Domenico RC",
     "time": "00:45:08"
   },
   {
@@ -21824,7 +21824,7 @@ const relayResults = [
     "km": 12.16,
     "position": 17,
     "name": "Kim Carwardine",
-    "club": "Chepstow B Lliswerry (17)",
+    "club": "Chepstow Harriers",
     "time": "00:46:14"
   },
   {
@@ -21836,7 +21836,7 @@ const relayResults = [
     "km": 12.16,
     "position": 18,
     "name": "Gemma Reeks",
-    "club": "Caldicot A (18)",
+    "club": "Caldicot RC",
     "time": "00:47:25"
   },
   {
@@ -21848,7 +21848,7 @@ const relayResults = [
     "km": 12.16,
     "position": 19,
     "name": "Sally Groves",
-    "club": "Pegasus A Rhondda (19)",
+    "club": "Pegasus RC",
     "time": "00:47:34"
   },
   {
@@ -21860,7 +21860,7 @@ const relayResults = [
     "km": 12.16,
     "position": 20,
     "name": "Helen Warrender",
-    "club": "Griffithstown A Islwyn B (20)",
+    "club": "Griffithstown Harriers",
     "time": "00:50:58"
   },
   {
@@ -21872,7 +21872,7 @@ const relayResults = [
     "km": 12.16,
     "position": 21,
     "name": "Teresa Davies",
-    "club": "Parc Bryn Bach B Brackla (21)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:51:00"
   },
   {
@@ -21884,7 +21884,7 @@ const relayResults = [
     "km": 12.16,
     "position": 22,
     "name": "Michelle Clabon",
-    "club": "Caerleon B Pegasus (22)",
+    "club": "Caerleon RC",
     "time": "00:51:01"
   },
   {
@@ -21896,7 +21896,7 @@ const relayResults = [
     "km": 12.16,
     "position": 23,
     "name": "Jen Williams",
-    "club": "Caerphilly B Caerleon (23)",
+    "club": "Caerphilly Runners",
     "time": "00:51:02"
   },
   {
@@ -21908,7 +21908,7 @@ const relayResults = [
     "km": 12.16,
     "position": 24,
     "name": "Liz Davis",
-    "club": "Ogmore Phoenix A Caerphilly (24)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:51:03"
   },
   {
@@ -21920,7 +21920,7 @@ const relayResults = [
     "km": 12.16,
     "position": 25,
     "name": "Kate Palfrey",
-    "club": "Fairwater Cwmbran B Pontypridd (25)",
+    "club": "Fairwater Runners",
     "time": "00:51:04"
   },
   {
@@ -21932,7 +21932,7 @@ const relayResults = [
     "km": 12.16,
     "position": 26,
     "name": "Rebecca Davies",
-    "club": "Rhondda Valley A Parc Bryn (26)",
+    "club": "Rhondda Valley Runners",
     "time": "00:51:05"
   },
   {
@@ -21944,7 +21944,7 @@ const relayResults = [
     "km": 12.16,
     "position": 27,
     "name": "Jemma Cleverly",
-    "club": "Islwyn B Pont-y-pwl (27)",
+    "club": "Islwyn RC",
     "time": "00:51:06"
   },
   {
@@ -21956,7 +21956,7 @@ const relayResults = [
     "km": 12.16,
     "position": 28,
     "name": "Melanie Hall",
-    "club": "Brackla A Fairwater (28)",
+    "club": "Brackla Harriers",
     "time": "00:51:07"
   },
   {
@@ -21968,7 +21968,7 @@ const relayResults = [
     "km": 13.4,
     "position": 1,
     "name": "Mark cid:9Hopkinson",
-    "club": "Torfaen A Chepstow (01)",
+    "club": "Torfaen",
     "time": "00:46:58"
   },
   {
@@ -21980,7 +21980,7 @@ const relayResults = [
     "km": 13.4,
     "position": 2,
     "name": "Richard Jones",
-    "club": "Lliswerry A Lliswerry (02)",
+    "club": "Lliswerry Runners",
     "time": "00:50:58"
   },
   {
@@ -21992,7 +21992,7 @@ const relayResults = [
     "km": 13.4,
     "position": 3,
     "name": "Rich Foster",
-    "club": "Spirit of Monmouth A Torfaen (03)",
+    "club": "Spirit of Monmouth",
     "time": "00:51:40"
   },
   {
@@ -22004,7 +22004,7 @@ const relayResults = [
     "km": 13.4,
     "position": 4,
     "name": "Gareth Jones",
-    "club": "Griffithstown A Aberdare (04)",
+    "club": "Griffithstown Harriers",
     "time": "00:53:39"
   },
   {
@@ -22016,7 +22016,7 @@ const relayResults = [
     "km": 13.4,
     "position": 5,
     "name": "Sean Lewis",
-    "club": "Chepstow A Les (05)",
+    "club": "Chepstow Harriers",
     "time": "00:55:08"
   },
   {
@@ -22028,7 +22028,7 @@ const relayResults = [
     "km": 13.4,
     "position": 6,
     "name": "Paul Smith",
-    "club": "Ogmore Phoenix A Caerphilly (06)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:55:43"
   },
   {
@@ -22040,7 +22040,7 @@ const relayResults = [
     "km": 13.4,
     "position": 7,
     "name": "Laurent Bono",
-    "club": "Les Croupiers A Spirit (07)",
+    "club": "Les Croupiers RC",
     "time": "00:55:46"
   },
   {
@@ -22052,7 +22052,7 @@ const relayResults = [
     "km": 13.4,
     "position": 8,
     "name": "Lee Walters",
-    "club": "Aberdare Valley A Chepstow (08)",
+    "club": "Aberdare",
     "time": "00:56:32"
   },
   {
@@ -22064,7 +22064,7 @@ const relayResults = [
     "km": 13.4,
     "position": 9,
     "name": "Toby Garrett",
-    "club": "Chepstow B Pont-y-pwl (09)",
+    "club": "Chepstow Harriers",
     "time": "00:56:36"
   },
   {
@@ -22076,7 +22076,7 @@ const relayResults = [
     "km": 13.4,
     "position": 10,
     "name": "Matt James",
-    "club": "San Domenico A Islwyn (10)",
+    "club": "San Domenico RC",
     "time": "00:57:02"
   },
   {
@@ -22088,7 +22088,7 @@ const relayResults = [
     "km": 13.4,
     "position": 11,
     "name": "John Seaward",
-    "club": "Caerphilly A Parc (11)",
+    "club": "Caerphilly Runners",
     "time": "00:58:01"
   },
   {
@@ -22100,7 +22100,7 @@ const relayResults = [
     "km": 13.4,
     "position": 12,
     "name": "Owen Staddon",
-    "club": "Caldicot A Ogmore (12)",
+    "club": "Caldicot RC",
     "time": "00:59:04"
   },
   {
@@ -22112,7 +22112,7 @@ const relayResults = [
     "km": 13.4,
     "position": 13,
     "name": "Dai Gibbins",
-    "club": "Islwyn A Caldicot (13)",
+    "club": "Islwyn RC",
     "time": "01:00:27"
   },
   {
@@ -22124,7 +22124,7 @@ const relayResults = [
     "km": 13.4,
     "position": 14,
     "name": "Nick Webb",
-    "club": "Parc Bryn Bach A San (14)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:01:12"
   },
   {
@@ -22136,7 +22136,7 @@ const relayResults = [
     "km": 13.4,
     "position": 15,
     "name": "Bryan Meredith",
-    "club": "Rhondda Valley A Fairwater (15)",
+    "club": "Rhondda Valley Runners",
     "time": "01:01:32"
   },
   {
@@ -22148,7 +22148,7 @@ const relayResults = [
     "km": 13.4,
     "position": 16,
     "name": "Jason Pritchard",
-    "club": "Caerleon A (16)",
+    "club": "Caerleon RC",
     "time": "01:02:48"
   },
   {
@@ -22160,7 +22160,7 @@ const relayResults = [
     "km": 13.4,
     "position": 17,
     "name": "Martin Bussell",
-    "club": "Islwyn B Griffithstown (17)",
+    "club": "Islwyn RC",
     "time": "01:03:26"
   },
   {
@@ -22172,7 +22172,7 @@ const relayResults = [
     "km": 13.4,
     "position": 18,
     "name": "Victoria Hobbs",
-    "club": "Lliswerry B Lliswerry (18)",
+    "club": "Lliswerry Runners",
     "time": "01:03:33"
   },
   {
@@ -22184,7 +22184,7 @@ const relayResults = [
     "km": 13.4,
     "position": 19,
     "name": "Gary Adams",
-    "club": "Brackla A Rhondda (19)",
+    "club": "Brackla Harriers",
     "time": "01:06:29"
   },
   {
@@ -22196,7 +22196,7 @@ const relayResults = [
     "km": 13.4,
     "position": 20,
     "name": "Bethan Richardson",
-    "club": "Pont-y-pwl & District A Islwyn (20)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:08:27"
   },
   {
@@ -22208,7 +22208,7 @@ const relayResults = [
     "km": 13.4,
     "position": 21,
     "name": "Richard Martin",
-    "club": "Pontypridd A Brackla (21)",
+    "club": "Pontypridd Roadents",
     "time": "01:08:47"
   },
   {
@@ -22220,7 +22220,7 @@ const relayResults = [
     "km": 13.4,
     "position": 22,
     "name": "Graham Carrick",
-    "club": "Pegasus A (22)",
+    "club": "Pegasus RC",
     "time": "01:10:44"
   },
   {
@@ -22232,7 +22232,7 @@ const relayResults = [
     "km": 13.4,
     "position": 23,
     "name": "Annemarie Harris",
-    "club": "Pont-y-pwl & District B Pontypridd (23)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:11:09"
   },
   {
@@ -22244,7 +22244,7 @@ const relayResults = [
     "km": 13.4,
     "position": 24,
     "name": "Tom Longley",
-    "club": "Caerphilly B Caerphilly (24)",
+    "club": "Caerphilly Runners",
     "time": "01:11:34"
   },
   {
@@ -22256,7 +22256,7 @@ const relayResults = [
     "km": 13.4,
     "position": 25,
     "name": "Jeanette Jenkins",
-    "club": "Fairwater Cwmbran A Caerleon (25)",
+    "club": "Fairwater Runners",
     "time": "01:11:39"
   },
   {
@@ -22268,7 +22268,7 @@ const relayResults = [
     "km": 13.4,
     "position": 26,
     "name": "Matt Gobbett",
-    "club": "Caerleon B Pont-y-pwl (26)",
+    "club": "Caerleon RC",
     "time": "01:12:46"
   },
   {
@@ -22280,7 +22280,7 @@ const relayResults = [
     "km": 13.4,
     "position": 27,
     "name": "Andy Baker",
-    "club": "Fairwater Cwmbran B Parc (27)",
+    "club": "Fairwater Runners",
     "time": "01:15:00"
   },
   {
@@ -22292,7 +22292,7 @@ const relayResults = [
     "km": 13.4,
     "position": 28,
     "name": "Bobbie Swift",
-    "club": "Parc Bryn Bach B Fairwater (28)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:15:01"
   },
   {
@@ -22304,7 +22304,7 @@ const relayResults = [
     "km": 10.7,
     "position": 1,
     "name": "Gareth Green",
-    "club": "San Domenico A Chepstow (01)",
+    "club": "San Domenico RC",
     "time": "00:39:05"
   },
   {
@@ -22316,7 +22316,7 @@ const relayResults = [
     "km": 10.7,
     "position": 2,
     "name": "Mike Riley",
-    "club": "Les Croupiers A Lliswerry (02)",
+    "club": "Les Croupiers RC",
     "time": "00:42:15"
   },
   {
@@ -22328,7 +22328,7 @@ const relayResults = [
     "km": 10.7,
     "position": 3,
     "name": "Paul Jones",
-    "club": "Fairwater Cwmbran B Torfaen (03)",
+    "club": "Fairwater Runners",
     "time": "00:43:15"
   },
   {
@@ -22340,7 +22340,7 @@ const relayResults = [
     "km": 10.7,
     "position": 4,
     "name": "Katy Roy",
-    "club": "Chepstow A Les (04)",
+    "club": "Chepstow Harriers",
     "time": "00:43:19"
   },
   {
@@ -22352,7 +22352,7 @@ const relayResults = [
     "km": 10.7,
     "position": 5,
     "name": "Clare cid:9Patterson",
-    "club": "Torfaen A Caerphilly (05)",
+    "club": "Torfaen",
     "time": "00:44:49"
   },
   {
@@ -22364,7 +22364,7 @@ const relayResults = [
     "km": 10.7,
     "position": 6,
     "name": "Deanne Rogers",
-    "club": "Griffithstown A Aberdare (06)",
+    "club": "Griffithstown Harriers",
     "time": "00:47:24"
   },
   {
@@ -22376,7 +22376,7 @@ const relayResults = [
     "km": 10.7,
     "position": 7,
     "name": "Claire Cowell-Maksimovic",
-    "club": "Pontypridd A Chepstow (07)",
+    "club": "Pontypridd Roadents",
     "time": "00:47:30"
   },
   {
@@ -22388,7 +22388,7 @@ const relayResults = [
     "km": 10.7,
     "position": 8,
     "name": "Rebecca Rothwell",
-    "club": "Lliswerry A Spirit (08)",
+    "club": "Lliswerry Runners",
     "time": "00:48:07"
   },
   {
@@ -22400,7 +22400,7 @@ const relayResults = [
     "km": 10.7,
     "position": 9,
     "name": "Sian Rees",
-    "club": "Caerphilly A Pont-y-pwl (09)",
+    "club": "Caerphilly Runners",
     "time": "00:48:58"
   },
   {
@@ -22412,7 +22412,7 @@ const relayResults = [
     "km": 10.7,
     "position": 10,
     "name": "Mellisa Morgan",
-    "club": "Islwyn A Islwyn (10)",
+    "club": "Islwyn RC",
     "time": "00:49:27"
   },
   {
@@ -22424,7 +22424,7 @@ const relayResults = [
     "km": 10.7,
     "position": 11,
     "name": "Vanessa Lawson",
-    "club": "Chepstow B San (11)",
+    "club": "Chepstow Harriers",
     "time": "00:49:37"
   },
   {
@@ -22436,7 +22436,7 @@ const relayResults = [
     "km": 10.7,
     "position": 12,
     "name": "Gareth Williams",
-    "club": "Parc Bryn Bach A Parc (12)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:50:14"
   },
   {
@@ -22448,7 +22448,7 @@ const relayResults = [
     "km": 10.7,
     "position": 13,
     "name": "Elinor Phillips",
-    "club": "Lliswerry B Ogmore (13)",
+    "club": "Lliswerry Runners",
     "time": "00:50:33"
   },
   {
@@ -22460,7 +22460,7 @@ const relayResults = [
     "km": 10.7,
     "position": 14,
     "name": "Emily Rosa Harrison",
-    "club": "Spirit of Monmouth A Fairwater (14)",
+    "club": "Spirit of Monmouth",
     "time": "00:50:36"
   },
   {
@@ -22472,7 +22472,7 @@ const relayResults = [
     "km": 10.7,
     "position": 15,
     "name": "Leonie Roberts",
-    "club": "Fairwater Cwmbran A Caldicot (15)",
+    "club": "Fairwater Runners",
     "time": "00:51:06"
   },
   {
@@ -22484,7 +22484,7 @@ const relayResults = [
     "km": 10.7,
     "position": 16,
     "name": "Paula Williams",
-    "club": "Caerleon A (16)",
+    "club": "Caerleon RC",
     "time": "00:51:10"
   },
   {
@@ -22496,7 +22496,7 @@ const relayResults = [
     "km": 10.7,
     "position": 17,
     "name": "Jazmine Brigianti",
-    "club": "Brackla A Caerleon (17)",
+    "club": "Brackla Harriers",
     "time": "00:51:19"
   },
   {
@@ -22508,7 +22508,7 @@ const relayResults = [
     "km": 10.7,
     "position": 18,
     "name": "Sian Price",
-    "club": "Ogmore Phoenix A Lliswerry (18)",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:51:37"
   },
   {
@@ -22520,7 +22520,7 @@ const relayResults = [
     "km": 10.7,
     "position": 19,
     "name": "Elaine Wharmby",
-    "club": "Pegasus A Rhondda (19)",
+    "club": "Pegasus RC",
     "time": "00:52:01"
   },
   {
@@ -22532,7 +22532,7 @@ const relayResults = [
     "km": 10.7,
     "position": 20,
     "name": "Emma Sowrey",
-    "club": "Pont-y-pwl & District A Brackla (20)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:52:44"
   },
   {
@@ -22544,7 +22544,7 @@ const relayResults = [
     "km": 10.7,
     "position": 21,
     "name": "Kirsty Smith",
-    "club": "Rhondda Valley A Islwyn (21)",
+    "club": "Rhondda Valley Runners",
     "time": "00:55:10"
   },
   {
@@ -22556,7 +22556,7 @@ const relayResults = [
     "km": 10.7,
     "position": 22,
     "name": "Fern Powell",
-    "club": "Caerleon B Pontypridd (22)",
+    "club": "Caerleon RC",
     "time": "00:55:19"
   },
   {
@@ -22568,7 +22568,7 @@ const relayResults = [
     "km": 10.7,
     "position": 23,
     "name": "Jo Rice",
-    "club": "Caldicot A Pegasus (23)",
+    "club": "Caldicot RC",
     "time": "00:55:30"
   },
   {
@@ -22580,7 +22580,7 @@ const relayResults = [
     "km": 10.7,
     "position": 24,
     "name": "Lucy Atkin-Smith",
-    "club": "Parc Bryn Bach B Caerleon (24)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:56:13"
   },
   {
@@ -22592,7 +22592,7 @@ const relayResults = [
     "km": 10.7,
     "position": 25,
     "name": "Karen Lewis",
-    "club": "Caerphilly B Caerphilly (25)",
+    "club": "Caerphilly Runners",
     "time": "00:57:30"
   },
   {
@@ -22604,7 +22604,7 @@ const relayResults = [
     "km": 10.7,
     "position": 26,
     "name": "Paul Jones",
-    "club": "Aberdare Valley A Parc (26)",
+    "club": "Aberdare",
     "time": "00:58:38"
   },
   {
@@ -22616,7 +22616,7 @@ const relayResults = [
     "km": 10.7,
     "position": 27,
     "name": "Sian Johnson",
-    "club": "Islwyn B Pont-y-pwl (27)",
+    "club": "Islwyn RC",
     "time": "01:00:00"
   },
   {
@@ -22628,7 +22628,7 @@ const relayResults = [
     "km": 10.7,
     "position": 28,
     "name": "Sarah Hirons",
-    "club": "Pont-y-pwl & District B Fairwater (28)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:00:01"
   },
   {
@@ -22640,7 +22640,7 @@ const relayResults = [
     "km": 8.7,
     "position": 1,
     "name": "Craig Thomas",
-    "club": "Islwyn A",
+    "club": "Islwyn RC",
     "time": "00:36:07"
   },
   {
@@ -22652,7 +22652,7 @@ const relayResults = [
     "km": 8.7,
     "position": 2,
     "name": "Jake Smith",
-    "club": "Pont-y-pwl & District A",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:38:02"
   },
   {
@@ -22664,7 +22664,7 @@ const relayResults = [
     "km": 8.7,
     "position": 3,
     "name": "Patrick Hoare",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:38:18"
   },
   {
@@ -22676,7 +22676,7 @@ const relayResults = [
     "km": 8.7,
     "position": 4,
     "name": "Gareth Taylor",
-    "club": "Brackla A",
+    "club": "Brackla Harriers",
     "time": "00:38:30"
   },
   {
@@ -22688,7 +22688,7 @@ const relayResults = [
     "km": 8.7,
     "position": 5,
     "name": "Shane Roberts",
-    "club": "Fairwater Cwmbran A",
+    "club": "Fairwater Runners",
     "time": "00:38:43"
   },
   {
@@ -22700,7 +22700,7 @@ const relayResults = [
     "km": 8.7,
     "position": 6,
     "name": "Gareth Davies",
-    "club": "Pont-y-pwl & District B",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:38:58"
   },
   {
@@ -22712,7 +22712,7 @@ const relayResults = [
     "km": 8.7,
     "position": 7,
     "name": "Jane Horler",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:39:42"
   },
   {
@@ -22736,7 +22736,7 @@ const relayResults = [
     "km": 8.7,
     "position": 9,
     "name": "Susannah Bulpin",
-    "club": "San Domenico A",
+    "club": "San Domenico RC",
     "time": "00:40:07"
   },
   {
@@ -22748,7 +22748,7 @@ const relayResults = [
     "km": 8.7,
     "position": 10,
     "name": "Ryan Minard",
-    "club": "Pontypridd A",
+    "club": "Pontypridd Roadents",
     "time": "00:40:19"
   },
   {
@@ -22760,7 +22760,7 @@ const relayResults = [
     "km": 8.7,
     "position": 11,
     "name": "Jade Wakley",
-    "club": "Caerleon A",
+    "club": "Caerleon RC",
     "time": "00:40:55"
   },
   {
@@ -22772,7 +22772,7 @@ const relayResults = [
     "km": 8.7,
     "position": 12,
     "name": "Samantha Toop",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:41:16"
   },
   {
@@ -22784,7 +22784,7 @@ const relayResults = [
     "km": 8.7,
     "position": 13,
     "name": "Jonathan Furminger",
-    "club": "Pegasus A",
+    "club": "Pegasus RC",
     "time": "00:41:27"
   },
   {
@@ -22796,7 +22796,7 @@ const relayResults = [
     "km": 8.7,
     "position": 14,
     "name": "Dave Wherry",
-    "club": "Caldicot A",
+    "club": "Caldicot RC",
     "time": "00:43:19"
   },
   {
@@ -22808,7 +22808,7 @@ const relayResults = [
     "km": 8.7,
     "position": 15,
     "name": "Tony Lewis",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach RC",
     "time": "00:43:48"
   },
   {
@@ -22820,7 +22820,7 @@ const relayResults = [
     "km": 8.7,
     "position": 16,
     "name": "Marina Wright",
-    "club": "Spirit of Monmouth A",
+    "club": "Spirit of Monmouth",
     "time": "00:44:29"
   },
   {
@@ -22832,7 +22832,7 @@ const relayResults = [
     "km": 8.7,
     "position": 17,
     "name": "Helen Duffield",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:44:41"
   },
   {
@@ -22844,7 +22844,7 @@ const relayResults = [
     "km": 8.7,
     "position": 18,
     "name": "Julie Scholey",
-    "club": "Les Croupiers A",
+    "club": "Les Croupiers RC",
     "time": "00:44:57"
   },
   {
@@ -22856,7 +22856,7 @@ const relayResults = [
     "km": 8.7,
     "position": 19,
     "name": "Karen Payne",
-    "club": "Caerleon B",
+    "club": "Caerleon RC",
     "time": "00:47:13"
   },
   {
@@ -22868,7 +22868,7 @@ const relayResults = [
     "km": 8.7,
     "position": 20,
     "name": "Emma Loyns",
-    "club": "Ogmore Phoenix A",
+    "club": "Ogmore Phoenix Runners",
     "time": "00:47:30"
   },
   {
@@ -22880,7 +22880,7 @@ const relayResults = [
     "km": 8.7,
     "position": 21,
     "name": "Katie Burden",
-    "club": "Caerphilly B",
+    "club": "Caerphilly Runners",
     "time": "00:47:33"
   },
   {
@@ -22892,7 +22892,7 @@ const relayResults = [
     "km": 8.7,
     "position": 22,
     "name": "Sian Roach",
-    "club": "Caerphilly A",
+    "club": "Caerphilly Runners",
     "time": "00:48:03"
   },
   {
@@ -22904,7 +22904,7 @@ const relayResults = [
     "km": 8.7,
     "position": 23,
     "name": "Clive Denton",
-    "club": "Rhondda Valley A",
+    "club": "Rhondda Valley Runners",
     "time": "00:48:36"
   },
   {
@@ -22916,7 +22916,7 @@ const relayResults = [
     "km": 8.7,
     "position": 24,
     "name": "Liz Carpenter",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach RC",
     "time": "00:48:53"
   },
   {
@@ -22928,7 +22928,7 @@ const relayResults = [
     "km": 8.7,
     "position": 25,
     "name": "Jodi Pontin",
-    "club": "Islwyn B",
+    "club": "Islwyn RC",
     "time": "00:49:00"
   },
   {
@@ -22940,7 +22940,7 @@ const relayResults = [
     "km": 8.7,
     "position": 26,
     "name": "Emma Smith",
-    "club": "Aberdare Valley A",
+    "club": "Aberdare",
     "time": "00:49:01"
   },
   {
@@ -22952,7 +22952,7 @@ const relayResults = [
     "km": 8.7,
     "position": 27,
     "name": "Stella Symons",
-    "club": "Fairwater Cwmbran B",
+    "club": "Fairwater Runners",
     "time": "00:49:02"
   },
   {
@@ -22964,584 +22964,8 @@ const relayResults = [
     "km": 8.7,
     "position": 28,
     "name": "Nicola Allford",
-    "club": "Griffithstown A",
+    "club": "Griffithstown Harriers",
     "time": "00:49:03"
-  },
-  {
-    "year": 2018,
-    "stage": 0,
-    "stage_name": "2018 Special Prologue",
-    "cut_off": "01:43:00",
-    "miles": 4.1,
-    "km": 6.6,
-    "position": 1,
-    "name": "2018 RACK",
-    "club": "RAID",
-    "time": "01:09:22"
-  },
-  {
-    "year": 2018,
-    "stage": 0,
-    "stage_name": "2018 Special Prologue",
-    "cut_off": "01:43:00",
-    "miles": 4.1,
-    "km": 6.6,
-    "position": 2,
-    "name": "BRACKLA HARRIERS",
-    "club": "Iestyn (03)",
-    "time": "01:10:31"
-  },
-  {
-    "year": 2018,
-    "stage": 0,
-    "stage_name": "2018 Special Prologue",
-    "cut_off": "01:43:00",
-    "miles": 4.1,
-    "km": 6.6,
-    "position": 3,
-    "name": "CAERLEON RUNNING",
-    "club": "Gareth (04)",
-    "time": "01:14:07"
-  },
-  {
-    "year": 2018,
-    "stage": 0,
-    "stage_name": "2018 Special Prologue",
-    "cut_off": "01:43:00",
-    "miles": 4.1,
-    "km": 6.6,
-    "position": 4,
-    "name": "CAERPHILLY RUNNERS",
-    "club": "Lee Mills (05)",
-    "time": "01:14:35"
-  },
-  {
-    "year": 2018,
-    "stage": 0,
-    "stage_name": "2018 Special Prologue",
-    "cut_off": "01:43:00",
-    "miles": 4.1,
-    "km": 6.6,
-    "position": 5,
-    "name": "CALDICOT RUNNING",
-    "club": "David (06)",
-    "time": "01:14:56"
-  },
-  {
-    "year": 2018,
-    "stage": 0,
-    "stage_name": "2018 Special Prologue",
-    "cut_off": "01:43:00",
-    "miles": 4.1,
-    "km": 6.6,
-    "position": 6,
-    "name": "CHEPSTOW HARRIERS",
-    "club": "Josh (07)",
-    "time": "01:15:55"
-  },
-  {
-    "year": 2018,
-    "stage": 0,
-    "stage_name": "2018 Special Prologue",
-    "cut_off": "01:43:00",
-    "miles": 4.1,
-    "km": 6.6,
-    "position": 7,
-    "name": "FAIRWATER RUNNERS",
-    "club": "CWMBRAN (08)",
-    "time": "01:17:21"
-  },
-  {
-    "year": 2018,
-    "stage": 0,
-    "stage_name": "2018 Special Prologue",
-    "cut_off": "01:43:00",
-    "miles": 4.1,
-    "km": 6.6,
-    "position": 8,
-    "name": "GRIFFITHSTOWN HARRIERS",
-    "club": "Martin (09)",
-    "time": "01:18:22"
-  },
-  {
-    "year": 2018,
-    "stage": 0,
-    "stage_name": "2018 Special Prologue",
-    "cut_off": "01:43:00",
-    "miles": 4.1,
-    "km": 6.6,
-    "position": 9,
-    "name": "ISLWYN RUNNING",
-    "club": "Gwyn (10)",
-    "time": "01:18:49"
-  },
-  {
-    "year": 2018,
-    "stage": 0,
-    "stage_name": "2018 Special Prologue",
-    "cut_off": "01:43:00",
-    "miles": 4.1,
-    "km": 6.6,
-    "position": 10,
-    "name": "LES CROUPIERS RUNNING",
-    "club": "Paul (11)",
-    "time": "01:19:02"
-  },
-  {
-    "year": 2018,
-    "stage": 0,
-    "stage_name": "2018 Special Prologue",
-    "cut_off": "01:43:00",
-    "miles": 4.1,
-    "km": 6.6,
-    "position": 11,
-    "name": "LLISWERRY RUNNERS",
-    "club": "James (12)",
-    "time": "01:19:33"
-  },
-  {
-    "year": 2018,
-    "stage": 0,
-    "stage_name": "2018 Special Prologue",
-    "cut_off": "01:43:00",
-    "miles": 4.1,
-    "km": 6.6,
-    "position": 12,
-    "name": "PARC BRYN BACH RUNNING",
-    "club": "Michael (13)",
-    "time": "01:19:52"
-  },
-  {
-    "year": 2018,
-    "stage": 0,
-    "stage_name": "2018 Special Prologue",
-    "cut_off": "01:43:00",
-    "miles": 4.1,
-    "km": 6.6,
-    "position": 13,
-    "name": "PEGASUS RUNNING",
-    "club": "Gerard (14)",
-    "time": "01:20:12"
-  },
-  {
-    "year": 2018,
-    "stage": 0,
-    "stage_name": "2018 Special Prologue",
-    "cut_off": "01:43:00",
-    "miles": 4.1,
-    "km": 6.6,
-    "position": 14,
-    "name": "PONTYPRIDD ROADENTS",
-    "club": "Bryan (15)",
-    "time": "01:21:17"
-  },
-  {
-    "year": 2018,
-    "stage": 0,
-    "stage_name": "2018 Special Prologue",
-    "cut_off": "01:43:00",
-    "miles": 4.1,
-    "km": 6.6,
-    "position": 15,
-    "name": "PONT-Y-PWL & DISTRICT",
-    "club": "RUNNERS (16)",
-    "time": "01:21:40"
-  },
-  {
-    "year": 2018,
-    "stage": 0,
-    "stage_name": "2018 Special Prologue",
-    "cut_off": "01:43:00",
-    "miles": 4.1,
-    "km": 6.6,
-    "position": 16,
-    "name": "RHONDDA VALLEY RUNNERS",
-    "club": "Roger (17)",
-    "time": "01:28:03"
-  },
-  {
-    "year": 2018,
-    "stage": 0,
-    "stage_name": "2018 Special Prologue",
-    "cut_off": "01:43:00",
-    "miles": 4.1,
-    "km": 6.6,
-    "position": 17,
-    "name": "SAN DOMENICO RUNNING",
-    "club": "Graham (18)",
-    "time": "01:29:49"
-  },
-  {
-    "year": 2018,
-    "stage": 0,
-    "stage_name": "2018 Special Prologue",
-    "cut_off": "01:43:00",
-    "miles": 4.1,
-    "km": 6.6,
-    "position": 18,
-    "name": "SPIRIT OF MONMOUTH",
-    "club": "RUNNING (19)",
-    "time": "01:29:52"
-  },
-  {
-    "year": 2018,
-    "stage": 0,
-    "stage_name": "2018 Special Prologue",
-    "cut_off": "01:43:00",
-    "miles": 4.1,
-    "km": 6.6,
-    "position": 19,
-    "name": "NOTE",
-    "club": "Richard (22)",
-    "time": "01:32:30"
-  },
-  {
-    "year": 2018,
-    "stage": 0,
-    "stage_name": "2018 Special Prologue",
-    "cut_off": "01:43:00",
-    "miles": 4.1,
-    "km": 6.6,
-    "position": 20,
-    "name": "TI E .* (M)",
-    "club": "Individual (23)",
-    "time": "00:00:10"
-  },
-  {
-    "year": 2018,
-    "stage": 0,
-    "stage_name": "2018 Special Prologue",
-    "cut_off": "01:43:00",
-    "miles": 4.1,
-    "km": 6.6,
-    "position": 21,
-    "name": "IN U T E S .* * (M)",
-    "club": "Martyn (24)",
-    "time": "00:03:23"
-  },
-  {
-    "year": 2018,
-    "stage": 0,
-    "stage_name": "2018 Special Prologue",
-    "cut_off": "01:43:00",
-    "miles": 4.1,
-    "km": 6.6,
-    "position": 22,
-    "name": "I N U T E S . *** (M)",
-    "club": "Darren (25)",
-    "time": "00:03:33"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 1,
-    "name": "Cwmbran A 1 Lliswerry",
-    "club": "A",
-    "time": "00:29:02"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 2,
-    "name": "2 Chepstow",
-    "club": "A",
-    "time": "00:31:27"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 3,
-    "name": "District A 3 Pont-y-pwl",
-    "club": "& District A",
-    "time": "00:34:51"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 4,
-    "name": "4 Islwyn A",
-    "club": "Individual",
-    "time": "00:35:13"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 5,
-    "name": "5 Spirit of",
-    "club": "Monmouth A",
-    "time": "00:35:21"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 6,
-    "name": "A 6 Pontypridd",
-    "club": "A",
-    "time": "00:36:33"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 7,
-    "name": "7 Islwyn B",
-    "club": "Individual",
-    "time": "00:37:21"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 8,
-    "name": "8 Brackla A",
-    "club": "Individual",
-    "time": "00:37:46"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 9,
-    "name": "9 Caerphilly",
-    "club": "A",
-    "time": "00:38:01"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 10,
-    "name": "10 Chepstow",
-    "club": "B",
-    "time": "00:38:29"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 11,
-    "name": "11 Les Croupiers",
-    "club": "A",
-    "time": "00:38:36"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 12,
-    "name": "A 12 Fairwater",
-    "club": "Cwmbran A",
-    "time": "00:38:39"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 13,
-    "name": "13 Lliswerry",
-    "club": "B",
-    "time": "00:38:50"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 14,
-    "name": "District B 14 Parc Bryn",
-    "club": "Bach A",
-    "time": "00:38:55"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 15,
-    "name": "Monmouth A 15 Griffithstown",
-    "club": "A",
-    "time": "00:40:00"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 16,
-    "name": "16 San Domenico",
-    "club": "A",
-    "time": "00:40:20"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 17,
-    "name": "A 17 Rhondda",
-    "club": "Valley A",
-    "time": "00:40:21"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 18,
-    "name": "18 Caerleon",
-    "club": "A",
-    "time": "00:40:57"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 19,
-    "name": "19 Pont-y-pwl",
-    "club": "& District B",
-    "time": "00:41:03"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 20,
-    "name": "A 20 Caerphilly",
-    "club": "B",
-    "time": "00:41:07"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 21,
-    "name": "21 Pegasus",
-    "club": "A",
-    "time": "00:41:29"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 22,
-    "name": "22 Caldicot A",
-    "club": "Individual",
-    "time": "00:41:59"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 23,
-    "name": "B 23 Parc Bryn",
-    "club": "Bach B",
-    "time": "00:43:02"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 24,
-    "name": "A 24 Fairwater",
-    "club": "Cwmbran B",
-    "time": "00:46:00"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 25,
-    "name": "Cwmbran B 25 Caerleon",
-    "club": "B",
-    "time": "00:46:01"
-  },
-  {
-    "year": 2018,
-    "stage": 1,
-    "stage_name": "Grosmont to Skenfrith",
-    "cut_off": "00:46:00",
-    "miles": 5.1,
-    "km": 8.2,
-    "position": 26,
-    "name": "26 Pontypridd",
-    "club": "B",
-    "time": "00:46:02"
   },
   {
     "year": 2018,
@@ -23552,7 +22976,7 @@ const relayResults = [
     "km": 11.2,
     "position": 1,
     "name": "Paul Hayward",
-    "club": "Islwyn A (01)",
+    "club": "Islwyn RC",
     "time": "00:46:55"
   },
   {
@@ -23564,7 +22988,7 @@ const relayResults = [
     "km": 11.2,
     "position": 2,
     "name": "Emma Wookey",
-    "club": "Lliswerry A (02)",
+    "club": "Lliswerry Runners",
     "time": "00:47:04"
   },
   {
@@ -23576,7 +23000,7 @@ const relayResults = [
     "km": 11.2,
     "position": 3,
     "name": "Mark Hurford",
-    "club": "Pont-y-pwl & District A Chepstow (03)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:48:02"
   },
   {
@@ -23588,7 +23012,7 @@ const relayResults = [
     "km": 11.2,
     "position": 4,
     "name": "Peter Coles",
-    "club": "Pontypridd A Islwyn A (04)",
+    "club": "Pontypridd Roadents",
     "time": "00:49:37"
   },
   {
@@ -23600,7 +23024,7 @@ const relayResults = [
     "km": 11.2,
     "position": 5,
     "name": "Matt Creed",
-    "club": "Lliswerry B Pontypridd (05)",
+    "club": "Lliswerry Runners",
     "time": "00:49:40"
   },
   {
@@ -23612,7 +23036,7 @@ const relayResults = [
     "km": 11.2,
     "position": 6,
     "name": "Mike Harris",
-    "club": "Caerleon A Lliswerry (06)",
+    "club": "Caerleon RC",
     "time": "00:49:47"
   },
   {
@@ -23624,7 +23048,7 @@ const relayResults = [
     "km": 11.2,
     "position": 7,
     "name": "Dickie Hudd",
-    "club": "Chepstow A Islwyn B (07)",
+    "club": "Chepstow Harriers",
     "time": "00:50:13"
   },
   {
@@ -23636,7 +23060,7 @@ const relayResults = [
     "km": 11.2,
     "position": 8,
     "name": "Andy Ost",
-    "club": "Chepstow B Chepstow (08)",
+    "club": "Chepstow Harriers",
     "time": "00:52:05"
   },
   {
@@ -23648,7 +23072,7 @@ const relayResults = [
     "km": 11.2,
     "position": 9,
     "name": "Luke Hurley",
-    "club": "Islwyn B Caerphilly (09)",
+    "club": "Islwyn RC",
     "time": "00:52:27"
   },
   {
@@ -23660,7 +23084,7 @@ const relayResults = [
     "km": 11.2,
     "position": 10,
     "name": "David Phillips",
-    "club": "Caerphilly A Brackla A (10)",
+    "club": "Caerphilly Runners",
     "time": "00:53:43"
   },
   {
@@ -23672,7 +23096,7 @@ const relayResults = [
     "km": 11.2,
     "position": 11,
     "name": "Gareth Williams",
-    "club": "Parc Bryn Bach A Parc Bryn (11)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:54:39"
   },
   {
@@ -23684,7 +23108,7 @@ const relayResults = [
     "km": 11.2,
     "position": 12,
     "name": "Hywel Williams",
-    "club": "Caerphilly B Spirit of (12)",
+    "club": "Caerphilly Runners",
     "time": "00:54:48"
   },
   {
@@ -23696,7 +23120,7 @@ const relayResults = [
     "km": 11.2,
     "position": 13,
     "name": "Charlotte Johns",
-    "club": "Brackla A Les Croupiers (13)",
+    "club": "Brackla Harriers",
     "time": "00:55:23"
   },
   {
@@ -23708,7 +23132,7 @@ const relayResults = [
     "km": 11.2,
     "position": 14,
     "name": "Delyth Williams",
-    "club": "San Domenico A San (14)",
+    "club": "San Domenico RC",
     "time": "00:56:52"
   },
   {
@@ -23720,7 +23144,7 @@ const relayResults = [
     "km": 11.2,
     "position": 15,
     "name": "Stephen Wood",
-    "club": "Pegasus A Fairwater (15)",
+    "club": "Pegasus RC",
     "time": "00:57:03"
   },
   {
@@ -23732,7 +23156,7 @@ const relayResults = [
     "km": 11.2,
     "position": 16,
     "name": "Rebecca Cox",
-    "club": "Les Croupiers A Caerleon (16)",
+    "club": "Les Croupiers RC",
     "time": "00:58:03"
   },
   {
@@ -23744,7 +23168,7 @@ const relayResults = [
     "km": 11.2,
     "position": 17,
     "name": "Emily Rosa Harrison",
-    "club": "Spirit of Monmouth A Griffithstown (17)",
+    "club": "Spirit of Monmouth",
     "time": "00:58:59"
   },
   {
@@ -23756,7 +23180,7 @@ const relayResults = [
     "km": 11.2,
     "position": 18,
     "name": "Malcolm Reeks",
-    "club": "Caldicot A Caerphilly (18)",
+    "club": "Caldicot RC",
     "time": "00:59:12"
   },
   {
@@ -23768,7 +23192,7 @@ const relayResults = [
     "km": 11.2,
     "position": 19,
     "name": "Chris Carey",
-    "club": "Pont-y-pwl & District B Rhondda (19)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:59:52"
   },
   {
@@ -23780,7 +23204,7 @@ const relayResults = [
     "km": 11.2,
     "position": 20,
     "name": "Matt Gobbett",
-    "club": "Caerleon B (20)",
+    "club": "Caerleon RC",
     "time": "01:00:51"
   },
   {
@@ -23792,7 +23216,7 @@ const relayResults = [
     "km": 11.2,
     "position": 21,
     "name": "Kelly Cameron",
-    "club": "Fairwater (21)",
+    "club": "Fairwater Runners",
     "time": "01:00:59"
   },
   {
@@ -23804,7 +23228,7 @@ const relayResults = [
     "km": 11.2,
     "position": 22,
     "name": "Mark Griffiths",
-    "club": "Rhondda Valley A Caldicot (22)",
+    "club": "Rhondda Valley Runners",
     "time": "01:01:43"
   },
   {
@@ -23816,7 +23240,7 @@ const relayResults = [
     "km": 11.2,
     "position": 23,
     "name": "Rhiannon Thomas",
-    "club": "Fairwater Cwmbran B Parc Bryn (23)",
+    "club": "Fairwater Runners",
     "time": "01:02:00"
   },
   {
@@ -23828,7 +23252,7 @@ const relayResults = [
     "km": 11.2,
     "position": 24,
     "name": "Darren Swift",
-    "club": "Parc Bryn Bach B Caerleon (24)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:02:01"
   },
   {
@@ -23840,7 +23264,7 @@ const relayResults = [
     "km": 11.2,
     "position": 25,
     "name": "Keren Beard",
-    "club": "Griffithstown A Fairwater (25)",
+    "club": "Griffithstown Harriers",
     "time": "01:02:02"
   },
   {
@@ -23852,7 +23276,7 @@ const relayResults = [
     "km": 11.2,
     "position": 26,
     "name": "Lisa Williams",
-    "club": "Pontypridd B (26)",
+    "club": "Pontypridd Roadents",
     "time": "01:02:03"
   },
   {
@@ -23864,7 +23288,7 @@ const relayResults = [
     "km": 12.1,
     "position": 1,
     "name": "Christopher Jeynes",
-    "club": "Brackla A Lliswerry (01)",
+    "club": "Brackla Harriers",
     "time": "00:48:27"
   },
   {
@@ -23876,7 +23300,7 @@ const relayResults = [
     "km": 12.1,
     "position": 2,
     "name": "Steve Davies",
-    "club": "Pont-y-pwl & District A Pont-y-pwl (02)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:49:17"
   },
   {
@@ -23888,7 +23312,7 @@ const relayResults = [
     "km": 12.1,
     "position": 3,
     "name": "James Tucker",
-    "club": "Chepstow A Chepstow (03)",
+    "club": "Chepstow Harriers",
     "time": "00:50:18"
   },
   {
@@ -23900,7 +23324,7 @@ const relayResults = [
     "km": 12.1,
     "position": 4,
     "name": "Jeremy Masters",
-    "club": "Spirit of Monmouth A Pontypridd (04)",
+    "club": "Spirit of Monmouth",
     "time": "00:50:55"
   },
   {
@@ -23912,7 +23336,7 @@ const relayResults = [
     "km": 12.1,
     "position": 5,
     "name": "Mark Hobbs",
-    "club": "Griffithstown A Islwyn (05)",
+    "club": "Griffithstown Harriers",
     "time": "00:51:07"
   },
   {
@@ -23924,7 +23348,7 @@ const relayResults = [
     "km": 12.1,
     "position": 6,
     "name": "James Horner",
-    "club": "Les Croupiers A Brackla (06)",
+    "club": "Les Croupiers RC",
     "time": "00:52:55"
   },
   {
@@ -23936,7 +23360,7 @@ const relayResults = [
     "km": 12.1,
     "position": 7,
     "name": "Kristie OConnell",
-    "club": "Pontypridd A Chepstow (07)",
+    "club": "Pontypridd Roadents",
     "time": "00:53:13"
   },
   {
@@ -23948,7 +23372,7 @@ const relayResults = [
     "km": 12.1,
     "position": 8,
     "name": "Sarah Lauder",
-    "club": "Lliswerry A Lliswerry (08)",
+    "club": "Lliswerry Runners",
     "time": "00:53:42"
   },
   {
@@ -23960,7 +23384,7 @@ const relayResults = [
     "km": 12.1,
     "position": 9,
     "name": "Steve Owen",
-    "club": "Chepstow B Spirit of (09)",
+    "club": "Chepstow Harriers",
     "time": "00:53:46"
   },
   {
@@ -23972,7 +23396,7 @@ const relayResults = [
     "km": 12.1,
     "position": 10,
     "name": "Simon Cartlidge",
-    "club": "San Domenico A Caerphilly (10)",
+    "club": "San Domenico RC",
     "time": "00:55:30"
   },
   {
@@ -23984,7 +23408,7 @@ const relayResults = [
     "km": 12.1,
     "position": 11,
     "name": "Stuart Lukins",
-    "club": "Lliswerry B Les (11)",
+    "club": "Lliswerry Runners",
     "time": "00:55:49"
   },
   {
@@ -23996,7 +23420,7 @@ const relayResults = [
     "km": 12.1,
     "position": 12,
     "name": "Lowenna Taylor",
-    "club": "Caerleon A Griffithstown (12)",
+    "club": "Caerleon RC",
     "time": "00:56:35"
   },
   {
@@ -24008,7 +23432,7 @@ const relayResults = [
     "km": 12.1,
     "position": 13,
     "name": "Kelly Wall",
-    "club": "Islwyn A San (13)",
+    "club": "Islwyn RC",
     "time": "00:56:54"
   },
   {
@@ -24020,7 +23444,7 @@ const relayResults = [
     "km": 12.1,
     "position": 14,
     "name": "Sian Rees",
-    "club": "Caerphilly A Islwyn (14)",
+    "club": "Caerphilly Runners",
     "time": "00:57:04"
   },
   {
@@ -24032,7 +23456,7 @@ const relayResults = [
     "km": 12.1,
     "position": 15,
     "name": "Emma Price",
-    "club": "Fairwater Cwmbran A Parc Bryn (15)",
+    "club": "Fairwater Runners",
     "time": "00:57:05"
   },
   {
@@ -24044,7 +23468,7 @@ const relayResults = [
     "km": 12.1,
     "position": 16,
     "name": "Amy Edwards",
-    "club": "Rhondda Valley A Caerleon (16)",
+    "club": "Rhondda Valley Runners",
     "time": "00:57:15"
   },
   {
@@ -24056,7 +23480,7 @@ const relayResults = [
     "km": 12.1,
     "position": 17,
     "name": "Nicola Smith",
-    "club": "Pont-y-pwl & District B Fairwater (17)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:59:43"
   },
   {
@@ -24068,7 +23492,7 @@ const relayResults = [
     "km": 12.1,
     "position": 18,
     "name": "Sarah Coote",
-    "club": "Parc Bryn Bach A Rhondda (18)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:00:02"
   },
   {
@@ -24080,7 +23504,7 @@ const relayResults = [
     "km": 12.1,
     "position": 19,
     "name": "Kimberley Price",
-    "club": "Parc Bryn Bach B Pont-y-pwl (19)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:01:55"
   },
   {
@@ -24092,7 +23516,7 @@ const relayResults = [
     "km": 12.1,
     "position": 20,
     "name": "Charlotte Moran",
-    "club": "Caerleon B (20)",
+    "club": "Caerleon RC",
     "time": "01:02:52"
   },
   {
@@ -24104,7 +23528,7 @@ const relayResults = [
     "km": 12.1,
     "position": 21,
     "name": "Lowri Williams",
-    "club": "Islwyn B Pegasus (21)",
+    "club": "Islwyn RC",
     "time": "01:04:35"
   },
   {
@@ -24116,7 +23540,7 @@ const relayResults = [
     "km": 12.1,
     "position": 22,
     "name": "Jen Williams",
-    "club": "Caerphilly B Parc Bryn (22)",
+    "club": "Caerphilly Runners",
     "time": "01:07:34"
   },
   {
@@ -24128,7 +23552,7 @@ const relayResults = [
     "km": 12.1,
     "position": 23,
     "name": "Bretti Paxton",
-    "club": "Pontypridd B Caerleon (23)",
+    "club": "Pontypridd Roadents",
     "time": "01:08:00"
   },
   {
@@ -24140,7 +23564,7 @@ const relayResults = [
     "km": 12.1,
     "position": 24,
     "name": "Jenna Groves",
-    "club": "Pegasus A Caldicot (24)",
+    "club": "Pegasus RC",
     "time": "01:08:01"
   },
   {
@@ -24152,7 +23576,7 @@ const relayResults = [
     "km": 12.1,
     "position": 25,
     "name": "Kate Palfrey",
-    "club": "Fairwater Cwmbran B Fairwater (25)",
+    "club": "Fairwater Runners",
     "time": "01:08:02"
   },
   {
@@ -24164,7 +23588,7 @@ const relayResults = [
     "km": 12.1,
     "position": 26,
     "name": "DNF",
-    "club": "Caldicot A Pontypridd (26)",
+    "club": "Caldicot RC",
     "time": "01:18:00"
   },
   {
@@ -24176,7 +23600,7 @@ const relayResults = [
     "km": 10.8,
     "position": 1,
     "name": "Laurent Bono",
-    "club": "Les Croupiers A Lliswerry (01)",
+    "club": "Les Croupiers RC",
     "time": "00:43:04"
   },
   {
@@ -24188,7 +23612,7 @@ const relayResults = [
     "km": 10.8,
     "position": 2,
     "name": "Faye Johnson",
-    "club": "Pont-y-pwl & District A Pont-y-pwl (02)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:44:45"
   },
   {
@@ -24200,7 +23624,7 @@ const relayResults = [
     "km": 10.8,
     "position": 3,
     "name": "Sandra Chipper",
-    "club": "Lliswerry A Chepstow (03)",
+    "club": "Lliswerry Runners",
     "time": "00:45:42"
   },
   {
@@ -24212,7 +23636,7 @@ const relayResults = [
     "km": 10.8,
     "position": 4,
     "name": "Paul Dodd",
-    "club": "Chepstow A Islwyn A (04)",
+    "club": "Chepstow Harriers",
     "time": "00:45:58"
   },
   {
@@ -24224,7 +23648,7 @@ const relayResults = [
     "km": 10.8,
     "position": 5,
     "name": "John Seaward",
-    "club": "Caerphilly A Pontypridd (05)",
+    "club": "Caerphilly Runners",
     "time": "00:47:31"
   },
   {
@@ -24236,7 +23660,7 @@ const relayResults = [
     "km": 10.8,
     "position": 6,
     "name": "David Waters",
-    "club": "Islwyn A Les (06)",
+    "club": "Islwyn RC",
     "time": "00:48:45"
   },
   {
@@ -24248,7 +23672,7 @@ const relayResults = [
     "km": 10.8,
     "position": 7,
     "name": "Richard Williams",
-    "club": "Rhondda Valley A Spirit of (07)",
+    "club": "Rhondda Valley Runners",
     "time": "00:48:58"
   },
   {
@@ -24260,7 +23684,7 @@ const relayResults = [
     "km": 10.8,
     "position": 8,
     "name": "Sharon Newell",
-    "club": "Parc Bryn Bach A Caerphilly (08)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:49:23"
   },
   {
@@ -24272,7 +23696,7 @@ const relayResults = [
     "km": 10.8,
     "position": 9,
     "name": "George Smith",
-    "club": "Spirit of Monmouth A Brackla (09)",
+    "club": "Spirit of Monmouth",
     "time": "00:49:26"
   },
   {
@@ -24284,7 +23708,7 @@ const relayResults = [
     "km": 10.8,
     "position": 10,
     "name": "Owen Staddon",
-    "club": "Caldicot A Chepstow (10)",
+    "club": "Caldicot RC",
     "time": "00:50:37"
   },
   {
@@ -24296,7 +23720,7 @@ const relayResults = [
     "km": 10.8,
     "position": 11,
     "name": "Eleanor Lacey",
-    "club": "San Domenico A Lliswerry (11)",
+    "club": "San Domenico RC",
     "time": "00:51:25"
   },
   {
@@ -24308,7 +23732,7 @@ const relayResults = [
     "km": 10.8,
     "position": 12,
     "name": "Stephanie Davies",
-    "club": "Pontypridd A Parc Bryn (12)",
+    "club": "Pontypridd Roadents",
     "time": "00:52:16"
   },
   {
@@ -24320,7 +23744,7 @@ const relayResults = [
     "km": 10.8,
     "position": 13,
     "name": "Matt Tooby",
-    "club": "Caerleon A San (13)",
+    "club": "Caerleon RC",
     "time": "00:53:13"
   },
   {
@@ -24332,7 +23756,7 @@ const relayResults = [
     "km": 10.8,
     "position": 14,
     "name": "Lee Phillips",
-    "club": "Parc Bryn Bach B Caerleon (14)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:53:24"
   },
   {
@@ -24344,7 +23768,7 @@ const relayResults = [
     "km": 10.8,
     "position": 15,
     "name": "Lisa Jeffrey",
-    "club": "Chepstow B Fairwater (15)",
+    "club": "Chepstow Harriers",
     "time": "00:54:22"
   },
   {
@@ -24356,7 +23780,7 @@ const relayResults = [
     "km": 10.8,
     "position": 16,
     "name": "Keith Langley",
-    "club": "Pont-y-pwl & District B Griffithstown (16)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:54:40"
   },
   {
@@ -24368,7 +23792,7 @@ const relayResults = [
     "km": 10.8,
     "position": 17,
     "name": "Leonie Roberts",
-    "club": "Fairwater Cwmbran A Rhondda (17)",
+    "club": "Fairwater Runners",
     "time": "00:55:24"
   },
   {
@@ -24380,7 +23804,7 @@ const relayResults = [
     "km": 10.8,
     "position": 18,
     "name": "Richard Hazell",
-    "club": "Caerphilly B Islwyn B (18)",
+    "club": "Caerphilly Runners",
     "time": "00:55:54"
   },
   {
@@ -24392,7 +23816,7 @@ const relayResults = [
     "km": 10.8,
     "position": 19,
     "name": "Jen OBrien",
-    "club": "Brackla A Pont-y-pwl (19)",
+    "club": "Brackla Harriers",
     "time": "00:56:50"
   },
   {
@@ -24404,7 +23828,7 @@ const relayResults = [
     "km": 10.8,
     "position": 20,
     "name": "Janet Richards",
-    "club": "Lliswerry B Caerphilly (20)",
+    "club": "Lliswerry Runners",
     "time": "00:58:01"
   },
   {
@@ -24416,7 +23840,7 @@ const relayResults = [
     "km": 10.8,
     "position": 21,
     "name": "Andrew Reynolds",
-    "club": "Pontypridd B Parc Bryn (21)",
+    "club": "Pontypridd Roadents",
     "time": "01:00:01"
   },
   {
@@ -24428,7 +23852,7 @@ const relayResults = [
     "km": 10.8,
     "position": 22,
     "name": "Joanne East",
-    "club": "Pegasus A Pegasus (22)",
+    "club": "Pegasus RC",
     "time": "01:00:06"
   },
   {
@@ -24440,7 +23864,7 @@ const relayResults = [
     "km": 10.8,
     "position": 23,
     "name": "Natalie Walker",
-    "club": "Caerleon B Caldicot (23)",
+    "club": "Caerleon RC",
     "time": "01:01:00"
   },
   {
@@ -24452,7 +23876,7 @@ const relayResults = [
     "km": 10.8,
     "position": 24,
     "name": "Peter Colbourne",
-    "club": "Fairwater Cwmbran B Caerleon (24)",
+    "club": "Fairwater Runners",
     "time": "01:01:01"
   },
   {
@@ -24464,7 +23888,7 @@ const relayResults = [
     "km": 10.8,
     "position": 25,
     "name": "Jenny Bradfield",
-    "club": "Griffithstown A Fairwater (25)",
+    "club": "Griffithstown Harriers",
     "time": "01:01:02"
   },
   {
@@ -24476,7 +23900,7 @@ const relayResults = [
     "km": 10.8,
     "position": 26,
     "name": "DNF",
-    "club": "Islwyn B Pontypridd (26)",
+    "club": "Islwyn RC",
     "time": "01:11:00"
   },
   {
@@ -24488,7 +23912,7 @@ const relayResults = [
     "km": 13.0,
     "position": 1,
     "name": "Alistair Downes",
-    "club": "San Domenico A Pont-y-pwl (01)",
+    "club": "San Domenico RC",
     "time": "00:48:44"
   },
   {
@@ -24500,7 +23924,7 @@ const relayResults = [
     "km": 13.0,
     "position": 2,
     "name": "Dave Richardson",
-    "club": "Pont-y-pwl & District A Lliswerry (02)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:52:26"
   },
   {
@@ -24512,7 +23936,7 @@ const relayResults = [
     "km": 13.0,
     "position": 3,
     "name": "Matt Hopkins",
-    "club": "Les Croupiers A Chepstow (03)",
+    "club": "Les Croupiers RC",
     "time": "00:52:43"
   },
   {
@@ -24524,7 +23948,7 @@ const relayResults = [
     "km": 13.0,
     "position": 4,
     "name": "Jonathan Carter",
-    "club": "Chepstow A Les (04)",
+    "club": "Chepstow Harriers",
     "time": "00:52:51"
   },
   {
@@ -24536,7 +23960,7 @@ const relayResults = [
     "km": 13.0,
     "position": 5,
     "name": "David Jacob",
-    "club": "Lliswerry A Islwyn (05)",
+    "club": "Lliswerry Runners",
     "time": "00:54:18"
   },
   {
@@ -24548,7 +23972,7 @@ const relayResults = [
     "km": 13.0,
     "position": 6,
     "name": "Sam Howell-Jones",
-    "club": "Pontypridd A Pontypridd (06)",
+    "club": "Pontypridd Roadents",
     "time": "00:56:42"
   },
   {
@@ -24560,7 +23984,7 @@ const relayResults = [
     "km": 13.0,
     "position": 7,
     "name": "Rob Witherall",
-    "club": "Griffithstown A San (07)",
+    "club": "Griffithstown Harriers",
     "time": "00:57:53"
   },
   {
@@ -24572,7 +23996,7 @@ const relayResults = [
     "km": 13.0,
     "position": 8,
     "name": "Mark Lamorte",
-    "club": "Caerphilly A Caerphilly (08)",
+    "club": "Caerphilly Runners",
     "time": "00:58:02"
   },
   {
@@ -24584,7 +24008,7 @@ const relayResults = [
     "km": 13.0,
     "position": 9,
     "name": "Matt Mulcahy",
-    "club": "Caerleon A Chepstow (09)",
+    "club": "Caerleon RC",
     "time": "00:58:56"
   },
   {
@@ -24596,7 +24020,7 @@ const relayResults = [
     "km": 13.0,
     "position": 10,
     "name": "Matthew Lawson",
-    "club": "Chepstow B Spirit (10)",
+    "club": "Chepstow Harriers",
     "time": "01:00:06"
   },
   {
@@ -24608,7 +24032,7 @@ const relayResults = [
     "km": 13.0,
     "position": 11,
     "name": "Jackie Hartwell",
-    "club": "Islwyn A Lliswerry (11)",
+    "club": "Islwyn RC",
     "time": "01:00:09"
   },
   {
@@ -24620,7 +24044,7 @@ const relayResults = [
     "km": 13.0,
     "position": 12,
     "name": "Lubi Ford",
-    "club": "Pont-y-pwl & District B Brackla (12)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:01:31"
   },
   {
@@ -24632,7 +24056,7 @@ const relayResults = [
     "km": 13.0,
     "position": 13,
     "name": "Neil Profit",
-    "club": "Islwyn B Caerleon (13)",
+    "club": "Islwyn RC",
     "time": "01:02:27"
   },
   {
@@ -24644,7 +24068,7 @@ const relayResults = [
     "km": 13.0,
     "position": 14,
     "name": "Marina Wright",
-    "club": "Lliswerry B Parc (14)",
+    "club": "Lliswerry Runners",
     "time": "01:03:41"
   },
   {
@@ -24656,7 +24080,7 @@ const relayResults = [
     "km": 13.0,
     "position": 15,
     "name": "Andrew Meadows",
-    "club": "Parc Bryn Bach B Griffithstown (15)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:05:22"
   },
   {
@@ -24668,7 +24092,7 @@ const relayResults = [
     "km": 13.0,
     "position": 16,
     "name": "Andrew Lockett",
-    "club": "Rhondda Valley A Fairwater (16)",
+    "club": "Rhondda Valley Runners",
     "time": "01:05:27"
   },
   {
@@ -24680,7 +24104,7 @@ const relayResults = [
     "km": 13.0,
     "position": 17,
     "name": "Neil Fitzgerald",
-    "club": "Pontypridd B Rhondda (17)",
+    "club": "Pontypridd Roadents",
     "time": "01:05:42"
   },
   {
@@ -24692,7 +24116,7 @@ const relayResults = [
     "km": 13.0,
     "position": 18,
     "name": "Simon Williams",
-    "club": "Caerphilly B Islwyn (18)",
+    "club": "Caerphilly Runners",
     "time": "01:05:50"
   },
   {
@@ -24704,7 +24128,7 @@ const relayResults = [
     "km": 13.0,
     "position": 19,
     "name": "Emma King",
-    "club": "Spirit of Monmouth A Pont-y-pwl (19)",
+    "club": "Spirit of Monmouth",
     "time": "01:06:43"
   },
   {
@@ -24716,7 +24140,7 @@ const relayResults = [
     "km": 13.0,
     "position": 20,
     "name": "Jeanette Jenkins",
-    "club": "Fairwater Cwmbran A Caerphilly (20)",
+    "club": "Fairwater Runners",
     "time": "01:06:49"
   },
   {
@@ -24728,7 +24152,7 @@ const relayResults = [
     "km": 13.0,
     "position": 21,
     "name": "Kerstin Fitzpatrick",
-    "club": "Fairwater (21)",
+    "club": "Fairwater Runners",
     "time": "01:06:50"
   },
   {
@@ -24740,7 +24164,7 @@ const relayResults = [
     "km": 13.0,
     "position": 22,
     "name": "Christopher Gosling",
-    "club": "Pegasus A Pegasus (22)",
+    "club": "Pegasus RC",
     "time": "01:06:58"
   },
   {
@@ -24752,7 +24176,7 @@ const relayResults = [
     "km": 13.0,
     "position": 23,
     "name": "Dave Wherry",
-    "club": "Caldicot A Caldicot (23)",
+    "club": "Caldicot RC",
     "time": "01:08:10"
   },
   {
@@ -24764,7 +24188,7 @@ const relayResults = [
     "km": 13.0,
     "position": 24,
     "name": "Darren Kippest",
-    "club": "Parc Bryn Bach A Fairwater (24)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:08:11"
   },
   {
@@ -24776,7 +24200,7 @@ const relayResults = [
     "km": 13.0,
     "position": 25,
     "name": "Roland Matthew",
-    "club": "Brackla A Caerleon (25)",
+    "club": "Brackla Harriers",
     "time": "01:08:59"
   },
   {
@@ -24788,7 +24212,7 @@ const relayResults = [
     "km": 13.0,
     "position": 26,
     "name": "Mark Alford",
-    "club": "Caerleon B Pontypridd (26)",
+    "club": "Caerleon RC",
     "time": "01:13:00"
   },
   {
@@ -24800,7 +24224,7 @@ const relayResults = [
     "km": 20.3,
     "position": 1,
     "name": "Martyn Winser",
-    "club": "Chepstow A Lliswerry (01)",
+    "club": "Chepstow Harriers",
     "time": "01:21:35"
   },
   {
@@ -24812,7 +24236,7 @@ const relayResults = [
     "km": 20.3,
     "position": 2,
     "name": "Jon Belcher",
-    "club": "Lliswerry A (02)",
+    "club": "Lliswerry Runners",
     "time": "01:22:46"
   },
   {
@@ -24824,7 +24248,7 @@ const relayResults = [
     "km": 20.3,
     "position": 3,
     "name": "Dave Hughes",
-    "club": "Pont-y-pwl & District A Chepstow (03)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:24:49"
   },
   {
@@ -24836,7 +24260,7 @@ const relayResults = [
     "km": 20.3,
     "position": 4,
     "name": "Rob Nicholls",
-    "club": "Spirit of Monmouth A Les (04)",
+    "club": "Spirit of Monmouth",
     "time": "01:25:15"
   },
   {
@@ -24848,7 +24272,7 @@ const relayResults = [
     "km": 20.3,
     "position": 5,
     "name": "C.J. De Mooi",
-    "club": "Caldicot A Pontypridd (05)",
+    "club": "Caldicot RC",
     "time": "01:25:30"
   },
   {
@@ -24860,7 +24284,7 @@ const relayResults = [
     "km": 20.3,
     "position": 6,
     "name": "Melaine Williams",
-    "club": "Brackla A Islwyn (06)",
+    "club": "Brackla Harriers",
     "time": "01:28:28"
   },
   {
@@ -24872,7 +24296,7 @@ const relayResults = [
     "km": 20.3,
     "position": 7,
     "name": "Gareth Jones",
-    "club": "Pontypridd A Caerphilly (07)",
+    "club": "Pontypridd Roadents",
     "time": "01:28:54"
   },
   {
@@ -24884,7 +24308,7 @@ const relayResults = [
     "km": 20.3,
     "position": 8,
     "name": "Rob Bickel",
-    "club": "Caerleon A San (08)",
+    "club": "Caerleon RC",
     "time": "01:30:08"
   },
   {
@@ -24896,7 +24320,7 @@ const relayResults = [
     "km": 20.3,
     "position": 9,
     "name": "Steve Payne",
-    "club": "Caerphilly A Spirit (09)",
+    "club": "Caerphilly Runners",
     "time": "01:30:28"
   },
   {
@@ -24908,7 +24332,7 @@ const relayResults = [
     "km": 20.3,
     "position": 10,
     "name": "Neema Mal",
-    "club": "Les Croupiers A Brackla (10)",
+    "club": "Les Croupiers RC",
     "time": "01:30:47"
   },
   {
@@ -24920,7 +24344,7 @@ const relayResults = [
     "km": 20.3,
     "position": 11,
     "name": "Dai Gibbins",
-    "club": "Islwyn A Caerleon (11)",
+    "club": "Islwyn RC",
     "time": "01:31:09"
   },
   {
@@ -24932,7 +24356,7 @@ const relayResults = [
     "km": 20.3,
     "position": 12,
     "name": "Richie Mann",
-    "club": "San Domenico A Chepstow (12)",
+    "club": "San Domenico RC",
     "time": "01:32:33"
   },
   {
@@ -24944,7 +24368,7 @@ const relayResults = [
     "km": 20.3,
     "position": 13,
     "name": "Nick Walsh",
-    "club": "Griffithstown A (13)",
+    "club": "Griffithstown Harriers",
     "time": "01:32:40"
   },
   {
@@ -24956,7 +24380,7 @@ const relayResults = [
     "km": 20.3,
     "position": 14,
     "name": "Jonathan Furminger",
-    "club": "Pegasus A Parc (14)",
+    "club": "Pegasus RC",
     "time": "01:32:56"
   },
   {
@@ -24968,7 +24392,7 @@ const relayResults = [
     "km": 20.3,
     "position": 15,
     "name": "Carl Fellows",
-    "club": "Caerphilly B Lliswerry (15)",
+    "club": "Caerphilly Runners",
     "time": "01:34:15"
   },
   {
@@ -24980,7 +24404,7 @@ const relayResults = [
     "km": 20.3,
     "position": 16,
     "name": "Michael Matthews",
-    "club": "Parc Bryn Bach A Fairwater (16)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:35:02"
   },
   {
@@ -24992,7 +24416,7 @@ const relayResults = [
     "km": 20.3,
     "position": 17,
     "name": "Simon Burns",
-    "club": "Fairwater Cwmbran A Rhondda (17)",
+    "club": "Fairwater Runners",
     "time": "01:37:21"
   },
   {
@@ -25004,7 +24428,7 @@ const relayResults = [
     "km": 20.3,
     "position": 18,
     "name": "Ieuan Kingston",
-    "club": "Pont-y-pwl & District B Pont-y-pwl (18)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:39:01"
   },
   {
@@ -25016,7 +24440,7 @@ const relayResults = [
     "km": 20.3,
     "position": 19,
     "name": "Ross Walker",
-    "club": "Chepstow B Islwyn (19)",
+    "club": "Chepstow Harriers",
     "time": "01:39:55"
   },
   {
@@ -25028,7 +24452,7 @@ const relayResults = [
     "km": 20.3,
     "position": 20,
     "name": "Ryan Evans",
-    "club": "Rhondda Valley A Caerphilly (20)",
+    "club": "Rhondda Valley Runners",
     "time": "01:40:03"
   },
   {
@@ -25040,7 +24464,7 @@ const relayResults = [
     "km": 20.3,
     "position": 21,
     "name": "Russell Wareham",
-    "club": "Islwyn B Caldicot (21)",
+    "club": "Islwyn RC",
     "time": "01:40:51"
   },
   {
@@ -25052,7 +24476,7 @@ const relayResults = [
     "km": 20.3,
     "position": 22,
     "name": "Jim Murray",
-    "club": "Pontypridd B Pegasus (22)",
+    "club": "Pontypridd Roadents",
     "time": "01:42:31"
   },
   {
@@ -25064,7 +24488,7 @@ const relayResults = [
     "km": 20.3,
     "position": 23,
     "name": "Mark Faulkner",
-    "club": "Lliswerry B Parc (23)",
+    "club": "Lliswerry Runners",
     "time": "01:45:14"
   },
   {
@@ -25076,7 +24500,7 @@ const relayResults = [
     "km": 20.3,
     "position": 24,
     "name": "Mike Thurgood",
-    "club": "Caerleon B Pontypridd (24)",
+    "club": "Caerleon RC",
     "time": "01:50:00"
   },
   {
@@ -25088,7 +24512,7 @@ const relayResults = [
     "km": 20.3,
     "position": 25,
     "name": "Claire Sullivan",
-    "club": "Parc Bryn Bach B Caerleon (25)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:50:35"
   },
   {
@@ -25100,7 +24524,7 @@ const relayResults = [
     "km": 20.3,
     "position": 26,
     "name": "Ziggy",
-    "club": "Fairwater Cwmbran B Fairwater (26)",
+    "club": "Fairwater Runners",
     "time": "01:54:00"
   },
   {
@@ -25112,7 +24536,7 @@ const relayResults = [
     "km": 8.9,
     "position": 1,
     "name": "Niki Morgan",
-    "club": "Chepstow A Lliswerry (01)",
+    "club": "Chepstow Harriers",
     "time": "00:36:06"
   },
   {
@@ -25124,7 +24548,7 @@ const relayResults = [
     "km": 8.9,
     "position": 2,
     "name": "Nicky Collin",
-    "club": "Lliswerry A (02)",
+    "club": "Lliswerry Runners",
     "time": "00:36:39"
   },
   {
@@ -25136,7 +24560,7 @@ const relayResults = [
     "km": 8.9,
     "position": 3,
     "name": "Harri Like",
-    "club": "Pont-y-pwl & District A Pont-y-pwl (03)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:38:08"
   },
   {
@@ -25148,7 +24572,7 @@ const relayResults = [
     "km": 8.9,
     "position": 4,
     "name": "Vanessa Lawson",
-    "club": "Chepstow B Les Croupiers (04)",
+    "club": "Chepstow Harriers",
     "time": "00:41:55"
   },
   {
@@ -25160,7 +24584,7 @@ const relayResults = [
     "km": 8.9,
     "position": 5,
     "name": "Katrina Edmonds-Daniel",
-    "club": "Caerphilly A Pontypridd (05)",
+    "club": "Caerphilly Runners",
     "time": "00:42:13"
   },
   {
@@ -25172,7 +24596,7 @@ const relayResults = [
     "km": 8.9,
     "position": 6,
     "name": "Lucy MacDonald",
-    "club": "Spirit of Monmouth A Islwyn A (06)",
+    "club": "Spirit of Monmouth",
     "time": "00:42:18"
   },
   {
@@ -25184,7 +24608,7 @@ const relayResults = [
     "km": 8.9,
     "position": 7,
     "name": "Martyn Jones",
-    "club": "Lliswerry B Caerphilly (07)",
+    "club": "Lliswerry Runners",
     "time": "00:42:44"
   },
   {
@@ -25196,7 +24620,7 @@ const relayResults = [
     "km": 8.9,
     "position": 8,
     "name": "Ruth Deards",
-    "club": "Les Croupiers A Spirit of (08)",
+    "club": "Les Croupiers RC",
     "time": "00:44:06"
   },
   {
@@ -25208,7 +24632,7 @@ const relayResults = [
     "km": 8.9,
     "position": 9,
     "name": "Hannah Withers",
-    "club": "San Domenico A San Domenico (09)",
+    "club": "San Domenico RC",
     "time": "00:44:33"
   },
   {
@@ -25220,7 +24644,7 @@ const relayResults = [
     "km": 8.9,
     "position": 10,
     "name": "Bethan Ford",
-    "club": "Pontypridd A Chepstow (10)",
+    "club": "Pontypridd Roadents",
     "time": "00:44:48"
   },
   {
@@ -25232,7 +24656,7 @@ const relayResults = [
     "km": 8.9,
     "position": 11,
     "name": "Liz Walsh",
-    "club": "Fairwater Cwmbran A Brackla A (11)",
+    "club": "Fairwater Runners",
     "time": "00:45:44"
   },
   {
@@ -25244,7 +24668,7 @@ const relayResults = [
     "km": 8.9,
     "position": 12,
     "name": "Hayley Jackson",
-    "club": "Parc Bryn Bach A Parc Bryn (12)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:45:55"
   },
   {
@@ -25256,7 +24680,7 @@ const relayResults = [
     "km": 8.9,
     "position": 13,
     "name": "Cassie Jones",
-    "club": "Islwyn B Lliswerry (13)",
+    "club": "Islwyn RC",
     "time": "00:46:32"
   },
   {
@@ -25268,7 +24692,7 @@ const relayResults = [
     "km": 8.9,
     "position": 14,
     "name": "Sara Arnold",
-    "club": "Islwyn A Griffithstown (14)",
+    "club": "Islwyn RC",
     "time": "00:46:33"
   },
   {
@@ -25280,7 +24704,7 @@ const relayResults = [
     "km": 8.9,
     "position": 15,
     "name": "Marie Hurford",
-    "club": "Pont-y-pwl & District B Caerleon (15)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:47:22"
   },
   {
@@ -25292,7 +24716,7 @@ const relayResults = [
     "km": 8.9,
     "position": 16,
     "name": "Sally Groves",
-    "club": "Pegasus A Fairwater (16)",
+    "club": "Pegasus RC",
     "time": "00:47:25"
   },
   {
@@ -25304,7 +24728,7 @@ const relayResults = [
     "km": 8.9,
     "position": 17,
     "name": "Delphine Jones",
-    "club": "Parc Bryn Bach B Rhondda (17)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:47:26"
   },
   {
@@ -25316,7 +24740,7 @@ const relayResults = [
     "km": 8.9,
     "position": 18,
     "name": "Karen Lewis",
-    "club": "Caerphilly B Pont-y-pwl (18)",
+    "club": "Caerphilly Runners",
     "time": "00:47:34"
   },
   {
@@ -25328,7 +24752,7 @@ const relayResults = [
     "km": 8.9,
     "position": 19,
     "name": "Laura Beech",
-    "club": "Caldicot A Islwyn B (19)",
+    "club": "Caldicot RC",
     "time": "00:49:05"
   },
   {
@@ -25340,7 +24764,7 @@ const relayResults = [
     "km": 8.9,
     "position": 20,
     "name": "Angharrad Sliczny",
-    "club": "Griffithstown A Caerphilly (20)",
+    "club": "Griffithstown Harriers",
     "time": "00:50:00"
   },
   {
@@ -25352,7 +24776,7 @@ const relayResults = [
     "km": 8.9,
     "position": 21,
     "name": "Elle Goodridge",
-    "club": "Brackla A Caldicot A (21)",
+    "club": "Brackla Harriers",
     "time": "00:50:01"
   },
   {
@@ -25364,7 +24788,7 @@ const relayResults = [
     "km": 8.9,
     "position": 22,
     "name": "Vanessa Pritchard",
-    "club": "Caerleon B Pegasus (22)",
+    "club": "Caerleon RC",
     "time": "00:50:02"
   },
   {
@@ -25376,7 +24800,7 @@ const relayResults = [
     "km": 8.9,
     "position": 23,
     "name": "Helen Gwilliam",
-    "club": "Fairwater Cwmbran B Parc Bryn (23)",
+    "club": "Fairwater Runners",
     "time": "00:50:03"
   },
   {
@@ -25388,7 +24812,7 @@ const relayResults = [
     "km": 8.9,
     "position": 24,
     "name": "Mark Douglas",
-    "club": "Pontypridd B Pontypridd (24)",
+    "club": "Pontypridd Roadents",
     "time": "00:50:04"
   },
   {
@@ -25400,7 +24824,7 @@ const relayResults = [
     "km": 8.9,
     "position": 25,
     "name": "Amy Griffiths",
-    "club": "Rhondda Valley A Caerleon (25)",
+    "club": "Rhondda Valley Runners",
     "time": "00:50:05"
   },
   {
@@ -25412,7 +24836,7 @@ const relayResults = [
     "km": 8.9,
     "position": 26,
     "name": "DNF",
-    "club": "Caerleon A Fairwater (26)",
+    "club": "Caerleon RC",
     "time": "01:00:00"
   },
   {
@@ -25424,7 +24848,7 @@ const relayResults = [
     "km": 21.1,
     "position": 1,
     "name": "Paul White",
-    "club": "Pont-y-pwl & District A Chepstow (01)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:27:22"
   },
   {
@@ -25436,7 +24860,7 @@ const relayResults = [
     "km": 21.1,
     "position": 2,
     "name": "Paul Murrin",
-    "club": "Chepstow A Pont-y-pwl (02)",
+    "club": "Chepstow Harriers",
     "time": "01:28:07"
   },
   {
@@ -25448,7 +24872,7 @@ const relayResults = [
     "km": 21.1,
     "position": 3,
     "name": "Rich Foster",
-    "club": "Spirit of Monmouth A Lliswerry (03)",
+    "club": "Spirit of Monmouth",
     "time": "01:29:41"
   },
   {
@@ -25460,7 +24884,7 @@ const relayResults = [
     "km": 21.1,
     "position": 4,
     "name": "David Hazell",
-    "club": "Caerphilly A Les (04)",
+    "club": "Caerphilly Runners",
     "time": "01:32:24"
   },
   {
@@ -25472,7 +24896,7 @@ const relayResults = [
     "km": 21.1,
     "position": 5,
     "name": "Andy Gardiner",
-    "club": "San Domenico A Spirit (05)",
+    "club": "San Domenico RC",
     "time": "01:33:49"
   },
   {
@@ -25484,7 +24908,7 @@ const relayResults = [
     "km": 21.1,
     "position": 6,
     "name": "Phil Hambleton",
-    "club": "Les Croupiers A Caerphilly (06)",
+    "club": "Les Croupiers RC",
     "time": "01:33:51"
   },
   {
@@ -25496,7 +24920,7 @@ const relayResults = [
     "km": 21.1,
     "position": 7,
     "name": "Phil Williams",
-    "club": "Pontypridd B San (07)",
+    "club": "Pontypridd Roadents",
     "time": "01:34:12"
   },
   {
@@ -25508,7 +24932,7 @@ const relayResults = [
     "km": 21.1,
     "position": 8,
     "name": "Richard Elgar",
-    "club": "Lliswerry A Islwyn (08)",
+    "club": "Lliswerry Runners",
     "time": "01:34:25"
   },
   {
@@ -25520,7 +24944,7 @@ const relayResults = [
     "km": 21.1,
     "position": 9,
     "name": "Simon Lewis",
-    "club": "Parc Bryn Bach A Pontypridd (09)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:37:40"
   },
   {
@@ -25532,7 +24956,7 @@ const relayResults = [
     "km": 21.1,
     "position": 10,
     "name": "Tom Mollekin",
-    "club": "Pont-y-pwl & District B Chepstow (10)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:37:43"
   },
   {
@@ -25544,7 +24968,7 @@ const relayResults = [
     "km": 21.1,
     "position": 11,
     "name": "Gareth Jones",
-    "club": "Griffithstown A Parc (11)",
+    "club": "Griffithstown Harriers",
     "time": "01:38:18"
   },
   {
@@ -25556,7 +24980,7 @@ const relayResults = [
     "km": 21.1,
     "position": 12,
     "name": "Steve Lane",
-    "club": "Islwyn A (12)",
+    "club": "Islwyn RC",
     "time": "01:45:02"
   },
   {
@@ -25568,7 +24992,7 @@ const relayResults = [
     "km": 21.1,
     "position": 13,
     "name": "Dave Somersall",
-    "club": "Chepstow B Brackla (13)",
+    "club": "Chepstow Harriers",
     "time": "01:45:40"
   },
   {
@@ -25580,7 +25004,7 @@ const relayResults = [
     "km": 21.1,
     "position": 14,
     "name": "Paul Chick",
-    "club": "Lliswerry B Lliswerry (14)",
+    "club": "Lliswerry Runners",
     "time": "01:46:23"
   },
   {
@@ -25592,7 +25016,7 @@ const relayResults = [
     "km": 21.1,
     "position": 15,
     "name": "Lee Hammond",
-    "club": "Fairwater Cwmbran A Caerleon (15)",
+    "club": "Fairwater Runners",
     "time": "01:47:02"
   },
   {
@@ -25604,7 +25028,7 @@ const relayResults = [
     "km": 21.1,
     "position": 16,
     "name": "Nathan Reeks",
-    "club": "Caldicot A Fairwater (16)",
+    "club": "Caldicot RC",
     "time": "01:47:37"
   },
   {
@@ -25616,7 +25040,7 @@ const relayResults = [
     "km": 21.1,
     "position": 17,
     "name": "Andrew Wright",
-    "club": "Caerleon A Pont-y-pwl (17)",
+    "club": "Caerleon RC",
     "time": "01:48:37"
   },
   {
@@ -25628,7 +25052,7 @@ const relayResults = [
     "km": 21.1,
     "position": 18,
     "name": "Rhodri Evans",
-    "club": "Pontypridd A Rhondda (18)",
+    "club": "Pontypridd Roadents",
     "time": "01:50:25"
   },
   {
@@ -25640,7 +25064,7 @@ const relayResults = [
     "km": 21.1,
     "position": 19,
     "name": "Drew Webber",
-    "club": "Brackla A Islwyn (19)",
+    "club": "Brackla Harriers",
     "time": "01:50:28"
   },
   {
@@ -25652,7 +25076,7 @@ const relayResults = [
     "km": 21.1,
     "position": 20,
     "name": "Richard Edge",
-    "club": "Pegasus A Caldicot (20)",
+    "club": "Pegasus RC",
     "time": "01:52:18"
   },
   {
@@ -25664,7 +25088,7 @@ const relayResults = [
     "km": 21.1,
     "position": 21,
     "name": "Steve Phillips",
-    "club": "Islwyn B Pegasus (21)",
+    "club": "Islwyn RC",
     "time": "01:54:43"
   },
   {
@@ -25676,7 +25100,7 @@ const relayResults = [
     "km": 21.1,
     "position": 22,
     "name": "Gary Webber",
-    "club": "Rhondda Valley A Caerphilly (22)",
+    "club": "Rhondda Valley Runners",
     "time": "01:56:43"
   },
   {
@@ -25688,7 +25112,7 @@ const relayResults = [
     "km": 21.1,
     "position": 23,
     "name": "Mike Skyrme",
-    "club": "Fairwater Cwmbran B Pontypridd (23)",
+    "club": "Fairwater Runners",
     "time": "01:58:00"
   },
   {
@@ -25700,7 +25124,7 @@ const relayResults = [
     "km": 21.1,
     "position": 24,
     "name": "Anthony Lewis",
-    "club": "Parc Bryn Bach B Parc (24)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:58:01"
   },
   {
@@ -25712,7 +25136,7 @@ const relayResults = [
     "km": 21.1,
     "position": 25,
     "name": "Liz Richards",
-    "club": "Caerleon B Caerleon (25)",
+    "club": "Caerleon RC",
     "time": "01:58:02"
   },
   {
@@ -25724,7 +25148,7 @@ const relayResults = [
     "km": 16.0,
     "position": 1,
     "name": "Richard Jones",
-    "club": "Lliswerry A Pont-y-pwl (01)",
+    "club": "Lliswerry Runners",
     "time": "01:01:25"
   },
   {
@@ -25736,7 +25160,7 @@ const relayResults = [
     "km": 16.0,
     "position": 2,
     "name": "Andy Lee",
-    "club": "Pont-y-pwl & District A Lliswerry (02)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:04:56"
   },
   {
@@ -25748,7 +25172,7 @@ const relayResults = [
     "km": 16.0,
     "position": 3,
     "name": "Mike Dury",
-    "club": "Islwyn A Chepstow (03)",
+    "club": "Islwyn RC",
     "time": "01:06:35"
   },
   {
@@ -25760,7 +25184,7 @@ const relayResults = [
     "km": 16.0,
     "position": 4,
     "name": "Oliver Harris",
-    "club": "Lliswerry B Les Croupiers (04)",
+    "club": "Lliswerry Runners",
     "time": "01:12:00"
   },
   {
@@ -25772,7 +25196,7 @@ const relayResults = [
     "km": 16.0,
     "position": 5,
     "name": "Nick Davis",
-    "club": "Chepstow A Caerphilly (05)",
+    "club": "Chepstow Harriers",
     "time": "01:12:30"
   },
   {
@@ -25784,7 +25208,7 @@ const relayResults = [
     "km": 16.0,
     "position": 6,
     "name": "Hector Cortez",
-    "club": "Les Croupiers A Spirit of (06)",
+    "club": "Les Croupiers RC",
     "time": "01:13:05"
   },
   {
@@ -25796,7 +25220,7 @@ const relayResults = [
     "km": 16.0,
     "position": 7,
     "name": "Damian Waite",
-    "club": "Caldicot A Islwyn A (07)",
+    "club": "Caldicot RC",
     "time": "01:14:20"
   },
   {
@@ -25808,7 +25232,7 @@ const relayResults = [
     "km": 16.0,
     "position": 8,
     "name": "Mark Burbidge",
-    "club": "Chepstow B San (08)",
+    "club": "Chepstow Harriers",
     "time": "01:16:00"
   },
   {
@@ -25820,7 +25244,7 @@ const relayResults = [
     "km": 16.0,
     "position": 9,
     "name": "Jamie Howells",
-    "club": "Parc Bryn Bach A Pontypridd (09)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:16:19"
   },
   {
@@ -25832,7 +25256,7 @@ const relayResults = [
     "km": 16.0,
     "position": 10,
     "name": "Paul Francis",
-    "club": "Caerphilly A Chepstow (10)",
+    "club": "Caerphilly Runners",
     "time": "01:16:57"
   },
   {
@@ -25844,7 +25268,7 @@ const relayResults = [
     "km": 16.0,
     "position": 11,
     "name": "Jamie Bishop",
-    "club": "Pontypridd A Parc Bryn (11)",
+    "club": "Pontypridd Roadents",
     "time": "01:17:07"
   },
   {
@@ -25856,7 +25280,7 @@ const relayResults = [
     "km": 16.0,
     "position": 12,
     "name": "Brian Evans",
-    "club": "Spirit of Monmouth A Lliswerry (12)",
+    "club": "Spirit of Monmouth",
     "time": "01:17:42"
   },
   {
@@ -25868,7 +25292,7 @@ const relayResults = [
     "km": 16.0,
     "position": 13,
     "name": "Paul Josua",
-    "club": "San Domenico A Brackla A (13)",
+    "club": "San Domenico RC",
     "time": "01:18:04"
   },
   {
@@ -25880,7 +25304,7 @@ const relayResults = [
     "km": 16.0,
     "position": 14,
     "name": "Ross Owen",
-    "club": "Rhondda Valley A Fairwater (14)",
+    "club": "Rhondda Valley Runners",
     "time": "01:19:23"
   },
   {
@@ -25892,7 +25316,7 @@ const relayResults = [
     "km": 16.0,
     "position": 15,
     "name": "Rob Symons",
-    "club": "Fairwater Cwmbran A Caerleon (15)",
+    "club": "Fairwater Runners",
     "time": "01:19:31"
   },
   {
@@ -25904,7 +25328,7 @@ const relayResults = [
     "km": 16.0,
     "position": 16,
     "name": "Neil Beynon",
-    "club": "Parc Bryn Bach B Griffithstown (16)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:20:42"
   },
   {
@@ -25916,7 +25340,7 @@ const relayResults = [
     "km": 16.0,
     "position": 17,
     "name": "Glyn Drucker",
-    "club": "Caerphilly B Pont-y-pwl (17)",
+    "club": "Caerphilly Runners",
     "time": "01:22:09"
   },
   {
@@ -25928,7 +25352,7 @@ const relayResults = [
     "km": 16.0,
     "position": 18,
     "name": "Jon Davies",
-    "club": "Pont-y-pwl & District B Caldicot (18)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:23:30"
   },
   {
@@ -25940,7 +25364,7 @@ const relayResults = [
     "km": 16.0,
     "position": 19,
     "name": "Andrew Lawrence",
-    "club": "Islwyn B Rhondda (19)",
+    "club": "Islwyn RC",
     "time": "01:23:37"
   },
   {
@@ -25952,7 +25376,7 @@ const relayResults = [
     "km": 16.0,
     "position": 20,
     "name": "Jason Pritchard",
-    "club": "Caerleon A Islwyn B (20)",
+    "club": "Caerleon RC",
     "time": "01:23:50"
   },
   {
@@ -25964,7 +25388,7 @@ const relayResults = [
     "km": 16.0,
     "position": 21,
     "name": "Mark Evans",
-    "club": "Brackla A Pegasus (21)",
+    "club": "Brackla Harriers",
     "time": "01:27:21"
   },
   {
@@ -25976,7 +25400,7 @@ const relayResults = [
     "km": 16.0,
     "position": 22,
     "name": "Nud",
-    "club": "Fairwater Cwmbran B Caerphilly (22)",
+    "club": "Fairwater Runners",
     "time": "01:28:51"
   },
   {
@@ -25988,7 +25412,7 @@ const relayResults = [
     "km": 16.0,
     "position": 23,
     "name": "Iestyn Henson",
-    "club": "Pontypridd B Parc Bryn (23)",
+    "club": "Pontypridd Roadents",
     "time": "01:30:00"
   },
   {
@@ -26000,7 +25424,7 @@ const relayResults = [
     "km": 16.0,
     "position": 24,
     "name": "Kevin Fowler",
-    "club": "Pegasus A Pontypridd (24)",
+    "club": "Pegasus RC",
     "time": "01:30:01"
   },
   {
@@ -26012,7 +25436,7 @@ const relayResults = [
     "km": 16.0,
     "position": 25,
     "name": "Karen Payne",
-    "club": "Caerleon B Caerleon (25)",
+    "club": "Caerleon RC",
     "time": "01:30:02"
   },
   {
@@ -26024,7 +25448,7 @@ const relayResults = [
     "km": 16.0,
     "position": 26,
     "name": "DNF",
-    "club": "Griffithstown A Fairwater (26)",
+    "club": "Griffithstown Harriers",
     "time": "01:40:00"
   },
   {
@@ -26036,7 +25460,7 @@ const relayResults = [
     "km": 12.16,
     "position": 1,
     "name": "Katy Roy",
-    "club": "Chepstow A Pont-y-pwl (01)",
+    "club": "Chepstow Harriers",
     "time": "00:41:14"
   },
   {
@@ -26048,7 +25472,7 @@ const relayResults = [
     "km": 12.16,
     "position": 2,
     "name": "Lisa Griffin",
-    "club": "Pont-y-pwl & District A Lliswerry (02)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:41:43"
   },
   {
@@ -26060,7 +25484,7 @@ const relayResults = [
     "km": 12.16,
     "position": 3,
     "name": "Chris Baker",
-    "club": "Fairwater Cwmbran A Chepstow (03)",
+    "club": "Fairwater Runners",
     "time": "00:41:48"
   },
   {
@@ -26072,7 +25496,7 @@ const relayResults = [
     "km": 12.16,
     "position": 4,
     "name": "Emma Edwards",
-    "club": "Caerphilly A Les (04)",
+    "club": "Caerphilly Runners",
     "time": "00:42:13"
   },
   {
@@ -26084,7 +25508,7 @@ const relayResults = [
     "km": 12.16,
     "position": 5,
     "name": "Rebecca Rothwell",
-    "club": "Lliswerry A Caerphilly (05)",
+    "club": "Lliswerry Runners",
     "time": "00:42:29"
   },
   {
@@ -26096,7 +25520,7 @@ const relayResults = [
     "km": 12.16,
     "position": 6,
     "name": "Megan Holmes",
-    "club": "Caerleon A Spirit (06)",
+    "club": "Caerleon RC",
     "time": "00:42:30"
   },
   {
@@ -26108,7 +25532,7 @@ const relayResults = [
     "km": 12.16,
     "position": 7,
     "name": "Ian Cuthbert",
-    "club": "Brackla A Islwyn (07)",
+    "club": "Brackla Harriers",
     "time": "00:42:34"
   },
   {
@@ -26120,7 +25544,7 @@ const relayResults = [
     "km": 12.16,
     "position": 8,
     "name": "Ethan Sayle",
-    "club": "Parc Bryn Bach A San (08)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:43:45"
   },
   {
@@ -26132,7 +25556,7 @@ const relayResults = [
     "km": 12.16,
     "position": 9,
     "name": "Leanne Meek",
-    "club": "Spirit of Monmouth A Pontypridd (09)",
+    "club": "Spirit of Monmouth",
     "time": "00:43:57"
   },
   {
@@ -26144,7 +25568,7 @@ const relayResults = [
     "km": 12.16,
     "position": 10,
     "name": "Claire Cowell-Maksimovic",
-    "club": "Pontypridd A Parc (10)",
+    "club": "Pontypridd Roadents",
     "time": "00:44:28"
   },
   {
@@ -26156,7 +25580,7 @@ const relayResults = [
     "km": 12.16,
     "position": 11,
     "name": "Rose Charles",
-    "club": "Griffithstown A Chepstow (11)",
+    "club": "Griffithstown Harriers",
     "time": "00:45:03"
   },
   {
@@ -26168,7 +25592,7 @@ const relayResults = [
     "km": 12.16,
     "position": 12,
     "name": "Carys-Sian Malarczyk",
-    "club": "Islwyn A Lliswerry (12)",
+    "club": "Islwyn RC",
     "time": "00:45:35"
   },
   {
@@ -26180,7 +25604,7 @@ const relayResults = [
     "km": 12.16,
     "position": 13,
     "name": "Kath Sage",
-    "club": "Caldicot A Brackla (13)",
+    "club": "Caldicot RC",
     "time": "00:46:28"
   },
   {
@@ -26192,7 +25616,7 @@ const relayResults = [
     "km": 12.16,
     "position": 14,
     "name": "Glyn Sansom",
-    "club": "San Domenico A Fairwater (14)",
+    "club": "San Domenico RC",
     "time": "00:47:22"
   },
   {
@@ -26204,7 +25628,7 @@ const relayResults = [
     "km": 12.16,
     "position": 15,
     "name": "Michael William",
-    "club": "Probert Pont-y-pwl & District B Caerleon (15)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:48:41"
   },
   {
@@ -26216,7 +25640,7 @@ const relayResults = [
     "km": 12.16,
     "position": 16,
     "name": "Gemma Hewitt",
-    "club": "Chepstow B (16)",
+    "club": "Chepstow Harriers",
     "time": "00:49:11"
   },
   {
@@ -26228,7 +25652,7 @@ const relayResults = [
     "km": 12.16,
     "position": 17,
     "name": "Andrea Webster",
-    "club": "Les Croupiers A Pont-y-pwl (17)",
+    "club": "Les Croupiers RC",
     "time": "00:51:00"
   },
   {
@@ -26240,7 +25664,7 @@ const relayResults = [
     "km": 12.16,
     "position": 18,
     "name": "Bobbie Swift",
-    "club": "Parc Bryn Bach B Caldicot (18)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:51:01"
   },
   {
@@ -26252,7 +25676,7 @@ const relayResults = [
     "km": 12.16,
     "position": 19,
     "name": "Kate Williams",
-    "club": "Islwyn B Rhondda (19)",
+    "club": "Islwyn RC",
     "time": "00:51:02"
   },
   {
@@ -26264,7 +25688,7 @@ const relayResults = [
     "km": 12.16,
     "position": 20,
     "name": "Moira Wooles",
-    "club": "Lliswerry B Islwyn (20)",
+    "club": "Lliswerry Runners",
     "time": "00:51:03"
   },
   {
@@ -26276,7 +25700,7 @@ const relayResults = [
     "km": 12.16,
     "position": 21,
     "name": "Debbie Jackson",
-    "club": "Caerphilly B Pegasus (21)",
+    "club": "Caerphilly Runners",
     "time": "00:51:04"
   },
   {
@@ -26288,7 +25712,7 @@ const relayResults = [
     "km": 12.16,
     "position": 22,
     "name": "Charlotte Bethell",
-    "club": "Pegasus A Caerphilly (22)",
+    "club": "Pegasus RC",
     "time": "00:51:05"
   },
   {
@@ -26300,7 +25724,7 @@ const relayResults = [
     "km": 12.16,
     "position": 23,
     "name": "Yangi Vundamina",
-    "club": "Caerleon B Parc (23)",
+    "club": "Caerleon RC",
     "time": "00:51:06"
   },
   {
@@ -26312,7 +25736,7 @@ const relayResults = [
     "km": 12.16,
     "position": 24,
     "name": "Victoria O’Reilly",
-    "club": "Rhondda Valley A Pontypridd (24)",
+    "club": "Rhondda Valley Runners",
     "time": "00:51:07"
   },
   {
@@ -26324,7 +25748,7 @@ const relayResults = [
     "km": 12.16,
     "position": 25,
     "name": "Suzanne Williams",
-    "club": "Fairwater Cwmbran B Caerleon (25)",
+    "club": "Fairwater Runners",
     "time": "00:51:08"
   },
   {
@@ -26336,7 +25760,7 @@ const relayResults = [
     "km": 12.16,
     "position": 26,
     "name": "DNF",
-    "club": "Pontypridd B (26)",
+    "club": "Pontypridd Roadents",
     "time": "01:01:00"
   },
   {
@@ -26348,7 +25772,7 @@ const relayResults = [
     "km": 13.4,
     "position": 1,
     "name": "Jon Like",
-    "club": "Pont-y-pwl & District A Pont-y-pwl (01)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:53:01"
   },
   {
@@ -26360,7 +25784,7 @@ const relayResults = [
     "km": 13.4,
     "position": 2,
     "name": "Kath Matthews",
-    "club": "Chepstow A Chepstow (02)",
+    "club": "Chepstow Harriers",
     "time": "00:54:01"
   },
   {
@@ -26372,7 +25796,7 @@ const relayResults = [
     "km": 13.4,
     "position": 3,
     "name": "Laurence Pole",
-    "club": "Pontypridd A Lliswerry (03)",
+    "club": "Pontypridd Roadents",
     "time": "00:55:54"
   },
   {
@@ -26384,7 +25808,7 @@ const relayResults = [
     "km": 13.4,
     "position": 4,
     "name": "Andrew Phillips",
-    "club": "Islwyn A Islwyn (04)",
+    "club": "Islwyn RC",
     "time": "00:56:16"
   },
   {
@@ -26396,7 +25820,7 @@ const relayResults = [
     "km": 13.4,
     "position": 5,
     "name": "Jon Slicnzy",
-    "club": "Griffithstown A Caerphilly (05)",
+    "club": "Griffithstown Harriers",
     "time": "01:01:16"
   },
   {
@@ -26408,7 +25832,7 @@ const relayResults = [
     "km": 13.4,
     "position": 6,
     "name": "Jade Wakely",
-    "club": "Caerleon A Spirit of (06)",
+    "club": "Caerleon RC",
     "time": "01:02:20"
   },
   {
@@ -26420,7 +25844,7 @@ const relayResults = [
     "km": 13.4,
     "position": 7,
     "name": "Toby Garratt",
-    "club": "Chepstow B Pontypridd (07)",
+    "club": "Chepstow Harriers",
     "time": "01:02:45"
   },
   {
@@ -26432,7 +25856,7 @@ const relayResults = [
     "km": 13.4,
     "position": 8,
     "name": "Antoinette Dumayne",
-    "club": "Lliswerry A Les (08)",
+    "club": "Lliswerry Runners",
     "time": "01:03:34"
   },
   {
@@ -26444,7 +25868,7 @@ const relayResults = [
     "km": 13.4,
     "position": 9,
     "name": "Matthew Phillips",
-    "club": "Caerphilly A San (09)",
+    "club": "Caerphilly Runners",
     "time": "01:04:37"
   },
   {
@@ -26456,7 +25880,7 @@ const relayResults = [
     "km": 13.4,
     "position": 10,
     "name": "Martin Blakebrough",
-    "club": "Spirit of Monmouth A Chepstow (10)",
+    "club": "Spirit of Monmouth",
     "time": "01:06:09"
   },
   {
@@ -26468,7 +25892,7 @@ const relayResults = [
     "km": 13.4,
     "position": 11,
     "name": "Malc Gonnella",
-    "club": "Fairwater Cwmbran A Parc (11)",
+    "club": "Fairwater Runners",
     "time": "01:06:56"
   },
   {
@@ -26480,7 +25904,7 @@ const relayResults = [
     "km": 13.4,
     "position": 12,
     "name": "David James",
-    "club": "Caldicot A Lliswerry (12)",
+    "club": "Caldicot RC",
     "time": "01:07:09"
   },
   {
@@ -26492,7 +25916,7 @@ const relayResults = [
     "km": 13.4,
     "position": 13,
     "name": "Sarah Louise Francis",
-    "club": "Lliswerry B Caerleon (13)",
+    "club": "Lliswerry Runners",
     "time": "01:07:23"
   },
   {
@@ -26504,7 +25928,7 @@ const relayResults = [
     "km": 13.4,
     "position": 14,
     "name": "Andrew Smith",
-    "club": "Pont-y-pwl & District B Fairwater (14)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:08:00"
   },
   {
@@ -26516,7 +25940,7 @@ const relayResults = [
     "km": 13.4,
     "position": 15,
     "name": "Sarah Jeremiah",
-    "club": "Parc Bryn Bach A Griffithstown (15)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:09:26"
   },
   {
@@ -26528,7 +25952,7 @@ const relayResults = [
     "km": 13.4,
     "position": 16,
     "name": "Mitch Bosse",
-    "club": "Caerphilly B Brackla (16)",
+    "club": "Caerphilly Runners",
     "time": "01:12:45"
   },
   {
@@ -26540,7 +25964,7 @@ const relayResults = [
     "km": 13.4,
     "position": 17,
     "name": "Cyril Williams",
-    "club": "Parc Bryn Bach B Pont-y-pwl (17)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:12:52"
   },
   {
@@ -26552,7 +25976,7 @@ const relayResults = [
     "km": 13.4,
     "position": 18,
     "name": "Tim Murphy",
-    "club": "Fairwater Cwmbran B Caldicot (18)",
+    "club": "Fairwater Runners",
     "time": "01:12:58"
   },
   {
@@ -26564,7 +25988,7 @@ const relayResults = [
     "km": 13.4,
     "position": 19,
     "name": "Elaine Wharmby",
-    "club": "Pegasus A Rhondda (19)",
+    "club": "Pegasus RC",
     "time": "01:13:23"
   },
   {
@@ -26576,7 +26000,7 @@ const relayResults = [
     "km": 13.4,
     "position": 20,
     "name": "Marcia Gouveia",
-    "club": "San Domenico A Islwyn (20)",
+    "club": "San Domenico RC",
     "time": "01:15:00"
   },
   {
@@ -26588,7 +26012,7 @@ const relayResults = [
     "km": 13.4,
     "position": 21,
     "name": "Andy Fisher & Mark",
-    "club": "Francis Brackla A Pegasus (21)",
+    "club": "Brackla Harriers",
     "time": "01:15:01"
   },
   {
@@ -26600,7 +26024,7 @@ const relayResults = [
     "km": 13.4,
     "position": 22,
     "name": "Huw Williams",
-    "club": "Rhondda Valley A Caerphilly (22)",
+    "club": "Rhondda Valley Runners",
     "time": "01:15:02"
   },
   {
@@ -26612,7 +26036,7 @@ const relayResults = [
     "km": 13.4,
     "position": 23,
     "name": "Maad Khalil",
-    "club": "Pontypridd B Parc (23)",
+    "club": "Pontypridd Roadents",
     "time": "01:15:03"
   },
   {
@@ -26624,7 +26048,7 @@ const relayResults = [
     "km": 13.4,
     "position": 24,
     "name": "Charlotte Leigh",
-    "club": "Caerleon B Pontypridd (24)",
+    "club": "Caerleon RC",
     "time": "01:25:00"
   },
   {
@@ -26636,7 +26060,7 @@ const relayResults = [
     "km": 13.4,
     "position": 25,
     "name": "DNF",
-    "club": "Les Croupiers A Fairwater (25)",
+    "club": "Les Croupiers RC",
     "time": "01:25:01"
   },
   {
@@ -26648,7 +26072,7 @@ const relayResults = [
     "km": 13.4,
     "position": 26,
     "name": "DNF",
-    "club": "Islwyn B Caerleon (26)",
+    "club": "Islwyn RC",
     "time": "01:25:02"
   },
   {
@@ -26660,7 +26084,7 @@ const relayResults = [
     "km": 10.7,
     "position": 1,
     "name": "Geraint Heath",
-    "club": "Lliswerry A Pont-y-pwl (01)",
+    "club": "Lliswerry Runners",
     "time": "00:42:56"
   },
   {
@@ -26672,7 +26096,7 @@ const relayResults = [
     "km": 10.7,
     "position": 2,
     "name": "Dani Sapsford",
-    "club": "Chepstow B Lliswerry (02)",
+    "club": "Chepstow Harriers",
     "time": "00:48:49"
   },
   {
@@ -26684,7 +26108,7 @@ const relayResults = [
     "km": 10.7,
     "position": 3,
     "name": "Ceri Bartley",
-    "club": "Pont-y-pwl & District A Chepstow (03)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:48:51"
   },
   {
@@ -26696,7 +26120,7 @@ const relayResults = [
     "km": 10.7,
     "position": 4,
     "name": "Wendy Owen",
-    "club": "San Domenico A Islwyn A (04)",
+    "club": "San Domenico RC",
     "time": "00:49:12"
   },
   {
@@ -26708,7 +26132,7 @@ const relayResults = [
     "km": 10.7,
     "position": 5,
     "name": "Paula Williams",
-    "club": "Caerleon A Caerphilly (05)",
+    "club": "Caerleon RC",
     "time": "00:49:34"
   },
   {
@@ -26720,7 +26144,7 @@ const relayResults = [
     "km": 10.7,
     "position": 6,
     "name": "Georgie Prior",
-    "club": "Chepstow A Pontypridd (06)",
+    "club": "Chepstow Harriers",
     "time": "00:50:03"
   },
   {
@@ -26732,7 +26156,7 @@ const relayResults = [
     "km": 10.7,
     "position": 7,
     "name": "Nicola Howls",
-    "club": "Islwyn A Spirit of (07)",
+    "club": "Islwyn RC",
     "time": "00:50:31"
   },
   {
@@ -26744,7 +26168,7 @@ const relayResults = [
     "km": 10.7,
     "position": 8,
     "name": "Fiona Davies",
-    "club": "Pontypridd A San Domenico (08)",
+    "club": "Pontypridd Roadents",
     "time": "00:50:53"
   },
   {
@@ -26756,7 +26180,7 @@ const relayResults = [
     "km": 10.7,
     "position": 9,
     "name": "Tara Paisey",
-    "club": "Griffithstown A Les Croupiers (09)",
+    "club": "Griffithstown Harriers",
     "time": "00:51:40"
   },
   {
@@ -26768,7 +26192,7 @@ const relayResults = [
     "km": 10.7,
     "position": 10,
     "name": "Jayne Evans",
-    "club": "Caerphilly A Chepstow (10)",
+    "club": "Caerphilly Runners",
     "time": "00:52:04"
   },
   {
@@ -26780,7 +26204,7 @@ const relayResults = [
     "km": 10.7,
     "position": 11,
     "name": "Melissa Pearce",
-    "club": "Parc Bryn Bach A Parc Bryn (11)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:53:22"
   },
   {
@@ -26792,7 +26216,7 @@ const relayResults = [
     "km": 10.7,
     "position": 12,
     "name": "Jen Watkins",
-    "club": "Pont-y-pwl & District B Caerleon (12)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:53:56"
   },
   {
@@ -26804,7 +26228,7 @@ const relayResults = [
     "km": 10.7,
     "position": 13,
     "name": "Bev Bradbury Jones",
-    "club": "Fairwater Cwmbran A Lliswerry (13)",
+    "club": "Fairwater Runners",
     "time": "00:54:17"
   },
   {
@@ -26816,7 +26240,7 @@ const relayResults = [
     "km": 10.7,
     "position": 14,
     "name": "Lolly Evans",
-    "club": "Les Croupiers A Griffithstown (14)",
+    "club": "Les Croupiers RC",
     "time": "00:54:53"
   },
   {
@@ -26828,7 +26252,7 @@ const relayResults = [
     "km": 10.7,
     "position": 15,
     "name": "Sarah Davies",
-    "club": "Islwyn B Fairwater (15)",
+    "club": "Islwyn RC",
     "time": "00:54:55"
   },
   {
@@ -26840,7 +26264,7 @@ const relayResults = [
     "km": 10.7,
     "position": 16,
     "name": "Rachel Baralos",
-    "club": "Caerphilly B Brackla A (16)",
+    "club": "Caerphilly Runners",
     "time": "00:56:11"
   },
   {
@@ -26852,7 +26276,7 @@ const relayResults = [
     "km": 10.7,
     "position": 17,
     "name": "David Davies",
-    "club": "Caerleon B Pont-y-pwl (17)",
+    "club": "Caerleon RC",
     "time": "00:56:56"
   },
   {
@@ -26864,7 +26288,7 @@ const relayResults = [
     "km": 10.7,
     "position": 18,
     "name": "Rebecca Foster",
-    "club": "Spirit of Monmouth A Caldicot A (18)",
+    "club": "Spirit of Monmouth",
     "time": "00:57:01"
   },
   {
@@ -26876,7 +26300,7 @@ const relayResults = [
     "km": 10.7,
     "position": 19,
     "name": "Jo Valentine",
-    "club": "Pegasus A Rhondda (19)",
+    "club": "Pegasus RC",
     "time": "00:57:02"
   },
   {
@@ -26888,7 +26312,7 @@ const relayResults = [
     "km": 10.7,
     "position": 20,
     "name": "Michelle Jayne",
-    "club": "Parc Bryn Bach B Islwyn B (20)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:57:15"
   },
   {
@@ -26900,7 +26324,7 @@ const relayResults = [
     "km": 10.7,
     "position": 21,
     "name": "Jane Lewis",
-    "club": "Fairwater (21)",
+    "club": "Fairwater Runners",
     "time": "00:57:34"
   },
   {
@@ -26912,7 +26336,7 @@ const relayResults = [
     "km": 10.7,
     "position": 22,
     "name": "Joanna Burridge",
-    "club": "Brackla A Pegasus (22)",
+    "club": "Brackla Harriers",
     "time": "00:57:57"
   },
   {
@@ -26924,7 +26348,7 @@ const relayResults = [
     "km": 10.7,
     "position": 23,
     "name": "Vicky Fear",
-    "club": "Lliswerry B Parc Bryn (23)",
+    "club": "Lliswerry Runners",
     "time": "00:58:06"
   },
   {
@@ -26936,7 +26360,7 @@ const relayResults = [
     "km": 10.7,
     "position": 24,
     "name": "Gemma Reeks",
-    "club": "Caldicot A Pontypridd (24)",
+    "club": "Caldicot RC",
     "time": "00:58:38"
   },
   {
@@ -26948,7 +26372,7 @@ const relayResults = [
     "km": 10.7,
     "position": 25,
     "name": "Sian Khalil",
-    "club": "Pontypridd B Fairwater (25)",
+    "club": "Pontypridd Roadents",
     "time": "01:00:00"
   },
   {
@@ -26960,7 +26384,7 @@ const relayResults = [
     "km": 10.7,
     "position": 26,
     "name": "Claire Adams",
-    "club": "Rhondda Valley A Caerleon (26)",
+    "club": "Rhondda Valley Runners",
     "time": "01:00:01"
   },
   {
@@ -26972,7 +26396,7 @@ const relayResults = [
     "km": 8.7,
     "position": 1,
     "name": "Daniel Reilly",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:35:37"
   },
   {
@@ -26984,7 +26408,7 @@ const relayResults = [
     "km": 8.7,
     "position": 2,
     "name": "Craig Thomas",
-    "club": "Islwyn A",
+    "club": "Islwyn RC",
     "time": "00:35:56"
   },
   {
@@ -26996,7 +26420,7 @@ const relayResults = [
     "km": 8.7,
     "position": 3,
     "name": "Sarah Bell",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:36:55"
   },
   {
@@ -27008,7 +26432,7 @@ const relayResults = [
     "km": 8.7,
     "position": 4,
     "name": "Danielle Phillips",
-    "club": "Pont-y-pwl & District A",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:37:24"
   },
   {
@@ -27020,7 +26444,7 @@ const relayResults = [
     "km": 8.7,
     "position": 5,
     "name": "Simon Tang",
-    "club": "Caerleon B",
+    "club": "Caerleon RC",
     "time": "00:37:52"
   },
   {
@@ -27032,7 +26456,7 @@ const relayResults = [
     "km": 8.7,
     "position": 6,
     "name": "Kevin Dupe",
-    "club": "Caerleon A",
+    "club": "Caerleon RC",
     "time": "00:38:28"
   },
   {
@@ -27044,7 +26468,7 @@ const relayResults = [
     "km": 8.7,
     "position": 7,
     "name": "Matthew Bunce",
-    "club": "Brackla A",
+    "club": "Brackla Harriers",
     "time": "00:38:33"
   },
   {
@@ -27056,7 +26480,7 @@ const relayResults = [
     "km": 8.7,
     "position": 8,
     "name": "Tony Mackay",
-    "club": "Pegasus A",
+    "club": "Pegasus RC",
     "time": "00:39:09"
   },
   {
@@ -27068,7 +26492,7 @@ const relayResults = [
     "km": 8.7,
     "position": 9,
     "name": "Ben Jenkins",
-    "club": "Griffithstown A",
+    "club": "Griffithstown Harriers",
     "time": "00:39:34"
   },
   {
@@ -27080,7 +26504,7 @@ const relayResults = [
     "km": 8.7,
     "position": 10,
     "name": "Sian Jones",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach RC",
     "time": "00:39:51"
   },
   {
@@ -27092,7 +26516,7 @@ const relayResults = [
     "km": 8.7,
     "position": 11,
     "name": "Alex Wilson",
-    "club": "Spirit of Monmouth A See us on",
+    "club": "Spirit of Monmouth",
     "time": "00:40:17"
   },
   {
@@ -27104,7 +26528,7 @@ const relayResults = [
     "km": 8.7,
     "position": 12,
     "name": "Bradley Jones",
-    "club": "Fairwater Cwmbran A",
+    "club": "Fairwater Runners",
     "time": "00:41:44"
   },
   {
@@ -27116,7 +26540,7 @@ const relayResults = [
     "km": 8.7,
     "position": 13,
     "name": "Julie Scholey",
-    "club": "Les Croupiers A",
+    "club": "Les Croupiers RC",
     "time": "00:41:48"
   },
   {
@@ -27128,7 +26552,7 @@ const relayResults = [
     "km": 8.7,
     "position": 14,
     "name": "Christopher Williams",
-    "club": "San Domenico A",
+    "club": "San Domenico RC",
     "time": "00:42:07"
   },
   {
@@ -27140,7 +26564,7 @@ const relayResults = [
     "km": 8.7,
     "position": 15,
     "name": "Zoe Rees",
-    "club": "Caerphilly A",
+    "club": "Caerphilly Runners",
     "time": "00:42:10"
   },
   {
@@ -27152,7 +26576,7 @@ const relayResults = [
     "km": 8.7,
     "position": 16,
     "name": "Abby Forster",
-    "club": "Pontypridd A",
+    "club": "Pontypridd Roadents",
     "time": "00:42:49"
   },
   {
@@ -27164,7 +26588,7 @@ const relayResults = [
     "km": 8.7,
     "position": 17,
     "name": "Jenni Bell",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:44:05"
   },
   {
@@ -27176,7 +26600,7 @@ const relayResults = [
     "km": 8.7,
     "position": 18,
     "name": "Michelle Johnston",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:44:21"
   },
   {
@@ -27188,7 +26612,7 @@ const relayResults = [
     "km": 8.7,
     "position": 19,
     "name": "Emma Tracy",
-    "club": "Caldicot A",
+    "club": "Caldicot RC",
     "time": "00:44:35"
   },
   {
@@ -27200,7 +26624,7 @@ const relayResults = [
     "km": 8.7,
     "position": 20,
     "name": "Sharon Carrafa",
-    "club": "Islwyn B",
+    "club": "Islwyn RC",
     "time": "00:45:11"
   },
   {
@@ -27212,7 +26636,7 @@ const relayResults = [
     "km": 8.7,
     "position": 21,
     "name": "Emma Gunter",
-    "club": "Pont-y-pwl & District B",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:45:56"
   },
   {
@@ -27224,7 +26648,7 @@ const relayResults = [
     "km": 8.7,
     "position": 22,
     "name": "Mark Prosser",
-    "club": "Fairwater Cwmbran B",
+    "club": "Fairwater Runners",
     "time": "00:46:29"
   },
   {
@@ -27236,7 +26660,7 @@ const relayResults = [
     "km": 8.7,
     "position": 23,
     "name": "Katie Burden",
-    "club": "Caerphilly B",
+    "club": "Caerphilly Runners",
     "time": "00:46:39"
   },
   {
@@ -27248,7 +26672,7 @@ const relayResults = [
     "km": 8.7,
     "position": 24,
     "name": "Laura Hire",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach RC",
     "time": "00:47:21"
   },
   {
@@ -27260,7 +26684,7 @@ const relayResults = [
     "km": 8.7,
     "position": 25,
     "name": "Ann Hurley",
-    "club": "Rhondda Valley A",
+    "club": "Rhondda Valley Runners",
     "time": "00:47:46"
   },
   {
@@ -27272,7 +26696,7 @@ const relayResults = [
     "km": 8.7,
     "position": 26,
     "name": "Bridgitte Griffiths",
-    "club": "Pontypridd B",
+    "club": "Pontypridd Roadents",
     "time": "00:49:00"
   },
   {
@@ -27284,7 +26708,7 @@ const relayResults = [
     "km": 8.2,
     "position": 1,
     "name": "Matt Creed",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:33:22"
   },
   {
@@ -27296,7 +26720,7 @@ const relayResults = [
     "km": 8.2,
     "position": 2,
     "name": "Susannah Bulpin",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:01:33"
   },
   {
@@ -27308,7 +26732,7 @@ const relayResults = [
     "km": 8.2,
     "position": 3,
     "name": "Dani Sapsford",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:35:04"
   },
   {
@@ -27320,7 +26744,7 @@ const relayResults = [
     "km": 8.2,
     "position": 4,
     "name": "Lisa Erickson",
-    "club": "Pont-y-pwl & District A",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:35:06"
   },
   {
@@ -27332,7 +26756,7 @@ const relayResults = [
     "km": 8.2,
     "position": 5,
     "name": "Vanessa Lawson",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:36:05"
   },
   {
@@ -27344,7 +26768,7 @@ const relayResults = [
     "km": 8.2,
     "position": 6,
     "name": "Chris Baker",
-    "club": "Fairwater Cwmbran A",
+    "club": "Fairwater Runners",
     "time": "00:36:20"
   },
   {
@@ -27356,7 +26780,7 @@ const relayResults = [
     "km": 8.2,
     "position": 7,
     "name": "Hannah Davies",
-    "club": "Islwyn A",
+    "club": "Islwyn RC",
     "time": "00:37:55"
   },
   {
@@ -27368,7 +26792,7 @@ const relayResults = [
     "km": 8.2,
     "position": 8,
     "name": "Andy Davies",
-    "club": "Pontypridd A",
+    "club": "Pontypridd Roadents",
     "time": "00:37:59"
   },
   {
@@ -27380,7 +26804,7 @@ const relayResults = [
     "km": 8.2,
     "position": 9,
     "name": "Natalie Meyrick",
-    "club": "Griffithstown A",
+    "club": "Griffithstown Harriers",
     "time": "00:38:43"
   },
   {
@@ -27392,7 +26816,7 @@ const relayResults = [
     "km": 8.2,
     "position": 10,
     "name": "Rebeca Foley",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach RC",
     "time": "00:38:53"
   },
   {
@@ -27404,7 +26828,7 @@ const relayResults = [
     "km": 8.2,
     "position": 11,
     "name": "Wayne Frewen",
-    "club": "Brackla A",
+    "club": "Brackla Harriers",
     "time": "00:39:03"
   },
   {
@@ -27416,7 +26840,7 @@ const relayResults = [
     "km": 8.2,
     "position": 12,
     "name": "Rebecca Foster",
-    "club": "Spirit of Monmouth A",
+    "club": "Spirit of Monmouth",
     "time": "00:39:28"
   },
   {
@@ -27428,7 +26852,7 @@ const relayResults = [
     "km": 8.2,
     "position": 13,
     "name": "Alice Balaam",
-    "club": "Caerleon B",
+    "club": "Caerleon RC",
     "time": "00:39:35"
   },
   {
@@ -27440,7 +26864,7 @@ const relayResults = [
     "km": 8.2,
     "position": 14,
     "name": "Kimberley Price",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach RC",
     "time": "00:39:58"
   },
   {
@@ -27452,7 +26876,7 @@ const relayResults = [
     "km": 8.2,
     "position": 15,
     "name": "Helen Thomas",
-    "club": "Caerleon A",
+    "club": "Caerleon RC",
     "time": "00:40:26"
   },
   {
@@ -27464,7 +26888,7 @@ const relayResults = [
     "km": 8.2,
     "position": 16,
     "name": "Paula Allen",
-    "club": "Pegasus A",
+    "club": "Pegasus RC",
     "time": "00:40:31"
   },
   {
@@ -27476,7 +26900,7 @@ const relayResults = [
     "km": 8.2,
     "position": 17,
     "name": "Claire Jarrom",
-    "club": "Les Croupiers A",
+    "club": "Les Croupiers RC",
     "time": "00:40:45"
   },
   {
@@ -27488,7 +26912,7 @@ const relayResults = [
     "km": 8.2,
     "position": 18,
     "name": "Paige Luff",
-    "club": "Caldicot A",
+    "club": "Caldicot RC",
     "time": "00:40:50"
   },
   {
@@ -27500,7 +26924,7 @@ const relayResults = [
     "km": 8.2,
     "position": 19,
     "name": "Marie Coles",
-    "club": "Caerphilly A",
+    "club": "Caerphilly Runners",
     "time": "00:41:25"
   },
   {
@@ -27512,7 +26936,7 @@ const relayResults = [
     "km": 8.2,
     "position": 20,
     "name": "Debra Jones",
-    "club": "Porthcawl A",
+    "club": "Porthcawl Runners",
     "time": "00:42:26"
   },
   {
@@ -27524,7 +26948,7 @@ const relayResults = [
     "km": 8.2,
     "position": 21,
     "name": "Zoe Elver",
-    "club": "Pont-y-pwl & District B",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:43:12"
   },
   {
@@ -27536,7 +26960,7 @@ const relayResults = [
     "km": 8.2,
     "position": 22,
     "name": "Moira Wooles",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:43:14"
   },
   {
@@ -27548,7 +26972,7 @@ const relayResults = [
     "km": 8.2,
     "position": 23,
     "name": "Hayley Gittins",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:01:21"
   },
   {
@@ -27560,7 +26984,7 @@ const relayResults = [
     "km": 11.2,
     "position": 1,
     "name": "Dave Richardson",
-    "club": "Pont-y-pwl (01)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:44:11"
   },
   {
@@ -27572,7 +26996,7 @@ const relayResults = [
     "km": 11.2,
     "position": 2,
     "name": "Stephen Mathers",
-    "club": "Parc (02)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:44:55"
   },
   {
@@ -27584,7 +27008,7 @@ const relayResults = [
     "km": 11.2,
     "position": 3,
     "name": "Martyn Winser",
-    "club": "Chepstow A (03)",
+    "club": "Chepstow Harriers",
     "time": "00:45:29"
   },
   {
@@ -27596,7 +27020,7 @@ const relayResults = [
     "km": 11.2,
     "position": 4,
     "name": "Paul Hayward",
-    "club": "Islwyn A (04)",
+    "club": "Islwyn RC",
     "time": "00:48:13"
   },
   {
@@ -27608,7 +27032,7 @@ const relayResults = [
     "km": 11.2,
     "position": 5,
     "name": "Daniel Lewis",
-    "club": "San Domenico A Parc Bryn (05)",
+    "club": "San Domenico RC",
     "time": "00:48:59"
   },
   {
@@ -27620,7 +27044,7 @@ const relayResults = [
     "km": 11.2,
     "position": 6,
     "name": "Matt Unsworth",
-    "club": "Spirit (06)",
+    "club": "Spirit of Monmouth",
     "time": "00:49:44"
   },
   {
@@ -27632,7 +27056,7 @@ const relayResults = [
     "km": 11.2,
     "position": 7,
     "name": "Danielle Phillips",
-    "club": "Parc (07)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:50:14"
   },
   {
@@ -27644,7 +27068,7 @@ const relayResults = [
     "km": 11.2,
     "position": 8,
     "name": "Paul Chick",
-    "club": "Lliswerry A (08)",
+    "club": "Lliswerry Runners",
     "time": "00:50:40"
   },
   {
@@ -27656,7 +27080,7 @@ const relayResults = [
     "km": 11.2,
     "position": 9,
     "name": "Richard Roberts",
-    "club": "Griffithstown A (09)",
+    "club": "Griffithstown Harriers",
     "time": "00:50:48"
   },
   {
@@ -27668,7 +27092,7 @@ const relayResults = [
     "km": 11.2,
     "position": 10,
     "name": "David Phillips",
-    "club": "Caerphilly A (10)",
+    "club": "Caerphilly Runners",
     "time": "00:51:57"
   },
   {
@@ -27680,7 +27104,7 @@ const relayResults = [
     "km": 11.2,
     "position": 11,
     "name": "Damian Waite",
-    "club": "Caldicot A (11)",
+    "club": "Caldicot RC",
     "time": "00:52:06"
   },
   {
@@ -27692,7 +27116,7 @@ const relayResults = [
     "km": 11.2,
     "position": 12,
     "name": "Steve Owen",
-    "club": "Chepstow B (12)",
+    "club": "Chepstow Harriers",
     "time": "00:52:20"
   },
   {
@@ -27704,7 +27128,7 @@ const relayResults = [
     "km": 11.2,
     "position": 13,
     "name": "Stephanie Davies",
-    "club": "Pontypridd A (13)",
+    "club": "Pontypridd Roadents",
     "time": "00:53:39"
   },
   {
@@ -27716,7 +27140,7 @@ const relayResults = [
     "km": 11.2,
     "position": 14,
     "name": "Charlotte Johns",
-    "club": "Brackla A (14)",
+    "club": "Brackla Harriers",
     "time": "00:54:19"
   },
   {
@@ -27728,7 +27152,7 @@ const relayResults = [
     "km": 11.2,
     "position": 15,
     "name": "Julie Scholey",
-    "club": "Les Croupiers A Les Croupiers (15)",
+    "club": "Les Croupiers RC",
     "time": "00:56:15"
   },
   {
@@ -27740,7 +27164,7 @@ const relayResults = [
     "km": 11.2,
     "position": 16,
     "name": "Jen Watkins",
-    "club": "Pont-y-pwl (16)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:56:35"
   },
   {
@@ -27752,7 +27176,7 @@ const relayResults = [
     "km": 11.2,
     "position": 17,
     "name": "Neil Williams",
-    "club": "Caerleon A (17)",
+    "club": "Caerleon RC",
     "time": "00:56:51"
   },
   {
@@ -27764,7 +27188,7 @@ const relayResults = [
     "km": 11.2,
     "position": 18,
     "name": "Huw Williams",
-    "club": "Rhondda (18)",
+    "club": "Rhondda Valley Runners",
     "time": "00:58:02"
   },
   {
@@ -27776,7 +27200,7 @@ const relayResults = [
     "km": 11.2,
     "position": 19,
     "name": "Andrew Williamson",
-    "club": "Pegasus A (19)",
+    "club": "Pegasus RC",
     "time": "00:59:02"
   },
   {
@@ -27788,7 +27212,7 @@ const relayResults = [
     "km": 11.2,
     "position": 20,
     "name": "David Limbrick",
-    "club": "Islwyn B (20)",
+    "club": "Islwyn RC",
     "time": "01:00:05"
   },
   {
@@ -27800,7 +27224,7 @@ const relayResults = [
     "km": 11.2,
     "position": 21,
     "name": "Leonie Roberts",
-    "club": "Fairwater (21)",
+    "club": "Fairwater Runners",
     "time": "01:00:49"
   },
   {
@@ -27812,7 +27236,7 @@ const relayResults = [
     "km": 11.2,
     "position": 22,
     "name": "Charlene Henshall",
-    "club": "Caerleon B (22)",
+    "club": "Caerleon RC",
     "time": "01:01:11"
   },
   {
@@ -27824,7 +27248,7 @@ const relayResults = [
     "km": 11.2,
     "position": 23,
     "name": "Sonja Breese",
-    "club": "Lliswerry B (23)",
+    "club": "Lliswerry Runners",
     "time": "01:02:00"
   },
   {
@@ -27836,7 +27260,7 @@ const relayResults = [
     "km": 11.2,
     "position": 24,
     "name": "Gareth Mole",
-    "club": "Porthcawl A (24)",
+    "club": "Porthcawl Runners",
     "time": "01:02:01"
   },
   {
@@ -27848,7 +27272,7 @@ const relayResults = [
     "km": 11.2,
     "position": 25,
     "name": "Claire McCluskey",
-    "club": "Usk A (25)",
+    "club": "Usk",
     "time": "01:02:02"
   },
   {
@@ -27860,7 +27284,7 @@ const relayResults = [
     "km": 12.1,
     "position": 1,
     "name": "Richie Johnson",
-    "club": "Pont-y-pwl (01)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:45:02"
   },
   {
@@ -27872,7 +27296,7 @@ const relayResults = [
     "km": 12.1,
     "position": 2,
     "name": "Gabrielius Stuokus",
-    "club": "Les Croupiers A Chepstow (02)",
+    "club": "Les Croupiers RC",
     "time": "00:45:58"
   },
   {
@@ -27884,7 +27308,7 @@ const relayResults = [
     "km": 12.1,
     "position": 3,
     "name": "Steve Caldwell",
-    "club": "Chepstow A (03)",
+    "club": "Chepstow Harriers",
     "time": "00:46:24"
   },
   {
@@ -27896,7 +27320,7 @@ const relayResults = [
     "km": 12.1,
     "position": 4,
     "name": "Emily Lagomarsino",
-    "club": "San Domenico A Islwyn A (04)",
+    "club": "San Domenico RC",
     "time": "00:47:30"
   },
   {
@@ -27908,7 +27332,7 @@ const relayResults = [
     "km": 12.1,
     "position": 5,
     "name": "Dafydd Lambeth",
-    "club": "Islwyn A Lliswerry (05)",
+    "club": "Islwyn RC",
     "time": "00:48:00"
   },
   {
@@ -27920,7 +27344,7 @@ const relayResults = [
     "km": 12.1,
     "position": 6,
     "name": "Davey Challenger",
-    "club": "Griffithstown A Chepstow (06)",
+    "club": "Griffithstown Harriers",
     "time": "00:50:48"
   },
   {
@@ -27932,7 +27356,7 @@ const relayResults = [
     "km": 12.1,
     "position": 7,
     "name": "Rob Hook",
-    "club": "Chepstow B Griffithstown (07)",
+    "club": "Chepstow Harriers",
     "time": "00:51:44"
   },
   {
@@ -27944,7 +27368,7 @@ const relayResults = [
     "km": 12.1,
     "position": 8,
     "name": "Tracie Williams-Rowe",
-    "club": "Lliswerry A (08)",
+    "club": "Lliswerry Runners",
     "time": "00:52:02"
   },
   {
@@ -27956,7 +27380,7 @@ const relayResults = [
     "km": 12.1,
     "position": 9,
     "name": "Robert Coles",
-    "club": "Caerphilly A Spirit of (09)",
+    "club": "Caerphilly Runners",
     "time": "00:53:05"
   },
   {
@@ -27968,7 +27392,7 @@ const relayResults = [
     "km": 12.1,
     "position": 10,
     "name": "Andrew Dickens",
-    "club": "Pont-y-pwl & District B Parc Bryn (10)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:53:40"
   },
   {
@@ -27980,7 +27404,7 @@ const relayResults = [
     "km": 12.1,
     "position": 11,
     "name": "Amy Edwards",
-    "club": "Rhondda Valley A Caerphilly (11)",
+    "club": "Rhondda Valley Runners",
     "time": "00:54:53"
   },
   {
@@ -27992,7 +27416,7 @@ const relayResults = [
     "km": 12.1,
     "position": 12,
     "name": "Paula Williams",
-    "club": "Caerleon A Pontypridd (12)",
+    "club": "Caerleon RC",
     "time": "00:55:25"
   },
   {
@@ -28004,7 +27428,7 @@ const relayResults = [
     "km": 12.1,
     "position": 13,
     "name": "Jane Beresford",
-    "club": "Spirit of Monmouth A Brackla (13)",
+    "club": "Spirit of Monmouth",
     "time": "00:55:28"
   },
   {
@@ -28016,7 +27440,7 @@ const relayResults = [
     "km": 12.1,
     "position": 14,
     "name": "Chris Jones",
-    "club": "Porthcawl A Parc Bryn (14)",
+    "club": "Porthcawl Runners",
     "time": "00:55:52"
   },
   {
@@ -28028,7 +27452,7 @@ const relayResults = [
     "km": 12.1,
     "position": 15,
     "name": "Lee Richards",
-    "club": "Islwyn B Caldicot (15)",
+    "club": "Islwyn RC",
     "time": "00:56:09"
   },
   {
@@ -28040,7 +27464,7 @@ const relayResults = [
     "km": 12.1,
     "position": 16,
     "name": "Liz May",
-    "club": "Pontypridd A Caerleon (16)",
+    "club": "Pontypridd Roadents",
     "time": "00:56:39"
   },
   {
@@ -28052,7 +27476,7 @@ const relayResults = [
     "km": 12.1,
     "position": 17,
     "name": "Andrea Scarrit",
-    "club": "Brackla A Pont-y-pwl (17)",
+    "club": "Brackla Harriers",
     "time": "00:57:40"
   },
   {
@@ -28064,7 +27488,7 @@ const relayResults = [
     "km": 12.1,
     "position": 18,
     "name": "Gareth Brunnock",
-    "club": "Lliswerry B Fairwater (18)",
+    "club": "Lliswerry Runners",
     "time": "00:57:42"
   },
   {
@@ -28076,7 +27500,7 @@ const relayResults = [
     "km": 12.1,
     "position": 19,
     "name": "Katy Luff",
-    "club": "Caldicot A Rhondda (19)",
+    "club": "Caldicot RC",
     "time": "00:58:53"
   },
   {
@@ -28088,7 +27512,7 @@ const relayResults = [
     "km": 12.1,
     "position": 20,
     "name": "Jeanette Jenkins",
-    "club": "Fairwater Cwmbran A Pegasus (20)",
+    "club": "Fairwater Runners",
     "time": "00:59:24"
   },
   {
@@ -28100,7 +27524,7 @@ const relayResults = [
     "km": 12.1,
     "position": 21,
     "name": "Helen Williams",
-    "club": "Parc Bryn Bach A Porthcawl (21)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:59:59"
   },
   {
@@ -28112,7 +27536,7 @@ const relayResults = [
     "km": 12.1,
     "position": 22,
     "name": "Sarah Prvor",
-    "club": "Pegasus A Islwyn B (22)",
+    "club": "Pegasus RC",
     "time": "01:00:08"
   },
   {
@@ -28124,7 +27548,7 @@ const relayResults = [
     "km": 12.1,
     "position": 23,
     "name": "Thomas Williams",
-    "club": "Usk A Lliswerry (23)",
+    "club": "Usk",
     "time": "01:00:46"
   },
   {
@@ -28136,7 +27560,7 @@ const relayResults = [
     "km": 12.1,
     "position": 24,
     "name": "Ruth Butterfield",
-    "club": "Parc Bryn Bach B Caerleon (24)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:02:27"
   },
   {
@@ -28148,7 +27572,7 @@ const relayResults = [
     "km": 12.1,
     "position": 25,
     "name": "Tania Hall",
-    "club": "Caerleon B Usk A (25)",
+    "club": "Caerleon RC",
     "time": "01:05:56"
   },
   {
@@ -28160,7 +27584,7 @@ const relayResults = [
     "km": 10.8,
     "position": 1,
     "name": "Mike Erskine",
-    "club": "Les Croupiers A Pont-y-pwl (01)",
+    "club": "Les Croupiers RC",
     "time": "00:40:12"
   },
   {
@@ -28172,7 +27596,7 @@ const relayResults = [
     "km": 10.8,
     "position": 2,
     "name": "James Pearce",
-    "club": "Lliswerry A Chepstow (02)",
+    "club": "Lliswerry Runners",
     "time": "00:43:15"
   },
   {
@@ -28184,7 +27608,7 @@ const relayResults = [
     "km": 10.8,
     "position": 3,
     "name": "Jonathan Carter",
-    "club": "Chepstow A (03)",
+    "club": "Chepstow Harriers",
     "time": "00:45:20"
   },
   {
@@ -28196,7 +27620,7 @@ const relayResults = [
     "km": 10.8,
     "position": 4,
     "name": "Andy Wilton",
-    "club": "San Domenico A Lliswerry (04)",
+    "club": "San Domenico RC",
     "time": "00:45:53"
   },
   {
@@ -28208,7 +27632,7 @@ const relayResults = [
     "km": 10.8,
     "position": 5,
     "name": "Mike Griffiths",
-    "club": "Caldicot A Les (05)",
+    "club": "Caldicot RC",
     "time": "00:46:40"
   },
   {
@@ -28220,7 +27644,7 @@ const relayResults = [
     "km": 10.8,
     "position": 6,
     "name": "Jeremy Masters",
-    "club": "Spirit (06)",
+    "club": "Spirit of Monmouth",
     "time": "00:47:02"
   },
   {
@@ -28232,7 +27656,7 @@ const relayResults = [
     "km": 10.8,
     "position": 7,
     "name": "Sammi Toop",
-    "club": "Pont-y-pwl & District A Parc (07)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:47:49"
   },
   {
@@ -28244,7 +27668,7 @@ const relayResults = [
     "km": 10.8,
     "position": 8,
     "name": "Kevin Dupe",
-    "club": "Caerleon B Chepstow (08)",
+    "club": "Caerleon RC",
     "time": "00:48:37"
   },
   {
@@ -28256,7 +27680,7 @@ const relayResults = [
     "km": 10.8,
     "position": 9,
     "name": "Martin Chammings",
-    "club": "Parc Bryn Bach A Islwyn (09)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:49:24"
   },
   {
@@ -28268,7 +27692,7 @@ const relayResults = [
     "km": 10.8,
     "position": 10,
     "name": "Gary Webber",
-    "club": "Rhondda Valley A Caldicot (10)",
+    "club": "Rhondda Valley Runners",
     "time": "00:49:29"
   },
   {
@@ -28280,7 +27704,7 @@ const relayResults = [
     "km": 10.8,
     "position": 11,
     "name": "Mike Gwynne",
-    "club": "Pontypridd A Pontypridd (11)",
+    "club": "Pontypridd Roadents",
     "time": "00:50:47"
   },
   {
@@ -28292,7 +27716,7 @@ const relayResults = [
     "km": 10.8,
     "position": 12,
     "name": "Richard Beech",
-    "club": "Brackla A Caerphilly (12)",
+    "club": "Brackla Harriers",
     "time": "00:50:59"
   },
   {
@@ -28304,7 +27728,7 @@ const relayResults = [
     "km": 10.8,
     "position": 13,
     "name": "Emma Edwards",
-    "club": "Caerphilly A Brackla (13)",
+    "club": "Caerphilly Runners",
     "time": "00:52:51"
   },
   {
@@ -28316,7 +27740,7 @@ const relayResults = [
     "km": 10.8,
     "position": 14,
     "name": "Emma Sowrey",
-    "club": "Pont-y-pwl & District B Parc (14)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:53:54"
   },
   {
@@ -28328,7 +27752,7 @@ const relayResults = [
     "km": 10.8,
     "position": 15,
     "name": "Esther Barrett",
-    "club": "Chepstow B Pont-y-pwl (15)",
+    "club": "Chepstow Harriers",
     "time": "00:54:08"
   },
   {
@@ -28340,7 +27764,7 @@ const relayResults = [
     "km": 10.8,
     "position": 16,
     "name": "Liz Richards",
-    "club": "Caerleon A Caerleon (16)",
+    "club": "Caerleon RC",
     "time": "00:54:48"
   },
   {
@@ -28352,7 +27776,7 @@ const relayResults = [
     "km": 10.8,
     "position": 17,
     "name": "Cyril Williams",
-    "club": "Parc Bryn Bach B Rhondda (17)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:55:12"
   },
   {
@@ -28364,7 +27788,7 @@ const relayResults = [
     "km": 10.8,
     "position": 18,
     "name": "Martyn Furness",
-    "club": "Porthcawl A Griffithstown (18)",
+    "club": "Porthcawl Runners",
     "time": "00:55:32"
   },
   {
@@ -28376,7 +27800,7 @@ const relayResults = [
     "km": 10.8,
     "position": 19,
     "name": "Bev Bradbury Jones",
-    "club": "Fairwater Cwmbran A Fairwater (19)",
+    "club": "Fairwater Runners",
     "time": "00:56:07"
   },
   {
@@ -28388,7 +27812,7 @@ const relayResults = [
     "km": 10.8,
     "position": 20,
     "name": "Ben Gooding",
-    "club": "Pegasus A Caerleon (20)",
+    "club": "Pegasus RC",
     "time": "00:56:54"
   },
   {
@@ -28400,7 +27824,7 @@ const relayResults = [
     "km": 10.8,
     "position": 21,
     "name": "Janet Evans",
-    "club": "Usk A Porthcawl (21)",
+    "club": "Usk",
     "time": "01:01:00"
   },
   {
@@ -28412,7 +27836,7 @@ const relayResults = [
     "km": 10.8,
     "position": 22,
     "name": "Vicky Fear",
-    "club": "Lliswerry B Pegasus (22)",
+    "club": "Lliswerry Runners",
     "time": "01:01:01"
   },
   {
@@ -28424,7 +27848,7 @@ const relayResults = [
     "km": 10.8,
     "position": 23,
     "name": "Claire Simms",
-    "club": "Islwyn A Islwyn (23)",
+    "club": "Islwyn RC",
     "time": "01:01:02"
   },
   {
@@ -28436,7 +27860,7 @@ const relayResults = [
     "km": 10.8,
     "position": 24,
     "name": "Helen Williams",
-    "club": "Islwyn B Lliswerry (24)",
+    "club": "Islwyn RC",
     "time": "01:01:00"
   },
   {
@@ -28448,7 +27872,7 @@ const relayResults = [
     "km": 10.8,
     "position": 25,
     "name": "Lena Evans",
-    "club": "Griffithstown A Usk A (25)",
+    "club": "Griffithstown Harriers",
     "time": "01:11:00"
   },
   {
@@ -28460,7 +27884,7 @@ const relayResults = [
     "km": 13.0,
     "position": 1,
     "name": "Rich Matthews",
-    "club": "Chepstow A Chepstow (01)",
+    "club": "Chepstow Harriers",
     "time": "00:50:19"
   },
   {
@@ -28472,7 +27896,7 @@ const relayResults = [
     "km": 13.0,
     "position": 2,
     "name": "Ben Sinclair",
-    "club": "Pont-y-pwl & District A Pont-y-pwl (02)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:51:16"
   },
   {
@@ -28484,7 +27908,7 @@ const relayResults = [
     "km": 13.0,
     "position": 3,
     "name": "Allan Meek",
-    "club": "Spirit of Monmouth A San (03)",
+    "club": "Spirit of Monmouth",
     "time": "00:51:50"
   },
   {
@@ -28496,7 +27920,7 @@ const relayResults = [
     "km": 13.0,
     "position": 4,
     "name": "Mike Dury",
-    "club": "Islwyn A (04)",
+    "club": "Islwyn RC",
     "time": "00:52:10"
   },
   {
@@ -28508,7 +27932,7 @@ const relayResults = [
     "km": 13.0,
     "position": 5,
     "name": "Mark Harvey",
-    "club": "Chepstow B Les (05)",
+    "club": "Chepstow Harriers",
     "time": "00:52:29"
   },
   {
@@ -28520,7 +27944,7 @@ const relayResults = [
     "km": 13.0,
     "position": 6,
     "name": "David Bennett",
-    "club": "Porthcawl A Spirit of (06)",
+    "club": "Porthcawl Runners",
     "time": "00:54:02"
   },
   {
@@ -28532,7 +27956,7 @@ const relayResults = [
     "km": 13.0,
     "position": 7,
     "name": "Mark Lamorte",
-    "club": "Caerphilly A Chepstow (07)",
+    "club": "Caerphilly Runners",
     "time": "00:55:11"
   },
   {
@@ -28544,7 +27968,7 @@ const relayResults = [
     "km": 13.0,
     "position": 8,
     "name": "Mostyn Jones",
-    "club": "Caldicot A Islwyn A (08)",
+    "club": "Caldicot RC",
     "time": "00:55:40"
   },
   {
@@ -28556,7 +27980,7 @@ const relayResults = [
     "km": 13.0,
     "position": 9,
     "name": "Stephen May",
-    "club": "Pontypridd A Parc Bryn (09)",
+    "club": "Pontypridd Roadents",
     "time": "00:55:54"
   },
   {
@@ -28568,7 +27992,7 @@ const relayResults = [
     "km": 13.0,
     "position": 10,
     "name": "Richard Sheehy",
-    "club": "Parc Bryn Bach A Caldicot (10)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:56:50"
   },
   {
@@ -28580,7 +28004,7 @@ const relayResults = [
     "km": 13.0,
     "position": 11,
     "name": "Chris O Brien",
-    "club": "Pont-y-pwl & District B Caerphilly (11)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:57:16"
   },
   {
@@ -28592,7 +28016,7 @@ const relayResults = [
     "km": 13.0,
     "position": 12,
     "name": "Jason Pritchard",
-    "club": "Caerleon A Pontypridd (12)",
+    "club": "Caerleon RC",
     "time": "00:57:37"
   },
   {
@@ -28604,7 +28028,7 @@ const relayResults = [
     "km": 13.0,
     "position": 13,
     "name": "Matt Hooper",
-    "club": "Les Croupiers A Pont-y-pwl (13)",
+    "club": "Les Croupiers RC",
     "time": "00:58:29"
   },
   {
@@ -28616,7 +28040,7 @@ const relayResults = [
     "km": 13.0,
     "position": 14,
     "name": "Ben Jenkins",
-    "club": "Griffithstown A Caerleon (14)",
+    "club": "Griffithstown Harriers",
     "time": "00:59:01"
   },
   {
@@ -28628,7 +28052,7 @@ const relayResults = [
     "km": 13.0,
     "position": 15,
     "name": "Dominic Shields",
-    "club": "San Domenico A Brackla (15)",
+    "club": "San Domenico RC",
     "time": "00:59:34"
   },
   {
@@ -28640,7 +28064,7 @@ const relayResults = [
     "km": 13.0,
     "position": 16,
     "name": "Lloyd Hughes",
-    "club": "Caerleon B Porthcawl (16)",
+    "club": "Caerleon RC",
     "time": "01:00:16"
   },
   {
@@ -28652,7 +28076,7 @@ const relayResults = [
     "km": 13.0,
     "position": 17,
     "name": "Nick Davies",
-    "club": "Lliswerry A Griffithstown (17)",
+    "club": "Lliswerry Runners",
     "time": "01:00:43"
   },
   {
@@ -28664,7 +28088,7 @@ const relayResults = [
     "km": 13.0,
     "position": 18,
     "name": "Robert Noon",
-    "club": "Usk A Rhondda (18)",
+    "club": "Usk",
     "time": "01:01:51"
   },
   {
@@ -28676,7 +28100,7 @@ const relayResults = [
     "km": 13.0,
     "position": 19,
     "name": "Richard Williams",
-    "club": "Rhondda Valley A Parc Bryn (19)",
+    "club": "Rhondda Valley Runners",
     "time": "01:02:04"
   },
   {
@@ -28688,7 +28112,7 @@ const relayResults = [
     "km": 13.0,
     "position": 20,
     "name": "Roland Matthews",
-    "club": "Brackla A Caerleon (20)",
+    "club": "Brackla Harriers",
     "time": "01:06:48"
   },
   {
@@ -28700,7 +28124,7 @@ const relayResults = [
     "km": 13.0,
     "position": 21,
     "name": "James Williams",
-    "club": "Parc Bryn Bach B Pegasus (21)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:07:51"
   },
   {
@@ -28712,7 +28136,7 @@ const relayResults = [
     "km": 13.0,
     "position": 22,
     "name": "Julia Evans",
-    "club": "Pegasus A Fairwater (22)",
+    "club": "Pegasus RC",
     "time": "01:08:55"
   },
   {
@@ -28724,7 +28148,7 @@ const relayResults = [
     "km": 13.0,
     "position": 23,
     "name": "John Hill",
-    "club": "Lliswerry B (23)",
+    "club": "Lliswerry Runners",
     "time": "01:10:49"
   },
   {
@@ -28736,7 +28160,7 @@ const relayResults = [
     "km": 13.0,
     "position": 24,
     "name": "Helen Gwilliam",
-    "club": "Fairwater Cwmbran A Usk A (24)",
+    "club": "Fairwater Runners",
     "time": "01:13:00"
   },
   {
@@ -28748,7 +28172,7 @@ const relayResults = [
     "km": 13.0,
     "position": 25,
     "name": "Juli Williams",
-    "club": "Islwyn B Islwyn B (25)",
+    "club": "Islwyn RC",
     "time": "01:23:00"
   },
   {
@@ -28760,7 +28184,7 @@ const relayResults = [
     "km": 20.3,
     "position": 1,
     "name": "Paul White",
-    "club": "Pont-y-pwl (01)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:16:38"
   },
   {
@@ -28772,7 +28196,7 @@ const relayResults = [
     "km": 20.3,
     "position": 2,
     "name": "Karie Atkins",
-    "club": "Chepstow A Chepstow (02)",
+    "club": "Chepstow Harriers",
     "time": "01:18:35"
   },
   {
@@ -28784,7 +28208,7 @@ const relayResults = [
     "km": 20.3,
     "position": 3,
     "name": "Alec Care",
-    "club": "San Domenico A San (03)",
+    "club": "San Domenico RC",
     "time": "01:22:46"
   },
   {
@@ -28796,7 +28220,7 @@ const relayResults = [
     "km": 20.3,
     "position": 4,
     "name": "Paul Speyer",
-    "club": "Brackla A Lliswerry (04)",
+    "club": "Brackla Harriers",
     "time": "01:23:44"
   },
   {
@@ -28808,7 +28232,7 @@ const relayResults = [
     "km": 20.3,
     "position": 5,
     "name": "Daniel Thrift",
-    "club": "Caerphilly A Les (05)",
+    "club": "Caerphilly Runners",
     "time": "01:23:52"
   },
   {
@@ -28820,7 +28244,7 @@ const relayResults = [
     "km": 20.3,
     "position": 6,
     "name": "Jack Rowland",
-    "club": "Lliswerry A Spirit (06)",
+    "club": "Lliswerry Runners",
     "time": "01:24:32"
   },
   {
@@ -28832,7 +28256,7 @@ const relayResults = [
     "km": 20.3,
     "position": 7,
     "name": "Ray Morgan",
-    "club": "Pont-y-pwl & District B Chepstow (07)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:24:41"
   },
   {
@@ -28844,7 +28268,7 @@ const relayResults = [
     "km": 20.3,
     "position": 8,
     "name": "Richard Hughes",
-    "club": "Caerleon A Caerphilly (08)",
+    "club": "Caerleon RC",
     "time": "01:25:13"
   },
   {
@@ -28856,7 +28280,7 @@ const relayResults = [
     "km": 20.3,
     "position": 9,
     "name": "Will Edwards",
-    "club": "Porthcawl A Islwyn (09)",
+    "club": "Porthcawl Runners",
     "time": "01:26:24"
   },
   {
@@ -28868,7 +28292,7 @@ const relayResults = [
     "km": 20.3,
     "position": 10,
     "name": "CJ de Mooi",
-    "club": "Caldicot A Caldicot (10)",
+    "club": "Caldicot RC",
     "time": "01:26:41"
   },
   {
@@ -28880,7 +28304,7 @@ const relayResults = [
     "km": 20.3,
     "position": 11,
     "name": "Alice Taylor",
-    "club": "Spirit of Monmouth A Parc (11)",
+    "club": "Spirit of Monmouth",
     "time": "01:27:59"
   },
   {
@@ -28892,7 +28316,7 @@ const relayResults = [
     "km": 20.3,
     "position": 12,
     "name": "Dickie Hudd",
-    "club": "Chepstow B (12)",
+    "club": "Chepstow Harriers",
     "time": "01:28:27"
   },
   {
@@ -28904,7 +28328,7 @@ const relayResults = [
     "km": 20.3,
     "position": 13,
     "name": "Nick Walsh",
-    "club": "Griffithstown A Caerleon (13)",
+    "club": "Griffithstown Harriers",
     "time": "01:29:27"
   },
   {
@@ -28916,7 +28340,7 @@ const relayResults = [
     "km": 20.3,
     "position": 14,
     "name": "Neema Mal",
-    "club": "Les Croupiers A Brackla (14)",
+    "club": "Les Croupiers RC",
     "time": "01:29:41"
   },
   {
@@ -28928,7 +28352,7 @@ const relayResults = [
     "km": 20.3,
     "position": 15,
     "name": "Steve Lane",
-    "club": "Islwyn A Pontypridd (15)",
+    "club": "Islwyn RC",
     "time": "01:31:11"
   },
   {
@@ -28940,7 +28364,7 @@ const relayResults = [
     "km": 20.3,
     "position": 16,
     "name": "Steve Drewitt",
-    "club": "Fairwater Cwmbran A Porthcawl (16)",
+    "club": "Fairwater Runners",
     "time": "01:31:39"
   },
   {
@@ -28952,7 +28376,7 @@ const relayResults = [
     "km": 20.3,
     "position": 17,
     "name": "Darragh Hanley-Crofts",
-    "club": "Pegasus A (17)",
+    "club": "Pegasus RC",
     "time": "01:34:29"
   },
   {
@@ -28964,7 +28388,7 @@ const relayResults = [
     "km": 20.3,
     "position": 18,
     "name": "Phillip Miles",
-    "club": "Parc Bryn Bach A Rhondda (18)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:35:13"
   },
   {
@@ -28976,7 +28400,7 @@ const relayResults = [
     "km": 20.3,
     "position": 19,
     "name": "Jon Hancock",
-    "club": "Usk A Caerleon (19)",
+    "club": "Usk",
     "time": "01:36:14"
   },
   {
@@ -28988,7 +28412,7 @@ const relayResults = [
     "km": 20.3,
     "position": 20,
     "name": "Leon Black",
-    "club": "Rhondda Valley A Fairwater (20)",
+    "club": "Rhondda Valley Runners",
     "time": "01:37:17"
   },
   {
@@ -29000,7 +28424,7 @@ const relayResults = [
     "km": 20.3,
     "position": 21,
     "name": "Nathan Priest",
-    "club": "Islwyn B Parc (21)",
+    "club": "Islwyn RC",
     "time": "01:39:09"
   },
   {
@@ -29012,7 +28436,7 @@ const relayResults = [
     "km": 20.3,
     "position": 22,
     "name": "Phil Hyatt",
-    "club": "Caerleon B (22)",
+    "club": "Caerleon RC",
     "time": "01:39:32"
   },
   {
@@ -29024,7 +28448,7 @@ const relayResults = [
     "km": 20.3,
     "position": 23,
     "name": "Janet Edwards",
-    "club": "Pontypridd A Usk A (23)",
+    "club": "Pontypridd Roadents",
     "time": "01:41:00"
   },
   {
@@ -29036,7 +28460,7 @@ const relayResults = [
     "km": 20.3,
     "position": 24,
     "name": "Terry Vaughan",
-    "club": "Parc Bryn Bach B Lliswerry (24)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:43:44"
   },
   {
@@ -29048,7 +28472,7 @@ const relayResults = [
     "km": 20.3,
     "position": 25,
     "name": "Richard Powell",
-    "club": "Lliswerry B Islwyn (25)",
+    "club": "Lliswerry Runners",
     "time": "01:48:40"
   },
   {
@@ -29060,7 +28484,7 @@ const relayResults = [
     "km": 8.9,
     "position": 1,
     "name": "Michael Lewis",
-    "club": "Fairwater Cwmbran A Chepstow (01)",
+    "club": "Fairwater Runners",
     "time": "00:32:25"
   },
   {
@@ -29072,7 +28496,7 @@ const relayResults = [
     "km": 8.9,
     "position": 2,
     "name": "Nicky Collin",
-    "club": "Lliswerry A Pont-y-pwl (02)",
+    "club": "Lliswerry Runners",
     "time": "00:35:51"
   },
   {
@@ -29084,7 +28508,7 @@ const relayResults = [
     "km": 8.9,
     "position": 3,
     "name": "Niki Morgan",
-    "club": "Chepstow A (03)",
+    "club": "Chepstow Harriers",
     "time": "00:36:03"
   },
   {
@@ -29096,7 +28520,7 @@ const relayResults = [
     "km": 8.9,
     "position": 4,
     "name": "Kristie Oconnell",
-    "club": "Pontypridd A San (04)",
+    "club": "Pontypridd Roadents",
     "time": "00:36:24"
   },
   {
@@ -29108,7 +28532,7 @@ const relayResults = [
     "km": 8.9,
     "position": 5,
     "name": "Hannah Williams",
-    "club": "Parc Bryn Bach B Spirit (05)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:38:56"
   },
   {
@@ -29120,7 +28544,7 @@ const relayResults = [
     "km": 8.9,
     "position": 6,
     "name": "Leanne Meek",
-    "club": "Spirit (06)",
+    "club": "Spirit of Monmouth",
     "time": "00:40:00"
   },
   {
@@ -29132,7 +28556,7 @@ const relayResults = [
     "km": 8.9,
     "position": 7,
     "name": "Jan Morris",
-    "club": "Chepstow B Chepstow (07)",
+    "club": "Chepstow Harriers",
     "time": "00:40:16"
   },
   {
@@ -29144,7 +28568,7 @@ const relayResults = [
     "km": 8.9,
     "position": 8,
     "name": "Harri Like",
-    "club": "Pont-y-pwl & District A Caerphilly (08)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:40:49"
   },
   {
@@ -29156,7 +28580,7 @@ const relayResults = [
     "km": 8.9,
     "position": 9,
     "name": "Megan Poulson",
-    "club": "San Domenico A Islwyn (09)",
+    "club": "San Domenico RC",
     "time": "00:41:35"
   },
   {
@@ -29168,7 +28592,7 @@ const relayResults = [
     "km": 8.9,
     "position": 10,
     "name": "Katrina Daniel",
-    "club": "Caerphilly A (10)",
+    "club": "Caerphilly Runners",
     "time": "00:41:51"
   },
   {
@@ -29180,7 +28604,7 @@ const relayResults = [
     "km": 8.9,
     "position": 11,
     "name": "Rhian Griffin",
-    "club": "Parc Bryn Bach A Parc (11)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:43:06"
   },
   {
@@ -29192,7 +28616,7 @@ const relayResults = [
     "km": 8.9,
     "position": 12,
     "name": "Nadine Ritterskamp",
-    "club": "Les Croupiers A Pontypridd (12)",
+    "club": "Les Croupiers RC",
     "time": "00:43:22"
   },
   {
@@ -29204,7 +28628,7 @@ const relayResults = [
     "km": 8.9,
     "position": 13,
     "name": "Libby Lavis",
-    "club": "Brackla A Caerleon (13)",
+    "club": "Brackla Harriers",
     "time": "00:43:29"
   },
   {
@@ -29216,7 +28640,7 @@ const relayResults = [
     "km": 8.9,
     "position": 14,
     "name": "Natalie Walker",
-    "club": "Caerleon A Pont-y-pwl (14)",
+    "club": "Caerleon RC",
     "time": "00:43:32"
   },
   {
@@ -29228,7 +28652,7 @@ const relayResults = [
     "km": 8.9,
     "position": 15,
     "name": "Sharon Woods",
-    "club": "Pont-y-pwl & District B Brackla (15)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:44:45"
   },
   {
@@ -29240,7 +28664,7 @@ const relayResults = [
     "km": 8.9,
     "position": 16,
     "name": "Gemma Reeks",
-    "club": "Caldicot A Porthcawl (16)",
+    "club": "Caldicot RC",
     "time": "00:45:34"
   },
   {
@@ -29252,7 +28676,7 @@ const relayResults = [
     "km": 8.9,
     "position": 17,
     "name": "Karen Phillips",
-    "club": "Porthcawl A (17)",
+    "club": "Porthcawl Runners",
     "time": "00:46:23"
   },
   {
@@ -29264,7 +28688,7 @@ const relayResults = [
     "km": 8.9,
     "position": 18,
     "name": "Jemma Reardon",
-    "club": "Islwyn A Fairwater (18)",
+    "club": "Islwyn RC",
     "time": "00:46:24"
   },
   {
@@ -29276,7 +28700,7 @@ const relayResults = [
     "km": 8.9,
     "position": 19,
     "name": "Keren Beard",
-    "club": "Griffithstown A Rhondda (19)",
+    "club": "Griffithstown Harriers",
     "time": "00:46:52"
   },
   {
@@ -29288,7 +28712,7 @@ const relayResults = [
     "km": 8.9,
     "position": 20,
     "name": "Zoe Heydon",
-    "club": "Islwyn B (20)",
+    "club": "Islwyn RC",
     "time": "00:47:03"
   },
   {
@@ -29300,7 +28724,7 @@ const relayResults = [
     "km": 8.9,
     "position": 21,
     "name": "Roni Margerison",
-    "club": "Lliswerry B Caerleon (21)",
+    "club": "Lliswerry Runners",
     "time": "00:47:22"
   },
   {
@@ -29312,7 +28736,7 @@ const relayResults = [
     "km": 8.9,
     "position": 22,
     "name": "Vanessa Pritchard",
-    "club": "Caerleon B (22)",
+    "club": "Caerleon RC",
     "time": "00:49:06"
   },
   {
@@ -29324,7 +28748,7 @@ const relayResults = [
     "km": 8.9,
     "position": 23,
     "name": "Gemma Green",
-    "club": "Rhondda Valley A Usk A (23)",
+    "club": "Rhondda Valley Runners",
     "time": "00:49:20"
   },
   {
@@ -29336,7 +28760,7 @@ const relayResults = [
     "km": 8.9,
     "position": 24,
     "name": "Kate Sarsby",
-    "club": "Usk A Lliswerry (24)",
+    "club": "Usk",
     "time": "00:49:23"
   },
   {
@@ -29348,7 +28772,7 @@ const relayResults = [
     "km": 8.9,
     "position": 25,
     "name": "Nia Butler",
-    "club": "Pegasus A Islwyn (25)",
+    "club": "Pegasus RC",
     "time": "00:50:00"
   },
   {
@@ -29360,7 +28784,7 @@ const relayResults = [
     "km": 21.1,
     "position": 1,
     "name": "Laurence Humphreys",
-    "club": "Fairwater Cwmbran A Chepstow (01)",
+    "club": "Fairwater Runners",
     "time": "01:21:27"
   },
   {
@@ -29372,7 +28796,7 @@ const relayResults = [
     "km": 21.1,
     "position": 2,
     "name": "Paul Murrin",
-    "club": "Chepstow A Pont-y-pwl (02)",
+    "club": "Chepstow Harriers",
     "time": "01:25:05"
   },
   {
@@ -29384,7 +28808,7 @@ const relayResults = [
     "km": 21.1,
     "position": 3,
     "name": "Mark Mogford",
-    "club": "Griffithstown A San Domenico (03)",
+    "club": "Griffithstown Harriers",
     "time": "01:25:58"
   },
   {
@@ -29396,7 +28820,7 @@ const relayResults = [
     "km": 21.1,
     "position": 4,
     "name": "David Hazell",
-    "club": "Caerphilly A Spirit of (04)",
+    "club": "Caerphilly Runners",
     "time": "01:28:23"
   },
   {
@@ -29408,7 +28832,7 @@ const relayResults = [
     "km": 21.1,
     "position": 5,
     "name": "Gareth Jones",
-    "club": "Spirit of Monmouth A Lliswerry (05)",
+    "club": "Spirit of Monmouth",
     "time": "01:29:35"
   },
   {
@@ -29420,7 +28844,7 @@ const relayResults = [
     "km": 21.1,
     "position": 6,
     "name": "Matt Symes",
-    "club": "Pont-y-pwl & District A Caerphilly (06)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:30:47"
   },
   {
@@ -29432,7 +28856,7 @@ const relayResults = [
     "km": 21.1,
     "position": 7,
     "name": "Chris Jeyes",
-    "club": "Brackla A Chepstow (07)",
+    "club": "Brackla Harriers",
     "time": "01:32:30"
   },
   {
@@ -29444,7 +28868,7 @@ const relayResults = [
     "km": 21.1,
     "position": 8,
     "name": "David Dickson",
-    "club": "Porthcawl A Les Croupiers (08)",
+    "club": "Porthcawl Runners",
     "time": "01:33:31"
   },
   {
@@ -29456,7 +28880,7 @@ const relayResults = [
     "km": 21.1,
     "position": 9,
     "name": "Phil Bristow",
-    "club": "San Domenico A Caldicot (09)",
+    "club": "San Domenico RC",
     "time": "01:33:42"
   },
   {
@@ -29468,7 +28892,7 @@ const relayResults = [
     "km": 21.1,
     "position": 10,
     "name": "Rob Bickel",
-    "club": "Caerleon A Caerleon (10)",
+    "club": "Caerleon RC",
     "time": "01:33:49"
   },
   {
@@ -29480,7 +28904,7 @@ const relayResults = [
     "km": 21.1,
     "position": 11,
     "name": "Paul Lidgett",
-    "club": "Chepstow B Pont-y-pwl (11)",
+    "club": "Chepstow Harriers",
     "time": "01:34:01"
   },
   {
@@ -29492,7 +28916,7 @@ const relayResults = [
     "km": 21.1,
     "position": 12,
     "name": "Adrian Woods",
-    "club": "Pont-y-pwl & District B Brackla A (12)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:34:17"
   },
   {
@@ -29504,7 +28928,7 @@ const relayResults = [
     "km": 21.1,
     "position": 13,
     "name": "Russell Griffiths",
-    "club": "Caldicot A Fairwater (13)",
+    "club": "Caldicot RC",
     "time": "01:34:38"
   },
   {
@@ -29516,7 +28940,7 @@ const relayResults = [
     "km": 21.1,
     "position": 14,
     "name": "Adrian Bull",
-    "club": "Usk A Griffithstown (14)",
+    "club": "Usk",
     "time": "01:35:38"
   },
   {
@@ -29528,7 +28952,7 @@ const relayResults = [
     "km": 21.1,
     "position": 15,
     "name": "Greg Roberts",
-    "club": "Les Croupiers A Islwyn A (15)",
+    "club": "Les Croupiers RC",
     "time": "01:37:29"
   },
   {
@@ -29540,7 +28964,7 @@ const relayResults = [
     "km": 21.1,
     "position": 16,
     "name": "Bryan Meredith",
-    "club": "Rhondda Valley A Porthcawl (16)",
+    "club": "Rhondda Valley Runners",
     "time": "01:39:48"
   },
   {
@@ -29552,7 +28976,7 @@ const relayResults = [
     "km": 21.1,
     "position": 17,
     "name": "Antoinette Dumayne",
-    "club": "Lliswerry A Pontypridd (17)",
+    "club": "Lliswerry Runners",
     "time": "01:41:08"
   },
   {
@@ -29564,7 +28988,7 @@ const relayResults = [
     "km": 21.1,
     "position": 18,
     "name": "Peter Rodger",
-    "club": "Caerleon B Parc Bryn (18)",
+    "club": "Caerleon RC",
     "time": "01:43:04"
   },
   {
@@ -29576,7 +29000,7 @@ const relayResults = [
     "km": 21.1,
     "position": 19,
     "name": "Karl Edwards",
-    "club": "Pontypridd A Rhondda (19)",
+    "club": "Pontypridd Roadents",
     "time": "01:45:19"
   },
   {
@@ -29588,7 +29012,7 @@ const relayResults = [
     "km": 21.1,
     "position": 20,
     "name": "Stuart Lukins",
-    "club": "Lliswerry B Caerleon (20)",
+    "club": "Lliswerry Runners",
     "time": "01:47:16"
   },
   {
@@ -29600,7 +29024,7 @@ const relayResults = [
     "km": 21.1,
     "position": 21,
     "name": "Kelly Felstead",
-    "club": "Islwyn A Parc Bryn (21)",
+    "club": "Islwyn RC",
     "time": "01:50:20"
   },
   {
@@ -29612,7 +29036,7 @@ const relayResults = [
     "km": 21.1,
     "position": 22,
     "name": "Chris Gosling",
-    "club": "Pegasus A Usk A (22)",
+    "club": "Pegasus RC",
     "time": "01:54:12"
   },
   {
@@ -29624,7 +29048,7 @@ const relayResults = [
     "km": 21.1,
     "position": 23,
     "name": "Anthony Lewis",
-    "club": "Parc Bryn Bach A Pegasus (23)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:54:33"
   },
   {
@@ -29636,7 +29060,7 @@ const relayResults = [
     "km": 21.1,
     "position": 24,
     "name": "Lee Griffiths",
-    "club": "Parc Bryn Bach B Lliswerry (24)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:55:43"
   },
   {
@@ -29648,7 +29072,7 @@ const relayResults = [
     "km": 21.1,
     "position": 25,
     "name": "Simon Peterson",
-    "club": "Islwyn B Islwyn B (25)",
+    "club": "Islwyn RC",
     "time": "01:57:26"
   },
   {
@@ -29660,7 +29084,7 @@ const relayResults = [
     "km": 16.0,
     "position": 1,
     "name": "Andy Lee",
-    "club": "Pont-y-pwl (01)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:02:58"
   },
   {
@@ -29672,7 +29096,7 @@ const relayResults = [
     "km": 16.0,
     "position": 2,
     "name": "Lee Millsy Mills",
-    "club": "Islwyn A (02)",
+    "club": "Islwyn RC",
     "time": "01:04:12"
   },
   {
@@ -29684,7 +29108,7 @@ const relayResults = [
     "km": 16.0,
     "position": 3,
     "name": "Gareth Jones",
-    "club": "Griffithstown A San (03)",
+    "club": "Griffithstown Harriers",
     "time": "01:04:39"
   },
   {
@@ -29696,7 +29120,7 @@ const relayResults = [
     "km": 16.0,
     "position": 4,
     "name": "Kath Matthews",
-    "club": "Chepstow A Lliswerry (04)",
+    "club": "Chepstow Harriers",
     "time": "01:04:54"
   },
   {
@@ -29708,7 +29132,7 @@ const relayResults = [
     "km": 16.0,
     "position": 5,
     "name": "David Jacob",
-    "club": "Lliswerry A Spirit (05)",
+    "club": "Lliswerry Runners",
     "time": "01:05:10"
   },
   {
@@ -29720,7 +29144,7 @@ const relayResults = [
     "km": 16.0,
     "position": 6,
     "name": "Dave Moore",
-    "club": "Brackla A Caerphilly (06)",
+    "club": "Brackla Harriers",
     "time": "01:06:06"
   },
   {
@@ -29732,7 +29156,7 @@ const relayResults = [
     "km": 16.0,
     "position": 7,
     "name": "Rob Clarke",
-    "club": "Caldicot A Les (07)",
+    "club": "Caldicot RC",
     "time": "01:06:55"
   },
   {
@@ -29744,7 +29168,7 @@ const relayResults = [
     "km": 16.0,
     "position": 8,
     "name": "Ricci Watts",
-    "club": "Pont-y-pwl & District B Chepstow (08)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:09:00"
   },
   {
@@ -29756,7 +29180,7 @@ const relayResults = [
     "km": 16.0,
     "position": 9,
     "name": "Matt Hopkins",
-    "club": "Les Croupiers A Caldicot (09)",
+    "club": "Les Croupiers RC",
     "time": "01:09:01"
   },
   {
@@ -29768,7 +29192,7 @@ const relayResults = [
     "km": 16.0,
     "position": 10,
     "name": "Fiona Bussell",
-    "club": "San Domenico A Brackla (10)",
+    "club": "San Domenico RC",
     "time": "01:09:06"
   },
   {
@@ -29780,7 +29204,7 @@ const relayResults = [
     "km": 16.0,
     "position": 11,
     "name": "Josh Toms",
-    "club": "Fairwater Cwmbran A (11)",
+    "club": "Fairwater Runners",
     "time": "01:09:31"
   },
   {
@@ -29792,7 +29216,7 @@ const relayResults = [
     "km": 16.0,
     "position": 12,
     "name": "Oliver Harris",
-    "club": "Lliswerry B (12)",
+    "club": "Lliswerry Runners",
     "time": "01:09:54"
   },
   {
@@ -29804,7 +29228,7 @@ const relayResults = [
     "km": 16.0,
     "position": 13,
     "name": "George Smith",
-    "club": "Spirit of Monmouth A Islwyn (13)",
+    "club": "Spirit of Monmouth",
     "time": "01:09:57"
   },
   {
@@ -29816,7 +29240,7 @@ const relayResults = [
     "km": 16.0,
     "position": 14,
     "name": "Frazer Richards",
-    "club": "Caerphilly A Fairwater (14)",
+    "club": "Caerphilly Runners",
     "time": "01:10:00"
   },
   {
@@ -29828,7 +29252,7 @@ const relayResults = [
     "km": 16.0,
     "position": 15,
     "name": "Mathew Ellis",
-    "club": "Parc Bryn Bach A Caerleon (15)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:13:47"
   },
   {
@@ -29840,7 +29264,7 @@ const relayResults = [
     "km": 16.0,
     "position": 16,
     "name": "Rob Bennett",
-    "club": "Porthcawl A Porthcawl (16)",
+    "club": "Porthcawl Runners",
     "time": "01:13:53"
   },
   {
@@ -29852,7 +29276,7 @@ const relayResults = [
     "km": 16.0,
     "position": 17,
     "name": "Ross Owen",
-    "club": "Rhondda Valley A (17)",
+    "club": "Rhondda Valley Runners",
     "time": "01:13:53"
   },
   {
@@ -29864,7 +29288,7 @@ const relayResults = [
     "km": 16.0,
     "position": 18,
     "name": "Rob Beves",
-    "club": "Chepstow B Parc (18)",
+    "club": "Chepstow Harriers",
     "time": "01:15:19"
   },
   {
@@ -29876,7 +29300,7 @@ const relayResults = [
     "km": 16.0,
     "position": 19,
     "name": "Laura Tunwell",
-    "club": "Pontypridd A Rhondda (19)",
+    "club": "Pontypridd Roadents",
     "time": "01:16:03"
   },
   {
@@ -29888,7 +29312,7 @@ const relayResults = [
     "km": 16.0,
     "position": 20,
     "name": "Howad Mason",
-    "club": "Caerleon A Parc (20)",
+    "club": "Caerleon RC",
     "time": "01:18:18"
   },
   {
@@ -29900,7 +29324,7 @@ const relayResults = [
     "km": 16.0,
     "position": 21,
     "name": "James Ashley",
-    "club": "Parc Bryn Bach B Caerleon (21)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:18:55"
   },
   {
@@ -29912,7 +29336,7 @@ const relayResults = [
     "km": 16.0,
     "position": 22,
     "name": "Neil Walker",
-    "club": "Usk A Lliswerry (22)",
+    "club": "Usk",
     "time": "01:27:49"
   },
   {
@@ -29924,7 +29348,7 @@ const relayResults = [
     "km": 16.0,
     "position": 23,
     "name": "Karen Payne",
-    "club": "Caerleon B Usk A (23)",
+    "club": "Caerleon RC",
     "time": "01:30:00"
   },
   {
@@ -29936,7 +29360,7 @@ const relayResults = [
     "km": 16.0,
     "position": 24,
     "name": "Jason Russell",
-    "club": "Islwyn B Pegasus (24)",
+    "club": "Islwyn RC",
     "time": "01:40:00"
   },
   {
@@ -29948,7 +29372,7 @@ const relayResults = [
     "km": 16.0,
     "position": 25,
     "name": "Rhodri Thomas",
-    "club": "Pegasus A Islwyn (25)",
+    "club": "Pegasus RC",
     "time": "01:40:00"
   },
   {
@@ -29960,7 +29384,7 @@ const relayResults = [
     "km": 12.16,
     "position": 1,
     "name": "Georgie Prior",
-    "club": "Chepstow A Chepstow (01)",
+    "club": "Chepstow Harriers",
     "time": "00:38:57"
   },
   {
@@ -29972,7 +29396,7 @@ const relayResults = [
     "km": 12.16,
     "position": 2,
     "name": "Lisa Griffin",
-    "club": "Pont-y-pwl & District A Pont-y-pwl (02)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:40:36"
   },
   {
@@ -29984,7 +29408,7 @@ const relayResults = [
     "km": 12.16,
     "position": 3,
     "name": "Laura Morris",
-    "club": "Spirit of Monmouth A San (03)",
+    "club": "Spirit of Monmouth",
     "time": "00:41:05"
   },
   {
@@ -29996,7 +29420,7 @@ const relayResults = [
     "km": 12.16,
     "position": 4,
     "name": "Katy Roy",
-    "club": "Chepstow B Lliswerry (04)",
+    "club": "Chepstow Harriers",
     "time": "00:41:21"
   },
   {
@@ -30008,7 +29432,7 @@ const relayResults = [
     "km": 12.16,
     "position": 5,
     "name": "Steve Preddy",
-    "club": "Les Croupiers A Spirit of (05)",
+    "club": "Les Croupiers RC",
     "time": "00:41:30"
   },
   {
@@ -30020,7 +29444,7 @@ const relayResults = [
     "km": 12.16,
     "position": 6,
     "name": "Charlotte Ralph",
-    "club": "Lliswerry B Les (06)",
+    "club": "Lliswerry Runners",
     "time": "00:42:39"
   },
   {
@@ -30032,7 +29456,7 @@ const relayResults = [
     "km": 12.16,
     "position": 7,
     "name": "Sharon Ford",
-    "club": "Porthcawl A Caerphilly (07)",
+    "club": "Porthcawl Runners",
     "time": "00:43:44"
   },
   {
@@ -30044,7 +29468,7 @@ const relayResults = [
     "km": 12.16,
     "position": 8,
     "name": "Sarah-Louise Francis",
-    "club": "Lliswerry A (08)",
+    "club": "Lliswerry Runners",
     "time": "00:44:47"
   },
   {
@@ -30056,7 +29480,7 @@ const relayResults = [
     "km": 12.16,
     "position": 9,
     "name": "Wendy Owen",
-    "club": "San Domenico A Caldicot (09)",
+    "club": "San Domenico RC",
     "time": "00:45:13"
   },
   {
@@ -30068,7 +29492,7 @@ const relayResults = [
     "km": 12.16,
     "position": 10,
     "name": "Sara Williams",
-    "club": "Caerphilly A (10)",
+    "club": "Caerphilly Runners",
     "time": "00:45:42"
   },
   {
@@ -30080,7 +29504,7 @@ const relayResults = [
     "km": 12.16,
     "position": 11,
     "name": "Bethan Richardson",
-    "club": "Pont-y-pwl & District B Pont-y-pwl (11)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:45:45"
   },
   {
@@ -30092,7 +29516,7 @@ const relayResults = [
     "km": 12.16,
     "position": 12,
     "name": "Sophie Charlies",
-    "club": "Brackla A Griffithstown (12)",
+    "club": "Brackla Harriers",
     "time": "00:46:29"
   },
   {
@@ -30104,7 +29528,7 @@ const relayResults = [
     "km": 12.16,
     "position": 13,
     "name": "Becca Adams-Smith",
-    "club": "Caerleon A Islwyn A (13)",
+    "club": "Caerleon RC",
     "time": "00:46:59"
   },
   {
@@ -30116,7 +29540,7 @@ const relayResults = [
     "km": 12.16,
     "position": 14,
     "name": "Claire Sullivan",
-    "club": "Parc Bryn Bach A Fairwater (14)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:47:42"
   },
   {
@@ -30128,7 +29552,7 @@ const relayResults = [
     "km": 12.16,
     "position": 15,
     "name": "Clare Sheppard",
-    "club": "Griffithstown A Caerleon (15)",
+    "club": "Griffithstown Harriers",
     "time": "00:47:45"
   },
   {
@@ -30140,7 +29564,7 @@ const relayResults = [
     "km": 12.16,
     "position": 16,
     "name": "Rachel Prangley",
-    "club": "Islwyn A Porthcawl (16)",
+    "club": "Islwyn RC",
     "time": "00:47:48"
   },
   {
@@ -30152,7 +29576,7 @@ const relayResults = [
     "km": 12.16,
     "position": 17,
     "name": "Katie Jones",
-    "club": "Caldicot A Pontypridd (17)",
+    "club": "Caldicot RC",
     "time": "00:48:26"
   },
   {
@@ -30164,7 +29588,7 @@ const relayResults = [
     "km": 12.16,
     "position": 18,
     "name": "Gemma Welsher",
-    "club": "Usk A Parc Bryn (18)",
+    "club": "Usk",
     "time": "00:49:36"
   },
   {
@@ -30176,7 +29600,7 @@ const relayResults = [
     "km": 12.16,
     "position": 19,
     "name": "Rachel Walters",
-    "club": "Rhondda Valley A Rhondda (19)",
+    "club": "Rhondda Valley Runners",
     "time": "00:49:45"
   },
   {
@@ -30188,7 +29612,7 @@ const relayResults = [
     "km": 12.16,
     "position": 20,
     "name": "Brian Gough",
-    "club": "Pontypridd A Parc Bryn (20)",
+    "club": "Pontypridd Roadents",
     "time": "00:49:52"
   },
   {
@@ -30200,7 +29624,7 @@ const relayResults = [
     "km": 12.16,
     "position": 21,
     "name": "Yangi Vundamina",
-    "club": "Caerleon B Caerleon (21)",
+    "club": "Caerleon RC",
     "time": "00:50:25"
   },
   {
@@ -30212,7 +29636,7 @@ const relayResults = [
     "km": 12.16,
     "position": 22,
     "name": "Bobbie Swift",
-    "club": "Parc Bryn Bach B Lliswerry (22)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:50:26"
   },
   {
@@ -30224,7 +29648,7 @@ const relayResults = [
     "km": 12.16,
     "position": 23,
     "name": "Sally Groves",
-    "club": "Pegasus A Usk A (23)",
+    "club": "Pegasus RC",
     "time": "00:50:56"
   },
   {
@@ -30236,7 +29660,7 @@ const relayResults = [
     "km": 12.16,
     "position": 24,
     "name": "Sarah Jane Kelland",
-    "club": "Fairwater Cwmbran A Pegasus (24)",
+    "club": "Fairwater Runners",
     "time": "00:51:00"
   },
   {
@@ -30248,7 +29672,7 @@ const relayResults = [
     "km": 12.16,
     "position": 25,
     "name": "Amanda Ham",
-    "club": "Islwyn B Islwyn B (25)",
+    "club": "Islwyn RC",
     "time": "00:51:00"
   },
   {
@@ -30260,7 +29684,7 @@ const relayResults = [
     "km": 13.4,
     "position": 1,
     "name": "Joshua Jones",
-    "club": "Griffithstown A Chepstow (01)",
+    "club": "Griffithstown Harriers",
     "time": "00:55:45"
   },
   {
@@ -30272,7 +29696,7 @@ const relayResults = [
     "km": 13.4,
     "position": 2,
     "name": "Iestyn Rhodes",
-    "club": "Pont-y-pwl & District A Pont-y-pwl (02)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:56:09"
   },
   {
@@ -30284,7 +29708,7 @@ const relayResults = [
     "km": 13.4,
     "position": 3,
     "name": "Nathan Reeks",
-    "club": "Caldicot A San (03)",
+    "club": "Caldicot RC",
     "time": "00:56:21"
   },
   {
@@ -30296,7 +29720,7 @@ const relayResults = [
     "km": 13.4,
     "position": 4,
     "name": "Ross Walker",
-    "club": "Chepstow A Spirit (04)",
+    "club": "Chepstow Harriers",
     "time": "00:56:49"
   },
   {
@@ -30308,7 +29732,7 @@ const relayResults = [
     "km": 13.4,
     "position": 5,
     "name": "Matthew Pizey",
-    "club": "Islwyn A Lliswerry (05)",
+    "club": "Islwyn RC",
     "time": "00:57:22"
   },
   {
@@ -30320,7 +29744,7 @@ const relayResults = [
     "km": 13.4,
     "position": 6,
     "name": "Pete Townsend",
-    "club": "Pont-y-pwl & District B Caerphilly (06)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:58:20"
   },
   {
@@ -30332,7 +29756,7 @@ const relayResults = [
     "km": 13.4,
     "position": 7,
     "name": "Matthew Mulcahy",
-    "club": "Caerleon A Les (07)",
+    "club": "Caerleon RC",
     "time": "00:59:03"
   },
   {
@@ -30344,7 +29768,7 @@ const relayResults = [
     "km": 13.4,
     "position": 8,
     "name": "Simon Burns",
-    "club": "Fairwater Cwmbran A Chepstow (08)",
+    "club": "Fairwater Runners",
     "time": "00:59:17"
   },
   {
@@ -30356,7 +29780,7 @@ const relayResults = [
     "km": 13.4,
     "position": 9,
     "name": "Russell Finch",
-    "club": "Spirit of Monmouth A Caldicot (09)",
+    "club": "Spirit of Monmouth",
     "time": "00:59:26"
   },
   {
@@ -30368,7 +29792,7 @@ const relayResults = [
     "km": 13.4,
     "position": 10,
     "name": "Glyn Sansom",
-    "club": "San Domenico A (10)",
+    "club": "San Domenico RC",
     "time": "01:00:33"
   },
   {
@@ -30380,7 +29804,7 @@ const relayResults = [
     "km": 13.4,
     "position": 11,
     "name": "Gabriella Maine",
-    "club": "Porthcawl A Pont-y-pwl (11)",
+    "club": "Porthcawl Runners",
     "time": "01:00:37"
   },
   {
@@ -30392,7 +29816,7 @@ const relayResults = [
     "km": 13.4,
     "position": 12,
     "name": "Jack Evans",
-    "club": "Pegasus A Islwyn (12)",
+    "club": "Pegasus RC",
     "time": "01:00:58"
   },
   {
@@ -30404,7 +29828,7 @@ const relayResults = [
     "km": 13.4,
     "position": 13,
     "name": "Matthew Lawson",
-    "club": "Chepstow B Brackla (13)",
+    "club": "Chepstow Harriers",
     "time": "01:02:02"
   },
   {
@@ -30416,7 +29840,7 @@ const relayResults = [
     "km": 13.4,
     "position": 14,
     "name": "Richard Thomas",
-    "club": "Caerphilly A Fairwater (14)",
+    "club": "Caerphilly Runners",
     "time": "01:02:22"
   },
   {
@@ -30428,7 +29852,7 @@ const relayResults = [
     "km": 13.4,
     "position": 15,
     "name": "Clive Denton",
-    "club": "Rhondda Valley A Caerleon (15)",
+    "club": "Rhondda Valley Runners",
     "time": "01:04:12"
   },
   {
@@ -30440,7 +29864,7 @@ const relayResults = [
     "km": 13.4,
     "position": 16,
     "name": "Angela Champion",
-    "club": "Les Croupiers A Porthcawl (16)",
+    "club": "Les Croupiers RC",
     "time": "01:04:14"
   },
   {
@@ -30452,7 +29876,7 @@ const relayResults = [
     "km": 13.4,
     "position": 17,
     "name": "Sandy Chipper",
-    "club": "Lliswerry A Pontypridd (17)",
+    "club": "Lliswerry Runners",
     "time": "01:04:26"
   },
   {
@@ -30464,7 +29888,7 @@ const relayResults = [
     "km": 13.4,
     "position": 18,
     "name": "Jim Murray",
-    "club": "Pontypridd A Parc (18)",
+    "club": "Pontypridd Roadents",
     "time": "01:05:33"
   },
   {
@@ -30476,7 +29900,7 @@ const relayResults = [
     "km": 13.4,
     "position": 19,
     "name": "James Thomas",
-    "club": "Parc Bryn Bach A Rhondda (19)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:05:38"
   },
   {
@@ -30488,7 +29912,7 @@ const relayResults = [
     "km": 13.4,
     "position": 20,
     "name": "Michael Reeves",
-    "club": "Caerleon B Parc (20)",
+    "club": "Caerleon RC",
     "time": "01:05:48"
   },
   {
@@ -30500,7 +29924,7 @@ const relayResults = [
     "km": 13.4,
     "position": 21,
     "name": "Matt Bourne",
-    "club": "Brackla A Caerleon (21)",
+    "club": "Brackla Harriers",
     "time": "01:06:53"
   },
   {
@@ -30512,7 +29936,7 @@ const relayResults = [
     "km": 13.4,
     "position": 22,
     "name": "Gareth Williams",
-    "club": "Parc Bryn Bach B Lliswerry (22)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:06:58"
   },
   {
@@ -30524,7 +29948,7 @@ const relayResults = [
     "km": 13.4,
     "position": 23,
     "name": "Andrew Barry",
-    "club": "Lliswerry B (23)",
+    "club": "Lliswerry Runners",
     "time": "01:10:49"
   },
   {
@@ -30536,7 +29960,7 @@ const relayResults = [
     "km": 13.4,
     "position": 24,
     "name": "Keith Davies",
-    "club": "Islwyn B Pegasus (24)",
+    "club": "Islwyn RC",
     "time": "01:12:56"
   },
   {
@@ -30548,7 +29972,7 @@ const relayResults = [
     "km": 13.4,
     "position": 25,
     "name": "Graham Simpson",
-    "club": "Usk A (25)",
+    "club": "Usk",
     "time": "01:15:00"
   },
   {
@@ -30560,7 +29984,7 @@ const relayResults = [
     "km": 10.7,
     "position": 1,
     "name": "Faye Johnson",
-    "club": "Pont-y-pwl (01)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:42:58"
   },
   {
@@ -30572,7 +29996,7 @@ const relayResults = [
     "km": 10.7,
     "position": 2,
     "name": "Sarah Bell",
-    "club": "Chepstow A Pont-y-pwl (02)",
+    "club": "Chepstow Harriers",
     "time": "00:45:00"
   },
   {
@@ -30584,7 +30008,7 @@ const relayResults = [
     "km": 10.7,
     "position": 3,
     "name": "Rebecca Rothwell",
-    "club": "Lliswerry A San (03)",
+    "club": "Lliswerry Runners",
     "time": "00:46:21"
   },
   {
@@ -30596,7 +30020,7 @@ const relayResults = [
     "km": 10.7,
     "position": 4,
     "name": "Sian Jones",
-    "club": "Parc Bryn Bach A Lliswerry (04)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:47:57"
   },
   {
@@ -30608,7 +30032,7 @@ const relayResults = [
     "km": 10.7,
     "position": 5,
     "name": "Elinor Phillips",
-    "club": "Lliswerry B Spirit (05)",
+    "club": "Lliswerry Runners",
     "time": "00:50:26"
   },
   {
@@ -30620,7 +30044,7 @@ const relayResults = [
     "km": 10.7,
     "position": 6,
     "name": "Joanne Ryan",
-    "club": "Rhondda Valley A Chepstow (06)",
+    "club": "Rhondda Valley Runners",
     "time": "00:50:27"
   },
   {
@@ -30632,7 +30056,7 @@ const relayResults = [
     "km": 10.7,
     "position": 7,
     "name": "Karl Johns",
-    "club": "San Domenico A Caerphilly (07)",
+    "club": "San Domenico RC",
     "time": "00:51:00"
   },
   {
@@ -30644,7 +30068,7 @@ const relayResults = [
     "km": 10.7,
     "position": 8,
     "name": "Sally Grant",
-    "club": "Chepstow B Les (08)",
+    "club": "Chepstow Harriers",
     "time": "00:51:17"
   },
   {
@@ -30656,7 +30080,7 @@ const relayResults = [
     "km": 10.7,
     "position": 9,
     "name": "Louise Bright",
-    "club": "Pont-y-pwl & District B Caldicot (09)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:51:22"
   },
   {
@@ -30668,7 +30092,7 @@ const relayResults = [
     "km": 10.7,
     "position": 10,
     "name": "Emma King",
-    "club": "Spirit of Monmouth A Pont-y-pwl (10)",
+    "club": "Spirit of Monmouth",
     "time": "00:51:30"
   },
   {
@@ -30680,7 +30104,7 @@ const relayResults = [
     "km": 10.7,
     "position": 11,
     "name": "Nicola Thomas",
-    "club": "Porthcawl A Griffithstown (11)",
+    "club": "Porthcawl Runners",
     "time": "00:52:24"
   },
   {
@@ -30692,7 +30116,7 @@ const relayResults = [
     "km": 10.7,
     "position": 12,
     "name": "Kath Sage",
-    "club": "Caldicot A Islwyn (12)",
+    "club": "Caldicot RC",
     "time": "00:52:28"
   },
   {
@@ -30704,7 +30128,7 @@ const relayResults = [
     "km": 10.7,
     "position": 13,
     "name": "Charlotte Moran",
-    "club": "Caerleon A Caerleon (13)",
+    "club": "Caerleon RC",
     "time": "00:53:00"
   },
   {
@@ -30716,7 +30140,7 @@ const relayResults = [
     "km": 10.7,
     "position": 14,
     "name": "Gwyn Lloyd",
-    "club": "Pontypridd A Brackla (14)",
+    "club": "Pontypridd Roadents",
     "time": "00:53:22"
   },
   {
@@ -30728,7 +30152,7 @@ const relayResults = [
     "km": 10.7,
     "position": 15,
     "name": "Katharine Collins",
-    "club": "Parc Bryn Bach B Porthcawl (15)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:53:54"
   },
   {
@@ -30740,7 +30164,7 @@ const relayResults = [
     "km": 10.7,
     "position": 16,
     "name": "Andrea Webster",
-    "club": "Les Croupiers A Fairwater (16)",
+    "club": "Les Croupiers RC",
     "time": "00:54:01"
   },
   {
@@ -30752,7 +30176,7 @@ const relayResults = [
     "km": 10.7,
     "position": 17,
     "name": "Nicola Jacobs",
-    "club": "Caerphilly A Parc (17)",
+    "club": "Caerphilly Runners",
     "time": "00:54:04"
   },
   {
@@ -30764,7 +30188,7 @@ const relayResults = [
     "km": 10.7,
     "position": 18,
     "name": "Sian Adey",
-    "club": "Islwyn B Pontypridd (18)",
+    "club": "Islwyn RC",
     "time": "00:57:08"
   },
   {
@@ -30776,7 +30200,7 @@ const relayResults = [
     "km": 10.7,
     "position": 19,
     "name": "Charlotte Barlow",
-    "club": "Brackla A Rhondda (19)",
+    "club": "Brackla Harriers",
     "time": "00:57:12"
   },
   {
@@ -30788,7 +30212,7 @@ const relayResults = [
     "km": 10.7,
     "position": 20,
     "name": "Abby Groves",
-    "club": "Pegasus A Parc (20)",
+    "club": "Pegasus RC",
     "time": "00:57:28"
   },
   {
@@ -30800,7 +30224,7 @@ const relayResults = [
     "km": 10.7,
     "position": 21,
     "name": "Rebecca Morgan",
-    "club": "Islwyn A Lliswerry (21)",
+    "club": "Islwyn RC",
     "time": "00:59:02"
   },
   {
@@ -30812,7 +30236,7 @@ const relayResults = [
     "km": 10.7,
     "position": 22,
     "name": "Lauren Rees",
-    "club": "Griffithstown A Caerleon (22)",
+    "club": "Griffithstown Harriers",
     "time": "01:00:00"
   },
   {
@@ -30824,7 +30248,7 @@ const relayResults = [
     "km": 10.7,
     "position": 23,
     "name": "Annette Exley",
-    "club": "Usk A Pegasus (23)",
+    "club": "Usk",
     "time": "01:00:00"
   },
   {
@@ -30836,7 +30260,7 @@ const relayResults = [
     "km": 10.7,
     "position": 24,
     "name": "Linda Colbourne",
-    "club": "Fairwater Cwmbran A Usk A (24)",
+    "club": "Fairwater Runners",
     "time": "01:00:00"
   },
   {
@@ -30848,7 +30272,7 @@ const relayResults = [
     "km": 10.7,
     "position": 25,
     "name": "Mary Scourfield",
-    "club": "Caerleon B Islwyn (25)",
+    "club": "Caerleon RC",
     "time": "01:00:00"
   },
   {
@@ -30860,7 +30284,7 @@ const relayResults = [
     "km": 8.7,
     "position": 1,
     "name": "Martin Jones",
-    "club": "Islwyn A",
+    "club": "Islwyn RC",
     "time": "00:36:26"
   },
   {
@@ -30884,7 +30308,7 @@ const relayResults = [
     "km": 8.7,
     "position": 3,
     "name": "Melanie Williams",
-    "club": "Brackla A",
+    "club": "Brackla Harriers",
     "time": "00:38:12"
   },
   {
@@ -30896,7 +30320,7 @@ const relayResults = [
     "km": 8.7,
     "position": 4,
     "name": "Colin Dixon",
-    "club": "Islwyn B",
+    "club": "Islwyn RC",
     "time": "00:38:15"
   },
   {
@@ -30908,7 +30332,7 @@ const relayResults = [
     "km": 8.7,
     "position": 5,
     "name": "Richard Perry",
-    "club": "Caerleon A",
+    "club": "Caerleon RC",
     "time": "00:38:23"
   },
   {
@@ -30920,7 +30344,7 @@ const relayResults = [
     "km": 8.7,
     "position": 6,
     "name": "Geraint Heath",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:38:49"
   },
   {
@@ -30932,7 +30356,7 @@ const relayResults = [
     "km": 8.7,
     "position": 7,
     "name": "Lisa Jeffrey",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:39:21"
   },
   {
@@ -30944,7 +30368,7 @@ const relayResults = [
     "km": 8.7,
     "position": 8,
     "name": "Emma Bayliss",
-    "club": "Pont-y-pwl & District A",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:39:28"
   },
   {
@@ -30956,7 +30380,7 @@ const relayResults = [
     "km": 8.7,
     "position": 9,
     "name": "Heledd Roberts",
-    "club": "San Domenico A Visit our",
+    "club": "San Domenico RC",
     "time": "00:39:33"
   },
   {
@@ -30968,7 +30392,7 @@ const relayResults = [
     "km": 8.7,
     "position": 10,
     "name": "Dimitri Vorres",
-    "club": "Pont-y-pwl & District B",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:39:54"
   },
   {
@@ -30980,7 +30404,7 @@ const relayResults = [
     "km": 8.7,
     "position": 11,
     "name": "Stephan Wood",
-    "club": "Pegasus A See us on",
+    "club": "Pegasus RC",
     "time": "00:42:22"
   },
   {
@@ -30992,7 +30416,7 @@ const relayResults = [
     "km": 8.7,
     "position": 12,
     "name": "Martin Blakebrough",
-    "club": "Spirit of Monmouth A",
+    "club": "Spirit of Monmouth",
     "time": "00:43:09"
   },
   {
@@ -31004,7 +30428,7 @@ const relayResults = [
     "km": 8.7,
     "position": 13,
     "name": "Hazel Craven",
-    "club": "Les Croupiers A",
+    "club": "Les Croupiers RC",
     "time": "00:43:57"
   },
   {
@@ -31016,7 +30440,7 @@ const relayResults = [
     "km": 8.7,
     "position": 14,
     "name": "Paul Adams",
-    "club": "Caerleon B",
+    "club": "Caerleon RC",
     "time": "00:44:43"
   },
   {
@@ -31028,7 +30452,7 @@ const relayResults = [
     "km": 8.7,
     "position": 15,
     "name": "Claire Maksimduil",
-    "club": "Pontypridd A",
+    "club": "Pontypridd Roadents",
     "time": "00:44:49"
   },
   {
@@ -31040,7 +30464,7 @@ const relayResults = [
     "km": 8.7,
     "position": 16,
     "name": "Rose Charles",
-    "club": "Griffithstown A",
+    "club": "Griffithstown Harriers",
     "time": "00:45:08"
   },
   {
@@ -31052,7 +30476,7 @@ const relayResults = [
     "km": 8.7,
     "position": 17,
     "name": "Kim Carwardine",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:45:33"
   },
   {
@@ -31064,7 +30488,7 @@ const relayResults = [
     "km": 8.7,
     "position": 18,
     "name": "Emma Tracey",
-    "club": "Caldicot A",
+    "club": "Caldicot RC",
     "time": "00:46:14"
   },
   {
@@ -31076,7 +30500,7 @@ const relayResults = [
     "km": 8.7,
     "position": 19,
     "name": "Romana Maine",
-    "club": "Porthcawl A",
+    "club": "Porthcawl Runners",
     "time": "00:46:31"
   },
   {
@@ -31088,7 +30512,7 @@ const relayResults = [
     "km": 8.7,
     "position": 20,
     "name": "Vanessa Turnbull",
-    "club": "Caerphilly A",
+    "club": "Caerphilly Runners",
     "time": "00:46:45"
   },
   {
@@ -31100,7 +30524,7 @@ const relayResults = [
     "km": 8.7,
     "position": 21,
     "name": "Ann Hurley",
-    "club": "Rhondda Valley A",
+    "club": "Rhondda Valley Runners",
     "time": "00:48:04"
   },
   {
@@ -31112,7 +30536,7 @@ const relayResults = [
     "km": 8.7,
     "position": 22,
     "name": "Howard Attwood",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:48:11"
   },
   {
@@ -31124,7 +30548,7 @@ const relayResults = [
     "km": 8.7,
     "position": 23,
     "name": "Delphine Jones",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach RC",
     "time": "00:48:25"
   },
   {
@@ -31136,7 +30560,7 @@ const relayResults = [
     "km": 8.7,
     "position": 24,
     "name": "Hayley Jackson",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach RC",
     "time": "00:48:50"
   },
   {
@@ -31148,7 +30572,7 @@ const relayResults = [
     "km": 8.7,
     "position": 25,
     "name": "Mark Prosser",
-    "club": "Fairwater Cwmbran A",
+    "club": "Fairwater Runners",
     "time": "00:49:00"
   },
   {
@@ -31160,7 +30584,7 @@ const relayResults = [
     "km": 8.2,
     "position": 1,
     "name": "Dan Arthur",
-    "club": "Caerleon A",
+    "club": "Caerleon RC",
     "time": "00:32:44"
   },
   {
@@ -31172,7 +30596,7 @@ const relayResults = [
     "km": 8.2,
     "position": 2,
     "name": "Sean Thomasson",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach RC",
     "time": "00:32:52"
   },
   {
@@ -31184,7 +30608,7 @@ const relayResults = [
     "km": 8.2,
     "position": 3,
     "name": "Lou cid:9Summers",
-    "club": "Pont-y-pwl & District A",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:33:04"
   },
   {
@@ -31196,7 +30620,7 @@ const relayResults = [
     "km": 8.2,
     "position": 4,
     "name": "Roger Mills",
-    "club": "Fairwater Cwmbran A",
+    "club": "Fairwater Runners",
     "time": "00:34:46"
   },
   {
@@ -31208,7 +30632,7 @@ const relayResults = [
     "km": 8.2,
     "position": 5,
     "name": "Trish Chalk",
-    "club": "Spirit of Monmouth A",
+    "club": "Spirit of Monmouth",
     "time": "00:36:15"
   },
   {
@@ -31220,7 +30644,7 @@ const relayResults = [
     "km": 8.2,
     "position": 6,
     "name": "Esther Barrett",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:37:01"
   },
   {
@@ -31232,7 +30656,7 @@ const relayResults = [
     "km": 8.2,
     "position": 7,
     "name": "Adrian Hayward",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:37:18"
   },
   {
@@ -31244,7 +30668,7 @@ const relayResults = [
     "km": 8.2,
     "position": 8,
     "name": "Dani Sapsford",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:37:40"
   },
   {
@@ -31256,7 +30680,7 @@ const relayResults = [
     "km": 8.2,
     "position": 9,
     "name": "Elizabeth Stokes",
-    "club": "Griffithstown A",
+    "club": "Griffithstown Harriers",
     "time": "00:39:12"
   },
   {
@@ -31280,7 +30704,7 @@ const relayResults = [
     "km": 8.2,
     "position": 11,
     "name": "Ian Thorne",
-    "club": "Pegasus A",
+    "club": "Pegasus RC",
     "time": "00:39:22"
   },
   {
@@ -31292,7 +30716,7 @@ const relayResults = [
     "km": 8.2,
     "position": 12,
     "name": "Lee Griffiths",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach RC",
     "time": "00:39:23"
   },
   {
@@ -31304,7 +30728,7 @@ const relayResults = [
     "km": 8.2,
     "position": 13,
     "name": "Helen Thomas",
-    "club": "Caerleon B",
+    "club": "Caerleon RC",
     "time": "00:40:38"
   },
   {
@@ -31316,7 +30740,7 @@ const relayResults = [
     "km": 8.2,
     "position": 14,
     "name": "Claire Simms",
-    "club": "Islwyn A",
+    "club": "Islwyn RC",
     "time": "00:41:22"
   },
   {
@@ -31328,7 +30752,7 @@ const relayResults = [
     "km": 8.2,
     "position": 15,
     "name": "Kay Dixon",
-    "club": "Islwyn B",
+    "club": "Islwyn RC",
     "time": "00:41:43"
   },
   {
@@ -31340,7 +30764,7 @@ const relayResults = [
     "km": 8.2,
     "position": 16,
     "name": "Clar Kelly",
-    "club": "Caerphilly A",
+    "club": "Caerphilly Runners",
     "time": "00:41:47"
   },
   {
@@ -31352,7 +30776,7 @@ const relayResults = [
     "km": 8.2,
     "position": 17,
     "name": "Amy cid:9Flinn",
-    "club": "Pont-y-pwl & District B",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:43:12"
   },
   {
@@ -31364,7 +30788,7 @@ const relayResults = [
     "km": 8.2,
     "position": 18,
     "name": "Becky lovell",
-    "club": "Caldicot A",
+    "club": "Caldicot RC",
     "time": "00:44:14"
   },
   {
@@ -31376,7 +30800,7 @@ const relayResults = [
     "km": 8.2,
     "position": 19,
     "name": "Hayley Gittins",
-    "club": "Rhondda Valley A",
+    "club": "Rhondda Valley Runners",
     "time": "00:44:45"
   },
   {
@@ -31388,7 +30812,7 @@ const relayResults = [
     "km": 8.2,
     "position": 20,
     "name": "Brigette Widdas",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:46:00"
   },
   {
@@ -31400,7 +30824,7 @@ const relayResults = [
     "km": 11.2,
     "position": 1,
     "name": "Rich Matthews",
-    "club": "Chepstow A (01)",
+    "club": "Chepstow Harriers",
     "time": "00:43:35"
   },
   {
@@ -31412,7 +30836,7 @@ const relayResults = [
     "km": 11.2,
     "position": 2,
     "name": "Stephen Mathers",
-    "club": "Parc (02)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:44:35"
   },
   {
@@ -31424,7 +30848,7 @@ const relayResults = [
     "km": 11.2,
     "position": 3,
     "name": "Richie Thomas",
-    "club": "Griffithstown A (03)",
+    "club": "Griffithstown Harriers",
     "time": "00:47:56"
   },
   {
@@ -31436,7 +30860,7 @@ const relayResults = [
     "km": 11.2,
     "position": 4,
     "name": "Matthew Lawson",
-    "club": "Chepstow B (04)",
+    "club": "Chepstow Harriers",
     "time": "00:51:03"
   },
   {
@@ -31448,7 +30872,7 @@ const relayResults = [
     "km": 11.2,
     "position": 5,
     "name": "Faye cid:9Johnson",
-    "club": "Pont-y-pwl (05)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:51:48"
   },
   {
@@ -31460,7 +30884,7 @@ const relayResults = [
     "km": 11.2,
     "position": 6,
     "name": "Bryan Meredith",
-    "club": "Rhondda (06)",
+    "club": "Rhondda Valley Runners",
     "time": "00:52:19"
   },
   {
@@ -31472,7 +30896,7 @@ const relayResults = [
     "km": 11.2,
     "position": 7,
     "name": "Mike Thurgood",
-    "club": "Caerleon B (07)",
+    "club": "Caerleon RC",
     "time": "00:52:43"
   },
   {
@@ -31484,7 +30908,7 @@ const relayResults = [
     "km": 11.2,
     "position": 8,
     "name": "Emma Williams",
-    "club": "Caerleon A (08)",
+    "club": "Caerleon RC",
     "time": "00:56:09"
   },
   {
@@ -31496,7 +30920,7 @@ const relayResults = [
     "km": 11.2,
     "position": 9,
     "name": "Jeanette Jenkins",
-    "club": "Fairwater (09)",
+    "club": "Fairwater Runners",
     "time": "00:56:50"
   },
   {
@@ -31508,7 +30932,7 @@ const relayResults = [
     "km": 11.2,
     "position": 10,
     "name": "Simone Trayen-Thomas",
-    "club": "Spirit (10)",
+    "club": "Spirit of Monmouth",
     "time": "00:58:37"
   },
   {
@@ -31520,7 +30944,7 @@ const relayResults = [
     "km": 11.2,
     "position": 11,
     "name": "Neil Walker",
-    "club": "Usk A (11)",
+    "club": "Usk",
     "time": "00:59:02"
   },
   {
@@ -31532,7 +30956,7 @@ const relayResults = [
     "km": 11.2,
     "position": 12,
     "name": "Maria cid:9Richards",
-    "club": "Pont-y-pwl (12)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:59:29"
   },
   {
@@ -31544,7 +30968,7 @@ const relayResults = [
     "km": 11.2,
     "position": 13,
     "name": "Kevin Fowler",
-    "club": "Pegasus A (13)",
+    "club": "Pegasus RC",
     "time": "01:00:14"
   },
   {
@@ -31556,7 +30980,7 @@ const relayResults = [
     "km": 11.2,
     "position": 14,
     "name": "Richard Crew",
-    "club": "Parc (14)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:00:17"
   },
   {
@@ -31568,7 +30992,7 @@ const relayResults = [
     "km": 11.2,
     "position": 15,
     "name": "Richard Powell",
-    "club": "Lliswerry B (15)",
+    "club": "Lliswerry Runners",
     "time": "01:00:25"
   },
   {
@@ -31580,7 +31004,7 @@ const relayResults = [
     "km": 11.2,
     "position": 16,
     "name": "Colin Dixon",
-    "club": "Islwyn B (16)",
+    "club": "Islwyn RC",
     "time": "01:02:00"
   },
   {
@@ -31592,7 +31016,7 @@ const relayResults = [
     "km": 11.2,
     "position": 17,
     "name": "Mark Brooks",
-    "club": "Caerphilly A (17)",
+    "club": "Caerphilly Runners",
     "time": "01:02:01"
   },
   {
@@ -31604,7 +31028,7 @@ const relayResults = [
     "km": 11.2,
     "position": 18,
     "name": "Katie Jones",
-    "club": "Caldicot A (18)",
+    "club": "Caldicot RC",
     "time": "01:02:02"
   },
   {
@@ -31616,7 +31040,7 @@ const relayResults = [
     "km": 11.2,
     "position": 19,
     "name": "Michelle Shapland",
-    "club": "Lliswerry A (19)",
+    "club": "Lliswerry Runners",
     "time": "01:02:03"
   },
   {
@@ -31628,7 +31052,7 @@ const relayResults = [
     "km": 11.2,
     "position": 20,
     "name": "Suzanne Davidson",
-    "club": "Islwyn A (20)",
+    "club": "Islwyn RC",
     "time": "01:02:04"
   },
   {
@@ -31640,7 +31064,7 @@ const relayResults = [
     "km": 11.2,
     "position": 21,
     "name": "Jane cid:9Lewis",
-    "club": "Fairwater (21)",
+    "club": "Fairwater Runners",
     "time": "01:02:05"
   },
   {
@@ -31652,7 +31076,7 @@ const relayResults = [
     "km": 11.2,
     "position": 22,
     "name": "Danielle Jones",
-    "club": "Porthcawl A (22)",
+    "club": "Porthcawl Runners",
     "time": "01:02:06"
   },
   {
@@ -31664,7 +31088,7 @@ const relayResults = [
     "km": 12.1,
     "position": 1,
     "name": "Mark Harvey Jr",
-    "club": "Chepstow A (01)",
+    "club": "Chepstow Harriers",
     "time": "00:45:39"
   },
   {
@@ -31676,7 +31100,7 @@ const relayResults = [
     "km": 12.1,
     "position": 2,
     "name": "Tim Dredge",
-    "club": "Caldicot A Griffithstown (02)",
+    "club": "Caldicot RC",
     "time": "00:46:30"
   },
   {
@@ -31688,7 +31112,7 @@ const relayResults = [
     "km": 12.1,
     "position": 3,
     "name": "Davey Challenger",
-    "club": "Griffithstown A (03)",
+    "club": "Griffithstown Harriers",
     "time": "00:47:47"
   },
   {
@@ -31700,7 +31124,7 @@ const relayResults = [
     "km": 12.1,
     "position": 4,
     "name": "David Standing",
-    "club": "Fairwater Cwmbran A Pont-y-pwl (04)",
+    "club": "Fairwater Runners",
     "time": "00:50:46"
   },
   {
@@ -31712,7 +31136,7 @@ const relayResults = [
     "km": 12.1,
     "position": 5,
     "name": "James cid:9Day",
-    "club": "Pont-y-pwl (05)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:52:08"
   },
   {
@@ -31724,7 +31148,7 @@ const relayResults = [
     "km": 12.1,
     "position": 6,
     "name": "George Smith",
-    "club": "Spirit of Monmouth A Fairwater (06)",
+    "club": "Spirit of Monmouth",
     "time": "00:52:56"
   },
   {
@@ -31736,7 +31160,7 @@ const relayResults = [
     "km": 12.1,
     "position": 7,
     "name": "Phillip Miles",
-    "club": "Parc Bryn Bach B Chepstow (07)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:53:06"
   },
   {
@@ -31748,7 +31172,7 @@ const relayResults = [
     "km": 12.1,
     "position": 8,
     "name": "Jade Wakley",
-    "club": "Caerleon A (08)",
+    "club": "Caerleon RC",
     "time": "00:53:25"
   },
   {
@@ -31760,7 +31184,7 @@ const relayResults = [
     "km": 12.1,
     "position": 9,
     "name": "Neil Grant",
-    "club": "Chepstow B Caldicot (09)",
+    "club": "Chepstow Harriers",
     "time": "00:55:18"
   },
   {
@@ -31772,7 +31196,7 @@ const relayResults = [
     "km": 12.1,
     "position": 10,
     "name": "Rachel Lewis-Burr",
-    "club": "Parc Bryn Bach A Caldicot (10)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:58:12"
   },
   {
@@ -31784,7 +31208,7 @@ const relayResults = [
     "km": 12.1,
     "position": 11,
     "name": "Carl Johnson",
-    "club": "Islwyn A Caerleon (11)",
+    "club": "Islwyn RC",
     "time": "00:58:17"
   },
   {
@@ -31796,7 +31220,7 @@ const relayResults = [
     "km": 12.1,
     "position": 12,
     "name": "Gareth Bailey",
-    "club": "Caerphilly A Rhondda (12)",
+    "club": "Caerphilly Runners",
     "time": "00:58:41"
   },
   {
@@ -31808,7 +31232,7 @@ const relayResults = [
     "km": 12.1,
     "position": 13,
     "name": "Sam Methuen",
-    "club": "Islwyn B Islwyn A (13)",
+    "club": "Islwyn RC",
     "time": "01:02:18"
   },
   {
@@ -31820,7 +31244,7 @@ const relayResults = [
     "km": 12.1,
     "position": 14,
     "name": "Michael Titley",
-    "club": "Lliswerry A Lliswerry (14)",
+    "club": "Lliswerry Runners",
     "time": "01:02:50"
   },
   {
@@ -31832,7 +31256,7 @@ const relayResults = [
     "km": 12.1,
     "position": 15,
     "name": "Jo Peacock",
-    "club": "Caerleon B Caerphilly (15)",
+    "club": "Caerleon RC",
     "time": "01:03:55"
   },
   {
@@ -31844,7 +31268,7 @@ const relayResults = [
     "km": 12.1,
     "position": 16,
     "name": "Kieran Matthews",
-    "club": "Rhondda Valley A Islwyn B (16)",
+    "club": "Rhondda Valley Runners",
     "time": "01:04:15"
   },
   {
@@ -31856,7 +31280,7 @@ const relayResults = [
     "km": 12.1,
     "position": 17,
     "name": "Katie cid:9Allen",
-    "club": "Pont-y-pwl & District B Pegasus (17)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:05:21"
   },
   {
@@ -31868,7 +31292,7 @@ const relayResults = [
     "km": 12.1,
     "position": 18,
     "name": "Richard Street",
-    "club": "Pegasus A Pont-y-pwl (18)",
+    "club": "Pegasus RC",
     "time": "01:06:59"
   },
   {
@@ -31880,7 +31304,7 @@ const relayResults = [
     "km": 12.1,
     "position": 19,
     "name": "Jennifer cid:9Lilley",
-    "club": "Fairwater Cwmbran B Porthcawl (19)",
+    "club": "Fairwater Runners",
     "time": "01:08:00"
   },
   {
@@ -31892,7 +31316,7 @@ const relayResults = [
     "km": 12.1,
     "position": 20,
     "name": "Karen Phillips",
-    "club": "Porthcawl A Usk A (20)",
+    "club": "Porthcawl Runners",
     "time": "01:08:01"
   },
   {
@@ -31904,7 +31328,7 @@ const relayResults = [
     "km": 12.1,
     "position": 21,
     "name": "Esther Dawson",
-    "club": "Usk A Lliswerry (21)",
+    "club": "Usk",
     "time": "01:08:02"
   },
   {
@@ -31916,7 +31340,7 @@ const relayResults = [
     "km": 12.1,
     "position": 22,
     "name": "Yvonne Forsey",
-    "club": "Lliswerry B Fairwater (22)",
+    "club": "Lliswerry Runners",
     "time": "01:08:03"
   },
   {
@@ -31928,7 +31352,7 @@ const relayResults = [
     "km": 10.8,
     "position": 1,
     "name": "Steve Caldwell",
-    "club": "Chepstow A (01)",
+    "club": "Chepstow Harriers",
     "time": "00:43:09"
   },
   {
@@ -31940,7 +31364,7 @@ const relayResults = [
     "km": 10.8,
     "position": 2,
     "name": "Ade Wcid:9oods",
-    "club": "Pont-y-pwl & District A Griffithstown (02)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:46:37"
   },
   {
@@ -31952,7 +31376,7 @@ const relayResults = [
     "km": 10.8,
     "position": 3,
     "name": "Marc Fitzgibbon",
-    "club": "Caerphilly A Pont-y-pwl (03)",
+    "club": "Caerphilly Runners",
     "time": "00:46:39"
   },
   {
@@ -31964,7 +31388,7 @@ const relayResults = [
     "km": 10.8,
     "position": 4,
     "name": "Jonathan Sliczny",
-    "club": "Griffithstown A Parc (04)",
+    "club": "Griffithstown Harriers",
     "time": "00:47:20"
   },
   {
@@ -31976,7 +31400,7 @@ const relayResults = [
     "km": 10.8,
     "position": 5,
     "name": "Mostyn Jones",
-    "club": "Caldicot A Fairwater (05)",
+    "club": "Caldicot RC",
     "time": "00:47:38"
   },
   {
@@ -31988,7 +31412,7 @@ const relayResults = [
     "km": 10.8,
     "position": 6,
     "name": "Steve Dcid:9ewitt",
-    "club": "Fairwater Cwmbran B Chepstow (06)",
+    "club": "Fairwater Runners",
     "time": "00:50:49"
   },
   {
@@ -32000,7 +31424,7 @@ const relayResults = [
     "km": 10.8,
     "position": 7,
     "name": "Phil Hyatt",
-    "club": "Caerleon B (07)",
+    "club": "Caerleon RC",
     "time": "00:52:32"
   },
   {
@@ -32012,7 +31436,7 @@ const relayResults = [
     "km": 10.8,
     "position": 8,
     "name": "Kevin Williams",
-    "club": "Rhondda Valley A Spirit of (08)",
+    "club": "Rhondda Valley Runners",
     "time": "00:53:51"
   },
   {
@@ -32024,7 +31448,7 @@ const relayResults = [
     "km": 10.8,
     "position": 9,
     "name": "Lisa Jeffery",
-    "club": "Chepstow B Caerphilly (09)",
+    "club": "Chepstow Harriers",
     "time": "00:54:08"
   },
   {
@@ -32036,7 +31460,7 @@ const relayResults = [
     "km": 10.8,
     "position": 10,
     "name": "Gary Adams",
-    "club": "Fairwater Cwmbran A Caerleon (10)",
+    "club": "Fairwater Runners",
     "time": "00:54:19"
   },
   {
@@ -32048,7 +31472,7 @@ const relayResults = [
     "km": 10.8,
     "position": 11,
     "name": "Howard Attwood",
-    "club": "Lliswerry B Caerleon (11)",
+    "club": "Lliswerry Runners",
     "time": "00:55:34"
   },
   {
@@ -32060,7 +31484,7 @@ const relayResults = [
     "km": 10.8,
     "position": 12,
     "name": "Kelly Collins",
-    "club": "Parc Bryn Bach A Parc (12)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:56:31"
   },
   {
@@ -32072,7 +31496,7 @@ const relayResults = [
     "km": 10.8,
     "position": 13,
     "name": "Nova Groundrill",
-    "club": "Lliswerry A Rhondda (13)",
+    "club": "Lliswerry Runners",
     "time": "00:57:22"
   },
   {
@@ -32084,7 +31508,7 @@ const relayResults = [
     "km": 10.8,
     "position": 14,
     "name": "Andrew Williamson",
-    "club": "Pegasus A Lliswerry (14)",
+    "club": "Pegasus RC",
     "time": "00:57:58"
   },
   {
@@ -32096,7 +31520,7 @@ const relayResults = [
     "km": 10.8,
     "position": 15,
     "name": "Bethan Pcid:9owell",
-    "club": "Pont-y-pwl & District B Islwyn (15)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:58:57"
   },
   {
@@ -32108,7 +31532,7 @@ const relayResults = [
     "km": 10.8,
     "position": 16,
     "name": "Karen Barratt",
-    "club": "Spirit of Monmouth A Pegasus (16)",
+    "club": "Spirit of Monmouth",
     "time": "01:00:12"
   },
   {
@@ -32120,7 +31544,7 @@ const relayResults = [
     "km": 10.8,
     "position": 17,
     "name": "Sara Arnold",
-    "club": "Islwyn A Fairwater (17)",
+    "club": "Islwyn RC",
     "time": "01:01:00"
   },
   {
@@ -32132,7 +31556,7 @@ const relayResults = [
     "km": 10.8,
     "position": 18,
     "name": "Debra Jones",
-    "club": "Porthcawl A Pont-y-pwl (18)",
+    "club": "Porthcawl Runners",
     "time": "01:01:01"
   },
   {
@@ -32144,7 +31568,7 @@ const relayResults = [
     "km": 10.8,
     "position": 19,
     "name": "Michelle Jayne",
-    "club": "Parc Bryn Bach B Islwyn (19)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:01:02"
   },
   {
@@ -32156,7 +31580,7 @@ const relayResults = [
     "km": 10.8,
     "position": 20,
     "name": "Vicki Jones",
-    "club": "Islwyn B Lliswerry (20)",
+    "club": "Islwyn RC",
     "time": "01:01:03"
   },
   {
@@ -32168,7 +31592,7 @@ const relayResults = [
     "km": 10.8,
     "position": 21,
     "name": "Annette Exley",
-    "club": "Usk A Porthcawl (21)",
+    "club": "Usk",
     "time": "01:01:04"
   },
   {
@@ -32180,7 +31604,7 @@ const relayResults = [
     "km": 10.8,
     "position": 22,
     "name": "Keith Gittins",
-    "club": "Caerleon A Usk A (22)",
+    "club": "Caerleon RC",
     "time": "01:11:00"
   },
   {
@@ -32192,7 +31616,7 @@ const relayResults = [
     "km": 13.0,
     "position": 1,
     "name": "Sean Tcid:9aylor",
-    "club": "Pont-y-pwl & District A Chepstow (01)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:49:51"
   },
   {
@@ -32204,7 +31628,7 @@ const relayResults = [
     "km": 13.0,
     "position": 2,
     "name": "Kath Matthews",
-    "club": "Chepstow A Pont-y-pwl (02)",
+    "club": "Chepstow Harriers",
     "time": "00:50:41"
   },
   {
@@ -32216,7 +31640,7 @@ const relayResults = [
     "km": 13.0,
     "position": 3,
     "name": "Richard Bracher",
-    "club": "Parc Bryn Bach A Griffithstown (03)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:56:25"
   },
   {
@@ -32228,7 +31652,7 @@ const relayResults = [
     "km": 13.0,
     "position": 4,
     "name": "Andrew Spencer",
-    "club": "Griffithstown A Parc Bryn (04)",
+    "club": "Griffithstown Harriers",
     "time": "00:57:44"
   },
   {
@@ -32240,7 +31664,7 @@ const relayResults = [
     "km": 13.0,
     "position": 5,
     "name": "Jeremy Masters",
-    "club": "Spirit of Monmouth A Fairwater (05)",
+    "club": "Spirit of Monmouth",
     "time": "00:57:53"
   },
   {
@@ -32252,7 +31676,7 @@ const relayResults = [
     "km": 13.0,
     "position": 6,
     "name": "Dave Bennett",
-    "club": "Porthcawl A Chepstow (06)",
+    "club": "Porthcawl Runners",
     "time": "00:58:23"
   },
   {
@@ -32264,7 +31688,7 @@ const relayResults = [
     "km": 13.0,
     "position": 7,
     "name": "Simon Burns",
-    "club": "Fairwater Cwmbran A Caldicot (07)",
+    "club": "Fairwater Runners",
     "time": "00:59:34"
   },
   {
@@ -32276,7 +31700,7 @@ const relayResults = [
     "km": 13.0,
     "position": 8,
     "name": "Dave Austin",
-    "club": "Chepstow B Spirit of (08)",
+    "club": "Chepstow Harriers",
     "time": "00:59:51"
   },
   {
@@ -32288,7 +31712,7 @@ const relayResults = [
     "km": 13.0,
     "position": 9,
     "name": "Amy Edwards",
-    "club": "Rhondda Valley A Caerphilly (09)",
+    "club": "Rhondda Valley Runners",
     "time": "01:01:22"
   },
   {
@@ -32300,7 +31724,7 @@ const relayResults = [
     "km": 13.0,
     "position": 10,
     "name": "Paula Williams",
-    "club": "Caerleon A Caerleon (10)",
+    "club": "Caerleon RC",
     "time": "01:01:53"
   },
   {
@@ -32312,7 +31736,7 @@ const relayResults = [
     "km": 13.0,
     "position": 11,
     "name": "David Jones",
-    "club": "Caldicot A Rhondda (11)",
+    "club": "Caldicot RC",
     "time": "01:02:24"
   },
   {
@@ -32324,7 +31748,7 @@ const relayResults = [
     "km": 13.0,
     "position": 12,
     "name": "Nick Butler",
-    "club": "Caerphilly A Caerleon (12)",
+    "club": "Caerphilly Runners",
     "time": "01:02:32"
   },
   {
@@ -32336,7 +31760,7 @@ const relayResults = [
     "km": 13.0,
     "position": 13,
     "name": "Martyn Jcid:9enkins",
-    "club": "Fairwater Cwmbran B Lliswerry (13)",
+    "club": "Fairwater Runners",
     "time": "01:05:29"
   },
   {
@@ -32348,7 +31772,7 @@ const relayResults = [
     "km": 13.0,
     "position": 14,
     "name": "Laura Evans",
-    "club": "Pegasus A Parc Bryn (14)",
+    "club": "Pegasus RC",
     "time": "01:06:10"
   },
   {
@@ -32360,7 +31784,7 @@ const relayResults = [
     "km": 13.0,
     "position": 15,
     "name": "Gayle Sheppard",
-    "club": "Lliswerry A Porthcawl (15)",
+    "club": "Lliswerry Runners",
     "time": "01:06:12"
   },
   {
@@ -32372,7 +31796,7 @@ const relayResults = [
     "km": 13.0,
     "position": 16,
     "name": "Garfield Jones",
-    "club": "Islwyn A Islwyn A (16)",
+    "club": "Islwyn RC",
     "time": "01:06:40"
   },
   {
@@ -32384,7 +31808,7 @@ const relayResults = [
     "km": 13.0,
     "position": 17,
     "name": "Peter Olivier",
-    "club": "Caerleon B Pegasus (17)",
+    "club": "Caerleon RC",
     "time": "01:09:36"
   },
   {
@@ -32396,7 +31820,7 @@ const relayResults = [
     "km": 13.0,
     "position": 18,
     "name": "Sharon cid:9Woods",
-    "club": "Pont-y-pwl & District B Fairwater (18)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:12:38"
   },
   {
@@ -32408,7 +31832,7 @@ const relayResults = [
     "km": 13.0,
     "position": 19,
     "name": "Sam Standerwick",
-    "club": "Parc Bryn Bach B Pont-y-pwl (19)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:13:00"
   },
   {
@@ -32420,7 +31844,7 @@ const relayResults = [
     "km": 13.0,
     "position": 20,
     "name": "Ken Oliver",
-    "club": "Islwyn B Islwyn B (20)",
+    "club": "Islwyn RC",
     "time": "01:13:01"
   },
   {
@@ -32432,7 +31856,7 @@ const relayResults = [
     "km": 13.0,
     "position": 21,
     "name": "Graham Simpson",
-    "club": "Usk A Usk A (21)",
+    "club": "Usk",
     "time": "01:13:02"
   },
   {
@@ -32444,7 +31868,7 @@ const relayResults = [
     "km": 13.0,
     "position": 22,
     "name": "Martyn Jones",
-    "club": "Lliswerry B Lliswerry (22)",
+    "club": "Lliswerry Runners",
     "time": "01:23:00"
   },
   {
@@ -32456,7 +31880,7 @@ const relayResults = [
     "km": 20.3,
     "position": 1,
     "name": "Laurence Humphreys",
-    "club": "Fairwater Cwmbran A Chepstow (01)",
+    "club": "Fairwater Runners",
     "time": "01:14:55"
   },
   {
@@ -32468,7 +31892,7 @@ const relayResults = [
     "km": 20.3,
     "position": 2,
     "name": "Andrew Walsh",
-    "club": "Griffithstown A Pont-y-pwl (02)",
+    "club": "Griffithstown Harriers",
     "time": "01:21:37"
   },
   {
@@ -32480,7 +31904,7 @@ const relayResults = [
     "km": 20.3,
     "position": 3,
     "name": "Nick Davis",
-    "club": "Chepstow A (03)",
+    "club": "Chepstow Harriers",
     "time": "01:22:01"
   },
   {
@@ -32492,7 +31916,7 @@ const relayResults = [
     "km": 20.3,
     "position": 4,
     "name": "Simon Lewis",
-    "club": "Parc Bryn Bach A Fairwater (04)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:22:51"
   },
   {
@@ -32504,7 +31928,7 @@ const relayResults = [
     "km": 20.3,
     "position": 5,
     "name": "Iestyn Rcid:9hodes",
-    "club": "Pont-y-pwl (05)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:23:10"
   },
   {
@@ -32516,7 +31940,7 @@ const relayResults = [
     "km": 20.3,
     "position": 6,
     "name": "Allan Meek",
-    "club": "Spirit of Monmouth A Chepstow (06)",
+    "club": "Spirit of Monmouth",
     "time": "01:24:38"
   },
   {
@@ -32528,7 +31952,7 @@ const relayResults = [
     "km": 20.3,
     "position": 7,
     "name": "James Tucker",
-    "club": "Chepstow B Spirit (07)",
+    "club": "Chepstow Harriers",
     "time": "01:26:55"
   },
   {
@@ -32540,7 +31964,7 @@ const relayResults = [
     "km": 20.3,
     "position": 8,
     "name": "C J De Mooi",
-    "club": "Caldicot A Caldicot (08)",
+    "club": "Caldicot RC",
     "time": "01:29:24"
   },
   {
@@ -32552,7 +31976,7 @@ const relayResults = [
     "km": 20.3,
     "position": 9,
     "name": "Rob Bickel",
-    "club": "Caerleon A Caerleon (09)",
+    "club": "Caerleon RC",
     "time": "01:29:34"
   },
   {
@@ -32564,7 +31988,7 @@ const relayResults = [
     "km": 20.3,
     "position": 10,
     "name": "Tony Mackay",
-    "club": "Pegasus A Rhondda (10)",
+    "club": "Pegasus RC",
     "time": "01:30:37"
   },
   {
@@ -32576,7 +32000,7 @@ const relayResults = [
     "km": 20.3,
     "position": 11,
     "name": "Keith Thompson",
-    "club": "Rhondda Valley A Caerphilly (11)",
+    "club": "Rhondda Valley Runners",
     "time": "01:31:57"
   },
   {
@@ -32588,7 +32012,7 @@ const relayResults = [
     "km": 20.3,
     "position": 12,
     "name": "Rob Davies",
-    "club": "Lliswerry A Pegasus (12)",
+    "club": "Lliswerry Runners",
     "time": "01:40:15"
   },
   {
@@ -32600,7 +32024,7 @@ const relayResults = [
     "km": 20.3,
     "position": 13,
     "name": "Rob Scid:9ymons",
-    "club": "Fairwater Cwmbran B Lliswerry (13)",
+    "club": "Fairwater Runners",
     "time": "01:41:50"
   },
   {
@@ -32612,7 +32036,7 @@ const relayResults = [
     "km": 20.3,
     "position": 14,
     "name": "Emma Edwards",
-    "club": "Caerphilly A Parc (14)",
+    "club": "Caerphilly Runners",
     "time": "01:42:39"
   },
   {
@@ -32624,7 +32048,7 @@ const relayResults = [
     "km": 20.3,
     "position": 15,
     "name": "Terry Vaughn",
-    "club": "Parc Bryn Bach B Caerleon (15)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:46:15"
   },
   {
@@ -32636,7 +32060,7 @@ const relayResults = [
     "km": 20.3,
     "position": 16,
     "name": "Al cid:9Cummings",
-    "club": "Pont-y-pwl & District B Fairwater (16)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:47:45"
   },
   {
@@ -32648,7 +32072,7 @@ const relayResults = [
     "km": 20.3,
     "position": 17,
     "name": "Craig Ellis",
-    "club": "Islwyn B Porthcawl (17)",
+    "club": "Islwyn RC",
     "time": "01:48:32"
   },
   {
@@ -32660,7 +32084,7 @@ const relayResults = [
     "km": 20.3,
     "position": 18,
     "name": "Daffyd Weetman",
-    "club": "Islwyn A Islwyn (18)",
+    "club": "Islwyn RC",
     "time": "01:48:47"
   },
   {
@@ -32672,7 +32096,7 @@ const relayResults = [
     "km": 20.3,
     "position": 19,
     "name": "Rob Bennett",
-    "club": "Porthcawl A Pont-y-pwl (19)",
+    "club": "Porthcawl Runners",
     "time": "01:49:00"
   },
   {
@@ -32684,7 +32108,7 @@ const relayResults = [
     "km": 20.3,
     "position": 20,
     "name": "Paul Adams",
-    "club": "Caerleon B Islwyn (20)",
+    "club": "Caerleon RC",
     "time": "01:54:00"
   },
   {
@@ -32696,7 +32120,7 @@ const relayResults = [
     "km": 8.9,
     "position": 1,
     "name": "Lauren Cooper",
-    "club": "Parc Bryn Bach A Chepstow (01)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:35:18"
   },
   {
@@ -32708,7 +32132,7 @@ const relayResults = [
     "km": 8.9,
     "position": 2,
     "name": "Caroline Jones",
-    "club": "Spirit of Monmouth A Pont-y-pwl (02)",
+    "club": "Spirit of Monmouth",
     "time": "00:35:46"
   },
   {
@@ -32720,7 +32144,7 @@ const relayResults = [
     "km": 8.9,
     "position": 3,
     "name": "Sarah Bell",
-    "club": "Chepstow A (03)",
+    "club": "Chepstow Harriers",
     "time": "00:37:12"
   },
   {
@@ -32732,7 +32156,7 @@ const relayResults = [
     "km": 8.9,
     "position": 4,
     "name": "Martin Jones",
-    "club": "Islwyn B Parc (04)",
+    "club": "Islwyn RC",
     "time": "00:39:31"
   },
   {
@@ -32744,7 +32168,7 @@ const relayResults = [
     "km": 8.9,
     "position": 5,
     "name": "Sharon cid:9Newell",
-    "club": "Pont-y-pwl (05)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:40:17"
   },
   {
@@ -32756,7 +32180,7 @@ const relayResults = [
     "km": 8.9,
     "position": 6,
     "name": "Jason Garrahan",
-    "club": "Caerphilly A Spirit (06)",
+    "club": "Caerphilly Runners",
     "time": "00:43:19"
   },
   {
@@ -32768,7 +32192,7 @@ const relayResults = [
     "km": 8.9,
     "position": 7,
     "name": "Charlotte Moran",
-    "club": "Caerleon A Chepstow (07)",
+    "club": "Caerleon RC",
     "time": "00:44:17"
   },
   {
@@ -32780,7 +32204,7 @@ const relayResults = [
     "km": 8.9,
     "position": 8,
     "name": "Rose Charles",
-    "club": "Griffithstown A Caldicot (08)",
+    "club": "Griffithstown Harriers",
     "time": "00:45:07"
   },
   {
@@ -32792,7 +32216,7 @@ const relayResults = [
     "km": 8.9,
     "position": 9,
     "name": "Julie Roche",
-    "club": "Fairwater (09)",
+    "club": "Fairwater Runners",
     "time": "00:45:52"
   },
   {
@@ -32804,7 +32228,7 @@ const relayResults = [
     "km": 8.9,
     "position": 10,
     "name": "Emma Tracy",
-    "club": "Caldicot A Caerphilly (10)",
+    "club": "Caldicot RC",
     "time": "00:46:34"
   },
   {
@@ -32816,7 +32240,7 @@ const relayResults = [
     "km": 8.9,
     "position": 11,
     "name": "Richard Powell",
-    "club": "Islwyn A Rhondda (11)",
+    "club": "Islwyn RC",
     "time": "00:47:21"
   },
   {
@@ -32828,7 +32252,7 @@ const relayResults = [
     "km": 8.9,
     "position": 12,
     "name": "Heidi Davies",
-    "club": "Usk A Pegasus (12)",
+    "club": "Usk",
     "time": "00:47:41"
   },
   {
@@ -32840,7 +32264,7 @@ const relayResults = [
     "km": 8.9,
     "position": 13,
     "name": "Margrett Monk",
-    "club": "Parc Bryn Bach B Lliswerry (13)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:47:45"
   },
   {
@@ -32852,7 +32276,7 @@ const relayResults = [
     "km": 8.9,
     "position": 14,
     "name": "Vicky Fear",
-    "club": "Lliswerry A Parc (14)",
+    "club": "Lliswerry Runners",
     "time": "00:48:38"
   },
   {
@@ -32864,7 +32288,7 @@ const relayResults = [
     "km": 8.9,
     "position": 15,
     "name": "Mike Bcid:9runnock",
-    "club": "Pont-y-pwl & District B Caerleon (15)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:49:08"
   },
   {
@@ -32876,7 +32300,7 @@ const relayResults = [
     "km": 8.9,
     "position": 16,
     "name": "Rachel Thomson",
-    "club": "Porthcawl A Fairwater (16)",
+    "club": "Porthcawl Runners",
     "time": "00:49:10"
   },
   {
@@ -32888,7 +32312,7 @@ const relayResults = [
     "km": 8.9,
     "position": 17,
     "name": "Sally Groves",
-    "club": "Pegasus A Islwyn (17)",
+    "club": "Pegasus RC",
     "time": "00:49:49"
   },
   {
@@ -32900,7 +32324,7 @@ const relayResults = [
     "km": 8.9,
     "position": 18,
     "name": "Jane Bayliss",
-    "club": "Chepstow B Porthcawl (18)",
+    "club": "Chepstow Harriers",
     "time": "00:50:00"
   },
   {
@@ -32912,7 +32336,7 @@ const relayResults = [
     "km": 8.9,
     "position": 19,
     "name": "Shannel Mitchell",
-    "club": "Lliswerry B Islwyn (19)",
+    "club": "Lliswerry Runners",
     "time": "00:50:01"
   },
   {
@@ -32924,7 +32348,7 @@ const relayResults = [
     "km": 8.9,
     "position": 20,
     "name": "Stella cid:9Symons",
-    "club": "Fairwater Cwmbran B Pont-y-pwl (20)",
+    "club": "Fairwater Runners",
     "time": "00:50:02"
   },
   {
@@ -32936,7 +32360,7 @@ const relayResults = [
     "km": 8.9,
     "position": 21,
     "name": "Claire Adams",
-    "club": "Rhondda Valley A Usk A (21)",
+    "club": "Rhondda Valley Runners",
     "time": "00:50:03"
   },
   {
@@ -32948,7 +32372,7 @@ const relayResults = [
     "km": 8.9,
     "position": 22,
     "name": "Aisling Morgan",
-    "club": "Caerleon B Lliswerry (22)",
+    "club": "Caerleon RC",
     "time": "00:50:04"
   },
   {
@@ -32960,7 +32384,7 @@ const relayResults = [
     "km": 21.1,
     "position": 1,
     "name": "Duncan Bell",
-    "club": "Chepstow A (01)",
+    "club": "Chepstow Harriers",
     "time": "01:23:36"
   },
   {
@@ -32972,7 +32396,7 @@ const relayResults = [
     "km": 21.1,
     "position": 2,
     "name": "Simon A Lewis",
-    "club": "Parc (02)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:28:44"
   },
   {
@@ -32984,7 +32408,7 @@ const relayResults = [
     "km": 21.1,
     "position": 3,
     "name": "Josh Jones",
-    "club": "Griffithstown A (03)",
+    "club": "Griffithstown Harriers",
     "time": "01:31:11"
   },
   {
@@ -32996,7 +32420,7 @@ const relayResults = [
     "km": 21.1,
     "position": 4,
     "name": "Ben Scid:9inclair",
-    "club": "Pont-y-pwl & District A Griffithstown (04)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:32:13"
   },
   {
@@ -33008,7 +32432,7 @@ const relayResults = [
     "km": 21.1,
     "position": 5,
     "name": "Gareth Jones",
-    "club": "Spirit of Monmouth A Spirit of (05)",
+    "club": "Spirit of Monmouth",
     "time": "01:34:06"
   },
   {
@@ -33020,7 +32444,7 @@ const relayResults = [
     "km": 21.1,
     "position": 6,
     "name": "Russell Griffiths",
-    "club": "Caldicot A Fairwater (06)",
+    "club": "Caldicot RC",
     "time": "01:40:28"
   },
   {
@@ -33032,7 +32456,7 @@ const relayResults = [
     "km": 21.1,
     "position": 7,
     "name": "Gareth Jones",
-    "club": "Usk A Chepstow (07)",
+    "club": "Usk",
     "time": "01:40:48"
   },
   {
@@ -33044,7 +32468,7 @@ const relayResults = [
     "km": 21.1,
     "position": 8,
     "name": "Matt Creed",
-    "club": "Lliswerry A Caldicot (08)",
+    "club": "Lliswerry Runners",
     "time": "01:42:44"
   },
   {
@@ -33056,7 +32480,7 @@ const relayResults = [
     "km": 21.1,
     "position": 9,
     "name": "Rob Beves",
-    "club": "Chepstow B Caerleon (09)",
+    "club": "Chepstow Harriers",
     "time": "01:44:07"
   },
   {
@@ -33068,7 +32492,7 @@ const relayResults = [
     "km": 21.1,
     "position": 10,
     "name": "Ian Davies",
-    "club": "Caerleon A Rhondda (10)",
+    "club": "Caerleon RC",
     "time": "01:45:44"
   },
   {
@@ -33080,7 +32504,7 @@ const relayResults = [
     "km": 21.1,
     "position": 11,
     "name": "Lee Hammond",
-    "club": "Fairwater Cwmbran A Lliswerry (11)",
+    "club": "Fairwater Runners",
     "time": "01:46:49"
   },
   {
@@ -33092,7 +32516,7 @@ const relayResults = [
     "km": 21.1,
     "position": 12,
     "name": "Ross Owen",
-    "club": "Rhondda Valley A Pegasus (12)",
+    "club": "Rhondda Valley Runners",
     "time": "01:51:01"
   },
   {
@@ -33104,7 +32528,7 @@ const relayResults = [
     "km": 21.1,
     "position": 13,
     "name": "Julian Maine",
-    "club": "Porthcawl A Caerphilly (13)",
+    "club": "Porthcawl Runners",
     "time": "01:51:36"
   },
   {
@@ -33116,7 +32540,7 @@ const relayResults = [
     "km": 21.1,
     "position": 14,
     "name": "Ian Kent",
-    "club": "Parc (14)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:52:23"
   },
   {
@@ -33128,7 +32552,7 @@ const relayResults = [
     "km": 21.1,
     "position": 15,
     "name": "Craig Smith",
-    "club": "Pegasus A Caerleon (15)",
+    "club": "Pegasus RC",
     "time": "01:53:00"
   },
   {
@@ -33140,7 +32564,7 @@ const relayResults = [
     "km": 21.1,
     "position": 16,
     "name": "Grahame Viner",
-    "club": "Caerleon B Porthcawl (16)",
+    "club": "Caerleon RC",
     "time": "01:53:01"
   },
   {
@@ -33152,7 +32576,7 @@ const relayResults = [
     "km": 21.1,
     "position": 17,
     "name": "Andy cid:9Dickens",
-    "club": "Pont-y-pwl & District B Fairwater (17)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:54:57"
   },
   {
@@ -33164,7 +32588,7 @@ const relayResults = [
     "km": 21.1,
     "position": 18,
     "name": "Richard Bcid:9owie",
-    "club": "Fairwater Cwmbran B Islwyn B (18)",
+    "club": "Fairwater Runners",
     "time": "01:55:21"
   },
   {
@@ -33176,7 +32600,7 @@ const relayResults = [
     "km": 21.1,
     "position": 19,
     "name": "Mark Duddridge",
-    "club": "Islwyn B Pont-y-pwl (19)",
+    "club": "Islwyn RC",
     "time": "01:58:00"
   },
   {
@@ -33188,7 +32612,7 @@ const relayResults = [
     "km": 16.0,
     "position": 1,
     "name": "Geraint Lewis",
-    "club": "Porthcawl A Chepstow (01)",
+    "club": "Porthcawl Runners",
     "time": "01:04:43"
   },
   {
@@ -33200,7 +32624,7 @@ const relayResults = [
     "km": 16.0,
     "position": 2,
     "name": "Paul Murrin",
-    "club": "Chepstow A (02)",
+    "club": "Chepstow Harriers",
     "time": "01:05:01"
   },
   {
@@ -33212,7 +32636,7 @@ const relayResults = [
     "km": 16.0,
     "position": 3,
     "name": "Leighton Webb",
-    "club": "Griffithstown A (03)",
+    "club": "Griffithstown Harriers",
     "time": "01:06:44"
   },
   {
@@ -33224,7 +32648,7 @@ const relayResults = [
     "km": 16.0,
     "position": 4,
     "name": "Richard Lund",
-    "club": "Caldicot A Parc (04)",
+    "club": "Caldicot RC",
     "time": "01:07:35"
   },
   {
@@ -33236,7 +32660,7 @@ const relayResults = [
     "km": 16.0,
     "position": 5,
     "name": "Terry cid:9Watkins",
-    "club": "Pont-y-pwl (05)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:09:33"
   },
   {
@@ -33248,7 +32672,7 @@ const relayResults = [
     "km": 16.0,
     "position": 6,
     "name": "Jonathan Carter",
-    "club": "Chepstow B Fairwater (06)",
+    "club": "Chepstow Harriers",
     "time": "01:10:31"
   },
   {
@@ -33260,7 +32684,7 @@ const relayResults = [
     "km": 16.0,
     "position": 7,
     "name": "Richard Hughes",
-    "club": "Caerleon A Caldicot (07)",
+    "club": "Caerleon RC",
     "time": "01:10:38"
   },
   {
@@ -33272,7 +32696,7 @@ const relayResults = [
     "km": 16.0,
     "position": 8,
     "name": "Alice Taylor",
-    "club": "Spirit of Monmouth A Chepstow (08)",
+    "club": "Spirit of Monmouth",
     "time": "01:12:53"
   },
   {
@@ -33284,7 +32708,7 @@ const relayResults = [
     "km": 16.0,
     "position": 9,
     "name": "Shane Roberts",
-    "club": "Parc Bryn Bach A Caerleon (09)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:14:05"
   },
   {
@@ -33296,7 +32720,7 @@ const relayResults = [
     "km": 16.0,
     "position": 10,
     "name": "Mike Skyrme",
-    "club": "Fairwater Cwmbran A Rhondda (10)",
+    "club": "Fairwater Runners",
     "time": "01:16:47"
   },
   {
@@ -33308,7 +32732,7 @@ const relayResults = [
     "km": 16.0,
     "position": 11,
     "name": "Gary Webber",
-    "club": "Rhondda Valley A Lliswerry (11)",
+    "club": "Rhondda Valley Runners",
     "time": "01:18:48"
   },
   {
@@ -33320,7 +32744,7 @@ const relayResults = [
     "km": 16.0,
     "position": 12,
     "name": "Sam Pollard",
-    "club": "Caerleon B Porthcawl (12)",
+    "club": "Caerleon RC",
     "time": "01:21:05"
   },
   {
@@ -33332,7 +32756,7 @@ const relayResults = [
     "km": 16.0,
     "position": 13,
     "name": "Jon Hancock",
-    "club": "Usk A Pegasus (13)",
+    "club": "Usk",
     "time": "01:22:29"
   },
   {
@@ -33344,7 +32768,7 @@ const relayResults = [
     "km": 16.0,
     "position": 14,
     "name": "Michelle Johnson",
-    "club": "Islwyn A Caerphilly (14)",
+    "club": "Islwyn RC",
     "time": "01:22:52"
   },
   {
@@ -33356,7 +32780,7 @@ const relayResults = [
     "km": 16.0,
     "position": 15,
     "name": "Emma Scid:9owrey",
-    "club": "Pont-y-pwl & District B Parc (15)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:23:28"
   },
   {
@@ -33368,7 +32792,7 @@ const relayResults = [
     "km": 16.0,
     "position": 16,
     "name": "James Thomas",
-    "club": "Parc Bryn Bach B Caerleon (16)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:24:02"
   },
   {
@@ -33380,7 +32804,7 @@ const relayResults = [
     "km": 16.0,
     "position": 17,
     "name": "Elaine Wharmby",
-    "club": "Pegasus A Fairwater (17)",
+    "club": "Pegasus RC",
     "time": "01:25:00"
   },
   {
@@ -33392,7 +32816,7 @@ const relayResults = [
     "km": 16.0,
     "position": 18,
     "name": "Hannah Davies",
-    "club": "Islwyn B Islwyn (18)",
+    "club": "Islwyn RC",
     "time": "01:25:01"
   },
   {
@@ -33404,7 +32828,7 @@ const relayResults = [
     "km": 16.0,
     "position": 19,
     "name": "Katie Fox",
-    "club": "Caerphilly A (19)",
+    "club": "Caerphilly Runners",
     "time": "01:25:02"
   },
   {
@@ -33416,7 +32840,7 @@ const relayResults = [
     "km": 16.0,
     "position": 20,
     "name": "Ray Ellingham",
-    "club": "Lliswerry A Islwyn (20)",
+    "club": "Lliswerry Runners",
     "time": "01:25:03"
   },
   {
@@ -33428,7 +32852,7 @@ const relayResults = [
     "km": 16.0,
     "position": 21,
     "name": "Stephen Mcid:9organ",
-    "club": "Fairwater (21)",
+    "club": "Fairwater Runners",
     "time": "01:25:04"
   },
   {
@@ -33440,7 +32864,7 @@ const relayResults = [
     "km": 16.0,
     "position": 22,
     "name": "Melanie Shipton",
-    "club": "Lliswerry B Lliswerry (22)",
+    "club": "Lliswerry Runners",
     "time": "01:35:00"
   },
   {
@@ -33452,7 +32876,7 @@ const relayResults = [
     "km": 12.16,
     "position": 1,
     "name": "Lubi cid:9Meciarova",
-    "club": "Pont-y-pwl & District A Chepstow (01)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:40:35"
   },
   {
@@ -33464,7 +32888,7 @@ const relayResults = [
     "km": 12.16,
     "position": 2,
     "name": "Danielle Phillips",
-    "club": "Parc (02)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:41:45"
   },
   {
@@ -33476,7 +32900,7 @@ const relayResults = [
     "km": 12.16,
     "position": 3,
     "name": "Richard Perry",
-    "club": "Caerleon A Parc Bryn (03)",
+    "club": "Caerleon RC",
     "time": "00:43:24"
   },
   {
@@ -33488,7 +32912,7 @@ const relayResults = [
     "km": 12.16,
     "position": 4,
     "name": "Toby Wales",
-    "club": "Spirit of Monmouth A Griffithstown (04)",
+    "club": "Spirit of Monmouth",
     "time": "00:44:20"
   },
   {
@@ -33500,7 +32924,7 @@ const relayResults = [
     "km": 12.16,
     "position": 5,
     "name": "Clive Denton",
-    "club": "Rhondda Valley A Spirit of (05)",
+    "club": "Rhondda Valley Runners",
     "time": "00:44:57"
   },
   {
@@ -33512,7 +32936,7 @@ const relayResults = [
     "km": 12.16,
     "position": 6,
     "name": "David Phillips",
-    "club": "Caerphilly A Fairwater (06)",
+    "club": "Caerphilly Runners",
     "time": "00:45:05"
   },
   {
@@ -33524,7 +32948,7 @@ const relayResults = [
     "km": 12.16,
     "position": 7,
     "name": "Dave Tcid:9imson",
-    "club": "Pont-y-pwl & District B Chepstow (07)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:46:02"
   },
   {
@@ -33536,7 +32960,7 @@ const relayResults = [
     "km": 12.16,
     "position": 8,
     "name": "Ffion Davis",
-    "club": "Islwyn A Caldicot (08)",
+    "club": "Islwyn RC",
     "time": "00:46:25"
   },
   {
@@ -33548,7 +32972,7 @@ const relayResults = [
     "km": 12.16,
     "position": 9,
     "name": "Rob Lewis",
-    "club": "Fairwater (09)",
+    "club": "Fairwater Runners",
     "time": "00:47:10"
   },
   {
@@ -33560,7 +32984,7 @@ const relayResults = [
     "km": 12.16,
     "position": 10,
     "name": "Sarah Pryor",
-    "club": "Pegasus A Rhondda (10)",
+    "club": "Pegasus RC",
     "time": "00:48:15"
   },
   {
@@ -33572,7 +32996,7 @@ const relayResults = [
     "km": 12.16,
     "position": 11,
     "name": "Joanne Milliken",
-    "club": "Chepstow B Lliswerry (11)",
+    "club": "Chepstow Harriers",
     "time": "00:48:44"
   },
   {
@@ -33584,7 +33008,7 @@ const relayResults = [
     "km": 12.16,
     "position": 12,
     "name": "Rhianne McGhee",
-    "club": "Griffithstown A Porthcawl (12)",
+    "club": "Griffithstown Harriers",
     "time": "00:49:38"
   },
   {
@@ -33596,7 +33020,7 @@ const relayResults = [
     "km": 12.16,
     "position": 13,
     "name": "Ceri Jenkins",
-    "club": "Lliswerry A Caerphilly (13)",
+    "club": "Lliswerry Runners",
     "time": "00:50:33"
   },
   {
@@ -33608,7 +33032,7 @@ const relayResults = [
     "km": 12.16,
     "position": 14,
     "name": "Fiona Cross",
-    "club": "Fairwater Cwmbran A Pegasus (14)",
+    "club": "Fairwater Runners",
     "time": "00:51:00"
   },
   {
@@ -33620,7 +33044,7 @@ const relayResults = [
     "km": 12.16,
     "position": 15,
     "name": "Romana Maine",
-    "club": "Porthcawl A Parc Bryn (15)",
+    "club": "Porthcawl Runners",
     "time": "00:51:01"
   },
   {
@@ -33632,7 +33056,7 @@ const relayResults = [
     "km": 12.16,
     "position": 16,
     "name": "Claire Sullivan",
-    "club": "Parc Bryn Bach B Caerleon (16)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:51:02"
   },
   {
@@ -33644,7 +33068,7 @@ const relayResults = [
     "km": 12.16,
     "position": 17,
     "name": "Gemma Welshor",
-    "club": "Usk A Fairwater (17)",
+    "club": "Usk",
     "time": "00:51:03"
   },
   {
@@ -33656,7 +33080,7 @@ const relayResults = [
     "km": 12.16,
     "position": 18,
     "name": "Beth Kershaw-Naylor",
-    "club": "Caerleon B Pont-y-pwl (18)",
+    "club": "Caerleon RC",
     "time": "00:51:04"
   },
   {
@@ -33668,7 +33092,7 @@ const relayResults = [
     "km": 12.16,
     "position": 19,
     "name": "Paige Luff",
-    "club": "Caldicot A Islwyn B (19)",
+    "club": "Caldicot RC",
     "time": "00:51:05"
   },
   {
@@ -33680,7 +33104,7 @@ const relayResults = [
     "km": 12.16,
     "position": 20,
     "name": "Emma Thomas",
-    "club": "Islwyn B Islwyn A (20)",
+    "club": "Islwyn RC",
     "time": "00:51:06"
   },
   {
@@ -33692,7 +33116,7 @@ const relayResults = [
     "km": 12.16,
     "position": 21,
     "name": "Tracy Burton",
-    "club": "Lliswerry B Usk A (21)",
+    "club": "Lliswerry Runners",
     "time": "00:51:07"
   },
   {
@@ -33704,7 +33128,7 @@ const relayResults = [
     "km": 12.16,
     "position": 22,
     "name": "Jane Green",
-    "club": "Chepstow A Lliswerry (22)",
+    "club": "Chepstow Harriers",
     "time": "01:01:00"
   },
   {
@@ -33716,7 +33140,7 @@ const relayResults = [
     "km": 13.4,
     "position": 1,
     "name": "Matt Stott",
-    "club": "Chepstow A (01)",
+    "club": "Chepstow Harriers",
     "time": "00:54:56"
   },
   {
@@ -33728,7 +33152,7 @@ const relayResults = [
     "km": 13.4,
     "position": 2,
     "name": "Paul Wcid:9hite",
-    "club": "Pont-y-pwl & District A Pont-y-pwl (02)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:58:04"
   },
   {
@@ -33740,7 +33164,7 @@ const relayResults = [
     "km": 13.4,
     "position": 3,
     "name": "Matt Kitching",
-    "club": "Chepstow B Parc (03)",
+    "club": "Chepstow Harriers",
     "time": "00:58:37"
   },
   {
@@ -33752,7 +33176,7 @@ const relayResults = [
     "km": 13.4,
     "position": 4,
     "name": "Dean House",
-    "club": "Pegasus A (04)",
+    "club": "Pegasus RC",
     "time": "00:59:10"
   },
   {
@@ -33764,7 +33188,7 @@ const relayResults = [
     "km": 13.4,
     "position": 5,
     "name": "Jonathon Astley",
-    "club": "Parc Bryn Bach A Spirit (05)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:00:38"
   },
   {
@@ -33776,7 +33200,7 @@ const relayResults = [
     "km": 13.4,
     "position": 6,
     "name": "Lee Dean",
-    "club": "Usk A Chepstow (06)",
+    "club": "Usk",
     "time": "01:02:52"
   },
   {
@@ -33788,7 +33212,7 @@ const relayResults = [
     "km": 13.4,
     "position": 7,
     "name": "Alan Williams",
-    "club": "Parc Bryn Bach B Fairwater (07)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:03:23"
   },
   {
@@ -33800,7 +33224,7 @@ const relayResults = [
     "km": 13.4,
     "position": 8,
     "name": "Andrew Rosen",
-    "club": "Caerleon A (08)",
+    "club": "Caerleon RC",
     "time": "01:04:15"
   },
   {
@@ -33812,7 +33236,7 @@ const relayResults = [
     "km": 13.4,
     "position": 9,
     "name": "Nick Walsh",
-    "club": "Griffithstown A Caerleon (09)",
+    "club": "Griffithstown Harriers",
     "time": "01:04:35"
   },
   {
@@ -33824,7 +33248,7 @@ const relayResults = [
     "km": 13.4,
     "position": 10,
     "name": "Lisa Ecid:9rickson",
-    "club": "Pont-y-pwl & District B Rhondda (10)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:05:03"
   },
   {
@@ -33836,7 +33260,7 @@ const relayResults = [
     "km": 13.4,
     "position": 11,
     "name": "Peter Burrows",
-    "club": "Caerleon B Pegasus (11)",
+    "club": "Caerleon RC",
     "time": "01:06:56"
   },
   {
@@ -33848,7 +33272,7 @@ const relayResults = [
     "km": 13.4,
     "position": 12,
     "name": "Nathan Reeks",
-    "club": "Caldicot A Porthcawl (12)",
+    "club": "Caldicot RC",
     "time": "01:08:10"
   },
   {
@@ -33860,7 +33284,7 @@ const relayResults = [
     "km": 13.4,
     "position": 13,
     "name": "Darren Weaving",
-    "club": "Fairwater Cwmbran A Lliswerry (13)",
+    "club": "Fairwater Runners",
     "time": "01:08:54"
   },
   {
@@ -33872,7 +33296,7 @@ const relayResults = [
     "km": 13.4,
     "position": 14,
     "name": "Nerys Chaplin",
-    "club": "Spirit of Monmouth A Caerphilly (14)",
+    "club": "Spirit of Monmouth",
     "time": "01:09:21"
   },
   {
@@ -33884,7 +33308,7 @@ const relayResults = [
     "km": 13.4,
     "position": 15,
     "name": "Nicola Howls",
-    "club": "Islwyn A Parc (15)",
+    "club": "Islwyn RC",
     "time": "01:12:10"
   },
   {
@@ -33896,7 +33320,7 @@ const relayResults = [
     "km": 13.4,
     "position": 16,
     "name": "Nicola Thomas",
-    "club": "Porthcawl A Caerleon (16)",
+    "club": "Porthcawl Runners",
     "time": "01:12:29"
   },
   {
@@ -33908,7 +33332,7 @@ const relayResults = [
     "km": 13.4,
     "position": 17,
     "name": "Sara Williams",
-    "club": "Caerphilly A (17)",
+    "club": "Caerphilly Runners",
     "time": "01:13:11"
   },
   {
@@ -33920,7 +33344,7 @@ const relayResults = [
     "km": 13.4,
     "position": 18,
     "name": "Tom Watkins",
-    "club": "Lliswerry A Fairwater (18)",
+    "club": "Lliswerry Runners",
     "time": "01:14:58"
   },
   {
@@ -33932,7 +33356,7 @@ const relayResults = [
     "km": 13.4,
     "position": 19,
     "name": "Joanne Ryan",
-    "club": "Rhondda Valley A Islwyn (19)",
+    "club": "Rhondda Valley Runners",
     "time": "01:15:00"
   },
   {
@@ -33944,7 +33368,7 @@ const relayResults = [
     "km": 13.4,
     "position": 20,
     "name": "Victoria Rcid:9eynolds",
-    "club": "Fairwater Cwmbran B Usk A (20)",
+    "club": "Fairwater Runners",
     "time": "01:15:01"
   },
   {
@@ -33956,7 +33380,7 @@ const relayResults = [
     "km": 13.4,
     "position": 21,
     "name": "Kirsty Holtham-Morgan",
-    "club": "Islwyn B Islwyn (21)",
+    "club": "Islwyn RC",
     "time": "01:15:02"
   },
   {
@@ -33968,7 +33392,7 @@ const relayResults = [
     "km": 13.4,
     "position": 22,
     "name": "Laura Rendell",
-    "club": "Lliswerry B Lliswerry (22)",
+    "club": "Lliswerry Runners",
     "time": "01:25:00"
   },
   {
@@ -33980,7 +33404,7 @@ const relayResults = [
     "km": 10.7,
     "position": 1,
     "name": "Sam Lewis Jones",
-    "club": "Parc Bryn Bach A Chepstow (01)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:40:44"
   },
   {
@@ -33992,7 +33416,7 @@ const relayResults = [
     "km": 10.7,
     "position": 2,
     "name": "James Blore",
-    "club": "Chepstow A Pont-y-pwl (02)",
+    "club": "Chepstow Harriers",
     "time": "00:42:02"
   },
   {
@@ -34004,7 +33428,7 @@ const relayResults = [
     "km": 10.7,
     "position": 3,
     "name": "Geraint Heath",
-    "club": "Lliswerry A Parc (03)",
+    "club": "Lliswerry Runners",
     "time": "00:45:52"
   },
   {
@@ -34016,7 +33440,7 @@ const relayResults = [
     "km": 10.7,
     "position": 4,
     "name": "Matt Wcid:9ebb",
-    "club": "Pont-y-pwl & District A Griffithstown (04)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:47:08"
   },
   {
@@ -34028,7 +33452,7 @@ const relayResults = [
     "km": 10.7,
     "position": 5,
     "name": "Thomas Williams",
-    "club": "Usk A Spirit (05)",
+    "club": "Usk",
     "time": "00:47:43"
   },
   {
@@ -34040,7 +33464,7 @@ const relayResults = [
     "km": 10.7,
     "position": 6,
     "name": "Sam cid:9Toop",
-    "club": "Pont-y-pwl & District B Chepstow (06)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:47:56"
   },
   {
@@ -34052,7 +33476,7 @@ const relayResults = [
     "km": 10.7,
     "position": 7,
     "name": "Steve Owen",
-    "club": "Chepstow B Fairwater (07)",
+    "club": "Chepstow Harriers",
     "time": "00:48:39"
   },
   {
@@ -34064,7 +33488,7 @@ const relayResults = [
     "km": 10.7,
     "position": 8,
     "name": "Martin Blakeborough",
-    "club": "Spirit of Monmouth A Caldicot (08)",
+    "club": "Spirit of Monmouth",
     "time": "00:49:06"
   },
   {
@@ -34076,7 +33500,7 @@ const relayResults = [
     "km": 10.7,
     "position": 9,
     "name": "Lis Chamberlain",
-    "club": "Griffithstown A Caerleon (09)",
+    "club": "Griffithstown Harriers",
     "time": "00:51:27"
   },
   {
@@ -34088,7 +33512,7 @@ const relayResults = [
     "km": 10.7,
     "position": 10,
     "name": "Alice Richards",
-    "club": "Caerleon B Rhondda (10)",
+    "club": "Caerleon RC",
     "time": "00:51:48"
   },
   {
@@ -34100,7 +33524,7 @@ const relayResults = [
     "km": 10.7,
     "position": 11,
     "name": "Liz Richards",
-    "club": "Caerleon A Pegasus (11)",
+    "club": "Caerleon RC",
     "time": "00:51:56"
   },
   {
@@ -34112,7 +33536,7 @@ const relayResults = [
     "km": 10.7,
     "position": 12,
     "name": "William Davies",
-    "club": "Rhondda Valley A Lliswerry (12)",
+    "club": "Rhondda Valley Runners",
     "time": "00:52:04"
   },
   {
@@ -34124,7 +33548,7 @@ const relayResults = [
     "km": 10.7,
     "position": 13,
     "name": "Liz Walsh",
-    "club": "Fairwater Cwmbran A Caerphilly (13)",
+    "club": "Fairwater Runners",
     "time": "00:54:31"
   },
   {
@@ -34136,7 +33560,7 @@ const relayResults = [
     "km": 10.7,
     "position": 14,
     "name": "Julie Lcid:9ees",
-    "club": "Fairwater Cwmbran B Porthcawl (14)",
+    "club": "Fairwater Runners",
     "time": "00:55:14"
   },
   {
@@ -34148,7 +33572,7 @@ const relayResults = [
     "km": 10.7,
     "position": 15,
     "name": "Paula Allen",
-    "club": "Pegasus A Caerleon (15)",
+    "club": "Pegasus RC",
     "time": "00:56:02"
   },
   {
@@ -34160,7 +33584,7 @@ const relayResults = [
     "km": 10.7,
     "position": 16,
     "name": "Katie Luff",
-    "club": "Caldicot A Parc (16)",
+    "club": "Caldicot RC",
     "time": "00:56:32"
   },
   {
@@ -34172,7 +33596,7 @@ const relayResults = [
     "km": 10.7,
     "position": 17,
     "name": "Rob Coles",
-    "club": "Caerphilly A (17)",
+    "club": "Caerphilly Runners",
     "time": "00:56:56"
   },
   {
@@ -34184,7 +33608,7 @@ const relayResults = [
     "km": 10.7,
     "position": 18,
     "name": "Lee Phillips",
-    "club": "Parc Bryn Bach B Fairwater (18)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:58:15"
   },
   {
@@ -34196,7 +33620,7 @@ const relayResults = [
     "km": 10.7,
     "position": 19,
     "name": "Jay Leach",
-    "club": "Islwyn A Usk A (19)",
+    "club": "Islwyn RC",
     "time": "00:58:47"
   },
   {
@@ -34208,7 +33632,7 @@ const relayResults = [
     "km": 10.7,
     "position": 20,
     "name": "Anne Rice-Jones",
-    "club": "Islwyn B Islwyn (20)",
+    "club": "Islwyn RC",
     "time": "01:00:00"
   },
   {
@@ -34220,7 +33644,7 @@ const relayResults = [
     "km": 10.7,
     "position": 21,
     "name": "Jane Clement",
-    "club": "Porthcawl A Islwyn (21)",
+    "club": "Porthcawl Runners",
     "time": "01:00:01"
   },
   {
@@ -34232,7 +33656,7 @@ const relayResults = [
     "km": 10.7,
     "position": 22,
     "name": "Hayley Edwards",
-    "club": "Lliswerry B Lliswerry (22)",
+    "club": "Lliswerry Runners",
     "time": "01:10:00"
   },
   {
@@ -34244,7 +33668,7 @@ const relayResults = [
     "km": 8.7,
     "position": 1,
     "name": "Neil Evans",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:34:04"
   },
   {
@@ -34256,7 +33680,7 @@ const relayResults = [
     "km": 8.7,
     "position": 2,
     "name": "Mike Griffiths",
-    "club": "Caldicot A",
+    "club": "Caldicot RC",
     "time": "00:37:37"
   },
   {
@@ -34280,7 +33704,7 @@ const relayResults = [
     "km": 8.7,
     "position": 4,
     "name": "Niki Morgan",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:38:19"
   },
   {
@@ -34292,7 +33716,7 @@ const relayResults = [
     "km": 8.7,
     "position": 5,
     "name": "William Edwards",
-    "club": "Porthcawl A",
+    "club": "Porthcawl Runners",
     "time": "00:39:30"
   },
   {
@@ -34304,7 +33728,7 @@ const relayResults = [
     "km": 8.7,
     "position": 6,
     "name": "Gareth Howells",
-    "club": "Caerleon A",
+    "club": "Caerleon RC",
     "time": "00:39:37"
   },
   {
@@ -34316,7 +33740,7 @@ const relayResults = [
     "km": 8.7,
     "position": 7,
     "name": "Peter Rodger",
-    "club": "Caerleon B",
+    "club": "Caerleon RC",
     "time": "00:41:28"
   },
   {
@@ -34328,7 +33752,7 @@ const relayResults = [
     "km": 8.7,
     "position": 8,
     "name": "Jon Bcid:9arne",
-    "club": "Pont-y-pwl & District B",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:41:32"
   },
   {
@@ -34340,7 +33764,7 @@ const relayResults = [
     "km": 8.7,
     "position": 9,
     "name": "Emma Bcid:9ayliss",
-    "club": "Pont-y-pwl & District A Visit our",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:41:59"
   },
   {
@@ -34352,7 +33776,7 @@ const relayResults = [
     "km": 8.7,
     "position": 10,
     "name": "Sian Price",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach RC",
     "time": "00:43:55"
   },
   {
@@ -34364,7 +33788,7 @@ const relayResults = [
     "km": 8.7,
     "position": 11,
     "name": "Stephen Barratt",
-    "club": "Spirit of Monmouth A See us on",
+    "club": "Spirit of Monmouth",
     "time": "00:44:36"
   },
   {
@@ -34376,7 +33800,7 @@ const relayResults = [
     "km": 8.7,
     "position": 12,
     "name": "Paul Charles",
-    "club": "Pegasus A",
+    "club": "Pegasus RC",
     "time": "00:44:52"
   },
   {
@@ -34388,7 +33812,7 @@ const relayResults = [
     "km": 8.7,
     "position": 13,
     "name": "Tara Paisey",
-    "club": "Griffithstown A",
+    "club": "Griffithstown Harriers",
     "time": "00:45:06"
   },
   {
@@ -34400,7 +33824,7 @@ const relayResults = [
     "km": 8.7,
     "position": 14,
     "name": "Vanessa Turnbull",
-    "club": "Caerphilly A",
+    "club": "Caerphilly Runners",
     "time": "00:45:19"
   },
   {
@@ -34412,7 +33836,7 @@ const relayResults = [
     "km": 8.7,
     "position": 15,
     "name": "Lisa Forey",
-    "club": "Islwyn A",
+    "club": "Islwyn RC",
     "time": "00:46:40"
   },
   {
@@ -34424,7 +33848,7 @@ const relayResults = [
     "km": 8.7,
     "position": 16,
     "name": "Brenda Avery",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:47:40"
   },
   {
@@ -34436,7 +33860,7 @@ const relayResults = [
     "km": 8.7,
     "position": 17,
     "name": "Bev Bradbury Jones",
-    "club": "Fairwater Cwmbran A",
+    "club": "Fairwater Runners",
     "time": "00:48:03"
   },
   {
@@ -34448,7 +33872,7 @@ const relayResults = [
     "km": 8.7,
     "position": 18,
     "name": "Andrew cid:9Pul James",
-    "club": "Fairwater Cwmbran B",
+    "club": "Fairwater Runners",
     "time": "00:49:00"
   },
   {
@@ -34460,7 +33884,7 @@ const relayResults = [
     "km": 8.7,
     "position": 19,
     "name": "Hayley Jackson",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach RC",
     "time": "00:49:01"
   },
   {
@@ -34472,7 +33896,7 @@ const relayResults = [
     "km": 8.7,
     "position": 20,
     "name": "Diane Potter",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:49:02"
   },
   {
@@ -34484,7 +33908,7 @@ const relayResults = [
     "km": 8.7,
     "position": 21,
     "name": "Mel Senior",
-    "club": "Islwyn B",
+    "club": "Islwyn RC",
     "time": "00:59:00"
   },
   {
@@ -34496,7 +33920,7 @@ const relayResults = [
     "km": 8.7,
     "position": 22,
     "name": "Dawne Meynell-Western",
-    "club": "Rhondda Valley A",
+    "club": "Rhondda Valley Runners",
     "time": "00:59:01"
   },
   {
@@ -34508,7 +33932,7 @@ const relayResults = [
     "km": 8.2,
     "position": 1,
     "name": "Steve HARRIS",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:47:42"
   },
   {
@@ -34520,7 +33944,7 @@ const relayResults = [
     "km": 8.2,
     "position": 2,
     "name": "Nick DENNY",
-    "club": "Pontypridd A",
+    "club": "Pontypridd Roadents",
     "time": "00:50:02"
   },
   {
@@ -34532,7 +33956,7 @@ const relayResults = [
     "km": 8.2,
     "position": 3,
     "name": "Matthew LLOYD",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:50:25"
   },
   {
@@ -34544,7 +33968,7 @@ const relayResults = [
     "km": 8.2,
     "position": 4,
     "name": "James DAY",
-    "club": "Pont-y-pwl & District A",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:50:43"
   },
   {
@@ -34556,7 +33980,7 @@ const relayResults = [
     "km": 8.2,
     "position": 5,
     "name": "Ffion DAVIES",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:03:44"
   },
   {
@@ -34568,7 +33992,7 @@ const relayResults = [
     "km": 8.2,
     "position": 6,
     "name": "Kevin RUSSRLL",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:05:11"
   },
   {
@@ -34580,7 +34004,7 @@ const relayResults = [
     "km": 8.2,
     "position": 7,
     "name": "Russell FINCH",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:05:15"
   },
   {
@@ -34592,7 +34016,7 @@ const relayResults = [
     "km": 8.2,
     "position": 8,
     "name": "Pete HUTTON",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:06:20"
   },
   {
@@ -34604,7 +34028,7 @@ const relayResults = [
     "km": 8.2,
     "position": 9,
     "name": "Grahame VINER",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:06:34"
   },
   {
@@ -34616,7 +34040,7 @@ const relayResults = [
     "km": 8.2,
     "position": 10,
     "name": "Neil WALKER",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:08:35"
   },
   {
@@ -34628,7 +34052,7 @@ const relayResults = [
     "km": 8.2,
     "position": 11,
     "name": "Mathew ROBERTS",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:08:54"
   },
   {
@@ -34640,7 +34064,7 @@ const relayResults = [
     "km": 8.2,
     "position": 12,
     "name": "Martyn JENKINS",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:08:58"
   },
   {
@@ -34652,7 +34076,7 @@ const relayResults = [
     "km": 8.2,
     "position": 13,
     "name": "Karl JOHNS",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:09:49"
   },
   {
@@ -34664,7 +34088,7 @@ const relayResults = [
     "km": 8.2,
     "position": 14,
     "name": "Ian PRICE",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:09:55"
   },
   {
@@ -34676,7 +34100,7 @@ const relayResults = [
     "km": 8.2,
     "position": 15,
     "name": "Tyrone BROOME",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:10:01"
   },
   {
@@ -34688,7 +34112,7 @@ const relayResults = [
     "km": 8.2,
     "position": 16,
     "name": "Emma MORGAN",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:14:14"
   },
   {
@@ -34700,7 +34124,7 @@ const relayResults = [
     "km": 8.2,
     "position": 17,
     "name": "Denise EVANS",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:15:35"
   },
   {
@@ -34712,7 +34136,7 @@ const relayResults = [
     "km": 8.2,
     "position": 18,
     "name": "Clive COOKSEY",
-    "club": "Individual",
+    "club": "Independent",
     "time": "00:15:53"
   },
   {
@@ -34724,7 +34148,7 @@ const relayResults = [
     "km": 8.2,
     "position": 19,
     "name": "Colin CROOKS",
-    "club": "Individual",
+    "club": "Independent",
     "time": "01:03:55"
   },
   {
@@ -34736,7 +34160,7 @@ const relayResults = [
     "km": 8.2,
     "position": 20,
     "name": "Gwilym PARR",
-    "club": "Individual",
+    "club": "Independent",
     "time": "01:04:03"
   },
   {
@@ -34748,7 +34172,7 @@ const relayResults = [
     "km": 8.2,
     "position": 21,
     "name": "NO RUNNER",
-    "club": "Individual",
+    "club": "Independent",
     "time": "01:14:00"
   },
   {
@@ -34760,7 +34184,7 @@ const relayResults = [
     "km": 8.2,
     "position": 22,
     "name": "RUNNER UNDER",
-    "club": "Individual (18)",
+    "club": "Independent",
     "time": "01:14:01"
   },
   {
@@ -34772,7 +34196,7 @@ const relayResults = [
     "km": 11.2,
     "position": 1,
     "name": "Steve CALDWELL",
-    "club": "Chepstow A (01)",
+    "club": "Chepstow Harriers",
     "time": "00:44:35"
   },
   {
@@ -34784,7 +34208,7 @@ const relayResults = [
     "km": 11.2,
     "position": 2,
     "name": "Mickey HAVARD",
-    "club": "San Domenico A (02)",
+    "club": "San Domenico RC",
     "time": "00:44:59"
   },
   {
@@ -34796,7 +34220,7 @@ const relayResults = [
     "km": 11.2,
     "position": 3,
     "name": "Patrick HOARE",
-    "club": "Lliswerry A (03)",
+    "club": "Lliswerry Runners",
     "time": "00:48:26"
   },
   {
@@ -34808,7 +34232,7 @@ const relayResults = [
     "km": 11.2,
     "position": 4,
     "name": "Dan ARTHUR",
-    "club": "Caerleon A (04)",
+    "club": "Caerleon RC",
     "time": "00:49:18"
   },
   {
@@ -34820,7 +34244,7 @@ const relayResults = [
     "km": 11.2,
     "position": 5,
     "name": "Adrian BULL",
-    "club": "Usk A (05)",
+    "club": "Usk",
     "time": "00:50:24"
   },
   {
@@ -34832,7 +34256,7 @@ const relayResults = [
     "km": 11.2,
     "position": 6,
     "name": "Will DENNY",
-    "club": "Pontypridd A (06)",
+    "club": "Pontypridd Roadents",
     "time": "00:51:00"
   },
   {
@@ -34844,7 +34268,7 @@ const relayResults = [
     "km": 11.2,
     "position": 7,
     "name": "Andy DICKENS",
-    "club": "Pont-y-pwl (07)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:51:21"
   },
   {
@@ -34856,7 +34280,7 @@ const relayResults = [
     "km": 11.2,
     "position": 8,
     "name": "Paul THOMAS",
-    "club": "Islwyn A (08)",
+    "club": "Islwyn RC",
     "time": "00:52:45"
   },
   {
@@ -34868,7 +34292,7 @@ const relayResults = [
     "km": 11.2,
     "position": 9,
     "name": "Rhys THOMAS",
-    "club": "Griffithstown A (09)",
+    "club": "Griffithstown Harriers",
     "time": "00:53:43"
   },
   {
@@ -34880,7 +34304,7 @@ const relayResults = [
     "km": 11.2,
     "position": 10,
     "name": "Gwyn LLOYD",
-    "club": "Pontypridd B (10)",
+    "club": "Pontypridd Roadents",
     "time": "00:53:56"
   },
   {
@@ -34892,7 +34316,7 @@ const relayResults = [
     "km": 11.2,
     "position": 11,
     "name": "Chris SELBY",
-    "club": "San Domenico B San (11)",
+    "club": "San Domenico RC",
     "time": "00:54:10"
   },
   {
@@ -34904,7 +34328,7 @@ const relayResults = [
     "km": 11.2,
     "position": 12,
     "name": "Simon FISH",
-    "club": "Pont-y-pwl (12)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:54:22"
   },
   {
@@ -34916,7 +34340,7 @@ const relayResults = [
     "km": 11.2,
     "position": 13,
     "name": "Vanessa LAWSON",
-    "club": "Chepstow B (13)",
+    "club": "Chepstow Harriers",
     "time": "00:54:38"
   },
   {
@@ -34928,7 +34352,7 @@ const relayResults = [
     "km": 11.2,
     "position": 14,
     "name": "Martin MELLOR",
-    "club": "Rhondda (14)",
+    "club": "Rhondda Valley Runners",
     "time": "00:55:39"
   },
   {
@@ -34940,7 +34364,7 @@ const relayResults = [
     "km": 11.2,
     "position": 15,
     "name": "David GREEN",
-    "club": "Pegasus A (15)",
+    "club": "Pegasus RC",
     "time": "00:56:13"
   },
   {
@@ -34952,7 +34376,7 @@ const relayResults = [
     "km": 11.2,
     "position": 16,
     "name": "Martin BLAKEBROUGH",
-    "club": "Spirit (16)",
+    "club": "Spirit of Monmouth",
     "time": "00:56:46"
   },
   {
@@ -34964,7 +34388,7 @@ const relayResults = [
     "km": 11.2,
     "position": 17,
     "name": "Jenna ROBERTS",
-    "club": "Fairwater (17)",
+    "club": "Fairwater Runners",
     "time": "00:58:33"
   },
   {
@@ -34976,7 +34400,7 @@ const relayResults = [
     "km": 11.2,
     "position": 18,
     "name": "Jack MADLEY",
-    "club": "Chepstow C San (18)",
+    "club": "Chepstow Harriers",
     "time": "00:59:04"
   },
   {
@@ -34988,7 +34412,7 @@ const relayResults = [
     "km": 11.2,
     "position": 19,
     "name": "Nova JEFFERIES",
-    "club": "Lliswerry B (19)",
+    "club": "Lliswerry Runners",
     "time": "00:59:41"
   },
   {
@@ -35000,7 +34424,7 @@ const relayResults = [
     "km": 11.2,
     "position": 20,
     "name": "Julie TWIST",
-    "club": "Caerleon B (20)",
+    "club": "Caerleon RC",
     "time": "01:00:15"
   },
   {
@@ -35012,7 +34436,7 @@ const relayResults = [
     "km": 11.2,
     "position": 21,
     "name": "Alan JONES",
-    "club": "Brackla A (21)",
+    "club": "Brackla Harriers",
     "time": "01:02:00"
   },
   {
@@ -35024,7 +34448,7 @@ const relayResults = [
     "km": 11.2,
     "position": 22,
     "name": "Rebecca JENKINS",
-    "club": "Fairwater (22)",
+    "club": "Fairwater Runners",
     "time": "01:02:01"
   },
   {
@@ -35036,7 +34460,7 @@ const relayResults = [
     "km": 11.2,
     "position": 23,
     "name": "Kath JERVIS",
-    "club": "Parc (23)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:02:02"
   },
   {
@@ -35048,7 +34472,7 @@ const relayResults = [
     "km": 11.2,
     "position": 24,
     "name": "Karen EMMOTT",
-    "club": "Lliswerry (24)",
+    "club": "Lliswerry Runners",
     "time": "01:02:03"
   },
   {
@@ -35060,7 +34484,7 @@ const relayResults = [
     "km": 11.2,
     "position": 25,
     "name": "Linda JONES",
-    "club": "Islwyn B (25)",
+    "club": "Islwyn RC",
     "time": "01:02:04"
   },
   {
@@ -35072,7 +34496,7 @@ const relayResults = [
     "km": 12.1,
     "position": 1,
     "name": "Darren BISHOP",
-    "club": "Pontypridd A (01)",
+    "club": "Pontypridd Roadents",
     "time": "00:46:29"
   },
   {
@@ -35084,7 +34508,7 @@ const relayResults = [
     "km": 12.1,
     "position": 2,
     "name": "Kath MATTHEWS",
-    "club": "Chepstow A (02)",
+    "club": "Chepstow Harriers",
     "time": "00:46:40"
   },
   {
@@ -35096,7 +34520,7 @@ const relayResults = [
     "km": 12.1,
     "position": 3,
     "name": "Rob DAVIES",
-    "club": "Islwyn B (03)",
+    "club": "Islwyn RC",
     "time": "00:48:11"
   },
   {
@@ -35108,7 +34532,7 @@ const relayResults = [
     "km": 12.1,
     "position": 4,
     "name": "Dave MOORE",
-    "club": "Brackla A (04)",
+    "club": "Brackla Harriers",
     "time": "00:48:45"
   },
   {
@@ -35120,7 +34544,7 @@ const relayResults = [
     "km": 12.1,
     "position": 5,
     "name": "Brian LOVETT",
-    "club": "San Domenico A (05)",
+    "club": "San Domenico RC",
     "time": "00:50:17"
   },
   {
@@ -35132,7 +34556,7 @@ const relayResults = [
     "km": 12.1,
     "position": 6,
     "name": "Mark HARVEYJNR",
-    "club": "Chepstow B (06)",
+    "club": "Chepstow Harriers",
     "time": "00:50:35"
   },
   {
@@ -35144,7 +34568,7 @@ const relayResults = [
     "km": 12.1,
     "position": 7,
     "name": "Mike DAVIES",
-    "club": "Caerleon A (07)",
+    "club": "Caerleon RC",
     "time": "00:51:38"
   },
   {
@@ -35156,7 +34580,7 @@ const relayResults = [
     "km": 12.1,
     "position": 8,
     "name": "Phillip MILES",
-    "club": "Parc Bryn Bach A Usk (08)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:52:54"
   },
   {
@@ -35168,7 +34592,7 @@ const relayResults = [
     "km": 12.1,
     "position": 9,
     "name": "Lou SUMMERS",
-    "club": "Pont-y-pwl & District A (09)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:53:02"
   },
   {
@@ -35180,7 +34604,7 @@ const relayResults = [
     "km": 12.1,
     "position": 10,
     "name": "Angela JONES",
-    "club": "Fairwater Cwmbran A (10)",
+    "club": "Fairwater Runners",
     "time": "00:53:28"
   },
   {
@@ -35192,7 +34616,7 @@ const relayResults = [
     "km": 12.1,
     "position": 11,
     "name": "Paul JASPER",
-    "club": "Rhondda Valley A San (11)",
+    "club": "Rhondda Valley Runners",
     "time": "00:53:41"
   },
   {
@@ -35204,7 +34628,7 @@ const relayResults = [
     "km": 12.1,
     "position": 12,
     "name": "Paul MASON",
-    "club": "Griffithstown A (12)",
+    "club": "Griffithstown Harriers",
     "time": "00:56:36"
   },
   {
@@ -35216,7 +34640,7 @@ const relayResults = [
     "km": 12.1,
     "position": 13,
     "name": "Laura POWELL",
-    "club": "Usk A San (13)",
+    "club": "Usk",
     "time": "00:57:32"
   },
   {
@@ -35228,7 +34652,7 @@ const relayResults = [
     "km": 12.1,
     "position": 14,
     "name": "Oliver HARRIS",
-    "club": "Lliswerry A (14)",
+    "club": "Lliswerry Runners",
     "time": "00:57:49"
   },
   {
@@ -35240,7 +34664,7 @@ const relayResults = [
     "km": 12.1,
     "position": 15,
     "name": "David MATHER",
-    "club": "Spirit of Monmouth A (15)",
+    "club": "Spirit of Monmouth",
     "time": "00:58:27"
   },
   {
@@ -35252,7 +34676,7 @@ const relayResults = [
     "km": 12.1,
     "position": 16,
     "name": "Rowena WHITE",
-    "club": "San Domenico B (16)",
+    "club": "San Domenico RC",
     "time": "00:59:26"
   },
   {
@@ -35264,7 +34688,7 @@ const relayResults = [
     "km": 12.1,
     "position": 17,
     "name": "Richard PERRY",
-    "club": "Caerleon B (17)",
+    "club": "Caerleon RC",
     "time": "00:59:41"
   },
   {
@@ -35276,7 +34700,7 @@ const relayResults = [
     "km": 12.1,
     "position": 18,
     "name": "Huw SLADE",
-    "club": "Pegasus A Parc (18)",
+    "club": "Pegasus RC",
     "time": "00:59:51"
   },
   {
@@ -35288,7 +34712,7 @@ const relayResults = [
     "km": 12.1,
     "position": 19,
     "name": "Danielle PHILLIPS",
-    "club": "Pont-y-pwl & District B (19)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:59:53"
   },
   {
@@ -35300,7 +34724,7 @@ const relayResults = [
     "km": 12.1,
     "position": 20,
     "name": "Berna CANTWELL",
-    "club": "Chepstow C (20)",
+    "club": "Chepstow Harriers",
     "time": "01:00:33"
   },
   {
@@ -35312,7 +34736,7 @@ const relayResults = [
     "km": 12.1,
     "position": 21,
     "name": "Jordan KIBBLE",
-    "club": "Islwyn A (21)",
+    "club": "Islwyn RC",
     "time": "01:03:15"
   },
   {
@@ -35324,7 +34748,7 @@ const relayResults = [
     "km": 12.1,
     "position": 22,
     "name": "Lisa BATEMAN",
-    "club": "Lliswerry C (22)",
+    "club": "Lliswerry Runners",
     "time": "01:03:19"
   },
   {
@@ -35336,7 +34760,7 @@ const relayResults = [
     "km": 12.1,
     "position": 23,
     "name": "Catrin DAVIES",
-    "club": "Pontypridd B (23)",
+    "club": "Pontypridd Roadents",
     "time": "01:04:08"
   },
   {
@@ -35348,7 +34772,7 @@ const relayResults = [
     "km": 12.1,
     "position": 24,
     "name": "Andrew RALPH",
-    "club": "Lliswerry (24)",
+    "club": "Lliswerry Runners",
     "time": "01:04:45"
   },
   {
@@ -35360,7 +34784,7 @@ const relayResults = [
     "km": 12.1,
     "position": 25,
     "name": "Rebecca POOLE",
-    "club": "Fairwater Cwmbran B (25)",
+    "club": "Fairwater Runners",
     "time": "01:07:22"
   },
   {
@@ -35372,7 +34796,7 @@ const relayResults = [
     "km": 10.8,
     "position": 1,
     "name": "Terry WATKINS",
-    "club": "Pont-y-pwl & District A (01)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:43:35"
   },
   {
@@ -35384,7 +34808,7 @@ const relayResults = [
     "km": 10.8,
     "position": 2,
     "name": "Matthew LAWSON",
-    "club": "Chepstow A (02)",
+    "club": "Chepstow Harriers",
     "time": "00:46:12"
   },
   {
@@ -35396,7 +34820,7 @@ const relayResults = [
     "km": 10.8,
     "position": 3,
     "name": "Phil BOORMAN",
-    "club": "Lliswerry A (03)",
+    "club": "Lliswerry Runners",
     "time": "00:46:15"
   },
   {
@@ -35408,7 +34832,7 @@ const relayResults = [
     "km": 10.8,
     "position": 4,
     "name": "David STANDING",
-    "club": "Fairwater Cwmbran A (04)",
+    "club": "Fairwater Runners",
     "time": "00:46:46"
   },
   {
@@ -35420,7 +34844,7 @@ const relayResults = [
     "km": 10.8,
     "position": 5,
     "name": "Lloyd MORGAN",
-    "club": "San Domenico A (05)",
+    "club": "San Domenico RC",
     "time": "00:47:44"
   },
   {
@@ -35432,7 +34856,7 @@ const relayResults = [
     "km": 10.8,
     "position": 6,
     "name": "Nick WALSH",
-    "club": "Griffithstown A (06)",
+    "club": "Griffithstown Harriers",
     "time": "00:47:59"
   },
   {
@@ -35444,7 +34868,7 @@ const relayResults = [
     "km": 10.8,
     "position": 7,
     "name": "Neil BROOKE-SMITH",
-    "club": "Pontypridd A (07)",
+    "club": "Pontypridd Roadents",
     "time": "00:48:24"
   },
   {
@@ -35456,7 +34880,7 @@ const relayResults = [
     "km": 10.8,
     "position": 8,
     "name": "Marc JONES",
-    "club": "Rhondda Valley A (08)",
+    "club": "Rhondda Valley Runners",
     "time": "00:49:00"
   },
   {
@@ -35468,7 +34892,7 @@ const relayResults = [
     "km": 10.8,
     "position": 9,
     "name": "Wayne FREWEN",
-    "club": "Brackla A (09)",
+    "club": "Brackla Harriers",
     "time": "00:51:23"
   },
   {
@@ -35480,7 +34904,7 @@ const relayResults = [
     "km": 10.8,
     "position": 10,
     "name": "Judith AUSTERBERRY",
-    "club": "Chepstow B (10)",
+    "club": "Chepstow Harriers",
     "time": "00:52:13"
   },
   {
@@ -35492,7 +34916,7 @@ const relayResults = [
     "km": 10.8,
     "position": 11,
     "name": "Gareth HART",
-    "club": "Caerleon A (11)",
+    "club": "Caerleon RC",
     "time": "00:52:46"
   },
   {
@@ -35504,7 +34928,7 @@ const relayResults = [
     "km": 10.8,
     "position": 12,
     "name": "Stuart KRAMER",
-    "club": "Spirit of Monmouth A (12)",
+    "club": "Spirit of Monmouth",
     "time": "00:52:55"
   },
   {
@@ -35516,7 +34940,7 @@ const relayResults = [
     "km": 10.8,
     "position": 13,
     "name": "Alan FISHWICK",
-    "club": "Lliswerry B (13)",
+    "club": "Lliswerry Runners",
     "time": "00:53:28"
   },
   {
@@ -35528,7 +34952,7 @@ const relayResults = [
     "km": 10.8,
     "position": 14,
     "name": "Paul WILLIAMS",
-    "club": "Pontypridd B (14)",
+    "club": "Pontypridd Roadents",
     "time": "00:54:19"
   },
   {
@@ -35540,7 +34964,7 @@ const relayResults = [
     "km": 10.8,
     "position": 15,
     "name": "Brian MOFFETT",
-    "club": "Parc Bryn Bach A (15)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:54:54"
   },
   {
@@ -35552,7 +34976,7 @@ const relayResults = [
     "km": 10.8,
     "position": 16,
     "name": "Lynda DURSLEY",
-    "club": "Lliswerry C (16)",
+    "club": "Lliswerry Runners",
     "time": "00:55:45"
   },
   {
@@ -35564,7 +34988,7 @@ const relayResults = [
     "km": 10.8,
     "position": 17,
     "name": "Debbie COCKRAM",
-    "club": "Fairwater (17)",
+    "club": "Fairwater Runners",
     "time": "00:55:55"
   },
   {
@@ -35576,7 +35000,7 @@ const relayResults = [
     "km": 10.8,
     "position": 18,
     "name": "Sharon NEWELL",
-    "club": "Pont-y-pwl & District B (18)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:56:19"
   },
   {
@@ -35588,7 +35012,7 @@ const relayResults = [
     "km": 10.8,
     "position": 19,
     "name": "Bernadette DAVIES",
-    "club": "Caerleon B (19)",
+    "club": "Caerleon RC",
     "time": "00:56:42"
   },
   {
@@ -35600,7 +35024,7 @@ const relayResults = [
     "km": 10.8,
     "position": 20,
     "name": "Tom WILLIAMS",
-    "club": "Usk A (20)",
+    "club": "Usk",
     "time": "00:58:17"
   },
   {
@@ -35612,7 +35036,7 @@ const relayResults = [
     "km": 10.8,
     "position": 21,
     "name": "Richard STREET",
-    "club": "Pegasus A * (21)",
+    "club": "Pegasus RC",
     "time": "01:01:00"
   },
   {
@@ -35624,7 +35048,7 @@ const relayResults = [
     "km": 10.8,
     "position": 22,
     "name": "Dave ANDREWS",
-    "club": "Chepstow C * (22)",
+    "club": "Chepstow Harriers",
     "time": "01:01:01"
   },
   {
@@ -35636,7 +35060,7 @@ const relayResults = [
     "km": 10.8,
     "position": 23,
     "name": "Lowri PHILLIPS",
-    "club": "San Domenico B * (23)",
+    "club": "San Domenico RC",
     "time": "01:01:02"
   },
   {
@@ -35648,7 +35072,7 @@ const relayResults = [
     "km": 10.8,
     "position": 24,
     "name": "Harry SENIOR",
-    "club": "Islwyn A * (24)",
+    "club": "Islwyn RC",
     "time": "01:01:03"
   },
   {
@@ -35660,7 +35084,7 @@ const relayResults = [
     "km": 10.8,
     "position": 25,
     "name": "Suzanne DAVIDSON",
-    "club": "Islwyn B (25)",
+    "club": "Islwyn RC",
     "time": "01:01:04"
   },
   {
@@ -35672,7 +35096,7 @@ const relayResults = [
     "km": 13.0,
     "position": 1,
     "name": "Neil EVANS",
-    "club": "Lliswerry A (01)",
+    "club": "Lliswerry Runners",
     "time": "00:53:09"
   },
   {
@@ -35684,7 +35108,7 @@ const relayResults = [
     "km": 13.0,
     "position": 2,
     "name": "Nick DAVIS",
-    "club": "Chepstow A (02)",
+    "club": "Chepstow Harriers",
     "time": "00:53:29"
   },
   {
@@ -35696,7 +35120,7 @@ const relayResults = [
     "km": 13.0,
     "position": 3,
     "name": "Tom EVANS",
-    "club": "Caerleon A (03)",
+    "club": "Caerleon RC",
     "time": "00:54:37"
   },
   {
@@ -35708,7 +35132,7 @@ const relayResults = [
     "km": 13.0,
     "position": 4,
     "name": "Rhodri EVANS",
-    "club": "Pontypridd A (04)",
+    "club": "Pontypridd Roadents",
     "time": "00:54:48"
   },
   {
@@ -35720,7 +35144,7 @@ const relayResults = [
     "km": 13.0,
     "position": 5,
     "name": "James WHITE",
-    "club": "San Domenico A (05)",
+    "club": "San Domenico RC",
     "time": "00:55:08"
   },
   {
@@ -35732,7 +35156,7 @@ const relayResults = [
     "km": 13.0,
     "position": 6,
     "name": "Guy THOMAS",
-    "club": "Griffithstown A (06)",
+    "club": "Griffithstown Harriers",
     "time": "00:55:30"
   },
   {
@@ -35744,7 +35168,7 @@ const relayResults = [
     "km": 13.0,
     "position": 7,
     "name": "Richard LLOYD",
-    "club": "Fairwater Cwmbran A (07)",
+    "club": "Fairwater Runners",
     "time": "00:55:51"
   },
   {
@@ -35756,7 +35180,7 @@ const relayResults = [
     "km": 13.0,
     "position": 8,
     "name": "Steve LANE",
-    "club": "Islwyn A (08)",
+    "club": "Islwyn RC",
     "time": "00:58:19"
   },
   {
@@ -35768,7 +35192,7 @@ const relayResults = [
     "km": 13.0,
     "position": 9,
     "name": "Andy OST",
-    "club": "Chepstow B (09)",
+    "club": "Chepstow Harriers",
     "time": "00:58:48"
   },
   {
@@ -35780,7 +35204,7 @@ const relayResults = [
     "km": 13.0,
     "position": 10,
     "name": "Tony MACKAY",
-    "club": "Pegasus A (10)",
+    "club": "Pegasus RC",
     "time": "01:01:14"
   },
   {
@@ -35792,7 +35216,7 @@ const relayResults = [
     "km": 13.0,
     "position": 11,
     "name": "Charlotte JOHNS",
-    "club": "Brackla A (11)",
+    "club": "Brackla Harriers",
     "time": "01:02:00"
   },
   {
@@ -35804,7 +35228,7 @@ const relayResults = [
     "km": 13.0,
     "position": 12,
     "name": "Amy EDWARDS",
-    "club": "Rhondda Valley A (12)",
+    "club": "Rhondda Valley Runners",
     "time": "01:03:24"
   },
   {
@@ -35816,7 +35240,7 @@ const relayResults = [
     "km": 13.0,
     "position": 13,
     "name": "Jeremy CREASEY",
-    "club": "Spirit of Monmouth A (13)",
+    "club": "Spirit of Monmouth",
     "time": "01:03:53"
   },
   {
@@ -35828,7 +35252,7 @@ const relayResults = [
     "km": 13.0,
     "position": 14,
     "name": "Nick POUNDER",
-    "club": "Pontypridd B (14)",
+    "club": "Pontypridd Roadents",
     "time": "01:04:26"
   },
   {
@@ -35840,7 +35264,7 @@ const relayResults = [
     "km": 13.0,
     "position": 15,
     "name": "Paul DURSLEY",
-    "club": "Lliswerry B (15)",
+    "club": "Lliswerry Runners",
     "time": "01:05:02"
   },
   {
@@ -35852,7 +35276,7 @@ const relayResults = [
     "km": 13.0,
     "position": 16,
     "name": "Paul GRAINGER",
-    "club": "JONES Pont-y-pwl & District A (16)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:06:34"
   },
   {
@@ -35864,7 +35288,7 @@ const relayResults = [
     "km": 13.0,
     "position": 17,
     "name": "Caroline HUGHES",
-    "club": "Chepstow C (17)",
+    "club": "Chepstow Harriers",
     "time": "01:09:06"
   },
   {
@@ -35876,7 +35300,7 @@ const relayResults = [
     "km": 13.0,
     "position": 18,
     "name": "Hannah WITHERS",
-    "club": "San Domenico B (18)",
+    "club": "San Domenico RC",
     "time": "01:10:25"
   },
   {
@@ -35888,7 +35312,7 @@ const relayResults = [
     "km": 13.0,
     "position": 19,
     "name": "Pete LYONS",
-    "club": "Usk A (19)",
+    "club": "Usk",
     "time": "01:10:45"
   },
   {
@@ -35900,7 +35324,7 @@ const relayResults = [
     "km": 13.0,
     "position": 20,
     "name": "Margaret MONK",
-    "club": "Parc Bryn Bach A (20)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:11:34"
   },
   {
@@ -35912,7 +35336,7 @@ const relayResults = [
     "km": 13.0,
     "position": 21,
     "name": "Zoe ELVER",
-    "club": "Pont-y-pwl & District B (21)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:11:38"
   },
   {
@@ -35924,7 +35348,7 @@ const relayResults = [
     "km": 13.0,
     "position": 22,
     "name": "Elizabeth NELSON",
-    "club": "Caerleon B * (22)",
+    "club": "Caerleon RC",
     "time": "01:13:00"
   },
   {
@@ -35936,7 +35360,7 @@ const relayResults = [
     "km": 13.0,
     "position": 23,
     "name": "Sarah ROBERTS",
-    "club": "Fairwater Cwmbran B * (23)",
+    "club": "Fairwater Runners",
     "time": "01:13:01"
   },
   {
@@ -35948,7 +35372,7 @@ const relayResults = [
     "km": 13.0,
     "position": 24,
     "name": "Tracy BURTON",
-    "club": "Lliswerry (24)",
+    "club": "Lliswerry Runners",
     "time": "01:13:02"
   },
   {
@@ -35960,7 +35384,7 @@ const relayResults = [
     "km": 13.0,
     "position": 25,
     "name": "Sara ARNOLD",
-    "club": "Islwyn B (25)",
+    "club": "Islwyn RC",
     "time": "01:13:03"
   },
   {
@@ -35972,7 +35396,7 @@ const relayResults = [
     "km": 20.3,
     "position": 1,
     "name": "Matt SYMES",
-    "club": "Pont-y-pwl & District A (01)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:15:00"
   },
   {
@@ -35984,7 +35408,7 @@ const relayResults = [
     "km": 20.3,
     "position": 2,
     "name": "Mark JENNINGS",
-    "club": "Fairwater Cwmbran A (02)",
+    "club": "Fairwater Runners",
     "time": "01:16:22"
   },
   {
@@ -35996,7 +35420,7 @@ const relayResults = [
     "km": 20.3,
     "position": 3,
     "name": "Paul MURRIN",
-    "club": "Chepstow A (03)",
+    "club": "Chepstow Harriers",
     "time": "01:20:09"
   },
   {
@@ -36008,7 +35432,7 @@ const relayResults = [
     "km": 20.3,
     "position": 4,
     "name": "Doug NICHOLLS",
-    "club": "San Domenico A (04)",
+    "club": "San Domenico RC",
     "time": "01:22:30"
   },
   {
@@ -36020,7 +35444,7 @@ const relayResults = [
     "km": 20.3,
     "position": 5,
     "name": "Mark BALCH",
-    "club": "Usk A (05)",
+    "club": "Usk",
     "time": "01:24:54"
   },
   {
@@ -36032,7 +35456,7 @@ const relayResults = [
     "km": 20.3,
     "position": 6,
     "name": "Ian OGILVIE",
-    "club": "Brackla A (06)",
+    "club": "Brackla Harriers",
     "time": "01:25:42"
   },
   {
@@ -36044,7 +35468,7 @@ const relayResults = [
     "km": 20.3,
     "position": 7,
     "name": "Steve HOOPER",
-    "club": "Pontypridd B (07)",
+    "club": "Pontypridd Roadents",
     "time": "01:25:59"
   },
   {
@@ -36056,7 +35480,7 @@ const relayResults = [
     "km": 20.3,
     "position": 8,
     "name": "Johnny LAM",
-    "club": "San Domenico B (08)",
+    "club": "San Domenico RC",
     "time": "01:26:35"
   },
   {
@@ -36068,7 +35492,7 @@ const relayResults = [
     "km": 20.3,
     "position": 9,
     "name": "Andrew WALSH",
-    "club": "Griffithstown A (09)",
+    "club": "Griffithstown Harriers",
     "time": "01:27:36"
   },
   {
@@ -36080,7 +35504,7 @@ const relayResults = [
     "km": 20.3,
     "position": 10,
     "name": "Julian WILLIAMS",
-    "club": "Parc Bryn Bach A (10)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:27:56"
   },
   {
@@ -36092,7 +35516,7 @@ const relayResults = [
     "km": 20.3,
     "position": 11,
     "name": "George SMITH",
-    "club": "Spirit of Monmouth A (11)",
+    "club": "Spirit of Monmouth",
     "time": "01:28:05"
   },
   {
@@ -36104,7 +35528,7 @@ const relayResults = [
     "km": 20.3,
     "position": 12,
     "name": "Laurence POLE",
-    "club": "Pontypridd A (12)",
+    "club": "Pontypridd Roadents",
     "time": "01:28:15"
   },
   {
@@ -36116,7 +35540,7 @@ const relayResults = [
     "km": 20.3,
     "position": 13,
     "name": "Keith GITTINS",
-    "club": "Caerleon A (13)",
+    "club": "Caerleon RC",
     "time": "01:30:10"
   },
   {
@@ -36128,7 +35552,7 @@ const relayResults = [
     "km": 20.3,
     "position": 14,
     "name": "Keith THOMPSON",
-    "club": "Rhondda (14)",
+    "club": "Rhondda Valley Runners",
     "time": "01:31:59"
   },
   {
@@ -36140,7 +35564,7 @@ const relayResults = [
     "km": 20.3,
     "position": 15,
     "name": "Chris MORRIS",
-    "club": "Lliswerry A (15)",
+    "club": "Lliswerry Runners",
     "time": "01:34:04"
   },
   {
@@ -36152,7 +35576,7 @@ const relayResults = [
     "km": 20.3,
     "position": 16,
     "name": "Laurie CARTER",
-    "club": "Chepstow B (16)",
+    "club": "Chepstow Harriers",
     "time": "01:35:06"
   },
   {
@@ -36164,7 +35588,7 @@ const relayResults = [
     "km": 20.3,
     "position": 17,
     "name": "Paul NOWACZEK",
-    "club": "Islwyn A (17)",
+    "club": "Islwyn RC",
     "time": "01:35:37"
   },
   {
@@ -36176,7 +35600,7 @@ const relayResults = [
     "km": 20.3,
     "position": 18,
     "name": "Paul CHARLES",
-    "club": "Pegasus A (18)",
+    "club": "Pegasus RC",
     "time": "01:38:30"
   },
   {
@@ -36188,7 +35612,7 @@ const relayResults = [
     "km": 20.3,
     "position": 19,
     "name": "Louise BRIGHT",
-    "club": "Pont-y-pwl & District B (19)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:42:57"
   },
   {
@@ -36200,7 +35624,7 @@ const relayResults = [
     "km": 20.3,
     "position": 20,
     "name": "Andrew JOHNSON",
-    "club": "Lliswerry B (20)",
+    "club": "Lliswerry Runners",
     "time": "01:47:55"
   },
   {
@@ -36212,7 +35636,7 @@ const relayResults = [
     "km": 20.3,
     "position": 21,
     "name": "Julie ROCHE",
-    "club": "Fairwater Cwmbran B (21)",
+    "club": "Fairwater Runners",
     "time": "01:50:18"
   },
   {
@@ -36224,7 +35648,7 @@ const relayResults = [
     "km": 20.3,
     "position": 22,
     "name": "Sian JONES",
-    "club": "Caerleon B (22)",
+    "club": "Caerleon RC",
     "time": "01:53:45"
   },
   {
@@ -36236,7 +35660,7 @@ const relayResults = [
     "km": 20.3,
     "position": 23,
     "name": "Kay DIXON",
-    "club": "Islwyn B * (23)",
+    "club": "Islwyn RC",
     "time": "01:54:00"
   },
   {
@@ -36248,7 +35672,7 @@ const relayResults = [
     "km": 20.3,
     "position": 24,
     "name": "Karen ELVERS",
-    "club": "Chepstow C * (24)",
+    "club": "Chepstow Harriers",
     "time": "01:54:01"
   },
   {
@@ -36260,7 +35684,7 @@ const relayResults = [
     "km": 20.3,
     "position": 25,
     "name": "Chris LEWIS",
-    "club": "Lliswerry C * (25)",
+    "club": "Lliswerry Runners",
     "time": "01:54:02"
   },
   {
@@ -36272,7 +35696,7 @@ const relayResults = [
     "km": 8.9,
     "position": 1,
     "name": "Peter COLES new",
-    "club": "C.R. Pontypridd A (01)",
+    "club": "Pontypridd Roadents",
     "time": "00:31:40"
   },
   {
@@ -36284,7 +35708,7 @@ const relayResults = [
     "km": 8.9,
     "position": 2,
     "name": "Richie HILL",
-    "club": "Usk A (02)",
+    "club": "Usk",
     "time": "00:35:23"
   },
   {
@@ -36296,7 +35720,7 @@ const relayResults = [
     "km": 8.9,
     "position": 3,
     "name": "Paul DODD",
-    "club": "Chepstow A (03)",
+    "club": "Chepstow Harriers",
     "time": "00:36:03"
   },
   {
@@ -36308,7 +35732,7 @@ const relayResults = [
     "km": 8.9,
     "position": 4,
     "name": "Steve PEMBERTON",
-    "club": "Lliswerry A (04)",
+    "club": "Lliswerry Runners",
     "time": "00:36:50"
   },
   {
@@ -36320,7 +35744,7 @@ const relayResults = [
     "km": 8.9,
     "position": 5,
     "name": "Ian McDONALD",
-    "club": "San Domenico A (05)",
+    "club": "San Domenico RC",
     "time": "00:37:15"
   },
   {
@@ -36332,7 +35756,7 @@ const relayResults = [
     "km": 8.9,
     "position": 6,
     "name": "Peter TOWNSEND",
-    "club": "Pont-y-pwl & District A (06)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:37:52"
   },
   {
@@ -36344,7 +35768,7 @@ const relayResults = [
     "km": 8.9,
     "position": 7,
     "name": "Ben MORSE",
-    "club": "Caerleon A (07)",
+    "club": "Caerleon RC",
     "time": "00:39:12"
   },
   {
@@ -36356,7 +35780,7 @@ const relayResults = [
     "km": 8.9,
     "position": 8,
     "name": "Andrew KETTLEY",
-    "club": "Rhondda Valley A (08)",
+    "club": "Rhondda Valley Runners",
     "time": "00:39:54"
   },
   {
@@ -36368,7 +35792,7 @@ const relayResults = [
     "km": 8.9,
     "position": 9,
     "name": "Mike SKYRME",
-    "club": "Fairwater Cwmbran A (09)",
+    "club": "Fairwater Runners",
     "time": "00:40:51"
   },
   {
@@ -36380,7 +35804,7 @@ const relayResults = [
     "km": 8.9,
     "position": 10,
     "name": "Gwen RICHARDS",
-    "club": "Pontypridd B (10)",
+    "club": "Pontypridd Roadents",
     "time": "00:41:14"
   },
   {
@@ -36392,7 +35816,7 @@ const relayResults = [
     "km": 8.9,
     "position": 11,
     "name": "Andrea STARRIT",
-    "club": "Brackla A (11)",
+    "club": "Brackla Harriers",
     "time": "00:41:27"
   },
   {
@@ -36404,7 +35828,7 @@ const relayResults = [
     "km": 8.9,
     "position": 12,
     "name": "Martyn JONES",
-    "club": "Lliswerry B (12)",
+    "club": "Lliswerry Runners",
     "time": "00:41:47"
   },
   {
@@ -36416,7 +35840,7 @@ const relayResults = [
     "km": 8.9,
     "position": 13,
     "name": "Jan MORRIS",
-    "club": "Chepstow B (13)",
+    "club": "Chepstow Harriers",
     "time": "00:41:55"
   },
   {
@@ -36428,7 +35852,7 @@ const relayResults = [
     "km": 8.9,
     "position": 14,
     "name": "Rose CHARLES",
-    "club": "Griffithstown A (14)",
+    "club": "Griffithstown Harriers",
     "time": "00:42:03"
   },
   {
@@ -36440,7 +35864,7 @@ const relayResults = [
     "km": 8.9,
     "position": 15,
     "name": "Emma KING",
-    "club": "Spirit of Monmouth A (15)",
+    "club": "Spirit of Monmouth",
     "time": "00:43:36"
   },
   {
@@ -36452,7 +35876,7 @@ const relayResults = [
     "km": 8.9,
     "position": 16,
     "name": "Ian LEWIS",
-    "club": "Islwyn A (16)",
+    "club": "Islwyn RC",
     "time": "00:44:57"
   },
   {
@@ -36464,7 +35888,7 @@ const relayResults = [
     "km": 8.9,
     "position": 17,
     "name": "Teresa TRANTER",
-    "club": "Chepstow C (17)",
+    "club": "Chepstow Harriers",
     "time": "00:45:00"
   },
   {
@@ -36476,7 +35900,7 @@ const relayResults = [
     "km": 8.9,
     "position": 18,
     "name": "Joanne PEACOCK",
-    "club": "Caerleon B (18)",
+    "club": "Caerleon RC",
     "time": "00:45:05"
   },
   {
@@ -36488,7 +35912,7 @@ const relayResults = [
     "km": 8.9,
     "position": 19,
     "name": "Nadine DONOVAN",
-    "club": "Pont-y-pwl & District B (19)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:45:34"
   },
   {
@@ -36500,7 +35924,7 @@ const relayResults = [
     "km": 8.9,
     "position": 20,
     "name": "Bernie WILKINSON",
-    "club": "San Domenico B (20)",
+    "club": "San Domenico RC",
     "time": "00:47:34"
   },
   {
@@ -36512,7 +35936,7 @@ const relayResults = [
     "km": 8.9,
     "position": 21,
     "name": "Shannel MITCHELL",
-    "club": "Lliswerry C (21)",
+    "club": "Lliswerry Runners",
     "time": "00:47:53"
   },
   {
@@ -36524,7 +35948,7 @@ const relayResults = [
     "km": 8.9,
     "position": 22,
     "name": "Michelle JAYNE",
-    "club": "Parc Bryn Bach A * (22)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:50:00"
   },
   {
@@ -36536,7 +35960,7 @@ const relayResults = [
     "km": 8.9,
     "position": 23,
     "name": "Helena BOOTH",
-    "club": "Pegasus A * (23)",
+    "club": "Pegasus RC",
     "time": "00:50:01"
   },
   {
@@ -36548,7 +35972,7 @@ const relayResults = [
     "km": 8.9,
     "position": 24,
     "name": "Louise SADDLER",
-    "club": "Islwyn B * (24)",
+    "club": "Islwyn RC",
     "time": "00:50:02"
   },
   {
@@ -36560,7 +35984,7 @@ const relayResults = [
     "km": 8.9,
     "position": 25,
     "name": "Suzanne WILLIAMS",
-    "club": "Fairwater Cwmbran B * (25)",
+    "club": "Fairwater Runners",
     "time": "00:50:03"
   },
   {
@@ -36572,7 +35996,7 @@ const relayResults = [
     "km": 21.1,
     "position": 1,
     "name": "Richard JOHNSON",
-    "club": "Pont-y-pwl & District A (01)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:25:08"
   },
   {
@@ -36584,7 +36008,7 @@ const relayResults = [
     "km": 21.1,
     "position": 2,
     "name": "Matt STOTT",
-    "club": "Chepstow A (02)",
+    "club": "Chepstow Harriers",
     "time": "01:26:59"
   },
   {
@@ -36596,7 +36020,7 @@ const relayResults = [
     "km": 21.1,
     "position": 3,
     "name": "Daryll BARNBY",
-    "club": "Fairwater Cwmbran A (03)",
+    "club": "Fairwater Runners",
     "time": "01:29:13"
   },
   {
@@ -36608,7 +36032,7 @@ const relayResults = [
     "km": 21.1,
     "position": 4,
     "name": "Sam RYALL",
-    "club": "Pontypridd A (04)",
+    "club": "Pontypridd Roadents",
     "time": "01:30:39"
   },
   {
@@ -36620,7 +36044,7 @@ const relayResults = [
     "km": 21.1,
     "position": 5,
     "name": "Ben WILLS",
-    "club": "Spirit of Monmouth A (05)",
+    "club": "Spirit of Monmouth",
     "time": "01:32:12"
   },
   {
@@ -36632,7 +36056,7 @@ const relayResults = [
     "km": 21.1,
     "position": 6,
     "name": "Phil BRISTOW",
-    "club": "San Domenico B (06)",
+    "club": "San Domenico RC",
     "time": "01:32:26"
   },
   {
@@ -36644,7 +36068,7 @@ const relayResults = [
     "km": 21.1,
     "position": 7,
     "name": "Daman JUKES",
-    "club": "Parc Bryn Bach A San (07)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:33:54"
   },
   {
@@ -36656,7 +36080,7 @@ const relayResults = [
     "km": 21.1,
     "position": 8,
     "name": "Alun KING",
-    "club": "Lliswerry A Spirit (08)",
+    "club": "Lliswerry Runners",
     "time": "01:37:00"
   },
   {
@@ -36668,7 +36092,7 @@ const relayResults = [
     "km": 21.1,
     "position": 9,
     "name": "Mike HARRIS",
-    "club": "Caerleon A (09)",
+    "club": "Caerleon RC",
     "time": "01:37:30"
   },
   {
@@ -36680,7 +36104,7 @@ const relayResults = [
     "km": 21.1,
     "position": 10,
     "name": "Paul HILL",
-    "club": "Pegasus A (10)",
+    "club": "Pegasus RC",
     "time": "01:38:00"
   },
   {
@@ -36692,7 +36116,7 @@ const relayResults = [
     "km": 21.1,
     "position": 11,
     "name": "Gerry GORMLEY",
-    "club": "Griffithstown A Usk (11)",
+    "club": "Griffithstown Harriers",
     "time": "01:39:25"
   },
   {
@@ -36704,7 +36128,7 @@ const relayResults = [
     "km": 21.1,
     "position": 12,
     "name": "Stephen POOL",
-    "club": "Rhondda Valley A (12)",
+    "club": "Rhondda Valley Runners",
     "time": "01:41:11"
   },
   {
@@ -36716,7 +36140,7 @@ const relayResults = [
     "km": 21.1,
     "position": 13,
     "name": "Gareth JONES",
-    "club": "Usk A (13)",
+    "club": "Usk",
     "time": "01:41:19"
   },
   {
@@ -36728,7 +36152,7 @@ const relayResults = [
     "km": 21.1,
     "position": 14,
     "name": "Glyn SANSOM",
-    "club": "San Domenico A (14)",
+    "club": "San Domenico RC",
     "time": "01:44:56"
   },
   {
@@ -36740,7 +36164,7 @@ const relayResults = [
     "km": 21.1,
     "position": 15,
     "name": "Dave AUSTIN",
-    "club": "Chepstow B San (15)",
+    "club": "Chepstow Harriers",
     "time": "01:45:13"
   },
   {
@@ -36752,7 +36176,7 @@ const relayResults = [
     "km": 21.1,
     "position": 16,
     "name": "Luke JOHNS",
-    "club": "Brackla A Parc (16)",
+    "club": "Brackla Harriers",
     "time": "01:45:47"
   },
   {
@@ -36764,7 +36188,7 @@ const relayResults = [
     "km": 21.1,
     "position": 17,
     "name": "Jason DIXON",
-    "club": "Islwyn A (17)",
+    "club": "Islwyn RC",
     "time": "01:47:48"
   },
   {
@@ -36776,7 +36200,7 @@ const relayResults = [
     "km": 21.1,
     "position": 18,
     "name": "Cameron CUMMING",
-    "club": "Pontypridd B (18)",
+    "club": "Pontypridd Roadents",
     "time": "01:51:34"
   },
   {
@@ -36788,7 +36212,7 @@ const relayResults = [
     "km": 21.1,
     "position": 19,
     "name": "Claire BIDDLECOMBE",
-    "club": "Lliswerry C (19)",
+    "club": "Lliswerry Runners",
     "time": "01:55:54"
   },
   {
@@ -36800,7 +36224,7 @@ const relayResults = [
     "km": 21.1,
     "position": 20,
     "name": "Dave TIMSON",
-    "club": "Pont-y-pwl & District B (20)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:57:08"
   },
   {
@@ -36812,7 +36236,7 @@ const relayResults = [
     "km": 21.1,
     "position": 21,
     "name": "Ian WADE",
-    "club": "Chepstow C * (21)",
+    "club": "Chepstow Harriers",
     "time": "01:58:00"
   },
   {
@@ -36824,7 +36248,7 @@ const relayResults = [
     "km": 21.1,
     "position": 22,
     "name": "Andrew TAYLOR",
-    "club": "Caerleon B * (22)",
+    "club": "Caerleon RC",
     "time": "01:58:01"
   },
   {
@@ -36836,7 +36260,7 @@ const relayResults = [
     "km": 21.1,
     "position": 23,
     "name": "Ray ELLINGHAM",
-    "club": "Lliswerry B * (23)",
+    "club": "Lliswerry Runners",
     "time": "01:58:02"
   },
   {
@@ -36848,7 +36272,7 @@ const relayResults = [
     "km": 21.1,
     "position": 24,
     "name": "Sean BIRCH",
-    "club": "Islwyn B * (24)",
+    "club": "Islwyn RC",
     "time": "01:58:03"
   },
   {
@@ -36860,7 +36284,7 @@ const relayResults = [
     "km": 21.1,
     "position": 25,
     "name": "Roger MILLS",
-    "club": "Fairwater Cwmbran B * (25)",
+    "club": "Fairwater Runners",
     "time": "01:58:04"
   },
   {
@@ -36872,7 +36296,7 @@ const relayResults = [
     "km": 16.0,
     "position": 1,
     "name": "Laurence HUMPHRIES",
-    "club": "Fairwater Cwmbran A (01)",
+    "club": "Fairwater Runners",
     "time": "01:02:31"
   },
   {
@@ -36884,7 +36308,7 @@ const relayResults = [
     "km": 16.0,
     "position": 2,
     "name": "James BLORE",
-    "club": "Chepstow A (02)",
+    "club": "Chepstow Harriers",
     "time": "01:03:50"
   },
   {
@@ -36896,7 +36320,7 @@ const relayResults = [
     "km": 16.0,
     "position": 3,
     "name": "Peter CROALL",
-    "club": "San Domenico A (03)",
+    "club": "San Domenico RC",
     "time": "01:07:12"
   },
   {
@@ -36908,7 +36332,7 @@ const relayResults = [
     "km": 16.0,
     "position": 4,
     "name": "Sam RICHARDS",
-    "club": "Pontypridd A (04)",
+    "club": "Pontypridd Roadents",
     "time": "01:08:50"
   },
   {
@@ -36920,7 +36344,7 @@ const relayResults = [
     "km": 16.0,
     "position": 5,
     "name": "Steve DAVIES",
-    "club": "Pont-y-pwl & District A (05)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:09:40"
   },
   {
@@ -36932,7 +36356,7 @@ const relayResults = [
     "km": 16.0,
     "position": 6,
     "name": "Nicola GETHING",
-    "club": "Parc Bryn Bach A (06)",
+    "club": "Parc Bryn Bach RC",
     "time": "01:10:18"
   },
   {
@@ -36944,7 +36368,7 @@ const relayResults = [
     "km": 16.0,
     "position": 7,
     "name": "Gareth JONES",
-    "club": "Spirit of Monmouth A (07)",
+    "club": "Spirit of Monmouth",
     "time": "01:12:33"
   },
   {
@@ -36956,7 +36380,7 @@ const relayResults = [
     "km": 16.0,
     "position": 8,
     "name": "Dave GRIFFITHS",
-    "club": "Brackla A (08)",
+    "club": "Brackla Harriers",
     "time": "01:13:26"
   },
   {
@@ -36968,7 +36392,7 @@ const relayResults = [
     "km": 16.0,
     "position": 9,
     "name": "Andrew SPENCER",
-    "club": "Griffithstown A (09)",
+    "club": "Griffithstown Harriers",
     "time": "01:13:33"
   },
   {
@@ -36980,7 +36404,7 @@ const relayResults = [
     "km": 16.0,
     "position": 10,
     "name": "Peter OVEY",
-    "club": "Lliswerry A (10)",
+    "club": "Lliswerry Runners",
     "time": "01:13:47"
   },
   {
@@ -36992,7 +36416,7 @@ const relayResults = [
     "km": 16.0,
     "position": 11,
     "name": "Dean HOUSE",
-    "club": "Pegasus A (11)",
+    "club": "Pegasus RC",
     "time": "01:13:54"
   },
   {
@@ -37004,7 +36428,7 @@ const relayResults = [
     "km": 16.0,
     "position": 12,
     "name": "Neil GRANT",
-    "club": "Chepstow B (12)",
+    "club": "Chepstow Harriers",
     "time": "01:14:47"
   },
   {
@@ -37016,7 +36440,7 @@ const relayResults = [
     "km": 16.0,
     "position": 13,
     "name": "Howard MASON",
-    "club": "Caerleon A (13)",
+    "club": "Caerleon RC",
     "time": "01:15:23"
   },
   {
@@ -37028,7 +36452,7 @@ const relayResults = [
     "km": 16.0,
     "position": 14,
     "name": "Phil HUGHES",
-    "club": "San Domenico B (14)",
+    "club": "San Domenico RC",
     "time": "01:16:34"
   },
   {
@@ -37040,7 +36464,7 @@ const relayResults = [
     "km": 16.0,
     "position": 15,
     "name": "Brian JONES",
-    "club": "Usk A (15)",
+    "club": "Usk",
     "time": "01:18:13"
   },
   {
@@ -37052,7 +36476,7 @@ const relayResults = [
     "km": 16.0,
     "position": 16,
     "name": "Gary ADAMS",
-    "club": "Fairwater Cwmbran B (16)",
+    "club": "Fairwater Runners",
     "time": "01:18:23"
   },
   {
@@ -37064,7 +36488,7 @@ const relayResults = [
     "km": 16.0,
     "position": 17,
     "name": "Bryan MERIDETH",
-    "club": "Rhondda Valley A (17)",
+    "club": "Rhondda Valley Runners",
     "time": "01:18:30"
   },
   {
@@ -37076,7 +36500,7 @@ const relayResults = [
     "km": 16.0,
     "position": 18,
     "name": "Paul FISHER",
-    "club": "Islwyn A (18)",
+    "club": "Islwyn RC",
     "time": "01:19:59"
   },
   {
@@ -37088,7 +36512,7 @@ const relayResults = [
     "km": 16.0,
     "position": 19,
     "name": "Nick DAVIES",
-    "club": "Lliswerry B (19)",
+    "club": "Lliswerry Runners",
     "time": "01:23:59"
   },
   {
@@ -37100,7 +36524,7 @@ const relayResults = [
     "km": 16.0,
     "position": 20,
     "name": "Pete RODGER",
-    "club": "Caerleon B (20)",
+    "club": "Caerleon RC",
     "time": "01:24:04"
   },
   {
@@ -37112,7 +36536,7 @@ const relayResults = [
     "km": 16.0,
     "position": 21,
     "name": "Rachel PRANGLEY",
-    "club": "Islwyn B (21)",
+    "club": "Islwyn RC",
     "time": "01:24:33"
   },
   {
@@ -37124,7 +36548,7 @@ const relayResults = [
     "km": 16.0,
     "position": 22,
     "name": "Stuart DUNCAN",
-    "club": "Chepstow C * (22)",
+    "club": "Chepstow Harriers",
     "time": "01:25:00"
   },
   {
@@ -37136,7 +36560,7 @@ const relayResults = [
     "km": 16.0,
     "position": 23,
     "name": "Anne FOLLAN",
-    "club": "Pontypridd B * (23)",
+    "club": "Pontypridd Roadents",
     "time": "01:25:01"
   },
   {
@@ -37148,7 +36572,7 @@ const relayResults = [
     "km": 16.0,
     "position": 24,
     "name": "Darren SAMUEL",
-    "club": "Pont-y-pwl & District B * (24)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "01:25:02"
   },
   {
@@ -37160,7 +36584,7 @@ const relayResults = [
     "km": 16.0,
     "position": 25,
     "name": "Claire DUNKERTON-MORRIS",
-    "club": "Lliswerry C * (25)",
+    "club": "Lliswerry Runners",
     "time": "01:25:03"
   },
   {
@@ -37172,7 +36596,7 @@ const relayResults = [
     "km": 12.16,
     "position": 1,
     "name": "Clara EVANS",
-    "club": "Pontypridd A (01)",
+    "club": "Pontypridd Roadents",
     "time": "00:38:38"
   },
   {
@@ -37184,7 +36608,7 @@ const relayResults = [
     "km": 12.16,
     "position": 2,
     "name": "Niki MORGAN",
-    "club": "Chepstow A (02)",
+    "club": "Chepstow Harriers",
     "time": "00:38:40"
   },
   {
@@ -37196,7 +36620,7 @@ const relayResults = [
     "km": 12.16,
     "position": 3,
     "name": "Ricci WATTS",
-    "club": "Pont-y-pwl & District A (03)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:38:54"
   },
   {
@@ -37208,7 +36632,7 @@ const relayResults = [
     "km": 12.16,
     "position": 4,
     "name": "Peter EDWARDS",
-    "club": "Fairwater Cwmbran A (04)",
+    "club": "Fairwater Runners",
     "time": "00:40:46"
   },
   {
@@ -37220,7 +36644,7 @@ const relayResults = [
     "km": 12.16,
     "position": 5,
     "name": "Antoinette DUMAYNE",
-    "club": "Lliswerry A (05)",
+    "club": "Lliswerry Runners",
     "time": "00:40:57"
   },
   {
@@ -37232,7 +36656,7 @@ const relayResults = [
     "km": 12.16,
     "position": 6,
     "name": "Helen DUFFIELD",
-    "club": "Chepstow B (06)",
+    "club": "Chepstow Harriers",
     "time": "00:41:22"
   },
   {
@@ -37244,7 +36668,7 @@ const relayResults = [
     "km": 12.16,
     "position": 7,
     "name": "Kristie OCONNELL",
-    "club": "Pontypridd B San (07)",
+    "club": "Pontypridd Roadents",
     "time": "00:41:25"
   },
   {
@@ -37256,7 +36680,7 @@ const relayResults = [
     "km": 12.16,
     "position": 8,
     "name": "Mike THURGOOD",
-    "club": "Caerleon A (08)",
+    "club": "Caerleon RC",
     "time": "00:41:36"
   },
   {
@@ -37268,7 +36692,7 @@ const relayResults = [
     "km": 12.16,
     "position": 9,
     "name": "Steve DURY",
-    "club": "Islwyn A (09)",
+    "club": "Islwyn RC",
     "time": "00:41:45"
   },
   {
@@ -37280,7 +36704,7 @@ const relayResults = [
     "km": 12.16,
     "position": 10,
     "name": "Terry SCREEN",
-    "club": "Griffithstown A (10)",
+    "club": "Griffithstown Harriers",
     "time": "00:41:53"
   },
   {
@@ -37292,7 +36716,7 @@ const relayResults = [
     "km": 12.16,
     "position": 11,
     "name": "Marcia GOUVRIA",
-    "club": "San Domenico A (11)",
+    "club": "San Domenico RC",
     "time": "00:43:35"
   },
   {
@@ -37304,7 +36728,7 @@ const relayResults = [
     "km": 12.16,
     "position": 12,
     "name": "Vivtoria HOLLOWAY",
-    "club": "San Domenico B (12)",
+    "club": "San Domenico RC",
     "time": "00:44:44"
   },
   {
@@ -37316,7 +36740,7 @@ const relayResults = [
     "km": 12.16,
     "position": 13,
     "name": "Ieaun POPE",
-    "club": "Rhondda Valley A Usk (13)",
+    "club": "Rhondda Valley Runners",
     "time": "00:44:53"
   },
   {
@@ -37328,7 +36752,7 @@ const relayResults = [
     "km": 12.16,
     "position": 14,
     "name": "Liz RICHARDS",
-    "club": "Caerleon B San (14)",
+    "club": "Caerleon RC",
     "time": "00:45:26"
   },
   {
@@ -37340,7 +36764,7 @@ const relayResults = [
     "km": 12.16,
     "position": 15,
     "name": "Libby LAVIS",
-    "club": "Brackla A (15)",
+    "club": "Brackla Harriers",
     "time": "00:46:17"
   },
   {
@@ -37352,7 +36776,7 @@ const relayResults = [
     "km": 12.16,
     "position": 16,
     "name": "Kelly COLLINS",
-    "club": "Parc Bryn Bach A Parc (16)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:46:56"
   },
   {
@@ -37364,7 +36788,7 @@ const relayResults = [
     "km": 12.16,
     "position": 17,
     "name": "Lee JAMES",
-    "club": "Spirit of Monmouth A (17)",
+    "club": "Spirit of Monmouth",
     "time": "00:48:28"
   },
   {
@@ -37376,7 +36800,7 @@ const relayResults = [
     "km": 12.16,
     "position": 18,
     "name": "Danielle HILL",
-    "club": "Usk A (18)",
+    "club": "Usk",
     "time": "00:48:59"
   },
   {
@@ -37388,7 +36812,7 @@ const relayResults = [
     "km": 12.16,
     "position": 19,
     "name": "Julia EVANS",
-    "club": "Pegasus A (19)",
+    "club": "Pegasus RC",
     "time": "00:50:46"
   },
   {
@@ -37400,7 +36824,7 @@ const relayResults = [
     "km": 12.16,
     "position": 20,
     "name": "Bethan POWELL",
-    "club": "Pont-y-pwl & District B * (20)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:51:00"
   },
   {
@@ -37412,7 +36836,7 @@ const relayResults = [
     "km": 12.16,
     "position": 21,
     "name": "Robert ANDERSON",
-    "club": "Lliswerry B * (21)",
+    "club": "Lliswerry Runners",
     "time": "00:51:01"
   },
   {
@@ -37424,7 +36848,7 @@ const relayResults = [
     "km": 12.16,
     "position": 22,
     "name": "John FRY",
-    "club": "Fairwater (22)",
+    "club": "Fairwater Runners",
     "time": "00:51:02"
   },
   {
@@ -37436,7 +36860,7 @@ const relayResults = [
     "km": 12.16,
     "position": 23,
     "name": "Brett REGULSKI",
-    "club": "Chepstow C * (23)",
+    "club": "Chepstow Harriers",
     "time": "00:51:03"
   },
   {
@@ -37448,7 +36872,7 @@ const relayResults = [
     "km": 12.16,
     "position": 24,
     "name": "Michelle SHAPLANO",
-    "club": "Lliswerry (24)",
+    "club": "Lliswerry Runners",
     "time": "00:51:04"
   },
   {
@@ -37460,7 +36884,7 @@ const relayResults = [
     "km": 12.16,
     "position": 25,
     "name": "Jackie LAMBETH",
-    "club": "Islwyn B (25)",
+    "club": "Islwyn RC",
     "time": "00:51:05"
   },
   {
@@ -37472,7 +36896,7 @@ const relayResults = [
     "km": 13.4,
     "position": 1,
     "name": "Mike DURY",
-    "club": "Islwyn A (01)",
+    "club": "Islwyn RC",
     "time": "00:36:42"
   },
   {
@@ -37484,7 +36908,7 @@ const relayResults = [
     "km": 13.4,
     "position": 2,
     "name": "Richard BRACHER",
-    "club": "Parc Bryn Bach A (02)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:39:21"
   },
   {
@@ -37496,7 +36920,7 @@ const relayResults = [
     "km": 13.4,
     "position": 3,
     "name": "Richard WOODHEAD",
-    "club": "Chepstow A (03)",
+    "club": "Chepstow Harriers",
     "time": "00:39:43"
   },
   {
@@ -37508,7 +36932,7 @@ const relayResults = [
     "km": 13.4,
     "position": 4,
     "name": "Phil MEYLER",
-    "club": "Pontypridd A (04)",
+    "club": "Pontypridd Roadents",
     "time": "00:41:13"
   },
   {
@@ -37520,7 +36944,7 @@ const relayResults = [
     "km": 13.4,
     "position": 5,
     "name": "Robert NELSON",
-    "club": "Spirit of Monmouth A (05)",
+    "club": "Spirit of Monmouth",
     "time": "00:43:20"
   },
   {
@@ -37532,7 +36956,7 @@ const relayResults = [
     "km": 13.4,
     "position": 6,
     "name": "Richard BOWIE",
-    "club": "Fairwater Cwmbran A (06)",
+    "club": "Fairwater Runners",
     "time": "00:43:42"
   },
   {
@@ -37544,7 +36968,7 @@ const relayResults = [
     "km": 13.4,
     "position": 7,
     "name": "Peter THOMAS",
-    "club": "Caerleon A (07)",
+    "club": "Caerleon RC",
     "time": "00:44:08"
   },
   {
@@ -37556,7 +36980,7 @@ const relayResults = [
     "km": 13.4,
     "position": 8,
     "name": "Jim DELANEY",
-    "club": "San Domenico A (08)",
+    "club": "San Domenico RC",
     "time": "00:44:19"
   },
   {
@@ -37568,7 +36992,7 @@ const relayResults = [
     "km": 13.4,
     "position": 9,
     "name": "Keith LANGLEY",
-    "club": "Pont-y-pwl & District A (09)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:45:08"
   },
   {
@@ -37580,7 +37004,7 @@ const relayResults = [
     "km": 13.4,
     "position": 10,
     "name": "Ruth PHILLIPS",
-    "club": "Lliswerry A (10)",
+    "club": "Lliswerry Runners",
     "time": "00:45:22"
   },
   {
@@ -37592,7 +37016,7 @@ const relayResults = [
     "km": 13.4,
     "position": 11,
     "name": "Brian GOUGH",
-    "club": "Pontypridd B (11)",
+    "club": "Pontypridd Roadents",
     "time": "00:45:49"
   },
   {
@@ -37604,7 +37028,7 @@ const relayResults = [
     "km": 13.4,
     "position": 12,
     "name": "Ryhs DOOLAN",
-    "club": "Griffithstown A (12)",
+    "club": "Griffithstown Harriers",
     "time": "00:46:03"
   },
   {
@@ -37616,7 +37040,7 @@ const relayResults = [
     "km": 13.4,
     "position": 13,
     "name": "Esther BARRETT",
-    "club": "Chepstow B (13)",
+    "club": "Chepstow Harriers",
     "time": "00:47:04"
   },
   {
@@ -37628,7 +37052,7 @@ const relayResults = [
     "km": 13.4,
     "position": 14,
     "name": "Joanne WILLIAMS",
-    "club": "Usk A (14)",
+    "club": "Usk",
     "time": "00:47:28"
   },
   {
@@ -37640,7 +37064,7 @@ const relayResults = [
     "km": 13.4,
     "position": 15,
     "name": "Emma LYNCH",
-    "club": "Brackla A (15)",
+    "club": "Brackla Harriers",
     "time": "00:48:45"
   },
   {
@@ -37652,7 +37076,7 @@ const relayResults = [
     "km": 13.4,
     "position": 16,
     "name": "Fiona CROSS",
-    "club": "Pont-y-pwl & District B (16)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:48:49"
   },
   {
@@ -37664,7 +37088,7 @@ const relayResults = [
     "km": 13.4,
     "position": 17,
     "name": "Paula WILLIAMS",
-    "club": "Caerleon B (17)",
+    "club": "Caerleon RC",
     "time": "00:49:03"
   },
   {
@@ -37676,7 +37100,7 @@ const relayResults = [
     "km": 13.4,
     "position": 18,
     "name": "Vicky FEAR",
-    "club": "Lliswerry C (18)",
+    "club": "Lliswerry Runners",
     "time": "00:49:18"
   },
   {
@@ -37688,7 +37112,7 @@ const relayResults = [
     "km": 13.4,
     "position": 19,
     "name": "Andrew CLEVERLEY",
-    "club": "Pegasus A (19)",
+    "club": "Pegasus RC",
     "time": "00:49:34"
   },
   {
@@ -37700,7 +37124,7 @@ const relayResults = [
     "km": 13.4,
     "position": 20,
     "name": "Richard CADOGAN",
-    "club": "Rhondda Valley A (20)",
+    "club": "Rhondda Valley Runners",
     "time": "00:50:45"
   },
   {
@@ -37712,7 +37136,7 @@ const relayResults = [
     "km": 13.4,
     "position": 21,
     "name": "Dave WESTLEY",
-    "club": "Lliswerry B (21)",
+    "club": "Lliswerry Runners",
     "time": "00:50:53"
   },
   {
@@ -37724,7 +37148,7 @@ const relayResults = [
     "km": 13.4,
     "position": 22,
     "name": "Coleen BIRCH",
-    "club": "Islwyn B * (22)",
+    "club": "Islwyn RC",
     "time": "00:52:00"
   },
   {
@@ -37736,7 +37160,7 @@ const relayResults = [
     "km": 13.4,
     "position": 23,
     "name": "Geoff BAYLISS",
-    "club": "Chepstow C * (23)",
+    "club": "Chepstow Harriers",
     "time": "00:52:01"
   },
   {
@@ -37748,7 +37172,7 @@ const relayResults = [
     "km": 13.4,
     "position": 24,
     "name": "Claire LEWIS",
-    "club": "San Domenico B * (24)",
+    "club": "San Domenico RC",
     "time": "00:52:02"
   },
   {
@@ -37760,7 +37184,7 @@ const relayResults = [
     "km": 13.4,
     "position": 25,
     "name": "Sheree MANN",
-    "club": "Fairwater Cwmbran B * (25)",
+    "club": "Fairwater Runners",
     "time": "00:52:03"
   },
   {
@@ -37772,7 +37196,7 @@ const relayResults = [
     "km": 10.7,
     "position": 1,
     "name": "Richard MATTHEWS",
-    "club": "Chepstow A (01)",
+    "club": "Chepstow Harriers",
     "time": "00:41:33"
   },
   {
@@ -37784,7 +37208,7 @@ const relayResults = [
     "km": 10.7,
     "position": 2,
     "name": "Allan MEEK",
-    "club": "Spirit of Monmouth A (02)",
+    "club": "Spirit of Monmouth",
     "time": "00:42:52"
   },
   {
@@ -37796,7 +37220,7 @@ const relayResults = [
     "km": 10.7,
     "position": 3,
     "name": "Mark HURFORD",
-    "club": "Pont-y-pwl & District A (03)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:44:27"
   },
   {
@@ -37808,7 +37232,7 @@ const relayResults = [
     "km": 10.7,
     "position": 4,
     "name": "Justin POCKNELL",
-    "club": "Caerleon A (04)",
+    "club": "Caerleon RC",
     "time": "00:44:58"
   },
   {
@@ -37820,7 +37244,7 @@ const relayResults = [
     "km": 10.7,
     "position": 5,
     "name": "Paul GRAHAM",
-    "club": "Pontypridd B (05)",
+    "club": "Pontypridd Roadents",
     "time": "00:45:01"
   },
   {
@@ -37832,7 +37256,7 @@ const relayResults = [
     "km": 10.7,
     "position": 6,
     "name": "Mark ROBBINS",
-    "club": "Griffithstown A (06)",
+    "club": "Griffithstown Harriers",
     "time": "00:45:32"
   },
   {
@@ -37844,7 +37268,7 @@ const relayResults = [
     "km": 10.7,
     "position": 7,
     "name": "Richard MORRIS",
-    "club": "Islwyn A (07)",
+    "club": "Islwyn RC",
     "time": "00:45:41"
   },
   {
@@ -37856,7 +37280,7 @@ const relayResults = [
     "km": 10.7,
     "position": 8,
     "name": "Geraint HEATH",
-    "club": "Lliswerry A (08)",
+    "club": "Lliswerry Runners",
     "time": "00:46:29"
   },
   {
@@ -37868,7 +37292,7 @@ const relayResults = [
     "km": 10.7,
     "position": 9,
     "name": "Elaine FERGUSON",
-    "club": "Pontypridd A (09)",
+    "club": "Pontypridd Roadents",
     "time": "00:47:56"
   },
   {
@@ -37880,7 +37304,7 @@ const relayResults = [
     "km": 10.7,
     "position": 10,
     "name": "Rob SYMONS",
-    "club": "Fairwater Cwmbran A (10)",
+    "club": "Fairwater Runners",
     "time": "00:48:04"
   },
   {
@@ -37892,7 +37316,7 @@ const relayResults = [
     "km": 10.7,
     "position": 11,
     "name": "Wendy OWEN",
-    "club": "San Domenico B San (11)",
+    "club": "San Domenico RC",
     "time": "00:48:13"
   },
   {
@@ -37904,7 +37328,7 @@ const relayResults = [
     "km": 10.7,
     "position": 12,
     "name": "Andy STOTT",
-    "club": "Chepstow B (12)",
+    "club": "Chepstow Harriers",
     "time": "00:48:18"
   },
   {
@@ -37916,7 +37340,7 @@ const relayResults = [
     "km": 10.7,
     "position": 13,
     "name": "Emma WILLIAMS",
-    "club": "Caerleon B (13)",
+    "club": "Caerleon RC",
     "time": "00:49:27"
   },
   {
@@ -37928,7 +37352,7 @@ const relayResults = [
     "km": 10.7,
     "position": 14,
     "name": "Seamus GALLAGHER",
-    "club": "San Domenico A (14)",
+    "club": "San Domenico RC",
     "time": "00:50:16"
   },
   {
@@ -37940,7 +37364,7 @@ const relayResults = [
     "km": 10.7,
     "position": 15,
     "name": "Nei WILLIAMS",
-    "club": "Usk A (15)",
+    "club": "Usk",
     "time": "00:50:40"
   },
   {
@@ -37952,7 +37376,7 @@ const relayResults = [
     "km": 10.7,
     "position": 16,
     "name": "Andrew CADOGAN",
-    "club": "Rhondda Valley A (16)",
+    "club": "Rhondda Valley Runners",
     "time": "00:52:13"
   },
   {
@@ -37964,7 +37388,7 @@ const relayResults = [
     "km": 10.7,
     "position": 17,
     "name": "Alex FORD",
-    "club": "Brackla A (17)",
+    "club": "Brackla Harriers",
     "time": "00:53:00"
   },
   {
@@ -37976,7 +37400,7 @@ const relayResults = [
     "km": 10.7,
     "position": 18,
     "name": "Andrew WILLIAMS",
-    "club": "Parc Bryn Bach A (18)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:53:17"
   },
   {
@@ -37988,7 +37412,7 @@ const relayResults = [
     "km": 10.7,
     "position": 19,
     "name": "Stephen WOOD",
-    "club": "Pegasus A (19)",
+    "club": "Pegasus RC",
     "time": "00:53:29"
   },
   {
@@ -38000,7 +37424,7 @@ const relayResults = [
     "km": 10.7,
     "position": 20,
     "name": "Colin TRANTER",
-    "club": "Chepstow C (20)",
+    "club": "Chepstow Harriers",
     "time": "00:54:52"
   },
   {
@@ -38012,7 +37436,7 @@ const relayResults = [
     "km": 10.7,
     "position": 21,
     "name": "Helen WILLIAMS",
-    "club": "Fairwater Cwmbran B (21)",
+    "club": "Fairwater Runners",
     "time": "00:55:49"
   },
   {
@@ -38024,7 +37448,7 @@ const relayResults = [
     "km": 10.7,
     "position": 22,
     "name": "Carl ROBERTS",
-    "club": "Pont-y-pwl & District B (22)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:56:12"
   },
   {
@@ -38036,7 +37460,7 @@ const relayResults = [
     "km": 10.7,
     "position": 23,
     "name": "Michael BONNET",
-    "club": "Lliswerry B (23)",
+    "club": "Lliswerry Runners",
     "time": "00:56:50"
   },
   {
@@ -38048,7 +37472,7 @@ const relayResults = [
     "km": 10.7,
     "position": 24,
     "name": "Helen WILLIAMS",
-    "club": "Islwyn B * (24)",
+    "club": "Islwyn RC",
     "time": "01:00:00"
   },
   {
@@ -38060,7 +37484,7 @@ const relayResults = [
     "km": 10.7,
     "position": 25,
     "name": "Hayley EDWARDS",
-    "club": "Lliswerry C * (25)",
+    "club": "Lliswerry Runners",
     "time": "01:00:01"
   },
   {
@@ -38072,7 +37496,7 @@ const relayResults = [
     "km": 8.7,
     "position": 1,
     "name": "Brian WILLIAMS",
-    "club": "Pont-y-pwl & District A (01)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:36:30"
   },
   {
@@ -38084,7 +37508,7 @@ const relayResults = [
     "km": 8.7,
     "position": 2,
     "name": "Matt CREED",
-    "club": "Lliswerry A (02)",
+    "club": "Lliswerry Runners",
     "time": "00:36:55"
   },
   {
@@ -38096,7 +37520,7 @@ const relayResults = [
     "km": 8.7,
     "position": 3,
     "name": "Andrew PEARCE",
-    "club": "Griffithstown A (03)",
+    "club": "Griffithstown Harriers",
     "time": "00:38:32"
   },
   {
@@ -38108,7 +37532,7 @@ const relayResults = [
     "km": 8.7,
     "position": 4,
     "name": "Gareth Archie DAVIES",
-    "club": "Pont-y-pwl & District B (04)",
+    "club": "Pont-y-pwl & District Runners",
     "time": "00:39:46"
   },
   {
@@ -38120,7 +37544,7 @@ const relayResults = [
     "km": 8.7,
     "position": 5,
     "name": "Rob HOOK",
-    "club": "Chepstow A (05)",
+    "club": "Chepstow Harriers",
     "time": "00:40:02"
   },
   {
@@ -38132,7 +37556,7 @@ const relayResults = [
     "km": 8.7,
     "position": 6,
     "name": "Simon PRITCHARD",
-    "club": "Pontypridd B (06)",
+    "club": "Pontypridd Roadents",
     "time": "00:40:09"
   },
   {
@@ -38144,7 +37568,7 @@ const relayResults = [
     "km": 8.7,
     "position": 7,
     "name": "Dominic SHIELDS",
-    "club": "San Domenico A (07)",
+    "club": "San Domenico RC",
     "time": "00:40:38"
   },
   {
@@ -38156,7 +37580,7 @@ const relayResults = [
     "km": 8.7,
     "position": 8,
     "name": "Will DAVIES",
-    "club": "Rhondda Valley A (08)",
+    "club": "Rhondda Valley Runners",
     "time": "00:41:37"
   },
   {
@@ -38168,7 +37592,7 @@ const relayResults = [
     "km": 8.7,
     "position": 9,
     "name": "Frances BULLOCK",
-    "club": "Spirit of Monmouth A Visit our (09)",
+    "club": "Spirit of Monmouth",
     "time": "00:41:39"
   },
   {
@@ -38180,7 +37604,7 @@ const relayResults = [
     "km": 8.7,
     "position": 10,
     "name": "Jonathon WILLIAMS",
-    "club": "Fairwater Cwmbran A (10)",
+    "club": "Fairwater Runners",
     "time": "00:41:56"
   },
   {
@@ -38192,7 +37616,7 @@ const relayResults = [
     "km": 8.7,
     "position": 11,
     "name": "Peter BURROWS",
-    "club": "Caerleon A See us (11)",
+    "club": "Caerleon RC",
     "time": "00:42:30"
   },
   {
@@ -38204,7 +37628,7 @@ const relayResults = [
     "km": 8.7,
     "position": 12,
     "name": "Roland MATHEWS",
-    "club": "Brackla A (12)",
+    "club": "Brackla Harriers",
     "time": "00:43:50"
   },
   {
@@ -38216,7 +37640,7 @@ const relayResults = [
     "km": 8.7,
     "position": 13,
     "name": "David GATES",
-    "club": "Lliswerry B (13)",
+    "club": "Lliswerry Runners",
     "time": "00:44:09"
   },
   {
@@ -38228,7 +37652,7 @@ const relayResults = [
     "km": 8.7,
     "position": 14,
     "name": "Nud REHMAN",
-    "club": "Fairwater Cwmbran B (14)",
+    "club": "Fairwater Runners",
     "time": "00:44:11"
   },
   {
@@ -38240,7 +37664,7 @@ const relayResults = [
     "km": 8.7,
     "position": 15,
     "name": "Tim WILLIAMS",
-    "club": "Parc Bryn Bach A (15)",
+    "club": "Parc Bryn Bach RC",
     "time": "00:44:14"
   },
   {
@@ -38252,7 +37676,7 @@ const relayResults = [
     "km": 8.7,
     "position": 16,
     "name": "Hayley DODD",
-    "club": "Usk A (16)",
+    "club": "Usk",
     "time": "00:44:20"
   },
   {
@@ -38264,7 +37688,7 @@ const relayResults = [
     "km": 8.7,
     "position": 17,
     "name": "Allan MCCALL",
-    "club": "Chepstow B (17)",
+    "club": "Chepstow Harriers",
     "time": "00:45:07"
   },
   {
@@ -38276,7 +37700,7 @@ const relayResults = [
     "km": 8.7,
     "position": 18,
     "name": "Nathan LAING",
-    "club": "Caerleon B (18)",
+    "club": "Caerleon RC",
     "time": "00:46:31"
   },
   {
@@ -38288,7 +37712,7 @@ const relayResults = [
     "km": 8.7,
     "position": 19,
     "name": "Mark KEATS",
-    "club": "Pegasus A (19)",
+    "club": "Pegasus RC",
     "time": "00:46:56"
   },
   {
@@ -38300,7 +37724,7 @@ const relayResults = [
     "km": 8.7,
     "position": 20,
     "name": "Roger FAWKE",
-    "club": "Islwyn A (20)",
+    "club": "Islwyn RC",
     "time": "00:47:25"
   },
   {
@@ -38312,7 +37736,7 @@ const relayResults = [
     "km": 8.7,
     "position": 21,
     "name": "John ROSS",
-    "club": "San Domenico B (21)",
+    "club": "San Domenico RC",
     "time": "00:47:35"
   },
   {
@@ -38324,7 +37748,7 @@ const relayResults = [
     "km": 8.7,
     "position": 22,
     "name": "Jane BAYLISS",
-    "club": "Chepstow C * (22)",
+    "club": "Chepstow Harriers",
     "time": "00:50:00"
   },
   {
@@ -38336,7 +37760,7 @@ const relayResults = [
     "km": 8.7,
     "position": 23,
     "name": "Elizabeth PARKER",
-    "club": "Lliswerry C * (23)",
+    "club": "Lliswerry Runners",
     "time": "00:50:01"
   },
   {
@@ -38348,7 +37772,7 @@ const relayResults = [
     "km": 8.7,
     "position": 24,
     "name": "Helen LEWIS car penalty",
-    "club": "Islwyn B *** (24)",
+    "club": "Islwyn RC",
     "time": "01:00:00"
   },
   {
@@ -38360,7 +37784,631 @@ const relayResults = [
     "km": 8.7,
     "position": 25,
     "name": "RUNNER UNDER 18",
-    "club": "Pontypridd A *** (25)",
+    "club": "Pontypridd Roadents",
     "time": "01:00:01"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 1,
+    "name": "Martin Norton",
+    "club": "Lliswerry Runners",
+    "time": "01:08:30"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 2,
+    "name": "James Blore",
+    "club": "Chepstow Harriers",
+    "time": "01:09:22"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 3,
+    "name": "Iestyn Rhodes",
+    "club": "Pont-y-pwl & District Runners",
+    "time": "01:10:31"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 4,
+    "name": "Gareth Jones",
+    "club": "Spirit of Monmouth",
+    "time": "01:14:07"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 5,
+    "name": "Lee Mills",
+    "club": "Islwyn RC",
+    "time": "01:14:35"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 6,
+    "name": "David Moore",
+    "club": "Brackla Harriers",
+    "time": "01:14:56"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 7,
+    "name": "Josh Dixon",
+    "club": "Les Croupiers RC",
+    "time": "01:15:55"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 8,
+    "name": "Matthew Pizey",
+    "club": "Caerphilly Runners",
+    "time": "01:17:21"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 9,
+    "name": "Martin Jones",
+    "club": "Islwyn RC",
+    "time": "01:18:22"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 10,
+    "name": "Gwyn Johnson",
+    "club": "Pontypridd Roadents",
+    "time": "01:18:49"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 11,
+    "name": "Paul Lidgett",
+    "club": "Chepstow Harriers",
+    "time": "01:19:02"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 12,
+    "name": "James White",
+    "club": "San Domenico RC",
+    "time": "01:19:33"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 13,
+    "name": "Michael Cleaver",
+    "club": "Lliswerry Runners",
+    "time": "01:19:52"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 14,
+    "name": "Gerard Gormley",
+    "club": "Griffithstown Harriers",
+    "time": "01:20:12"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 15,
+    "name": "Bryan Meredith",
+    "club": "Rhondda Valley Runners",
+    "time": "01:21:17"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 16,
+    "name": "Richard Sheehy",
+    "club": "Parc Bryn Bach RC",
+    "time": "01:21:40"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 17,
+    "name": "Roger Mills",
+    "club": "Fairwater Runners",
+    "time": "01:28:03"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 18,
+    "name": "Graham Viner",
+    "club": "Caerleon RC",
+    "time": "01:29:49"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 19,
+    "name": "Robert Coles",
+    "club": "Caerphilly Runners",
+    "time": "01:29:52"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 20,
+    "name": "Andrew Dickens",
+    "club": "Pont-y-pwl & District Runners",
+    "time": "01:31:45"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 21,
+    "name": "Graham Carrick",
+    "club": "Pegasus RC",
+    "time": "01:31:47"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 22,
+    "name": "Richard Beech",
+    "club": "Caldicot RC",
+    "time": "01:32:30"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 23,
+    "name": "Marcus Smith",
+    "club": "Parc Bryn Bach RC",
+    "time": "01:32:40"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 24,
+    "name": "Martyn Jenkins",
+    "club": "Fairwater Runners",
+    "time": "01:36:03"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 25,
+    "name": "Darren Griffiths Warner",
+    "club": "Pontypridd Roadents",
+    "time": "01:39:36"
+  },
+  {
+    "year": 2018,
+    "stage": 0,
+    "stage_name": "Llanthony to Grosmont",
+    "cut_off": "01:43:00",
+    "miles": 11.4,
+    "km": 18.3,
+    "position": 26,
+    "name": "Steve Houghton",
+    "club": "Caerleon RC",
+    "time": "01:40:47"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 1,
+    "name": "Mike Lewis",
+    "club": "Fairwater Runners",
+    "time": "00:29:02"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 2,
+    "name": "Jamie Davies",
+    "club": "Lliswerry Runners",
+    "time": "00:31:27"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 3,
+    "name": "Lou Summers",
+    "club": "Pont-y-pwl & District Runners",
+    "time": "00:34:51"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 4,
+    "name": "Jane Horler",
+    "club": "Chepstow Harriers",
+    "time": "00:35:13"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 5,
+    "name": "Mike Gwynne",
+    "club": "Pontypridd Roadents",
+    "time": "00:35:21"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 6,
+    "name": "Keri-Lyn Jones",
+    "club": "Parc Bryn Bach RC",
+    "time": "00:36:33"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 7,
+    "name": "Nathan Priest",
+    "club": "Islwyn RC",
+    "time": "00:37:21"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 8,
+    "name": "Jan Morris",
+    "club": "Chepstow Harriers",
+    "time": "00:37:46"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 9,
+    "name": "Nick Davies",
+    "club": "Lliswerry Runners",
+    "time": "00:38:01"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 10,
+    "name": "Tammy Fry",
+    "club": "Caerleon RC",
+    "time": "00:38:29"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 11,
+    "name": "Hannah Davies",
+    "club": "Islwyn RC",
+    "time": "00:38:36"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 12,
+    "name": "Kerry Budden",
+    "club": "Griffithstown Harriers",
+    "time": "00:38:39"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 13,
+    "name": "Sara Williams",
+    "club": "Caerphilly Runners",
+    "time": "00:38:50"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 14,
+    "name": "Emma Sowrey",
+    "club": "Pont-y-pwl & District Runners",
+    "time": "00:38:55"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 15,
+    "name": "Sophie Williams",
+    "club": "Spirit of Monmouth",
+    "time": "00:40:00"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 16,
+    "name": "Luke Heslop",
+    "club": "Pegasus RC",
+    "time": "00:40:20"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 17,
+    "name": "Natalie Cartlidge",
+    "club": "San Domenico RC",
+    "time": "00:40:21"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 18,
+    "name": "Paige Luff",
+    "club": "Caldicot RC",
+    "time": "00:40:57"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 19,
+    "name": "Mary Beech",
+    "club": "Brackla Harriers",
+    "time": "00:41:03"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 20,
+    "name": "Eve Gallop-Evans",
+    "club": "Les Croupiers RC",
+    "time": "00:41:07"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 21,
+    "name": "Charlene Henshaw",
+    "club": "Caerleon RC",
+    "time": "00:41:29"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 22,
+    "name": "Lianne Willetts",
+    "club": "Caerphilly Runners",
+    "time": "00:41:59"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 23,
+    "name": "Teresa Davies",
+    "club": "Parc Bryn Bach RC",
+    "time": "00:43:02"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 24,
+    "name": "Gemma Green",
+    "club": "Rhondda Valley Runners",
+    "time": "00:46:00"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 25,
+    "name": "Sheree Mann",
+    "club": "Fairwater Runners",
+    "time": "00:46:01"
+  },
+  {
+    "year": 2018,
+    "stage": 1,
+    "stage_name": "Grosmont to Skenfrith",
+    "cut_off": "00:46:00",
+    "miles": 5.1,
+    "km": 8.2,
+    "position": 26,
+    "name": "Helen Welch",
+    "club": "Pontypridd Roadents",
+    "time": "00:46:02"
   }
 ];

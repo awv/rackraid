@@ -621,71 +621,71 @@ const relayStats = {
     "stage_0": [
       {
         "year": 2018,
-        "time": "01:09:22",
-        "seconds": 4162
+        "time": "01:08:30",
+        "seconds": 4110
       }
     ]
   },
   "club_attendance": [
     {
-      "club": "Parc",
-      "appearances": 87
+      "club": "Chepstow Harriers",
+      "appearances": 248
     },
     {
-      "club": "Chepstow A",
-      "appearances": 85
+      "club": "Caerleon RC",
+      "appearances": 233
     },
     {
-      "club": "Caerleon A",
-      "appearances": 78
+      "club": "Lliswerry Runners",
+      "appearances": 232
     },
     {
-      "club": "Chepstow B",
-      "appearances": 78
+      "club": "Pont-y-pwl & District Runners",
+      "appearances": 222
     },
     {
-      "club": "Caerleon B",
-      "appearances": 76
+      "club": "Fairwater Runners",
+      "appearances": 219
     },
     {
-      "club": "Lliswerry A",
-      "appearances": 67
+      "club": "Islwyn RC",
+      "appearances": 218
     },
     {
-      "club": "Islwyn A",
-      "appearances": 64
+      "club": "Parc Bryn Bach RC",
+      "appearances": 194
     },
     {
-      "club": "Lliswerry B",
-      "appearances": 61
+      "club": "Pontypridd Roadents",
+      "appearances": 145
     },
     {
-      "club": "Islwyn B",
-      "appearances": 54
+      "club": "Caerphilly Runners",
+      "appearances": 143
     },
     {
-      "club": "Fairwater A",
-      "appearances": 53
+      "club": "Griffithstown Harriers",
+      "appearances": 131
     },
     {
-      "club": "Fairwater B",
-      "appearances": 49
+      "club": "Spirit of Monmouth",
+      "appearances": 118
     },
     {
-      "club": "Rhondda",
-      "appearances": 45
+      "club": "San Domenico RC",
+      "appearances": 116
     },
     {
-      "club": "Pontypridd A",
-      "appearances": 44
+      "club": "Rhondda Valley Runners",
+      "appearances": 116
     },
     {
-      "club": "Ogmore",
-      "appearances": 42
+      "club": "Brackla Harriers",
+      "appearances": 116
     },
     {
-      "club": "Brackla A",
-      "appearances": 42
+      "club": "Les Croupiers RC",
+      "appearances": 106
     }
   ]
 };

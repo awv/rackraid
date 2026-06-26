@@ -1,4 +1,5 @@
-scraper/downloads/
+.DS_Store
 __pycache__/
 *.pyc
-.DS_Store
+.vscode/
+.idea/
