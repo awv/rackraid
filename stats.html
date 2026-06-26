@@ -5,36 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All-Time Records - Rack Raid Archive</title>
     <style>
-        body {
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            min-height: 100vh;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
             color: #333;
-            width: 95%;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 30px 20px;
-            background-color: #fcfcfc;
         }
+        
+        .page-wrapper {
+            background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+            min-height: 100vh;
+            width: 100%;
+            padding: 40px 20px;
+            box-sizing: border-box;
+        }
+
+        .content-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
         .back-link {
             display: inline-flex;
             align-items: center;
             gap: 5px;
-            color: #555;
+            color: #94a3b8;
             text-decoration: none;
             font-weight: 600;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
+            transition: color 0.15s ease;
         }
         .back-link:hover {
-            color: #222;
+            color: #ffffff;
         }
 
         .main-container {
             background: #ffffff;
-            border: 1px solid #e5e7eb;
-            border-radius: 12px;
+            border-radius: 16px;
             padding: 40px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
-            margin-bottom: 40px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+            width: 100%;
         }
 
         .hero-panel {
@@ -169,94 +184,103 @@
 </head>
 <body>
 
-    <a href="index.html" class="back-link">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <line x1="19" y1="12" x2="5" y2="12"></line>
-            <polyline points="12 19 5 12 12 5"></polyline>
-        </svg>
-        Back to Results Archive
-    </a>
+    <div class="page-wrapper">
+        <div class="content-container">
 
-    <div class="main-container">
-        
-        <div class="hero-panel">
-            <h1>Event-Wide Records</h1>
-            <p>Historical statistics and hall of fame benchmarks across all compiled race chapters</p>
-        </div>
+            <a href="index.html" class="back-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                    <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+                Back to Results Archive
+            </a>
 
-        <!-- HIGHLIGHT BOXES OVERVIEW -->
-        <div class="stats-grid">
-            <div class="stat-card">
-                <div id="topRunnerWins" class="stat-value">-</div>
-                <div class="stat-label">Most Individual Wins</div>
-            </div>
-            <div class="stat-card">
-                <div id="topClubWins" class="stat-value">-</div>
-                <div class="stat-label">Most Club Wins</div>
-            </div>
-            <div class="stat-card">
-                <div id="topLoyaltyRunner" class="stat-value">-</div>
-                <div class="stat-label">Most Stages Logged</div>
-            </div>
-            <div class="stat-card">
-                <div id="totalRecordsBroken" class="stat-value">0</div>
-                <div class="stat-label">Records Broken All-Time</div>
-            </div>
-        </div>
+            <main class="main-container">
+                
+                <div class="hero-panel">
+                    <h1>Event-Wide Records</h1>
+                    <p>Historical statistics and hall of fame benchmarks across all compiled race chapters</p>
+                </div>
 
-        <!-- MAIN DASHBOARD CONTENT TABLES -->
-        <div class="dashboard-grid">
-            
-            <!-- ATHLETE STAGE LOYALTY -->
-            <div class="section-box">
-                <h2>Most Stages Completed (All-Time)</h2>
-                <div id="boxLoyalty"></div>
-            </div>
-
-            <!-- ATHLETE STAGE VICTORIES -->
-            <div class="section-box">
-                <h2>Most Individual Stage Wins</h2>
-                <div id="boxAthleteWins"></div>
-            </div>
-
-        </div>
-
-        <div class="dashboard-grid">
-            
-            <!-- STAGE 7 LONGEST LEG STALWARTS -->
-            <div class="section-box">
-                <h2>Stage 7 Stalwarts <span class="chip-special">Longest Leg</span></h2>
-                <div id="boxStage7"></div>
-            </div>
-
-            <!-- STAGE 13 STEEP STALWARTS -->
-            <div class="section-box">
-                <h2>Stage 13 Stalwarts <span class="chip-special">Steep Finish</span></h2>
-                <div id="boxStage13"></div>
-            </div>
-
-        </div>
-
-        <div class="dashboard-grid">
-            
-            <!-- CLUB STAGE VICTORIES -->
-            <div class="section-box">
-                <h2>Most Stage Wins by Club</h2>
-                <div id="boxClubWins"></div>
-            </div>
-
-            <!-- OVERALL TEAM REIGN CABINET -->
-            <div class="section-box">
-                <h2>Most Overall Team Championships</h2>
-                <div id="boxOverallTeamWins">
-                    <div style="padding: 15px 0; text-align: center; color: #6b7280; font-style: italic;">
-                        Team championship historical listing placeholder. Data rendering module will populate here upon entry compilation.
+                <!-- HIGHLIGHT BOXES OVERVIEW -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div id="topRunnerWins" class="stat-value">-</div>
+                        <div id="topRunnerName" class="stat-meta" style="font-size: 0.875rem; color: #4f46e5; font-weight: 500; margin-top: 0.25rem;">-</div>
+                        <div class="stat-label" style="margin-top: 0.25rem;">Most Individual Wins</div>
+                    </div>
+                    <div class="stat-card">
+                        <div id="topClubWins" class="stat-value">-</div>
+                        <div id="topClubName" class="stat-meta" style="font-size: 0.875rem; color: #4f46e5; font-weight: 500; margin-top: 0.25rem;">-</div>
+                        <div class="stat-label" style="margin-top: 0.25rem;">Most Club Wins</div>
+                    </div>
+                    <div class="stat-card">
+                        <div id="topLoyaltyRunner" class="stat-value">-</div>
+                        <div id="topLoyaltyName" class="stat-meta" style="font-size: 0.875rem; color: #4f46e5; font-weight: 500; margin-top: 0.25rem;">-</div>
+                        <div class="stat-label" style="margin-top: 0.25rem;">Most Stages Logged</div>
+                    </div>
+                    <div class="stat-card">
+                        <div id="totalRecordsBroken" class="stat-value">0</div>
+                        <div class="stat-meta" style="font-size: 0.875rem; color: #6b7280; font-weight: 500; margin-top: 0.25rem;">Event History</div>
+                        <div class="stat-label" style="margin-top: 0.25rem;">Records Broken All-Time</div>
                     </div>
                 </div>
-            </div>
 
+                <!-- MAIN DASHBOARD CONTENT TABLES -->
+                <div class="dashboard-grid">
+                    
+                    <!-- ATHLETE STAGE LOYALTY -->
+                    <div class="section-box">
+                        <h2>Most Stages Completed (All-Time)</h2>
+                        <div id="boxLoyalty"></div>
+                    </div>
+
+                    <!-- ATHLETE STAGE VICTORIES -->
+                    <div class="section-box">
+                        <h2>Most Individual Stage Wins</h2>
+                        <div id="boxAthleteWins"></div>
+                    </div>
+
+                </div>
+
+                <div class="dashboard-grid">
+                    
+                    <!-- STAGE 8 LONGEST LEG STALWARTS -->
+                    <div class="section-box">
+                        <h2>Stage 8 Stalwarts <span class="chip-special">Longest Leg</span></h2>
+                        <div id="boxStage8"></div>
+                    </div>
+
+                    <!-- STAGE 13 STEEP STALWARTS -->
+                    <div class="section-box">
+                        <h2>Stage 13 Stalwarts <span class="chip-special">Steep Finish</span></h2>
+                        <div id="boxStage13"></div>
+                    </div>
+
+                </div>
+
+                <div class="dashboard-grid">
+                    
+                    <!-- CLUB STAGE VICTORIES -->
+                    <div class="section-box">
+                        <h2>Most Stage Wins by Club</h2>
+                        <div id="boxClubWins"></div>
+                    </div>
+
+                    <!-- OVERALL TEAM REIGN CABINET -->
+                    <div class="section-box">
+                        <h2>Most Overall Team Championships</h2>
+                        <div id="boxOverallTeamWins">
+                            <div style="padding: 15px 0; text-align: center; color: #6b7280; font-style: italic;">
+                                Team championship historical listing placeholder. Data rendering module will populate here upon entry compilation.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </main>
         </div>
-
     </div>
 
     <script src="data.js"></script>
@@ -270,6 +294,7 @@
         const defTimeToSeconds = (tStr) => {
             if (!tStr) return 0;
             const p = tStr.split(':');
+            if (p.length < 3) return 0;
             return parseInt(p[0],10) * 3600 + parseInt(p[1],10) * 60 + parseInt(p[2],10);
         };
 
@@ -311,43 +336,52 @@
         };
 
         document.addEventListener("DOMContentLoaded", () => {
+            if (typeof relayResults === 'undefined') {
+                console.error("relayResults data array is missing.");
+                return;
+            }
+
             const runnerData = {};
             const clubWins = {};
             let totalRecordsCount = 0;
 
             relayResults.forEach(row => {
-                const athleteName = row.name.replace(/\s*\([MF]\d*\)\s*$/i, '').trim();
-                const clubName = cleanClubName(row.club);
-                const stageNum = parseInt(row.stage);
+                if (!row || !row.name) return;
 
-                // Initialize tracking container objects
+                const athleteName = row.name.toString().replace(/\s*\([MF]\d*\)\s*$/, '').trim();
+                if (!athleteName || athleteName === '-') return;
+
+                const clubName = cleanClubName(row.club);
+                const stageNum = parseInt(row.stage, 10);
+                const positionNum = parseInt(row.position, 10);
+
                 if (!runnerData[athleteName]) {
-                    runnerData[athleteName] = { name: athleteName, runs: 0, wins: 0, stage7s: 0, stage13s: 0 };
+                    runnerData[athleteName] = { name: athleteName, runs: 0, wins: 0, stage8s: 0, stage13s: 0 };
                 }
                 if (!clubWins[clubName]) {
-                    clubWins[clubName] = { name: clubName, wins: 0 };
+                    clubWins[clubName] = { club: clubName, wins: 0 };
                 }
 
-                // Increment metrics benchmarks
                 runnerData[athleteName].runs++;
-                if (stageNum === 7) runnerData[athleteName].stage7s++;
+                if (stageNum === 8) runnerData[athleteName].stage8s++;
                 if (stageNum === 13) runnerData[athleteName].stage13s++;
 
-                if (row.position === 1) {
+                if (positionNum === 1) {
                     runnerData[athleteName].wins++;
                     clubWins[clubName].wins++;
                 }
 
-                // Check Course Records Broken
-                const standingRecord = courseRecords[row.year.toString()] ? courseRecords[row.year.toString()][row.stage.toString()] : null;
-                if (standingRecord && defTimeToSeconds(row.time) <= defTimeToSeconds(standingRecord)) {
-                    totalRecordsCount++;
+                if (row.year && row.stage && row.time) {
+                    const standingRecord = courseRecords[row.year.toString()] ? courseRecords[row.year.toString()][row.stage.toString()] : null;
+                    if (standingRecord && defTimeToSeconds(row.time) <= defTimeToSeconds(standingRecord)) {
+                        totalRecordsCount++;
+                    }
                 }
             });
 
             const runnersArray = Object.values(runnerData);
 
-            // 1. Render Athlete Loyalty Leaders
+            // 1. Athlete Loyalty Card & Table
             const loyaltySorted = [...runnersArray].sort((a,b) => b.runs - a.runs).slice(0, 5);
             let loyaltyHtml = '';
             loyaltySorted.forEach((r, i) => {
@@ -357,10 +391,15 @@
                         <div class="count-badge">${r.runs} Stages</div>
                     </div>`;
             });
-            document.getElementById('boxLoyalty').innerHTML = loyaltyHtml;
-            document.getElementById('topLoyaltyRunner').textContent = loyaltySorted[0] ? `${loyaltySorted[0].runs} Legs` : '-';
+            const boxLoyaltyEl = document.getElementById('boxLoyalty');
+            if (boxLoyaltyEl) boxLoyaltyEl.innerHTML = loyaltyHtml;
+            
+            const topLoyaltyRunnerEl = document.getElementById('topLoyaltyRunner');
+            const topLoyaltyNameEl = document.getElementById('topLoyaltyName');
+            if (topLoyaltyRunnerEl) topLoyaltyRunnerEl.textContent = loyaltySorted[0] ? `${loyaltySorted[0].runs} Legs` : '-';
+            if (topLoyaltyNameEl) topLoyaltyNameEl.textContent = loyaltySorted[0] ? loyaltySorted[0].name : '-';
 
-            // 2. Render Athlete Individual Victories
+            // 2. Athlete Individual Wins Card & Table
             const athleteWinsSorted = [...runnersArray].filter(r => r.wins > 0).sort((a,b) => b.wins - a.wins).slice(0, 5);
             let athleteWinsHtml = '';
             if (athleteWinsSorted.length > 0) {
@@ -374,53 +413,67 @@
             } else {
                 athleteWinsHtml = '<div style="padding:15px; color:#6b7280; font-style:italic;">No recorded stage wins in data.</div>';
             }
-            document.getElementById('boxAthleteWins').innerHTML = athleteWinsHtml;
-            document.getElementById('topRunnerWins').textContent = athleteWinsSorted[0] ? `${athleteWinsSorted[0].wins} Wins` : '-';
+            const boxAthleteWinsEl = document.getElementById('boxAthleteWins');
+            if (boxAthleteWinsEl) boxAthleteWinsEl.innerHTML = athleteWinsHtml;
+            
+            const topRunnerWinsEl = document.getElementById('topRunnerWins');
+            const topRunnerNameEl = document.getElementById('topRunnerName');
+            if (topRunnerWinsEl) topRunnerWinsEl.textContent = athleteWinsSorted[0] ? `${athleteWinsSorted[0].wins} Wins` : '-';
+            if (topRunnerNameEl) topRunnerNameEl.textContent = athleteWinsSorted[0] ? athleteWinsSorted[0].name : '-';
 
-            // 3. Render Stage 7 Longest Leg
-            const stage7Sorted = [...runnersArray].filter(r => r.stage7s > 0).sort((a,b) => b.stage7s - a.stage7s).slice(0, 5);
-            let stage7Html = '';
-            stage7Sorted.forEach((r, i) => {
-                stage7Html += `
+            // 3. Stage 8 Stalwarts Table 
+            const stage8Sorted = [...runnersArray].filter(r => r.stage8s > 0).sort((a,b) => b.stage8s - a.stage8s).slice(0, 5);
+            let stage8Html = '';
+            stage8Sorted.forEach((r, i) => {
+                stage8Html += `
                     <div class="row-item">
                         <div><span class="rank-num">${i+1}</span><a href="athlete.html?name=${encodeURIComponent(r.name)}">${r.name}</a></div>
-                        <div class="count-badge">${r.stage7s} Times</div>
+                        <div class="count-badge">${r.stage8s} Times</div>
                     </div>`;
             });
-            document.getElementById('boxStage7').innerHTML = stage7Html || '<div style="padding:15px; color:#6b7280;">No data recorded.</div>';
+            const boxStage8El = document.getElementById('boxStage8');
+            if (boxStage8El) boxStage8El.innerHTML = stage8Html || '<div style="padding:15px; color:#6b7280;">No data recorded.</div>';
 
-            // 4. Render Stage 13 Steep Finish
+            // 4. Stage 13 Stalwarts Table
             const stage13Sorted = [...runnersArray].filter(r => r.stage13s > 0).sort((a,b) => b.stage13s - a.stage13s).slice(0, 5);
             let stage13Html = '';
             stage13Sorted.forEach((r, i) => {
-                stage13Html += `
+                htmlText = `
                     <div class="row-item">
                         <div><span class="rank-num">${i+1}</span><a href="athlete.html?name=${encodeURIComponent(r.name)}">${r.name}</a></div>
                         <div class="count-badge">${r.stage13s} Times</div>
                     </div>`;
+                stage13Html += htmlText;
             });
-            document.getElementById('boxStage13').innerHTML = stage13Html || '<div style="padding:15px; color:#6b7280;">No data recorded.</div>';
+            const boxStage13El = document.getElementById('boxStage13');
+            if (boxStage13El) boxStage13El.innerHTML = stage13Html || '<div style="padding:15px; color:#6b7280;">No data recorded.</div>';
 
-            // 5. Render Club Victories
-            const clubWinsSorted = Object.values(clubWins).filter(c => c.wins > 0 && c.name !== 'Independent').sort((a,b) => b.wins - a.wins).slice(0, 5);
+            // 5. Club Victories Card & Table
+            const clubWinsSorted = Object.values(clubWins).filter(c => c.wins > 0 && c.club !== 'Independent').sort((a,b) => b.wins - a.wins).slice(0, 5);
             let clubWinsHtml = '';
             if (clubWinsSorted.length > 0) {
                 clubWinsSorted.forEach((c, i) => {
                     clubWinsHtml += `
                         <div class="row-item">
-                            <div><span class="rank-num">${i+1}</span><a href="club.html?club=${encodeURIComponent(c.name)}">${c.name}</a></div>
+                            <div><span class="rank-num">${i+1}</span><a href="club.html?club=${encodeURIComponent(c.club)}">${c.club}</a></div>
                             <div class="count-badge">${c.wins} Wins</div>
                         </div>`;
                 });
             } else {
                 clubWinsHtml = '<div style="padding:15px; color:#6b7280; font-style:italic;">No recorded club wins in data.</div>';
             }
-            document.getElementById('boxClubWins').innerHTML = clubWinsHtml;
-            document.getElementById('topClubWins').textContent = clubWinsSorted[0] ? `${clubWinsSorted[0].wins} Wins` : '-';
+            const boxClubWinsEl = document.getElementById('boxClubWins');
+            if (boxClubWinsEl) boxClubWinsEl.innerHTML = clubWinsHtml;
+            
+            const topClubWinsEl = document.getElementById('topClubWins');
+            const topClubNameEl = document.getElementById('topClubName');
+            if (topClubWinsEl) topClubWinsEl.textContent = clubWinsSorted[0] ? `${clubWinsSorted[0].wins} Wins` : '-';
+            if (topClubNameEl) topClubNameEl.textContent = clubWinsSorted[0] ? clubWinsSorted[0].club : '-';
 
-            // Set Total Records Global Metrics Value
-            document.getElementById('totalRecordsBroken').textContent = totalRecordsCount;
+            // Global Metrics Counter
+            const totalRecordsBrokenEl = document.getElementById('totalRecordsBroken');
+            if (totalRecordsBrokenEl) totalRecordsBrokenEl.textContent = totalRecordsCount;
         });
-    </script>
+    </script> 
 </body>
 </html>

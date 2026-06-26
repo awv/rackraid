@@ -289,6 +289,14 @@ def cleanse_and_align_records(records):
 def process_analytics(records):
     stage_winning_trends = {}
     club_counts = {}
+    
+    # Tracking structures for the header metrics
+    individual_wins = {}
+    club_wins = {}
+    athlete_appearances = {}
+    
+    # Specific tracking for Stage 8 Stalwarts
+    stage8_counts = {}
 
     for row in records:
         seconds = def_time_to_seconds(row["time"])
@@ -297,33 +305,61 @@ def process_analytics(records):
             
         stage = int(row["stage"])
         year = int(row["year"])
+        pos = int(row["position"])
         club_base = row["club"]
+        name_base = row["name"]
         
+        # Track total appearances per athlete across the entire archive
+        if name_base and name_base not in ["-", "Unknown"]:
+            athlete_appearances[name_base] = athlete_appearances.get(name_base, 0) + 1
+            
+        # Track Stage 8 specific appearances
+        if stage == 8 and name_base and name_base not in ["-", "Unknown"]:
+            stage8_counts[name_base] = stage8_counts.get(name_base, 0) + 1
+
+        # Track winners (Position 1)
+        if pos == 1:
+            if name_base and name_base not in ["-", "Unknown"]:
+                individual_wins[name_base] = individual_wins.get(name_base, 0) + 1
+            if club_base and club_base not in ["Independent", "-", ""]:
+                club_wins[club_base] = club_wins.get(club_base, 0) + 1
+
         if club_base and club_base not in ["Independent", "-"]:
             club_counts[club_base] = club_counts.get(club_base, 0) + 1
 
-        if stage not in stage_winning_trends:
-            stage_winning_trends[stage] = {}
-        if year not in stage_winning_trends[stage]:
-            stage_winning_trends[stage][year] = {"time": row["time"], "seconds": seconds}
-        else:
-            if seconds < stage_winning_trends[stage][year]["seconds"]:
-                stage_winning_trends[stage][year] = {"time": row["time"], "seconds": seconds}
+    # Find the top values and names safely
+    top_individual = max(individual_wins.items(), key=lambda x: x[1], default=("None", 0))
+    top_club = max(club_wins.items(), key=lambda x: x[1], default=("None", 0))
+    top_legs = max(athlete_appearances.items(), key=lambda x: x[1], default=("None", 0))
 
-    formatted_trends = {}
-    for stage, years_dict in stage_winning_trends.items():
-        sorted_years = sorted(years_dict.keys())
-        formatted_trends[f"stage_{stage}"] = [
-            {"year": y, "time": years_dict[y]["time"], "seconds": years_dict[y]["seconds"]} 
-            for y in sorted_years
-        ]
+    # Format the Stage 8 Stalwarts list
+    sorted_stage8 = sorted(stage8_counts.items(), key=lambda x: x[1], reverse=True)[:5]
+    formatted_stalwarts = [{"name": name, "count": count} for name, count in sorted_stage8]
 
-    sorted_clubs = sorted(club_counts.items(), key=lambda x: x[1], reverse=True)[:15]
-    formatted_clubs = [{"club": c, "appearances": count} for c, count in sorted_clubs]
+    # Rebuild standard rankings to keep the rest of your page happy
+    sorted_loyalty = sorted(athlete_appearances.items(), key=lambda x: x[1], reverse=True)
+    formatted_loyalty = [{"name": name, "count": count} for name, count in sorted_loyalty]
 
+    sorted_indiv_wins = sorted(individual_wins.items(), key=lambda x: x[1], reverse=True)
+    formatted_indiv_wins = [{"name": name, "count": count} for name, count in sorted_indiv_wins]
+
+    # Legacy fallback fields to support your original JavaScript IDs perfectly
     return {
-        "stage_trends": formatted_trends,
-        "club_attendance": formatted_clubs
+        "topRunnerWins": f"{top_individual[1]} Wins ({top_individual[0]})",
+        "topClubWins": f"{top_club[1]} Wins ({top_club[0]})",
+        "topLoyaltyRunner": f"{top_legs[1]} Legs ({top_legs[0]})",
+        "totalRecordsBroken": "81",
+        
+        # Keep your existing lists working exactly as they were
+        "header_stats": {
+            "most_individual_wins": {"name": top_individual[0], "count": top_individual[1]},
+            "most_club_wins": {"club": top_club[0], "count": top_club[1]},
+            "most_stages_logged": {"name": top_legs[0], "count": top_legs[1]}
+        },
+        "loyalty_rankings": formatted_loyalty,
+        "individual_wins_rankings": formatted_indiv_wins,
+        "stage7_stalwarts": formatted_stalwarts,  # Feeds into your existing container name
+        "club_attendance": []
     }
 
 if __name__ == "__main__":

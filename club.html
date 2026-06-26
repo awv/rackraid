@@ -5,37 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club Profile - Rack Raid Archive</title>
     <style>
-        body {
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            min-height: 100vh;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
             color: #333;
-            width: 95%;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 30px 20px;
-            background-color: #fcfcfc;
         }
+        
+        .page-wrapper {
+            background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+            min-height: 100vh;
+            width: 100%;
+            padding: 40px 20px;
+            box-sizing: border-box;
+        }
+
+        .content-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
         .back-link {
             display: inline-flex;
             align-items: center;
             gap: 5px;
-            color: #555;
+            color: #94a3b8;
             text-decoration: none;
             font-weight: 600;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
+            transition: color 0.15s ease;
         }
         .back-link:hover {
-            color: #222;
+            color: #ffffff;
         }
 
         /* PROFILE HEADER CONTAINER */
         .main-profile-container {
             background: #ffffff;
-            border: 1px solid #e5e7eb;
-            border-radius: 12px;
+            border-radius: 16px;
             padding: 40px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
-            margin-bottom: 40px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+            width: 100%;
         }
 
         .club-hero-panel {
@@ -188,6 +203,7 @@
         .font-bold { font-weight: 700; }
 
         @media screen and (max-width: 640px) {
+            .page-wrapper { padding: 20px 10px; }
             .main-profile-container { padding: 15px; border-radius: 6px; }
             .club-hero-panel { padding: 20px; text-align: center; }
             .club-hero-panel h1 { font-size: 2rem; }
@@ -200,66 +216,71 @@
 </head>
 <body>
 
-    <a href="index.html" onclick="window.history.back(); return false;" class="back-link">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <line x1="19" y1="12" x2="5" y2="12"></line>
-            <polyline points="12 19 5 12 12 5"></polyline>
-        </svg>
-        Back to Results Archive
-    </a>
+    <div class="page-wrapper">
+        <div class="content-container">
 
-    <div class="main-profile-container">
-        
-        <div id="clubHeroPanel" class="club-hero-panel">
-            <h1 id="clubName">-</h1>
-            <p id="clubMeta" class="club-meta-summary">Calculating club archive footprint...</p>
-        </div>
+            <a href="index.html" onclick="window.history.back(); return false;" class="back-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                    <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+                Back to Results Archive
+            </a>
 
-        <div class="stats-grid">
-            <div class="stat-card">
-                <div id="statTotalRaces" class="stat-value">0</div>
-                <div class="stat-label">Total Finishers</div>
-            </div>
-            <div class="stat-card">
-                <div id="statUniqueRunners" class="stat-value">0</div>
-                <div class="stat-label">Unique Athletes</div>
-            </div>
-            <div class="stat-card">
-                <div id="statClubWins" class="stat-value">0</div>
-                <div class="stat-label">Stage Victories</div>
-            </div>
-            <div class="stat-card">
-                <div id="statClubPodiums" class="stat-value">0</div>
-                <div class="stat-label">Podium Finishes</div>
-            </div>
-        </div>
-
-        <!-- LOYALTY ROSTER PANEL -->
-        <div class="dashboard-section">
-            <h2>Loyalty Leaderboard (Most Stages Run)</h2>
-            <div class="leaderboard-table">
-                <div class="leaderboard-header">
-                    <div>Rank</div>
-                    <div>Athlete Name</div>
-                    <div>Stages Run & Completion Matrix (1-14)</div>
+            <main class="main-profile-container">
+                
+                <div id="clubHeroPanel" class="club-hero-panel">
+                    <h1 id="clubName">-</h1>
+                    <p id="clubMeta" class="club-meta-summary">Calculating club archive footprint...</p>
                 </div>
-                <div id="loyaltyContainer"></div>
-            </div>
-        </div>
 
-        <!-- ELITE TILED PANEL -->
-        <div class="dashboard-section">
-            <h2>Stage Winners Circle</h2>
-            <div class="leaderboard-table">
-                <div class="leaderboard-header">
-                    <div>Rank</div>
-                    <div>Athlete Name</div>
-                    <div class="text-right">Stage Wins Breakdown</div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div id="statTotalRaces" class="stat-value">0</div>
+                        <div class="stat-label">Total Finishers</div>
+                    </div>
+                    <div class="stat-card">
+                        <div id="statUniqueRunners" class="stat-value">0</div>
+                        <div class="stat-label">Unique Athletes</div>
+                    </div>
+                    <div class="stat-card">
+                        <div id="statClubWins" class="stat-value">0</div>
+                        <div class="stat-label">Stage Victories</div>
+                    </div>
+                    <div class="stat-card">
+                        <div id="statClubPodiums" class="stat-value">0</div>
+                        <div class="stat-label">Podium Finishes</div>
+                    </div>
                 </div>
-                <div id="winnersContainer"></div>
-            </div>
-        </div>
 
+                <!-- LOYALTY ROSTER PANEL -->
+                <div class="dashboard-section">
+                    <h2>Loyalty Leaderboard (Most Stages Run)</h2>
+                    <div class="leaderboard-table">
+                        <div class="leaderboard-header">
+                            <div>Rank</div>
+                            <div>Athlete Name</div>
+                            <div>Stages Run & Completion Matrix (1-14)</div>
+                        </div>
+                        <div id="loyaltyContainer"></div>
+                    </div>
+                </div>
+
+                <!-- ELITE TILED PANEL -->
+                <div class="dashboard-section">
+                    <h2>Stage Winners Circle</h2>
+                    <div class="leaderboard-table">
+                        <div class="leaderboard-header">
+                            <div>Rank</div>
+                            <div>Athlete Name</div>
+                            <div class="text-right">Stage Wins Breakdown</div>
+                        </div>
+                        <div id="winnersContainer"></div>
+                    </div>
+                </div>
+
+            </main>
+        </div>
     </div>
 
     <script src="data.js"></script>
@@ -344,8 +365,12 @@
             let activeColor = "#111827";
 
             if (clubColorsMaster[clubKey]) {
+                // Read the prominent background color instead of text accent
+                const borderAccent = clubColorsMaster[clubKey].bg;
+                
+                // Fallback safely to a dark slate indicator if the club bg is white
+                panel.style.borderLeftColor = (borderAccent === '#ffffff') ? '#111827' : borderAccent;
                 activeColor = clubColorsMaster[clubKey].text;
-                panel.style.borderLeftColor = activeColor;
             } else {
                 panel.style.borderLeftColor = "#d1d5db";
             }
@@ -368,7 +393,7 @@
                             runs: 0, 
                             wins: 0, 
                             stages: new Set(),
-                            winDetails: [] // Array to hold individual year/stage details
+                            winDetails: []
                         };
                     }
                     runnerStats[cleanName].runs++;
@@ -412,11 +437,10 @@
                 });
                 document.getElementById('loyaltyContainer').innerHTML = loyaltyHtml;
 
-                // Render Winners Circle with expanded Year and Stage details
+                // Render Winners Circle
                 let winnersHtml = '';
                 if (winnersList.length > 0) {
                     winnersList.forEach((runner, idx) => {
-                        // Formats array as: "2019 Stage 7, 2024 Stage 1"
                         const breakdownText = runner.winDetails.join(', ');
                         
                         winnersHtml += `
