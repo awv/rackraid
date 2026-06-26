@@ -27,69 +27,78 @@
         .back-link:hover {
             color: #222;
         }
-        ..profile-header {
+        .profile-header {
             display: grid;
             grid-template-columns: max-content 1fr;
-            gap: 35px;
-            padding: 10px 0 30px 0; /* Removed background box, padding now aligns cleanly */
+            gap: 40px;
+            padding: 20px 0 40px 0;
             margin-bottom: 20px;
             align-items: center;
         }
         .profile-pic {
-            width: 180px;
-            height: 220px;
+            width: 200px;
+            height: 250px;
             border-radius: 8px;
             object-fit: cover;
-            background-color: #f0f0f0;
-            border: 1px solid #d1d5db;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Gives the photo depth */
-            transition: transform 0.2s ease;
+            background-color: #f3f4f6;
+            border: 1px solid #e5e7eb;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
         .profile-pic:hover {
-            transform: scale(1.02); /* Subtle hover interest */
+            transform: scale(1.015);
         }
         .profile-title h1 {
-            margin: 0 0 8px 0;
-            font-size: 2.6rem; /* Slightly larger name impact */
-            color: #111;
-            letter-spacing: -0.5px;
+            margin: 0 0 10px 0;
+            font-size: 3rem;
+            font-weight: 800;
+            color: #111827;
+            letter-spacing: -1.5px;
+            line-height: 1.1;
         }
         .profile-club {
-            font-size: 1.25rem;
+            font-size: 1.1rem;
             color: #4b5563;
-            font-weight: 500;
+            font-weight: 600;
             background-color: #f3f4f6;
             display: inline-block;
-            padding: 4px 12px;
+            padding: 4px 14px;
             border-radius: 6px;
             border: 1px solid #e5e7eb;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
         .stats-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            margin-bottom: 40px;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-bottom: 50px;
         }
         .stat-card {
-            background: #fff;
-            border: 1px solid #e1e1e1;
-            border-radius: 6px;
-            padding: 20px;
+            background: #ffffff;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 24px 20px;
             text-align: center;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+            transition: border-color 0.15s ease;
+        }
+        .stat-card:hover {
+            border-color: #d1d5db;
         }
         .stat-value {
-            font-size: 1.8rem;
-            font-weight: 700;
-            color: #222;
-            margin-bottom: 5px;
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #111827;
+            margin-bottom: 3px;
+            letter-spacing: -0.5px;
         }
         .stat-label {
-            font-size: 0.9rem;
-            color: #666;
-            font-weight: 600;
+            font-size: 0.8rem;
+            color: #6b7280;
+            font-weight: 700;
             text-transform: uppercase;
-            letter-spacing: 0.5px;
+            letter-spacing: 1px;
         }
         .history-block {
             background: #fff;
@@ -100,7 +109,6 @@
         }
         .history-header {
             display: grid;
-            /* Year (8%), Stage (12%), Course (35%), Pos (10%), Time (15%), Pace (20%) */
             grid-template-columns: 8% 12% 35% 10% 15% 20%;
             background-color: #f8f9fa;
             font-weight: 600;
@@ -149,25 +157,11 @@
         }
 
         @media screen and (max-width: 640px) {
-            .profile-header {
-                grid-template-columns: 1fr;
-                text-align: center;
-                padding: 20px;
-            }
-            .profile-pic {
-                margin: 0 auto;
-            }
-            .history-header {
-                display: none;
-            }
-            .history-row {
-                grid-template-columns: 1fr 1fr;
-                gap: 5px;
-                padding: 12px;
-            }
-            .history-row div {
-                text-align: left !important;
-            }
+            .profile-header { grid-template-columns: 1fr; text-align: center; padding: 20px; }
+            .profile-pic { margin: 0 auto; }
+            .history-header { display: none; }
+            .history-row { grid-template-columns: 1fr 1fr; gap: 5px; padding: 12px; }
+            .history-row div { text-align: left !important; }
             .history-row div:nth-child(1) { font-weight: 700; grid-column: 1; }
             .history-row div:nth-child(2) { font-weight: 700; grid-column: 2; text-align: right !important; }
             .history-row div:nth-child(3) { grid-column: 1 / span 2; color: #555; }
@@ -229,7 +223,6 @@
 
     <script src="data.js"></script>
     <script>
-        // Baseline course records lookup mapping inside the profile engine
         const courseRecords = {
             "2026": {"1":"00:31:14","2":"00:38:40","3":"00:43:25","4":"00:36:12","5":"00:41:20","6":"00:33:15","7":"00:39:45","8":"00:42:10","9":"00:35:50","10":"00:38:15","11":"00:40:05","12":"00:37:20","13":"00:44:10","14":"00:31:55"},
             "2025": {"1":"00:34:14","2":"00:39:15","3":"00:44:50","4":"00:37:00","5":"00:42:55","6":"00:34:20","7":"00:41:00","8":"00:43:40","9":"00:36:45","10":"00:39:30","11":"00:41:20","12":"00:38:50","13":"00:45:30","14":"00:32:40"},
@@ -250,7 +243,6 @@
             return `${mins}:${secs.toString().padStart(2, '0')}`;
         };
 
-        // Get the target athlete name from the URL parameters
         const urlParams = new URLSearchParams(window.location.search);
         const targetName = urlParams.get('name');
 
@@ -258,38 +250,30 @@
             document.title = `${targetName} - Athlete Profile`;
             document.getElementById('athleteName').textContent = targetName;
 
-            // Handle Photo File Name Normalisation (e.g., "Clare Patterson" -> "clare-patterson.jpg")
             const photoFileName = targetName.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-') + '.jpg';
             const imgElement = document.getElementById('athletePhoto');
             imgElement.src = `assets/images/athletes/${photoFileName}`;
             
-            // Fallback placeholder handle if photo file doesn't exist yet
             imgElement.onerror = function() {
                 this.src = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 24 24' fill='none' stroke='%23999' stroke-width='1.5'><path d='M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2'></path><circle cx='12' cy='7' r='4'></circle></svg>";
             };
 
-            // Query and process athlete records chronologically
             const runnerHistory = relayResults.filter(row => {
                 const cleanRowName = row.name.replace(/\s*\([MF]\d*\)\s*$/i, '').trim();
                 return cleanRowName.toLowerCase() === targetName.toLowerCase();
             }).sort((a, b) => b.year - a.year || a.stage - a.stage);
 
             if (runnerHistory.length > 0) {
-                // Scan their whole history to find their primary club, ignoring blank/individual placeholders
                 const clubTally = {};
                 runnerHistory.forEach(row => {
                     let c = row.club.replace(/\s*\(\d+\)\s*$/, '').trim();
                     if (c.toLowerCase() === 'parc') c = 'Parc Bryn Bach';
-                    
                     if (c && c !== '-' && c.toLowerCase() !== 'individual' && c.toLowerCase() !== 'unknown') {
                         clubTally[c] = (clubTally[c] || 0) + 1;
                     }
                 });
 
-                // Find the club they represented most often
                 let primaryClub = Object.keys(clubTally).reduce((a, b) => clubTally[a] > clubTally[b] ? a : b, null);
-                
-                // Fallback if they ONLY have placeholder entries in the data
                 if (!primaryClub) {
                     let mostRecent = runnerHistory[0].club.replace(/\s*\(\d+\)\s*$/, '').trim();
                     primaryClub = (mostRecent === '-' || mostRecent.toLowerCase() === 'individual') ? 'Independent' : mostRecent;
@@ -306,14 +290,12 @@
                     if (row.position === 1) wins++;
                     if (row.position < highestPos) highestPos = row.position;
 
-                    // Calculate standing record milestones
                     const standingRecord = courseRecords[row.year.toString()] ? courseRecords[row.year.toString()][row.stage.toString()] : null;
                     const runSeconds = defTimeToSeconds(row.time);
                     const brokeRecord = standingRecord && runSeconds <= defTimeToSeconds(standingRecord);
                     
                     if (brokeRecord) recordsBroken++;
 
-                    // Calculate split pace stats using the dataset attributes
                     const miles = row.miles || null;
                     const km = row.km || null;
                     const milePace = formatPaceValue(runSeconds, miles);
@@ -325,7 +307,6 @@
                     let displayClub = row.club.replace(/\s*\(\d+\)\s*$/, '').trim();
                     if (displayClub.toLowerCase() === 'parc') displayClub = 'Parc Bryn Bach';
 
-                    // Fall back to their primary career club if this specific year is marked as an anomaly
                     if (!displayClub || displayClub === '-' || displayClub.toLowerCase() === 'individual') {
                         displayClub = primaryClub;
                     }

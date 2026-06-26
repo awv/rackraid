@@ -8,7 +8,7 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
-            color: #333;
+            color: #374151;
             width: 95%;
             max-width: 1600px;
             margin: 0 auto;
@@ -16,22 +16,38 @@
             background-color: #fcfcfc;
         }
         h1 {
-            font-size: 2.2rem;
+            font-size: 2.6rem;
+            font-weight: 800;
             text-align: center;
-            margin-bottom: 5px;
-            color: #111;
+            margin-top: 20px;
+            margin-bottom: 6px;
+            color: #111827;
+            letter-spacing: -1px;
         }
         .subtitle {
             text-align: center;
-            color: #666;
-            margin-bottom: 30px;
-            font-size: 1.1rem;
+            color: #6b7280;
+            margin-bottom: 35px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+        .search-panel {
+            background: #ffffff;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 28px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            margin-bottom: 35px;
         }
         .year-tabs-label {
-            font-size: 0.95rem;
-            font-weight: 600;
-            color: #444;
-            margin-bottom: 8px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: #374151;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 10px;
         }
         .year-tabs {
             display: flex;
@@ -40,35 +56,27 @@
             margin-bottom: 25px;
         }
         .year-tab {
-            padding: 10px 20px;
-            font-size: 15px;
+            padding: 8px 16px;
+            font-size: 14px;
             font-weight: 600;
-            background-color: #fff;
-            border: 1px solid #ccc;
-            border-radius: 4px;
+            background-color: #f9fafb;
+            border: 1px solid #e5e7eb;
+            border-radius: 6px;
             cursor: pointer;
-            color: #555;
-            transition: all 0.15s ease;
+            color: #4b5563;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
         }
         .year-tab:hover {
-            background-color: #f5f5f5;
-            color: #222;
-            border-color: #999;
+            background-color: #f3f4f6;
+            color: #111827;
+            border-color: #d1d5db;
         }
         .year-tab.active {
-            background-color: #222;
-            color: #fff;
-            border-color: #222;
+            background-color: #111827;
+            color: #ffffff;
+            border-color: #111827;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-        .search-panel {
-            background: #fff;
-            border: 1px solid #e1e1e1;
-            border-radius: 6px;
-            padding: 25px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-            margin-bottom: 30px;
-        }
-        
         .search-grid {
             display: grid;
             grid-template-columns: 2fr 1fr;
@@ -82,82 +90,84 @@
             align-items: center;
         }
         input, select {
-            padding: 12px;
-            font-size: 15px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            background-color: #fff;
+            padding: 12px 14px;
+            font-size: 14px;
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            background-color: #ffffff;
+            color: #111827;
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.02);
             width: 100%;
             box-sizing: border-box;
+            transition: border-color 0.15s ease, box-shadow 0.15s ease;
         }
         input:focus, select:focus {
-            border-color: #222;
+            border-color: #4b5563;
             outline: none;
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.02), 0 0 0 3px rgba(156, 163, 175, 0.15);
         }
         .btn {
             padding: 12px 24px;
-            font-size: 15px;
+            font-size: 14px;
             font-weight: 600;
-            border-radius: 4px;
+            border-radius: 6px;
             cursor: pointer;
             transition: all 0.15s ease;
             box-sizing: border-box;
         }
         .btn-primary {
-            background-color: #222;
-            color: #fff;
-            border: 1px solid #222;
+            background-color: #111827;
+            color: #ffffff;
+            border: 1px solid #111827;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
         }
         .btn-primary:hover {
-            background-color: #444;
-            border-color: #444;
+            background-color: #1f2937;
+            border-color: #1f2937;
         }
         .btn-secondary {
-            background-color: #fff;
-            color: #555;
-            border: 1px solid #ccc;
+            background-color: #ffffff;
+            color: #4b5563;
+            border: 1px solid #d1d5db;
         }
         .btn-secondary:hover {
-            background-color: #f5f5f5;
-            color: #333;
+            background-color: #f9fafb;
+            color: #111827;
+            border-color: #e5e7eb;
         }
         .initial-state {
             text-align: center;
             padding: 60px 20px;
-            border: 2px dashed #e1e1e1;
+            border: 2px dashed #e5e7eb;
             border-radius: 6px;
-            color: #777;
-            background-color: #fff;
+            color: #6b7280;
+            background-color: #ffffff;
         }
 
-        /* FLEXBOX ARCHIVE BASE BLOCKS */
         .results-block {
             width: 100%;
             margin-top: 10px;
             margin-bottom: 40px;
-            background: #fff;
+            background: #ffffff;
             box-shadow: 0 1px 3px rgba(0,0,0,0.02);
-            border: 1px solid #e1e1e1;
-            border-radius: 4px;
+            border: 1px solid #e5e7eb;
+            border-top: none;
+            border-radius: 0 0 6px 6px;
         }
         .results-table-header {
             display: grid;
             grid-template-columns: 6% 34% 36% 12% 12%;
             background-color: #f8f9fa;
             font-weight: 600;
-            color: #444;
-            border-bottom: 2px solid #e1e1e1;
+            color: #4b5563;
+            border-bottom: 2px solid #e5e7eb;
             padding: 12px 14px;
             position: sticky;
             top: 0;
             z-index: 3;
             box-sizing: border-box;
         }
-        /* Align over the leg time numbers */
-        .results-table-header div:nth-child(4) {
-            text-align: right;
-        }
-        /* Align over the split pace numbers */
+        .results-table-header div:nth-child(4),
         .results-table-header div:nth-child(5) {
             text-align: right;
         }
@@ -165,24 +175,27 @@
             display: grid;
             grid-template-columns: 6% 34% 36% 12% 12%;
             padding: 12px 14px;
-            border-bottom: 1px solid #eee;
+            border-bottom: 1px solid #f3f4f6;
             align-items: center;
         }
         .results-row:last-child {
             border-bottom: none;
         }
-        .results-row-strip-even {
-            background-color: #fcfcfc;
-        }
-        .results-row-strip-odd {
-            background-color: #ffffff;
-        }
+        .results-row-strip-even { background-color: #fcfcfc; }
+        .results-row-strip-odd { background-color: #ffffff; }
 
-        .cell-time {
+        .cell-time, .cell-pace {
             text-align: right;
         }
-        .cell-pace {
-            text-align: right;
+        .cell-name a {
+            color: #111827 !important;
+            border-bottom: 1px solid transparent !important;
+            text-decoration: none;
+            transition: color 0.15s ease, border-color 0.15s ease !important;
+        }
+        .cell-name a:hover {
+            color: #4b5563 !important;
+            border-color: #4b5563 !important;
         }
 
         .record-breaker-time {
@@ -194,7 +207,7 @@
             box-shadow: inset 0 0 0 1px #ceead6;
             display: inline-block;
             text-align: right;
-            min-width: 65px; /* Ensures the bounding box forces right-alignment parity */
+            min-width: 65px;
         }
         .record-badge {
             font-size: 11px;
@@ -206,29 +219,27 @@
             margin-left: 10px;
             border: 1px solid #bee3f8;
         }
-
         .year-heading {
-            background-color: #222;
-            color: #fff;
-            font-size: 18px;
-            font-weight: 600;
-            padding: 10px 15px;
-            margin-top: 40px;
-            margin-bottom: 0;
-            border-radius: 4px 4px 0 0;
+            background-color: #111827;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            padding: 12px 18px;
+            margin-top: 45px;
+            border-radius: 6px 6px 0 0;
         }
-
-        /* STICKY STAGE NAVIGATION INDICATOR */
         .stage-header-row {
             position: sticky;
             top: 45px;
             z-index: 2;
-            background-color: #f1f3f5;
+            background-color: #f9fafb;
             font-weight: bold;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-            padding: 12px 14px;
-            color: #343a40;
-            border-bottom: 2px solid #dee2e6;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+            padding: 14px 18px;
+            color: #1f2937;
+            border-bottom: 1px solid #e5e7eb;
         }
         .stage-header-container {
             display: flex;
@@ -241,50 +252,44 @@
             align-items: center;
             flex-wrap: wrap;
         }
-        
-        /* RESULT THEME MODIFIERS */
         .winner-row {
             font-weight: bold;
             color: #b58900;
             background-color: #fffdf5;
         }
-        .winner-row-border {
-            border-bottom: 1px solid #f9f1d1;
-        }
+        .winner-row-border { border-bottom: 1px solid #f9f1d1; }
         .cutoff-row {
             font-weight: bold;
             color: #d9534f;
             background-color: #fdf6f6;
         }
-        .cutoff-row-border {
-            border-bottom: 1px solid #f7e1e1;
-        }
+        .cutoff-row-border { border-bottom: 1px solid #f7e1e1; }
 
         .meta-info {
             font-size: 14px;
-            color: #555;
+            color: #4b5563;
             margin-bottom: 15px;
             font-weight: 500;
         }
         .stage-title {
             font-weight: normal;
             font-size: 13px;
-            color: #6c757d;
+            color: #6b7280;
             margin-left: 8px;
         }
         .stage-distance {
-            font-weight: 600;
-            font-size: 13px;
-            color: #4a5568;
-            background-color: #edf2f7;
-            padding: 2px 8px;
+            font-weight: 700;
+            font-size: 12px;
+            color: #374151;
+            background-color: #f3f4f6;
+            border: 1px solid #e5e7eb;
+            padding: 3px 8px;
             border-radius: 4px;
             margin-left: 10px;
-            border: 1px solid #cbd5e0;
         }
         .cutoff-badge {
             font-size: 11px;
-            background-color: #6c757d;
+            background-color: #4b5563;
             color: white;
             padding: 2px 8px;
             border-radius: 12px;
@@ -293,48 +298,26 @@
         .pace-subtext {
             display: block;
             font-size: 11px;
-            color: #777;
+            color: #6b7280;
             font-weight: normal;
             margin-top: 2px;
         }
 
-        /* --- RESPONSIVE MOBILE SELECTORS --- */
         @media screen and (max-width: 640px) {
-            body {
-                padding: 15px 10px;
-            }
-            h1 {
-                font-size: 1.8rem;
-            }
-            div.search-panel {
-                padding: 15px;
-                margin-bottom: 20px;
-            }
+            body { padding: 15px 10px; }
+            h1 { font-size: 1.8rem; }
+            div.search-panel { padding: 15px; margin-bottom: 20px; }
             div.search-panel div.year-tabs {
                 display: grid;
                 grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
                 gap: 8px;
                 width: 100%;
             }
-            div.search-panel div.year-tabs button.year-tab {
-                width: 100%;
-                margin: 0;
-                padding: 8px 4px;
-                text-align: center;
-            }
-            div.search-panel div.search-grid {
-                grid-template-columns: 1fr;
-                gap: 12px;
-            }
-            div.search-panel div.action-bar {
-                justify-content: space-between;
-            }
-            div.search-panel div.action-bar button {
-                flex: 1;
-            }
-            div.results-block div.results-table-header {
-                display: none;
-            }
+            div.search-panel div.year-tabs button.year-tab { width: 100%; margin: 0; padding: 8px 4px; text-align: center; }
+            div.search-panel div.search-grid { grid-template-columns: 1fr; gap: 12px; }
+            div.search-panel div.action-bar { justify-content: space-between; }
+            div.search-panel div.action-bar button { flex: 1; }
+            div.results-block div.results-table-header { display: none; }
             div.results-block div.results-row {
                 position: relative;
                 display: grid;
@@ -344,55 +327,16 @@
                 padding: 10px 8px 10px 32px;
             }
             div.results-row div.cell-position {
-                position: absolute;
-                left: 8px;
-                top: 10px;
-                width: 20px;
-                font-weight: 700;
-                font-size: 1.05rem;
-                text-align: left;
+                position: absolute; left: 8px; top: 10px; width: 20px; font-weight: 700; font-size: 1.05rem; text-align: left;
             }
-            div.results-row div.cell-name {
-                grid-column: 1;
-                grid-row: 1;
-                font-weight: 600;
-                font-size: 0.95rem;
-                text-align: left;
-            }
-            div.results-row div.cell-time {
-                grid-column: 2;
-                grid-row: 1;
-                font-weight: 700;
-                font-size: 1rem;
-                text-align: right;
-            }
-            div.results-row div.cell-club {
-                grid-column: 1;
-                font-size: 0.85rem;
-                color: #4b5563;
-                text-align: left;
-            }
-            div.results-row div.cell-pace {
-                grid-column: 2;
-                font-size: 0.75rem;
-                color: #6b7280;
-                text-align: right;
-                line-height: 1.2;
-            }
-            div.results-block div.stage-header-row {
-                padding: 12px 8px;
-            }
-            div.stage-header-row div.stage-header-container {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 6px;
-            }
-            div.stage-header-container div.stage-header-left {
-                width: 100%;
-            }
-            div.stage-header-container span.stage-cutoff {
-                margin-top: 4px;
-            }
+            div.results-row div.cell-name { grid-column: 1; grid-row: 1; font-weight: 600; font-size: 0.95rem; text-align: left; }
+            div.results-row div.cell-time { grid-column: 2; grid-row: 1; font-weight: 700; font-size: 1rem; text-align: right; }
+            div.results-row div.cell-club { grid-column: 1; font-size: 0.85rem; color: #4b5563; text-align: left; }
+            div.results-row div.cell-pace { grid-column: 2; font-size: 0.75rem; color: #6b7280; text-align: right; line-height: 1.2; }
+            div.results-block div.stage-header-row { padding: 12px 8px; }
+            div.stage-header-row div.stage-header-container { flex-direction: column; align-items: flex-start; gap: 6px; }
+            div.stage-header-container div.stage-header-left { width: 100%; }
+            div.stage-header-container span.stage-cutoff { margin-top: 4px; }
         }
     </style>
 </head>
@@ -441,23 +385,10 @@
 
         let activeSelectedYear = "";
 
-        // Standing baseline course records before the starting gun fired for that specific year
         const courseRecords = {
-            "2026": {
-                "1": "00:31:14", "2": "00:38:40", "3": "00:43:25", "4": "00:36:12", "5": "00:41:20",
-                "6": "00:33:15", "7": "00:39:45", "8": "00:42:10", "9": "00:35:50", "10": "00:38:15",
-                "11": "00:40:05", "12": "00:37:20", "13": "00:44:10", "14": "00:31:55"
-            },
-            "2025": {
-                "1": "00:34:14", "2": "00:39:15", "3": "00:44:50", "4": "00:37:00", "5": "00:42:55",
-                "6": "00:34:20", "7": "00:41:00", "8": "00:43:40", "9": "00:36:45", "10": "00:39:30",
-                "11": "00:41:20", "12": "00:38:50", "13": "00:45:30", "14": "00:32:40"
-            },
-            "2024": {
-                "1": "00:35:40", "2": "00:40:20", "3": "00:45:12", "4": "00:38:10", "5": "00:43:15",
-                "6": "00:35:05", "7": "00:42:15", "8": "00:44:55", "9": "00:37:30", "10": "00:40:45",
-                "11": "00:42:50", "12": "00:39:15", "13": "00:46:20", "14": "00:33:10"
-            }
+            "2026": {"1":"00:31:14","2":"00:38:40","3":"00:43:25","4":"00:36:12","5":"00:41:20","6":"00:33:15","7":"00:39:45","8":"00:42:10","9":"00:35:50","10":"00:38:15","11":"00:40:05","12":"00:37:20","13":"00:44:10","14":"00:31:55"},
+            "2025": {"1":"00:34:14","2":"00:39:15","3":"00:44:50","4":"00:37:00","5":"00:42:55","6":"00:34:20","7":"00:41:00","8":"00:43:40","9":"00:36:45","10":"00:39:30","11":"00:41:20","12":"00:38:50","13":"00:45:30","14":"00:32:40"},
+            "2024": {"1":"00:35:40","2":"00:40:20","3":"00:45:12","4":"00:38:10","5":"00:43:15","6":"00:35:05","7":"00:42:15","8":"00:44:55","9":"00:37:30","10":"00:40:45","11":"00:42:50","12":"00:39:15","13":"00:46:20","14":"00:33:10"}
         };
 
         const uniqueYears = [...new Set(relayResults.map(r => r.year))].sort((a,b) => b-a);
@@ -496,6 +427,17 @@
             return `${mins}:${secs.toString().padStart(2, '0')}`;
         };
 
+        window.saveArchiveState = function(athleteTarget) {
+            const state = {
+                year: activeSelectedYear,
+                stage: stageSelect.value,
+                search: queryInput.value,
+                scrollPosition: window.scrollY,
+                highlightAthlete: athleteTarget
+            };
+            sessionStorage.setItem('archive_view_state', JSON.stringify(state));
+        };
+
         function performSearch() {
             const searchTerm = queryInput.value.toLowerCase().trim();
             const selectedStage = stageSelect.value;
@@ -503,19 +445,10 @@
             const processedResults = relayResults.map(row => {
                 let cleanedClub = row.club || '';
                 let cleanedName = row.name || '';
-
                 let clubBase = cleanedClub.replace(/\s*\(\d+\)\s*$/, '').trim();
 
-                if (clubBase.toLowerCase() === 'parc') {
-                    cleanedClub = 'Parc Bryn Bach';
-                } else {
-                    cleanedClub = clubBase;
-                }
-
-                if (cleanedClub.toLowerCase() === 'individual' || cleanedClub === '-') {
-                    cleanedClub = '-';
-                }
-
+                if (clubBase.toLowerCase() === 'parc') { cleanedClub = 'Parc Bryn Bach'; } else { cleanedClub = clubBase; }
+                if (cleanedClub.toLowerCase() === 'individual' || cleanedClub === '-') { cleanedClub = '-'; }
                 cleanedName = cleanedName.replace(/\s*\([MF]\d*\)\s*$/i, '').trim();
 
                 return { ...row, club: cleanedClub, name: cleanedName };
@@ -523,9 +456,7 @@
 
             const filtered = processedResults.filter(row => {
                 if (defTimeToSeconds(row.time) < 600) return false;
-
-                const matchesSearch = row.name.toLowerCase().includes(searchTerm) || 
-                                      row.club.toLowerCase().includes(searchTerm);
+                const matchesSearch = row.name.toLowerCase().includes(searchTerm) || row.club.toLowerCase().includes(searchTerm);
                 const matchesYear = activeSelectedYear === "" || row.year.toString() === activeSelectedYear;
                 const matchesStage = selectedStage === "" || row.stage.toString() === selectedStage;
                 return matchesSearch && matchesYear && matchesStage;
@@ -571,10 +502,8 @@
                     const miles = stageRows[0]?.miles || null;
                     const km = stageRows[0]?.km || null;
 
-                    // Grab the standing historical course record target baseline
                     const standingRecord = courseRecords[year] ? courseRecords[year][stage] : null;
                     
-                    // Show historical record header badge ONLY when browsing a specific season
                     let recordLabel = '';
                     if (activeSelectedYear !== "" && standingRecord) {
                         recordLabel = `<span class="record-badge">Course Record: ${standingRecord}</span>`;
@@ -605,9 +534,6 @@
                         const isWinner = row.position === 1;
                         const runSeconds = defTimeToSeconds(row.time);
                         const missedCutoff = cutOffTime && runSeconds > defTimeToSeconds(cutOffTime);
-                        
-                        // Check if runner broke the historic milestone baseline
-                        // Check if runner matched or broke the historic milestone baseline
                         const brokeRecord = standingRecord && runSeconds <= defTimeToSeconds(standingRecord);
                         
                         const milePace = formatPaceValue(runSeconds, miles);
@@ -620,7 +546,6 @@
                             rowModifierClass += ' winner-row winner-row-border';
                         }
                         
-                        // Construct clean, valid grid cell element blocks
                         let timeMarkup = brokeRecord ? 
                             `<div class="cell-time"><span class="record-breaker-time">${row.time}</span></div>` : 
                             `<div class="cell-time">${row.time}</div>`;
@@ -628,7 +553,7 @@
                         htmlOutput += `
                             <div class="results-row ${rowModifierClass}">
                                 <div class="cell-position">${row.position}</div>
-                                <div class="cell-name"><a href="athlete.html?name=${encodeURIComponent(row.name)}" onclick="saveArchiveState('${encodeURIComponent(row.name)}')" style="color: #222; text-decoration: none; font-weight: 600; border-bottom: 1px dashed #999;">${row.name}</a></div>
+                                <div class="cell-name"><a href="athlete.html?name=${encodeURIComponent(row.name)}" onclick="saveArchiveState('${encodeURIComponent(row.name)}')" style="font-weight: 600;">${row.name}</a></div>
                                 <div class="cell-club">${row.club}</div>
                                 ${timeMarkup}
                                 <div class="cell-pace">
@@ -646,13 +571,9 @@
         }
 
         function resetInterface() {
-            queryInput.value = "";
-            stageSelect.value = "";
-            activeSelectedYear = "";
-            
+            queryInput.value = ""; stageSelect.value = ""; activeSelectedYear = "";
             document.querySelectorAll('.year-tab').forEach(t => t.classList.remove('active'));
             document.querySelector('.year-tab[data-year=""]').classList.add('active');
-            
             metaContainer.style.display = "none";
             resultsContainer.innerHTML = `
                 <div class="initial-state">
@@ -666,49 +587,16 @@
 
         searchBtn.addEventListener('click', performSearch);
         clearBtn.addEventListener('click', resetInterface);
-        // --- DEEP LINKING URL PARAMETER INTERCEPTOR ---
-        window.addEventListener('DOMContentLoaded', () => {
-            const params = new URLSearchParams(window.location.search);
-            const urlYear = params.get('year');
-            const urlStage = params.get('stage');
-
-            if (urlYear || urlStage) {
-                if (urlYear) {
-                    activeSelectedYear = urlYear;
-                    // Deactivate the "All Years" default tab visual state
-                    document.querySelectorAll('.year-tab').forEach(t => t.classList.remove('active'));
-                    // Find and activate the matching year tab button element
-                    const targetTab = document.querySelector(`.year-tab[data-year="${urlYear}"]`);
-                    if (targetTab) targetTab.classList.add('active');
-                }
-
-                if (urlStage) {
-                    stageSelect.value = urlStage;
-                }
-
-                // Fire the search engine immediately using the pre-populated values
-                performSearch();
-            }
+        
+        queryInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') { performSearch(); }
         });
-        // 1. Save the user's current view state before they navigate away
-        window.saveArchiveState = function(athleteTarget) {
-            const state = {
-                year: activeSelectedYear,
-                stage: stageSelect.value,
-                search: queryInput.value,
-                scrollPosition: window.scrollY,
-                highlightAthlete: athleteTarget
-            };
-            sessionStorage.setItem('archive_view_state', JSON.stringify(state));
-        };
 
-        // 2. Intercept page load to check if we are returning from a profile
         window.addEventListener('DOMContentLoaded', () => {
             const params = new URLSearchParams(window.location.search);
             const urlYear = params.get('year');
             const urlStage = params.get('stage');
 
-            // Handle direct deep links from athlete history rows first
             if (urlYear || urlStage) {
                 if (urlYear) {
                     activeSelectedYear = urlYear;
@@ -721,32 +609,23 @@
                 return;
             }
 
-            // Restore state if the user is hitting 'Back'
             const savedStateStr = sessionStorage.getItem('archive_view_state');
             if (savedStateStr) {
                 const state = JSON.parse(savedStateStr);
-                
-                // Clear out the storage token so it doesn't lock forever on fresh visits
                 sessionStorage.removeItem('archive_view_state');
 
-                // Restore form control inputs
                 activeSelectedYear = state.year;
                 stageSelect.value = state.stage;
                 queryInput.value = state.search;
 
-                // Reset year tab button highlights
                 document.querySelectorAll('.year-tab').forEach(t => t.classList.remove('active'));
                 const targetTab = document.querySelector(`.year-tab[data-year="${state.year}"]`);
                 if (targetTab) targetTab.classList.add('active');
 
-                // Re-run search query array evaluation loops
                 performSearch();
 
-                // Wait a split second for the browser to draw the layout, then snap back to position
                 setTimeout(() => {
                     window.scrollTo({ top: state.scrollPosition, behavior: 'instant' });
-                    
-                    // Optional: Gently pulsate or highlight the targeted athlete link row if needed
                 }, 50);
             }
         });
