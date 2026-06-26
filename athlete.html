@@ -27,35 +27,42 @@
         .back-link:hover {
             color: #222;
         }
-        .profile-header {
+        ..profile-header {
             display: grid;
             grid-template-columns: max-content 1fr;
-            gap: 30px;
-            background: #fff;
-            border: 1px solid #e1e1e1;
-            border-radius: 6px;
-            padding: 30px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-            margin-bottom: 30px;
+            gap: 35px;
+            padding: 10px 0 30px 0; /* Removed background box, padding now aligns cleanly */
+            margin-bottom: 20px;
             align-items: center;
         }
         .profile-pic {
-            width: 150px;
-            height: 150px;
-            border-radius: 6px;
+            width: 180px;
+            height: 220px;
+            border-radius: 8px;
             object-fit: cover;
             background-color: #f0f0f0;
-            border: 1px solid #ccc;
+            border: 1px solid #d1d5db;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Gives the photo depth */
+            transition: transform 0.2s ease;
+        }
+        .profile-pic:hover {
+            transform: scale(1.02); /* Subtle hover interest */
         }
         .profile-title h1 {
-            margin: 0 0 5px 0;
-            font-size: 2.2rem;
+            margin: 0 0 8px 0;
+            font-size: 2.6rem; /* Slightly larger name impact */
             color: #111;
+            letter-spacing: -0.5px;
         }
         .profile-club {
-            font-size: 1.2rem;
-            color: #666;
+            font-size: 1.25rem;
+            color: #4b5563;
             font-weight: 500;
+            background-color: #f3f4f6;
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 6px;
+            border: 1px solid #e5e7eb;
         }
         .stats-grid {
             display: grid;
@@ -93,7 +100,8 @@
         }
         .history-header {
             display: grid;
-            grid-template-columns: 10% 15% 35% 20% 20%;
+            /* Year (8%), Stage (12%), Course (35%), Pos (10%), Time (15%), Pace (20%) */
+            grid-template-columns: 8% 12% 35% 10% 15% 20%;
             background-color: #f8f9fa;
             font-weight: 600;
             color: #444;
@@ -102,7 +110,7 @@
         }
         .history-row {
             display: grid;
-            grid-template-columns: 10% 15% 35% 20% 20%;
+            grid-template-columns: 8% 12% 35% 10% 15% 20%;
             padding: 14px;
             border-bottom: 1px solid #eee;
             align-items: center;
@@ -115,6 +123,17 @@
         }
         .text-right {
             text-align: right;
+        }
+        .pace-column {
+            text-align: right;
+            line-height: 1.3;
+        }
+        .pace-subtext {
+            display: block;
+            font-size: 11px;
+            color: #777;
+            font-weight: normal;
+            margin-top: 2px;
         }
         .badge-win {
             background-color: #fffdf5;
@@ -153,13 +172,14 @@
             .history-row div:nth-child(2) { font-weight: 700; grid-column: 2; text-align: right !important; }
             .history-row div:nth-child(3) { grid-column: 1 / span 2; color: #555; }
             .history-row div:nth-child(4) { grid-column: 1; font-weight: 600; }
-            .history-row div:nth-child(5) { grid-column: 2; text-align: right !important; }
+            .history-row div:nth-child(5) { grid-column: 2; text-align: right !important; font-weight: 600; }
+            .history-row div:nth-child(6) { grid-column: 1 / span 2; text-align: right !important; font-size: 0.85rem; color: #555; border-top: 1px dashed #eee; padding-top: 4px; margin-top: 4px; }
         }
     </style>
 </head>
 <body>
 
-    <a href="index.html" class="back-link">
+    <a href="index.html" onclick="window.history.back(); return false;" class="back-link">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <line x1="19" y1="12" x2="5" y2="12"></line>
             <polyline points="12 19 5 12 12 5"></polyline>
@@ -202,6 +222,7 @@
             <div>Course Leg Info</div>
             <div class="text-right">Pos</div>
             <div class="text-right">Time</div>
+            <div class="text-right">Pace</div>
         </div>
         <div id="historyRowsContainer"></div>
     </div>
@@ -219,6 +240,14 @@
             if (!tStr) return 0;
             const p = tStr.split(':');
             return parseInt(p[0],10) * 3600 + parseInt(p[1],10) * 60 + parseInt(p[2],10);
+        };
+
+        const formatPaceValue = (totalSeconds, distance) => {
+            if (!distance || totalSeconds <= 0) return "-";
+            const paceSecs = Math.round(totalSeconds / distance);
+            const mins = Math.floor(paceSecs / 60);
+            const secs = paceSecs % 60;
+            return `${mins}:${secs.toString().padStart(2, '0')}`;
         };
 
         // Get the target athlete name from the URL parameters
@@ -246,10 +275,27 @@
             }).sort((a, b) => b.year - a.year || a.stage - a.stage);
 
             if (runnerHistory.length > 0) {
-                // Determine their primary/most recent club representation
-                let latestClub = runnerHistory[0].club.replace(/\s*\(\d+\)\s*$/, '').trim();
-                if (latestClub.toLowerCase() === 'parc') latestClub = 'Parc Bryn Bach';
-                document.getElementById('athleteClub').textContent = latestClub === '-' ? 'Independent' : latestClub;
+                // Scan their whole history to find their primary club, ignoring blank/individual placeholders
+                const clubTally = {};
+                runnerHistory.forEach(row => {
+                    let c = row.club.replace(/\s*\(\d+\)\s*$/, '').trim();
+                    if (c.toLowerCase() === 'parc') c = 'Parc Bryn Bach';
+                    
+                    if (c && c !== '-' && c.toLowerCase() !== 'individual' && c.toLowerCase() !== 'unknown') {
+                        clubTally[c] = (clubTally[c] || 0) + 1;
+                    }
+                });
+
+                // Find the club they represented most often
+                let primaryClub = Object.keys(clubTally).reduce((a, b) => clubTally[a] > clubTally[b] ? a : b, null);
+                
+                // Fallback if they ONLY have placeholder entries in the data
+                if (!primaryClub) {
+                    let mostRecent = runnerHistory[0].club.replace(/\s*\(\d+\)\s*$/, '').trim();
+                    primaryClub = (mostRecent === '-' || mostRecent.toLowerCase() === 'individual') ? 'Independent' : mostRecent;
+                }
+
+                document.getElementById('athleteClub').textContent = primaryClub;
 
                 let wins = 0;
                 let recordsBroken = 0;
@@ -267,12 +313,24 @@
                     
                     if (brokeRecord) recordsBroken++;
 
+                    // Calculate split pace stats using the dataset attributes
+                    const miles = row.miles || null;
+                    const km = row.km || null;
+                    const milePace = formatPaceValue(runSeconds, miles);
+                    const kmPace = formatPaceValue(runSeconds, km);
+
                     let rowClass = row.position === 1 ? 'history-row badge-win' : 'history-row';
                     let timeDisplay = brokeRecord ? `<span class="record-tag">${row.time}</span>` : row.time;
+                    
                     let displayClub = row.club.replace(/\s*\(\d+\)\s*$/, '').trim();
                     if (displayClub.toLowerCase() === 'parc') displayClub = 'Parc Bryn Bach';
 
-                   htmlOutput += `
+                    // Fall back to their primary career club if this specific year is marked as an anomaly
+                    if (!displayClub || displayClub === '-' || displayClub.toLowerCase() === 'individual') {
+                        displayClub = primaryClub;
+                    }
+
+                    htmlOutput += `
                         <div class="${rowClass}">
                             <div><strong>${row.year}</strong></div>
                             <div style="grid-column: 2 / span 2;">
@@ -284,6 +342,10 @@
                             </div>
                             <div class="text-right"><strong>${row.position}</strong></div>
                             <div class="text-right">${timeDisplay}</div>
+                            <div class="pace-column">
+                                <strong>${milePace}</strong> <span style="font-size:11px;color:#555;">/mi</span>
+                                <span class="pace-subtext">${kmPace} /km</span>
+                            </div>
                         </div>`;
                 });
 
