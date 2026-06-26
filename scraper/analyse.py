@@ -2,6 +2,136 @@ import os
 import re
 import json
 
+CLUB_NAME_REGISTRY = {
+    # Aberdare
+    "aberdare": "Aberdare",
+    
+    # Albany Road
+    "albany road": "Albany Road Run Club",
+    "albany road rc": "Albany Road Run Club",
+    
+    # Brackla
+    "brackla": "Brackla Harriers",
+    "brackla harriers": "Brackla Harriers",
+    
+    # Builth
+    "builth": "Builth & District RC",
+    "builth & district": "Builth & District RC",
+    "builth & district rc": "Builth & District RC",
+    
+    # Caerleon
+    "caerleon": "Caerleon RC",
+    "caerleon rc": "Caerleon RC",
+    
+    # Caerphilly
+    "caerphilly": "Caerphilly Runners",
+    "caerphilly runners": "Caerphilly Runners",
+    
+    # Caldicot
+    "caldicot": "Caldicot RC",
+    "caldicot rc": "Caldicot RC",
+    
+    # CDF
+    "cdf": "CDF Runners",
+    "cdf runners": "CDF Runners",
+    
+    # Chepstow
+    "chepstow": "Chepstow Harriers",
+    "chepstow harriers": "Chepstow Harriers",
+    "chepstow a": "Chepstow Harriers (A)",
+    "chepstow b": "Chepstow Harriers (B)",
+    
+    # Cornelly
+    "cornelly": "Cornelly Striders",
+    "cornelly striders": "Cornelly Striders",
+    
+    # Fairwater
+    "fairwater": "Fairwater Runners",
+    "fairwater runners": "Fairwater Runners",
+    "fiarwater runners": "Fairwater Runners", # Common typo override
+    
+    # Griffithstown
+    "griffithstown": "Griffithstown Harriers",
+    "griffithstown harriers": "Griffithstown Harriers",
+    
+    # Islwyn
+    "islwyn": "Islwyn RC",
+    "islwyn rc": "Islwyn RC",
+    
+    # Les Croupiers
+    "les croupiers": "Les Croupiers RC",
+    "les croupiers rc": "Les Croupiers RC",
+    "croupiers": "Les Croupiers RC",
+    
+    # Lliswerry
+    "lliswerry": "Lliswerry Runners",
+    "lliswerry runners": "Lliswerry Runners",
+    "liswerry": "Lliswerry Runners",
+    
+    # Monross
+    "monross": "Monross Trailblazers",
+    "monross trailblazers": "Monross Trailblazers",
+    
+    # Neath
+    "neath": "Neath Harriers",
+    "neath harriers": "Neath Harriers",
+    
+    # Ogmore
+    "ogmore": "Ogmore Phoenix Runners",
+    "ogmore phoenix": "Ogmore Phoenix Runners",
+    "ogmore phoenix runners": "Ogmore Phoenix Runners",
+    
+    # Parc Bryn Bach
+    "parc": "Parc Bryn Bach RC",
+    "parc bryn bach": "Parc Bryn Bach RC",
+    "parc bryn bach rc": "Parc Bryn Bach RC",
+    
+    # Pont-y-pwl
+    "pontypool": "Pont-y-pwl & District Runners",
+    "pont-y-pwl": "Pont-y-pwl & District Runners",
+    "pont-y-pwl b": "Pont-y-pwl & District Runners (B)",
+    "pont-y-pwl & district runners": "Pont-y-pwl & District Runners",
+    
+    # Pontyclun
+    "pontyclun": "Pontyclun Road Runners",
+    "pontyclun road runners": "Pontyclun Road Runners",
+    
+    # Pontypridd
+    "pontypridd": "Pontypridd Roadents",
+    "pontypridd roadents": "Pontypridd Roadents",
+    
+    # Porthcawl
+    "porthcawl": "Porthcawl Runners",
+    "porthcawl runners": "Porthcawl Runners",
+    "porthcawl runers": "Porthcawl Runners", # Common typo override
+    
+    # Rhondda
+    "rhondda": "Rhondda Valley Runners",
+    "rhondda valley": "Rhondda Valley Runners",
+    "rhondda valley runners": "Rhondda Valley Runners",
+    
+    # San Domenico
+    "san domenico": "San Domenico RC",
+    "san domenico rc": "San Domenico RC",
+    
+    # Spirit of Monmouth
+    "spirit of monmouth": "Spirit of Monmouth"
+}
+
+def normalise_club_name(raw_club):
+    if not raw_club:
+        return "-"
+    
+    # Strip any trailing category numbers like "Chepstow Harriers (1)" or "Parc (2)"
+    import re
+    clean_base = re.sub(r'\s*\(\d+\)\s*$', '', str(raw_club)).strip().lower()
+    
+    if clean_base in ["-", "individual", "unattached", "unknown"]:
+        return "-"
+        
+    # Return matched formal value or capitalised fallback if new club emerges
+    return CLUB_NAME_REGISTRY.get(clean_base, raw_club.strip())
+
 def load_raw_archive():
     data_path = "../data.js" if os.path.basename(os.getcwd()) == "scraper" else "data.js"
     if not os.path.exists(data_path):

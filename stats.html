@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All-Time Records - Rack Raid Archive</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            width: 95%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            background-color: #fcfcfc;
+        }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            color: #555;
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        .back-link:hover {
+            color: #222;
+        }
+
+        .main-container {
+            background: #ffffff;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            margin-bottom: 40px;
+        }
+
+        .hero-panel {
+            background-color: #111827;
+            color: #ffffff;
+            border-radius: 8px;
+            padding: 35px;
+            margin-bottom: 35px;
+            text-align: center;
+        }
+        .hero-panel h1 {
+            margin: 0 0 10px 0;
+            font-size: 3rem;
+            font-weight: 800;
+            letter-spacing: -1.5px;
+            line-height: 1.1;
+        }
+        .hero-panel p {
+            font-size: 1.1rem;
+            color: #9ca3af;
+            margin: 0;
+            font-weight: 500;
+        }
+
+        /* GRID LAYOUTS */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+        .stat-card {
+            background: #ffffff;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 24px 20px;
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.01);
+        }
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #111827;
+            margin-bottom: 3px;
+            letter-spacing: -0.5px;
+        }
+        .stat-label {
+            font-size: 0.8rem;
+            color: #6b7280;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 35px;
+        }
+
+        @media screen and (max-width: 960px) {
+            .dashboard-grid { grid-template-columns: 1fr; }
+        }
+
+        .section-box {
+            background: #ffffff;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.01);
+        }
+        .section-box h2 {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: #111827;
+            margin-top: 0;
+            margin-bottom: 15px;
+            letter-spacing: -0.5px;
+            border-bottom: 2px solid #f3f4f6;
+            padding-bottom: 8px;
+        }
+
+        /* LEADERBOARD TEXT LAYOUTS */
+        .row-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #f3f4f6;
+            font-size: 0.95rem;
+        }
+        .row-item:last-child {
+            border-bottom: none;
+        }
+        .row-item a {
+            color: #111827;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .row-item a:hover {
+            border-bottom: 1px dashed #111827;
+        }
+        .count-badge {
+            font-weight: 700;
+            background-color: #f3f4f6;
+            color: #111827;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 0.85rem;
+        }
+        .rank-num {
+            font-weight: 700;
+            color: #9ca3af;
+            margin-right: 8px;
+            display: inline-block;
+            width: 20px;
+        }
+
+        /* SPECIFIC BADGE CHIPS */
+        .chip-special {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            background-color: #fef3c7;
+            color: #92400e;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-left: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="index.html" class="back-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+        </svg>
+        Back to Results Archive
+    </a>
+
+    <div class="main-container">
+        
+        <div class="hero-panel">
+            <h1>Event-Wide Records</h1>
+            <p>Historical statistics and hall of fame benchmarks across all compiled race chapters</p>
+        </div>
+
+        <!-- HIGHLIGHT BOXES OVERVIEW -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div id="topRunnerWins" class="stat-value">-</div>
+                <div class="stat-label">Most Individual Wins</div>
+            </div>
+            <div class="stat-card">
+                <div id="topClubWins" class="stat-value">-</div>
+                <div class="stat-label">Most Club Wins</div>
+            </div>
+            <div class="stat-card">
+                <div id="topLoyaltyRunner" class="stat-value">-</div>
+                <div class="stat-label">Most Stages Logged</div>
+            </div>
+            <div class="stat-card">
+                <div id="totalRecordsBroken" class="stat-value">0</div>
+                <div class="stat-label">Records Broken All-Time</div>
+            </div>
+        </div>
+
+        <!-- MAIN DASHBOARD CONTENT TABLES -->
+        <div class="dashboard-grid">
+            
+            <!-- ATHLETE STAGE LOYALTY -->
+            <div class="section-box">
+                <h2>Most Stages Completed (All-Time)</h2>
+                <div id="boxLoyalty"></div>
+            </div>
+
+            <!-- ATHLETE STAGE VICTORIES -->
+            <div class="section-box">
+                <h2>Most Individual Stage Wins</h2>
+                <div id="boxAthleteWins"></div>
+            </div>
+
+        </div>
+
+        <div class="dashboard-grid">
+            
+            <!-- STAGE 7 LONGEST LEG STALWARTS -->
+            <div class="section-box">
+                <h2>Stage 7 Stalwarts <span class="chip-special">Longest Leg</span></h2>
+                <div id="boxStage7"></div>
+            </div>
+
+            <!-- STAGE 13 STEEP STALWARTS -->
+            <div class="section-box">
+                <h2>Stage 13 Stalwarts <span class="chip-special">Steep Finish</span></h2>
+                <div id="boxStage13"></div>
+            </div>
+
+        </div>
+
+        <div class="dashboard-grid">
+            
+            <!-- CLUB STAGE VICTORIES -->
+            <div class="section-box">
+                <h2>Most Stage Wins by Club</h2>
+                <div id="boxClubWins"></div>
+            </div>
+
+            <!-- OVERALL TEAM REIGN CABINET -->
+            <div class="section-box">
+                <h2>Most Overall Team Championships</h2>
+                <div id="boxOverallTeamWins">
+                    <div style="padding: 15px 0; text-align: center; color: #6b7280; font-style: italic;">
+                        Team championship historical listing placeholder. Data rendering module will populate here upon entry compilation.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="data.js"></script>
+    <script>
+        const courseRecords = {
+            "2026": {"1":"00:31:14","2":"00:38:40","3":"00:43:25","4":"00:36:12","5":"00:41:20","6":"00:33:15","7":"00:39:45","8":"00:42:10","9":"00:35:50","10":"00:38:15","11":"00:40:05","12":"00:37:20","13":"00:44:10","14":"00:31:55"},
+            "2025": {"1":"00:34:14","2":"00:39:15","3":"00:44:50","4":"00:37:00","5":"00:42:55","6":"00:34:20","7":"01:00","8":"00:43:40","9":"00:36:45","10":"00:39:30","11":"00:41:20","12":"00:38:50","13":"00:45:30","14":"00:32:40"},
+            "2024": {"1":"00:35:40","2":"00:40:20","3":"00:45:12","4":"00:38:10","5":"00:43:15","6":"00:35:05","7":"00:42:15","8":"00:44:55","9":"07:30","10":"00:40:45","11":"00:42:50","12":"00:39:15","13":"00:46:20","14":"00:33:10"}
+        };
+
+        const defTimeToSeconds = (tStr) => {
+            if (!tStr) return 0;
+            const p = tStr.split(':');
+            return parseInt(p[0],10) * 3600 + parseInt(p[1],10) * 60 + parseInt(p[2],10);
+        };
+
+        const cleanClubName = (rawString) => {
+            if (!rawString) return "Independent";
+            let val = rawString.toString().trim().replace(/\s*\(\d+\)\s*$/, '').trim();
+            let matchKey = val.toLowerCase();
+            
+            if (matchKey.includes('chepstow')) return 'Chepstow Harriers';
+            if (matchKey.includes('parc')) return 'Parc Bryn Bach RC';
+            if (matchKey.includes('pont-y-pwl') || matchKey.includes('pontypool')) return 'Pont-y-pwl & District Runners';
+            if (matchKey.includes('liswerry') || matchKey.includes('lliswerry')) return 'Lliswerry Runners';
+            if (matchKey.includes('caerleon')) return 'Caerleon RC';
+            if (matchKey.includes('caerphilly')) return 'Caerphilly Runners';
+            if (matchKey.includes('caldicot')) return 'Caldicot RC';
+            if (matchKey.includes('cdf')) return 'CDF Runners';
+            if (matchKey.includes('griffithstown')) return 'Griffithstown Harriers';
+            if (matchKey.includes('islwyn')) return 'Islwyn RC';
+            if (matchKey.includes('les croupiers') || matchKey.includes('croupiers')) return 'Les Croupiers RC';
+            if (matchKey.includes('monross')) return 'Monross Trailblazers';
+            if (matchKey.includes('neath')) return 'Neath Harriers';
+            if (matchKey.includes('ogmore')) return 'Ogmore Phoenix Runners';
+            if (matchKey.includes('pontyclun')) return 'Pontyclun Road Runners';
+            if (matchKey.includes('pontypridd')) return 'Pontypridd Roadents';
+            if (matchKey.includes('porthcawl')) return 'Porthcawl Runers';
+            if (matchKey.includes('rhondda')) return 'Rhondda Valley Runners';
+            if (matchKey.includes('san domenico')) return 'San Domenico RC';
+            if (matchKey.includes('aberdare')) return 'Aberdare';
+            if (matchKey.includes('albany')) return 'Albany Road';
+            if (matchKey.includes('brackla')) return 'Brackla Harriers';
+            if (matchKey.includes('builth')) return 'Builth & District RC';
+            if (matchKey.includes('cornelly')) return 'Cornelly Striders';
+            if (matchKey.includes('fairwater') || matchKey.includes('fiarwater')) return 'Fairwater Runners';
+            if (matchKey.includes('monmouth') || matchKey.includes('spirit')) return 'Spirit of Monmouth';
+
+            if (val === '-' || matchKey === 'individual' || matchKey === 'unattached') return 'Independent';
+            return val;
+        };
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const runnerData = {};
+            const clubWins = {};
+            let totalRecordsCount = 0;
+
+            relayResults.forEach(row => {
+                const athleteName = row.name.replace(/\s*\([MF]\d*\)\s*$/i, '').trim();
+                const clubName = cleanClubName(row.club);
+                const stageNum = parseInt(row.stage);
+
+                // Initialize tracking container objects
+                if (!runnerData[athleteName]) {
+                    runnerData[athleteName] = { name: athleteName, runs: 0, wins: 0, stage7s: 0, stage13s: 0 };
+                }
+                if (!clubWins[clubName]) {
+                    clubWins[clubName] = { name: clubName, wins: 0 };
+                }
+
+                // Increment metrics benchmarks
+                runnerData[athleteName].runs++;
+                if (stageNum === 7) runnerData[athleteName].stage7s++;
+                if (stageNum === 13) runnerData[athleteName].stage13s++;
+
+                if (row.position === 1) {
+                    runnerData[athleteName].wins++;
+                    clubWins[clubName].wins++;
+                }
+
+                // Check Course Records Broken
+                const standingRecord = courseRecords[row.year.toString()] ? courseRecords[row.year.toString()][row.stage.toString()] : null;
+                if (standingRecord && defTimeToSeconds(row.time) <= defTimeToSeconds(standingRecord)) {
+                    totalRecordsCount++;
+                }
+            });
+
+            const runnersArray = Object.values(runnerData);
+
+            // 1. Render Athlete Loyalty Leaders
+            const loyaltySorted = [...runnersArray].sort((a,b) => b.runs - a.runs).slice(0, 5);
+            let loyaltyHtml = '';
+            loyaltySorted.forEach((r, i) => {
+                loyaltyHtml += `
+                    <div class="row-item">
+                        <div><span class="rank-num">${i+1}</span><a href="athlete.html?name=${encodeURIComponent(r.name)}">${r.name}</a></div>
+                        <div class="count-badge">${r.runs} Stages</div>
+                    </div>`;
+            });
+            document.getElementById('boxLoyalty').innerHTML = loyaltyHtml;
+            document.getElementById('topLoyaltyRunner').textContent = loyaltySorted[0] ? `${loyaltySorted[0].runs} Legs` : '-';
+
+            // 2. Render Athlete Individual Victories
+            const athleteWinsSorted = [...runnersArray].filter(r => r.wins > 0).sort((a,b) => b.wins - a.wins).slice(0, 5);
+            let athleteWinsHtml = '';
+            if (athleteWinsSorted.length > 0) {
+                athleteWinsSorted.forEach((r, i) => {
+                    athleteWinsHtml += `
+                        <div class="row-item">
+                            <div><span class="rank-num">${i+1}</span><a href="athlete.html?name=${encodeURIComponent(r.name)}">${r.name}</a></div>
+                            <div class="count-badge">${r.wins} Wins</div>
+                        </div>`;
+                });
+            } else {
+                athleteWinsHtml = '<div style="padding:15px; color:#6b7280; font-style:italic;">No recorded stage wins in data.</div>';
+            }
+            document.getElementById('boxAthleteWins').innerHTML = athleteWinsHtml;
+            document.getElementById('topRunnerWins').textContent = athleteWinsSorted[0] ? `${athleteWinsSorted[0].wins} Wins` : '-';
+
+            // 3. Render Stage 7 Longest Leg
+            const stage7Sorted = [...runnersArray].filter(r => r.stage7s > 0).sort((a,b) => b.stage7s - a.stage7s).slice(0, 5);
+            let stage7Html = '';
+            stage7Sorted.forEach((r, i) => {
+                stage7Html += `
+                    <div class="row-item">
+                        <div><span class="rank-num">${i+1}</span><a href="athlete.html?name=${encodeURIComponent(r.name)}">${r.name}</a></div>
+                        <div class="count-badge">${r.stage7s} Times</div>
+                    </div>`;
+            });
+            document.getElementById('boxStage7').innerHTML = stage7Html || '<div style="padding:15px; color:#6b7280;">No data recorded.</div>';
+
+            // 4. Render Stage 13 Steep Finish
+            const stage13Sorted = [...runnersArray].filter(r => r.stage13s > 0).sort((a,b) => b.stage13s - a.stage13s).slice(0, 5);
+            let stage13Html = '';
+            stage13Sorted.forEach((r, i) => {
+                stage13Html += `
+                    <div class="row-item">
+                        <div><span class="rank-num">${i+1}</span><a href="athlete.html?name=${encodeURIComponent(r.name)}">${r.name}</a></div>
+                        <div class="count-badge">${r.stage13s} Times</div>
+                    </div>`;
+            });
+            document.getElementById('boxStage13').innerHTML = stage13Html || '<div style="padding:15px; color:#6b7280;">No data recorded.</div>';
+
+            // 5. Render Club Victories
+            const clubWinsSorted = Object.values(clubWins).filter(c => c.wins > 0 && c.name !== 'Independent').sort((a,b) => b.wins - a.wins).slice(0, 5);
+            let clubWinsHtml = '';
+            if (clubWinsSorted.length > 0) {
+                clubWinsSorted.forEach((c, i) => {
+                    clubWinsHtml += `
+                        <div class="row-item">
+                            <div><span class="rank-num">${i+1}</span><a href="club.html?club=${encodeURIComponent(c.name)}">${c.name}</a></div>
+                            <div class="count-badge">${c.wins} Wins</div>
+                        </div>`;
+                });
+            } else {
+                clubWinsHtml = '<div style="padding:15px; color:#6b7280; font-style:italic;">No recorded club wins in data.</div>';
+            }
+            document.getElementById('boxClubWins').innerHTML = clubWinsHtml;
+            document.getElementById('topClubWins').textContent = clubWinsSorted[0] ? `${clubWinsSorted[0].wins} Wins` : '-';
+
+            // Set Total Records Global Metrics Value
+            document.getElementById('totalRecordsBroken').textContent = totalRecordsCount;
+        });
+    </script>
+</body>
+</html>

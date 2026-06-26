@@ -273,12 +273,32 @@
         };
 
         const clubColorsMaster = {
-            "chepstow": { text: "#b91c1c", bg: "#fef2f2", border: "#fca5a5" },
-            "chepstow a": { text: "#b91c1c", bg: "#fef2f2", border: "#fca5a5" },
-            "parc bryn bach": { text: "#15803d", bg: "#f0fdf4", border: "#bbf7d0" },
-            "liswerry": { text: "#1d4ed8", bg: "#eff6ff", border: "#bfdbfe" },
-            "pont-y-pwl": { text: "#6b21a8", bg: "#faf5ff", border: "#e9d5ff" },
-            "pont-y-pwl b": { text: "#6b21a8", bg: "#faf5ff", border: "#e9d5ff" },
+            "aberdare": { text: "#F49931", bg: "#000400", border: "rgba(244, 153, 49, 0.3)" },
+            "albany road": { text: "#000000", bg: "#FB24A3", border: "rgba(0, 0, 0, 0.2)" },
+            "brackla harriers": { text: "#FFBA36", bg: "#FF0005", border: "rgba(255, 186, 54, 0.3)" },
+            "builth & district rc": { text: "#000000", bg: "#FCFA3A", border: "rgba(0, 0, 0, 0.2)" },
+            "caerleon rc": { text: "#ffffff", bg: "#4C1B60", border: "rgba(0, 0, 0, 0.2)" },
+            "caerphilly runners": { text: "#000000", bg: "#5A98DD", border: "rgba(0, 0, 0, 0.2)" },
+            "caldicot rc": { text: "#ffffff", bg: "#040503", border: "rgba(255, 255, 255, 0.3)" },
+            "cdf runners": { text: "#ffffff", bg: "#292221", border: "rgba(255, 255, 255, 0.3)" },
+            "chepstow harriers": { text: "#C4B605", bg: "#5A9BD4", border: "rgba(196, 182, 5, 0.4)" },
+            "cornelly striders": { text: "#B96F01", bg: "#FFED00", border: "rgba(185, 111, 1, 0.4)" },
+            "fairwater runners": { text: "#142241", bg: "#8EB1EA", border: "rgba(20, 34, 65, 0.3)" },
+            "griffithstown harriers": { text: "#ffffff", bg: "#05683B", border: "rgba(255, 255, 255, 0.3)" },
+            "islwyn rc": { text: "#ffffff", bg: "#040002", border: "rgba(255, 255, 255, 0.3)" },
+            "les croupiers rc": { text: "#ffffff", bg: "#01B240", border: "rgba(255, 255, 255, 0.3)" },
+            "lliswerry runners": { text: "#ffffff", bg: "#AB0851", border: "rgba(255, 255, 255, 0.3)" },
+            "monross trailblazers": { text: "#ffffff", bg: "#B36927", border: "rgba(255, 255, 255, 0.3)" },
+            "neath harriers": { text: "#ffffff", bg: "#000000", border: "rgba(255, 255, 255, 0.3)" },
+            "ogmore phoenix runners": { text: "#ffffff", bg: "#B36927", border: "rgba(255, 255, 255, 0.3)" },
+            "parc bryn bach rc": { text: "#978430", bg: "#03632A", border: "rgba(151, 132, 48, 0.4)" },
+            "pont-y-pwl & district runners": { text: "#ffffff", bg: "#E41F4C", border: "rgba(255, 255, 255, 0.3)" },
+            "pontyclun road runners": { text: "#E4CC60", bg: "#5C67A0", border: "rgba(228, 204, 96, 0.4)" },
+            "pontypridd roadents": { text: "#ffffff", bg: "#000000", border: "rgba(255, 255, 255, 0.3)" },
+            "porthcawl runers": { text: "#ffffff", bg: "#000000", border: "rgba(255, 255, 255, 0.3)" },
+            "rhondda valley runners": { text: "#ffffff", bg: "#C3121F", border: "rgba(255, 255, 255, 0.3)" },
+            "san domenico rc": { text: "#E32335", bg: "#100D1A", border: "rgba(227, 35, 53, 0.3)" },
+            "spirit of monmouth": { text: "#C8B506", bg: "#034CAD", border: "rgba(200, 181, 6, 0.4)" },
             "independent": { text: "#4b5563", bg: "#f3f4f6", border: "#e5e7eb" }
         };
 
@@ -294,6 +314,48 @@
             const mins = Math.floor(paceSecs / 60);
             const secs = paceSecs % 60;
             return `${mins}:${secs.toString().padStart(2, '0')}`;
+        };
+
+        /* MASTER SCRUBBER LOGIC Realignment */
+        const cleanClubName = (rawString) => {
+            if (!rawString) return "Independent";
+            let val = rawString.toString().trim();
+            
+            // Strip out bracket tags and numbers: "Chepstow A (02)" -> "Chepstow A"
+            val = val.replace(/\s*\(\d+\)\s*$/, '').trim();
+            
+            let matchKey = val.toLowerCase();
+            
+            // Map variations strictly back to the designated config keys
+            if (matchKey.includes('chepstow')) return 'Chepstow Harriers';
+            if (matchKey.includes('parc')) return 'Parc Bryn Bach RC';
+            if (matchKey.includes('pont-y-pwl') || matchKey.includes('pontypool')) return 'Pont-y-pwl & District Runners';
+            if (matchKey.includes('liswerry') || matchKey.includes('lliswerry')) return 'Lliswerry Runners';
+            if (matchKey.includes('caerleon')) return 'Caerleon RC';
+            if (matchKey.includes('caerphilly')) return 'Caerphilly Runners';
+            if (matchKey.includes('caldicot')) return 'Caldicot RC';
+            if (matchKey.includes('cdf')) return 'CDF Runners';
+            if (matchKey.includes('griffithstown')) return 'Griffithstown Harriers';
+            if (matchKey.includes('islwyn')) return 'Islwyn RC';
+            if (matchKey.includes('les croupiers') || matchKey.includes('croupiers')) return 'Les Croupiers RC';
+            if (matchKey.includes('monross')) return 'Monross Trailblazers';
+            if (matchKey.includes('neath')) return 'Neath Harriers';
+            if (matchKey.includes('ogmore')) return 'Ogmore Phoenix Runners';
+            if (matchKey.includes('pontyclun')) return 'Pontyclun Road Runners';
+            if (matchKey.includes('pontypridd')) return 'Pontypridd Roadents';
+            if (matchKey.includes('porthcawl')) return 'Porthcawl Runers';
+            if (matchKey.includes('rhondda')) return 'Rhondda Valley Runners';
+            if (matchKey.includes('san domenico')) return 'San Domenico RC';
+            if (matchKey.includes('aberdare')) return 'Aberdare';
+            if (matchKey.includes('albany')) return 'Albany Road';
+            if (matchKey.includes('brackla')) return 'Brackla Harriers';
+            if (matchKey.includes('builth')) return 'Builth & District RC';
+            if (matchKey.includes('cornelly')) return 'Cornelly Striders';
+            if (matchKey.includes('fairwater') || matchKey.includes('fiarwater')) return 'Fairwater Runners';
+            if (matchKey.includes('monmouth') || matchKey.includes('spirit')) return 'Spirit of Monmouth';
+
+            if (val === '-' || matchKey === 'individual' || matchKey === 'unattached') return 'Independent';
+            return val;
         };
 
         const generateAthleteSummary = (history, name, club) => {
@@ -383,9 +445,11 @@
         };
 
         const urlParams = new URLSearchParams(window.location.search);
-        const targetName = urlParams.get('name');
+        const rawUrlName = urlParams.get('name');
 
-        if (targetName) {
+        if (rawUrlName) {
+            const targetName = rawUrlName.replace(/\s*\([MF]\d*\)\s*$/i, '').trim();
+
             document.title = `${targetName} - Athlete Profile`;
             document.getElementById('athleteName').textContent = targetName;
 
@@ -403,23 +467,11 @@
             }).sort((a, b) => b.year - a.year || a.stage - a.stage);
 
             if (runnerHistory.length > 0) {
-                const clubTally = {};
-                runnerHistory.forEach(row => {
-                    let c = row.club.replace(/\s*\(\d+\)\s*$/, '').trim();
-                    if (c.toLowerCase() === 'parc') c = 'Parc Bryn Bach';
-                    if (c && c !== '-' && c.toLowerCase() !== 'individual' && c.toLowerCase() !== 'unknown') {
-                        clubTally[c] = (clubTally[c] || 0) + 1;
-                    }
-                });
+                // CHRONOLOGICAL ASSIGNMENT: Pull the active club from their most recent race appearance entry
+                let primaryClub = cleanClubName(runnerHistory[0].club);
 
-                let primaryClub = Object.keys(clubTally).reduce((a, b) => clubTally[a] > clubTally[b] ? a : b, null);
-                if (!primaryClub) {
-                    let mostRecent = runnerHistory[0].club.replace(/\s*\(\d+\)\s*$/, '').trim();
-                    primaryClub = (mostRecent === '-' || mostRecent.toLowerCase() === 'individual') ? 'Independent' : mostRecent;
-                }
-
-                const clubTargetElement = document.getElementById('athleteClub');
-                clubTargetElement.textContent = primaryClub;
+            const clubTargetElement = document.getElementById('athleteClub');
+            clubTargetElement.innerHTML = `<a href="club.html?club=${encodeURIComponent(primaryClub)}" style="color: inherit; text-decoration: none;">${primaryClub}</a>`;
 
                 const clubKey = primaryClub.toLowerCase().trim();
                 if (clubColorsMaster[clubKey]) {
@@ -463,12 +515,7 @@
                     let rowClass = row.position === 1 ? 'history-row badge-win' : 'history-row';
                     let timeDisplay = brokeRecord ? `<span class="record-tag">${row.time}</span>` : row.time;
                     
-                    let displayClub = row.club.replace(/\s*\(\d+\)\s*$/, '').trim();
-                    if (displayClub.toLowerCase() === 'parc') displayClub = 'Parc Bryn Bach';
-
-                    if (!displayClub || displayClub === '-' || displayClub.toLowerCase() === 'individual') {
-                        displayClub = primaryClub;
-                    }
+                    let displayClub = cleanClubName(row.club);
 
                     htmlOutput += `
                         <div class="${rowClass}">
