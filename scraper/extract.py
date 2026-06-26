@@ -49,7 +49,6 @@ def parse_pdf_robust(pdf_path, year):
     current_cut_off = None
     stage_positions = {}
     
-    # Dynamic club name lookup per team number to auto-heal leaks
     team_name_master = {}
     
     print(f"Processing {pdf_path}...")
@@ -100,11 +99,10 @@ def parse_pdf_robust(pdf_path, year):
                 row_items = sorted(horizontal_rows[r_top], key=lambda x: x['x0'])
                 row_text_full = " ".join([item['text'] for item in row_items])
                 
-                if "cut off" in row_text_full.lower() or "winning time" in row_text_full.lower():
-                    continue
-                
                 time_matches = time_pattern.findall(row_text_full)
                 if not time_matches:
+                    if "cut off" in row_text_full.lower() or "winning time" in row_text_full.lower():
+                        continue
                     continue
                     
                 leg_time_val = time_matches[0]
@@ -120,8 +118,11 @@ def parse_pdf_robust(pdf_path, year):
                 gender_flag = ""
                 
                 if current_stage == 1:
-                    name_min, name_max = page.width * 0.40, page.width * 0.60
-                    club_min, club_max = page.width * 0.60, page.width * 0.85
+                    is_isolated_cutoff = "cut off" in row_text_full.lower() or "yellow" in row_text_full.lower()
+                    name_min = page.width * 0.05 if is_isolated_cutoff else page.width * 0.20
+                    name_max = page.width * 0.60
+                    club_min = page.width * 0.40 if is_isolated_cutoff else page.width * 0.50
+                    club_max = page.width * 0.95
                 else:
                     name_min, name_max = page.width * 0.05, page.width * 0.26
                     club_min, club_max = page.width * 0.26, page.width * 0.60
@@ -140,16 +141,30 @@ def parse_pdf_robust(pdf_path, year):
                         continue
 
                     if name_min <= item_center <= name_max:
+                        # Filter out structural layout terminology
+                        if item_text.lower() in ["course", "record", "stage", "cut", "off", "time", "miles", "km.", "rack", "raid", "highlighted", "yellow", "=", "rules", "applied"]:
+                            continue
+                        if current_stage == 1 and item_text.isdigit() and item_center < page.width * 0.35:
+                            continue
                         if current_stage != 1 and item_text.isdigit() and item_center < page.width * 0.08:
                             continue
                         name_tokens.append(item_text)
                     elif club_min <= item_center <= club_max:
+                        if item_text.lower() in ["stage", "cut", "off", "time", "highlighted", "yellow", "=", "rules", "applied"]:
+                            continue
                         club_zone_tokens.append(item_text)
 
                 name_str = " ".join(name_tokens).strip()
                 name_str = re.sub(r'[\(\)\'\"]', '', name_str).strip()
 
+                # Clean up stray forward slashes or punctuation remaining from header lines
+                name_str = re.sub(r'^[\s/.\-]+|[\s/.\-]+$', '', name_str).strip()
+
                 if not name_str or name_str == "-":
+                    continue
+
+                # Ensure name strictly starts with an alphabetical letter to stop header dimensions/numbers leaking
+                if not re.match(r'^[A-Za-z]', name_str):
                     continue
 
                 if gender_flag:
@@ -164,31 +179,24 @@ def parse_pdf_robust(pdf_path, year):
                 clean_club_name = re.sub(r'\s+', ' ', clean_club_name).strip()
 
                 if not clean_club_name or clean_club_name == "-":
-                    clean_club_name = "Individual"
+                    clean_club_name = "Independent"
 
                 if club_numbers:
                     target_team_num = int(club_numbers[0])
                     
-                    # FUZZY SELF-HEALING ENGINE:
-                    # If this team number has a stored master name, check if the current name leaked extra words.
                     if target_team_num in team_name_master:
                         master_name = team_name_master[target_team_num]
-                        # If the master name matches the start of our string, use the clean version to drop leaks
                         if clean_club_name.lower().startswith(master_name.lower()) or master_name.lower().startswith(clean_club_name.lower()):
                             clean_club_name = master_name
                     else:
-                        # Split by spaces and look for clear visual leak signals like isolated 'A' or 'B' team flags
                         tokens = clean_club_name.split()
                         if len(tokens) > 1:
-                            # If a leak happened on the very first encounter, truncate trailing words
                             if tokens[1] in ['A', 'B', "'A'", "'B'"] or len(tokens[0]) > 3:
-                                # Keep the base club and its team marker tag
                                 if tokens[1] in ['A', 'B', "'A'", "'B'"]:
                                     clean_club_name = f"{tokens[0]} {tokens[1]}"
                                 else:
                                     clean_club_name = tokens[0]
                         
-                        # Store the verified base string into our dynamic lookups
                         team_name_master[target_team_num] = clean_club_name
 
                     final_club_str = f"{clean_club_name} ({target_team_num:02d})"
