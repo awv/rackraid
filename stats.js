@@ -1,6 +1,6 @@
 const relayStats = {
   "topRunnerWins": "4 Wins (Daniel Bodman)",
-  "topClubWins": "21 Wins (Lliswerry Runners)",
+  "topClubWins": "20 Wins (Lliswerry Runners)",
   "topLoyaltyRunner": "11 Legs (Gareth Jones)",
   "totalRecordsBroken": "81",
   "header_stats": {
@@ -10,7 +10,7 @@ const relayStats = {
     },
     "most_club_wins": {
       "club": "Lliswerry Runners",
-      "count": 21
+      "count": 20
     },
     "most_stages_logged": {
       "name": "Gareth Jones",
@@ -63,36 +63,12 @@ const relayStats = {
       "count": 7
     },
     {
-      "name": "Jan Morris",
-      "count": 7
-    },
-    {
       "name": "Jason Pritchard",
       "count": 7
     },
     {
       "name": "Liz Richards",
       "count": 7
-    },
-    {
-      "name": "Lisa Jeffrey",
-      "count": 7
-    },
-    {
-      "name": "Bryan Meredith",
-      "count": 7
-    },
-    {
-      "name": "Charlotte Moran",
-      "count": 7
-    },
-    {
-      "name": "Sarah Davies",
-      "count": 7
-    },
-    {
-      "name": "Jane Lewis",
-      "count": 6
     },
     {
       "name": "Matt Turner",
@@ -119,6 +95,10 @@ const relayStats = {
       "count": 6
     },
     {
+      "name": "Lisa Jeffrey",
+      "count": 6
+    },
+    {
       "name": "Steve Lane",
       "count": 6
     },
@@ -127,7 +107,11 @@ const relayStats = {
       "count": 6
     },
     {
-      "name": "Sara Williams",
+      "name": "Charlotte Moran",
+      "count": 6
+    },
+    {
+      "name": "Sarah Davies",
       "count": 6
     },
     {
@@ -135,7 +119,11 @@ const relayStats = {
       "count": 6
     },
     {
-      "name": "Kim Carwardine",
+      "name": "Bryan Meredith",
+      "count": 6
+    },
+    {
+      "name": "Jane Lewis",
       "count": 5
     },
     {
@@ -147,7 +135,7 @@ const relayStats = {
       "count": 5
     },
     {
-      "name": "Marina Wright",
+      "name": "Jan Morris",
       "count": 5
     },
     {
@@ -187,10 +175,6 @@ const relayStats = {
       "count": 5
     },
     {
-      "name": "Kimberley Price",
-      "count": 5
-    },
-    {
       "name": "Louise Bright",
       "count": 5
     },
@@ -204,10 +188,6 @@ const relayStats = {
     },
     {
       "name": "Mark Prosser",
-      "count": 5
-    },
-    {
-      "name": "Rebecca Foster",
       "count": 5
     },
     {
@@ -231,7 +211,7 @@ const relayStats = {
       "count": 5
     },
     {
-      "name": "Lolly Evans",
+      "name": "Sara Williams",
       "count": 5
     },
     {
@@ -243,11 +223,15 @@ const relayStats = {
       "count": 5
     },
     {
-      "name": "Clare Patterson",
+      "name": "Carys Thomas",
       "count": 4
     },
     {
-      "name": "Carys Thomas",
+      "name": "Kim Carwardine",
+      "count": 4
+    },
+    {
+      "name": "Melanie Hall",
       "count": 4
     },
     {
@@ -267,11 +251,11 @@ const relayStats = {
       "count": 4
     },
     {
-      "name": "Julia Bajjada",
+      "name": "Rebecca Davies",
       "count": 4
     },
     {
-      "name": "Rebecca Davies",
+      "name": "Marina Wright",
       "count": 4
     },
     {
@@ -343,10 +327,6 @@ const relayStats = {
       "count": 4
     },
     {
-      "name": "Michelle Johnson",
-      "count": 4
-    },
-    {
       "name": "Martyn Jones",
       "count": 4
     },
@@ -367,6 +347,10 @@ const relayStats = {
       "count": 4
     },
     {
+      "name": "Rebecca Foster",
+      "count": 4
+    },
+    {
       "name": "David Jones",
       "count": 4
     },
@@ -375,15 +359,11 @@ const relayStats = {
       "count": 4
     },
     {
+      "name": "Lolly Evans",
+      "count": 4
+    },
+    {
       "name": "Sharon Carrafa",
-      "count": 4
-    },
-    {
-      "name": "Vanessa Lawson",
-      "count": 4
-    },
-    {
-      "name": "Sarah Lauder",
       "count": 4
     },
     {
@@ -415,10 +395,6 @@ const relayStats = {
       "count": 4
     },
     {
-      "name": "Jen Watkins",
-      "count": 4
-    },
-    {
       "name": "Andy Lee",
       "count": 4
     },
@@ -435,19 +411,11 @@ const relayStats = {
       "count": 4
     },
     {
-      "name": "Paige Luff",
-      "count": 4
-    },
-    {
       "name": "Danielle Phillips",
       "count": 4
     },
     {
       "name": "Nathan Reeks",
-      "count": 4
-    },
-    {
-      "name": "Hannah Davies",
       "count": 4
     },
     {
@@ -469,6 +437,10 @@ const relayStats = {
     {
       "name": "Paula Williams",
       "count": 4
+    },
+    {
+      "name": "Clare Patterson",
+      "count": 3
     },
     {
       "name": "Sam Clarkstone",
@@ -503,6 +475,10 @@ const relayStats = {
       "count": 3
     },
     {
+      "name": "Julia Bajjada",
+      "count": 3
+    },
+    {
       "name": "Elizabeth Dimond",
       "count": 3
     },
@@ -511,19 +487,11 @@ const relayStats = {
       "count": 3
     },
     {
-      "name": "Beth Jones",
-      "count": 3
-    },
-    {
       "name": "Matt Mulcahy",
       "count": 3
     },
     {
       "name": "Kani Hinshelwood",
-      "count": 3
-    },
-    {
-      "name": "Natalie Burchell",
       "count": 3
     },
     {
@@ -599,10 +567,6 @@ const relayStats = {
       "count": 3
     },
     {
-      "name": "Stuart Ball",
-      "count": 3
-    },
-    {
       "name": "Jon Ford",
       "count": 3
     },
@@ -635,7 +599,7 @@ const relayStats = {
       "count": 3
     },
     {
-      "name": "Aimee Ferguson",
+      "name": "Kimberley Price",
       "count": 3
     },
     {
@@ -647,15 +611,11 @@ const relayStats = {
       "count": 3
     },
     {
-      "name": "Alison Davis",
-      "count": 3
-    },
-    {
-      "name": "Rachel Bowen",
-      "count": 3
-    },
-    {
       "name": "Jane Roscoe",
+      "count": 3
+    },
+    {
+      "name": "Michelle Johnson",
       "count": 3
     },
     {
@@ -667,19 +627,7 @@ const relayStats = {
       "count": 3
     },
     {
-      "name": "Jane Ogilvie",
-      "count": 3
-    },
-    {
-      "name": "Nigel Hammersley",
-      "count": 3
-    },
-    {
       "name": "Megan Poulson",
-      "count": 3
-    },
-    {
-      "name": "Emily Sams",
       "count": 3
     },
     {
@@ -703,10 +651,6 @@ const relayStats = {
       "count": 3
     },
     {
-      "name": "Melanie Hall",
-      "count": 3
-    },
-    {
       "name": "Lloyd Cottrell",
       "count": 3
     },
@@ -715,15 +659,7 @@ const relayStats = {
       "count": 3
     },
     {
-      "name": "Avisa Talemi",
-      "count": 3
-    },
-    {
       "name": "Carly Bunston",
-      "count": 3
-    },
-    {
-      "name": "Claire Bruce",
       "count": 3
     },
     {
@@ -783,7 +719,7 @@ const relayStats = {
       "count": 3
     },
     {
-      "name": "Hannah Withers",
+      "name": "RUNNERS FAILING TO FINISH ARE AWARDED PLUS",
       "count": 3
     },
     {
@@ -859,6 +795,10 @@ const relayStats = {
       "count": 3
     },
     {
+      "name": "Jen Watkins",
+      "count": 3
+    },
+    {
       "name": "Tara Paisey",
       "count": 3
     },
@@ -891,14 +831,6 @@ const relayStats = {
       "count": 3
     },
     {
-      "name": "Stephanie Davies",
-      "count": 3
-    },
-    {
-      "name": "Vanessa Pritchard",
-      "count": 3
-    },
-    {
       "name": "Steve Caldwell",
       "count": 3
     },
@@ -912,6 +844,10 @@ const relayStats = {
     },
     {
       "name": "Nick Davies",
+      "count": 3
+    },
+    {
+      "name": "Hannah Davies",
       "count": 3
     },
     {
@@ -983,10 +919,6 @@ const relayStats = {
       "count": 3
     },
     {
-      "name": "Matt Creed",
-      "count": 3
-    },
-    {
       "name": "David Phillips",
       "count": 3
     },
@@ -1019,7 +951,7 @@ const relayStats = {
       "count": 3
     },
     {
-      "name": "Dani Sapsford",
+      "name": "Phillip",
       "count": 3
     },
     {
@@ -1079,6 +1011,10 @@ const relayStats = {
       "count": 2
     },
     {
+      "name": "Beth Jones",
+      "count": 2
+    },
+    {
       "name": "Rowena White",
       "count": 2
     },
@@ -1104,6 +1040,10 @@ const relayStats = {
     },
     {
       "name": "Katie Adams",
+      "count": 2
+    },
+    {
+      "name": "Natalie Burchell",
       "count": 2
     },
     {
@@ -1255,6 +1195,10 @@ const relayStats = {
       "count": 2
     },
     {
+      "name": "Stuart Ball",
+      "count": 2
+    },
+    {
       "name": "Shane Baker",
       "count": 2
     },
@@ -1303,10 +1247,6 @@ const relayStats = {
       "count": 2
     },
     {
-      "name": "Mikiko Minty",
-      "count": 2
-    },
-    {
       "name": "Jessica Henry",
       "count": 2
     },
@@ -1315,11 +1255,11 @@ const relayStats = {
       "count": 2
     },
     {
-      "name": "Sarah Hamill",
+      "name": "Aimee Ferguson",
       "count": 2
     },
     {
-      "name": "Laura Lelievre",
+      "name": "Sarah Hamill",
       "count": 2
     },
     {
@@ -1339,6 +1279,10 @@ const relayStats = {
       "count": 2
     },
     {
+      "name": "Alison Davis",
+      "count": 2
+    },
+    {
       "name": "Jhon Hewitt",
       "count": 2
     },
@@ -1355,35 +1299,15 @@ const relayStats = {
       "count": 2
     },
     {
-      "name": "Helen Brown",
-      "count": 2
-    },
-    {
-      "name": "Sarah Heath",
-      "count": 2
-    },
-    {
-      "name": "Siwan Purkis",
-      "count": 2
-    },
-    {
-      "name": "Marisa Benjamin",
-      "count": 2
-    },
-    {
-      "name": "Samantha Bills",
-      "count": 2
-    },
-    {
-      "name": "Megan Smith",
-      "count": 2
-    },
-    {
       "name": "Jack Reddy",
       "count": 2
     },
     {
       "name": "Lloyd Hambridge",
+      "count": 2
+    },
+    {
+      "name": "Emily Sams",
       "count": 2
     },
     {
@@ -1491,11 +1415,19 @@ const relayStats = {
       "count": 2
     },
     {
+      "name": "Avisa Talemi",
+      "count": 2
+    },
+    {
       "name": "Melissa Pearce",
       "count": 2
     },
     {
       "name": "Rosie Salvatore",
+      "count": 2
+    },
+    {
+      "name": "Claire Bruce",
       "count": 2
     },
     {
@@ -1611,19 +1543,11 @@ const relayStats = {
       "count": 2
     },
     {
-      "name": "Angela Potter",
+      "name": "RUNNERS FINISHING AFTER ARE AWARDED",
       "count": 2
     },
     {
-      "name": "Emma Blow",
-      "count": 2
-    },
-    {
-      "name": "Deborah Evans",
-      "count": 2
-    },
-    {
-      "name": "Wayne Frewen",
+      "name": "Sarah Lauder",
       "count": 2
     },
     {
@@ -1815,26 +1739,6 @@ const relayStats = {
       "count": 2
     },
     {
-      "name": "Natalie Meyrick",
-      "count": 2
-    },
-    {
-      "name": "Charlotte Ralph",
-      "count": 2
-    },
-    {
-      "name": "Rhiannon Thomas",
-      "count": 2
-    },
-    {
-      "name": "Eve Gallop-Evans",
-      "count": 2
-    },
-    {
-      "name": "Kirsty Smith",
-      "count": 2
-    },
-    {
       "name": "Lloyd Hughes",
       "count": 2
     },
@@ -1915,10 +1819,6 @@ const relayStats = {
       "count": 2
     },
     {
-      "name": "Elizabeth Stokes",
-      "count": 2
-    },
-    {
       "name": "Paul Bruton",
       "count": 2
     },
@@ -1951,15 +1851,7 @@ const relayStats = {
       "count": 2
     },
     {
-      "name": "Kelly Wall",
-      "count": 2
-    },
-    {
-      "name": "Lianne Willetts",
-      "count": 2
-    },
-    {
-      "name": "Dawne Meynell-Western",
+      "name": "INFRINGEMENT OF IN PLUS",
       "count": 2
     },
     {
@@ -2024,10 +1916,6 @@ const relayStats = {
     },
     {
       "name": "Dave Moore",
-      "count": 2
-    },
-    {
-      "name": "Lisa Erickson",
       "count": 2
     },
     {
@@ -2151,6 +2039,10 @@ const relayStats = {
       "count": 2
     },
     {
+      "name": "Vanessa Lawson",
+      "count": 2
+    },
+    {
       "name": "Elinor Phillips",
       "count": 2
     },
@@ -2179,11 +2071,19 @@ const relayStats = {
       "count": 2
     },
     {
+      "name": "Matt Creed",
+      "count": 2
+    },
+    {
       "name": "Keren Beard",
       "count": 2
     },
     {
       "name": "Stuart Lukins",
+      "count": 2
+    },
+    {
+      "name": "Stephanie Davies",
       "count": 2
     },
     {
@@ -2223,6 +2123,10 @@ const relayStats = {
       "count": 2
     },
     {
+      "name": "Vanessa Pritchard",
+      "count": 2
+    },
+    {
       "name": "Helen Gwilliam",
       "count": 2
     },
@@ -2255,10 +2159,6 @@ const relayStats = {
       "count": 2
     },
     {
-      "name": "Chris Baker",
-      "count": 2
-    },
-    {
       "name": "Leanne Meek",
       "count": 2
     },
@@ -2268,10 +2168,6 @@ const relayStats = {
     },
     {
       "name": "Andrea Webster",
-      "count": 2
-    },
-    {
-      "name": "Moira Wooles",
       "count": 2
     },
     {
@@ -2311,18 +2207,6 @@ const relayStats = {
       "count": 2
     },
     {
-      "name": "Helen Thomas",
-      "count": 2
-    },
-    {
-      "name": "Paula Allen",
-      "count": 2
-    },
-    {
-      "name": "Debra Jones",
-      "count": 2
-    },
-    {
       "name": "Stephen Mathers",
       "count": 2
     },
@@ -2359,14 +2243,6 @@ const relayStats = {
       "count": 2
     },
     {
-      "name": "Esther Barrett",
-      "count": 2
-    },
-    {
-      "name": "Claire Simms",
-      "count": 2
-    },
-    {
       "name": "Rich Matthews",
       "count": 2
     },
@@ -2391,10 +2267,6 @@ const relayStats = {
       "count": 2
     },
     {
-      "name": "Phillip Miles",
-      "count": 2
-    },
-    {
       "name": "Jon Hancock",
       "count": 2
     },
@@ -2416,10 +2288,6 @@ const relayStats = {
     },
     {
       "name": "Adrian Bull",
-      "count": 2
-    },
-    {
-      "name": "Lee Griffiths",
       "count": 2
     },
     {
@@ -2479,7 +2347,7 @@ const relayStats = {
       "count": 2
     },
     {
-      "name": "Roger Mills",
+      "name": "Paige Luff",
       "count": 2
     },
     {
@@ -3243,6 +3111,10 @@ const relayStats = {
       "count": 1
     },
     {
+      "name": "Mikiko Minty",
+      "count": 1
+    },
+    {
       "name": "Owen Higgs",
       "count": 1
     },
@@ -3256,6 +3128,10 @@ const relayStats = {
     },
     {
       "name": "Sarah Woodley-Williams",
+      "count": 1
+    },
+    {
+      "name": "Laura Lelievre",
       "count": 1
     },
     {
@@ -3327,6 +3203,10 @@ const relayStats = {
       "count": 1
     },
     {
+      "name": "Rachel Bowen",
+      "count": 1
+    },
+    {
       "name": "Anthony Wilkinson",
       "count": 1
     },
@@ -3375,55 +3255,51 @@ const relayStats = {
       "count": 1
     },
     {
-      "name": "Jen Coleman",
+      "name": "Helen Brown",
       "count": 1
     },
     {
-      "name": "Elin Lewis",
+      "name": "A.A.C 3 Bryan Meredith",
       "count": 1
     },
     {
-      "name": "Emily Laing",
+      "name": "CWMBRAN 11 Julia Bajjada",
       "count": 1
     },
     {
-      "name": "Liz Joslin",
+      "name": "RUNNERS 17 Charlotte Davis",
       "count": 1
     },
     {
-      "name": "Charlotte O’Leary",
+      "name": "RUNNING 18 Katy Barfoot",
       "count": 1
     },
     {
-      "name": "Charlotte Davis",
+      "name": "RUNNERS 21 Julie Lees",
       "count": 1
     },
     {
-      "name": "Katy Barfoot",
+      "name": "RUNNERS 22 Megan Smith",
       "count": 1
     },
     {
-      "name": "Kate Humphreys",
+      "name": "RUNNING 24 Hayley Coristine",
       "count": 1
     },
     {
-      "name": "Stephanie Iveson",
+      "name": "GREEN 26 Nigel Hammersley",
       "count": 1
     },
     {
-      "name": "Julie Lees",
+      "name": "with Sian Edwards",
       "count": 1
     },
     {
-      "name": "Hayley Coristine",
+      "name": "AWARDED + second per place. 28 Catherine Price",
       "count": 1
     },
     {
-      "name": "Karen Francis",
-      "count": 1
-    },
-    {
-      "name": "Sian Edwards",
+      "name": "RUNNERS FINISHING >10 MINUTES AFTER OFF, DNF,",
       "count": 1
     },
     {
@@ -3823,7 +3699,7 @@ const relayStats = {
       "count": 1
     },
     {
-      "name": "Lauren Holtham -",
+      "name": "Lauren Holtham",
       "count": 1
     },
     {
@@ -3899,6 +3775,10 @@ const relayStats = {
       "count": 1
     },
     {
+      "name": "Megan Smith",
+      "count": 1
+    },
+    {
       "name": "Liam OSullivan",
       "count": 1
     },
@@ -3951,43 +3831,51 @@ const relayStats = {
       "count": 1
     },
     {
-      "name": "Bethan Moor",
+      "name": "A.A.C 3 Emily Sams",
       "count": 1
     },
     {
-      "name": "Sammi Sinclair",
+      "name": "CWMBRAN 11 Jane Ogilvie",
       "count": 1
     },
     {
-      "name": "Catherine Finlay",
+      "name": "HARRIERS 12 Siwan Purkis",
       "count": 1
     },
     {
-      "name": "Alex Holloway",
+      "name": "RUNNING 14 Catherine Finlay",
       "count": 1
     },
     {
-      "name": "Sue Cottrell",
+      "name": "RUNNERS 17 Jane Lewis",
       "count": 1
     },
     {
-      "name": "Charlie Davies",
+      "name": "RUNNING 18 Alex Holloway",
       "count": 1
     },
     {
-      "name": "Katherine Axten",
+      "name": "ROADENTS 20 Charlie Davies",
       "count": 1
     },
     {
-      "name": "Steph Iveson",
+      "name": "DISTRICT RUNNERS 21 Deborah Evans",
       "count": 1
     },
     {
-      "name": "Mel Hall",
+      "name": "RUNNERS 22 Hannah Withers",
       "count": 1
     },
     {
-      "name": "Rhian Durham",
+      "name": "RUNNING 23 Katherine Axten",
+      "count": 1
+    },
+    {
+      "name": "RUNNING 24 Nigel Hammersley",
+      "count": 1
+    },
+    {
+      "name": "INFRINGEMENT OF IN PLUS Kath Rees",
       "count": 1
     },
     {
@@ -4040,6 +3928,10 @@ const relayStats = {
     },
     {
       "name": "Louise Harries",
+      "count": 1
+    },
+    {
+      "name": "Wayne Frewen",
       "count": 1
     },
     {
@@ -4108,6 +4000,10 @@ const relayStats = {
     },
     {
       "name": "Liz Sims",
+      "count": 1
+    },
+    {
+      "name": "Samantha Bills",
       "count": 1
     },
     {
@@ -4499,43 +4395,47 @@ const relayStats = {
       "count": 1
     },
     {
-      "name": "Chole Leek",
+      "name": "CWMBRAN 9 Sophie Hutchings",
       "count": 1
     },
     {
-      "name": "Caitlin Roberts",
+      "name": "HARRIERS 10 Kim Carwardine",
       "count": 1
     },
     {
-      "name": "Alison Hobbs",
+      "name": "RUNNING 14 Jane Ogilvie",
       "count": 1
     },
     {
-      "name": "Sophie Hutchings",
+      "name": "RUNNERS 15 Sarah Lauder",
       "count": 1
     },
     {
-      "name": "Lianne Lusty",
+      "name": "RUNNING 16 Lianne Lusty",
       "count": 1
     },
     {
-      "name": "Aislin Fields",
+      "name": "RUNNERS 19 Eve Gallop-Evans",
       "count": 1
     },
     {
-      "name": "Emma Spuffard",
+      "name": "RUNNERS 20 Angela Lewis",
       "count": 1
     },
     {
-      "name": "Angela Lewis",
+      "name": "FINISHING AFTER ARE AWARDED 24 Vanessa Pritchard",
       "count": 1
     },
     {
-      "name": "Jules Esmond",
+      "name": "N E R S IN I S H I N G O R E T H A N IN U T E S AFTER ARE 25 Hannah Colwill",
       "count": 1
     },
     {
-      "name": "Samantha Walker",
+      "name": "FAILING TO FINISH ARE AWARDED PLUS MINUTES.*** 26 Alison Davis",
+      "count": 1
+    },
+    {
+      "name": "INFRINGEMENT OF IN PLUS MINUTES.**** 27 Phil Groves",
       "count": 1
     },
     {
@@ -4556,6 +4456,10 @@ const relayStats = {
     },
     {
       "name": "Morwenna Charman",
+      "count": 1
+    },
+    {
+      "name": "Angela Potter",
       "count": 1
     },
     {
@@ -4903,6 +4807,10 @@ const relayStats = {
       "count": 1
     },
     {
+      "name": "Elizabeth Stokes",
+      "count": 1
+    },
+    {
       "name": "Sheena Egan",
       "count": 1
     },
@@ -4920,6 +4828,10 @@ const relayStats = {
     },
     {
       "name": "Bridget Garrod",
+      "count": 1
+    },
+    {
+      "name": "Deborah Evans",
       "count": 1
     },
     {
@@ -5043,27 +4955,47 @@ const relayStats = {
       "count": 1
     },
     {
-      "name": "Jeremy Creasey",
+      "name": "Nigel Hammersley",
       "count": 1
     },
     {
-      "name": "Kelly Marie Cameron",
+      "name": "A.A.C 3 Lisa Jeffrey",
       "count": 1
     },
     {
-      "name": "Kaylie Porter",
+      "name": "CWMBRAN 9 Sarah Lauder",
       "count": 1
     },
     {
-      "name": "Jo Gamba",
+      "name": "HARRIERS 10 Stephanie Davies",
       "count": 1
     },
     {
-      "name": "Louise Saddler",
+      "name": "RUNNING 12 Kelly Marie Cameron",
       "count": 1
     },
     {
-      "name": "Kath Jervis",
+      "name": "RUNNING 14 Charlotte Moran",
+      "count": 1
+    },
+    {
+      "name": "RUNNERS 15 Kaylie Porter",
+      "count": 1
+    },
+    {
+      "name": "RUNNERS 18 Hannah Withers",
+      "count": 1
+    },
+    {
+      "name": "RUNNERS 19 Paige Luff",
+      "count": 1
+    },
+    {
+      "name": "RUNNING 20 Louise Saddler",
+      "count": 1
+    },
+    {
+      "name": "RUNNING 21 Lianne Willetts",
       "count": 1
     },
     {
@@ -5131,6 +5063,10 @@ const relayStats = {
       "count": 1
     },
     {
+      "name": "Emma Blow",
+      "count": 1
+    },
+    {
       "name": "Jonathan Bussy",
       "count": 1
     },
@@ -5192,6 +5128,10 @@ const relayStats = {
     },
     {
       "name": "David Wheeler",
+      "count": 1
+    },
+    {
+      "name": "Lisa Erickson",
       "count": 1
     },
     {
@@ -5387,7 +5327,7 @@ const relayStats = {
       "count": 1
     },
     {
-      "name": "Ben Miles",
+      "name": "Ben",
       "count": 1
     },
     {
@@ -5488,6 +5428,10 @@ const relayStats = {
     },
     {
       "name": "Jazmine Brigianti",
+      "count": 1
+    },
+    {
+      "name": "Kirsty Smith",
       "count": 1
     },
     {
@@ -5607,6 +5551,10 @@ const relayStats = {
       "count": 1
     },
     {
+      "name": "Rhiannon Thomas",
+      "count": 1
+    },
+    {
       "name": "Lisa Williams",
       "count": 1
     },
@@ -5620,6 +5568,10 @@ const relayStats = {
     },
     {
       "name": "Kristie OConnell",
+      "count": 1
+    },
+    {
+      "name": "Kelly Wall",
       "count": 1
     },
     {
@@ -5743,6 +5695,10 @@ const relayStats = {
       "count": 1
     },
     {
+      "name": "Hannah Withers",
+      "count": 1
+    },
+    {
       "name": "Laura Beech",
       "count": 1
     },
@@ -5827,6 +5783,10 @@ const relayStats = {
       "count": 1
     },
     {
+      "name": "Chris Baker",
+      "count": 1
+    },
+    {
       "name": "Megan Holmes",
       "count": 1
     },
@@ -5852,6 +5812,10 @@ const relayStats = {
     },
     {
       "name": "Kate Williams",
+      "count": 1
+    },
+    {
+      "name": "Moira Wooles",
       "count": 1
     },
     {
@@ -5892,6 +5856,10 @@ const relayStats = {
     },
     {
       "name": "Maad Khalil",
+      "count": 1
+    },
+    {
+      "name": "Dani Sapsford",
       "count": 1
     },
     {
@@ -5959,27 +5927,63 @@ const relayStats = {
       "count": 1
     },
     {
-      "name": "Andy Davies",
+      "name": "RUNNERS 5 Vanessa Lawson",
       "count": 1
     },
     {
-      "name": "Rebeca Foley",
+      "name": "HARRIERS 7 Hannah Davies",
       "count": 1
     },
     {
-      "name": "Alice Balaam",
+      "name": "RUNNERS CWMBRAN 8 Andy Davies",
       "count": 1
     },
     {
-      "name": "Claire Jarrom",
+      "name": "HARRIERS 9 Natalie Meyrick",
       "count": 1
     },
     {
-      "name": "Marie Coles",
+      "name": "RUNNING 11 Wayne Frewen",
       "count": 1
     },
     {
-      "name": "Zoe Elver",
+      "name": "RUNNERS 12 Rebecca Foster",
+      "count": 1
+    },
+    {
+      "name": "RUNNING 13 Alice Balaam",
+      "count": 1
+    },
+    {
+      "name": "ROADENTS 15 Helen Thomas",
+      "count": 1
+    },
+    {
+      "name": "DISTRICT RUNNERS 16 Paula Allen",
+      "count": 1
+    },
+    {
+      "name": "RUNNERS 17 Claire Jarrom",
+      "count": 1
+    },
+    {
+      "name": "RUNNERS 18 Paige Luff",
+      "count": 1
+    },
+    {
+      "name": "RUNNING 19 Marie Coles",
+      "count": 1
+    },
+    {
+      "name": "RUNNING 20 Debra Jones",
+      "count": 1
+    },
+    {
+      "name": "RUNNERS FINISHING AFTER ARE AWARDED Louise Saddler",
+      "count": 1
+    },
+    {
+      "name": "INFRINGEMENT OF IN PLUS Jane Lewis",
       "count": 1
     },
     {
@@ -6063,6 +6067,10 @@ const relayStats = {
       "count": 1
     },
     {
+      "name": "Esther Barrett",
+      "count": 1
+    },
+    {
       "name": "Martyn Furness",
       "count": 1
     },
@@ -6072,6 +6080,10 @@ const relayStats = {
     },
     {
       "name": "Janet Evans",
+      "count": 1
+    },
+    {
+      "name": "Claire Simms",
       "count": 1
     },
     {
@@ -6219,6 +6231,10 @@ const relayStats = {
       "count": 1
     },
     {
+      "name": "Lee Griffiths",
+      "count": 1
+    },
+    {
       "name": "Simon Peterson",
       "count": 1
     },
@@ -6260,6 +6276,10 @@ const relayStats = {
     },
     {
       "name": "Steve Preddy",
+      "count": 1
+    },
+    {
+      "name": "Charlotte Ralph",
       "count": 1
     },
     {
@@ -6427,55 +6447,35 @@ const relayStats = {
       "count": 1
     },
     {
-      "name": "Dan Arthur",
+      "name": "CWMBRAN 8 Dani Sapsford",
       "count": 1
     },
     {
-      "name": "Sean Thomasson",
+      "name": "HARRIERS 9 Elizabeth Stokes",
       "count": 1
     },
     {
-      "name": "Lou cid:9Summers",
+      "name": "RUNNING 12 Lee Griffiths",
       "count": 1
     },
     {
-      "name": "Trish Chalk",
+      "name": "RUNNERS 15 Kay Dixon",
       "count": 1
     },
     {
-      "name": "Adrian Hayward",
+      "name": "RUNNERS 16 Clar Kelly",
       "count": 1
     },
     {
-      "name": "Christopher Jones P",
+      "name": "RUNNING 17 Amy cid:9Flinn",
       "count": 1
     },
     {
-      "name": "Ian Thorne",
+      "name": "RUNNERS FINISHING AFTER ARE AWARDED Trish Edwards Usk",
       "count": 1
     },
     {
-      "name": "Kay Dixon",
-      "count": 1
-    },
-    {
-      "name": "Clar Kelly",
-      "count": 1
-    },
-    {
-      "name": "Amy cid:9Flinn",
-      "count": 1
-    },
-    {
-      "name": "Becky lovell",
-      "count": 1
-    },
-    {
-      "name": "Hayley Gittins",
-      "count": 1
-    },
-    {
-      "name": "Brigette Widdas",
+      "name": "RUNNERS FAILING TO FINISH ARE AWARDED PLUS Sheree cid:9Mann",
       "count": 1
     },
     {
@@ -6628,6 +6628,10 @@ const relayStats = {
     },
     {
       "name": "Karen Barratt",
+      "count": 1
+    },
+    {
+      "name": "Debra Jones",
       "count": 1
     },
     {
@@ -6999,6 +7003,10 @@ const relayStats = {
       "count": 1
     },
     {
+      "name": "Paula Allen",
+      "count": 1
+    },
+    {
       "name": "Katie Luff",
       "count": 1
     },
@@ -7063,7 +7071,7 @@ const relayStats = {
       "count": 1
     },
     {
-      "name": "Steve HARRIS",
+      "name": "Dawne Meynell-Western",
       "count": 1
     },
     {
@@ -7071,43 +7079,23 @@ const relayStats = {
       "count": 1
     },
     {
-      "name": "Matthew LLOYD",
+      "name": "RUNNERS 15 Tyrone BROOME",
       "count": 1
     },
     {
-      "name": "James DAY",
+      "name": "RUNNERS 16 Emma MORGAN",
       "count": 1
     },
     {
-      "name": "Tyrone BROOME",
+      "name": "RUNNING 17 Denise EVANS",
       "count": 1
     },
     {
-      "name": "Emma MORGAN",
+      "name": "FINISHING AFTER ARE AWARDED",
       "count": 1
     },
     {
-      "name": "Denise EVANS",
-      "count": 1
-    },
-    {
-      "name": "Clive COOKSEY",
-      "count": 1
-    },
-    {
-      "name": "Colin CROOKS",
-      "count": 1
-    },
-    {
-      "name": "Gwilym PARR",
-      "count": 1
-    },
-    {
-      "name": "NO RUNNER",
-      "count": 1
-    },
-    {
-      "name": "RUNNER UNDER",
+      "name": "FAILING TO FINISH ARE AWARDED PLUS",
       "count": 1
     },
     {
@@ -7236,10 +7224,6 @@ const relayStats = {
     },
     {
       "name": "Mike DAVIES",
-      "count": 1
-    },
-    {
-      "name": "Phillip MILES",
       "count": 1
     },
     {
@@ -8311,6 +8295,10 @@ const relayStats = {
       "count": 1
     },
     {
+      "name": "Roger Mills",
+      "count": 1
+    },
+    {
       "name": "Graham Viner",
       "count": 1
     },
@@ -8347,7 +8335,15 @@ const relayStats = {
       "count": 1
     },
     {
+      "name": "Eve Gallop-Evans",
+      "count": 1
+    },
+    {
       "name": "Charlene Henshaw",
+      "count": 1
+    },
+    {
+      "name": "Lianne Willetts",
       "count": 1
     },
     {
@@ -8370,10 +8366,6 @@ const relayStats = {
     },
     {
       "name": "Sam Lewis Jones",
-      "count": 2
-    },
-    {
-      "name": "Clare Patterson",
       "count": 2
     },
     {
@@ -8449,6 +8441,10 @@ const relayStats = {
       "count": 1
     },
     {
+      "name": "A.A.C 3 Bryan Meredith",
+      "count": 1
+    },
+    {
       "name": "Jack Reddy",
       "count": 1
     },
@@ -8489,7 +8485,7 @@ const relayStats = {
       "count": 1
     },
     {
-      "name": "Natalie Burchell",
+      "name": "A.A.C 3 Emily Sams",
       "count": 1
     },
     {
@@ -8529,10 +8525,6 @@ const relayStats = {
       "count": 1
     },
     {
-      "name": "Chole Leek",
-      "count": 1
-    },
-    {
       "name": "Benjamin Russell",
       "count": 1
     },
@@ -8565,11 +8557,15 @@ const relayStats = {
       "count": 1
     },
     {
+      "name": "Clare Patterson",
+      "count": 1
+    },
+    {
       "name": "Lee Drew",
       "count": 1
     },
     {
-      "name": "Aimee Ferguson",
+      "name": "A.A.C 3 Lisa Jeffrey",
       "count": 1
     },
     {
@@ -8645,7 +8641,7 @@ const relayStats = {
       "count": 1
     },
     {
-      "name": "Matt Creed",
+      "name": "RUNNERS 5 Vanessa Lawson",
       "count": 1
     },
     {
@@ -8681,7 +8677,7 @@ const relayStats = {
       "count": 1
     },
     {
-      "name": "Dan Arthur",
+      "name": "CWMBRAN 8 Dani Sapsford",
       "count": 1
     },
     {
@@ -8717,7 +8713,7 @@ const relayStats = {
       "count": 1
     },
     {
-      "name": "Steve HARRIS",
+      "name": "Nick DENNY",
       "count": 1
     },
     {

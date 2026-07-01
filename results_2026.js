@@ -1,4 +1,4 @@
-const relayResults = [
+const results2026 = [
   {
     "year": 2026,
     "stage": 1,
