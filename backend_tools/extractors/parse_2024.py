@@ -30,12 +30,9 @@ def extract_2024(pdf_path):
         for page in pdf.pages:
             text = page.extract_text() or ""
             for line in text.split('\n'):
-                if not line.strip(): 
+                line = line.strip()
+                if not line: 
                     continue
-
-                # Strip layout banner notices
-                line = re.sub(r'^Times\s+less\s+than\s+course\s+record\s+highlighted\s+GREEN\s+', '', line, flags=re.IGNORECASE)
-                line = re.sub(r'^TIME\s+highlighted\s+YELLOW\s+=\s+CUT\s+OFF\s+RULES\s+APPLIED\s+', '', line, flags=re.IGNORECASE)
 
                 # Parse and lock stage headers safely
                 stage_match = re.search(r'(?:LEG|Stage)\s*:?\s*(\d+)', line, re.IGNORECASE)
@@ -43,20 +40,25 @@ def extract_2024(pdf_path):
                     current_stage = int(stage_match.group(1))
                     continue
 
-                if any(x in line.lower() for x in ["www.", "total time", "after leg", "course record", "result :", "distance :", "total number of", "total distance run"]): 
+                if line.isdigit():
                     continue
 
-                if any(x in line.lower() for x in ["www.", "total time", "after leg", "course record"]):
+                # Clean out web links and layout remnants completely before running logic filters
+                line = re.sub(r'www\.\S+', '', line, flags=re.IGNORECASE)
+                line = re.sub(r'TOTAL\s+NUMBER\s+OF\s+RUNNERS.*$', '', line, flags=re.IGNORECASE)
+                line = re.sub(r'TOTAL\s+DISTANCE\s+RUN.*$', '', line, flags=re.IGNORECASE)
+                line = re.sub(r'TOTAL\s+TIME\s+RUN.*$', '', line, flags=re.IGNORECASE)
+                line = re.sub(r'NUMBER\s+OF\s+TEAMS.*$', '', line, flags=re.IGNORECASE)
+                line = re.sub(r'RELAY\s+STAGES.*$', '', line, flags=re.IGNORECASE)
+
+                # Isolate absolute table headers from line-wrapped data strings
+                if line.upper().startswith("DISTANCE :") or line.upper().startswith("RESULT :") or "TOTAL TIME AFTER" in line.upper():
                     continue
 
                 times = time_pattern.findall(line)
                 if not times:
                     continue
                 leg_time = times[0]
-
-                # Filter out time-of-day cumulative timestamps from wrapped lines
-                if any(leg_time.startswith(p) for p in ["10:", "11:", "12:", "13:", "14:", "15:", "16:"]):
-                    continue
 
                 # --- STAGE 1 LOGIC ENGINE ---
                 if current_stage == 1:
@@ -66,17 +68,16 @@ def extract_2024(pdf_path):
                     bracket_split = re.split(r'\s*\(\d+\)\s*', right_side)
                     if len(bracket_split) >= 2:
                         runner_name = bracket_split[0].strip()
-                        
                         right_tokens = bracket_split[1].split()
                         club_words = []
                         for token in right_tokens:
-                            if token.isdigit() or ":" in token or token.lower() in ["lead", "time"]:
+                            if token.isdigit() or ":" in token or token.lower() in ["lead", "time", "+", "interval"]:
                                 break
                             club_words.append(token)
                         runner_club = " ".join(club_words).strip()
                     else:
                         right_tokens = right_side.split()
-                        runner_name = f"{right_tokens[0]} {right_tokens[1]}" if len(right_tokens) >= 2 else right_tokens[0]
+                        runner_name = f"{right_tokens[0]} {right_tokens[1]}" if len(right_tokens) >= 2 else "Unknown Runner"
                         runner_club = "Independent"
 
                 # --- STAGES 2 - 14 LOGIC ENGINE ---
@@ -84,26 +85,25 @@ def extract_2024(pdf_path):
                     parts = line.split(leg_time)
                     right_side = parts[1].strip() if len(parts) > 1 else ""
 
-                    # Find the first team ID bracket context anchor point
                     bracket_match = re.search(r'\s*\(\d+\)\s*', right_side)
                     if bracket_match:
-                        # Everything before the bracket is the runner's full name
                         runner_name = right_side[:bracket_match.start()].strip()
                         
-                        # Everything after the bracket contains the club, followed by the position digit
                         after_bracket = right_side[bracket_match.end():].strip()
                         after_tokens = after_bracket.split()
                         
                         club_words = []
                         for token in after_tokens:
-                            # Stop grabbing club name characters when we reach the position integer
-                            if token.isdigit() or ":" in token:
+                            if token.isdigit() or ":" in token or token.lower() in ["lead", "time", "+", "interval"]:
                                 break
                             club_words.append(token)
                         runner_club = " ".join(club_words).strip()
                     else:
-                        runner_name = "Unknown Runner"
-                        runner_club = "Independent"
+                        continue
+
+                # --- STRICT STRUCTURAL FILTER ---
+                if len(runner_name.split()) < 2:
+                    continue
 
                 # --- DATA SANITISATION ---
                 if runner_club.isupper() and len(runner_club) > 3:
@@ -114,6 +114,9 @@ def extract_2024(pdf_path):
 
                 if runner_club.upper() in ["A", "B", "C", ""]:
                     runner_club = "Independent"
+
+                if any(r["name"] == runner_name and r["stage"] == current_stage for r in results):
+                    continue
 
                 position = len([r for r in results if r["stage"] == current_stage]) + 1
                 stage_meta = STAGE_DISTANCES.get(current_stage, {"miles": None, "km": None, "name": ""})

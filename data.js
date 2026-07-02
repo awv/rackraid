@@ -12877,6 +12877,28 @@ const relayResults = [
     "miles": 5.43,
     "km": 8.7,
     "position": 1,
+    "name": "Daniel Bodman",
+    "club": "Parc Bryn Bach B",
+    "time": "00:31:55"
+  },
+  {
+    "year": 2024,
+    "stage": 13,
+    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 2,
+    "name": "Matt Govier",
+    "club": "Les Croupiers",
+    "time": "00:37:15"
+  },
+  {
+    "year": 2024,
+    "stage": 13,
+    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 3,
     "name": "Sandra Chipper",
     "club": "Lliswerry A",
     "time": "00:38:43"
@@ -12887,7 +12909,7 @@ const relayResults = [
     "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
     "miles": 5.43,
     "km": 8.7,
-    "position": 2,
+    "position": 4,
     "name": "Nicola Jukes",
     "club": "Parc Bryn Bach A",
     "time": "00:39:50"
@@ -12898,7 +12920,7 @@ const relayResults = [
     "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
     "miles": 5.43,
     "km": 8.7,
-    "position": 3,
+    "position": 5,
     "name": "Emyr Bissmire",
     "club": "Ogmore",
     "time": "00:40:32"
@@ -12909,7 +12931,7 @@ const relayResults = [
     "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
     "miles": 5.43,
     "km": 8.7,
-    "position": 4,
+    "position": 6,
     "name": "Anna Williams",
     "club": "Caerphilly",
     "time": "00:41:07"
@@ -12920,7 +12942,7 @@ const relayResults = [
     "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
     "miles": 5.43,
     "km": 8.7,
-    "position": 5,
+    "position": 7,
     "name": "Lisa Jeffrey",
     "club": "Chepstow A",
     "time": "00:41:15"
@@ -12931,7 +12953,7 @@ const relayResults = [
     "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
     "miles": 5.43,
     "km": 8.7,
-    "position": 6,
+    "position": 8,
     "name": "Elaine Ferguson",
     "club": "Pontypridd A",
     "time": "00:43:27"
@@ -12942,7 +12964,7 @@ const relayResults = [
     "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
     "miles": 5.43,
     "km": 8.7,
-    "position": 7,
+    "position": 9,
     "name": "Dallyn Shaw",
     "club": "Griffithstown",
     "time": "00:43:45"
@@ -12953,7 +12975,7 @@ const relayResults = [
     "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
     "miles": 5.43,
     "km": 8.7,
-    "position": 8,
+    "position": 10,
     "name": "Jason Pritchard",
     "club": "Caerleon A",
     "time": "00:44:07"
@@ -12964,7 +12986,7 @@ const relayResults = [
     "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
     "miles": 5.43,
     "km": 8.7,
-    "position": 9,
+    "position": 11,
     "name": "Charlotte Giles",
     "club": "Chepstow B",
     "time": "00:45:07"
@@ -12975,7 +12997,7 @@ const relayResults = [
     "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
     "miles": 5.43,
     "km": 8.7,
-    "position": 10,
+    "position": 12,
     "name": "Carly Bunston",
     "club": "Islwyn A",
     "time": "00:45:15"
@@ -12986,7 +13008,7 @@ const relayResults = [
     "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
     "miles": 5.43,
     "km": 8.7,
-    "position": 11,
+    "position": 13,
     "name": "Alan Legge",
     "club": "Fairwater A",
     "time": "00:45:28"
@@ -12997,7 +13019,7 @@ const relayResults = [
     "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
     "miles": 5.43,
     "km": 8.7,
-    "position": 12,
+    "position": 14,
     "name": "Nia Reddy",
     "club": "Aberdare",
     "time": "00:46:26"
@@ -13008,7 +13030,7 @@ const relayResults = [
     "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
     "miles": 5.43,
     "km": 8.7,
-    "position": 13,
+    "position": 15,
     "name": "Karen Southgate",
     "club": "Pont-y-pwl",
     "time": "00:46:38"
@@ -13019,7 +13041,7 @@ const relayResults = [
     "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
     "miles": 5.43,
     "km": 8.7,
-    "position": 14,
+    "position": 16,
     "name": "Joanne Ryan",
     "club": "Rhondda",
     "time": "00:46:39"
@@ -13030,7 +13052,7 @@ const relayResults = [
     "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
     "miles": 5.43,
     "km": 8.7,
-    "position": 15,
+    "position": 17,
     "name": "Sharon Carrafa",
     "club": "Islwyn B",
     "time": "00:46:55"
@@ -13041,7 +13063,7 @@ const relayResults = [
     "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
     "miles": 5.43,
     "km": 8.7,
-    "position": 16,
+    "position": 18,
     "name": "Rowena White",
     "club": "San Domenico",
     "time": "00:46:57"
@@ -13052,7 +13074,7 @@ const relayResults = [
     "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
     "miles": 5.43,
     "km": 8.7,
-    "position": 17,
+    "position": 19,
     "name": "Helen Andrews",
     "club": "Bridgend",
     "time": "00:47:20"
@@ -13063,7 +13085,7 @@ const relayResults = [
     "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
     "miles": 5.43,
     "km": 8.7,
-    "position": 18,
+    "position": 20,
     "name": "Adam Gray",
     "club": "Monross",
     "time": "00:48:02"
@@ -13074,7 +13096,7 @@ const relayResults = [
     "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
     "miles": 5.43,
     "km": 8.7,
-    "position": 19,
+    "position": 21,
     "name": "Rhydian Sandbrook",
     "club": "Pegasus",
     "time": "00:48:21"
@@ -13085,7 +13107,7 @@ const relayResults = [
     "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
     "miles": 5.43,
     "km": 8.7,
-    "position": 20,
+    "position": 22,
     "name": "Rebekah Clarke",
     "club": "Caldicot",
     "time": "00:48:33"
@@ -13096,7 +13118,7 @@ const relayResults = [
     "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
     "miles": 5.43,
     "km": 8.7,
-    "position": 21,
+    "position": 23,
     "name": "Claire Finley",
     "club": "Spirit of Monmouth",
     "time": "00:48:58"
@@ -13107,9 +13129,20 @@ const relayResults = [
     "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
     "miles": 5.43,
     "km": 8.7,
-    "position": 22,
+    "position": 24,
+    "name": "Karen Day",
+    "club": "Lliswerry B",
+    "time": "00:49:00"
+  },
+  {
+    "year": 2024,
+    "stage": 13,
+    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 25,
     "name": "Carys Parry",
-    "club": "Brackla A NUMBER OF TEAMS",
+    "club": "Brackla A",
     "time": "00:49:01"
   },
   {
@@ -13118,7 +13151,40 @@ const relayResults = [
     "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
     "miles": 5.43,
     "km": 8.7,
-    "position": 23,
+    "position": 26,
+    "name": "Sarah Cooper",
+    "club": "CDF",
+    "time": "00:49:02"
+  },
+  {
+    "year": 2024,
+    "stage": 13,
+    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 27,
+    "name": "Megan Holly",
+    "club": "Fairwater B",
+    "time": "00:49:03"
+  },
+  {
+    "year": 2024,
+    "stage": 13,
+    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 28,
+    "name": "Bethan Ford",
+    "club": "Pontypridd B",
+    "time": "00:49:04"
+  },
+  {
+    "year": 2024,
+    "stage": 13,
+    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 29,
     "name": "Matt Robertson",
     "club": "Brackla B",
     "time": "00:49:05"
@@ -13129,328 +13195,9 @@ const relayResults = [
     "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
     "miles": 5.43,
     "km": 8.7,
-    "position": 24,
+    "position": 30,
     "name": "Jasmine Arnold",
     "club": "Caerleon B",
     "time": "00:59:00"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 25,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "00:27:12"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 26,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "00:29:27"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 27,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "01:06:20"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 28,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "01:09:43"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 29,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "01:13:30"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 30,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "01:17:25"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 31,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "01:23:29"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 32,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "01:38:15"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 33,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "01:44:37"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 34,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "01:46:37"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 35,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "01:47:31"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 36,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "01:55:50"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 37,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "02:02:07"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 38,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "02:02:52"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 39,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "02:18:18"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 40,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "02:20:30"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 41,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "02:42:38"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 42,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "02:48:11"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 43,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "02:54:12"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 44,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "02:57:41"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 45,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "03:00:30"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 46,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "03:02:11"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 47,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "03:04:05"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 48,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "03:11:58"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 49,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "03:32:48"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 50,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "03:44:09"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 51,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "04:11:55"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 52,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "04:33:43"
-  },
-  {
-    "year": 2024,
-    "stage": 13,
-    "stage_name": "Caerleon Amphitheatre to Castell-y-Bwch",
-    "miles": 5.43,
-    "km": 8.7,
-    "position": 53,
-    "name": "Unknown Runner",
-    "club": "Independent",
-    "time": "04:51:23"
   }
 ];
