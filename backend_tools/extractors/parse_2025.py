@@ -1,6 +1,8 @@
 # backend_tools/extractors/parse_2025.py
 import re
 import pdfplumber
+import json
+import os
 
 STAGE_DISTANCES = {
     1: {"miles": 5.1, "km": 8.2, "name": "Grosmont Castle to Skenfrith Castle"},
@@ -23,6 +25,16 @@ def extract_2025(pdf_path):
     current_stage = 1
     time_pattern = re.compile(r'(\d{1,2}:\d{2}:\d{2})')
 
+    # Load club mappings once at startup
+    mappings = {}
+    mapping_path = os.path.join(os.path.dirname(__file__), "..", "club_mappings.json")
+    if os.path.exists(mapping_path):
+        try:
+            with open(mapping_path, "r", encoding="utf-8") as f:
+                mappings = json.load(f)
+        except Exception as e:
+            print(f"-> Warning: Could not read club_mappings.json: {e}")
+
     print(f"-> Parsing stable digital text layer for 2025: {pdf_path}")
 
     with pdfplumber.open(pdf_path) as pdf:
@@ -33,7 +45,6 @@ def extract_2025(pdf_path):
                 if not line: 
                     continue
 
-                # Lock the stage boundaries safely
                 stage_match = re.search(r'(?:LEG|Stage)\s*:?\s*(\d+)', line, re.IGNORECASE)
                 if stage_match:
                     current_stage = int(stage_match.group(1))
@@ -42,7 +53,6 @@ def extract_2025(pdf_path):
                 if line.isdigit():
                     continue
 
-                # Clean out web links and layout remnants completely before running logic filters
                 line = re.sub(r'www\.\S+', '', line, flags=re.IGNORECASE)
                 line = re.sub(r'TOTAL\s+NUMBER\s+OF\s+RUNNERS.*$', '', line, flags=re.IGNORECASE)
                 line = re.sub(r'TOTAL\s+DISTANCE\s+RUN.*$', '', line, flags=re.IGNORECASE)
@@ -50,8 +60,7 @@ def extract_2025(pdf_path):
                 line = re.sub(r'NUMBER\s+OF\s+TEAMS.*$', '', line, flags=re.IGNORECASE)
                 line = re.sub(r'RELAY\s+STAGES.*$', '', line, flags=re.IGNORECASE)
 
-                # Isolate absolute table headers from line-wrapped data strings
-                if line.upper().startswith("DISTANCE :") or line.upper().startswith("RESULT :") or "TOTAL TIME AFTER" in line.upper():
+                if any(x in line.lower() for x in ["distance :", "result :", "total time after"]):
                     continue
 
                 times = time_pattern.findall(line)
@@ -123,6 +132,11 @@ def extract_2025(pdf_path):
 
                 if runner_club.upper() in ["A", "B", "C", ""]:
                     runner_club = "Independent"
+
+                # Check static mappings
+                runner_club_clean = runner_club.strip().lower()
+                if runner_club_clean in mappings:
+                    runner_club = mappings[runner_club_clean]
 
                 if any(r["name"] == runner_name and r["stage"] == current_stage for r in results):
                     continue

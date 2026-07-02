@@ -1,6 +1,8 @@
 # backend_tools/extractors/parse_2026.py
 import re
 import pdfplumber
+import json
+import os
 
 STAGE_DISTANCES = {
     1: {"miles": 5.1, "km": 8.2, "name": "Grosmont Castle to Skenfrith Castle"},
@@ -24,29 +26,37 @@ def extract_2026(pdf_path):
     current_stage = 1
     time_pattern = re.compile(r'(\d{1,2}:\d{2}:\d{2})')
 
+    # Load club mappings once at startup
+    mappings = {}
+    mapping_path = os.path.join(os.path.dirname(__file__), "..", "club_mappings.json")
+    if os.path.exists(mapping_path):
+        try:
+            with open(mapping_path, "r", encoding="utf-8") as f:
+                mappings = json.load(f)
+        except Exception as e:
+            print(f"-> Warning: Could not read club_mappings.json: {e}")
+
     print(f"-> Parsing stable digital text layer for 2026: {pdf_path}")
 
     with pdfplumber.open(pdf_path) as pdf:
         for page in pdf.pages:
             text = page.extract_text() or ""
             for line in text.split('\n'):
-                if not line.strip(): 
+                line = line.strip()
+                if not line: 
                     continue
 
-                # Strip layout banner notices and web link variations
                 line = re.sub(r'^TIME\s+highlighted\s+GREEN\s+=\s+INSIDE\s+COURSE\s+RECORD\s+\d+\s+', '', line, flags=re.IGNORECASE)
                 line = re.sub(r'^TIME\s+highlighted\s+YELLOW\s+=\s+CUT\s+OFF\s+RULES\s+APPLIED\s+\d+\s+', '', line, flags=re.IGNORECASE)
                 line = re.sub(r'^TIME\s+highlighted\s+YELLOW\s+=\s+CUT\s+OFF\s+RULES\s+APPLIED\s+', '', line, flags=re.IGNORECASE)
                 line = re.sub(r'www\.\S+', '', line, flags=re.IGNORECASE)
 
-                # Strip trailing master report statistical markers immediately to preserve row profiles
                 line = re.sub(r'TOTAL\s+NUMBER\s+OF\s+RUNNERS.*$', '', line, flags=re.IGNORECASE)
                 line = re.sub(r'TOTAL\s+DISTANCE\s+RUN.*$', '', line, flags=re.IGNORECASE)
                 line = re.sub(r'TOTAL\s+TIME\s+RUN.*$', '', line, flags=re.IGNORECASE)
                 line = re.sub(r'NUMBER\s+OF\s+TEAMS.*$', '', line, flags=re.IGNORECASE)
                 line = re.sub(r'RELAY\s+STAGES.*$', '', line, flags=re.IGNORECASE)
 
-                # Lock the stage boundaries safely
                 stage_match = re.search(r'(?:LEG|Stage)\s*:?\s*(\d+)', line, re.IGNORECASE)
                 if stage_match:
                     current_stage = int(stage_match.group(1))
@@ -89,7 +99,6 @@ def extract_2026(pdf_path):
                     bracket_split = re.split(r'\s*\(\d+\)\s*', right_side)
                     if len(bracket_split) >= 2:
                         runner_name = bracket_split[0].strip()
-                        
                         right_tokens = bracket_split[1].split()
                         club_words = []
                         for token in right_tokens:
@@ -114,7 +123,11 @@ def extract_2026(pdf_path):
                 if runner_club.upper() in ["A", "B", "C", ""]:
                     runner_club = "Independent"
 
-                # Prevent duplicate runner entries
+                # Check static mappings
+                runner_club_clean = runner_club.strip().lower()
+                if runner_club_clean in mappings:
+                    runner_club = mappings[runner_club_clean]
+
                 if any(r["name"] == runner_name and r["stage"] == current_stage for r in results):
                     continue
 

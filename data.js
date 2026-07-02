@@ -4628,7 +4628,7 @@ const relayResults = [
     "km": 8.2,
     "position": 1,
     "name": "Clare Patterson",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "00:31:14"
   },
   {
@@ -4661,7 +4661,7 @@ const relayResults = [
     "km": 8.2,
     "position": 4,
     "name": "Jen Coleman",
-    "club": "Les Croupiers A",
+    "club": "Les Croupiers Running Club",
     "time": "00:33:51"
   },
   {
@@ -4727,7 +4727,7 @@ const relayResults = [
     "km": 8.2,
     "position": 10,
     "name": "Rachel Bowen",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:35:35"
   },
   {
@@ -4738,7 +4738,7 @@ const relayResults = [
     "km": 8.2,
     "position": 11,
     "name": "Julia Bajjada",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:36:24"
   },
   {
@@ -4771,7 +4771,7 @@ const relayResults = [
     "km": 8.2,
     "position": 14,
     "name": "Marisa Benjamin",
-    "club": "Pont-y-pwl A",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "00:39:21"
   },
   {
@@ -4782,7 +4782,7 @@ const relayResults = [
     "km": 8.2,
     "position": 15,
     "name": "Samantha Bills",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "00:39:46"
   },
   {
@@ -4826,7 +4826,7 @@ const relayResults = [
     "km": 8.2,
     "position": 19,
     "name": "Kate Humphreys",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:41:00"
   },
   {
@@ -4848,7 +4848,7 @@ const relayResults = [
     "km": 8.2,
     "position": 21,
     "name": "Julie Lees",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "00:41:54"
   },
   {
@@ -4881,7 +4881,7 @@ const relayResults = [
     "km": 8.2,
     "position": 24,
     "name": "Hayley Coristine",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:43:31"
   },
   {
@@ -4892,7 +4892,7 @@ const relayResults = [
     "km": 8.2,
     "position": 25,
     "name": "Karen Francis",
-    "club": "Les Croupiers B",
+    "club": "Les Croupiers Running Club",
     "time": "00:43:39"
   },
   {
@@ -4925,7 +4925,7 @@ const relayResults = [
     "km": 8.2,
     "position": 28,
     "name": "Catherine Price",
-    "club": "Pont-y-pwl B",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "00:46:00"
   },
   {
@@ -4947,7 +4947,7 @@ const relayResults = [
     "km": 8.2,
     "position": 30,
     "name": "Helen Brown",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "00:46:02"
   },
   {
@@ -4969,7 +4969,7 @@ const relayResults = [
     "km": 11.2,
     "position": 2,
     "name": "Jack Rowland",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:45:59"
   },
   {
@@ -4991,7 +4991,7 @@ const relayResults = [
     "km": 11.2,
     "position": 4,
     "name": "Carl Nealon",
-    "club": "Les Croupiers A",
+    "club": "Les Croupiers Running Club",
     "time": "00:48:12"
   },
   {
@@ -5024,7 +5024,7 @@ const relayResults = [
     "km": 11.2,
     "position": 7,
     "name": "Niki Morgan",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:49:28"
   },
   {
@@ -5035,7 +5035,7 @@ const relayResults = [
     "km": 11.2,
     "position": 8,
     "name": "Kimberley Price",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "00:50:36"
   },
   {
@@ -5079,7 +5079,7 @@ const relayResults = [
     "km": 11.2,
     "position": 12,
     "name": "Kieran Chaplin",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:51:55"
   },
   {
@@ -5134,7 +5134,7 @@ const relayResults = [
     "km": 11.2,
     "position": 17,
     "name": "Richard Self",
-    "club": "Les Croupiers B",
+    "club": "Les Croupiers Running Club",
     "time": "00:56:04"
   },
   {
@@ -5167,7 +5167,7 @@ const relayResults = [
     "km": 11.2,
     "position": 20,
     "name": "Michelle Gooch",
-    "club": "Pont-y-pwl A",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "00:58:11"
   },
   {
@@ -5178,7 +5178,7 @@ const relayResults = [
     "km": 11.2,
     "position": 21,
     "name": "Jan Morris",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:58:34"
   },
   {
@@ -5200,7 +5200,7 @@ const relayResults = [
     "km": 11.2,
     "position": 23,
     "name": "Victoria Boxhall-James",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "01:00:22"
   },
   {
@@ -5211,7 +5211,7 @@ const relayResults = [
     "km": 11.2,
     "position": 24,
     "name": "Elizabeth Walsh",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:01:49"
   },
   {
@@ -5255,7 +5255,7 @@ const relayResults = [
     "km": 11.2,
     "position": 28,
     "name": "Maria Richards",
-    "club": "Pont-y-pwl B",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "01:02:03"
   },
   {
@@ -5277,7 +5277,7 @@ const relayResults = [
     "km": 11.2,
     "position": 30,
     "name": "Heather Rumble",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:02:05"
   },
   {
@@ -5288,7 +5288,7 @@ const relayResults = [
     "km": 12.1,
     "position": 1,
     "name": "Ross Matthews",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "00:42:45"
   },
   {
@@ -5299,7 +5299,7 @@ const relayResults = [
     "km": 12.1,
     "position": 2,
     "name": "Martin Johns",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:45:47"
   },
   {
@@ -5332,7 +5332,7 @@ const relayResults = [
     "km": 12.1,
     "position": 5,
     "name": "Anthony Marshal",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:47:06"
   },
   {
@@ -5343,7 +5343,7 @@ const relayResults = [
     "km": 12.1,
     "position": 6,
     "name": "Steve Drewitt",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "00:47:41"
   },
   {
@@ -5354,7 +5354,7 @@ const relayResults = [
     "km": 12.1,
     "position": 7,
     "name": "Craig Hopkins",
-    "club": "Pont-y-pwl A",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "00:47:47"
   },
   {
@@ -5365,7 +5365,7 @@ const relayResults = [
     "km": 12.1,
     "position": 8,
     "name": "Andy Hughes",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:48:12"
   },
   {
@@ -5387,7 +5387,7 @@ const relayResults = [
     "km": 12.1,
     "position": 10,
     "name": "Leighton Everett",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:50:47"
   },
   {
@@ -5431,7 +5431,7 @@ const relayResults = [
     "km": 12.1,
     "position": 14,
     "name": "Sarah Hamill",
-    "club": "Les Croupiers A",
+    "club": "Les Croupiers Running Club",
     "time": "00:53:14"
   },
   {
@@ -5475,7 +5475,7 @@ const relayResults = [
     "km": 12.1,
     "position": 18,
     "name": "Scott Greaves",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "00:55:54"
   },
   {
@@ -5530,7 +5530,7 @@ const relayResults = [
     "km": 12.1,
     "position": 23,
     "name": "Shane Baker",
-    "club": "Pont-y-pwl B",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "00:57:48"
   },
   {
@@ -5574,7 +5574,7 @@ const relayResults = [
     "km": 12.1,
     "position": 27,
     "name": "Donna Hamer",
-    "club": "Les Croupiers B",
+    "club": "Les Croupiers Running Club",
     "time": "01:00:55"
   },
   {
@@ -5607,7 +5607,7 @@ const relayResults = [
     "km": 12.1,
     "position": 30,
     "name": "Julie Roche",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:04:04"
   },
   {
@@ -5618,7 +5618,7 @@ const relayResults = [
     "km": 10.8,
     "position": 1,
     "name": "Phillip Matthews",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "00:36:47"
   },
   {
@@ -5640,7 +5640,7 @@ const relayResults = [
     "km": 10.8,
     "position": 3,
     "name": "Elizabeth Dimond",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:43:17"
   },
   {
@@ -5662,7 +5662,7 @@ const relayResults = [
     "km": 10.8,
     "position": 5,
     "name": "Wayne Humphreys",
-    "club": "Les Croupiers A",
+    "club": "Les Croupiers Running Club",
     "time": "00:45:02"
   },
   {
@@ -5673,7 +5673,7 @@ const relayResults = [
     "km": 10.8,
     "position": 6,
     "name": "Stephen George",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "00:45:33"
   },
   {
@@ -5684,7 +5684,7 @@ const relayResults = [
     "km": 10.8,
     "position": 7,
     "name": "Gareth Davies",
-    "club": "Pont-y-pwl A",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "00:46:15"
   },
   {
@@ -5717,7 +5717,7 @@ const relayResults = [
     "km": 10.8,
     "position": 10,
     "name": "Kathy Stringer",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:49:12"
   },
   {
@@ -5750,7 +5750,7 @@ const relayResults = [
     "km": 10.8,
     "position": 13,
     "name": "Annette Sanford",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:51:40"
   },
   {
@@ -5772,7 +5772,7 @@ const relayResults = [
     "km": 10.8,
     "position": 15,
     "name": "Joseph Mordey",
-    "club": "Les Croupiers B",
+    "club": "Les Croupiers Running Club",
     "time": "00:53:47"
   },
   {
@@ -5838,7 +5838,7 @@ const relayResults = [
     "km": 10.8,
     "position": 21,
     "name": "Ruth Richardson",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:55:45"
   },
   {
@@ -5849,7 +5849,7 @@ const relayResults = [
     "km": 10.8,
     "position": 22,
     "name": "Mark Prosser",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "00:56:56"
   },
   {
@@ -5882,7 +5882,7 @@ const relayResults = [
     "km": 10.8,
     "position": 25,
     "name": "Evie Hoare",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:01:00"
   },
   {
@@ -5937,7 +5937,7 @@ const relayResults = [
     "km": 10.8,
     "position": 30,
     "name": "Eigen Halpin",
-    "club": "Pont-y-pwl B",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "01:11:00"
   },
   {
@@ -5948,7 +5948,7 @@ const relayResults = [
     "km": 13.0,
     "position": 1,
     "name": "Lloyd Cottrell",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "00:42:40"
   },
   {
@@ -5959,7 +5959,7 @@ const relayResults = [
     "km": 13.0,
     "position": 2,
     "name": "Jordan Bray",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:44:41"
   },
   {
@@ -5970,7 +5970,7 @@ const relayResults = [
     "km": 13.0,
     "position": 3,
     "name": "Jonathon Ford",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "00:44:56"
   },
   {
@@ -5981,7 +5981,7 @@ const relayResults = [
     "km": 13.0,
     "position": 4,
     "name": "Charles Bendall",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:48:43"
   },
   {
@@ -6025,7 +6025,7 @@ const relayResults = [
     "km": 13.0,
     "position": 8,
     "name": "Gareth Logan",
-    "club": "Les Croupiers A",
+    "club": "Les Croupiers Running Club",
     "time": "00:52:47"
   },
   {
@@ -6058,7 +6058,7 @@ const relayResults = [
     "km": 13.0,
     "position": 11,
     "name": "Ethan Sayce",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "00:55:20"
   },
   {
@@ -6069,7 +6069,7 @@ const relayResults = [
     "km": 13.0,
     "position": 12,
     "name": "Kevin Harford",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:55:28"
   },
   {
@@ -6080,7 +6080,7 @@ const relayResults = [
     "km": 13.0,
     "position": 13,
     "name": "Lubica Ford",
-    "club": "Pont-y-pwl A",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "00:55:34"
   },
   {
@@ -6102,7 +6102,7 @@ const relayResults = [
     "km": 13.0,
     "position": 15,
     "name": "Lenny Sayers",
-    "club": "Les Croupiers B",
+    "club": "Les Croupiers Running Club",
     "time": "00:55:58"
   },
   {
@@ -6113,7 +6113,7 @@ const relayResults = [
     "km": 13.0,
     "position": 16,
     "name": "James Arnold",
-    "club": "Pont-y-pwl B",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "00:57:11"
   },
   {
@@ -6124,7 +6124,7 @@ const relayResults = [
     "km": 13.0,
     "position": 17,
     "name": "Simon Cawthorn",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:58:28"
   },
   {
@@ -6267,7 +6267,7 @@ const relayResults = [
     "km": 13.0,
     "position": 30,
     "name": "Suzanne Williams",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:23:00"
   },
   {
@@ -6278,7 +6278,7 @@ const relayResults = [
     "km": 20.3,
     "position": 1,
     "name": "Daniel Bodman",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "01:06:45"
   },
   {
@@ -6300,7 +6300,7 @@ const relayResults = [
     "km": 20.3,
     "position": 3,
     "name": "Jonathan Like",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "01:13:23"
   },
   {
@@ -6322,7 +6322,7 @@ const relayResults = [
     "km": 20.3,
     "position": 5,
     "name": "Adam Grey",
-    "club": "Pont-y-pwl A",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "01:13:56"
   },
   {
@@ -6333,7 +6333,7 @@ const relayResults = [
     "km": 20.3,
     "position": 6,
     "name": "Thomas Henry",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "01:16:14"
   },
   {
@@ -6344,7 +6344,7 @@ const relayResults = [
     "km": 20.3,
     "position": 7,
     "name": "Arwel Evans",
-    "club": "Les Croupiers A",
+    "club": "Les Croupiers Running Club",
     "time": "01:16:52"
   },
   {
@@ -6377,7 +6377,7 @@ const relayResults = [
     "km": 20.3,
     "position": 10,
     "name": "Tim Batchelor",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "01:18:11"
   },
   {
@@ -6410,7 +6410,7 @@ const relayResults = [
     "km": 20.3,
     "position": 13,
     "name": "Matthew Jones",
-    "club": "Les Croupiers B",
+    "club": "Les Croupiers Running Club",
     "time": "01:21:46"
   },
   {
@@ -6421,7 +6421,7 @@ const relayResults = [
     "km": 20.3,
     "position": 14,
     "name": "Kyle Harvey",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:23:19"
   },
   {
@@ -6476,7 +6476,7 @@ const relayResults = [
     "km": 20.3,
     "position": 19,
     "name": "Richard Hudd",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "01:26:55"
   },
   {
@@ -6487,7 +6487,7 @@ const relayResults = [
     "km": 20.3,
     "position": 20,
     "name": "Nathan Maloney",
-    "club": "Pont-y-pwl B",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "01:27:30"
   },
   {
@@ -6553,7 +6553,7 @@ const relayResults = [
     "km": 20.3,
     "position": 26,
     "name": "Stuart Ball",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:36:11"
   },
   {
@@ -6564,7 +6564,7 @@ const relayResults = [
     "km": 20.3,
     "position": 27,
     "name": "Michal Hajdon",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "01:36:48"
   },
   {
@@ -6608,7 +6608,7 @@ const relayResults = [
     "km": 8.9,
     "position": 1,
     "name": "Ewelina Ciesielska",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "00:34:33"
   },
   {
@@ -6641,7 +6641,7 @@ const relayResults = [
     "km": 8.9,
     "position": 4,
     "name": "Natalie Burchell",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:38:56"
   },
   {
@@ -6663,7 +6663,7 @@ const relayResults = [
     "km": 8.9,
     "position": 6,
     "name": "Olivia Overton",
-    "club": "Les Croupiers A",
+    "club": "Les Croupiers Running Club",
     "time": "00:40:04"
   },
   {
@@ -6685,7 +6685,7 @@ const relayResults = [
     "km": 8.9,
     "position": 8,
     "name": "Lisa Jeffrey",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:40:31"
   },
   {
@@ -6718,7 +6718,7 @@ const relayResults = [
     "km": 8.9,
     "position": 11,
     "name": "Tracy Baker",
-    "club": "Pont-y-pwl A",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "00:41:10"
   },
   {
@@ -6784,7 +6784,7 @@ const relayResults = [
     "km": 8.9,
     "position": 17,
     "name": "Nicola Louise Crockett",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:43:35"
   },
   {
@@ -6795,7 +6795,7 @@ const relayResults = [
     "km": 8.9,
     "position": 18,
     "name": "Melissa Pearce",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "00:43:56"
   },
   {
@@ -6872,7 +6872,7 @@ const relayResults = [
     "km": 8.9,
     "position": 25,
     "name": "Jessica Henry",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "00:48:31"
   },
   {
@@ -6883,7 +6883,7 @@ const relayResults = [
     "km": 8.9,
     "position": 26,
     "name": "Mandy Robinson",
-    "club": "Pont-y-pwl B",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "00:48:37"
   },
   {
@@ -6894,7 +6894,7 @@ const relayResults = [
     "km": 8.9,
     "position": 27,
     "name": "Claire Bruce",
-    "club": "Les Croupiers B",
+    "club": "Les Croupiers Running Club",
     "time": "00:49:57"
   },
   {
@@ -6905,7 +6905,7 @@ const relayResults = [
     "km": 8.9,
     "position": 28,
     "name": "Vicky Fear",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:50:00"
   },
   {
@@ -6916,7 +6916,7 @@ const relayResults = [
     "km": 8.9,
     "position": 29,
     "name": "Rebecca Martin",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "00:50:01"
   },
   {
@@ -6960,7 +6960,7 @@ const relayResults = [
     "km": 21.1,
     "position": 3,
     "name": "Dane Williams",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "01:21:36"
   },
   {
@@ -6971,7 +6971,7 @@ const relayResults = [
     "km": 21.1,
     "position": 4,
     "name": "David Craig",
-    "club": "Les Croupiers A",
+    "club": "Les Croupiers Running Club",
     "time": "01:22:54"
   },
   {
@@ -6982,7 +6982,7 @@ const relayResults = [
     "km": 21.1,
     "position": 5,
     "name": "Mark Gillett",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "01:24:10"
   },
   {
@@ -6993,7 +6993,7 @@ const relayResults = [
     "km": 21.1,
     "position": 6,
     "name": "Lee Drew",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "01:25:23"
   },
   {
@@ -7004,7 +7004,7 @@ const relayResults = [
     "km": 21.1,
     "position": 7,
     "name": "Andrei Arcana",
-    "club": "Pont-y-pwl A",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "01:26:34"
   },
   {
@@ -7026,7 +7026,7 @@ const relayResults = [
     "km": 21.1,
     "position": 9,
     "name": "Ryan Worlock-Morgan",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "01:26:48"
   },
   {
@@ -7103,7 +7103,7 @@ const relayResults = [
     "km": 21.1,
     "position": 16,
     "name": "Antoinette Rose",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "01:31:56"
   },
   {
@@ -7114,7 +7114,7 @@ const relayResults = [
     "km": 21.1,
     "position": 17,
     "name": "Ross Howells",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "01:32:04"
   },
   {
@@ -7158,7 +7158,7 @@ const relayResults = [
     "km": 21.1,
     "position": 21,
     "name": "James Bruce",
-    "club": "Les Croupiers B",
+    "club": "Les Croupiers Running Club",
     "time": "01:37:31"
   },
   {
@@ -7180,7 +7180,7 @@ const relayResults = [
     "km": 21.1,
     "position": 23,
     "name": "Rae Elias",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:39:50"
   },
   {
@@ -7213,7 +7213,7 @@ const relayResults = [
     "km": 21.1,
     "position": 26,
     "name": "David Newman",
-    "club": "Pont-y-pwl B",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "01:45:40"
   },
   {
@@ -7257,7 +7257,7 @@ const relayResults = [
     "km": 21.1,
     "position": 30,
     "name": "Andy Baker",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "02:08:00"
   },
   {
@@ -7279,7 +7279,7 @@ const relayResults = [
     "km": 15.2,
     "position": 2,
     "name": "Sam Lewis Jones",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "01:01:01"
   },
   {
@@ -7290,7 +7290,7 @@ const relayResults = [
     "km": 15.2,
     "position": 3,
     "name": "Ricci Watts",
-    "club": "Pont-y-pwl A",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "01:01:47"
   },
   {
@@ -7301,7 +7301,7 @@ const relayResults = [
     "km": 15.2,
     "position": 4,
     "name": "Nicholas Tulp",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "01:02:18"
   },
   {
@@ -7334,7 +7334,7 @@ const relayResults = [
     "km": 15.2,
     "position": 7,
     "name": "Stephen Campbell",
-    "club": "Les Croupiers A",
+    "club": "Les Croupiers Running Club",
     "time": "01:03:54"
   },
   {
@@ -7356,7 +7356,7 @@ const relayResults = [
     "km": 15.2,
     "position": 9,
     "name": "Paul Murrin",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "01:04:11"
   },
   {
@@ -7400,7 +7400,7 @@ const relayResults = [
     "km": 15.2,
     "position": 13,
     "name": "Paul Jones",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:06:50"
   },
   {
@@ -7411,7 +7411,7 @@ const relayResults = [
     "km": 15.2,
     "position": 14,
     "name": "Ben Beckingsale",
-    "club": "Les Croupiers B",
+    "club": "Les Croupiers Running Club",
     "time": "01:07:16"
   },
   {
@@ -7422,7 +7422,7 @@ const relayResults = [
     "km": 15.2,
     "position": 15,
     "name": "James Tucker",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "01:08:41"
   },
   {
@@ -7466,7 +7466,7 @@ const relayResults = [
     "km": 15.2,
     "position": 19,
     "name": "Adrian Murkin",
-    "club": "Pont-y-pwl B",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "01:12:31"
   },
   {
@@ -7510,7 +7510,7 @@ const relayResults = [
     "km": 15.2,
     "position": 23,
     "name": "Nick Osman",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "01:13:33"
   },
   {
@@ -7554,7 +7554,7 @@ const relayResults = [
     "km": 15.2,
     "position": 27,
     "name": "Christopher Guy",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "01:16:27"
   },
   {
@@ -7587,7 +7587,7 @@ const relayResults = [
     "km": 15.2,
     "position": 30,
     "name": "Phillip Allsopp",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:25:26"
   },
   {
@@ -7598,7 +7598,7 @@ const relayResults = [
     "km": 10.6,
     "position": 1,
     "name": "Christopher Martey",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:48:31"
   },
   {
@@ -7609,7 +7609,7 @@ const relayResults = [
     "km": 10.6,
     "position": 2,
     "name": "Thomas Lewis",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:49:45"
   },
   {
@@ -7620,7 +7620,7 @@ const relayResults = [
     "km": 10.6,
     "position": 3,
     "name": "Lauren Cooper",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "00:50:33"
   },
   {
@@ -7631,7 +7631,7 @@ const relayResults = [
     "km": 10.6,
     "position": 4,
     "name": "Chloe Leek",
-    "club": "Pont-y-pwl A",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "00:52:06"
   },
   {
@@ -7686,7 +7686,7 @@ const relayResults = [
     "km": 10.6,
     "position": 9,
     "name": "Emily A Jones",
-    "club": "Les Croupiers A",
+    "club": "Les Croupiers Running Club",
     "time": "00:55:00"
   },
   {
@@ -7697,7 +7697,7 @@ const relayResults = [
     "km": 10.6,
     "position": 10,
     "name": "Sandra Chipper",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:55:09"
   },
   {
@@ -7708,7 +7708,7 @@ const relayResults = [
     "km": 10.6,
     "position": 11,
     "name": "James King",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "00:55:21"
   },
   {
@@ -7763,7 +7763,7 @@ const relayResults = [
     "km": 10.6,
     "position": 16,
     "name": "Sian Jones",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "00:58:30"
   },
   {
@@ -7796,7 +7796,7 @@ const relayResults = [
     "km": 10.6,
     "position": 19,
     "name": "Tracey Arthur",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "01:01:49"
   },
   {
@@ -7873,7 +7873,7 @@ const relayResults = [
     "km": 10.6,
     "position": 26,
     "name": "Ian Smith",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:05:48"
   },
   {
@@ -7895,7 +7895,7 @@ const relayResults = [
     "km": 10.6,
     "position": 28,
     "name": "Sarah Pryor",
-    "club": "Les Croupiers B",
+    "club": "Les Croupiers Running Club",
     "time": "01:08:03"
   },
   {
@@ -7906,7 +7906,7 @@ const relayResults = [
     "km": 10.6,
     "position": 29,
     "name": "Louise Bright",
-    "club": "Pont-y-pwl B",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "01:08:32"
   },
   {
@@ -7939,7 +7939,7 @@ const relayResults = [
     "km": 13.4,
     "position": 2,
     "name": "James Blore",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:48:21"
   },
   {
@@ -7950,7 +7950,7 @@ const relayResults = [
     "km": 13.4,
     "position": 3,
     "name": "Dominic Davies",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "00:48:59"
   },
   {
@@ -7972,7 +7972,7 @@ const relayResults = [
     "km": 13.4,
     "position": 5,
     "name": "Joshua Fitton",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:50:14"
   },
   {
@@ -7994,7 +7994,7 @@ const relayResults = [
     "km": 13.4,
     "position": 7,
     "name": "Sam Wilson",
-    "club": "Les Croupiers A",
+    "club": "Les Croupiers Running Club",
     "time": "00:53:14"
   },
   {
@@ -8005,7 +8005,7 @@ const relayResults = [
     "km": 13.4,
     "position": 8,
     "name": "James Booth",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:53:43"
   },
   {
@@ -8027,7 +8027,7 @@ const relayResults = [
     "km": 13.4,
     "position": 10,
     "name": "Patrick Jarvis",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "00:54:25"
   },
   {
@@ -8071,7 +8071,7 @@ const relayResults = [
     "km": 13.4,
     "position": 14,
     "name": "David James",
-    "club": "Les Croupiers B",
+    "club": "Les Croupiers Running Club",
     "time": "00:55:47"
   },
   {
@@ -8082,7 +8082,7 @@ const relayResults = [
     "km": 13.4,
     "position": 15,
     "name": "Brian Jones",
-    "club": "Pont-y-pwl A",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "00:56:16"
   },
   {
@@ -8137,7 +8137,7 @@ const relayResults = [
     "km": 13.4,
     "position": 20,
     "name": "Jamie Goddard",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "01:00:09"
   },
   {
@@ -8159,7 +8159,7 @@ const relayResults = [
     "km": 13.4,
     "position": 22,
     "name": "Matthew Webb",
-    "club": "Pont-y-pwl B",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "01:01:23"
   },
   {
@@ -8170,7 +8170,7 @@ const relayResults = [
     "km": 13.4,
     "position": 23,
     "name": "Leon Gleed",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:01:48"
   },
   {
@@ -8203,7 +8203,7 @@ const relayResults = [
     "km": 13.4,
     "position": 26,
     "name": "Stephan Tietz",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:05:45"
   },
   {
@@ -8258,7 +8258,7 @@ const relayResults = [
     "km": 10.7,
     "position": 1,
     "name": "Kani Hinshelwood",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "00:39:27"
   },
   {
@@ -8269,7 +8269,7 @@ const relayResults = [
     "km": 10.7,
     "position": 2,
     "name": "Carly Stone",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:40:35"
   },
   {
@@ -8280,7 +8280,7 @@ const relayResults = [
     "km": 10.7,
     "position": 3,
     "name": "Lee Harvey",
-    "club": "Pont-y-pwl A",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "00:41:37"
   },
   {
@@ -8291,7 +8291,7 @@ const relayResults = [
     "km": 10.7,
     "position": 4,
     "name": "Sarah Bell",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:43:02"
   },
   {
@@ -8390,7 +8390,7 @@ const relayResults = [
     "km": 10.7,
     "position": 13,
     "name": "Bryony Eames",
-    "club": "Les Croupiers A",
+    "club": "Les Croupiers Running Club",
     "time": "00:48:25"
   },
   {
@@ -8401,7 +8401,7 @@ const relayResults = [
     "km": 10.7,
     "position": 14,
     "name": "Charlotte Giles",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:48:25"
   },
   {
@@ -8445,7 +8445,7 @@ const relayResults = [
     "km": 10.7,
     "position": 18,
     "name": "Sarah Louise Francis",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:51:10"
   },
   {
@@ -8467,7 +8467,7 @@ const relayResults = [
     "km": 10.7,
     "position": 20,
     "name": "Meghan Brickley",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "00:53:30"
   },
   {
@@ -8489,7 +8489,7 @@ const relayResults = [
     "km": 10.7,
     "position": 22,
     "name": "Rachel Hooper",
-    "club": "Les Croupiers B",
+    "club": "Les Croupiers Running Club",
     "time": "00:54:23"
   },
   {
@@ -8500,7 +8500,7 @@ const relayResults = [
     "km": 10.7,
     "position": 23,
     "name": "Nicola Brunnock",
-    "club": "Pont-y-pwl B",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "00:55:01"
   },
   {
@@ -8555,7 +8555,7 @@ const relayResults = [
     "km": 10.7,
     "position": 28,
     "name": "Laura Pinney",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "00:57:55"
   },
   {
@@ -8577,7 +8577,7 @@ const relayResults = [
     "km": 10.7,
     "position": 30,
     "name": "Alison Davis",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:00:00"
   },
   {
@@ -8599,7 +8599,7 @@ const relayResults = [
     "km": 8.7,
     "position": 2,
     "name": "Emma Wookey",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:36:52"
   },
   {
@@ -8643,7 +8643,7 @@ const relayResults = [
     "km": 8.7,
     "position": 6,
     "name": "Mary Lynes",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:41:54"
   },
   {
@@ -8654,7 +8654,7 @@ const relayResults = [
     "km": 8.7,
     "position": 7,
     "name": "Liz Neville",
-    "club": "Les Croupiers A",
+    "club": "Les Croupiers Running Club",
     "time": "00:42:13"
   },
   {
@@ -8687,7 +8687,7 @@ const relayResults = [
     "km": 8.7,
     "position": 10,
     "name": "Joanne Kilby",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "00:43:52"
   },
   {
@@ -8698,7 +8698,7 @@ const relayResults = [
     "km": 8.7,
     "position": 11,
     "name": "Caroline Duder",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:44:18"
   },
   {
@@ -8709,7 +8709,7 @@ const relayResults = [
     "km": 8.7,
     "position": 12,
     "name": "Matthew Lloyd",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "00:44:24"
   },
   {
@@ -8742,7 +8742,7 @@ const relayResults = [
     "km": 8.7,
     "position": 15,
     "name": "Karen Southgate",
-    "club": "Pont-y-pwl A",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "00:45:35"
   },
   {
@@ -8764,7 +8764,7 @@ const relayResults = [
     "km": 8.7,
     "position": 17,
     "name": "Lolly Evans",
-    "club": "Les Croupiers B",
+    "club": "Les Croupiers Running Club",
     "time": "00:46:34"
   },
   {
@@ -8808,7 +8808,7 @@ const relayResults = [
     "km": 8.7,
     "position": 21,
     "name": "Leonie Roberts",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "00:47:55"
   },
   {
@@ -8830,7 +8830,7 @@ const relayResults = [
     "km": 8.7,
     "position": 23,
     "name": "Jane Lewis",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:49:00"
   },
   {
@@ -8896,7 +8896,7 @@ const relayResults = [
     "km": 8.7,
     "position": 29,
     "name": "Jessica James",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "00:49:06"
   },
   {
@@ -8907,7 +8907,7 @@ const relayResults = [
     "km": 8.7,
     "position": 30,
     "name": "Stephen Matthews",
-    "club": "Pont-y-pwl B",
+    "club": "Pont-y-pŵl and District Runners",
     "time": "00:49:07"
   },
   {
@@ -8929,7 +8929,7 @@ const relayResults = [
     "km": 8.2,
     "position": 2,
     "name": "Kimberley Price",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "00:34:40"
   },
   {
@@ -8984,7 +8984,7 @@ const relayResults = [
     "km": 8.2,
     "position": 7,
     "name": "Angela Potter",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:36:14"
   },
   {
@@ -9006,7 +9006,7 @@ const relayResults = [
     "km": 8.2,
     "position": 9,
     "name": "Jan Morris",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:37:13"
   },
   {
@@ -9017,7 +9017,7 @@ const relayResults = [
     "km": 8.2,
     "position": 10,
     "name": "Vanessa Lawson",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:37:38"
   },
   {
@@ -9050,7 +9050,7 @@ const relayResults = [
     "km": 8.2,
     "position": 13,
     "name": "Stuart Ball",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "00:38:47"
   },
   {
@@ -9094,7 +9094,7 @@ const relayResults = [
     "km": 8.2,
     "position": 17,
     "name": "Jane Lewis",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "00:40:56"
   },
   {
@@ -9116,7 +9116,7 @@ const relayResults = [
     "km": 8.2,
     "position": 19,
     "name": "Sue Cottrell",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:41:16"
   },
   {
@@ -9226,7 +9226,7 @@ const relayResults = [
     "km": 8.2,
     "position": 29,
     "name": "Jaye Price",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "00:46:01"
   },
   {
@@ -9292,7 +9292,7 @@ const relayResults = [
     "km": 11.2,
     "position": 5,
     "name": "Tony Marshal",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:44:51"
   },
   {
@@ -9303,7 +9303,7 @@ const relayResults = [
     "km": 11.2,
     "position": 6,
     "name": "Lizzie Dimond",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:44:55"
   },
   {
@@ -9336,7 +9336,7 @@ const relayResults = [
     "km": 11.2,
     "position": 9,
     "name": "Tom Webb",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "00:47:24"
   },
   {
@@ -9358,7 +9358,7 @@ const relayResults = [
     "km": 11.2,
     "position": 11,
     "name": "Steven Duggan",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "00:47:56"
   },
   {
@@ -9369,7 +9369,7 @@ const relayResults = [
     "km": 11.2,
     "position": 12,
     "name": "James Tucker",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:48:33"
   },
   {
@@ -9512,7 +9512,7 @@ const relayResults = [
     "km": 11.2,
     "position": 25,
     "name": "Sarah Lauder",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:59:11"
   },
   {
@@ -9534,7 +9534,7 @@ const relayResults = [
     "km": 11.2,
     "position": 27,
     "name": "Evie Hoare",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:02:00"
   },
   {
@@ -9567,7 +9567,7 @@ const relayResults = [
     "km": 11.2,
     "position": 30,
     "name": "Nyree Temby",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:12:00"
   },
   {
@@ -9589,7 +9589,7 @@ const relayResults = [
     "km": 12.1,
     "position": 2,
     "name": "Martin Norton",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:43:39"
   },
   {
@@ -9622,7 +9622,7 @@ const relayResults = [
     "km": 12.1,
     "position": 5,
     "name": "Kani Hinshelwood",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "00:49:12"
   },
   {
@@ -9732,7 +9732,7 @@ const relayResults = [
     "km": 12.1,
     "position": 15,
     "name": "Jamie Goddard",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:54:15"
   },
   {
@@ -9754,7 +9754,7 @@ const relayResults = [
     "km": 12.1,
     "position": 17,
     "name": "Beth Jones",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "00:55:02"
   },
   {
@@ -9776,7 +9776,7 @@ const relayResults = [
     "km": 12.1,
     "position": 19,
     "name": "Garreth Smith",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:56:49"
   },
   {
@@ -9853,7 +9853,7 @@ const relayResults = [
     "km": 12.1,
     "position": 26,
     "name": "Rebecca Poole",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:03:51"
   },
   {
@@ -9864,7 +9864,7 @@ const relayResults = [
     "km": 12.1,
     "position": 27,
     "name": "Julie Roche",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:07:01"
   },
   {
@@ -9897,7 +9897,7 @@ const relayResults = [
     "km": 12.1,
     "position": 30,
     "name": "Will Ganley",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "01:18:00"
   },
   {
@@ -9908,7 +9908,7 @@ const relayResults = [
     "km": 10.8,
     "position": 1,
     "name": "Nettie Rose",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:42:06"
   },
   {
@@ -9919,7 +9919,7 @@ const relayResults = [
     "km": 10.8,
     "position": 2,
     "name": "Clare Patterson",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "00:45:01"
   },
   {
@@ -9930,7 +9930,7 @@ const relayResults = [
     "km": 10.8,
     "position": 3,
     "name": "Steve Drewitt",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "00:46:32"
   },
   {
@@ -9941,7 +9941,7 @@ const relayResults = [
     "km": 10.8,
     "position": 4,
     "name": "Sarah Bell",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:47:10"
   },
   {
@@ -10073,7 +10073,7 @@ const relayResults = [
     "km": 10.8,
     "position": 16,
     "name": "Julia Bajjada",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:53:10"
   },
   {
@@ -10172,7 +10172,7 @@ const relayResults = [
     "km": 10.8,
     "position": 25,
     "name": "Samantha Bills",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "00:59:38"
   },
   {
@@ -10216,7 +10216,7 @@ const relayResults = [
     "km": 10.8,
     "position": 29,
     "name": "Janet Richards",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "01:01:00"
   },
   {
@@ -10227,7 +10227,7 @@ const relayResults = [
     "km": 10.8,
     "position": 30,
     "name": "Ceri Jenkins",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:01:01"
   },
   {
@@ -10238,7 +10238,7 @@ const relayResults = [
     "km": 13.0,
     "position": 1,
     "name": "Toby Jones",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:49:06"
   },
   {
@@ -10249,7 +10249,7 @@ const relayResults = [
     "km": 13.0,
     "position": 2,
     "name": "Tim Bachelor",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:49:17"
   },
   {
@@ -10304,7 +10304,7 @@ const relayResults = [
     "km": 13.0,
     "position": 7,
     "name": "James Blore",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:53:02"
   },
   {
@@ -10315,7 +10315,7 @@ const relayResults = [
     "km": 13.0,
     "position": 8,
     "name": "Lewis Daniels",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "00:53:06"
   },
   {
@@ -10337,7 +10337,7 @@ const relayResults = [
     "km": 13.0,
     "position": 10,
     "name": "Henry Williams",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:53:40"
   },
   {
@@ -10436,7 +10436,7 @@ const relayResults = [
     "km": 13.0,
     "position": 19,
     "name": "Leon Gleed",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:02:33"
   },
   {
@@ -10513,7 +10513,7 @@ const relayResults = [
     "km": 13.0,
     "position": 26,
     "name": "Ryan Martin",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:08:12"
   },
   {
@@ -10535,7 +10535,7 @@ const relayResults = [
     "km": 13.0,
     "position": 28,
     "name": "Joanne Kilby",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "01:11:09"
   },
   {
@@ -10568,7 +10568,7 @@ const relayResults = [
     "km": 20.3,
     "position": 1,
     "name": "Michael Lewis",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "01:12:33"
   },
   {
@@ -10579,7 +10579,7 @@ const relayResults = [
     "km": 20.3,
     "position": 2,
     "name": "Richard Jones",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "01:12:46"
   },
   {
@@ -10634,7 +10634,7 @@ const relayResults = [
     "km": 20.3,
     "position": 7,
     "name": "Mark Gillet",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "01:20:34"
   },
   {
@@ -10678,7 +10678,7 @@ const relayResults = [
     "km": 20.3,
     "position": 11,
     "name": "Phil Lee",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "01:23:31"
   },
   {
@@ -10700,7 +10700,7 @@ const relayResults = [
     "km": 20.3,
     "position": 13,
     "name": "Ross Howells",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "01:24:12"
   },
   {
@@ -10843,7 +10843,7 @@ const relayResults = [
     "km": 20.3,
     "position": 26,
     "name": "Peter Edwards",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:42:39"
   },
   {
@@ -10865,7 +10865,7 @@ const relayResults = [
     "km": 20.3,
     "position": 28,
     "name": "Andy Baker",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:54:01"
   },
   {
@@ -10887,7 +10887,7 @@ const relayResults = [
     "km": 20.3,
     "position": 30,
     "name": "Anthony Lewis",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "02:04:00"
   },
   {
@@ -10898,7 +10898,7 @@ const relayResults = [
     "km": 8.9,
     "position": 1,
     "name": "Jack Rowland",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:32:28"
   },
   {
@@ -10909,7 +10909,7 @@ const relayResults = [
     "km": 8.9,
     "position": 2,
     "name": "Emma Wookey",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:34:50"
   },
   {
@@ -10920,7 +10920,7 @@ const relayResults = [
     "km": 8.9,
     "position": 3,
     "name": "Kathy Stringer",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:35:38"
   },
   {
@@ -10964,7 +10964,7 @@ const relayResults = [
     "km": 8.9,
     "position": 7,
     "name": "Leonie Roberts",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "00:38:39"
   },
   {
@@ -11008,7 +11008,7 @@ const relayResults = [
     "km": 8.9,
     "position": 11,
     "name": "Sarah Jeremiah",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "00:40:27"
   },
   {
@@ -11096,7 +11096,7 @@ const relayResults = [
     "km": 8.9,
     "position": 19,
     "name": "Kim Carwardine",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:44:33"
   },
   {
@@ -11162,7 +11162,7 @@ const relayResults = [
     "km": 8.9,
     "position": 25,
     "name": "Caitlin Tew",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "00:49:33"
   },
   {
@@ -11217,7 +11217,7 @@ const relayResults = [
     "km": 8.9,
     "position": 30,
     "name": "Sheree Mann",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "00:50:03"
   },
   {
@@ -11250,7 +11250,7 @@ const relayResults = [
     "km": 21.1,
     "position": 3,
     "name": "Nick Tulp",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "01:23:41"
   },
   {
@@ -11261,7 +11261,7 @@ const relayResults = [
     "km": 21.1,
     "position": 4,
     "name": "Jonathan Like",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "01:24:28"
   },
   {
@@ -11305,7 +11305,7 @@ const relayResults = [
     "km": 21.1,
     "position": 8,
     "name": "Paul Murrin",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "01:27:54"
   },
   {
@@ -11316,7 +11316,7 @@ const relayResults = [
     "km": 21.1,
     "position": 9,
     "name": "Kyle Harvey",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:29:13"
   },
   {
@@ -11382,7 +11382,7 @@ const relayResults = [
     "km": 21.1,
     "position": 15,
     "name": "Simon Gill",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "01:36:15"
   },
   {
@@ -11393,7 +11393,7 @@ const relayResults = [
     "km": 21.1,
     "position": 16,
     "name": "Dickie Hudd",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "01:37:07"
   },
   {
@@ -11503,7 +11503,7 @@ const relayResults = [
     "km": 21.1,
     "position": 26,
     "name": "Neil Beynon",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "01:53:42"
   },
   {
@@ -11547,7 +11547,7 @@ const relayResults = [
     "km": 21.1,
     "position": 30,
     "name": "Emma Bagley",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "02:08:01"
   },
   {
@@ -11569,7 +11569,7 @@ const relayResults = [
     "km": 15.2,
     "position": 2,
     "name": "Paul White",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "01:01:44"
   },
   {
@@ -11580,7 +11580,7 @@ const relayResults = [
     "km": 15.2,
     "position": 3,
     "name": "Martin Johns",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "01:02:50"
   },
   {
@@ -11646,7 +11646,7 @@ const relayResults = [
     "km": 15.2,
     "position": 9,
     "name": "Jonathan Carter",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "01:06:30"
   },
   {
@@ -11657,7 +11657,7 @@ const relayResults = [
     "km": 15.2,
     "position": 10,
     "name": "Doug Briggs",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "01:06:58"
   },
   {
@@ -11756,7 +11756,7 @@ const relayResults = [
     "km": 15.2,
     "position": 19,
     "name": "Michael Cleaver",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "01:14:24"
   },
   {
@@ -11811,7 +11811,7 @@ const relayResults = [
     "km": 15.2,
     "position": 24,
     "name": "Stephen Smith",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:22:11"
   },
   {
@@ -11844,7 +11844,7 @@ const relayResults = [
     "km": 15.2,
     "position": 27,
     "name": "Nick Osman",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "01:23:51"
   },
   {
@@ -11855,7 +11855,7 @@ const relayResults = [
     "km": 15.2,
     "position": 28,
     "name": "Phil Allsopp",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:24:13"
   },
   {
@@ -11888,7 +11888,7 @@ const relayResults = [
     "km": 10.6,
     "position": 1,
     "name": "Elinor Mattey",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "00:42:18"
   },
   {
@@ -11899,7 +11899,7 @@ const relayResults = [
     "km": 10.6,
     "position": 2,
     "name": "Laura Davies",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:42:36"
   },
   {
@@ -11910,7 +11910,7 @@ const relayResults = [
     "km": 10.6,
     "position": 3,
     "name": "Niki Morgan",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:44:39"
   },
   {
@@ -12020,7 +12020,7 @@ const relayResults = [
     "km": 10.6,
     "position": 13,
     "name": "Stephen Price",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "00:49:41"
   },
   {
@@ -12053,7 +12053,7 @@ const relayResults = [
     "km": 10.6,
     "position": 16,
     "name": "Jane Roscoe",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:52:23"
   },
   {
@@ -12097,7 +12097,7 @@ const relayResults = [
     "km": 10.6,
     "position": 20,
     "name": "Karen Talbot",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:54:24"
   },
   {
@@ -12152,7 +12152,7 @@ const relayResults = [
     "km": 10.6,
     "position": 25,
     "name": "Kelly Cameron",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "00:57:55"
   },
   {
@@ -12207,7 +12207,7 @@ const relayResults = [
     "km": 10.6,
     "position": 30,
     "name": "Stewart Seaborne",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:10:00"
   },
   {
@@ -12229,7 +12229,7 @@ const relayResults = [
     "km": 13.4,
     "position": 2,
     "name": "Dane Williams",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "00:50:44"
   },
   {
@@ -12240,7 +12240,7 @@ const relayResults = [
     "km": 13.4,
     "position": 3,
     "name": "Jon Belcher",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:51:34"
   },
   {
@@ -12262,7 +12262,7 @@ const relayResults = [
     "km": 13.4,
     "position": 5,
     "name": "Willam Carter",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:52:16"
   },
   {
@@ -12339,7 +12339,7 @@ const relayResults = [
     "km": 13.4,
     "position": 12,
     "name": "Charlie Bendall",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:57:33"
   },
   {
@@ -12350,7 +12350,7 @@ const relayResults = [
     "km": 13.4,
     "position": 13,
     "name": "James Brown",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:58:48"
   },
   {
@@ -12460,7 +12460,7 @@ const relayResults = [
     "km": 13.4,
     "position": 23,
     "name": "Ted Quantock",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:06:50"
   },
   {
@@ -12504,7 +12504,7 @@ const relayResults = [
     "km": 13.4,
     "position": 27,
     "name": "Mark Prosser",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:09:56"
   },
   {
@@ -12515,7 +12515,7 @@ const relayResults = [
     "km": 13.4,
     "position": 28,
     "name": "Stephen Wiles",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "01:10:03"
   },
   {
@@ -12548,7 +12548,7 @@ const relayResults = [
     "km": 10.7,
     "position": 1,
     "name": "Lloyd Cottrell",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:34:50"
   },
   {
@@ -12559,7 +12559,7 @@ const relayResults = [
     "km": 10.7,
     "position": 2,
     "name": "Kath Matthews",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:42:16"
   },
   {
@@ -12592,7 +12592,7 @@ const relayResults = [
     "km": 10.7,
     "position": 5,
     "name": "Karl Coughlin",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "00:43:03"
   },
   {
@@ -12636,7 +12636,7 @@ const relayResults = [
     "km": 10.7,
     "position": 9,
     "name": "Caroline Duder",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:47:56"
   },
   {
@@ -12823,7 +12823,7 @@ const relayResults = [
     "km": 10.7,
     "position": 26,
     "name": "Vicky Fear",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:57:34"
   },
   {
@@ -12845,7 +12845,7 @@ const relayResults = [
     "km": 10.7,
     "position": 28,
     "name": "Laura Pinney",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "01:00:00"
   },
   {
@@ -12856,7 +12856,7 @@ const relayResults = [
     "km": 10.7,
     "position": 29,
     "name": "Andrew North",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:00:01"
   },
   {
@@ -12867,7 +12867,7 @@ const relayResults = [
     "km": 10.7,
     "position": 30,
     "name": "Bev Bradbury Jones",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "01:00:02"
   },
   {
@@ -12878,7 +12878,7 @@ const relayResults = [
     "km": 8.7,
     "position": 1,
     "name": "Daniel Bodman",
-    "club": "Parc Bryn Bach B",
+    "club": "Parc Bryn Bach",
     "time": "00:31:55"
   },
   {
@@ -12900,7 +12900,7 @@ const relayResults = [
     "km": 8.7,
     "position": 3,
     "name": "Sandra Chipper",
-    "club": "Lliswerry A",
+    "club": "Lliswerry Runners",
     "time": "00:38:43"
   },
   {
@@ -12911,7 +12911,7 @@ const relayResults = [
     "km": 8.7,
     "position": 4,
     "name": "Nicola Jukes",
-    "club": "Parc Bryn Bach A",
+    "club": "Parc Bryn Bach",
     "time": "00:39:50"
   },
   {
@@ -12944,7 +12944,7 @@ const relayResults = [
     "km": 8.7,
     "position": 7,
     "name": "Lisa Jeffrey",
-    "club": "Chepstow A",
+    "club": "Chepstow Harriers",
     "time": "00:41:15"
   },
   {
@@ -12988,7 +12988,7 @@ const relayResults = [
     "km": 8.7,
     "position": 11,
     "name": "Charlotte Giles",
-    "club": "Chepstow B",
+    "club": "Chepstow Harriers",
     "time": "00:45:07"
   },
   {
@@ -13010,7 +13010,7 @@ const relayResults = [
     "km": 8.7,
     "position": 13,
     "name": "Alan Legge",
-    "club": "Fairwater A",
+    "club": "Fairwater Runners Cwmbran",
     "time": "00:45:28"
   },
   {
@@ -13131,7 +13131,7 @@ const relayResults = [
     "km": 8.7,
     "position": 24,
     "name": "Karen Day",
-    "club": "Lliswerry B",
+    "club": "Lliswerry Runners",
     "time": "00:49:00"
   },
   {
@@ -13164,7 +13164,7 @@ const relayResults = [
     "km": 8.7,
     "position": 27,
     "name": "Megan Holly",
-    "club": "Fairwater B",
+    "club": "Fairwater Runners Cwmbran",
     "time": "00:49:03"
   },
   {
