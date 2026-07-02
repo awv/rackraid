@@ -16,9 +16,12 @@
 </head>
 <body class="bg-slate-50 min-h-screen flex flex-col">
 
-    <header id="global-header" class="bg-slate-900 text-white shadow-md border-b border-slate-800"></header>
+    <!-- Global Header Full Width Wrapper Row -->
+    <div class="w-full bg-slate-900 border-b border-slate-800">
+        <header id="global-header" class="text-white"></header>
+    </div>
 
-    <div class="w-full bg-slate-950 h-[400px] relative overflow-hidden flex items-center">
+    <div class="w-full bg-slate-950 h-[400px] relative overflow-hidden flex items-center border-b border-slate-800">
         <img src="assets/images/banners/default_stage.jpg" class="absolute inset-0 w-full h-full object-cover opacity-35 brightness-75 contrast-125 mix-blend-luminosity" alt="Archive background">
         <div class="absolute inset-0 scenic-gradient-overlay"></div>
         
@@ -31,7 +34,7 @@
     </div>
 
     <div class="page-wrapper flex-grow !pt-8">
-        <div class="content-container">
+        <div class="max-w-[1400px] mx-auto w-full px-4">
             
             <main class="main-dashboard">
                 <div style="text-align: center; margin-bottom: 35px;">
@@ -93,16 +96,13 @@
             "2024": {"1":"00:35:40","2":"00:40:20","3":"00:45:12","4":"00:38:10","5":"00:43:15","6":"00:35:05","7":"00:42:15","8":"00:44:55","9":"00:37:30","10":"00:40:45","11":"00:42:50","12":"00:39:15","13":"00:46:20","14":"00:33:10"}
         };
 
-        // Pull years dynamically from the courseRecords keys and raw results datasets safely
         const uniqueYears = [...new Set([
             ...relayResults.map(r => r.year),
             ...Object.keys(courseRecords).map(Number)
         ])].sort((a, b) => b - a);        
         
-        // Find the container loop
         const tabsContainer = document.getElementById('yearTabsContainer');
         
-        // Append the missing years next to the hardcoded "All Years" button
         uniqueYears.forEach(year => {
             const btn = document.createElement('button');
             btn.className = 'year-tab';
@@ -111,14 +111,11 @@
             tabsContainer.appendChild(btn);
         });
 
-        // Combined Tab Event Listener ensuring seamless instant filtering responses
         yearTabsContainer.addEventListener('click', (e) => {
             if (e.target.classList.contains('year-tab')) {
                 document.querySelectorAll('.year-tab').forEach(t => t.classList.remove('active'));
                 e.target.classList.add('active');
                 activeSelectedYear = e.target.getAttribute('data-year');
-                
-                // Fire instant calculations query search layout loop
                 performSearch();
             }
         });
@@ -257,7 +254,8 @@
                         htmlOutput += `
                             <div class="results-row ${rowModifierClass}">
                                 <div class="cell-position">${row.position}</div>
-                                <div class="cell-name"><a href="stage.html?stage=${row.stage}" onclick="saveArchiveState('${encodeURIComponent(row.name)}')" style="font-weight: 600;">${row.name}</a></div>
+                                <!-- Fixed athlete profile routing linkage vector target parameter below -->
+                                <div class="cell-name"><a href="athlete.html?name=${encodeURIComponent(row.name)}" onclick="saveArchiveState('${encodeURIComponent(row.name)}')" style="font-weight: 600;">${row.name}</a></div>
                                 <div class="cell-club"><a href="club.html?club=${encodeURIComponent(row.club)}">${row.club}</a></div>
                                 ${timeMarkup}
                                 <div class="cell-pace">

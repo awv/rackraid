@@ -4,7 +4,7 @@ import json
 import glob
 
 # Import your isolated 2026 extractor module
-from extractors.parse_2026 import extract_2026
+from backend_tools.extractors.parse_pdf import extract_2026
 
 def generate_verification_log(results):
     """Outputs a text file layout for effortless human validation checks."""

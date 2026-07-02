@@ -4,11 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club Profile - Rack Raid Archive</title>
-    <!-- Include Tailwind for the global components to use -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Link to our tidy external styles sheet -->
     <link rel="stylesheet" href="styles.css">
-    <!-- Load the layout loader module script -->
     <script src="site-layout.js"></script>
     <style>
         /* Keep page-specific presentation components intact */
@@ -161,11 +158,12 @@
 </head>
 <body class="bg-slate-50 min-h-screen flex flex-col">
 
-    <!-- Global Header Component Wrapper Box -->
-    <header id="global-header" class="bg-slate-900 text-white shadow-md border-b border-slate-800"></header>
+    <div class="w-full bg-slate-900 border-b border-slate-800">
+        <header id="global-header" class="text-white"></header>
+    </div>
 
     <div class="page-wrapper flex-grow !pt-6">
-        <div class="content-container">
+        <div class="max-w-[1400px] mx-auto w-full px-4">
 
             <a href="index.html" onclick="window.history.back(); return false;" class="inline-flex items-center gap-1.5 text-slate-400 hover:text-slate-900 font-semibold no-underline mb-6 transition-colors text-sm">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
@@ -201,7 +199,6 @@
                     </div>
                 </div>
 
-                <!-- LOYALTY ROSTER PANEL -->
                 <div class="dashboard-section">
                     <h2>Loyalty Leaderboard (Most Stages Run)</h2>
                     <div class="leaderboard-table">
@@ -214,7 +211,6 @@
                     </div>
                 </div>
 
-                <!-- ELITE TILED PANEL -->
                 <div class="dashboard-section">
                     <h2>Stage Winners Circle</h2>
                     <div class="leaderboard-table">
@@ -231,7 +227,6 @@
         </div>
     </div>
 
-    <!-- Global Footer Wrapper Element -->
     <footer id="global-footer" class="bg-slate-900 text-slate-400 text-xs py-6 border-t border-slate-800"></footer>
 
     <script src="data.js"></script>
