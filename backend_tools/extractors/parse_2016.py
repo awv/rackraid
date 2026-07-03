@@ -1,3 +1,4 @@
+# backend_tools/extractors/parse_2016.py
 import re
 import pdfplumber
 import json
@@ -20,7 +21,15 @@ STAGE_DISTANCES = {
     14: {"miles": 5.1, "km": 8.3, "name": "Castell-y-Bwch to Olive Tree"}
 }
 
-def extract_2026(pdf_path):
+CLUB_KEYWORDS = [
+    "parc", "lliswerry", "chepstow", "pont-y-pwl", "caerleon", "caerphilly", 
+    "caldicot", "cdf", "griffithstown", "islwyn", "les", "croupiers", "monross", 
+    "neath", "ogmore", "pontyclun", "pegasus", "pontypridd", "porthcawl", 
+    "rhondda", "san", "domenico", "aberdare", "albany", "brackla", "builth", 
+    "cornelly", "fairwater", "spirit", "monmouth", "independent", "unattached", "usk"
+]
+
+def extract_2016(pdf_path):
     results = []
     current_stage = 1
     time_pattern = re.compile(r'(\d{1,2}:\d{2}:\d{2})')
@@ -34,7 +43,7 @@ def extract_2026(pdf_path):
         except Exception as e:
             print(f"-> Warning: Could not read club_mappings.json: {e}")
 
-    print(f"-> Parsing stable digital text layer for 2026: {pdf_path}")
+    print(f"-> Parsing stable digital text layer for 2016: {pdf_path}")
 
     with pdfplumber.open(pdf_path) as pdf:
         for page in pdf.pages:
@@ -44,23 +53,25 @@ def extract_2026(pdf_path):
                 if not line: 
                     continue
 
-                line = re.sub(r'^TIME\s+highlighted\s+GREEN\s+=\s+INSIDE\s+COURSE\s+RECORD\s+\d+\s+', '', line, flags=re.IGNORECASE)
-                line = re.sub(r'^TIME\s+highlighted\s+YELLOW\s+=\s+CUT\s+OFF\s+RULES\s+APPLIED\s+\d+\s+', '', line, flags=re.IGNORECASE)
-                line = re.sub(r'^TIME\s+highlighted\s+YELLOW\s+=\s+CUT\s+OFF\s+RULES\s+APPLIED\s+', '', line, flags=re.IGNORECASE)
-                line = re.sub(r'www\.\S+', '', line, flags=re.IGNORECASE)
-
-                line = re.sub(r'TOTAL\s+NUMBER\s+OF\s+RUNNERS.*$', '', line, flags=re.IGNORECASE)
-                line = re.sub(r'TOTAL\s+DISTANCE\s+RUN.*$', '', line, flags=re.IGNORECASE)
-                line = re.sub(r'TOTAL\s+TIME\s+RUN.*$', '', line, flags=re.IGNORECASE)
-                line = re.sub(r'NUMBER\s+OF\s+TEAMS.*$', '', line, flags=re.IGNORECASE)
-                line = re.sub(r'RELAY\s+STAGES.*$', '', line, flags=re.IGNORECASE)
-
                 stage_match = re.search(r'(?:LEG|Stage)\s*:?\s*(\d+)', line, re.IGNORECASE)
                 if stage_match:
                     current_stage = int(stage_match.group(1))
                     continue
 
-                if any(x in line.lower() for x in ["total time", "after leg", "course record", "result :", "distance :"]): 
+                if line.isdigit():
+                    continue
+
+                # Strip out formatting noise strings completely before parsing data components
+                line = re.sub(r'\(cid:\d+\)', ' ', line)
+                line = re.sub(r'www\.\S+', '', line, flags=re.IGNORECASE)
+                line = re.sub(r'TOTAL\s+NUMBER\s+OF\s+RUNNERS.*$', '', line, flags=re.IGNORECASE)
+                line = re.sub(r'TOTAL\s+DISTANCE\s+RUN.*$', '', line, flags=re.IGNORECASE)
+                line = re.sub(r'TOTAL\s+TIME\s+RUN.*$', '', line, flags=re.IGNORECASE)
+                line = re.sub(r'NUMBER\s+OF\s+TEAMS.*$', '', line, flags=re.IGNORECASE)
+                line = re.sub(r'VISIT\s+OUR\s+WEBSITE.*$', '', line, flags=re.IGNORECASE)
+                line = re.sub(r'SEE\s+US\s+ON\s+FACEBOOK.*$', '', line, flags=re.IGNORECASE)
+
+                if any(x in line.lower() for x in ["distance :", "result :", "total time after", "rack raid"]):
                     continue
 
                 times = time_pattern.findall(line)
@@ -68,41 +79,46 @@ def extract_2026(pdf_path):
                     continue
                 leg_time = times[0]
 
-                has_gender_tag = bool(re.search(r'\s*\([MF]\)\s*', line))
+                parts = line.split(leg_time)
+                right_side = parts[1].strip() if len(parts) > 1 else ""
 
-                if has_gender_tag:
-                    parts = re.split(r'\s*\([MF]\)\s*', line)
-                    if len(parts) < 2:
-                        continue
+                # Strip out trailing time tracking intervals cleanly
+                right_side = re.split(r'\s+\d{2}:\d{2}:\d{2}', right_side)[0].strip()
+                right_side = re.split(r'\s+lead\s+', right_side, flags=re.IGNORECASE)[0].strip()
 
-                    left_side = parts[0].strip()
-                    name_part = left_side.split(leg_time)[-1].strip()
-                    runner_name = " ".join(name_part.split())
+                tokens = right_side.split()
+                
+                # Find where the first club keyword appears in the token list
+                club_start_idx = None
+                for idx, token in enumerate(tokens):
+                    clean_token = token.lower().replace("&", "").replace(".", "").strip()
+                    if clean_token in CLUB_KEYWORDS:
+                        club_start_idx = idx
+                        break
 
-                    right_side = re.sub(r'^\s*\(\d+\)\s*', '', parts[1]).strip()
-                    right_tokens = right_side.split()
+                if club_start_idx is not None:
+                    # Everything before the first club keyword belongs to the runner name
+                    name_words = tokens[:club_start_idx]
+                    # Everything from the keyword onwards belongs to the club list
+                    remaining_tokens = tokens[club_start_idx:]
+                    
+                    # Cut off the club tokens if we encounter a standalone position number leak
                     club_words = []
-                    for token in right_tokens:
-                        if token.isdigit() or ":" in token or token.lower() in ["lead", "time", "+", "interval"]: 
+                    for token in remaining_tokens:
+                        if token.isdigit():
                             break
                         club_words.append(token)
-                    runner_club = " ".join(club_words).strip()
                 else:
-                    parts = line.split(leg_time)
-                    right_side = parts[1].strip() if len(parts) > 1 else ""
+                    name_words = tokens
+                    club_words = []
 
-                    bracket_split = re.split(r'\s*\(\d+\)\s*', right_side)
-                    if len(bracket_split) >= 2:
-                        runner_name = bracket_split[0].strip()
-                        right_tokens = bracket_split[1].split()
-                        club_words = []
-                        for token in right_tokens:
-                            if token.isdigit() or ":" in token or token.lower() in ["lead", "time", "+", "interval"]:
-                                break
-                            club_words.append(token)
-                        runner_club = " ".join(club_words).strip()
-                    else:
-                        continue
+                runner_name = " ".join(name_words).strip()
+                runner_club = " ".join(club_words).strip() if club_words else "Independent"
+
+                # Clean any stray columns or trailing numbers that leaked before the boundaries hit
+                runner_name = re.sub(r'\s+Usk\s+A.*$', '', runner_name, flags=re.IGNORECASE).strip()
+                runner_name = re.sub(r'\s+\d+\s*$', '', runner_name).strip()
+                runner_club = re.sub(r'\s+\d+\s+.*$', '', runner_club).strip()
 
                 if len(runner_name.split()) < 2:
                     continue
@@ -127,7 +143,7 @@ def extract_2026(pdf_path):
                 stage_meta = STAGE_DISTANCES.get(current_stage, {"miles": None, "km": None, "name": ""})
 
                 results.append({
-                    "year": 2026, 
+                    "year": 2016, 
                     "stage": current_stage, 
                     "stage_name": stage_meta["name"],
                     "miles": stage_meta["miles"], 

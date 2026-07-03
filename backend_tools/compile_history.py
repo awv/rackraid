@@ -3,12 +3,17 @@ import os
 import json
 import sys
 
+# Ensure the local folder is in the path before running imports
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from extractors.parse_2026 import extract_2026
 from extractors.parse_2025 import extract_2025
 from extractors.parse_2024 import extract_2024
 from extractors.parse_2023 import extract_2023
+from extractors.parse_2019 import extract_2019
+from extractors.parse_2018 import extract_2018
+from extractors.parse_2017 import extract_2017
+from extractors.parse_2016 import extract_2016
 
 def main():
     master_results = []
@@ -46,15 +51,45 @@ def main():
         except Exception as e:
             print(f"⚠️ Error processing 2024: {e}")
 
-# --- PROCESS 2023 ---
-    # path_2023 = os.path.join(downloads_dir, "results_2023.pdf")
-    # if os.path.exists(path_2023):
-    #     try:
-    #         data_2023 = extract_2023(path_2023)
-    #         master_results.extend(data_2023)
-    #         print(f"✓ Processed 2023 successfully ({len(data_2023)} records).")
-    #     except Exception as e:
-    #         print(f"⚠️ Error processing 2023: {e}")
+    # --- PROCESS 2019 ---
+    path_2019 = os.path.join(downloads_dir, "results_2019.pdf")
+    if os.path.exists(path_2019):
+        try:
+            data_2019 = extract_2019(path_2019)
+            master_results.extend(data_2019)
+            print(f"✓ Processed 2019 successfully ({len(data_2019)} records).")
+        except Exception as e:
+            print(f"⚠️ Error processing 2019: {e}")
+
+    # --- PROCESS 2018 ---
+    path_2018 = os.path.join(downloads_dir, "results_2018.pdf")
+    if os.path.exists(path_2018):
+        try:
+            data_2018 = extract_2018(path_2018)
+            master_results.extend(data_2018)
+            print(f"✓ Processed 2018 successfully ({len(data_2018)} records).")
+        except Exception as e:
+            print(f"⚠️ Error processing 2018: {e}")
+
+    # --- PROCESS 2017 ---
+    path_2017 = os.path.join(downloads_dir, "results_2017.pdf")
+    if os.path.exists(path_2017):
+        try:
+            data_2017 = extract_2017(path_2017)
+            master_results.extend(data_2017)
+            print(f"✓ Processed 2017 successfully ({len(data_2017)} records).")
+        except Exception as e:
+            print(f"⚠️ Error processing 2017: {e}")
+    
+    # --- PROCESS 2016 ---
+    path_2016 = os.path.join(downloads_dir, "results_2016.pdf")
+    if os.path.exists(path_2016):
+        try:
+            data_2016 = extract_2016(path_2016)
+            master_results.extend(data_2016)
+            print(f"✓ Processed 2016 successfully ({len(data_2016)} records).")
+        except Exception as e:
+            print(f"⚠️ Error processing 2016: {e}")
 
     output_js_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'data.js'))
     with open(output_js_path, "w", encoding="utf-8") as f:
