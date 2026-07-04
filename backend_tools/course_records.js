@@ -14,4 +14,4 @@ const ALL_TIME_COURSE_RECORDS = {
     "12": { "time": "00:37:20", "athlete": "Katie Evans", "club": "Chepstow Harriers" },
     "13": { "time": "00:44:10", "athlete": "Tom Hughes", "club": "CDF Runners" },
     "14": { "time": "00:31:55", "athlete": "Huw Lewis", "club": "Parc Bryn Bach" }
-};
+}; 
