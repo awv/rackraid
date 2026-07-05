@@ -16,11 +16,21 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <style>
         .custom-scrollbar::-webkit-scrollbar { width: 6px; }
-        .custom-scrollbar::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
         #map { height: 500px; width: 100%; border-radius: 0.75rem; z-index: 1; }
+        
+        /* Accordion transition utility */
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.25s ease-out;
+        }
+        .accordion-content.open {
+            max-height: 550px;
+        }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-900 font-sans antialiased flex flex-col min-h-screen">
+<body class="bg-slate-950 text-slate-100 font-sans antialiased flex flex-col min-h-screen">
 
     <!-- Global Header Full Width Wrapper Row -->
     <div class="w-full bg-slate-900 border-b border-slate-800">
@@ -28,18 +38,14 @@
     </div>
 
     <!-- Full-Width Immersive Banner with Integrated Course Record Overlay -->
-    <div class="w-full bg-slate-950 h-[450px] relative overflow-hidden flex items-center border-b border-slate-800">
-        <!-- Banner Image with dark blue tint shift filter -->
+    <div class="w-full bg-slate-950 h-[450px] relative overflow-hidden flex items-center">
         <img id="banner-img" src="assets/images/banners/default_stage.jpg" class="absolute inset-0 w-full h-full object-cover opacity-35 mix-blend-luminosity brightness-75" alt="Stage background">
-        <!-- Blue ambient tint layer -->
         <div class="absolute inset-0 bg-gradient-to-b from-slate-950/40 via-slate-900/80 to-slate-950"></div>
         
-        <!-- Expanded inner container context cleanly matches your 1400px maximum boundary -->
         <div class="max-w-[1400px] mx-auto w-full px-4 relative z-10 flex flex-col justify-center">
             <h2 class="text-emerald-400 font-black text-2xl tracking-tight uppercase mb-1" id="stage-number-title">Stage --</h2>
             <h3 class="text-white font-black text-3xl md:text-5xl uppercase tracking-tight leading-none mb-4" id="stage-location-title">Loading Route...</h3>
             
-            <!-- Course Record Sub-Panel -->
             <div class="flex items-center gap-4 bg-slate-900/60 border border-slate-700/50 rounded-xl px-4 py-3 backdrop-blur-sm w-max shadow-lg">
                 <div class="bg-emerald-500/20 text-emerald-400 font-mono font-black text-xl px-3 py-1 rounded-lg tracking-tight" id="banner-record-time">
                     --:--:--
@@ -52,73 +58,52 @@
         </div>
     </div>
 
-    <!-- Standardized Content Container Grid matching downstream guide rules -->
+    <!-- Standardized Content Container Grid -->
     <main class="max-w-[1400px] mx-auto w-full px-4 py-8 grid grid-cols-1 lg:grid-cols-3 gap-8 flex-grow">
         
         <!-- Left 2 Columns: Map & Descriptions -->
         <div class="lg:col-span-2 flex flex-col gap-6">
             <!-- Metric Stats Dashboard Bar -->
-            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 bg-white p-5 rounded-xl shadow-sm border border-slate-100">
-                <div class="text-center border-r border-slate-100 last:border-0">
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 bg-[#1e293b] p-5 rounded-xl shadow-sm border border-[#334155]">
+                <div class="text-center border-r border-[#334155] last:border-0">
                     <span class="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1">Distance</span>
-                    <span class="text-2xl font-black text-slate-800" id="stat-distance">--</span> <span class="text-sm font-bold text-slate-500">mi</span>
+                    <span class="text-2xl font-black text-slate-100" id="stat-distance">--</span> <span class="text-sm font-bold text-slate-400">mi</span>
                 </div>
-                <div class="text-center sm:border-r border-slate-100 last:border-0">
+                <div class="text-center sm:border-r border-[#334155] last:border-0">
                     <span class="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1">Elevation Gain</span>
-                    <span class="text-2xl font-black text-slate-800" id="stat-elevation">--</span> <span class="text-sm font-bold text-slate-500">m</span>
+                    <span class="text-2xl font-black text-slate-100" id="stat-elevation">--</span> <span class="text-sm font-bold text-slate-400">m</span>
                 </div>
-                <div class="text-center border-r border-slate-100 last:border-0">
+                <div class="text-center border-r border-[#334155] last:border-0">
                     <span class="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1">Toughness</span>
-                    <span class="text-2xl font-black text-amber-500" id="stat-toughness">--</span><span class="text-sm font-bold text-slate-400">/5</span>
+                    <span class="text-2xl font-black text-amber-500" id="stat-toughness">--</span><span class="text-sm font-bold text-slate-500">/5</span>
                 </div>
                 <div class="text-center last:border-0">
                     <span class="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1">Course Record</span>
-                    <span class="text-xl font-black text-emerald-600 block mt-1 leading-none" id="stat-record">--:--:--</span>
+                    <span class="text-xl font-black text-emerald-400 block mt-1 leading-none" id="stat-record">--:--:--</span>
                 </div>
             </div>
 
             <!-- Full-Width Interactive Map Track -->
-            <div class="bg-white p-3 rounded-xl shadow-sm border border-slate-100">
+            <div class="bg-[#1e293b] p-3 rounded-xl shadow-sm border border-[#334155]">
                 <div id="map" class="shadow-inner"></div>
             </div>
 
             <!-- Descriptive Guide Context -->
-            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 flex flex-col gap-4">
+            <div class="bg-[#1e293b] p-6 rounded-xl shadow-sm border border-[#334155] flex flex-col gap-4">
                 <div>
                     <h3 class="font-black uppercase tracking-tight text-sm text-slate-400 tracking-wider mb-2">Course Dispatch</h3>
-                    <p class="text-slate-600 leading-relaxed text-sm" id="stage-description">No route details documented for this stage variant yet.</p>
+                    <p class="text-slate-300 leading-relaxed text-sm" id="stage-description">No route details documented for this stage variant yet.</p>
                 </div>
-                <div class="border-t border-slate-100 pt-4 mt-2">
+                <div class="border-t border-[#334155] pt-4 mt-2">
                     <h4 class="font-bold uppercase tracking-tight text-xs text-slate-400 mb-1">Local Trivia & Facts</h4>
-                    <p class="text-slate-600 text-sm italic" id="stage-facts">Information arriving shortly.</p>
+                    <p class="text-slate-300 text-sm italic" id="stage-facts">Information arriving shortly.</p>
                 </div>
             </div>
         </div>
 
-        <!-- Right Column: Standings Matrix -->
-        <div class="flex flex-col gap-6">
-            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 flex flex-col flex-grow">
-                <h3 class="font-black uppercase tracking-tight text-lg text-slate-800 border-b pb-3 border-slate-100 flex justify-between items-center">
-                    <span>2026 Stage Standings</span>
-                    <span class="text-xs text-slate-400 font-bold bg-slate-100 px-2 py-1 rounded" id="total-runs">0 Finishes</span>
-                </h3>
-                
-                <!-- Scrollable Standings Core List -->
-                <div class="overflow-y-auto max-h-[640px] custom-scrollbar pr-1 mt-4">
-                    <table class="w-full text-left border-collapse">
-                        <thead>
-                            <tr class="text-slate-400 uppercase text-[10px] font-bold tracking-wider border-b border-slate-100">
-                                <th class="pb-2 w-10">Pos</th>
-                                <th class="pb-2">Runner</th>
-                                <th class="pb-2 text-right">Time</th>
-                            </tr>
-                        </thead>
-                        <tbody id="leaderboard-rows" class="text-sm font-medium text-slate-700 divide-y divide-slate-50">
-                            <!-- Populated on load -->
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+        <!-- Right Column: Standings Accordion Matrix -->
+        <div class="flex flex-col gap-4" id="accordion-container">
+            <!-- Programmatically injected loops go here -->
         </div>
     </main>
 
@@ -127,23 +112,13 @@
 
     <!-- Global Data & Leaflet Handler -->
     <script src="stages.js"></script>
-    <script src="results_2026.js"></script>
+    <script src="data.js"></script>
     <script>
-        // Master Lookup for Stage Names
         const stageNames = {
-            1: "Grosmont to Skenfrith",
-            2: "Skenfrith to White Castle",
-            3: "White Castle to Abergavenny",
-            4: "Abergavenny to Old Court Moat",
-            5: "Old Court Moat to Monmouth",
-            6: "Monmouth to Raglan",
-            7: "Raglan to Usk",
-            8: "Usk to Tintern",
-            9: "Tintern to Chepstow",
-            10: "Chepstow to Caldicot",
-            11: "Caldicot to Penhow",
-            12: "Penhow to Caerleon",
-            13: "Caerleon to Castell-y-Bwch",
+            1: "Grosmont to Skenfrith", 2: "Skenfrith to White Castle", 3: "White Castle to Abergavenny",
+            4: "Abergavenny to Old Court Moat", 5: "Old Court Moat to Monmouth", 6: "Monmouth to Raglan",
+            7: "Raglan to Usk", 8: "Usk to Tintern", 9: "Tintern to Chepstow", 10: "Chepstow to Caldicot",
+            11: "Caldicot to Penhow", 12: "Penhow to Caerleon", 13: "Caerleon to Castell-y-Bwch",
             14: "Castell-y-Bwch to Olive Tree"
         };
 
@@ -154,14 +129,27 @@
             return str ? str.replace(/\s*\([^)]+\)/g, '').trim() : '';
         }
 
-        document.addEventListener("DOMContentLoaded", function() {
+        // Global function handler toggling panels cleanly
+        window.toggleAccordion = function(year) {
+            const block = document.getElementById(`content-${year}`);
+            const arrow = document.getElementById(`arrow-${year}`);
+            if (!block) return;
+
+            if (block.classList.contains('open')) {
+                block.classList.remove('open');
+                if (arrow) arrow.style.transform = 'rotate(0deg)';
+            } else {
+                block.classList.add('open');
+                if (arrow) arrow.style.transform = 'rotate(180deg)';
+            }
+        };
+
+        document.addEventListener("DOMContentLoaded", async function() {
             const profile = stageProfiles[stageId];
             if (!profile) return;
 
-            const trueStageLocation = stageNames[stageId] || `Track ${stageId}`;
             document.getElementById('stage-number-title').innerText = `Stage ${stageId}`;
-            document.getElementById('stage-location-title').innerText = trueStageLocation;
-            
+            document.getElementById('stage-location-title').innerText = stageNames[stageId] || `Track ${stageId}`;
             document.getElementById('stat-distance').innerText = profile.distanceMiles;
             document.getElementById('stat-elevation').innerText = profile.elevationGainMetres;
             document.getElementById('stat-toughness').innerText = profile.toughness;
@@ -170,66 +158,108 @@
             if(profile.facts) document.getElementById('stage-facts').innerText = profile.facts;
             
             const bannerImg = document.getElementById('banner-img');
-            const customImgPath = `assets/images/banners/stage_${stageId}.jpg`;
-            const defaultImgPath = `assets/images/banners/default_stage.jpg`;
-            
-            bannerImg.src = customImgPath;
-            bannerImg.onerror = function() {
-                this.src = defaultImgPath;
-                this.onerror = null; 
-            };
+            bannerImg.src = `assets/images/banners/stage_${stageId}.jpg`;
+            bannerImg.onerror = function() { this.src = 'assets/images/banners/default_stage.jpg'; };
 
-            const stageHistory = results2026.filter(r => r.stage === stageId);
-            stageHistory.sort((a, b) => a.time.localeCompare(b.time));
-
-            document.getElementById('total-runs').innerText = `${stageHistory.length} Finishes`;
-            
-            if(stageHistory.length > 0) {
-                const recordHolder = stageHistory[0];
-                const cleanName = cleanLabel(recordHolder.name);
-                const cleanClub = cleanLabel(recordHolder.club);
-                
-                document.getElementById('stat-record').innerText = recordHolder.time;
-                document.getElementById('banner-record-time').innerText = recordHolder.time;
-                document.getElementById('banner-record-holder').innerText = `${cleanName} — ${cleanClub}`;
-            } else {
-                document.getElementById('stat-record').innerText = "--:--:--";
-                document.getElementById('banner-record-time').innerText = "--:--:--";
-                document.getElementById('banner-record-holder').innerText = "No record established yet";
+            // Load club mappings asynchronously
+            let clubMappings = {};
+            try {
+                const response = await fetch('backend_tools/club_mappings.json');
+                if (response.ok) {
+                    const rawMappings = await response.json();
+                    Object.keys(rawMappings).forEach(key => {
+                        clubMappings[key.toLowerCase().trim()] = rawMappings[key];
+                    });
+                }
+            } catch (err) {
+                console.warn("Could not load club mappings:", err);
             }
 
-            const tbody = document.getElementById('leaderboard-rows');
-            tbody.innerHTML = stageHistory.map((r, idx) => `
-                <tr class="hover:bg-slate-50 transition-colors">
-                    <td class="py-3 font-bold text-slate-400">${idx + 1}</td>
-                    <td class="py-3">
-                        <span class="block font-bold text-slate-800">${cleanLabel(r.name)}</span>
-                        <span class="block text-xs text-slate-400 font-semibold">${cleanLabel(r.club)}</span>
-                    </td>
-                    <td class="py-3 text-right font-mono font-bold text-slate-900">${r.time}</td>
-                </tr>
-            `).join('');
+            // Extract, clean, and filter entries completely from relayResults database pool
+            if (typeof relayResults === 'undefined') return;
+            const stageEntries = relayResults.filter(r => parseInt(r.stage, 10) === stageId);
 
+            // Dynamically build all-time years listed inside file logs
+            const trackingYears = [...new Set(stageEntries.map(r => parseInt(r.year, 10)))].sort((a, b) => b - a);
+
+            // Identify absolute course record benchmarks across all years combined
+            const globalHistorySorted = [...stageEntries].sort((a, b) => a.time.localeCompare(b.time));
+            if (globalHistorySorted.length > 0) {
+                const masterRecord = globalHistorySorted[0];
+                const rawClub = cleanLabel(masterRecord.club);
+                const mappedClub = clubMappings[rawClub.toLowerCase().trim()] || rawClub || 'Independent';
+
+                document.getElementById('stat-record').innerText = masterRecord.time;
+                document.getElementById('banner-record-time').innerText = masterRecord.time;
+                document.getElementById('banner-record-holder').innerText = `${cleanLabel(masterRecord.name)} (${mappedClub})`;
+            }
+
+            // Build individual accordion card elements
+            const accordionWrapper = document.getElementById('accordion-container');
+            let structuralBuffer = '';
+
+            trackingYears.forEach((year, index) => {
+                const yearHistory = stageEntries.filter(r => parseInt(r.year, 10) === year).sort((a, b) => a.time.localeCompare(b.time));
+                const isOpenByDefault = index === 0; // Keeping latest year active open on initialization
+
+                structuralBuffer += `
+                    <div class="bg-[#1e293b] rounded-xl border border-[#334155] shadow-sm overflow-hidden">
+                        <button onclick="window.toggleAccordion(${year})" class="w-full text-left p-5 flex justify-between items-center font-black uppercase tracking-tight text-lg text-slate-100 border-b border-[#334155] bg-slate-900/30 hover:bg-slate-900/60 transition-colors">
+                            <div class="flex items-center gap-4">
+                                <span>${year} Stage Standings</span>
+                                <span class="text-xs text-slate-400 font-bold bg-slate-800 px-2 py-1 rounded normal-case tracking-normal">${yearHistory.length} Finishes</span>
+                            </div>
+                            <svg id="arrow-${year}" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" class="text-slate-400 transition-transform duration-200" style="transform: ${isOpenByDefault ? 'rotate(180deg)' : 'rotate(0deg)'};">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        
+                        <div id="content-${year}" class="accordion-content ${isOpenByDefault ? 'open' : ''} overflow-y-auto custom-scrollbar px-5" style="${isOpenByDefault ? 'max-height: 550px;' : ''}">
+                            <div class="py-4">
+                                <table class="w-full text-left border-collapse">
+                                    <thead>
+                                        <tr class="text-slate-400 uppercase text-[10px] font-bold tracking-wider border-b border-[#334155]">
+                                            <th class="pb-2 w-10">Pos</th>
+                                            <th class="pb-2">Runner</th>
+                                            <th class="pb-2 text-right">Time</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="text-sm font-medium text-slate-300 divide-y divide-[#334155]">
+                                        ${yearHistory.map((r, idx) => {
+                                            const rawClub = cleanLabel(r.club);
+                                            const mappedClub = clubMappings[rawClub.toLowerCase().trim()] || rawClub || 'Independent';
+                                            const runnerName = cleanLabel(r.name);
+                                            return `
+                                                <tr class="hover:bg-slate-800/40 transition-colors">
+                                                    <td class="py-3 font-bold text-slate-500">${idx + 1}</td>
+                                                    <td class="py-3">
+                                                        <a href="athlete.html?name=${encodeURIComponent(runnerName)}" class="block font-bold text-slate-100 hover:text-emerald-400 transition-colors no-underline">${runnerName}</a>
+                                                        <span class="block text-xs text-slate-400 font-semibold">${mappedClub}</span>
+                                                    </td>
+                                                    <td class="py-3 text-right font-mono font-bold text-slate-100">${r.time}</td>
+                                                </tr>
+                                            `;
+                                        }).join('')}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            accordionWrapper.innerHTML = structuralBuffer;
+
+            // Load Map Tracks sequentially
             if (profile.simplifiedRoute && profile.simplifiedRoute.length > 0) {
                 const map = L.map('map');
-                
-                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                    attribution: '© OpenStreetMap contributors'
-                }).addTo(map);
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(map);
 
-                const polyline = L.polyline(profile.simplifiedRoute, {
-                    color: '#10b981',
-                    weight: 5,
-                    opacity: 0.9
-                }).addTo(map);
-
+                const polyline = L.polyline(profile.simplifiedRoute, { color: '#10b981', weight: 5, opacity: 0.9 }).addTo(map);
                 map.fitBounds(polyline.getBounds(), { padding: [40, 40] });
 
-                const startPoint = profile.simplifiedRoute[0];
-                const endPoint = profile.simplifiedRoute[profile.simplifiedRoute.length - 1];
-
-                L.circleMarker(startPoint, { radius: 6, color: '#ffffff', fillColor: '#10b981', fillOpacity: 1, weight: 3 }).addTo(map).bindPopup("<strong>Start Handover Point</strong>");
-                L.circleMarker(endPoint, { radius: 6, color: '#ffffff', fillColor: '#ef4444', fillOpacity: 1, weight: 3 }).addTo(map).bindPopup("<strong>Finish Handover Point</strong>");
+                L.circleMarker(profile.simplifiedRoute[0], { radius: 6, color: '#ffffff', fillColor: '#10b981', fillOpacity: 1, weight: 3 }).addTo(map).bindPopup("<strong>Start Handover Point</strong>");
+                L.circleMarker(profile.simplifiedRoute[profile.simplifiedRoute.length - 1], { radius: 6, color: '#ffffff', fillColor: '#ef4444', fillOpacity: 1, weight: 3 }).addTo(map).bindPopup("<strong>Finish Handover Point</strong>");
             }
         });
     </script>
