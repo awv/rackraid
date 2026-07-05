@@ -28,19 +28,20 @@
             margin-bottom: 35px;
         }
         .stat-card {
-            background: #ffffff;
-            border: 1px solid #e5e7eb;
+            background: #1e293b;
+            border: 1px solid #334155;
             border-radius: 8px;
             padding: 24px 20px;
             text-align: center;
             box-shadow: 0 1px 2px rgba(0, 0, 0, 0.01);
             transition: border-color 0.15s ease;
         }
-        .stat-card:hover { border-color: #d1d5db; }
-        .stat-value { font-size: 2.2rem; font-weight: 800; color: #111827; margin-bottom: 3px; letter-spacing: -0.5px; }
+        .stat-card:hover { border-color: #475569; }
+        .stat-value { font-size: 2.2rem; font-weight: 800; color: #f8fafc; margin-bottom: 3px; letter-spacing: -0.5px; }
+        .stat-label { color: #94a3b8; font-size: 0.875rem; font-weight: 500; }
         .section-box {
-            background: #ffffff;
-            border: 1px solid #e5e7eb;
+            background: #1e293b;
+            border: 1px solid #334155;
             border-radius: 8px;
             padding: 25px;
             box-shadow: 0 1px 3px rgba(0,0,0,0.01);
@@ -48,11 +49,11 @@
         .section-box h2 {
             font-size: 1.3rem;
             font-weight: 800;
-            color: #111827;
+            color: #f8fafc;
             margin-top: 0;
             margin-bottom: 15px;
             letter-spacing: -0.5px;
-            border-bottom: 2px solid #f3f4f6;
+            border-bottom: 2px solid #334155;
             padding-bottom: 8px;
         }
         .row-item {
@@ -60,31 +61,32 @@
             justify-content: space-between;
             align-items: center;
             padding: 10px 0;
-            border-bottom: 1px solid #f3f4f6;
+            border-bottom: 1px solid #334155;
             font-size: 0.95rem;
+            color: #cbd5e1;
         }
         .row-item:last-child {
             border-bottom: none;
         }
         .row-item a {
-            color: #111827;
+            color: #f8fafc;
             text-decoration: none;
             font-weight: 600;
         }
         .row-item a:hover {
-            border-bottom: 1px dashed #111827;
+            border-bottom: 1px dashed #34d399;
         }
         .count-badge {
             font-weight: 700;
-            background-color: #f3f4f6;
-            color: #111827;
+            background-color: #334155;
+            color: #f8fafc;
             padding: 2px 10px;
             border-radius: 12px;
             font-size: 0.85rem;
         }
         .rank-num {
             font-weight: 700;
-            color: #9ca3af;
+            color: #64748b;
             margin-right: 8px;
             display: inline-block;
             width: 20px;
@@ -101,15 +103,15 @@
         }
     </style>
 </head>
-<body class="bg-slate-50 min-h-screen flex flex-col">
+<body class="bg-slate-950 min-h-screen flex flex-col text-slate-100">
 
     <!-- Global Header Component Wrapper Box -->
-    <header id="global-header" class="bg-slate-900 text-white shadow-md border-b border-slate-800"></header>
+    <header id="global-header" class="w-full bg-slate-900 border-b border-slate-800"></header>
 
     <div class="page-wrapper flex-grow !pt-6">
         <div class="content-container">
 
-            <a href="index.html" onclick="window.history.back(); return false;" class="inline-flex items-center gap-1.5 text-slate-400 hover:text-slate-900 font-semibold no-underline mb-6 transition-colors text-sm">
+            <a href="index.html" onclick="window.history.back(); return false;" class="inline-flex items-center gap-1.5 text-slate-400 hover:text-slate-100 font-semibold no-underline mb-6 transition-colors text-sm">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
                     <line x1="19" y1="12" x2="5" y2="12"></line>
                     <polyline points="12 19 5 12 12 5"></polyline>
@@ -119,7 +121,7 @@
 
             <main class="main-profile-container">
                 
-                <div class="bg-slate-900 text-white rounded-lg p-8 mb-8 text-center">
+                <div class="bg-slate-900 text-white rounded-lg p-8 mb-8 text-center border border-slate-800">
                     <h1 class="text-3xl font-black uppercase tracking-tight m-0 leading-none">Event-Wide Records</h1>
                     <p class="text-slate-400 font-medium text-sm mt-2 mb-0">Historical statistics and hall of fame benchmarks across all compiled race chapters</p>
                 </div>
@@ -128,22 +130,22 @@
                 <div class="stats-grid">
                     <div class="stat-card">
                         <div id="topRunnerWins" class="stat-value">-</div>
-                        <div id="topRunnerName" class="stat-meta" style="font-size: 0.875rem; color: #10b981; font-weight: 700; margin-top: 0.25rem;">-</div>
+                        <div id="topRunnerName" class="stat-meta" style="font-size: 0.875rem; color: #34d399; font-weight: 700; margin-top: 0.25rem;">-</div>
                         <div class="stat-label" style="margin-top: 0.25rem;">Most Individual Wins</div>
                     </div>
                     <div class="stat-card">
                         <div id="topClubWins" class="stat-value">-</div>
-                        <div id="topClubName" class="stat-meta" style="font-size: 0.875rem; color: #10b981; font-weight: 700; margin-top: 0.25rem;">-</div>
+                        <div id="topClubName" class="stat-meta" style="font-size: 0.875rem; color: #34d399; font-weight: 700; margin-top: 0.25rem;">-</div>
                         <div class="stat-label" style="margin-top: 0.25rem;">Most Club Wins</div>
                     </div>
                     <div class="stat-card">
                         <div id="topLoyaltyRunner" class="stat-value">-</div>
-                        <div id="topLoyaltyName" class="stat-meta" style="font-size: 0.875rem; color: #10b981; font-weight: 700; margin-top: 0.25rem;">-</div>
+                        <div id="topLoyaltyName" class="stat-meta" style="font-size: 0.875rem; color: #34d399; font-weight: 700; margin-top: 0.25rem;">-</div>
                         <div class="stat-label" style="margin-top: 0.25rem;">Most Stages Logged</div>
                     </div>
                     <div class="stat-card">
                         <div id="totalRecordsBroken" class="stat-value">0</div>
-                        <div class="stat-meta" style="font-size: 0.875rem; color: #6b7280; font-weight: 500; margin-top: 0.25rem;">Event History</div>
+                        <div class="stat-meta" style="font-size: 0.875rem; color: #94a3b8; font-weight: 500; margin-top: 0.25rem;">Event History</div>
                         <div class="stat-label" style="margin-top: 0.25rem;">Records Broken All-Time</div>
                     </div>
                 </div>
@@ -193,7 +195,7 @@
                     <div class="section-box">
                         <h2>Most Overall Team Championships</h2>
                         <div id="boxOverallTeamWins">
-                            <div style="padding: 15px 0; text-align: center; color: #6b7280; font-style: italic;">
+                            <div style="padding: 15px 0; text-align: center; color: #94a3b8; font-style: italic;">
                                 Team championship historical listing placeholder. Data rendering module will populate here upon entry compilation.
                             </div>
                         </div>
@@ -228,7 +230,12 @@
             try {
                 const response = await fetch('backend_tools/club_mappings.json');
                 if (response.ok) {
-                    clubMappings = await response.json();
+                    const rawMappings = await response.json();
+                    // Keep standard keys, but also ensure lowercase keys handle flexible parsing
+                    Object.keys(rawMappings).forEach(key => {
+                        clubMappings[key] = rawMappings[key];
+                        clubMappings[key.toLowerCase().trim()] = rawMappings[key];
+                    });
                 }
             } catch (err) {
                 console.warn("Could not load club mappings file:", err);
@@ -253,6 +260,9 @@
                 const lookupKey = val.toLowerCase();
                 if (clubMappings[lookupKey]) {
                     return clubMappings[lookupKey];
+                }
+                if (clubMappings[val]) {
+                    return clubMappings[val];
                 }
                 if (val === '-' || lookupKey === 'individual' || lookupKey === 'unattached' || lookupKey === 'independent') return 'Independent';
                 return val;
@@ -333,7 +343,7 @@
                         </div>`;
                 });
             } else {
-                athleteWinsHtml = '<div style="padding:15px; color:#6b7280; font-style:italic;">No recorded stage wins in data.</div>';
+                athleteWinsHtml = '<div style="padding:15px; color:#94a3b8; font-style:italic;">No recorded stage wins in data.</div>';
             }
             const boxAthleteWinsEl = document.getElementById('boxAthleteWins');
             if (boxAthleteWinsEl) boxAthleteWinsEl.innerHTML = athleteWinsHtml;
@@ -354,7 +364,7 @@
                     </div>`;
             });
             const boxStage8El = document.getElementById('boxStage8');
-            if (boxStage8El) boxStage8El.innerHTML = stage8Html || '<div style="padding:15px; color:#6b7280;">No data recorded.</div>';
+            if (boxStage8El) boxStage8El.innerHTML = stage8Html || '<div style="padding:15px; color:#94a3b8;">No data recorded.</div>';
 
             // 4. Stage 13 Stalwarts Table
             const stage13Sorted = [...runnersArray].filter(r => r.stage13s > 0).sort((a,b) => b.stage13s - a.stage13s).slice(0, 5);
@@ -367,7 +377,7 @@
                     </div>`;
             });
             const boxStage13El = document.getElementById('boxStage13');
-            if (boxStage13El) boxStage13El.innerHTML = stage13Html || '<div style="padding:15px; color:#6b7280;">No data recorded.</div>';
+            if (boxStage13El) boxStage13El.innerHTML = stage13Html || '<div style="padding:15px; color:#94a3b8;">No data recorded.</div>';
 
             // 5. Club Victories Card & Table
             const clubWinsSorted = Object.values(clubWins).filter(c => c.wins > 0 && c.club !== 'Independent').sort((a,b) => b.wins - a.wins).slice(0, 5);
@@ -381,7 +391,7 @@
                         </div>`;
                 });
             } else {
-                clubWinsHtml = '<div style="padding:15px; color:#6b7280; font-style:italic;">No recorded club wins in data.</div>';
+                clubWinsHtml = '<div style="padding:15px; color:#94a3b8; font-style:italic;">No recorded club wins in data.</div>';
             }
             const boxClubWinsEl = document.getElementById('boxClubWins');
             if (boxClubWinsEl) boxClubWinsEl.innerHTML = clubWinsHtml;

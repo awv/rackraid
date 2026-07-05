@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const headerCanvas = document.getElementById('global-header');
     if (headerCanvas) {
         headerCanvas.innerHTML = `
-            <div class="max-w-[1400px] mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4 bg-slate-900 text-white rounded-xl mt-4 shadow-md">
+            <div class="max-w-[1400px] mx-auto px-4 h-[70px] flex flex-col sm:flex-row justify-between items-center gap-4 bg-slate-900 text-white shadow-md">
                 <a href="index.html" class="flex items-center gap-3 hover:opacity-90 transition-opacity">
                     <div class="bg-emerald-500 p-2 rounded-lg text-slate-900 font-bold text-xl tracking-wider flex items-center justify-center h-10 w-10">RR</div>
                     <div class="flex flex-col justify-center">
