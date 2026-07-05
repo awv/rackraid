@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stage Profile | Rack Raid Archive</title>
-    <!-- Include Tailwind for the global components to use -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Link to our tidy external styles sheet -->
     <link rel="stylesheet" href="styles.css">
-    <!-- Load the layout loader module script -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
     <script src="site-layout.js"></script>
+    <script src="data/course_records.js"></script>
+    <script src="backend_tools/club_mappings.js"></script>
     
-    <!-- Leaflet Map Scripts and Styles -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <style>
@@ -32,12 +31,10 @@
 </head>
 <body class="bg-slate-950 text-slate-100 font-sans antialiased flex flex-col min-h-screen">
 
-    <!-- Global Header Full Width Wrapper Row -->
     <div class="w-full bg-slate-900 border-b border-slate-800">
         <header id="global-header" class="text-white"></header>
     </div>
 
-    <!-- Full-Width Immersive Banner with Integrated Course Record Overlay -->
     <div class="w-full bg-slate-950 h-[450px] relative overflow-hidden flex items-center">
         <img id="banner-img" src="assets/images/banners/default_stage.jpg" class="absolute inset-0 w-full h-full object-cover opacity-35 mix-blend-luminosity brightness-75" alt="Stage background">
         <div class="absolute inset-0 bg-gradient-to-b from-slate-950/40 via-slate-900/80 to-slate-950"></div>
@@ -46,24 +43,33 @@
             <h2 class="text-emerald-400 font-black text-2xl tracking-tight uppercase mb-1" id="stage-number-title">Stage --</h2>
             <h3 class="text-white font-black text-3xl md:text-5xl uppercase tracking-tight leading-none mb-4" id="stage-location-title">Loading Route...</h3>
             
-            <div class="flex items-center gap-4 bg-slate-900/60 border border-slate-700/50 rounded-xl px-4 py-3 backdrop-blur-sm w-max shadow-lg">
-                <div class="bg-emerald-500/20 text-emerald-400 font-mono font-black text-xl px-3 py-1 rounded-lg tracking-tight" id="banner-record-time">
-                    --:--:--
+            <div class="flex flex-col sm:flex-row gap-4">
+                <div class="flex items-center gap-4 bg-slate-900/60 border border-slate-700/50 rounded-xl px-4 py-3 backdrop-blur-sm w-max shadow-lg">
+                    <div class="bg-emerald-500/20 text-emerald-400 font-mono font-black text-xl px-3 py-1 rounded-lg tracking-tight" id="banner-record-time">
+                        --:--:--
+                    </div>
+                    <div class="text-xs md:text-sm font-medium text-slate-300">
+                        <span class="text-slate-400 font-bold uppercase tracking-wider block text-[10px]">Overall Record</span>
+                        <span id="banner-record-holder" class="text-white font-bold">Loading...</span>
+                    </div>
                 </div>
-                <div class="text-xs md:text-sm font-medium text-slate-300">
-                    <span class="text-slate-400 font-bold uppercase tracking-wider block text-[10px]">Course Record</span>
-                    <span id="banner-record-holder" class="text-white font-bold">Loading...</span>
+
+                <div id="female-record-panel" class="hidden flex items-center gap-4 bg-slate-900/60 border border-slate-700/50 rounded-xl px-4 py-3 backdrop-blur-sm w-max shadow-lg">
+                    <div class="bg-pink-500/20 text-pink-400 font-mono font-black text-xl px-3 py-1 rounded-lg tracking-tight" id="banner-female-record-time">
+                        --:--:--
+                    </div>
+                    <div class="text-xs md:text-sm font-medium text-slate-300">
+                        <span class="text-pink-400 font-bold uppercase tracking-wider block text-[10px]">Female Record</span>
+                        <span id="banner-female-record-holder" class="text-white font-bold">Loading...</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Standardized Content Container Grid -->
     <main class="max-w-[1400px] mx-auto w-full px-4 py-8 grid grid-cols-1 lg:grid-cols-3 gap-8 flex-grow">
         
-        <!-- Left 2 Columns: Map & Descriptions -->
         <div class="lg:col-span-2 flex flex-col gap-6">
-            <!-- Metric Stats Dashboard Bar -->
             <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 bg-[#1e293b] p-5 rounded-xl shadow-sm border border-[#334155]">
                 <div class="text-center border-r border-[#334155] last:border-0">
                     <span class="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1">Distance</span>
@@ -83,12 +89,10 @@
                 </div>
             </div>
 
-            <!-- Full-Width Interactive Map Track -->
             <div class="bg-[#1e293b] p-3 rounded-xl shadow-sm border border-[#334155]">
                 <div id="map" class="shadow-inner"></div>
             </div>
 
-            <!-- Descriptive Guide Context -->
             <div class="bg-[#1e293b] p-6 rounded-xl shadow-sm border border-[#334155] flex flex-col gap-4">
                 <div>
                     <h3 class="font-black uppercase tracking-tight text-sm text-slate-400 tracking-wider mb-2">Course Dispatch</h3>
@@ -101,16 +105,12 @@
             </div>
         </div>
 
-        <!-- Right Column: Standings Accordion Matrix -->
         <div class="flex flex-col gap-4" id="accordion-container">
-            <!-- Programmatically injected loops go here -->
-        </div>
+            </div>
     </main>
 
-    <!-- Global Footer Wrapper Element -->
     <footer id="global-footer" class="bg-slate-900 text-slate-400 text-xs py-6 border-t border-slate-800"></footer>
 
-    <!-- Global Data & Leaflet Handler -->
     <script src="stages.js"></script>
     <script src="data.js"></script>
     <script>
@@ -129,7 +129,6 @@
             return str ? str.replace(/\s*\([^)]+\)/g, '').trim() : '';
         }
 
-        // Global function handler toggling panels cleanly
         window.toggleAccordion = function(year) {
             const block = document.getElementById(`content-${year}`);
             const arrow = document.getElementById(`arrow-${year}`);
@@ -161,46 +160,45 @@
             bannerImg.src = `assets/images/banners/stage_${stageId}.jpg`;
             bannerImg.onerror = function() { this.src = 'assets/images/banners/default_stage.jpg'; };
 
-            // Load club mappings asynchronously
-            let clubMappings = {};
-            try {
-                const response = await fetch('backend_tools/club_mappings.json');
-                if (response.ok) {
-                    const rawMappings = await response.json();
-                    Object.keys(rawMappings).forEach(key => {
-                        clubMappings[key.toLowerCase().trim()] = rawMappings[key];
-                    });
+            const clubMappings = typeof clubMappingsMaster !== 'undefined' ? clubMappingsMaster : {};
+
+            function loadVerifiedRecords(stageId, clubMappings) {
+                if (typeof courseRecordsMaster === 'undefined') return;
+
+                const currentStageRecord = courseRecordsMaster.find(r => r.stage === stageId);
+
+                if (currentStageRecord) {
+                    const overall = currentStageRecord.overall_record;
+                    const mappedOverallClub = clubMappings[overall.club.toLowerCase().trim()] || overall.club;
+
+                    document.getElementById('stat-record').innerText = overall.time;
+                    document.getElementById('banner-record-time').innerText = overall.time;
+                    document.getElementById('banner-record-holder').innerText = `${overall.runner} (${mappedOverallClub} ${overall.year})`;
+
+                    if (currentStageRecord.female_record) {
+                        const female = currentStageRecord.female_record;
+                        const mappedFemaleClub = clubMappings[female.club.toLowerCase().trim()] || female.club;
+
+                        document.getElementById('banner-female-record-time').innerText = female.time;
+                        document.getElementById('banner-female-record-holder').innerText = `${female.runner} (${mappedFemaleClub} ${female.year})`;
+                        document.getElementById('female-record-panel').classList.remove('hidden');
+                    }
                 }
-            } catch (err) {
-                console.warn("Could not load club mappings:", err);
             }
 
-            // Extract, clean, and filter entries completely from relayResults database pool
+            // Run verified records parse sequence directly out of your loaded JS file
+            loadVerifiedRecords(stageId, clubMappings);
+
             if (typeof relayResults === 'undefined') return;
             const stageEntries = relayResults.filter(r => parseInt(r.stage, 10) === stageId);
-
-            // Dynamically build all-time years listed inside file logs
             const trackingYears = [...new Set(stageEntries.map(r => parseInt(r.year, 10)))].sort((a, b) => b - a);
 
-            // Identify absolute course record benchmarks across all years combined
-            const globalHistorySorted = [...stageEntries].sort((a, b) => a.time.localeCompare(b.time));
-            if (globalHistorySorted.length > 0) {
-                const masterRecord = globalHistorySorted[0];
-                const rawClub = cleanLabel(masterRecord.club);
-                const mappedClub = clubMappings[rawClub.toLowerCase().trim()] || rawClub || 'Independent';
-
-                document.getElementById('stat-record').innerText = masterRecord.time;
-                document.getElementById('banner-record-time').innerText = masterRecord.time;
-                document.getElementById('banner-record-holder').innerText = `${cleanLabel(masterRecord.name)} (${mappedClub})`;
-            }
-
-            // Build individual accordion card elements
             const accordionWrapper = document.getElementById('accordion-container');
             let structuralBuffer = '';
 
             trackingYears.forEach((year, index) => {
                 const yearHistory = stageEntries.filter(r => parseInt(r.year, 10) === year).sort((a, b) => a.time.localeCompare(b.time));
-                const isOpenByDefault = index === 0; // Keeping latest year active open on initialization
+                const isOpenByDefault = index === 0;
 
                 structuralBuffer += `
                     <div class="bg-[#1e293b] rounded-xl border border-[#334155] shadow-sm overflow-hidden">
@@ -250,7 +248,6 @@
 
             accordionWrapper.innerHTML = structuralBuffer;
 
-            // Load Map Tracks sequentially
             if (profile.simplifiedRoute && profile.simplifiedRoute.length > 0) {
                 const map = L.map('map');
                 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(map);

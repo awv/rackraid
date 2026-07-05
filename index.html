@@ -7,11 +7,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css">
     <script src="site-layout.js"></script>
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
 </head>
 <body class="bg-slate-950 min-h-screen flex flex-col">
 
     <div class="w-full bg-slate-900 border-b border-slate-800 sticky top-0 h-16 z-[100] flex items-center">
-        <header id="global-header" class="text-white w-full"></header>
+        <header id="global-header" class="w-full bg-slate-900 border-b border-slate-800"></header>
     </div>
 
     <div class="w-full flex-grow py-12 px-6 relative">
@@ -71,7 +72,9 @@
 
     <footer id="global-footer" class="bg-slate-900 text-slate-400 text-xs py-6 border-t border-slate-800"></footer>
 
-    <script src="data.js"></script>
+<script src="data.js"></script>
+    <!-- Include the static script asset dictionary directly here -->
+    <script src="backend_tools/club_mappings.js"></script>
     <script>
         const queryInput = document.getElementById('searchQuery');
         const stageSelect = document.getElementById('filterStage');
@@ -140,13 +143,26 @@
             sessionStorage.setItem('archive_view_state', JSON.stringify(state));
         };
 
+        function cleanLabel(str) {
+            return str ? str.replace(/\s*\([^)]+\)/g, '').trim() : '';
+        }
+
         function performSearch() {
             const searchTerm = queryInput.value.toLowerCase().trim();
             const selectedStage = stageSelect.value;
+            const mappingsExist = typeof clubMappingsMaster !== 'undefined';
 
             const filtered = relayResults.filter(row => {
                 if (defTimeToSeconds(row.time) <= 0) return false;
-                const matchesSearch = row.name.toLowerCase().includes(searchTerm) || row.club.toLowerCase().includes(searchTerm);
+                
+                const rawClub = cleanLabel(row.club);
+                const lookupKey = rawClub.toLowerCase().trim();
+                const mappedClubName = mappingsExist ? (clubMappingsMaster[lookupKey] || rawClub) : rawClub;
+
+                const matchesSearch = row.name.toLowerCase().includes(searchTerm) || 
+                                      row.club.toLowerCase().includes(searchTerm) ||
+                                      mappedClubName.toLowerCase().includes(searchTerm);
+                                      
                 const matchesYear = activeSelectedYear === "" || row.year.toString() === activeSelectedYear;
                 const matchesStage = selectedStage === "" || row.stage.toString() === selectedStage;
                 return matchesSearch && matchesYear && matchesStage;
@@ -241,11 +257,15 @@
                             `<div class="cell-time"><span class="record-breaker-time">${row.time}</span></div>` : 
                             `<div class="cell-time">${row.time}</div>`;
                         
+                        const rawClub = cleanLabel(row.club);
+                        const lookupKey = rawClub.toLowerCase().trim();
+                        const finalClubName = mappingsExist ? (clubMappingsMaster[lookupKey] || rawClub || 'Independent') : (rawClub || 'Independent');
+
                         htmlOutput += `
                             <div class="results-row ${rowModifierClass}">
                                 <div class="cell-position">${row.position}</div>
                                 <div class="cell-name"><a href="athlete.html?name=${encodeURIComponent(row.name)}" onclick="saveArchiveState('${encodeURIComponent(row.name)}')" style="font-weight: 600;">${row.name}</a></div>
-                                <div class="cell-club"><a href="club.html?club=${encodeURIComponent(row.club)}">${row.club}</a></div>
+                                <div class="cell-club"><a href="club.html?club=${encodeURIComponent(finalClubName)}">${finalClubName}</a></div>
                                 ${timeMarkup}
                                 <div class="cell-pace">
                                     <strong>${milePace}</strong> <span style="font-size:11px;color:#555;">/mi</span>
@@ -303,6 +323,8 @@
                 setTimeout(() => {
                     window.scrollTo({ top: state.scrollPosition, behavior: 'instant' });
                 }, 50);
+            } else {
+                performSearch();
             }
         });
     </script>
