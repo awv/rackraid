@@ -7,71 +7,64 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css">
     <script src="site-layout.js"></script>
-    <style>
-        /* Ambient dark blue overlay matching the stage profile styling */
-        .scenic-gradient-overlay {
-            background: linear-gradient(180deg, rgba(15, 23, 42, 0.65) 0%, rgba(15, 23, 42, 0.9) 100%);
-        }
-    </style>
 </head>
-<body class="bg-slate-50 min-h-screen flex flex-col">
+<body class="bg-slate-950 min-h-screen flex flex-col">
 
-    <!-- Global Header Full Width Wrapper Row -->
-    <div class="w-full bg-slate-900 border-b border-slate-800">
-        <header id="global-header" class="text-white"></header>
+    <div class="w-full bg-slate-900 border-b border-slate-800 sticky top-0 h-16 z-[100] flex items-center">
+        <header id="global-header" class="text-white w-full"></header>
     </div>
 
-    <div class="w-full bg-slate-950 h-[400px] relative overflow-hidden flex items-center border-b border-slate-800">
-        <img src="assets/images/banners/default_stage.jpg" class="absolute inset-0 w-full h-full object-cover opacity-35 brightness-75 contrast-125 mix-blend-luminosity" alt="Archive background">
-        <div class="absolute inset-0 scenic-gradient-overlay"></div>
+    <div class="w-full flex-grow py-12 px-6 relative">
+        <img src="assets/images/banners/default_stage.jpg" class="absolute inset-0 w-full h-full object-cover opacity-15 brightness-50 contrast-125 mix-blend-luminosity pointer-events-none" alt="">
         
-        <div class="max-w-[1400px] mx-auto w-full px-4 relative z-10 flex flex-col justify-center">
-            <h2 class="text-white font-black text-4xl md:text-6xl uppercase tracking-tight leading-none mb-4">Rack Raid Archive</h2>
-            <p class="text-slate-300 font-medium text-sm md:text-lg max-w-4xl leading-relaxed m-0">
-                Welcome to the historical course guide, individual standings, and team analytics registry. This community project compiles multi-year relay datasets, tracking route variations, individual stage winners, and all-time course benchmarks across the traditional 14-stage circuit.
-            </p>
-        </div>
-    </div>
-
-    <div class="page-wrapper flex-grow !pt-8">
-        <div class="max-w-[1400px] mx-auto w-full px-4">
+        <div class="max-w-[1400px] mx-auto w-full relative z-10">
             
-            <main class="main-dashboard">
-                <div style="text-align: center; margin-bottom: 35px;">
-                    <a href="stats.html" style="display: inline-flex; align-items: center; gap: 8px; background-color: #f9fafb; color: #111827; border: 1px solid #e5e7eb; font-size: 13px; font-weight: 600; padding: 10px 22px; border-radius: 9999px; text-decoration: none; transition: all 0.15s ease;" onmouseover="this.style.backgroundColor='#f3f4f6'; this.style.borderColor='#d1d5db';" onmouseout="this.style.backgroundColor='#f9fafb'; this.style.borderColor='#e5e7eb';">
+            <div class="text-center mb-10">
+                <h2 class="text-white font-black text-4xl md:text-5xl uppercase tracking-tight leading-none mb-4">Rack Raid Archive</h2>
+                <p class="text-slate-400 font-medium text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
+                    Explore historical relay datasets, track route variations, and search all-time course benchmarks across the traditional 14-stage circuit.
+                </p>
+                <div class="mt-6">
+                    <a href="stats.html" class="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white border border-slate-800 text-xs font-semibold px-5 py-2.5 rounded-full transition-all">
                         📊 View All-Time Records & Stats
                     </a>
                 </div>
+            </div>
 
-                <div class="search-panel">
-                    <div class="year-tabs-label">Select Year:</div>
-                    <div class="year-tabs" id="yearTabsContainer">
-                        <button class="year-tab active" data-year="">All Years</button>
-                    </div>
-
-                    <div class="search-grid">
-                        <input type="text" id="searchQuery" placeholder="Search runner name or club...">
-                        <select id="filterStage"><option value="">All Stages</option></select>
+            <div class="search-panel">
+                <div class="search-grid">
+                    <input type="text" id="searchQuery" placeholder="Search your name, teammate, or club...">
+                    <button class="btn btn-primary" id="searchBtn">Find Results</button>
+                </div>
+                
+                <div class="filter-control-row">
+                    <div class="year-tabs-wrapper">
+                        <div class="year-tabs-label">Filter By Year:</div>
+                        <div class="year-tabs" id="yearTabsContainer">
+                            <button class="year-tab active" data-year="">All Years</button>
+                        </div>
                     </div>
                     
-                    <div class="action-bar">
-                        <button class="btn btn-secondary" id="clearBtn">Reset Filters</button>
-                        <button class="btn btn-primary" id="searchBtn">Find Results</button>
+                    <div class="stage-select-wrapper">
+                        <div class="year-tabs-label">Filter By Stage:</div>
+                        <select id="filterStage">
+                            <option value="">All 14 Stages</option>
+                        </select>
                     </div>
                 </div>
+            </div>
 
-                <div id="metaContainer" style="display: none;" class="meta-info"></div>
-                
-                <div id="resultsContainer">
-                    <div class="initial-state">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="2" style="margin-bottom:10px;">
-                            <circle cx="11" cy="11" r="8"></circle>
-                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                        </svg>
-                        <p>Configure your filter options above and click <strong>Find Results</strong> to view historical database records.</p>
-                    </div>
+            <div id="metaContainer" style="display: none;" class="meta-info mb-6"></div>
+            
+            <div id="resultsContainer">
+                <div class="initial-state">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#64748b" stroke-width="2" style="margin: 0 auto 12px auto;">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <p class="text-slate-400 text-sm m-0">Enter an athlete name or running club above to scan the archive records.</p>
                 </div>
-            </main>
+            </div>
 
         </div>
     </div>
@@ -84,7 +77,6 @@
         const stageSelect = document.getElementById('filterStage');
         const yearTabsContainer = document.getElementById('yearTabsContainer');
         const searchBtn = document.getElementById('searchBtn');
-        const clearBtn = document.getElementById('clearBtn');
         const resultsContainer = document.getElementById('resultsContainer');
         const metaContainer = document.getElementById('metaContainer');
 
@@ -92,7 +84,7 @@
 
         const courseRecords = {
             "2026": {"1":"00:31:14","2":"00:38:40","3":"00:43:25","4":"00:36:12","5":"00:41:20","6":"00:33:15","7":"00:39:45","8":"00:42:10","9":"00:35:50","10":"00:38:15","11":"00:40:05","12":"00:37:20","13":"00:44:10","14":"00:31:55"},
-            "2025": {"1":"00:34:14","2":"00:39:15","3":"00:44:50","4":"00:37:00","5":"00:42:55","6":"00:34:20","7":"00:41:00","8":"00:43:40","9":"00:36:45","10":"00:39:30","11":"01:20:00","12":"00:38:50","13":"00:45:30","14":"00:32:40"},
+            "2025": {"1":"00:34:14","2":"00:39:15","3":"00:44:50","4":"00:37:00","5":"00:42:55","6":"00:34:20","7":"01:20:00","12":"00:38:50","13":"00:45:30","14":"00:32:40"},
             "2024": {"1":"00:35:40","2":"00:40:20","3":"00:45:12","4":"00:38:10","5":"00:43:15","6":"00:35:05","7":"00:42:15","8":"00:44:55","9":"00:37:30","10":"00:40:45","11":"00:42:50","12":"00:39:15","13":"00:46:20","14":"00:33:10"}
         };
 
@@ -101,14 +93,12 @@
             ...Object.keys(courseRecords).map(Number)
         ])].sort((a, b) => b - a);        
         
-        const tabsContainer = document.getElementById('yearTabsContainer');
-        
         uniqueYears.forEach(year => {
             const btn = document.createElement('button');
             btn.className = 'year-tab';
             btn.textContent = year;
             btn.setAttribute('data-year', year);
-            tabsContainer.appendChild(btn);
+            yearTabsContainer.appendChild(btn);
         });
 
         yearTabsContainer.addEventListener('click', (e) => {
@@ -168,7 +158,7 @@
             if (filtered.length === 0) {
                 resultsContainer.innerHTML = `
                     <div class="initial-state" style="border-style: solid;">
-                        <p>No matching database records found. Please update your search criteria parameters.</p>
+                        <p class="text-slate-400">No matching database records found. Please update your search criteria parameters.</p>
                     </div>`;
                 return;
             }
@@ -185,14 +175,7 @@
 
             sortedYears.forEach(year => {
                 htmlOutput += `<div class="year-heading">${year} Results</div>`;
-                htmlOutput += `<div class="results-block">
-                    <div class="results-table-header">
-                        <div>Pos</div>
-                        <div>Name</div>
-                        <div>Club</div>
-                        <div>Time</div>
-                        <div>Pace</div>
-                    </div>`;
+                htmlOutput += `<div class="results-block">`;
 
                 const sortedStages = Object.keys(groups[year]).sort((a, b) => a - b);
                 sortedStages.forEach(stage => {
@@ -228,6 +211,13 @@
                                 </div>
                                 ${cutoffLabel}
                             </div>
+                        </div>
+                        <div class="results-table-header">
+                            <div>Pos</div>
+                            <div>Name</div>
+                            <div>Club</div>
+                            <div>Time</div>
+                            <div>Pace</div>
                         </div>`;
 
                     stageRows.forEach((row, index) => {
@@ -254,7 +244,6 @@
                         htmlOutput += `
                             <div class="results-row ${rowModifierClass}">
                                 <div class="cell-position">${row.position}</div>
-                                <!-- Fixed athlete profile routing linkage vector target parameter below -->
                                 <div class="cell-name"><a href="athlete.html?name=${encodeURIComponent(row.name)}" onclick="saveArchiveState('${encodeURIComponent(row.name)}')" style="font-weight: 600;">${row.name}</a></div>
                                 <div class="cell-club"><a href="club.html?club=${encodeURIComponent(row.club)}">${row.club}</a></div>
                                 ${timeMarkup}
@@ -272,23 +261,8 @@
             resultsContainer.innerHTML = htmlOutput;
         }
 
-        function resetInterface() {
-            queryInput.value = ""; stageSelect.value = ""; activeSelectedYear = "";
-            document.querySelectorAll('.year-tab').forEach(t => t.classList.remove('active'));
-            document.querySelector('.year-tab[data-year=""]').classList.add('active');
-            metaContainer.style.display = "none";
-            resultsContainer.innerHTML = `
-                <div class="initial-state">
-                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="2" style="margin-bottom:10px;">
-                        <circle cx="11" cy="11" r="8"></circle>
-                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                    </svg>
-                    <p>Configure your filter options above and click <strong>Find Results</strong> to view historical database records.</p>
-                </div>`;
-        }
-
         searchBtn.addEventListener('click', performSearch);
-        clearBtn.addEventListener('click', resetInterface);
+        stageSelect.addEventListener('change', performSearch);
         
         queryInput.addEventListener('keydown', (e) => {
             if (e.key === 'Enter') { performSearch(); }
