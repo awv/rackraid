@@ -9,7 +9,6 @@
     <link rel="icon" type="image/png" href="assets/images/logo.png">
     <script src="site-layout.js"></script>
     <script src="data/course_records.js"></script>
-
 </head>
 <body class="athlete-profile-page bg-slate-950 min-h-screen flex flex-col text-slate-100">
 
@@ -173,32 +172,20 @@
 
         function generateAthleteBadges(athleteResults) {
             const badges = [];
-            const totalRuns = athleteResults.length;
             
-            const uniqueStages = [...new Set(athleteResults.map(r => parseInt(r.stage)))];
+            // Determine unique years (editions) completed
             const uniqueYears = [...new Set(athleteResults.map(r => parseInt(r.year)))];
+            const uniqueYearsCount = uniqueYears.length;
             
             const positions = athleteResults.map(r => parseInt(r.position) || 999);
             const bestPos = Math.min(...positions);
+            const uniqueStages = [...new Set(athleteResults.map(r => parseInt(r.stage)))];
 
-            const buildBadge = (label, tooltipText, colorClasses) => {
-                return `
-                    <div class="group relative inline-block select-none">
-                        <span class="cursor-help text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded-md border ${colorClasses}">
-                            ${label}
-                        </span>
-                        <div class="pointer-events-none absolute top-full left-1/2 -translate-x-1/2 mt-2 w-48 scale-95 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-100 bg-slate-900 text-slate-200 text-[11px] font-medium p-2 rounded-md border border-slate-700 shadow-xl z-30 text-center leading-normal">
-                            ${tooltipText}
-                            <div class="absolute bottom-full left-1/2 -translate-x-1/2 border-4 border-transparent border-b-slate-900"></div>
-                        </div>
-                    </div>
-                `;
-            };
-
-            if (totalRuns >= 5) {
-                badges.push(buildBadge("🏆 Rack Raid Veteran", "Completed 5 or more Rack Raid stages over their career", "bg-amber-500/10 text-amber-400 border-amber-500/20"));
-            } else if (uniqueYears.length >= 2) {
-                badges.push(buildBadge("🔄 Loyal Competitor", "Returned to compete in multiple editions of the relay", "bg-blue-500/10 text-blue-400 border-blue-500/20"));
+            // Revised Milestone Criteria
+            if (uniqueYearsCount >= 5) {
+                badges.push(buildBadge("🏆 Rack Raid Master", "Completed 5 or more separate annual editions of the traditional relay circuit", "bg-amber-500/10 text-amber-400 border-amber-500/20"));
+            } else if (uniqueYearsCount >= 3) {
+                badges.push(buildBadge("🎖️ Rack Raid Veteran", "Completed 3 separate annual editions of the traditional relay circuit", "bg-blue-500/10 text-blue-400 border-blue-500/20"));
             }
 
             if (bestPos === 1) {
@@ -214,6 +201,21 @@
             }
 
             return badges.join('\n');
+        }
+
+        // Helper wrapper definition for tooltips
+        function buildBadge(label, tooltipText, colorClasses) {
+            return `
+                <div class="group relative inline-block select-none">
+                    <span class="cursor-help text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded-md border ${colorClasses}">
+                        ${label}
+                    </span>
+                    <div class="pointer-events-none absolute top-full left-1/2 -translate-x-1/2 mt-2 w-48 scale-95 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-100 bg-slate-900 text-slate-200 text-[11px] font-medium p-2 rounded-md border border-slate-700 shadow-xl z-30 text-center leading-normal">
+                        ${tooltipText}
+                        <div class="absolute bottom-full left-1/2 -translate-x-1/2 border-4 border-transparent border-b-slate-900"></div>
+                    </div>
+                </div>
+            `;
         }
 
         function getMostFrequentedStage(athleteResults, stageNames) {
@@ -314,56 +316,49 @@
                     let timeDisplay = brokeRecord ? `<span class="record-tag">${row.time}</span>` : row.time;
 
                     htmlOutput += `
-                        <div class="${rowClass}">
-                            <div class="athlete-desktop-table-row">
-                                <!-- Year -->
-                                <div class="flex justify-between items-baseline md:block border-b border-slate-700/50 md:border-none pb-2 md:pb-0 mb-2 md:mb-0">
-                                    <span class="text-slate-500 font-bold text-xs uppercase md:hidden">Year</span>
-                                    <span class="text-slate-100 font-bold">${row.year}</span>
-                                </div>
+                    <div class="${rowClass}">
+                        <div class="athlete-desktop-table-row">
+                            <div class="flex justify-between items-baseline md:block border-b border-slate-700/50 md:border-none pb-2 md:pb-0 mb-2 md:mb-0">
+                                <span class="text-slate-500 font-bold text-xs uppercase md:hidden">Year</span>
+                                <span class="text-slate-100 font-bold">${row.year}</span>
+                            </div>
 
-                                <!-- Stage Number -->
-                                <div class="text-emerald-400 font-semibold md:text-slate-400 md:font-medium text-sm md:text-base mb-1 md:mb-0">
-                                    <span class="md:hidden">Stage </span>${row.stage}
-                                </div>
+                            <div class="text-emerald-400 font-semibold md:text-slate-400 md:font-medium text-sm md:text-base mb-1 md:mb-0">
+                                <span class="md:hidden">Stage </span>${row.stage}
+                            </div>
 
-                                <!-- Leg Details -->
-                                <div class="mb-2 md:mb-0">
-                                    <a href="index.html?year=${row.year}&stage=${row.stage}" class="text-slate-100 hover:text-emerald-400 no-underline inline-block border-b border-dashed border-slate-600 pb-0.5">
-                                        ${row.stage_name || 'Leg Details'}
-                                    </a>
-                                </div>
+                            <div class="mb-2 md:mb-0">
+                                <a href="index.html?year=${row.year}&stage=${row.stage}" class="text-slate-100 hover:text-emerald-400 no-underline inline-block border-b border-dashed border-slate-600 pb-0.5">
+                                    ${row.stage_name || 'Leg Details'}
+                                </a>
+                            </div>
 
-                                <!-- Club -->
-                                <div class="truncate pr-2 mb-4 md:mb-0">
-                                    <span class="text-[10px] text-slate-500 font-bold uppercase block md:hidden mb-0.5">Club</span>
-                                    <a href="club.html?club=${encodeURIComponent(specificYearClub)}" class="text-slate-300 hover:text-emerald-400 font-semibold md:font-normal text-xs transition-colors no-underline">
-                                        ${specificYearClub}
-                                    </a>
-                                </div>
+                            <div class="truncate pr-2 mb-4 md:mb-0">
+                                <span class="text-[10px] text-slate-500 font-bold uppercase block md:hidden mb-0.5">Club</span>
+                                <a href="club.html?club=${encodeURIComponent(specificYearClub)}" class="text-slate-300 hover:text-emerald-400 font-semibold md:font-normal text-xs transition-colors no-underline">
+                                    ${specificYearClub}
+                                </a>
+                            </div>
 
-                                <!-- Position -->
-                                <div class="flex justify-between items-center md:block bg-slate-900 md:bg-transparent p-2 md:p-0 rounded-t-md md:rounded-none border-b border-slate-800 md:border-none px-3 md:px-0">
-                                    <span class="text-[10px] text-slate-500 font-bold uppercase md:hidden">Position</span>
-                                    <span class="md:text-right block font-bold text-slate-100">${row.position}</span>
-                                </div>
+                            <div class="flex justify-between items-center md:block bg-slate-900 md:bg-transparent p-2 md:p-0 rounded-t-md md:rounded-none border-b border-slate-800 md:border-none px-3 md:px-0">
+                                <span class="text-[10px] text-slate-500 font-bold uppercase md:hidden">Position</span>
+                                <span class="md:text-right block font-bold text-slate-100">${row.position}</span>
+                            </div>
 
-                                <!-- Time -->
-                                <div class="flex justify-between items-center md:block bg-slate-900 md:bg-transparent p-2 md:p-0 border-b border-slate-800 md:border-none px-3 md:px-0">
-                                    <span class="text-[10px] text-slate-500 font-bold uppercase md:hidden">Time</span>
-                                    <span class="md:text-right block font-medium">${timeDisplay}</span>
-                                </div>
+                            <div class="flex justify-between items-center md:block bg-slate-900 md:bg-transparent p-2 md:p-0 border-b border-slate-800 md:border-none px-3 md:px-0">
+                                <span class="text-[10px] text-slate-500 font-bold uppercase md:hidden">Time</span>
+                                <span class="md:text-right block font-medium">${timeDisplay}</span>
+                            </div>
 
-                                <!-- Pace -->
-                                <div class="flex justify-between items-center md:block bg-slate-900 md:bg-transparent p-2 md:p-0 rounded-b-md md:rounded-none px-3 md:px-0 text-right md:text-left">
-                                    <span class="text-[10px] text-slate-500 font-bold uppercase md:hidden">Pace</span>
-                                    <div class="pace-column text-right md:text-left">
-                                        <strong>${milePace}</strong> <span class="text-xs text-slate-500">/mi</span>
-                                        <span class="block text-[11px] text-slate-400 font-normal mt-0.5 md:hidden">${kmPace} /km</span>
-                                    </div>
+                            <div class="flex justify-between items-center md:block bg-slate-900 md:bg-transparent p-2 md:p-0 rounded-b-md md:rounded-none px-3 md:px-0 text-right">
+                                <span class="text-[10px] text-slate-500 font-bold uppercase md:hidden">Pace</span>
+                                <div class="pace-column text-right">
+                                    <strong>${milePace}</strong> <span class="text-xs text-white">/mi</span>
+                                    <span class="block text-[11px] text-slate-400 font-normal mt-0.5">${kmPace} /km</span>
                                 </div>
                             </div>
-                        </div>`;
+                        </div>
+                    </div>`;
                 });
 
                 document.getElementById('statAppearances').textContent = runnerHistory.length;
