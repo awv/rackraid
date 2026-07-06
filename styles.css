@@ -9,8 +9,11 @@ html, body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
     color: #374151;
-    background-color: #f8fafc; /* Standard crisp light background for sub-pages */
+    background-color: #f8fafc; 
     max-width: 100vw;
+}
+
+body.home-archive-page {
     overflow-x: hidden;
 }
 
@@ -21,10 +24,8 @@ html, body {
     margin: 0 auto;
     padding: 40px 20px;
     box-sizing: border-box;
+    overflow: visible !important; 
 }
-
-
-
 
 /* ==========================================================================
    2. Dark Theme Search & Tab Panels
@@ -180,7 +181,7 @@ input:focus, select:focus {
 }
 
 /* ==========================================================================
-   4. Cascading Sticky Navigation Headers & Dynamic Output Containers
+   4. Shared Data Output Presentation Components
    ========================================================================== */
 #resultsContainer {
     width: 100%;
@@ -193,72 +194,6 @@ input:focus, select:focus {
     border: 2px dashed #334155;
     border-radius: 8px;
     background-color: #1e293b;
-}
-
-/* Explicitly clean of overflow rules to ensure sticky flow engine processes */
-.results-block {
-    width: 100%;
-    margin-top: 0;
-    margin-bottom: 40px;
-    background: #ffffff;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
-    border: 1px solid #1e293b;
-    border-top: none;
-    border-radius: 0 0 8px 8px;
-}
-
-/* STICKY LAYER 2: Year Results Banner */
-.year-heading {
-    position: sticky;
-    top: 64px; 
-    z-index: 40;
-    background-color: #111827;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    padding: 16px 20px;
-    margin-top: 45px;
-    border-radius: 8px 8px 0 0;
-    border: 1px solid #111827;
-    border-bottom: none;
-}
-
-/* STICKY LAYER 3: Individual Stage Course Info Banner Row */
-.stage-header-row {
-    position: sticky;
-    top: 116px; 
-    z-index: 30;
-    background-color: #f8fafc;
-    font-weight: bold;
-    padding: 14px 20px;
-    color: #1f2937;
-    border-left: 1px solid #e2e8f0;
-    border-right: 1px solid #e2e8f0;
-    border-bottom: 1px solid #e2e8f0;
-}
-
-/* STICKY LAYER 4: Main Multi-Column Table Label Row */
-.results-table-header {
-    position: sticky;
-    top: 165px; 
-    z-index: 20;
-    display: grid;
-    grid-template-columns: 6% 34% 36% 12% 12%;
-    background-color: #f1f5f9;
-    font-weight: 600;
-    color: #475569;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border-left: 1px solid #e2e8f0;
-    border-right: 1px solid #e2e8f0;
-    border-bottom: 2px solid #e2e8f0;
-}
-
-.results-table-header div:nth-child(4),
-.results-table-header div:nth-child(5) {
-    text-align: right;
 }
 
 .stage-header-container {
@@ -274,60 +209,9 @@ input:focus, select:focus {
     flex-wrap: wrap;
 }
 
-/* ==========================================================================
-   5. Results Grid Data Rows & Typography Hierarchy
-   ========================================================================== */
-.results-row {
-    display: grid;
-    grid-template-columns: 6% 34% 36% 12% 12%;
-    padding: 14px 20px;
-    border-bottom: 1px solid #f1f5f9;
-    align-items: center;
-    transition: background-color 0.15s ease;
-}
-
-.results-row:last-child {
-    border-bottom: none;
-}
-
-.results-row:hover {
-    background-color: #f8fafc;
-}
-
-.results-row-strip-even { background-color: #ffffff; }
-.results-row-strip-odd { background-color: #fafafa; }
-
 .cell-time, .cell-pace {
     text-align: right;
 }
-
-.cell-name a {
-    color: #111827 !important;
-    text-decoration: none;
-    border-bottom: 1px solid transparent !important;
-}
-
-.cell-name a:hover {
-    color: #4b5563 !important;
-    border-bottom-color: #4b5563 !important;
-}
-
-.cell-club a {
-    color: #4b5563 !important;
-    text-decoration: none;
-    border-bottom: 1px dashed #ccc !important;
-}
-
-.cell-club a:hover {
-    color: #111827 !important;
-    border-bottom-color: #111827 !important;
-}
-
-.winner-row { font-weight: bold; color: #b58900; background-color: #fffdf5; }
-.winner-row-border { border-bottom: 1px solid #f9f1d1; }
-
-.cutoff-row { font-weight: bold; color: #d9534f; background-color: #fdf6f6; }
-.cutoff-row-border { border-bottom: 1px solid #f7e1e1; }
 
 .record-breaker-time {
     background-color: #e6f4ea !important;
@@ -361,44 +245,458 @@ input:focus, select:focus {
 .cutoff-badge { font-size: 11px; background-color: #4b5563; color: white; padding: 2px 8px; border-radius: 12px; }
 .pace-subtext { display: block; font-size: 11px; color: #6b7280; margin-top: 2px; font-weight: normal; }
 
+
 /* ==========================================================================
-   6. Mobile Adaptation & Card Layout Conversions
+   5. HOME ARCHIVE RESULTS DASHBOARD STYLES (SCOPED)
    ========================================================================== */
+.home-archive-page .results-block {
+    background-color: #1e293b !important;
+    border: 1px solid #334155 !important;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+.home-archive-page .stage-group {
+    position: relative;
+}
+
+.home-archive-page .year-heading {
+    position: sticky !important;
+    top: 4rem !important; 
+    z-index: 50 !important;
+    background-color: #0f172a !important; 
+    color: #f8fafc !important;
+    padding: 14px 16px;
+    font-weight: 800;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #334155 !important;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    margin-top: 45px;
+}
+
+.home-archive-page .stage-sticky-combine {
+    position: sticky !important;
+    top: 7.35rem !important; 
+    z-index: 40 !important;
+    background-color: #1e293b !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-archive-page .stage-header-row {
+    position: static !important;
+    background-color: #1e293b !important; 
+    color: #f8fafc !important;
+    padding: 12px 16px;
+    border-bottom: 1px solid #334155 !important;
+}
+
+.home-archive-page .results-table-header {
+    position: static !important;
+    background-color: #0f172a !important; 
+    color: #94a3b8 !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #334155 !important;
+    padding: 10px 16px !important;
+    display: grid;
+    grid-template-columns: 6% 34% 36% 12% 12%;
+    box-sizing: border-box;
+}
+
+.home-archive-page .results-table-header div:nth-child(4),
+.home-archive-page .results-table-header div:nth-child(5) {
+    text-align: right;
+}
+
+.home-archive-page .results-row {
+    display: grid;
+    grid-template-columns: 6% 34% 36% 12% 12%;
+    padding: 14px 20px;
+    border-bottom: 1px solid #334155 !important;
+    align-items: center;
+    transition: background-color 150ms ease;
+    position: relative;
+    z-index: 1;
+}
+
+.home-archive-page .results-row:last-child {
+    border-bottom: none !important;
+}
+
+.home-archive-page .results-row-strip-even { background-color: #1e293b !important; }
+.home-archive-page .results-row-strip-odd { background-color: #161e2e !important; }
+
+.home-archive-page .winner-row, 
+.home-archive-page .winner-row-border {
+    background-color: #064e3b !important; 
+    border-left: 5px solid #10b981 !important;
+}
+
+.home-archive-page .winner-row .cell-position {
+    color: #10b981 !important;
+    font-weight: 800;
+}
+
+.home-archive-page .cutoff-row, 
+.home-archive-page .cutoff-row-border {
+    background-color: #4c0519 !important; 
+    border-left: 5px solid #ef4444 !important;
+}
+
+.home-archive-page .cutoff-row .cell-position {
+    color: #f43f5e !important;
+    font-weight: 800;
+}
+
+.home-archive-page .cell-position { color: #cbd5e1 !important; padding-left: 6px !important; }
+.home-archive-page .cell-name a { color: #ffffff !important; text-decoration: none !important; }
+.home-archive-page .cell-time { color: #ffffff !important; }
+.home-archive-page .cell-pace strong { color: #ffffff !important; }
+.home-archive-page .pace-subtext { color: #94a3b8 !important; }
+.home-archive-page .cell-name a:hover, 
+.home-archive-page .cell-club a:hover { color: #10b981 !important; }
+
+.home-archive-page .cell-club a {
+    color: #94a3b8 !important;
+    text-decoration: underline !important;
+    text-decoration-style: dotted !important;
+}
+
 @media screen and (max-width: 640px) {
-    .page-wrapper { padding: 16px 8px; }
-    .search-panel { padding: 15px; margin-bottom: 20px; }
-    .search-grid { flex-direction: column; gap: 8px; }
-    #searchQuery { height: 48px; }
-    .filter-control-row { gap: 15px; }
-    .year-tabs-wrapper { min-width: 100%; }
-    .stage-select-wrapper { width: 100%; }
+    .home-archive-page .search-panel { width: 100% !important; box-sizing: border-box; }
+    .home-archive-page .year-tabs { display: flex; flex-wrap: wrap; gap: 6px; width: 100%; }
+    .home-archive-page .year-tab { flex-grow: 1; min-width: calc(25% - 6px); text-align: center; padding: 6px 10px; }
+    .home-archive-page .w-full.flex-grow { padding-left: 12px !important; padding-right: 12px !important; max-width: 100% !important; box-sizing: border-box; overflow: visible !important; height: auto !important; }
+    .home-archive-page .stage-header-row { padding: 16px 12px !important; }
     
-    div.search-panel div.year-tabs {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+    .home-archive-page .stage-header-container { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; width: 100%; }
+    .home-archive-page .stage-title { display: block; margin-top: 4px; margin-bottom: 6px; }
+    .home-archive-page .stage-header-left { display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: flex-start; gap: 8px; width: 100%; padding: 0 !important; margin: 0 !important; }
+    .home-archive-page .stage-distance, .home-archive-page .record-badge, .home-archive-page .cutoff-badge { margin-left: 0 !important; }
+
+    .home-archive-page .results-table-header { display: none !important; }
+
+    .home-archive-page .results-row {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 14px 12px;
         gap: 6px;
+    }
+
+    .home-archive-page .cell-pace {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        gap: 8px;
+        margin-top: 4px;
         width: 100%;
     }
-    div.search-panel div.year-tabs button.year-tab { width: 100%; padding: 8px 4px; text-align: center; }
-    
-    .w-full.bg-slate-900.sticky { height: 56px !important; }
-    .year-heading { top: 56px; font-size: 14px; padding: 12px 14px; border-radius: 0; }
-    .stage-header-row { top: 101px; padding: 10px 14px; }
-    
-    div.stage-header-row div.stage-header-container { flex-direction: column; align-items: flex-start; gap: 6px; }
-    div.results-block { border-radius: 0; }
-    div.results-block div.results-table-header { display: none; }
-    
-    div.results-block div.results-row {
-        position: relative;
-        display: grid;
-        grid-template-columns: 1fr max-content;
-        padding: 12px 14px 12px 38px;
-        border-bottom: 1px solid #eef2f5;
-    }
-    div.results-row div.cell-position { position: absolute; left: 12px; top: 12px; font-weight: 700; }
-    div.results-row div.cell-name { grid-column: 1; grid-row: 1; }
-    div.results-row div.cell-time { grid-column: 2; grid-row: 1; }
-    div.results-row div.cell-club { grid-column: 1; font-size: 0.85rem; }
-    div.results-row div.cell-pace { grid-column: 2; font-size: 0.75rem; text-align: right; }
+
+    .home-archive-page .cell-pace strong { font-size: 0.95rem; color: #ffffff; }
+    .home-archive-page .cell-pace span.pace-subtext { font-size: 0.8rem; color: #94a3b8; }
+}
+
+
+/* ==========================================================================
+   6. ATHLETE PROFILE STYLES (SCOPED)
+   ========================================================================== */
+.athlete-profile-page .scenic-gradient-overlay {
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0.4) 0%, rgba(15, 23, 42, 0.8) 60%, rgba(2, 6, 23, 1) 100%);
+}
+
+.athlete-profile-page .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.athlete-profile-page .stat-card {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 24px 20px;
+    text-align: center;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.01);
+    transition: border-color 0.15s ease;
+}
+
+.athlete-profile-page .stat-card:hover { border-color: #475569; }
+.athlete-profile-page .stat-value { font-size: 2.2rem; font-weight: 800; color: #f8fafc; margin-bottom: 3px; letter-spacing: -0.5px; }
+.athlete-profile-page .stat-label { font-size: 0.8rem; color: #94a3b8; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+.athlete-profile-page .history-block { background: #1e293b; border: 1px solid #334155; border-radius: 6px; overflow: hidden; }
+
+.athlete-profile-page .history-header { 
+    display: grid; 
+    grid-template-columns: 8% 12% 28% 15% 7% 13% 17%; 
+    background-color: #0f172a; 
+    font-weight: 600; 
+    color: #94a3b8; 
+    border-bottom: 2px solid #334155; 
+    padding: 12px 14px; 
+    font-size: 0.85rem;
+}
+
+.athlete-profile-page .history-row { 
+    display: grid; 
+    grid-template-columns: 8% 12% 28% 15% 7% 13% 17%; 
+    padding: 14px; 
+    border-bottom: 1px solid #334155; 
+    align-items: center; 
+    color: #cbd5e1; 
+}
+
+.athlete-profile-page .history-row:last-child { border-bottom: none; }
+.athlete-profile-page .history-row:nth-child(even) { background-color: #161e2e; }
+.athlete-profile-page .pace-column { text-align: right; line-height: 1.3; }
+.athlete-profile-page .badge-win { background-color: rgba(16, 185, 129, 0.12); border-left: 4px solid #10b981; }
+.athlete-profile-page .record-tag { background-color: #064e3b; color: #34d399; font-weight: bold; padding: 2px 6px; border-radius: 4px; font-size: 0.9rem; border: 1px solid rgba(52, 211, 153, 0.2); }
+.athlete-profile-page .athlete-desktop-table-row { display: contents; }
+
+@media screen and (max-width: 768px) {
+    .athlete-profile-page .w-full.bg-slate-950.min-h-\[400px\] { padding-top: 2rem !important; padding-bottom: 1.5rem !important; }
+    .athlete-profile-page .page-wrapper { padding-top: 0.5rem !important; }
+    .athlete-profile-page .stats-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 12px !important; margin-bottom: 24px !important; }
+    .athlete-profile-page .stat-card { padding: 16px 12px !important; }
+    .athlete-profile-page .stat-value { font-size: 1.75rem !important; }
+    .athlete-profile-page .stat-label { font-size: 0.7rem !important; }
+    .athlete-profile-page .history-header { display: none; }
+    .athlete-profile-page .history-row { display: flex; flex-direction: column; padding: 16px; border-bottom: 1px solid #334155; }
+    .athlete-profile-page .history-row > div { width: 100%; text-align: left; }
+    .athlete-profile-page .pace-column { text-align: right; }
+    .athlete-profile-page .athlete-desktop-table-row { display: flex; flex-direction: column; gap: 8px; }
+}
+
+
+/* ==========================================================================
+   7. CLUB PROFILE STYLES (SCOPED)
+   ========================================================================== */
+.club-profile-page .club-hero-panel {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 30px;
+    border-left-width: 6px;
+}
+
+.club-profile-page .club-hero-panel h1 {
+    margin: 0 0 8px 0;
+    font-size: 1.85rem;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+}
+
+@media screen and (min-width: 768px) {
+    .club-profile-page .club-hero-panel h1 { font-size: 2.4rem; }
+}
+
+.club-profile-page .club-meta-summary { font-size: 0.95rem; color: #94a3b8; margin: 0; font-weight: 500; line-height: 1.4; }
+.club-profile-page .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 40px; }
+
+.club-profile-page .stat-card {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 20px 16px;
+    text-align: center;
+    transition: border-color 0.15s ease;
+}
+
+.club-profile-page .stat-card:hover { border-color: #475569; }
+.club-profile-page .stat-value { font-size: 2rem; font-weight: 800; color: #f8fafc; margin-bottom: 3px; letter-spacing: -0.5px; }
+.club-profile-page .stat-label { font-size: 0.75rem; color: #94a3b8; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+.club-profile-page .dashboard-section { margin-bottom: 40px; }
+.club-profile-page .dashboard-section h2 { font-size: 1.35rem; font-weight: 800; color: #f8fafc; margin-bottom: 16px; letter-spacing: -0.3px; border-bottom: 2px solid #334155; padding-bottom: 8px; }
+.club-profile-page .leaderboard-table { width: 100%; border: 1px solid #334155; border-radius: 8px; overflow: hidden; background-color: #1e293b; }
+.club-profile-page .leaderboard-header { display: grid; grid-template-columns: 8% 37% 55%; background-color: #0f172a; font-weight: 600; color: #94a3b8; border-bottom: 2px solid #334155; padding: 12px 16px; font-size: 0.85rem; }
+.club-profile-page .leaderboard-row { display: grid; grid-template-columns: 8% 37% 55%; padding: 14px 16px; border-bottom: 1px solid #334155; align-items: center; color: #cbd5e1; }
+.club-profile-page .leaderboard-row:last-child { border-bottom: none; }
+.club-profile-page .leaderboard-row:nth-child(even) { background-color: #161e2e; }
+.club-profile-page .leaderboard-row a { color: #ffffff; text-decoration: none; font-weight: 600; transition: color 0.1s ease; }
+.club-profile-page .leaderboard-row a:hover { color: #10b981; }
+.club-profile-page .completion-grid { display: inline-flex; gap: 3px; align-items: center; vertical-align: middle; flex-wrap: wrap; }
+.club-profile-page .stage-box { width: 22px; height: 22px; display: inline-flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 700; border-radius: 4px; background-color: #334155; color: #64748b; user-select: none; }
+.club-profile-page .stage-box.completed { background-color: #10b981; color: #ffffff; }
+.club-profile-page .win-history-tag { font-size: 0.75rem; color: #94a3b8; font-weight: 500; background-color: #0f172a; padding: 3px 8px; border-radius: 6px; margin-left: 8px; display: inline-block; border: 1px solid #334155; }
+
+@media screen and (max-width: 640px) {
+    .club-profile-page .leaderboard-header { display: none; }
+    .club-profile-page .leaderboard-row { display: block; padding: 16px; }
+    .club-profile-page .leaderboard-row > div:nth-child(1) { font-size: 0.75rem; text-transform: uppercase; color: #64748b; margin-bottom: 2px; }
+    .club-profile-page .leaderboard-row > div:nth-child(1)::before { content: "Rank "; }
+    .club-profile-page .leaderboard-row > div:nth-child(2) { font-size: 1.1rem; margin-bottom: 8px; }
+    .club-profile-page .leaderboard-row > div:nth-child(3) { text-align: left; background-color: #0f172a; padding: 10px; border-radius: 6px; }
+    .club-profile-page .mobile-run-count { display: block; font-size: 0.8rem; color: #94a3b8; margin-bottom: 6px; border-bottom: 1px solid #334155; padding-bottom: 4px; }
+    .club-profile-page .win-history-tag { display: block; margin-left: 0; margin-top: 6px; text-align: left; }
+    .club-profile-page .completion-grid { display: flex !important; flex-direction: row !important; flex-wrap: nowrap !important; justify-content: space-between !important; gap: 2px !important; width: 100% !important; }
+    .club-profile-page .stage-box { width: calc(100% / 14 - 2px) !important; height: 20px !important; font-size: 9px !important; display: inline-flex !important; align-items: center !important; justify-content: center !important; }
+}
+
+/* ==========================================================================
+   8. STATS DASHBOARD STYLES (SCOPED)
+   ========================================================================== */
+.stats-dashboard-page .dashboard-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 35px;
+}
+
+@media screen and (max-width: 960px) {
+    .stats-dashboard-page .dashboard-grid { grid-template-columns: 1fr; }
+}
+
+.stats-dashboard-page .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 35px;
+}
+
+.stats-dashboard-page .stat-card {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 24px 20px;
+    text-align: center;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.01);
+    transition: border-color 0.15s ease;
+}
+
+.stats-dashboard-page .stat-card:hover { 
+    border-color: #475569; 
+}
+
+.stats-dashboard-page .stat-value { 
+    font-size: 2.2rem; 
+    font-weight: 800; 
+    color: #f8fafc; 
+    margin-bottom: 3px; 
+    letter-spacing: -0.5px; 
+}
+
+.stats-dashboard-page .stat-label { 
+    color: #94a3b8; 
+    font-size: 0.875rem; 
+    font-weight: 500; 
+}
+
+.stats-dashboard-page .section-box {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.01);
+}
+
+.stats-dashboard-page .section-box h2 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #f8fafc;
+    margin-top: 0;
+    margin-bottom: 15px;
+    letter-spacing: -0.5px;
+    border-bottom: 2px solid #334155;
+    padding-bottom: 8px;
+}
+
+.stats-dashboard-page .row-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #334155;
+    font-size: 0.95rem;
+    color: #cbd5e1;
+}
+
+.stats-dashboard-page .row-item:last-child {
+    border-bottom: none;
+}
+
+.stats-dashboard-page .row-item a {
+    color: #f8fafc;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.stats-dashboard-page .row-item a:hover {
+    border-bottom: 1px dashed #34d399;
+}
+
+.stats-dashboard-page .count-badge {
+    font-weight: 700;
+    background-color: #334155;
+    color: #f8fafc;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+}
+
+.stats-dashboard-page .rank-num {
+    font-weight: 700;
+    color: #64748b;
+    margin-right: 8px;
+    display: inline-block;
+    width: 20px;
+}
+
+.stats-dashboard-page .chip-special {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #fef3c7;
+    color: #92400e;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-left: 6px;
+}
+
+/* ==========================================================================
+   9. STAGE DETAILS COMPONENT STYLES (SCOPED)
+   ========================================================================== */
+.stage-details-page .custom-scrollbar::-webkit-scrollbar { 
+    width: 6px; 
+}
+
+.stage-details-page .custom-scrollbar::-webkit-scrollbar-thumb { 
+    background: #334155; 
+    border-radius: 4px; 
+}
+
+.stage-details-page #map { 
+    height: 500px; 
+    width: 100%; 
+    border-radius: 0.75rem; 
+    z-index: 1; 
+}
+
+/* Accordion transition utility */
+.stage-details-page .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease-out;
+}
+
+.stage-details-page .accordion-content.open {
+    max-height: 550px;
+}
+
+/* ==========================================================================
+   9. STAGE OVERVIEW STYLES (SCOPED)
+   ========================================================================== */
+.stage-overview-page .scenic-gradient-overlay {
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0.2) 0%, rgba(15, 23, 42, 0.7) 50%, rgba(2, 6, 23, 1) 100%);
 }

@@ -13,23 +13,8 @@
     
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <style>
-        .custom-scrollbar::-webkit-scrollbar { width: 6px; }
-        .custom-scrollbar::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
-        #map { height: 500px; width: 100%; border-radius: 0.75rem; z-index: 1; }
-        
-        /* Accordion transition utility */
-        .accordion-content {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.25s ease-out;
-        }
-        .accordion-content.open {
-            max-height: 550px;
-        }
-    </style>
 </head>
-<body class="bg-slate-950 text-slate-100 font-sans antialiased flex flex-col min-h-screen">
+<body class="stage-details-page bg-slate-950 min-h-screen flex flex-col text-slate-100">
 
     <div class="w-full bg-slate-900 border-b border-slate-800">
         <header id="global-header" class="text-white"></header>
