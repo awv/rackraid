@@ -120,200 +120,164 @@
     <footer id="global-footer" class="bg-slate-900 text-slate-400 text-xs py-6 border-t border-slate-800"></footer>
 
     <script src="data.js"></script>
-    <script>
-        const defTimeToSeconds = (tStr) => {
-            if (!tStr) return 0;
-            const p = tStr.split(':');
-            if (p.length < 3) return 0;
-            return parseInt(p[0],10) * 3600 + parseInt(p[1],10) * 60 + parseInt(p[2],10);
+    <script src="backend_tools/club_mappings.js"></script>
+<script>
+    const defTimeToSeconds = (tStr) => {
+        if (!tStr) return 0;
+        const p = tStr.split(':');
+        if (p.length < 3) return 0;
+        return parseInt(p[0],10) * 3600 + parseInt(p[1],10) * 60 + parseInt(p[2],10);
+    };
+
+    document.addEventListener("DOMContentLoaded", function() {
+        if (typeof relayResults === 'undefined') {
+            console.error("relayResults data array is missing.");
+            return;
+        }
+
+        // Access the master global lookup mapping script loaded in the head
+        const activeMappings = typeof clubMappingsMaster !== 'undefined' ? clubMappingsMaster : {};
+
+        const cleanClubName = (rawString) => {
+            if (!rawString) return "Independent";
+            
+            // Clean up name string layout and drop structural bracket indices
+            let val = rawString.toString().trim().replace(/\s*\(\d+\)\s*$/, '').trim();
+            let lookupKey = val.toLowerCase();
+
+            // Intercept matching dictionary keys safely
+            if (activeMappings[lookupKey]) return activeMappings[lookupKey];
+            if (activeMappings[val]) return activeMappings[val];
+
+            if (val === '-' || lookupKey === 'individual' || lookupKey === 'unattached' || lookupKey === 'independent') {
+                return 'Independent';
+            }
+            return val;
         };
 
-        document.addEventListener("DOMContentLoaded", async function() {
-            if (typeof relayResults === 'undefined') {
-                console.error("relayResults data array is missing.");
-                return;
+        const runnerData = {};
+        const clubWins = {};
+
+        relayResults.forEach(row => {
+            if (!row || !row.name) return;
+
+            const athleteName = row.name.toString().replace(/\s*\([MF]\d*\)\s*$/, '').trim();
+            if (!athleteName || athleteName === '-') return;
+
+            const upperName = athleteName.toUpperCase();
+            if (upperName === 'DNF' || upperName === 'DNS' || upperName.includes("RUNNER")) return;
+
+            const clubName = cleanClubName(row.club);
+            const stageNum = parseInt(row.stage, 10);
+            const positionNum = parseInt(row.position, 10);
+
+            if (!runnerData[athleteName]) {
+                runnerData[athleteName] = { name: athleteName, runs: 0, wins: 0, stage8s: 0, stage13s: 0 };
+            }
+            if (!clubWins[clubName]) {
+                clubWins[clubName] = { club: clubName, wins: 0 };
             }
 
-            // Load club mappings safely from the master config file
-            let clubMappings = {};
-            try {
-                const response = await fetch('backend_tools/club_mappings.json');
-                if (response.ok) {
-                    const rawMappings = await response.json();
-                    // Keep standard keys, but also ensure lowercase keys handle flexible parsing
-                    Object.keys(rawMappings).forEach(key => {
-                        clubMappings[key] = rawMappings[key];
-                        clubMappings[key.toLowerCase().trim()] = rawMappings[key];
-                    });
-                }
-            } catch (err) {
-                console.warn("Could not load club mappings file:", err);
+            runnerData[athleteName].runs++;
+            if (stageNum === 8) runnerData[athleteName].stage8s++;
+            if (stageNum === 13) runnerData[athleteName].stage13s++;
+
+            if (positionNum === 1) {
+                runnerData[athleteName].wins++;
+                clubWins[clubName].wins++;
             }
-
-            // Load the static course records dictionary safely
-            let courseRecords = {};
-            try {
-                const recordsResponse = await fetch('course_records.json');
-                if (recordsResponse.ok) {
-                    courseRecords = await recordsResponse.json();
-                }
-            } catch (err) {
-                console.warn("Could not load master course records file:", err);
-            }
-
-            // Helper mapping standardizer function
-            const cleanClubName = (rawString) => {
-                if (!rawString) return "Independent";
-                let val = rawString.toString().trim().replace(/\s*\(\d+\)\s*$/, '').trim();
-                
-                const lookupKey = val.toLowerCase();
-                if (clubMappings[lookupKey]) {
-                    return clubMappings[lookupKey];
-                }
-                if (clubMappings[val]) {
-                    return clubMappings[val];
-                }
-                if (val === '-' || lookupKey === 'individual' || lookupKey === 'unattached' || lookupKey === 'independent') return 'Independent';
-                return val;
-            };
-
-            const runnerData = {};
-            const clubWins = {};
-            let totalRecordsCount = 0;
-
-            relayResults.forEach(row => {
-                if (!row || !row.name) return;
-
-                const athleteName = row.name.toString().replace(/\s*\([MF]\d*\)\s*$/, '').trim();
-                if (!athleteName || athleteName === '-') return;
-
-                // Explicit filter check targeting status acronym entry tracking values
-                const upperName = athleteName.toUpperCase();
-                if (upperName === 'DNF' || upperName === 'DNS') return;
-
-                const clubName = cleanClubName(row.club);
-                const stageNum = parseInt(row.stage, 10);
-                const positionNum = parseInt(row.position, 10);
-
-                if (!runnerData[athleteName]) {
-                    runnerData[athleteName] = { name: athleteName, runs: 0, wins: 0, stage8s: 0, stage13s: 0 };
-                }
-                if (!clubWins[clubName]) {
-                    clubWins[clubName] = { club: clubName, wins: 0 };
-                }
-
-                runnerData[athleteName].runs++;
-                if (stageNum === 8) runnerData[athleteName].stage8s++;
-                if (stageNum === 13) runnerData[athleteName].stage13s++;
-
-                if (positionNum === 1) {
-                    runnerData[athleteName].wins++;
-                    clubWins[clubName].wins++;
-                }
-
-                // Reference the absolute master data mapping fetched cleanly from course_records.json
-                if (row.stage && row.time) {
-                    const standingRecord = courseRecords[row.stage.toString()];
-                    if (standingRecord && defTimeToSeconds(row.time) <= defTimeToSeconds(standingRecord.time)) {
-                        totalRecordsCount++;
-                    }
-                }
-            });
-
-            const runnersArray = Object.values(runnerData);
-
-            // 1. Athlete Loyalty Card & Table
-            const loyaltySorted = [...runnersArray].sort((a,b) => b.runs - a.runs).slice(0, 5);
-            let loyaltyHtml = '';
-            loyaltySorted.forEach((r, i) => {
-                loyaltyHtml += `
-                    <div class="row-item">
-                        <div><span class="rank-num">${i+1}</span><a href="athlete.html?name=${encodeURIComponent(r.name)}">${r.name}</a></div>
-                        <div class="count-badge">${r.runs} Stages</div>
-                    </div>`;
-            });
-            const boxLoyaltyEl = document.getElementById('boxLoyalty');
-            if (boxLoyaltyEl) boxLoyaltyEl.innerHTML = loyaltyHtml;
-            
-            const topLoyaltyRunnerEl = document.getElementById('topLoyaltyRunner');
-            const topLoyaltyNameEl = document.getElementById('topLoyaltyName');
-            if (topLoyaltyRunnerEl) topLoyaltyRunnerEl.textContent = loyaltySorted[0] ? `${loyaltySorted[0].runs} Legs` : '-';
-            if (topLoyaltyNameEl) topLoyaltyNameEl.textContent = loyaltySorted[0] ? loyaltySorted[0].name : '-';
-
-            // 2. Athlete Individual Wins Card & Table
-            const athleteWinsSorted = [...runnersArray].filter(r => r.wins > 0).sort((a,b) => b.wins - a.wins).slice(0, 5);
-            let athleteWinsHtml = '';
-            if (athleteWinsSorted.length > 0) {
-                athleteWinsSorted.forEach((r, i) => {
-                    athleteWinsHtml += `
-                        <div class="row-item">
-                            <div><span class="rank-num">${i+1}</span><a href="athlete.html?name=${encodeURIComponent(r.name)}">${r.name}</a></div>
-                            <div class="count-badge">${r.wins} Wins</div>
-                        </div>`;
-                });
-            } else {
-                athleteWinsHtml = '<div style="padding:15px; color:#94a3b8; font-style:italic;">No recorded stage wins in data.</div>';
-            }
-            const boxAthleteWinsEl = document.getElementById('boxAthleteWins');
-            if (boxAthleteWinsEl) boxAthleteWinsEl.innerHTML = athleteWinsHtml;
-            
-            const topRunnerWinsEl = document.getElementById('topRunnerWins');
-            const topRunnerNameEl = document.getElementById('topRunnerName');
-            if (topRunnerWinsEl) topRunnerWinsEl.textContent = athleteWinsSorted[0] ? `${athleteWinsSorted[0].wins} Wins` : '-';
-            if (topRunnerNameEl) topRunnerNameEl.textContent = athleteWinsSorted[0] ? athleteWinsSorted[0].name : '-';
-
-            // 3. Stage 8 Stalwarts Table 
-            const stage8Sorted = [...runnersArray].filter(r => r.stage8s > 0).sort((a,b) => b.stage8s - a.stage8s).slice(0, 5);
-            let stage8Html = '';
-            stage8Sorted.forEach((r, i) => {
-                stage8Html += `
-                    <div class="row-item">
-                        <div><span class="rank-num">${i+1}</span><a href="athlete.html?name=${encodeURIComponent(r.name)}">${r.name}</a></div>
-                        <div class="count-badge">${r.stage8s} Times</div>
-                    </div>`;
-            });
-            const boxStage8El = document.getElementById('boxStage8');
-            if (boxStage8El) boxStage8El.innerHTML = stage8Html || '<div style="padding:15px; color:#94a3b8;">No data recorded.</div>';
-
-            // 4. Stage 13 Stalwarts Table
-            const stage13Sorted = [...runnersArray].filter(r => r.stage13s > 0).sort((a,b) => b.stage13s - a.stage13s).slice(0, 5);
-            let stage13Html = '';
-            stage13Sorted.forEach((r, i) => {
-                stage13Html += `
-                    <div class="row-item">
-                        <div><span class="rank-num">${i+1}</span><a href="athlete.html?name=${encodeURIComponent(r.name)}">${r.name}</a></div>
-                        <div class="count-badge">${r.stage13s} Times</div>
-                    </div>`;
-            });
-            const boxStage13El = document.getElementById('boxStage13');
-            if (boxStage13El) boxStage13El.innerHTML = stage13Html || '<div style="padding:15px; color:#94a3b8;">No data recorded.</div>';
-
-            // 5. Club Victories Card & Table
-            const clubWinsSorted = Object.values(clubWins).filter(c => c.wins > 0 && c.club !== 'Independent').sort((a,b) => b.wins - a.wins).slice(0, 5);
-            let clubWinsHtml = '';
-            if (clubWinsSorted.length > 0) {
-                clubWinsSorted.forEach((c, i) => {
-                    clubWinsHtml += `
-                        <div class="row-item">
-                            <div><span class="rank-num">${i+1}</span><a href="club.html?club=${encodeURIComponent(c.club)}">${c.club}</a></div>
-                            <div class="count-badge">${c.wins} Wins</div>
-                        </div>`;
-                });
-            } else {
-                clubWinsHtml = '<div style="padding:15px; color:#94a3b8; font-style:italic;">No recorded club wins in data.</div>';
-            }
-            const boxClubWinsEl = document.getElementById('boxClubWins');
-            if (boxClubWinsEl) boxClubWinsEl.innerHTML = clubWinsHtml;
-            
-            const topClubWinsEl = document.getElementById('topClubWins');
-            const topClubNameEl = document.getElementById('topClubName');
-            if (topClubWinsEl) topClubWinsEl.textContent = clubWinsSorted[0] ? `${clubWinsSorted[0].wins} Wins` : '-';
-            if (topClubNameEl) topClubNameEl.textContent = clubWinsSorted[0] ? clubWinsSorted[0].club : '-';
-
-            // Global Metrics Counter
-            const totalRecordsBrokenEl = document.getElementById('totalRecordsBroken');
-            if (totalRecordsBrokenEl) totalRecordsBrokenEl.textContent = totalRecordsCount;
         });
-    </script> 
+
+        const runnersArray = Object.values(runnerData);
+
+        // --- RENDER 1. Athlete Loyalty Table ---
+        const loyaltySorted = [...runnersArray].sort((a,b) => b.runs - a.runs).slice(0, 5);
+        let loyaltyHtml = '';
+        loyaltySorted.forEach((r, i) => {
+            loyaltyHtml += `
+                <div class="row-item flex justify-between items-center py-2 border-b border-slate-800/50 text-sm">
+                    <div><span class="font-mono text-slate-500 mr-2">${i+1}.</span><a href="athlete.html?name=${encodeURIComponent(r.name)}" class="hover:text-emerald-400 transition font-medium">${r.name}</a></div>
+                    <div class="bg-slate-800 text-slate-300 px-2 py-0.5 rounded text-xs font-mono">${r.runs} Stages</div>
+                </div>`;
+        });
+        const boxLoyaltyEl = document.getElementById('boxLoyalty');
+        if (boxLoyaltyEl) boxLoyaltyEl.innerHTML = loyaltyHtml;
+        
+        const topLoyaltyRunnerEl = document.getElementById('topLoyaltyRunner');
+        const topLoyaltyNameEl = document.getElementById('topLoyaltyName');
+        if (topLoyaltyRunnerEl) topLoyaltyRunnerEl.textContent = loyaltySorted[0] ? `${loyaltySorted[0].runs} Legs` : '-';
+        if (topLoyaltyNameEl) topLoyaltyNameEl.textContent = loyaltySorted[0] ? loyaltySorted[0].name : '-';
+
+        // --- RENDER 2. Athlete Individual Wins Table ---
+        const athleteWinsSorted = [...runnersArray].filter(r => r.wins > 0).sort((a,b) => b.wins - a.wins).slice(0, 5);
+        let athleteWinsHtml = '';
+        if (athleteWinsSorted.length > 0) {
+            athleteWinsSorted.forEach((r, i) => {
+                athleteWinsHtml += `
+                    <div class="row-item flex justify-between items-center py-2 border-b border-slate-800/50 text-sm">
+                        <div><span class="font-mono text-slate-500 mr-2">${i+1}.</span><a href="athlete.html?name=${encodeURIComponent(r.name)}" class="hover:text-emerald-400 transition font-medium">${r.name}</a></div>
+                        <div class="bg-emerald-500/10 text-emerald-400 px-2 py-0.5 rounded text-xs font-mono font-bold">${r.wins} Wins</div>
+                    </div>`;
+            });
+        } else {
+            athleteWinsHtml = '<div class="p-4 text-slate-500 italic text-sm text-center">No recorded stage wins found.</div>';
+        }
+        const boxAthleteWinsEl = document.getElementById('boxAthleteWins');
+        if (boxAthleteWinsEl) boxAthleteWinsEl.innerHTML = athleteWinsHtml;
+        
+        const topRunnerWinsEl = document.getElementById('topRunnerWins');
+        const topRunnerNameEl = document.getElementById('topRunnerName');
+        if (topRunnerWinsEl) topRunnerWinsEl.textContent = athleteWinsSorted[0] ? `${athleteWinsSorted[0].wins} Wins` : '-';
+        if (topRunnerNameEl) topRunnerNameEl.textContent = athleteWinsSorted[0] ? athleteWinsSorted[0].name : '-';
+
+        // --- RENDER 3. Stage 8 Stalwarts Table ---
+        const stage8Sorted = [...runnersArray].filter(r => r.stage8s > 0).sort((a,b) => b.stage8s - a.stage8s).slice(0, 5);
+        let stage8Html = '';
+        stage8Sorted.forEach((r, i) => {
+            stage8Html += `
+                <div class="row-item flex justify-between items-center py-2 border-b border-slate-800/50 text-sm">
+                    <div><span class="font-mono text-slate-500 mr-2">${i+1}.</span><a href="athlete.html?name=${encodeURIComponent(r.name)}" class="hover:text-emerald-400 transition font-medium">${r.name}</a></div>
+                    <div class="bg-slate-800 text-slate-300 px-2 py-0.5 rounded text-xs font-mono">${r.stage8s} Times</div>
+                </div>`;
+        });
+        const boxStage8El = document.getElementById('boxStage8');
+        if (boxStage8El) boxStage8El.innerHTML = stage8Html || '<div class="p-4 text-slate-500 text-center text-sm">No data recorded.</div>';
+
+        // --- RENDER 4. Stage 13 Stalwarts Table ---
+        const stage13Sorted = [...runnersArray].filter(r => r.stage13s > 0).sort((a,b) => b.stage13s - a.stage13s).slice(0, 5);
+        let stage13Html = '';
+        stage13Sorted.forEach((r, i) => {
+            stage13Html += `
+                <div class="row-item flex justify-between items-center py-2 border-b border-slate-800/50 text-sm">
+                    <div><span class="font-mono text-slate-500 mr-2">${i+1}.</span><a href="athlete.html?name=${encodeURIComponent(r.name)}" class="hover:text-emerald-400 transition font-medium">${r.name}</a></div>
+                    <div class="bg-slate-800 text-slate-300 px-2 py-0.5 rounded text-xs font-mono">${r.stage13s} Times</div>
+                </div>`;
+        });
+        const boxStage13El = document.getElementById('boxStage13');
+        if (boxStage13El) boxStage13El.innerHTML = stage13Html || '<div class="p-4 text-slate-500 text-center text-sm">No data recorded.</div>';
+
+        // --- RENDER 5. Club Victories Table ---
+        const clubWinsSorted = Object.values(clubWins).filter(c => c.wins > 0 && c.club !== 'Independent').sort((a,b) => b.wins - a.wins).slice(0, 5);
+        let clubWinsHtml = '';
+        if (clubWinsSorted.length > 0) {
+            clubWinsSorted.forEach((c, i) => {
+                clubWinsHtml += `
+                    <div class="row-item flex justify-between items-center py-2 border-b border-slate-800/50 text-sm">
+                        <div><span class="font-mono text-slate-500 mr-2">${i+1}.</span><a href="club.html?club=${encodeURIComponent(c.club)}" class="hover:text-emerald-400 transition font-medium">${c.club}</a></div>
+                        <div class="bg-emerald-500/10 text-emerald-400 px-2 py-0.5 rounded text-xs font-mono font-bold">${c.wins} Wins</div>
+                    </div>`;
+            });
+        } else {
+            clubWinsHtml = '<div class="p-4 text-slate-500 italic text-sm text-center">No recorded club wins found.</div>';
+        }
+        const boxClubWinsEl = document.getElementById('boxClubWins');
+        if (boxClubWinsEl) boxClubWinsEl.innerHTML = clubWinsHtml;
+        
+        const topClubWinsEl = document.getElementById('topClubWins');
+        const topClubNameEl = document.getElementById('topClubName');
+        if (topClubWinsEl) topClubWinsEl.textContent = clubWinsSorted[0] ? `${clubWinsSorted[0].wins} Wins` : '-';
+        if (topClubNameEl) topClubNameEl.textContent = clubWinsSorted[0] ? clubWinsSorted[0].club : '-';
+    });
+</script>
 </body>
 </html>

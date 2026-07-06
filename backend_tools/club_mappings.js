@@ -1,21 +1,29 @@
 // backend_tools/club_mappings.js
 const clubMappingsMaster = {
-  "parc": "Parc Bryn Bach RC",
-  "parc bryn bach": "Parc Bryn Bach RC",
-  "parc bryn bach a": "Parc Bryn Bach RC",
-  "parc bryn bach b": "Parc Bryn Bach RC",
-  "parc bryn bach rc": "Parc Bryn Bach RC",
+  "parc": "Parc Bryn Bach",
+  "parc bryn bach": "Parc Bryn Bach",
+  "parc bryn bach a": "Parc Bryn Bach",
+  "parc bryn bach b": "Parc Bryn Bach",
+  "parc bryn bach rc": "Parc Bryn Bach",
   
   "pont-y-pwl": "Pont-y-pwl & District Runners",
   "pont-y-pwl a": "Pont-y-pwl & District Runners",
+  "Pont-y-pwl & District A": "Pont-y-pwl & District Runners",
+  "Pont-y-pwl & District B": "Pont-y-pwl & District Runners",
   "pont-y-pwl b": "Pont-y-pwl & District Runners",
   "pontypool": "Pont-y-pwl & District Runners",
   "pont-y-pwl & district runners": "Pont-y-pwl & District Runners",
+  "pont-y-pwl & district": "Pont-y-pwl & District Runners",
   
   "lliswerry": "Lliswerry Runners",
   "lliswerry a": "Lliswerry Runners",
   "lliswerry b": "Lliswerry Runners",
   "lliswerry runners": "Lliswerry Runners",
+
+  "Islwyn A": "Islwyn",
+  "islwyn a": "Islwyn",
+  "Islwyn B": "Islwyn",
+  "islwyn b": "Islwyn",
   
   "chepstow": "Chepstow Harriers",
   "chepstow a": "Chepstow Harriers",
