@@ -127,6 +127,77 @@
             text-decoration: underline !important;
             text-decoration-style: dotted !important;
         }
+
+/* ==========================================
+           MOBILE RESPONSIVE LAYOUT OVERRIDES
+           ========================================== */
+        @media screen and (max-width: 640px) {
+            /* 1. Force container left and add healthy top/bottom breathing room */
+            .stage-header-row {
+                padding: 16px 12px !important;
+            }
+
+            .stage-header-container {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 12px;
+                width: 100%;
+            }
+
+            /* Add margin to separate stage title from badges underneath */
+            .stage-title {
+                display: block;
+                margin-top: 4px;
+                margin-bottom: 6px;
+            }
+
+            /* 2. Strip any padding/margins forcing the badges flush left */
+            .stage-header-left {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 8px;
+                width: 100%;
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+
+            /* Ensure all badges align clean on the left margin line */
+            .stage-distance, .record-badge, .cutoff-badge {
+                margin-left: 0 !important;
+            }
+
+            /* 3. Mobile Text Rows Stacking & Real Estate */
+            .results-row {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 14px 12px;
+                gap: 6px;
+            }
+
+            .cell-pace {
+                display: flex;
+                flex-direction: row;
+                align-items: baseline;
+                gap: 8px;
+                margin-top: 4px;
+                width: 100%;
+            }
+
+            .cell-pace strong {
+                font-size: 0.95rem;
+                color: #ffffff;
+            }
+
+            .cell-pace span.pace-subtext {
+                font-size: 0.8rem;
+                color: #94a3b8;
+            }
+        }
     </style>
 </head>
 <body class="bg-slate-950 min-h-screen flex flex-col">
@@ -292,9 +363,6 @@
             const searchTerm = queryInput.value.toLowerCase().trim();
             const selectedStage = stageSelect.value;
             const mappingsExist = typeof clubMappingsMaster !== 'undefined';
-            const cutOffTime = (typeof stageProfiles !== 'undefined' && stageProfiles[stage]) 
-                ? stageProfiles[stage].cut_off || stageProfiles[stage].cutoff 
-                : null;
 
             const filtered = relayResults.filter(row => {
                 if (defTimeToSeconds(row.time) <= 0) return false;
@@ -420,7 +488,7 @@
                                 <div class="cell-club"><a href="club.html?club=${encodeURIComponent(finalClubName)}">${finalClubName}</a></div>
                                 ${timeMarkup}
                                 <div class="cell-pace">
-                                    <strong>${milePace}</strong> <span style="font-size:11px;color:#64748b;">/mi</span>
+                                    <strong>${milePace}</strong> <span>/mi</span>
                                     <span class="pace-subtext">${kmPace} /km</span>
                                 </div>
                             </div>`;

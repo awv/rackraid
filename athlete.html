@@ -31,38 +31,101 @@
         .stat-card:hover { border-color: #475569; }
         .stat-value { font-size: 2.2rem; font-weight: 800; color: #f8fafc; margin-bottom: 3px; letter-spacing: -0.5px; }
         .stat-label { font-size: 0.8rem; color: #94a3b8; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
-        .history-block { background: #1e293b; border: 1px solid #334155; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.02); overflow: hidden; }
+        
+        /* Desktop Grid Rules */
+        .history-block { background: #1e293b; border: 1px solid #334155; border-radius: 6px; overflow: hidden; }
         .history-header { 
             display: grid; 
-            grid-template-columns: 8% 12% 28% 15% 7% 13% 17%; /* Adjusted to 7 columns */
+            grid-template-columns: 8% 12% 28% 15% 7% 13% 17%; 
             background-color: #0f172a; 
             font-weight: 600; 
             color: #94a3b8; 
             border-bottom: 2px solid #334155; 
             padding: 12px 14px; 
+            font-size: 0.85rem;
         }
         .history-row { 
             display: grid; 
-            grid-template-columns: 8% 12% 28% 15% 7% 13% 17%; /* Adjusted to 7 columns */
+            grid-template-columns: 8% 12% 28% 15% 7% 13% 17%; 
             padding: 14px; 
             border-bottom: 1px solid #334155; 
             align-items: center; 
             color: #cbd5e1; 
         }
         .history-row:last-child { border-bottom: none; }
-        .history-row:nth-child(even) { background-color: #1a2333; }
+        .history-row:nth-child(even) { background-color: #161e2e; }
         .text-right { text-align: right; }
         .pace-column { text-align: right; line-height: 1.3; }
-        .badge-win { background-color: rgba(52, 211, 153, 0.05); border-left: 4px solid #34d399; }
+        .badge-win { background-color: rgba(16, 185, 129, 0.12); border-left: 4px solid #10b981; }
         .record-tag { background-color: #064e3b; color: #34d399; font-weight: bold; padding: 2px 6px; border-radius: 4px; font-size: 0.9rem; border: 1px solid rgba(52, 211, 153, 0.2); }
         .athlete-desktop-table-row { display: contents; }
 
+        /* Mobile Viewport Custom Layout Architecture */
         @media screen and (max-width: 768px) {
-            .history-header { display: none; }
-            .history-row { display: block; padding: 12px; border-bottom: 1px solid #334155; }
-            .athlete-desktop-table-row { display: flex; flex-direction: column; gap: 4px; text-align: left; }
-            .athlete-desktop-table-row div { text-align: left; grid-column: auto; }
-            .pace-column { text-align: left; }
+            .history-header { 
+                display: none; 
+            }
+            .history-row { 
+                display: flex; 
+                flex-direction: column;
+                padding: 16px; 
+                border-bottom: 1px solid #334155; 
+            }
+            .history-row > div {
+                width: 100%;
+                text-align: left;
+            }
+            .pace-column { 
+                text-align: right; 
+            }
+            .athlete-desktop-table-row { 
+                display: flex; 
+                flex-direction: column; 
+                gap: 8px; 
+            }
+            
+            /* Clean line item wrapping for layout stability */
+            .mobile-header-line {
+                display: flex;
+                justify-content: space-between;
+                align-items: baseline;
+                border-bottom: 1px solid #334155;
+                padding-bottom: 6px;
+                margin-bottom: 4px;
+            }
+            .mobile-route-line {
+                font-size: 0.95rem;
+                margin-bottom: 4px;
+            }
+            .mobile-club-line {
+                font-size: 0.85rem;
+                margin-bottom: 8px;
+            }
+            .mobile-metrics-strip {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: #0f172a;
+                padding: 8px 12px;
+                border-radius: 6px;
+                margin-top: 4px;
+            }
+            .mobile-metric-item {
+                display: flex;
+                flex-direction: column;
+            }
+            .mobile-metric-label {
+                font-size: 0.65rem;
+                text-transform: uppercase;
+                color: #64748b;
+                font-weight: 700;
+                letter-spacing: 0.5px;
+            }
+            .mobile-metric-value {
+                font-size: 0.9rem;
+                font-weight: 700;
+                color: #f8fafc;
+            }
         }
     </style>
 </head>
@@ -72,27 +135,28 @@
         <header id="global-header" class="text-white"></header>
     </div>
 
-    <div class="w-full bg-slate-950 h-[450px] relative overflow-hidden flex items-center">
+    <!-- FIXED: Height changed from h-[450px] to dynamic min-h-[400px] with flexible layout paddings to allow content growth -->
+    <div class="w-full bg-slate-950 min-h-[400px] py-12 relative overflow-hidden flex items-center">
         <img src="assets/images/banners/default_stage.jpg" class="absolute inset-0 w-full h-full object-cover opacity-55 mix-blend-luminosity brightness-75" alt="Stage background">
         <img src="assets/images/banners/default_stage.jpg" class="absolute inset-0 w-full h-full object-cover opacity-35 mix-blend-luminosity brightness-75" alt="Stage background">
         <div class="absolute inset-0 scenic-gradient-overlay"></div>
         
         <div class="max-w-[1400px] mx-auto w-full px-4 relative z-10 flex flex-col md:flex-row items-center gap-8">
             <div id="photoWrapper" class="shrink-0 hidden">
-                <img id="athletePhoto" class="w-[240px] h-[300px] border-2 border-white/20 rounded-xl object-cover shadow-2xl" src="" alt="Runner">
+                <img id="athletePhoto" class="w-[220px] h-[280px] border-2 border-white/20 rounded-xl object-cover shadow-2xl" src="" alt="Runner">
             </div>
             
-            <div class="flex flex-col justify-center text-center md:text-left flex-grow">
-                <div class="flex flex-col md:flex-row items-center gap-4 mb-4 justify-center md:justify-start">
-                    <h1 id="athleteName" class="text-white font-black text-3xl md:text-5xl uppercase tracking-tight leading-none m-0">-</h1>
-                    <div id="athleteClub" class="text-sm font-bold uppercase tracking-wider px-3 py-1 rounded-md text-white bg-slate-800 border border-slate-700 w-max">-</div>
+            <div class="flex flex-col justify-center text-center md:text-left flex-grow w-full">
+                <div class="flex flex-col md:flex-row items-center gap-4 mb-4 justify-center md:justify-start flex-wrap">
+                    <h1 id="athleteName" class="text-white font-black text-3xl md:text-5xl uppercase tracking-tight leading-none m-0 break-words max-w-full">-</h1>
+                    <div id="athleteClub" class="text-sm font-bold uppercase tracking-wider px-3 py-1 rounded-md text-white bg-slate-800 border border-slate-700 w-max shrink-0">-</div>
                 </div>
-                <div id="athleteInsightsContainer" class="flex flex-col gap-3"></div>
+                <div id="athleteInsightsContainer" class="flex flex-col gap-3 w-full"></div>
             </div>
         </div>
     </div>
 
-    <div class="page-wrapper flex-grow !pt-8">
+    <div class="page-wrapper flex-grow pt-8">
         <div class="content-container">
 
             <main class="main-profile-container">
@@ -118,15 +182,15 @@
 
                 <h2 class="text-xl font-black uppercase tracking-tight text-slate-100 mb-4">Race History</h2>
                 <div class="history-block">
-                <div class="history-header">
-                    <div>Year</div>
-                    <div>Stage</div>
-                    <div>Course Leg Info</div>
-                    <div>Club</div> <!-- New Column Header -->
-                    <div class="text-right">Pos</div>
-                    <div class="text-right">Time</div>
-                    <div class="text-right">Pace</div>
-                </div>
+                    <div class="history-header">
+                        <div>Year</div>
+                        <div>Stage</div>
+                        <div>Course Leg Info</div>
+                        <div>Club</div>
+                        <div class="text-right">Pos</div>
+                        <div class="text-right">Time</div>
+                        <div class="text-right">Pace</div>
+                    </div>
                     <div id="historyRowsContainer"></div>
                 </div>
 
@@ -236,7 +300,6 @@
             const positions = athleteResults.map(r => parseInt(r.position) || 999);
             const bestPos = Math.min(...positions);
 
-            // Reusable helper function to build instant CSS tooltips positioned underneath
             const buildBadge = (label, tooltipText, colorClasses) => {
                 return `
                     <div class="group relative inline-block select-none">
@@ -251,14 +314,12 @@
                 `;
             };
 
-            // Badge 1: Loyalty Status
             if (totalRuns >= 5) {
                 badges.push(buildBadge("🏆 Rack Raid Veteran", "Completed 5 or more Rack Raid stages over their career", "bg-amber-500/10 text-amber-400 border-amber-500/20"));
             } else if (uniqueYears.length >= 2) {
                 badges.push(buildBadge("🔄 Loyal Competitor", "Returned to compete in multiple editions of the relay", "bg-blue-500/10 text-blue-400 border-blue-500/20"));
             }
 
-            // Badge 2: Performance Status
             if (bestPos === 1) {
                 badges.push(buildBadge("⚡ Stage Winner", "Claimed an outright individual stage victory", "bg-emerald-500/10 text-emerald-400 border-emerald-500/20"));
             } else if (bestPos <= 3) {
@@ -267,7 +328,6 @@
                 badges.push(buildBadge("🎯 Top 10 Finisher", "Secured a top-10 individual finish on a stage", "bg-purple-500/10 text-purple-400 border-purple-500/20"));
             }
 
-            // Badge 3: Versatility Status
             if (uniqueStages.length >= 3) {
                 badges.push(buildBadge("🗺️ Stage Veteran", "Has raced on 3 or more completely distinct stages of the course", "bg-pink-500/10 text-pink-400 border-pink-500/20"));
             }
@@ -332,7 +392,6 @@
                     clubTargetElement.style.borderColor = clubColorsMaster[clubKey].bg;
                 }
 
-                // Render Data Insights Panel and Badges mapping dynamically
                 const badgesHTML = generateAthleteBadges(runnerHistory);
                 const frequented = getMostFrequentedStage(runnerHistory, stageNames);
 
@@ -357,7 +416,7 @@
 
                 let wins = 0, recordsBroken = 0, highestPos = 999, htmlOutput = '';
 
-runnerHistory.forEach(row => {
+                runnerHistory.forEach(row => {
                     if (row.position === 1) wins++;
                     if (row.position < highestPos) highestPos = row.position;
 
@@ -366,32 +425,57 @@ runnerHistory.forEach(row => {
                     const brokeRecord = standingRecord && runSeconds <= defTimeToSeconds(standingRecord);
                     if (brokeRecord) recordsBroken++;
 
-                    // Parse the exact club this runner was representing during this specific race year
                     const specificYearClub = cleanClubName(row.club);
-
                     const milePace = formatPaceValue(runSeconds, row.miles);
                     let rowClass = row.position === 1 ? 'history-row badge-win' : 'history-row';
                     let timeDisplay = brokeRecord ? `<span class="record-tag">${row.time}</span>` : row.time;
 
                     htmlOutput += `
                         <div class="${rowClass}">
-                            <div class="athlete-desktop-table-row">
-                                <div><strong>${row.year}</strong></div>
-                                <div style="grid-column: 2 / span 2;">
-                                    <a href="index.html?year=${row.year}&stage=${row.stage}" class="text-slate-100 hover:text-emerald-400 no-underline block">
-                                        <span class="inline-block w-1/4 font-medium text-slate-400">Stage ${row.stage}</span>
-                                        <span class="font-medium border-b border-dashed border-slate-600 pb-0.5">${row.stage_name || 'Leg Details'}</span>
-                                    </a>
+                            <!-- Year -->
+                            <div class="flex justify-between items-baseline md:block border-b border-slate-700/50 md:border-none pb-2 md:pb-0 mb-2 md:mb-0">
+                                <span class="text-slate-500 font-bold text-xs uppercase md:hidden">Year</span>
+                                <span class="text-slate-100 font-bold">${row.year}</span>
+                            </div>
+
+                            <!-- Stage Number -->
+                            <div class="text-emerald-400 font-semibold md:text-slate-400 md:font-medium text-sm md:text-base mb-1 md:mb-0">
+                                <span class="md:hidden">Stage </span>${row.stage}
+                            </div>
+
+                            <!-- Leg Details -->
+                            <div class="mb-2 md:mb-0">
+                                <a href="index.html?year=${row.year}&stage=${row.stage}" class="text-slate-100 hover:text-emerald-400 no-underline inline-block border-b border-dashed border-slate-600 pb-0.5">
+                                    ${row.stage_name || 'Leg Details'}
+                                </a>
+                            </div>
+
+                            <!-- Club -->
+                            <div class="truncate pr-2 mb-4 md:mb-0">
+                                <span class="text-[10px] text-slate-500 font-bold uppercase block md:hidden mb-0.5">Club</span>
+                                <a href="club.html?club=${encodeURIComponent(specificYearClub)}" class="text-slate-300 hover:text-emerald-400 font-semibold md:font-normal text-xs transition-colors no-underline">
+                                    ${specificYearClub}
+                                </a>
+                            </div>
+
+                            <!-- Position (Mobile card layout uses a shared flex block here) -->
+                            <div class="flex justify-between items-center md:block bg-slate-900 md:bg-transparent p-2 md:p-0 rounded-t-md md:rounded-none border-b border-slate-800 md:border-none px-3 md:px-0">
+                                <span class="text-[10px] text-slate-500 font-bold uppercase md:hidden">Position</span>
+                                <span class="md:text-right block font-bold text-slate-100">${row.position}</span>
+                            </div>
+
+                            <!-- Time -->
+                            <div class="flex justify-between items-center md:block bg-slate-900 md:bg-transparent p-2 md:p-0 border-b border-slate-800 md:border-none px-3 md:px-0">
+                                <span class="text-[10px] text-slate-500 font-bold uppercase md:hidden">Time</span>
+                                <span class="md:text-right block font-medium">${timeDisplay}</span>
+                            </div>
+
+                            <!-- Pace -->
+                            <div class="flex justify-between items-center md:block bg-slate-900 md:bg-transparent p-2 md:p-0 rounded-b-md md:rounded-none px-3 md:px-0 text-right md:text-left">
+                                <span class="text-[10px] text-slate-500 font-bold uppercase md:hidden">Pace</span>
+                                <div class="pace-column text-right">
+                                    <strong>${milePace}</strong> <span class="text-xs text-slate-500">/mi</span>
                                 </div>
-                                <!-- New Club Column Block -->
-                                <div class="truncate pr-2">
-                                    <a href="club.html?club=${encodeURIComponent(specificYearClub)}" class="text-slate-300 hover:text-emerald-400 font-semibold text-xs transition-colors no-underline">
-                                        ${specificYearClub}
-                                    </a>
-                                </div>
-                                <div class="text-right"><strong>${row.position}</strong></div>
-                                <div class="text-right">${timeDisplay}</div>
-                                <div class="pace-column"><strong>${milePace}</strong> <span class="text-xs text-slate-500">/mi</span></div>
                             </div>
                         </div>`;
                 });
