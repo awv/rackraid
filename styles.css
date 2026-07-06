@@ -359,15 +359,28 @@ input:focus, select:focus {
 }
 
 .home-archive-page .cell-position { color: #cbd5e1 !important; padding-left: 6px !important; }
-.home-archive-page .cell-name a { color: #ffffff !important; text-decoration: none !important; }
+
+.home-archive-page .cell-name a { 
+    color: #ffffff !important; 
+    text-decoration: none !important; 
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.4) !important;
+    display: inline-block;
+}
+.home-archive-page .cell-name a:hover { 
+    color: #10b981 !important; 
+    border-bottom-color: #10b981 !important;
+}
+
 .home-archive-page .cell-time { color: #ffffff !important; }
 .home-archive-page .cell-pace strong { color: #ffffff !important; }
 .home-archive-page .cell-name a:hover, 
-.home-archive-page .cell-club a:hover { color: #10b981 !important; }
+.home-archive-page .cell-club a:hover { color: #10b981 !important; border-bottom-color: #10b981 !important; }
 
 .home-archive-page .cell-club a {
     color: #ffffff !important;
     text-decoration: none !important;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.4) !important;
+    display: inline-block;
 }
 
 @media screen and (max-width: 640px) {
@@ -463,12 +476,19 @@ input:focus, select:focus {
 .athlete-profile-page .record-tag { background-color: #064e3b; color: #34d399; font-weight: bold; padding: 2px 6px; border-radius: 4px; font-size: 0.9rem; border: 1px solid rgba(52, 211, 153, 0.2); }
 .athlete-profile-page .athlete-desktop-table-row { display: contents; }
 
+.athlete-profile-page .history-row a[href^="index.html"] {
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.4) !important;
+}
+
 .athlete-profile-page .history-row a[href^="club.html"] {
     color: #ffffff !important;
     text-decoration: none !important;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.4) !important;
+    display: inline-block;
 }
 .athlete-profile-page .history-row a[href^="club.html"]:hover {
     color: #10b981 !important;
+    border-bottom-color: #10b981 !important;
 }
 
 @media screen and (max-width: 768px) {
