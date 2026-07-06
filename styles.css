@@ -715,13 +715,28 @@ input:focus, select:focus {
 /* Fix accordion container content constraints to restore independent scrolling */
 .stage-details-page .accordion-content {
     max-height: 0;
-    overflow-y: hidden; /* Traps view structure cleanly when closed */
+    overflow-y: hidden; 
     transition: max-height 0.25s ease-out;
 }
 
 .stage-details-page .accordion-content.open {
     max-height: 550px;
-    overflow-y: auto !important; /* Restores scrolling through long results sets */
+    overflow-y: auto !important; 
+}
+
+/* NEW: Compress vertical margins around headings to match stage-overview-page styling */
+.stage-details-page h1 {
+    margin-top: 2px !important;
+    margin-bottom: 12px !important;
+    line-height: 1.1 !important;
+}
+
+.stage-details-page .text-emerald-400.font-bold {
+    margin-bottom: 0 !important;
+}
+
+.stage-details-page .max-w-\[1400px\] > div > div.flex-wrap {
+    margin-bottom: 12px !important;
 }
 
 /* ==========================================================================
