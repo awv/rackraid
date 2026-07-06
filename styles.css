@@ -692,15 +692,16 @@ input:focus, select:focus {
     z-index: 1; 
 }
 
-/* Accordion transition utility */
+/* Fix accordion container content constraints to restore independent scrolling */
 .stage-details-page .accordion-content {
     max-height: 0;
-    overflow: hidden;
+    overflow-y: hidden; /* Traps view structure cleanly when closed */
     transition: max-height 0.25s ease-out;
 }
 
 .stage-details-page .accordion-content.open {
     max-height: 550px;
+    overflow-y: auto !important; /* Restores scrolling through long results sets */
 }
 
 /* ==========================================================================
