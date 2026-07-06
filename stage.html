@@ -28,8 +28,11 @@
             <h2 class="text-emerald-400 font-black text-2xl tracking-tight uppercase mb-1" id="stage-number-title">Stage --</h2>
             <h3 class="text-white font-black text-3xl md:text-5xl uppercase tracking-tight leading-none mb-4" id="stage-location-title">Loading Route...</h3>
             
-            <div class="flex flex-col sm:flex-row gap-4">
-                <div class="flex items-center gap-4 bg-slate-900/60 border border-slate-700/50 rounded-xl px-4 py-3 backdrop-blur-sm w-max shadow-lg">
+            <!-- Swapped flex for a responsive grid to enforce clean horizontal layout on md+ screens -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-5xl">
+                
+                <!-- Overall Record Card -->
+                <div class="flex items-center gap-4 bg-slate-900/60 border border-slate-700/50 rounded-xl px-4 py-3 backdrop-blur-sm w-full shadow-lg">
                     <div class="bg-emerald-500/20 text-emerald-400 font-mono font-black text-xl px-3 py-1 rounded-lg tracking-tight" id="banner-record-time">
                         --:--:--
                     </div>
@@ -39,7 +42,8 @@
                     </div>
                 </div>
 
-                <div id="female-record-panel" class="hidden flex items-center gap-4 bg-slate-900/60 border border-slate-700/50 rounded-xl px-4 py-3 backdrop-blur-sm w-max shadow-lg">
+                <!-- Female Record Card -->
+                <div id="female-record-panel" class="hidden flex items-center gap-4 bg-slate-900/60 border border-slate-700/50 rounded-xl px-4 py-3 backdrop-blur-sm w-full shadow-lg">
                     <div class="bg-pink-500/20 text-pink-400 font-mono font-black text-xl px-3 py-1 rounded-lg tracking-tight" id="banner-female-record-time">
                         --:--:--
                     </div>

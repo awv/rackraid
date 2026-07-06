@@ -41,10 +41,24 @@ body.home-archive-page {
 
 .search-grid {
     display: flex;
+    flex-direction: column;
     gap: 12px;
     margin-bottom: 24px;
     width: 100%;
 }
+
+    @media screen and (min-width: 768px) {
+        .search-grid {
+            flex-direction: row;
+        }
+        #searchQuery {
+            flex: 1;
+        }
+        .search-grid .btn {
+            width: auto;
+            flex: none;
+        }
+    }
 
 #searchQuery {
     flex: 1;
