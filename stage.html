@@ -20,11 +20,11 @@
         <header id="global-header" class="text-white"></header>
     </div>
 
-    <div class="w-full bg-slate-950 py-8 md:py-10 relative overflow-hidden flex items-center">
-        <img id="banner-img" src="assets/images/banners/default_stage.jpg" class="absolute inset-0 w-full h-full object-cover opacity-35 mix-blend-luminosity brightness-75" alt="Stage background">
-        <div class="absolute inset-0 bg-gradient-to-b from-slate-950/40 via-slate-900/80 to-slate-950"></div>
-        
-        <div class="max-w-[1400px] mx-auto w-full px-4 relative z-10 flex flex-col justify-center">
+<div class="w-full bg-slate-950 min-h-[260px] sm:min-h-[320px] md:min-h-[360px] relative overflow-hidden flex items-center py-6">
+    <img id="banner-img" class="absolute inset-0 w-full h-full object-cover opacity-45 mix-blend-luminosity brightness-75" alt="Stage background">
+    <div class="absolute inset-0 bg-gradient-to-b from-slate-950/40 via-slate-900/80 to-slate-950"></div>
+    
+    <div class="max-w-[1400px] mx-auto w-full px-4 relative z-10 flex flex-col justify-center">
             <h2 class="text-emerald-400 font-black text-2xl tracking-tight uppercase mb-1" id="stage-number-title">Stage --</h2>
             <h3 class="text-white font-black text-3xl md:text-5xl uppercase tracking-tight leading-none mb-4" id="stage-location-title">Loading Route...</h3>
             
@@ -90,8 +90,7 @@
             </div>
         </div>
 
-        <div class="flex flex-col gap-4" id="accordion-container">
-            </div>
+        <div class="flex flex-col gap-4" id="accordion-container"></div>
     </main>
 
     <footer id="global-footer" class="bg-slate-900 text-slate-400 text-xs py-6 border-t border-slate-800"></footer>
@@ -129,6 +128,11 @@
         };
 
         document.addEventListener("DOMContentLoaded", async function() {
+            // Fire global folder randomizer script right away on setup
+            if (typeof initializeRandomBanner === 'function') {
+                initializeRandomBanner('banner-img');
+            }
+
             const profile = stageProfiles[stageId];
             if (!profile) return;
 
@@ -140,10 +144,6 @@
             
             if(profile.description) document.getElementById('stage-description').innerText = profile.description;
             if(profile.facts) document.getElementById('stage-facts').innerText = profile.facts;
-            
-            const bannerImg = document.getElementById('banner-img');
-            bannerImg.src = `assets/images/banners/stage_${stageId}.jpg`;
-            bannerImg.onerror = function() { this.src = 'assets/images/banners/default_stage.jpg'; };
 
             const clubMappings = typeof clubMappingsMaster !== 'undefined' ? clubMappingsMaster : {};
 
@@ -171,7 +171,6 @@
                 }
             }
 
-            // Run verified records parse sequence directly out of your loaded JS file
             loadVerifiedRecords(stageId, clubMappings);
 
             if (typeof relayResults === 'undefined') return;

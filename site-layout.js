@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function() {
         headerCanvas.innerHTML = `
             <div class="max-w-[1400px] mx-auto px-4 min-h-[70px] py-3 flex flex-wrap justify-between items-center gap-4 bg-slate-900 text-white shadow-md relative">
                 
-                <!-- Branding Cluster: Left Aligned -->
                 <a href="index.html" class="flex items-center gap-3 hover:opacity-90 transition-opacity">
                     <div class="flex items-center justify-center h-10 w-10 shrink-0">
                         <img src="assets/images/logo.png" class="h-full w-full object-contain" alt="Rack Raid Logo">
@@ -18,7 +17,6 @@ document.addEventListener("DOMContentLoaded", function() {
                     </div>
                 </a>
                 
-                <!-- CSS-Driven Mobile Burger Trigger -->
                 <label for="mobile-menu-toggle" class="sm:hidden flex flex-col justify-between w-6 h-4 cursor-pointer z-20 select-none">
                     <span class="w-full h-0.5 bg-slate-300 rounded-sm"></span>
                     <span class="w-full h-0.5 bg-slate-300 rounded-sm"></span>
@@ -26,7 +24,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 </label>
                 <input type="checkbox" id="mobile-menu-toggle" class="peer hidden" />
 
-                <!-- Navigation Matrix: Collapsed on Mobile, Flex on Desktop -->
                 <nav class="hidden peer-checked:flex sm:flex flex-col sm:flex-row w-full sm:w-auto gap-2 sm:gap-1 bg-slate-800 p-2 sm:p-1 rounded-lg text-sm font-semibold items-stretch sm:items-center mt-2 sm:mt-0 transition-all duration-200">
                     <a href="index.html" id="nav-home" class="px-3 py-2 sm:py-1.5 rounded-md text-slate-300 hover:text-white hover:bg-slate-700 sm:hover:bg-transparent transition-colors leading-none flex items-center justify-center sm:justify-start">Home</a>
                     <a href="stages-overview.html" id="nav-stages" class="px-3 py-2 sm:py-1.5 rounded-md text-slate-300 hover:text-white hover:bg-slate-700 sm:hover:bg-transparent transition-colors leading-none flex items-center justify-center sm:justify-start">Stages</a>
@@ -64,3 +61,25 @@ document.addEventListener("DOMContentLoaded", function() {
         `;
     }
 });
+
+/**
+ * Global Dynamic Banner Randomizer
+ */
+function initializeRandomBanner(elementId) {
+    const bannerImageElement = document.getElementById(elementId);
+    if (!bannerImageElement) return;
+
+    const bannerPool = [
+        'default_stage.jpg',
+        'stage_1.jpg',
+        'stage_2.jpg',
+        'stage_3.jpg',
+        'stage_4.jpg',
+        'stage_5.jpg',
+        'stage_6.jpg'
+    ];
+
+    const randomIndex = Math.floor(Math.random() * bannerPool.length);
+    const chosenBanner = bannerPool[randomIndex];
+    bannerImageElement.src = `assets/images/banners/${chosenBanner}`;
+}
