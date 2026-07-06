@@ -24,7 +24,7 @@ body.home-archive-page {
     margin: 0 auto;
     padding: 40px 20px;
     box-sizing: border-box;
-    overflow: visible !important; 
+    overflow: visible; 
 }
 
 /* ==========================================================================
