@@ -62,6 +62,32 @@
 
         /* Mobile Viewport Custom Layout Architecture */
         @media screen and (max-width: 768px) {
+            /* Reduce black space gap under profile card and pull elements up */
+            .w-full.bg-slate-950.min-h-\[400px\] {
+                min-height: auto !important;
+                padding-top: 2rem !important;
+                padding-bottom: 1.5rem !important;
+            }
+            .page-wrapper {
+                padding-top: 0.5rem !important;
+            }
+            
+            /* Force the profile stat metrics cards to display exactly 2 across on mobile screen sizes */
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr) !important;
+                gap: 12px !important;
+                margin-bottom: 24px !important;
+            }
+            .stat-card {
+                padding: 16px 12px !important;
+            }
+            .stat-value {
+                font-size: 1.75rem !important;
+            }
+            .stat-label {
+                font-size: 0.7rem !important;
+            }
+
             .history-header { 
                 display: none; 
             }
@@ -83,49 +109,6 @@
                 flex-direction: column; 
                 gap: 8px; 
             }
-            
-            /* Clean line item wrapping for layout stability */
-            .mobile-header-line {
-                display: flex;
-                justify-content: space-between;
-                align-items: baseline;
-                border-bottom: 1px solid #334155;
-                padding-bottom: 6px;
-                margin-bottom: 4px;
-            }
-            .mobile-route-line {
-                font-size: 0.95rem;
-                margin-bottom: 4px;
-            }
-            .mobile-club-line {
-                font-size: 0.85rem;
-                margin-bottom: 8px;
-            }
-            .mobile-metrics-strip {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                background-color: #0f172a;
-                padding: 8px 12px;
-                border-radius: 6px;
-                margin-top: 4px;
-            }
-            .mobile-metric-item {
-                display: flex;
-                flex-direction: column;
-            }
-            .mobile-metric-label {
-                font-size: 0.65rem;
-                text-transform: uppercase;
-                color: #64748b;
-                font-weight: 700;
-                letter-spacing: 0.5px;
-            }
-            .mobile-metric-value {
-                font-size: 0.9rem;
-                font-weight: 700;
-                color: #f8fafc;
-            }
         }
     </style>
 </head>
@@ -135,7 +118,6 @@
         <header id="global-header" class="text-white"></header>
     </div>
 
-    <!-- FIXED: Height changed from h-[450px] to dynamic min-h-[400px] with flexible layout paddings to allow content growth -->
     <div class="w-full bg-slate-950 min-h-[400px] py-12 relative overflow-hidden flex items-center">
         <img src="assets/images/banners/default_stage.jpg" class="absolute inset-0 w-full h-full object-cover opacity-55 mix-blend-luminosity brightness-75" alt="Stage background">
         <img src="assets/images/banners/default_stage.jpg" class="absolute inset-0 w-full h-full object-cover opacity-35 mix-blend-luminosity brightness-75" alt="Stage background">
@@ -427,54 +409,59 @@
 
                     const specificYearClub = cleanClubName(row.club);
                     const milePace = formatPaceValue(runSeconds, row.miles);
+                    const kmPace = formatPaceValue(runSeconds, row.km);
+                    
                     let rowClass = row.position === 1 ? 'history-row badge-win' : 'history-row';
                     let timeDisplay = brokeRecord ? `<span class="record-tag">${row.time}</span>` : row.time;
 
                     htmlOutput += `
                         <div class="${rowClass}">
-                            <!-- Year -->
-                            <div class="flex justify-between items-baseline md:block border-b border-slate-700/50 md:border-none pb-2 md:pb-0 mb-2 md:mb-0">
-                                <span class="text-slate-500 font-bold text-xs uppercase md:hidden">Year</span>
-                                <span class="text-slate-100 font-bold">${row.year}</span>
-                            </div>
+                            <div class="athlete-desktop-table-row">
+                                <!-- Year -->
+                                <div class="flex justify-between items-baseline md:block border-b border-slate-700/50 md:border-none pb-2 md:pb-0 mb-2 md:mb-0">
+                                    <span class="text-slate-500 font-bold text-xs uppercase md:hidden">Year</span>
+                                    <span class="text-slate-100 font-bold">${row.year}</span>
+                                </div>
 
-                            <!-- Stage Number -->
-                            <div class="text-emerald-400 font-semibold md:text-slate-400 md:font-medium text-sm md:text-base mb-1 md:mb-0">
-                                <span class="md:hidden">Stage </span>${row.stage}
-                            </div>
+                                <!-- Stage Number -->
+                                <div class="text-emerald-400 font-semibold md:text-slate-400 md:font-medium text-sm md:text-base mb-1 md:mb-0">
+                                    <span class="md:hidden">Stage </span>${row.stage}
+                                </div>
 
-                            <!-- Leg Details -->
-                            <div class="mb-2 md:mb-0">
-                                <a href="index.html?year=${row.year}&stage=${row.stage}" class="text-slate-100 hover:text-emerald-400 no-underline inline-block border-b border-dashed border-slate-600 pb-0.5">
-                                    ${row.stage_name || 'Leg Details'}
-                                </a>
-                            </div>
+                                <!-- Leg Details -->
+                                <div class="mb-2 md:mb-0">
+                                    <a href="index.html?year=${row.year}&stage=${row.stage}" class="text-slate-100 hover:text-emerald-400 no-underline inline-block border-b border-dashed border-slate-600 pb-0.5">
+                                        ${row.stage_name || 'Leg Details'}
+                                    </a>
+                                </div>
 
-                            <!-- Club -->
-                            <div class="truncate pr-2 mb-4 md:mb-0">
-                                <span class="text-[10px] text-slate-500 font-bold uppercase block md:hidden mb-0.5">Club</span>
-                                <a href="club.html?club=${encodeURIComponent(specificYearClub)}" class="text-slate-300 hover:text-emerald-400 font-semibold md:font-normal text-xs transition-colors no-underline">
-                                    ${specificYearClub}
-                                </a>
-                            </div>
+                                <!-- Club -->
+                                <div class="truncate pr-2 mb-4 md:mb-0">
+                                    <span class="text-[10px] text-slate-500 font-bold uppercase block md:hidden mb-0.5">Club</span>
+                                    <a href="club.html?club=${encodeURIComponent(specificYearClub)}" class="text-slate-300 hover:text-emerald-400 font-semibold md:font-normal text-xs transition-colors no-underline">
+                                        ${specificYearClub}
+                                    </a>
+                                </div>
 
-                            <!-- Position (Mobile card layout uses a shared flex block here) -->
-                            <div class="flex justify-between items-center md:block bg-slate-900 md:bg-transparent p-2 md:p-0 rounded-t-md md:rounded-none border-b border-slate-800 md:border-none px-3 md:px-0">
-                                <span class="text-[10px] text-slate-500 font-bold uppercase md:hidden">Position</span>
-                                <span class="md:text-right block font-bold text-slate-100">${row.position}</span>
-                            </div>
+                                <!-- Position -->
+                                <div class="flex justify-between items-center md:block bg-slate-900 md:bg-transparent p-2 md:p-0 rounded-t-md md:rounded-none border-b border-slate-800 md:border-none px-3 md:px-0">
+                                    <span class="text-[10px] text-slate-500 font-bold uppercase md:hidden">Position</span>
+                                    <span class="md:text-right block font-bold text-slate-100">${row.position}</span>
+                                </div>
 
-                            <!-- Time -->
-                            <div class="flex justify-between items-center md:block bg-slate-900 md:bg-transparent p-2 md:p-0 border-b border-slate-800 md:border-none px-3 md:px-0">
-                                <span class="text-[10px] text-slate-500 font-bold uppercase md:hidden">Time</span>
-                                <span class="md:text-right block font-medium">${timeDisplay}</span>
-                            </div>
+                                <!-- Time -->
+                                <div class="flex justify-between items-center md:block bg-slate-900 md:bg-transparent p-2 md:p-0 border-b border-slate-800 md:border-none px-3 md:px-0">
+                                    <span class="text-[10px] text-slate-500 font-bold uppercase md:hidden">Time</span>
+                                    <span class="md:text-right block font-medium">${timeDisplay}</span>
+                                </div>
 
-                            <!-- Pace -->
-                            <div class="flex justify-between items-center md:block bg-slate-900 md:bg-transparent p-2 md:p-0 rounded-b-md md:rounded-none px-3 md:px-0 text-right md:text-left">
-                                <span class="text-[10px] text-slate-500 font-bold uppercase md:hidden">Pace</span>
-                                <div class="pace-column text-right">
-                                    <strong>${milePace}</strong> <span class="text-xs text-slate-500">/mi</span>
+                                <!-- Pace -->
+                                <div class="flex justify-between items-center md:block bg-slate-900 md:bg-transparent p-2 md:p-0 rounded-b-md md:rounded-none px-3 md:px-0 text-right md:text-left">
+                                    <span class="text-[10px] text-slate-500 font-bold uppercase md:hidden">Pace</span>
+                                    <div class="pace-column text-right md:text-left">
+                                        <strong>${milePace}</strong> <span class="text-xs text-slate-500">/mi</span>
+                                        <span class="block text-[11px] text-slate-400 font-normal mt-0.5 md:hidden">${kmPace} /km</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>`;

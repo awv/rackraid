@@ -200,6 +200,26 @@
                 margin-top: 6px;
                 text-align: left;
             }
+            
+            /* Force all 14 completion cells horizontally on a single line */
+            .completion-grid {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                gap: 2px;
+                width: 100%;
+            }
+
+            /* Scale cell size fluidly inside the flexbox wrapper */
+            .stage-box {
+                width: calc(100% / 14 - 2px);
+                height: 20px;
+                font-size: 9px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+            }
         }
     </style>
 </head>

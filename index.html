@@ -128,7 +128,7 @@
             text-decoration-style: dotted !important;
         }
 
-/* ==========================================
+        /* ==========================================
            MOBILE RESPONSIVE LAYOUT OVERRIDES
            ========================================== */
         @media screen and (max-width: 640px) {
@@ -170,6 +170,11 @@
                 margin-left: 0 !important;
             }
 
+            .search-panel {
+                width: 100% !important;
+                box-sizing: border-box;
+            }
+
             /* 3. Mobile Text Rows Stacking & Real Estate */
             .results-row {
                 display: flex;
@@ -196,6 +201,28 @@
             .cell-pace span.pace-subtext {
                 font-size: 0.8rem;
                 color: #94a3b8;
+            }
+
+            .year-tabs {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 6px;
+                width: 100%;
+            }
+
+            .year-tab {
+                flex-grow: 1; /* Allows buttons to balance and distribute evenly on lines */
+                min-width: calc(25% - 6px); /* Ensures a clean row layout distribution grid on screen widths */
+                text-align: center;
+                padding: 6px 10px;
+            }
+
+            /* 4. Fix layout padding gaps on the outer wrapper block */
+            .w-full.flex-grow {
+                padding-left: 12px !important;
+                padding-right: 12px !important;
+                max-width: 100% !important;
+                box-sizing: border-box;
             }
         }
     </style>
