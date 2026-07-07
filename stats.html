@@ -60,56 +60,8 @@
                 </div>
 
                 <!-- MAIN DASHBOARD CONTENT TABLES -->
-                <div class="dashboard-grid">
-                    
-                    <!-- ATHLETE STAGE LOYALTY -->
-                    <div class="section-box">
-                        <h2>Most Stages Completed (All-Time)</h2>
-                        <div id="boxLoyalty"></div>
-                    </div>
-
-                    <!-- ATHLETE STAGE VICTORIES -->
-                    <div class="section-box">
-                        <h2>Most Individual Stage Wins</h2>
-                        <div id="boxAthleteWins"></div>
-                    </div>
-
-                </div>
-
-                <div class="dashboard-grid">
-                    
-                    <!-- STAGE 8 LONGEST LEG STALWARTS -->
-                    <div class="section-box">
-                        <h2>Stage 8 Stalwarts <span class="chip-special">Longest Leg</span></h2>
-                        <div id="boxStage8"></div>
-                    </div>
-
-                    <!-- STAGE 13 STEEP STALWARTS -->
-                    <div class="section-box">
-                        <h2>Stage 13 Stalwarts <span class="chip-special">Steep Finish</span></h2>
-                        <div id="boxStage13"></div>
-                    </div>
-
-                </div>
-
-                <div class="dashboard-grid">
-                    
-                    <!-- CLUB STAGE VICTORIES -->
-                    <div class="section-box">
-                        <h2>Most Stage Wins by Club</h2>
-                        <div id="boxClubWins"></div>
-                    </div>
-
-                    <!-- OVERALL TEAM REIGN CABINET -->
-                    <div class="section-box">
-                        <h2>Most Overall Team Championships</h2>
-                        <div id="boxOverallTeamWins">
-                            <div style="padding: 15px 0; text-align: center; color: #94a3b8; font-style: italic;">
-                                Team championship historical listing placeholder. Data rendering module will populate here upon entry compilation.
-                            </div>
-                        </div>
-                    </div>
-
+                <div class="dashboard-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="dynamic-dashboard-grid">
+                    <!-- Athlete, Club, and Stage cards will generate dynamically here in your exact order -->
                 </div>
 
             </main>
@@ -121,6 +73,7 @@
 
     <script src="data.js"></script>
     <script src="backend_tools/club_mappings.js"></script>
+    <script src="backend_tools/series_winners.js"></script>
 <script>
     const defTimeToSeconds = (tStr) => {
         if (!tStr) return 0;
@@ -135,28 +88,43 @@
             return;
         }
 
-        // Access the master global lookup mapping script loaded in the head
         const activeMappings = typeof clubMappingsMaster !== 'undefined' ? clubMappingsMaster : {};
 
         const cleanClubName = (rawString) => {
             if (!rawString) return "Independent";
             
-            // Clean up name string layout and drop structural bracket indices
-            let val = rawString.toString().trim().replace(/\s*\(\d+\)\s*$/, '').trim();
+            let val = rawString.toString().trim();
+            
+            // 1. Strip trailing team letters like " A", " B", " C" or bracketed variants like " (A)", " (B)"
+            val = val.replace(/\s*[\(\s]([A-D]|\d+)挂*$/, '').trim();
+            
+            // 2. Standardise suffix clean-up variations
+            val = val.replace(/\s*Running Club$/i, '')
+                    .replace(/\s*RC$/i, '')
+                    .replace(/\s*Harriers挂$/i, '')
+                    .replace(/\s*Roadents挂$/i, '')
+                    .replace(/\s*Runners$/i, '')
+                    .trim();
+                    
             let lookupKey = val.toLowerCase();
 
-            // Intercept matching dictionary keys safely
+            // 3. Match against your master dictionary translations
             if (activeMappings[lookupKey]) return activeMappings[lookupKey];
             if (activeMappings[val]) return activeMappings[val];
 
             if (val === '-' || lookupKey === 'individual' || lookupKey === 'unattached' || lookupKey === 'independent') {
                 return 'Independent';
             }
+            
+            // Return a beautifully polished title-case fallback if not in dictionary
             return val;
         };
 
         const runnerData = {};
         const clubWins = {};
+
+        // Track appearances per stage per runner: { "Runner Name": { 1: 3, 2: 5 ... } }
+        const stageStalwarts = {};
 
         relayResults.forEach(row => {
             if (!row || !row.name) return;
@@ -171,108 +139,189 @@
             const stageNum = parseInt(row.stage, 10);
             const positionNum = parseInt(row.position, 10);
 
-            if (!runnerData[athleteName]) {
-                runnerData[athleteName] = { name: athleteName, runs: 0, wins: 0, stage8s: 0, stage13s: 0 };
-            }
+            // 1. Club Victories (Include Unknown)
             if (!clubWins[clubName]) {
                 clubWins[clubName] = { club: clubName, wins: 0 };
             }
-
-            runnerData[athleteName].runs++;
-            if (stageNum === 8) runnerData[athleteName].stage8s++;
-            if (stageNum === 13) runnerData[athleteName].stage13s++;
-
             if (positionNum === 1) {
-                runnerData[athleteName].wins++;
                 clubWins[clubName].wins++;
+            }
+
+            // 2. Athlete Records (Exclude Unknown)
+            if (upperName !== 'UNKNOWN') {
+                if (!runnerData[athleteName]) {
+                    runnerData[athleteName] = { name: athleteName, runs: 0, wins: 0 };
+                }
+                runnerData[athleteName].runs++;
+                if (positionNum === 1) {
+                    runnerData[athleteName].wins++;
+                }
+
+                // Track individual stage appearances
+                if (!stageStalwarts[athleteName]) {
+                    stageStalwarts[athleteName] = {};
+                }
+                stageStalwarts[athleteName][stageNum] = (stageStalwarts[athleteName][stageNum] || 0) + 1;
             }
         });
 
+        // Prepare sorted data structures
         const runnersArray = Object.values(runnerData);
+        const clubWinsSorted = Object.values(clubWins).filter(c => c.wins > 0 && c.club !== 'Independent').sort((a,b) => b.wins - a.wins);
 
-        // --- RENDER 1. Athlete Loyalty Table ---
         const loyaltySorted = [...runnersArray].sort((a,b) => b.runs - a.runs).slice(0, 5);
-        let loyaltyHtml = '';
-        loyaltySorted.forEach((r, i) => {
-            loyaltyHtml += `
-                <div class="row-item flex justify-between items-center py-2 border-b border-slate-800/50 text-sm">
-                    <div><span class="font-mono text-slate-500 mr-2">${i+1}.</span><a href="athlete.html?name=${encodeURIComponent(r.name)}" class="hover:text-emerald-400 transition font-medium">${r.name}</a></div>
-                    <div class="bg-slate-800 text-slate-300 px-2 py-0.5 rounded text-xs font-mono">${r.runs} Stages</div>
+        const athleteWinsSorted = [...runnersArray].filter(r => r.wins > 0).sort((a,b) => b.wins - a.wins).slice(0, 5);
+
+        // Define dashboard card sequence configuration
+        const cardConfigs = [
+            {
+                type: 'athlete-loyalty',
+                title: 'Most Stages Completed (All-Time)',
+                data: loyaltySorted,
+                render: (r, idx) => `
+                    <div class="row-item flex justify-between items-center py-2 border-b border-slate-800/50 text-sm">
+                        <div><span class="font-mono text-slate-500 mr-2">${idx+1}.</span><a href="athlete.html?name=${encodeURIComponent(r.name)}" class="hover:text-emerald-400 transition font-medium">${r.name}</a></div>
+                        <div class="bg-slate-800 text-slate-300 px-2 py-0.5 rounded text-xs font-mono">${r.runs} Stages</div>
+                    </div>`
+            },
+            {
+                type: 'athlete-wins',
+                title: 'Most Individual Stage Wins',
+                data: athleteWinsSorted,
+                render: (r, idx) => `
+                    <div class="row-item flex justify-between items-center py-2 border-b border-slate-800/50 text-sm">
+                        <div><span class="font-mono text-slate-500 mr-2">${idx+1}.</span><a href="athlete.html?name=${encodeURIComponent(r.name)}" class="hover:text-emerald-400 transition font-medium">${r.name}</a></div>
+                        <div class="bg-emerald-500/10 text-emerald-400 px-2 py-0.5 rounded text-xs font-mono font-bold">${r.wins} Wins</div>
+                    </div>`
+            },
+            {
+                type: 'club-wins',
+                title: 'Most Stage Wins by Club',
+                data: clubWinsSorted.slice(0, 5),
+                render: (c, idx) => `
+                    <div class="row-item flex justify-between items-center py-2 border-b border-slate-800/50 text-sm">
+                        <div><span class="font-mono text-slate-500 mr-2">${idx+1}.</span><a href="club.html?club=${encodeURIComponent(c.club)}" class="hover:text-emerald-400 transition font-medium">${c.club}</a></div>
+                        <div class="bg-emerald-500/10 text-emerald-400 px-2 py-0.5 rounded text-xs font-mono font-bold">${c.wins} Wins</div>
+                    </div>`
+            },
+{
+                type: 'team-championships',
+                title: 'Most Overall Team Championships',
+                placeholder: true,
+                html: (() => {
+                    const activeWinners = typeof seriesWinnersMaster !== 'undefined' ? seriesWinnersMaster : [];
+                    const champCounts = {};
+
+                    // Aggregate the wins using our standardised master file names
+                    activeWinners.forEach(record => {
+                        const clubName = cleanClubName(record.club);
+                        champCounts[clubName] = (champCounts[clubName] || 0) + 1;
+                    });
+
+                    // Sort descending by total championships won
+                    const sortedChamps = Object.entries(champCounts)
+                        .sort((a, b) => b[1] - a[1])
+                        .slice(0, 5);
+
+                    if (sortedChamps.length === 0) {
+                        return `<div style="padding: 15px 0; text-align: center; color: #94a3b8; font-style: italic;">No championship data compiled.</div>`;
+                    }
+
+                    let htmlOutput = '';
+                    sortedChamps.forEach(([club, count], idx) => {
+                        htmlOutput += `
+                            <div class="row-item">
+                                <div><span class="rank-num">${idx+1}.</span><a href="club.html?club=${encodeURIComponent(club)}">${club}</a></div>
+                                <div class="count-badge">${count} Titles</div>
+                            </div>`;
+                    });
+                    return htmlOutput;
+                })()
+            },
+            // Stage Stalwart sub-grid layouts
+            { type: 'stage', stageNum: 1, title: 'Stage 1 Stalwarts', badge: 'Early Riser' },
+            { type: 'stage', stageNum: 2, title: 'Stage 2 Stalwarts' },
+            { type: 'stage', stageNum: 3, title: 'Stage 3 Stalwarts' },
+            { type: 'stage', stageNum: 4, title: 'Stage 4 Stalwarts' },
+            { type: 'stage', stageNum: 5, title: 'Stage 5 Stalwarts' },
+            { type: 'stage', stageNum: 6, title: 'Stage 6 Stalwarts' },
+            { type: 'stage', stageNum: 7, title: 'Stage 7 Stalwarts' },
+            { type: 'stage', stageNum: 8, title: 'Stage 8 Stalwarts', badge: 'Longest Stage' },
+            { type: 'stage', stageNum: 9, title: 'Stage 9 Stalwarts' },
+            { type: 'stage', stageNum: 10, title: 'Stage 10 Stalwarts' },
+            { type: 'stage', stageNum: 11, title: 'Stage 11 Stalwarts', badge: 'Pub Finish' },
+            { type: 'stage', stageNum: 12, title: 'Stage 12 Stalwarts' },
+            { type: 'stage', stageNum: 13, title: 'Stage 13 Stalwarts', badge: 'That Hill!' },
+            
+            // --- STAGE 14 NEXT YEAR GENERATION CONFIGURATION TARGET ---
+            // Uncomment the object below next year to instantly slot it into the layout engine
+            /*
+            { type: 'stage', stageNum: 14, title: 'Stage 14 Stalwarts' }
+            */
+        ];
+
+        // Core compilation generator loop
+        const gridContainer = document.getElementById('dynamic-dashboard-grid');
+        if (!gridContainer) return;
+
+        let dynamicHtml = '';
+
+        cardConfigs.forEach(card => {
+            // Keep your native semantic structure so styles.css handles formatting perfectly
+            dynamicHtml += `
+                <div class="section-box">
+                    <h2>
+                        ${card.title}
+                        ${card.badge ? `<span class="chip-special">${card.badge}</span>` : ''}
+                    </h2>`;
+
+            if (card.placeholder) {
+                dynamicHtml += card.html;
+            } else if (card.type === 'stage') {
+                const stageList = Object.keys(stageStalwarts)
+                    .map(name => ({ name, count: stageStalwarts[name][card.stageNum] || 0 }))
+                    .filter(item => item.count > 0)
+                    .sort((a, b) => b.count - a.count)
+                    .slice(0, 5);
+
+                if (stageList.length > 0) {
+                    stageList.forEach((r, idx) => {
+                        dynamicHtml += `
+                            <div class="row-item">
+                                <div><span class="rank-num">${idx+1}.</span><a href="athlete.html?name=${encodeURIComponent(r.name)}">${r.name}</a></div>
+                                <div class="count-badge">${r.count} Times</div>
+                            </div>`;
+                    });
+                } else {
+                    dynamicHtml += `<div style="padding: 15px 0; text-align: center; color: #94a3b8; font-style: italic;">No entries logged for this leg.</div>`;
+                }
+            } else {
+                if (card.data && card.data.length > 0) {
+                    card.data.forEach((item, idx) => {
+                        dynamicHtml += card.render(item, idx);
+                    });
+                } else {
+                    dynamicHtml += `<div style="padding: 15px 0; text-align: center; color: #94a3b8; font-style: italic;">No data records compiled.</div>`;
+                }
+            }
+
+            dynamicHtml += `
                 </div>`;
         });
-        const boxLoyaltyEl = document.getElementById('boxLoyalty');
-        if (boxLoyaltyEl) boxLoyaltyEl.innerHTML = loyaltyHtml;
-        
+
+        gridContainer.innerHTML = dynamicHtml;
+
+        // Set Top Overview Header Badges using computed variables
         const topLoyaltyRunnerEl = document.getElementById('topLoyaltyRunner');
         const topLoyaltyNameEl = document.getElementById('topLoyaltyName');
         if (topLoyaltyRunnerEl) topLoyaltyRunnerEl.textContent = loyaltySorted[0] ? `${loyaltySorted[0].runs} Legs` : '-';
         if (topLoyaltyNameEl) topLoyaltyNameEl.textContent = loyaltySorted[0] ? loyaltySorted[0].name : '-';
 
-        // --- RENDER 2. Athlete Individual Wins Table ---
-        const athleteWinsSorted = [...runnersArray].filter(r => r.wins > 0).sort((a,b) => b.wins - a.wins).slice(0, 5);
-        let athleteWinsHtml = '';
-        if (athleteWinsSorted.length > 0) {
-            athleteWinsSorted.forEach((r, i) => {
-                athleteWinsHtml += `
-                    <div class="row-item flex justify-between items-center py-2 border-b border-slate-800/50 text-sm">
-                        <div><span class="font-mono text-slate-500 mr-2">${i+1}.</span><a href="athlete.html?name=${encodeURIComponent(r.name)}" class="hover:text-emerald-400 transition font-medium">${r.name}</a></div>
-                        <div class="bg-emerald-500/10 text-emerald-400 px-2 py-0.5 rounded text-xs font-mono font-bold">${r.wins} Wins</div>
-                    </div>`;
-            });
-        } else {
-            athleteWinsHtml = '<div class="p-4 text-slate-500 italic text-sm text-center">No recorded stage wins found.</div>';
-        }
-        const boxAthleteWinsEl = document.getElementById('boxAthleteWins');
-        if (boxAthleteWinsEl) boxAthleteWinsEl.innerHTML = athleteWinsHtml;
-        
         const topRunnerWinsEl = document.getElementById('topRunnerWins');
         const topRunnerNameEl = document.getElementById('topRunnerName');
         if (topRunnerWinsEl) topRunnerWinsEl.textContent = athleteWinsSorted[0] ? `${athleteWinsSorted[0].wins} Wins` : '-';
         if (topRunnerNameEl) topRunnerNameEl.textContent = athleteWinsSorted[0] ? athleteWinsSorted[0].name : '-';
 
-        // --- RENDER 3. Stage 8 Stalwarts Table ---
-        const stage8Sorted = [...runnersArray].filter(r => r.stage8s > 0).sort((a,b) => b.stage8s - a.stage8s).slice(0, 5);
-        let stage8Html = '';
-        stage8Sorted.forEach((r, i) => {
-            stage8Html += `
-                <div class="row-item flex justify-between items-center py-2 border-b border-slate-800/50 text-sm">
-                    <div><span class="font-mono text-slate-500 mr-2">${i+1}.</span><a href="athlete.html?name=${encodeURIComponent(r.name)}" class="hover:text-emerald-400 transition font-medium">${r.name}</a></div>
-                    <div class="bg-slate-800 text-slate-300 px-2 py-0.5 rounded text-xs font-mono">${r.stage8s} Times</div>
-                </div>`;
-        });
-        const boxStage8El = document.getElementById('boxStage8');
-        if (boxStage8El) boxStage8El.innerHTML = stage8Html || '<div class="p-4 text-slate-500 text-center text-sm">No data recorded.</div>';
-
-        // --- RENDER 4. Stage 13 Stalwarts Table ---
-        const stage13Sorted = [...runnersArray].filter(r => r.stage13s > 0).sort((a,b) => b.stage13s - a.stage13s).slice(0, 5);
-        let stage13Html = '';
-        stage13Sorted.forEach((r, i) => {
-            stage13Html += `
-                <div class="row-item flex justify-between items-center py-2 border-b border-slate-800/50 text-sm">
-                    <div><span class="font-mono text-slate-500 mr-2">${i+1}.</span><a href="athlete.html?name=${encodeURIComponent(r.name)}" class="hover:text-emerald-400 transition font-medium">${r.name}</a></div>
-                    <div class="bg-slate-800 text-slate-300 px-2 py-0.5 rounded text-xs font-mono">${r.stage13s} Times</div>
-                </div>`;
-        });
-        const boxStage13El = document.getElementById('boxStage13');
-        if (boxStage13El) boxStage13El.innerHTML = stage13Html || '<div class="p-4 text-slate-500 text-center text-sm">No data recorded.</div>';
-
-        // --- RENDER 5. Club Victories Table ---
-        const clubWinsSorted = Object.values(clubWins).filter(c => c.wins > 0 && c.club !== 'Independent').sort((a,b) => b.wins - a.wins).slice(0, 5);
-        let clubWinsHtml = '';
-        if (clubWinsSorted.length > 0) {
-            clubWinsSorted.forEach((c, i) => {
-                clubWinsHtml += `
-                    <div class="row-item flex justify-between items-center py-2 border-b border-slate-800/50 text-sm">
-                        <div><span class="font-mono text-slate-500 mr-2">${i+1}.</span><a href="club.html?club=${encodeURIComponent(c.club)}" class="hover:text-emerald-400 transition font-medium">${c.club}</a></div>
-                        <div class="bg-emerald-500/10 text-emerald-400 px-2 py-0.5 rounded text-xs font-mono font-bold">${c.wins} Wins</div>
-                    </div>`;
-            });
-        } else {
-            clubWinsHtml = '<div class="p-4 text-slate-500 italic text-sm text-center">No recorded club wins found.</div>';
-        }
-        const boxClubWinsEl = document.getElementById('boxClubWins');
-        if (boxClubWinsEl) boxClubWinsEl.innerHTML = clubWinsHtml;
-        
         const topClubWinsEl = document.getElementById('topClubWins');
         const topClubNameEl = document.getElementById('topClubName');
         if (topClubWinsEl) topClubWinsEl.textContent = clubWinsSorted[0] ? `${clubWinsSorted[0].wins} Wins` : '-';

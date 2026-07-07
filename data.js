@@ -39513,7 +39513,7 @@ const relayResults = [
     "time": "00:33:30"
   },
   {
-    "year": 2023,
+    "year": 2013,
     "stage": 1,
     "stage_name": "Grosmont to Skenfrith",
     "miles": 5.1,
@@ -39524,7 +39524,7 @@ const relayResults = [
     "time": "00:33:50"
   },
   {
-    "year": 2023,
+    "year": 2013,
     "stage": 1,
     "stage_name": "Grosmont to Skenfrith",
     "miles": 5.1,
@@ -39535,7 +39535,7 @@ const relayResults = [
     "time": "00:34:46"
   },
   {
-    "year": 2023,
+    "year": 2013,
     "stage": 1,
     "stage_name": "Grosmont to Skenfrith",
     "miles": 5.1,
@@ -39546,7 +39546,7 @@ const relayResults = [
     "time": "00:35:29"
   },
   {
-    "year": 2023,
+    "year": 2013,
     "stage": 1,
     "stage_name": "Grosmont to Skenfrith",
     "miles": 5.1,
@@ -39557,7 +39557,7 @@ const relayResults = [
     "time": "00:35:35"
   },
   {
-    "year": 2023,
+    "year": 2013,
     "stage": 1,
     "stage_name": "Grosmont to Skenfrith",
     "miles": 5.1,
@@ -39568,7 +39568,7 @@ const relayResults = [
     "time": "00:35:39"
   },
   {
-    "year": 2023,
+    "year": 2013,
     "stage": 1,
     "stage_name": "Grosmont to Skenfrith",
     "miles": 5.1,
@@ -39579,7 +39579,7 @@ const relayResults = [
     "time": "00:37:10"
   },
   {
-    "year": 2023,
+    "year": 2013,
     "stage": 1,
     "stage_name": "Grosmont to Skenfrith",
     "miles": 5.1,
@@ -39590,7 +39590,7 @@ const relayResults = [
     "time": "00:37:33"
   },
   {
-    "year": 2023,
+    "year": 2013,
     "stage": 1,
     "stage_name": "Grosmont to Skenfrith",
     "miles": 5.1,
@@ -39601,7 +39601,7 @@ const relayResults = [
     "time": "00:37:34"
   },
   {
-    "year": 2023,
+    "year": 2013,
     "stage": 1,
     "stage_name": "Grosmont to Skenfrith",
     "miles": 5.1,
@@ -39612,7 +39612,7 @@ const relayResults = [
     "time": "00:37:47"
   },
   {
-    "year": 2023,
+    "year": 2013,
     "stage": 1,
     "stage_name": "Grosmont to Skenfrith",
     "miles": 5.1,
@@ -39623,7 +39623,7 @@ const relayResults = [
     "time": "00:38:29"
   },
   {
-    "year": 2023,
+    "year": 2013,
     "stage": 1,
     "stage_name": "Grosmont to Skenfrith",
     "miles": 5.1,
@@ -39634,7 +39634,7 @@ const relayResults = [
     "time": "00:38:48"
   },
   {
-    "year": 2023,
+    "year": 2013,
     "stage": 1,
     "stage_name": "Grosmont to Skenfrith",
     "miles": 5.1,
@@ -39645,7 +39645,7 @@ const relayResults = [
     "time": "00:39:03"
   },
   {
-    "year": 2023,
+    "year": 2013,
     "stage": 1,
     "stage_name": "Grosmont to Skenfrith",
     "miles": 5.1,
@@ -39656,7 +39656,7 @@ const relayResults = [
     "time": "00:39:22"
   },
   {
-    "year": 2023,
+    "year": 2013,
     "stage": 1,
     "stage_name": "Grosmont to Skenfrith",
     "miles": 5.1,
@@ -39667,7 +39667,7 @@ const relayResults = [
     "time": "00:39:45"
   },
   {
-    "year": 2023,
+    "year": 2013,
     "stage": 1,
     "stage_name": "Grosmont to Skenfrith",
     "miles": 5.1,
@@ -39678,7 +39678,7 @@ const relayResults = [
     "time": "00:39:52"
   },
   {
-    "year": 2023,
+    "year": 2013,
     "stage": 1,
     "stage_name": "Grosmont to Skenfrith",
     "miles": 5.1,
@@ -39689,7 +39689,7 @@ const relayResults = [
     "time": "00:41:33"
   },
   {
-    "year": 2023,
+    "year": 2013,
     "stage": 1,
     "stage_name": "Grosmont to Skenfrith",
     "miles": 5.1,
@@ -39700,7 +39700,7 @@ const relayResults = [
     "time": "00:41:54"
   },
   {
-    "year": 2023,
+    "year": 2013,
     "stage": 1,
     "stage_name": "Grosmont to Skenfrith",
     "miles": 5.1,
@@ -39711,7 +39711,7 @@ const relayResults = [
     "time": "00:43:07"
   },
   {
-    "year": 2023,
+    "year": 2013,
     "stage": 1,
     "stage_name": "Grosmont to Skenfrith",
     "miles": 5.1,
@@ -39722,7 +39722,7 @@ const relayResults = [
     "time": "00:43:17"
   },
   {
-    "year": 2023,
+    "year": 2013,
     "stage": 1,
     "stage_name": "Grosmont to Skenfrith",
     "miles": 5.1,
@@ -39733,7 +39733,7 @@ const relayResults = [
     "time": "00:46:00"
   },
   {
-    "year": 2023,
+    "year": 2013,
     "stage": 1,
     "stage_name": "Grosmont to Skenfrith",
     "miles": 5.1,
@@ -39742,17 +39742,6 @@ const relayResults = [
     "name": "Unknown",
     "club": "Islwyn Running Club B",
     "time": "00:46:00"
-  },
-  {
-    "year": 2013,
-    "stage": 2,
-    "stage_name": "Skenfrith to White Castle",
-    "miles": 6.93,
-    "km": 11.2,
-    "position": 1,
-    "name": "Unknown",
-    "club": "San Domenico Running Club",
-    "time": "00:43:39"
   },
   {
     "year": 2013,
@@ -42525,6 +42514,259 @@ const relayResults = [
     "name": "Unknown",
     "club": "Caerleon Running Club B",
     "time": "01:00:00"
+  },
+  {
+    "year": 2013,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 1,
+    "name": "Unknown",
+    "club": "Lliswerry Runners A",
+    "time": "00:34:18"
+  },
+  {
+    "year": 2013,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 2,
+    "name": "Unknown",
+    "club": "Pontypridd Roadents A",
+    "time": "00:36:18"
+  },
+  {
+    "year": 2013,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 3,
+    "name": "Unknown",
+    "club": "Chepstow Harriers A",
+    "time": "00:36:57"
+  },
+  {
+    "year": 2013,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 4,
+    "name": "Unknown",
+    "club": "Parc Bryn Bach Running Club",
+    "time": "00:38:00"
+  },
+  {
+    "year": 2013,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 5,
+    "name": "Unknown",
+    "club": "San Domenico Running Club",
+    "time": "00:38:38"
+  },
+  {
+    "year": 2013,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 6,
+    "name": "Unknown",
+    "club": "Griffithstown Harriers",
+    "time": "00:38:52"
+  },
+  {
+    "year": 2013,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 7,
+    "name": "Unknown",
+    "club": "Pont-y-pwl & District Runners",
+    "time": "00:39:02"
+  },
+  {
+    "year": 2013,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 8,
+    "name": "Unknown",
+    "club": "Caerleon Running Club A",
+    "time": "00:39:33"
+  },
+  {
+    "year": 2013,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 9,
+    "name": "Unknown",
+    "club": "Chepstow Harriers B",
+    "time": "00:40:32"
+  },
+  {
+    "year": 2013,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 10,
+    "name": "Unknown",
+    "club": "Islwyn Running Club A",
+    "time": "00:40:38"
+  },
+  {
+    "year": 2013,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 11,
+    "name": "Unknown",
+    "club": "Fairwater Runners Cwmbran A",
+    "time": "00:43:07"
+  },
+  {
+    "year": 2013,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 12,
+    "name": "Unknown",
+    "club": "Spirit of Monmouth Running Club",
+    "time": "00:43:52"
+  },
+  {
+    "year": 2013,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 13,
+    "name": "Unknown",
+    "club": "Pontypridd Roadents B",
+    "time": "00:43:58"
+  },
+  {
+    "year": 2013,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 14,
+    "name": "Unknown",
+    "club": "Pegasus Running Club",
+    "time": "00:44:07"
+  },
+  {
+    "year": 2013,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 15,
+    "name": "Unknown",
+    "club": "Brackla Harriers",
+    "time": "00:44:25"
+  },
+  {
+    "year": 2013,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 16,
+    "name": "Unknown",
+    "club": "Fairwater Runners Cwmbran B",
+    "time": "00:45:05"
+  },
+  {
+    "year": 2013,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 17,
+    "name": "Unknown",
+    "club": "Caerleon Running Club B",
+    "time": "00:46:14"
+  },
+  {
+    "year": 2013,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 18,
+    "name": "Unknown",
+    "club": "Usk Runners",
+    "time": "00:47:11"
+  },
+  {
+    "year": 2013,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 19,
+    "name": "Unknown",
+    "club": "Islwyn Running Club B",
+    "time": "00:48:05"
+  },
+  {
+    "year": 2013,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 20,
+    "name": "Unknown",
+    "club": "Chepstow Harriers C",
+    "time": "00:48:49"
+  },
+  {
+    "year": 2013,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 21,
+    "name": "Unknown",
+    "club": "Rhondda Valley Runners",
+    "time": "00:49:37"
+  },
+  {
+    "year": 2013,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 22,
+    "name": "Unknown",
+    "club": "Lliswerry Runners B",
+    "time": "00:50:00"
+  },
+  {
+    "year": 2013,
+    "stage": 13,
+    "stage_name": "Caerleon to Castell-y-Bwch",
+    "miles": 5.43,
+    "km": 8.7,
+    "position": 23,
+    "name": "Unknown",
+    "club": "Lliswerry Runners C",
+    "time": "00:50:00"
   },
   {
     "year": 2012,
