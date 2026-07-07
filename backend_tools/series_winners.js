@@ -1,5 +1,5 @@
 // backend_tools/series_winners.js
-const seriesWinnersMaster = [
+window.seriesWinnersMaster = [
     { "year": 1993, "club": "Islwyn Running Club" },
     { "year": 1994, "club": "Islwyn Running Club" },
     { "year": 1995, "club": "Chepstow Harriers" },
