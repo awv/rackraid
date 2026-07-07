@@ -1,5 +1,24 @@
 // site-layout.js
 
+// --- GLOBAL ANALYTICS INJECTION ---
+(function injectGoogleAnalytics() {
+    const GA_MEASUREMENT_ID = 'G-WZG20KL9G6'; // Replace with your actual GA4 ID
+
+    // 1. Inject the external tracking script tag
+    const gaScript = document.createElement('script');
+    gaScript.async = true;
+    gaScript.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
+    document.head.appendChild(gaScript);
+
+    // 2. Initialize the globaldataLayer data layer and config settings
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function() { dataLayer.push(arguments); };
+    window.gtag('js', new Date());
+    window.gtag('config', GA_MEASUREMENT_ID);
+})();
+
+// Your existing document.addEventListener("DOMContentLoaded", function() { ...
+
 document.addEventListener("DOMContentLoaded", function() {
    // 1. Inject Global Header
     const headerCanvas = document.getElementById('global-header');
