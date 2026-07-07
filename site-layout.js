@@ -31,6 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <a href="index.html" id="nav-home" class="px-3 py-2 sm:py-1.5 rounded-md text-slate-300 hover:text-white hover:bg-slate-700 sm:hover:bg-transparent transition-colors leading-none flex items-center justify-center sm:justify-start">Home</a>
                         <a href="stages-overview.html" id="nav-stages" class="px-3 py-2 sm:py-1.5 rounded-md text-slate-300 hover:text-white hover:bg-slate-700 sm:hover:bg-transparent transition-colors leading-none flex items-center justify-center sm:justify-start">Stages</a>
                         <a href="stats.html" id="nav-stats" class="px-3 py-2 sm:py-1.5 rounded-md text-slate-300 hover:text-white hover:bg-slate-700 sm:hover:bg-transparent transition-colors leading-none flex items-center justify-center sm:justify-start">Leaderboards</a>
+                        <a href="about.html" id="nav-about" class="px-3 py-2 sm:py-1.5 rounded-md text-slate-300 hover:text-white hover:bg-slate-700 sm:hover:bg-transparent transition-colors leading-none flex items-center justify-center sm:justify-start">About</a>
                         <a href="inside-the-data.html" id="nav-insights" class="px-3 py-2 sm:py-1.5 rounded-md text-slate-300 hover:text-white hover:bg-slate-700 sm:hover:bg-transparent transition-colors leading-none flex items-center justify-center sm:justify-start">Inside the Data</a>
                     </nav>
                 </div>
@@ -49,6 +50,9 @@ document.addEventListener("DOMContentLoaded", function() {
             if (el) el.className = activeClass;
         } else if (currentPath.includes('stats.html')) {
             const el = document.getElementById('nav-stats');
+            if (el) el.className = activeClass;
+        } else if (currentPath.includes('about.html')) {
+            const el = document.getElementById('nav-about');
             if (el) el.className = activeClass;
         } else if (currentPath.includes('inside-the-data.html')) {
             const el = document.getElementById('nav-insights');

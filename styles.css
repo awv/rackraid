@@ -436,7 +436,7 @@ input:focus, select:focus {
     }
 
     .home-archive-page .cell-pace {
-        display: none !important;
+        display: block !important;
     }
 }
 

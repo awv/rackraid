@@ -80,6 +80,10 @@ const clubMappingsMaster = {
   "griffithstown": "Griffithstown Harriers",
   "griffithstown harriers": "Griffithstown Harriers",
 
+  "cornelly": "Cornelly Striders",
+  "Cornelly": "Cornelly Striders",
+
   "caerleon": "Caerleon RC",
   "caerleon rc": "Caerleon RC"
+
 };

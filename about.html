@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Archive — Rack Raid Archive</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+    
+    <!-- Inject Global Header/Footer Layout Engine -->
+    <script src="site-layout.js"></script>
+    
+    <style>
+        body {
+            background-color: #0f172a;
+        }
+        .about-card {
+            background-color: #1e293b;
+            border: 1px solid #334155;
+        }
+        
+        /* --- AUTHENTIC ATHLETE BADGE STYLES --- */
+        .badge-master {
+            background-color: rgba(234, 179, 8, 0.08);
+            border: 1px solid rgba(234, 179, 8, 0.35);
+            color: #eab308;
+        }
+        .badge-podium {
+            background-color: rgba(148, 163, 184, 0.08);
+            border: 1px solid rgba(148, 163, 184, 0.35);
+            color: #cbd5e1;
+        }
+        .badge-veteran {
+            background-color: rgba(236, 72, 153, 0.08);
+            border: 1px solid rgba(236, 72, 153, 0.35);
+            color: #ec4899;
+        }
+        
+        .athlete-panel-badge {
+            font-size: 11px;
+            font-weight: 800;
+            letter-spacing: 0.75px;
+            text-transform: uppercase;
+            padding: 5px 12px;
+            border-radius: 8px;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body class="text-slate-300 font-sans antialiased bg-slate-950 min-h-screen flex flex-col">
+
+    <!-- DYNAMIC GLOBAL HEADER CANVAS -->
+    <div class="w-full bg-slate-900 border-b border-slate-800 sticky top-0 h-16 z-[100] flex items-center">
+        <header id="global-header" class="w-full bg-slate-900 border-b border-slate-800 text-white"></header>
+    </div>
+
+    <!-- FULL WIDTH IMAGE HERO BANNER -->
+    <div class="relative w-full h-64 md:h-80 bg-slate-900 overflow-hidden border-b border-slate-800">
+        <img src="assets/images/banners/default_stage.jpg" class="w-full h-full object-cover opacity-25 brightness-70 contrast-125 mix-blend-luminosity" alt="Rack Raid Course Landscape">
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
+        <div class="absolute bottom-6 left-0 right-0">
+            <div class="max-w-[1400px] mx-auto w-full px-6">
+                <h1 class="text-3xl md:text-5xl font-black text-white uppercase tracking-tight">About the Archive</h1>
+                <p class="text-emerald-400 font-mono text-xs md:text-sm font-semibold tracking-wider uppercase mt-2">Inside the Historical Course Guide & Analytics Engine</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT HUB -->
+    <div class="w-full flex-grow py-10 px-6">
+        <main class="max-w-[1400px] mx-auto w-full grid grid-cols-1 lg:grid-cols-3 gap-8">
+            
+            <!-- LEFT COLUMN: INTRO, ACCURACY & AUTHOR (WIDE) -->
+            <div class="lg:col-span-2 flex flex-col gap-8">
+                
+                <!-- Project Introduction -->
+                <section class="about-card p-6 md:p-8 rounded-xl shadow-xl">
+                    <h2 class="text-xl md:text-2xl font-bold text-white tracking-tight border-b border-slate-700/50 pb-3 mb-4 uppercase">The Project</h2>
+                    <p class="text-slate-300 leading-relaxed mb-4">
+                        The Rack Raid Archive is a dedicated historical repository built to preserve, standardise, and analyse running datasets from the traditional 14-stage regional relay. By collecting data tracking thousands of individual historical performances spanning from 2011 to 2026, this archive acts as an interactive hall of fame.
+                    </p>
+                    <p class="text-slate-300 leading-relaxed">
+                        Whether you are researching an all-time course benchmark, reviewing your club's historical footprint, or tracking your own event longevity over the years, the platform dynamically groups rows, calculates multi-era running metrics, and visualises completion trends to bring regional racing history to life.
+                    </p>
+                </section>
+
+                <!-- About the Author -->
+                <section class="about-card p-6 md:p-8 rounded-xl shadow-xl border-l-4 border-emerald-500">
+                    <h2 class="text-xl md:text-2xl font-bold text-white tracking-tight border-b border-slate-700/50 pb-3 mb-4 uppercase">About the Author</h2>
+                    <p class="text-slate-300 leading-relaxed mb-4">
+                        This analytical archive engine was built and is maintained by a proud member of **Parc Bryn Bach Running Club**. 
+                    </p>
+                    <p class="text-slate-300 leading-relaxed">
+                        When not diving into messy relational data rows or mapping historic course variations, you will likely spot me out along the course loops—lurking around the various stages with a camera, capturing race action and photographing the runners as they tackle the circuit. 
+                    </p>
+                </section>
+
+                <!-- Data Integrity Notice -->
+                <section class="about-card p-6 md:p-8 rounded-xl shadow-xl border-l-4 border-amber-500/60">
+                    <h3 class="text-lg font-bold text-white tracking-tight mb-3 uppercase flex items-center gap-2 text-amber-400">
+                        ⚠️ Data Accuracy & Historic Anomalies
+                    </h3>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-3">
+                        The metrics presented within this platform are aggregated completely from historical race results spreadsheets compiled over several decades. While the dataset is largely accurate and structurally sound, it may contain historical clerical mistakes, missing entries, or layout formatting variants inherited from the original source files.
+                    </p>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        To maintain historical transparency, structural data anomalies (such as missing runner classifications, blank fields, or placeholder values) have been programmatically bypassed or filtered where appropriate to preserve the integrity of the master all-time leaderboard rankings.
+                    </p>
+                </section>
+            </div>
+
+            <!-- RIGHT COLUMN: LEGEND & DEFINITIONS -->
+            <div class="flex flex-col gap-6">
+                
+                <!-- KEY LEGEND PANEL -->
+                <section class="about-card p-6 rounded-xl shadow-xl flex flex-col gap-6">
+                    <h2 class="text-base font-bold text-white tracking-tight uppercase border-b border-slate-700/50 pb-2">Athlete Profile Badges</h2>
+                    
+                    <!-- Athlete Page Badges Nested Stack Layout -->
+                    <div>
+                        <h4 class="text-xs font-bold uppercase text-slate-400 tracking-wider mb-4">Status Achievements</h4>
+                        <div class="flex flex-col gap-5">
+                            
+                            <!-- Rack Raid Master Block -->
+                            <div class="flex flex-col items-start gap-1.5">
+                                <div class="athlete-panel-badge badge-master">
+                                    <span>🏆</span> Rack Raid Master
+                                </div>
+                                <p class="text-xs text-slate-400 leading-relaxed pl-1">
+                                    Displayed if the athlete has claimed at least one outright 1st place individual stage victory in event history.
+                                </p>
+                            </div>
+                            
+                            <!-- Podium Finisher Block -->
+                            <div class="flex flex-col items-start gap-1.5">
+                                <div class="athlete-panel-badge badge-podium">
+                                    <span>🥈</span> Podium Finisher
+                                </div>
+                                <p class="text-xs text-slate-400 leading-relaxed pl-1">
+                                    Earned by athletes securing a top-3 regional stage finish inside the historic database records.
+                                </p>
+                            </div>
+                            
+                            <!-- Stage Veteran Block -->
+                            <div class="flex flex-col items-start gap-1.5">
+                                <div class="athlete-panel-badge badge-veteran">
+                                    <span>🗺️</span> Stage Veteran
+                                </div>
+                                <p class="text-xs text-slate-400 leading-relaxed pl-1">
+                                    Awarded to athletes showing high commitment through 5 or more distinct stage appearances across eras.
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <hr class="border-slate-700/50">
+
+                    <!-- Course Records & Multiple Breakers -->
+                    <div>
+                        <h4 class="text-xs font-bold uppercase text-slate-400 tracking-wider mb-2">Course Record Logic</h4>
+                        <div class="flex flex-col gap-3">
+                            <div class="flex items-center gap-2">
+                                <span class="text-[11px] bg-sky-900/40 text-sky-400 border border-sky-500/30 px-2 py-0.5 rounded font-semibold">Course Record: 00:31:14</span>
+                            </div>
+                            <p class="text-xs text-slate-400 leading-relaxed">
+                                Each stage displays an all-time standing course record. If a runner breaks or matches this target during an edition of the race, their individual time card turns emerald green:
+                            </p>
+                            <div class="my-1">
+                                <span class="bg-emerald-950/80 border border-emerald-500 text-emerald-400 px-2 py-1 rounded font-mono text-xs font-bold">00:29:16</span>
+                            </div>
+                            <blockquote class="text-[11px] text-slate-400 italic bg-slate-900/50 border-l-2 border-emerald-500 p-2 rounded">
+                                <strong>Note on Multiple Record Badges:</strong> If multiple high-performance runners break the existing baseline course record within the exact same year, <strong>all of them</strong> will feature the record-breaker highlight next to their time for that year, as they all surpassed the historical benchmark.
+                            </blockquote>
+                        </div>
+                    </div>
+
+                    <hr class="border-slate-700/50">
+
+                    <!-- Team Colours -->
+                    <div>
+                        <h4 class="text-xs font-bold uppercase text-slate-400 tracking-wider mb-2">Authentic Club Colours</h4>
+                        <p class="text-xs text-slate-400 leading-relaxed mb-3">
+                            Profiles utilize distinct design tokens mapped directly to traditional kits worn across South Wales:
+                        </p>
+                        <div class="grid grid-cols-2 gap-2 text-center text-[11px] font-bold font-mono">
+                            <div class="p-1.5 rounded" style="background-color: #03632A; color: #978430; border: 1px solid rgba(151,132,48,0.4)">Parc Bryn Bach</div>
+                            <div class="p-1.5 rounded" style="background-color: #5A9BD4; color: #C4B605; border: 1px solid rgba(196,182,5,0.4)">Chepstow</div>
+                            <div class="p-1.5 rounded" style="background-color: #AB0851; color: #ffffff;">Lliswerry</div>
+                            <div class="p-1.5 rounded" style="background-color: #E41F4C; color: #ffffff;">Pont-y-pwl</div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- DYNAMIC GLOBAL FOOTER CANVAS -->
+    <footer id="global-footer" class="bg-slate-900 text-slate-400 text-xs py-6 border-t border-slate-800 mt-auto"></footer>
+
+</body>
+</html>
