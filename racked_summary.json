@@ -1,0 +1,1138 @@
+{
+  "meta": {
+    "totalRecordsProcessed": 4408,
+    "extractedAt": "2026-07-07T07:22:45.888Z"
+  },
+  "clubLeaderboard": [
+    {
+      "name": "Parc Bryn Bach",
+      "totalWins": 25,
+      "eraProfile": {
+        "2016": 2,
+        "2019": 1,
+        "2023": 8,
+        "2024": 3,
+        "2025": 7,
+        "2026": 4
+      }
+    },
+    {
+      "name": "Chepstow",
+      "totalWins": 24,
+      "eraProfile": {
+        "2012": 3,
+        "2013": 5,
+        "2014": 3,
+        "2016": 5,
+        "2018": 4,
+        "2019": 2,
+        "2022": 1,
+        "2025": 1
+      }
+    },
+    {
+      "name": "Lliswerry",
+      "totalWins": 23,
+      "eraProfile": {
+        "2012": 1,
+        "2013": 2,
+        "2014": 1,
+        "2016": 1,
+        "2017": 1,
+        "2018": 2,
+        "2019": 2,
+        "2022": 4,
+        "2023": 2,
+        "2024": 4,
+        "2026": 3
+      }
+    },
+    {
+      "name": "Pontypridd",
+      "totalWins": 10,
+      "eraProfile": {
+        "2013": 1,
+        "2014": 3,
+        "2024": 2,
+        "2025": 3,
+        "2026": 1
+      }
+    },
+    {
+      "name": "Pont-y-pwl & District",
+      "totalWins": 9,
+      "eraProfile": {
+        "2014": 4,
+        "2016": 2,
+        "2018": 2,
+        "2022": 1
+      }
+    },
+    {
+      "name": "Islwyn",
+      "totalWins": 7,
+      "eraProfile": {
+        "2012": 2,
+        "2014": 1,
+        "2017": 1,
+        "2018": 1,
+        "2019": 1,
+        "2022": 1
+      }
+    },
+    {
+      "name": "San Domenico",
+      "totalWins": 6,
+      "eraProfile": {
+        "2012": 2,
+        "2018": 1,
+        "2019": 1,
+        "2025": 1,
+        "2026": 1
+      }
+    },
+    {
+      "name": "Fairwater",
+      "totalWins": 6,
+      "eraProfile": {
+        "2012": 5,
+        "2022": 1
+      }
+    },
+    {
+      "name": "Fairwater Cwmbran",
+      "totalWins": 5,
+      "eraProfile": {
+        "2014": 1,
+        "2016": 1,
+        "2018": 1,
+        "2019": 1,
+        "2022": 1
+      }
+    },
+    {
+      "name": "FAIRWATER (A)",
+      "totalWins": 5,
+      "eraProfile": {
+        "2011": 5
+      }
+    },
+    {
+      "name": "Aberdare Valley",
+      "totalWins": 4,
+      "eraProfile": {
+        "2019": 3,
+        "2023": 1
+      }
+    },
+    {
+      "name": "Pont-y-pwl & District A Pont-y-pwl & District",
+      "totalWins": 3,
+      "eraProfile": {
+        "2017": 3
+      }
+    },
+    {
+      "name": "Fairwater Runners Cwmbran",
+      "totalWins": 3,
+      "eraProfile": {
+        "2013": 3
+      }
+    },
+    {
+      "name": "GRIFFITHSTOWN (A)",
+      "totalWins": 3,
+      "eraProfile": {
+        "2011": 3
+      }
+    },
+    {
+      "name": "Neath",
+      "totalWins": 2,
+      "eraProfile": {
+        "2026": 2
+      }
+    },
+    {
+      "name": "Brackla",
+      "totalWins": 2,
+      "eraProfile": {
+        "2018": 1,
+        "2026": 1
+      }
+    },
+    {
+      "name": "Griffithstown",
+      "totalWins": 2,
+      "eraProfile": {
+        "2022": 1,
+        "2024": 1
+      }
+    },
+    {
+      "name": "Aberdare",
+      "totalWins": 2,
+      "eraProfile": {
+        "2022": 1,
+        "2024": 1
+      }
+    },
+    {
+      "name": "Les Croupiers",
+      "totalWins": 2,
+      "eraProfile": {
+        "2018": 1,
+        "2024": 1
+      }
+    },
+    {
+      "name": "Caerleon",
+      "totalWins": 2,
+      "eraProfile": {
+        "2016": 1,
+        "2023": 1
+      }
+    },
+    {
+      "name": "Pont-y-pwl",
+      "totalWins": 2,
+      "eraProfile": {
+        "2022": 2
+      }
+    },
+    {
+      "name": "Torfaen",
+      "totalWins": 2,
+      "eraProfile": {
+        "2019": 2
+      }
+    },
+    {
+      "name": "Chepstow A Chepstow",
+      "totalWins": 2,
+      "eraProfile": {
+        "2017": 2
+      }
+    },
+    {
+      "name": "Fairwater Cwmbran A Chepstow",
+      "totalWins": 2,
+      "eraProfile": {
+        "2017": 2
+      }
+    },
+    {
+      "name": "Pont-y-pwl & District A Chepstow",
+      "totalWins": 2,
+      "eraProfile": {
+        "2017": 2
+      }
+    },
+    {
+      "name": "BRACKLA",
+      "totalWins": 2,
+      "eraProfile": {
+        "2011": 2
+      }
+    },
+    {
+      "name": "Chepstow 'A'",
+      "totalWins": 1,
+      "eraProfile": {
+        "2026": 1
+      }
+    },
+    {
+      "name": "Builth",
+      "totalWins": 1,
+      "eraProfile": {
+        "2026": 1
+      }
+    },
+    {
+      "name": "Bridgend",
+      "totalWins": 1,
+      "eraProfile": {
+        "2025": 1
+      }
+    },
+    {
+      "name": "Ogmore",
+      "totalWins": 1,
+      "eraProfile": {
+        "2024": 1
+      }
+    },
+    {
+      "name": "Ogmore Phoenix",
+      "totalWins": 1,
+      "eraProfile": {
+        "2023": 1
+      }
+    },
+    {
+      "name": "Les Croupiers A Pont-y-pwl & District",
+      "totalWins": 1,
+      "eraProfile": {
+        "2017": 1
+      }
+    },
+    {
+      "name": "Griffithstown A Chepstow",
+      "totalWins": 1,
+      "eraProfile": {
+        "2017": 1
+      }
+    },
+    {
+      "name": "Porthcawl",
+      "totalWins": 1,
+      "eraProfile": {
+        "2016": 1
+      }
+    },
+    {
+      "name": "Usk",
+      "totalWins": 1,
+      "eraProfile": {
+        "2013": 1
+      }
+    },
+    {
+      "name": "ISLWYN (A)",
+      "totalWins": 1,
+      "eraProfile": {
+        "2011": 1
+      }
+    },
+    {
+      "name": "PONTYPRIDD (A)",
+      "totalWins": 1,
+      "eraProfile": {
+        "2011": 1
+      }
+    },
+    {
+      "name": "CHEPSTOW (A)",
+      "totalWins": 1,
+      "eraProfile": {
+        "2011": 1
+      }
+    }
+  ],
+  "yearByYearSpread": [
+    {
+      "year": 2026,
+      "totalRows": 420,
+      "uniqueStageWinnersCount": 8
+    },
+    {
+      "year": 2025,
+      "totalRows": 390,
+      "uniqueStageWinnersCount": 5
+    },
+    {
+      "year": 2024,
+      "totalRows": 390,
+      "uniqueStageWinnersCount": 7
+    },
+    {
+      "year": 2023,
+      "totalRows": 366,
+      "uniqueStageWinnersCount": 5
+    },
+    {
+      "year": 2022,
+      "totalRows": 351,
+      "uniqueStageWinnersCount": 9
+    },
+    {
+      "year": 2019,
+      "totalRows": 356,
+      "uniqueStageWinnersCount": 8
+    },
+    {
+      "year": 2018,
+      "totalRows": 360,
+      "uniqueStageWinnersCount": 8
+    },
+    {
+      "year": 2017,
+      "totalRows": 324,
+      "uniqueStageWinnersCount": 8
+    },
+    {
+      "year": 2016,
+      "totalRows": 283,
+      "uniqueStageWinnersCount": 7
+    },
+    {
+      "year": 2014,
+      "totalRows": 326,
+      "uniqueStageWinnersCount": 6
+    },
+    {
+      "year": 2013,
+      "totalRows": 296,
+      "uniqueStageWinnersCount": 5
+    },
+    {
+      "year": 2012,
+      "totalRows": 286,
+      "uniqueStageWinnersCount": 5
+    },
+    {
+      "year": 2011,
+      "totalRows": 234,
+      "uniqueStageWinnersCount": 6
+    }
+  ],
+  "stageProfiles": [
+    {
+      "stageNum": 1,
+      "winners": [
+        {
+          "year": 2026,
+          "club": "Neath"
+        },
+        {
+          "year": 2025,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2024,
+          "club": "Griffithstown"
+        },
+        {
+          "year": 2023,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2022,
+          "club": "Pont-y-pwl"
+        },
+        {
+          "year": 2019,
+          "club": "Aberdare Valley"
+        },
+        {
+          "year": 2018,
+          "club": "Fairwater Cwmbran"
+        },
+        {
+          "year": 2017,
+          "club": "Lliswerry"
+        },
+        {
+          "year": 2016,
+          "club": "Caerleon"
+        },
+        {
+          "year": 2014,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2013,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2012,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2011,
+          "club": "GRIFFITHSTOWN (A)"
+        }
+      ]
+    },
+    {
+      "stageNum": 2,
+      "winners": [
+        {
+          "year": 2026,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2025,
+          "club": "Pontypridd"
+        },
+        {
+          "year": 2024,
+          "club": "Pontypridd"
+        },
+        {
+          "year": 2023,
+          "club": "Aberdare Valley"
+        },
+        {
+          "year": 2022,
+          "club": "Aberdare"
+        },
+        {
+          "year": 2019,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2018,
+          "club": "Islwyn"
+        },
+        {
+          "year": 2017,
+          "club": "Pont-y-pwl & District A Pont-y-pwl & District"
+        },
+        {
+          "year": 2016,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2014,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2012,
+          "club": "Fairwater"
+        },
+        {
+          "year": 2011,
+          "club": "FAIRWATER (A)"
+        }
+      ]
+    },
+    {
+      "stageNum": 3,
+      "winners": [
+        {
+          "year": 2026,
+          "club": "Pontypridd"
+        },
+        {
+          "year": 2025,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2024,
+          "club": "Aberdare"
+        },
+        {
+          "year": 2023,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2022,
+          "club": "Fairwater"
+        },
+        {
+          "year": 2019,
+          "club": "Lliswerry"
+        },
+        {
+          "year": 2018,
+          "club": "Brackla"
+        },
+        {
+          "year": 2017,
+          "club": "Pont-y-pwl & District A Pont-y-pwl & District"
+        },
+        {
+          "year": 2016,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2014,
+          "club": "Pontypridd"
+        },
+        {
+          "year": 2013,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2012,
+          "club": "San Domenico"
+        },
+        {
+          "year": 2011,
+          "club": "FAIRWATER (A)"
+        }
+      ]
+    },
+    {
+      "stageNum": 4,
+      "winners": [
+        {
+          "year": 2026,
+          "club": "Neath"
+        },
+        {
+          "year": 2025,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2024,
+          "club": "Lliswerry"
+        },
+        {
+          "year": 2023,
+          "club": "Lliswerry"
+        },
+        {
+          "year": 2022,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2019,
+          "club": "Lliswerry"
+        },
+        {
+          "year": 2018,
+          "club": "Les Croupiers"
+        },
+        {
+          "year": 2017,
+          "club": "Les Croupiers A Pont-y-pwl & District"
+        },
+        {
+          "year": 2016,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2014,
+          "club": "Pont-y-pwl & District"
+        },
+        {
+          "year": 2013,
+          "club": "Lliswerry"
+        },
+        {
+          "year": 2012,
+          "club": "Fairwater"
+        },
+        {
+          "year": 2011,
+          "club": "ISLWYN (A)"
+        }
+      ]
+    },
+    {
+      "stageNum": 5,
+      "winners": [
+        {
+          "year": 2026,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2025,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2024,
+          "club": "Lliswerry"
+        },
+        {
+          "year": 2023,
+          "club": "Lliswerry"
+        },
+        {
+          "year": 2022,
+          "club": "Lliswerry"
+        },
+        {
+          "year": 2019,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2018,
+          "club": "San Domenico"
+        },
+        {
+          "year": 2017,
+          "club": "Chepstow A Chepstow"
+        },
+        {
+          "year": 2016,
+          "club": "Pont-y-pwl & District"
+        },
+        {
+          "year": 2014,
+          "club": "Lliswerry"
+        },
+        {
+          "year": 2013,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2012,
+          "club": "San Domenico"
+        },
+        {
+          "year": 2011,
+          "club": "FAIRWATER (A)"
+        }
+      ]
+    },
+    {
+      "stageNum": 6,
+      "winners": [
+        {
+          "year": 2026,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2025,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2024,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2023,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2022,
+          "club": "Pont-y-pwl"
+        },
+        {
+          "year": 2019,
+          "club": "Torfaen"
+        },
+        {
+          "year": 2018,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2017,
+          "club": "Pont-y-pwl & District A Pont-y-pwl & District"
+        },
+        {
+          "year": 2016,
+          "club": "Fairwater Cwmbran"
+        },
+        {
+          "year": 2014,
+          "club": "Pont-y-pwl & District"
+        },
+        {
+          "year": 2013,
+          "club": "Fairwater Runners Cwmbran"
+        },
+        {
+          "year": 2012,
+          "club": "Fairwater"
+        },
+        {
+          "year": 2011,
+          "club": "BRACKLA"
+        }
+      ]
+    },
+    {
+      "stageNum": 7,
+      "winners": [
+        {
+          "year": 2026,
+          "club": "Lliswerry"
+        },
+        {
+          "year": 2025,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2024,
+          "club": "Lliswerry"
+        },
+        {
+          "year": 2023,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2022,
+          "club": "Lliswerry"
+        },
+        {
+          "year": 2019,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2018,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2017,
+          "club": "Fairwater Cwmbran A Chepstow"
+        },
+        {
+          "year": 2016,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2014,
+          "club": "Pontypridd"
+        },
+        {
+          "year": 2013,
+          "club": "Usk"
+        },
+        {
+          "year": 2012,
+          "club": "Islwyn"
+        },
+        {
+          "year": 2011,
+          "club": "GRIFFITHSTOWN (A)"
+        }
+      ]
+    },
+    {
+      "stageNum": 8,
+      "winners": [
+        {
+          "year": 2026,
+          "club": "Chepstow 'A'"
+        },
+        {
+          "year": 2025,
+          "club": "San Domenico"
+        },
+        {
+          "year": 2024,
+          "club": "Ogmore"
+        },
+        {
+          "year": 2023,
+          "club": "Ogmore Phoenix"
+        },
+        {
+          "year": 2022,
+          "club": "Pont-y-pwl & District"
+        },
+        {
+          "year": 2019,
+          "club": "Aberdare Valley"
+        },
+        {
+          "year": 2018,
+          "club": "Pont-y-pwl & District"
+        },
+        {
+          "year": 2017,
+          "club": "Fairwater Cwmbran A Chepstow"
+        },
+        {
+          "year": 2016,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2014,
+          "club": "Pont-y-pwl & District"
+        },
+        {
+          "year": 2013,
+          "club": "Fairwater Runners Cwmbran"
+        },
+        {
+          "year": 2012,
+          "club": "Fairwater"
+        },
+        {
+          "year": 2011,
+          "club": "FAIRWATER (A)"
+        }
+      ]
+    },
+    {
+      "stageNum": 9,
+      "winners": [
+        {
+          "year": 2026,
+          "club": "San Domenico"
+        },
+        {
+          "year": 2025,
+          "club": "Pontypridd"
+        },
+        {
+          "year": 2024,
+          "club": "Pontypridd"
+        },
+        {
+          "year": 2023,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2022,
+          "club": "Fairwater Cwmbran"
+        },
+        {
+          "year": 2019,
+          "club": "Aberdare Valley"
+        },
+        {
+          "year": 2018,
+          "club": "Lliswerry"
+        },
+        {
+          "year": 2017,
+          "club": "Pont-y-pwl & District A Chepstow"
+        },
+        {
+          "year": 2016,
+          "club": "Porthcawl"
+        },
+        {
+          "year": 2014,
+          "club": "Fairwater Cwmbran"
+        },
+        {
+          "year": 2013,
+          "club": "Pontypridd"
+        },
+        {
+          "year": 2012,
+          "club": "Islwyn"
+        },
+        {
+          "year": 2011,
+          "club": "PONTYPRIDD (A)"
+        }
+      ]
+    },
+    {
+      "stageNum": 10,
+      "winners": [
+        {
+          "year": 2026,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2025,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2024,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2023,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2022,
+          "club": "Lliswerry"
+        },
+        {
+          "year": 2019,
+          "club": "Fairwater Cwmbran"
+        },
+        {
+          "year": 2018,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2017,
+          "club": "Chepstow A Chepstow"
+        },
+        {
+          "year": 2016,
+          "club": "Pont-y-pwl & District"
+        },
+        {
+          "year": 2014,
+          "club": "Pontypridd"
+        },
+        {
+          "year": 2013,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2012,
+          "club": "Fairwater"
+        },
+        {
+          "year": 2011,
+          "club": "CHEPSTOW (A)"
+        }
+      ]
+    },
+    {
+      "stageNum": 11,
+      "winners": [
+        {
+          "year": 2026,
+          "club": "Lliswerry"
+        },
+        {
+          "year": 2025,
+          "club": "Pontypridd"
+        },
+        {
+          "year": 2024,
+          "club": "Les Croupiers"
+        },
+        {
+          "year": 2023,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2022,
+          "club": "Islwyn"
+        },
+        {
+          "year": 2019,
+          "club": "Torfaen"
+        },
+        {
+          "year": 2018,
+          "club": "Pont-y-pwl & District"
+        },
+        {
+          "year": 2017,
+          "club": "Griffithstown A Chepstow"
+        },
+        {
+          "year": 2016,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2014,
+          "club": "Islwyn"
+        },
+        {
+          "year": 2013,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2012,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2011,
+          "club": "GRIFFITHSTOWN (A)"
+        }
+      ]
+    },
+    {
+      "stageNum": 12,
+      "winners": [
+        {
+          "year": 2026,
+          "club": "Lliswerry"
+        },
+        {
+          "year": 2025,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2024,
+          "club": "Lliswerry"
+        },
+        {
+          "year": 2023,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2022,
+          "club": "Griffithstown"
+        },
+        {
+          "year": 2019,
+          "club": "San Domenico"
+        },
+        {
+          "year": 2018,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2017,
+          "club": "Pont-y-pwl & District A Chepstow"
+        },
+        {
+          "year": 2016,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2014,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2013,
+          "club": "Fairwater Runners Cwmbran"
+        },
+        {
+          "year": 2012,
+          "club": "Chepstow"
+        },
+        {
+          "year": 2011,
+          "club": "FAIRWATER (A)"
+        }
+      ]
+    },
+    {
+      "stageNum": 13,
+      "winners": [
+        {
+          "year": 2026,
+          "club": "Brackla"
+        },
+        {
+          "year": 2025,
+          "club": "Bridgend"
+        },
+        {
+          "year": 2024,
+          "club": "Parc Bryn Bach"
+        },
+        {
+          "year": 2023,
+          "club": "Caerleon"
+        },
+        {
+          "year": 2022,
+          "club": "Lliswerry"
+        },
+        {
+          "year": 2019,
+          "club": "Islwyn"
+        },
+        {
+          "year": 2018,
+          "club": "Lliswerry"
+        },
+        {
+          "year": 2017,
+          "club": "Islwyn"
+        },
+        {
+          "year": 2016,
+          "club": "Lliswerry"
+        },
+        {
+          "year": 2014,
+          "club": "Pont-y-pwl & District"
+        },
+        {
+          "year": 2013,
+          "club": "Lliswerry"
+        },
+        {
+          "year": 2012,
+          "club": "Lliswerry"
+        },
+        {
+          "year": 2011,
+          "club": "BRACKLA"
+        }
+      ]
+    },
+    {
+      "stageNum": 14,
+      "winners": [
+        {
+          "year": 2026,
+          "club": "Builth"
+        }
+      ]
+    }
+  ]
+}

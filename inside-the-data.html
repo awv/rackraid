@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inside the Data — Rack Raid Insights</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Inject Global Layout Logic -->
+    <script src="site-layout.js"></script>
+    <style>
+        body {
+            background-color: #0f172a;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            border: 1px solid #334155;
+        }
+        .content-box h2 {
+            color: #f1f5f9;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #334155;
+            padding-bottom: 0.5rem;
+        }
+        .content-box p {
+            margin-bottom: 1.25rem;
+            line-height: 1.75;
+            color: #cbd5e1;
+        }
+        .content-box blockquote {
+            border-left: 4px solid #10b981;
+            background-color: #1e293b;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            border-radius: 0 0.5rem 0.5rem 0;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body class="text-slate-300 font-sans antialiased pb-16 bg-slate-950">
+
+    <!-- DYNAMIC GLOBAL HEADER CANVAS -->
+    <div id="global-header"></div>
+
+<!-- HERO & BACKGROUND EXTENDER WRAPPER -->
+    <div class="relative bg-slate-900 border-b border-slate-800 overflow-hidden">
+        <!-- Subtle background grid decorative accent -->
+        <div class="absolute inset-0 opacity-10 bg-[linear-gradient(to_right,#334155_1px,transparent_1px),linear-gradient(to_bottom,#334155_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
+        
+        <!-- Header Text Content -->
+        <header class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-16 sm:pt-24 pb-28">
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 mb-4">
+                <span class="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
+                Historical Data Feature
+            </span>
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-slate-100 tracking-tight">
+                The Depth vs. Dominance Paradox
+            </h1>
+            <p class="mt-3 max-w-2xl mx-auto text-base sm:text-lg text-slate-400">
+                An archival deep-dive into Rack Raid history, exploring the fine line between individual leg speed and relentless team depth.
+            </p>
+        </header>
+    </div>
+
+    <!-- VISUAL STAT CALLOUTS (Pulled up 50% into the dark background block) -->
+    <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 -mt-20 relative z-10">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            
+            <div class="stat-card p-6 rounded-xl shadow-xl flex flex-col justify-between">
+                <div>
+                    <p class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-1">Most Stage Wins</p>
+                    <h3 class="text-2xl font-black text-emerald-400">Parc Bryn Bach</h3>
+                </div>
+                <p class="text-sm font-mono text-slate-500 mt-4 border-t border-slate-800/60 pt-2">25 Stage Victories</p>
+            </div>
+
+            <div class="stat-card p-6 rounded-xl shadow-xl flex flex-col justify-between">
+                <div>
+                    <p class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-1">Most Series Titles</p>
+                    <h3 class="text-2xl font-black text-indigo-400">Chepstow Harriers</h3>
+                </div>
+                <p class="text-sm font-mono text-slate-500 mt-4 border-t border-slate-800/60 pt-2">13 Championship Shields</p>
+            </div>
+
+            <div class="stat-card p-6 rounded-xl shadow-xl flex flex-col justify-between">
+                <div>
+                    <p class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-1">Record Parity Era</p>
+                    <h3 class="text-2xl font-black text-sky-400">9 Unique Clubs</h3>
+                </div>
+                <p class="text-sm font-mono text-slate-500 mt-4 border-t border-slate-800/60 pt-2">Shared Wins in 2022</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- REPORT NARRATIVE ARTICLE -->
+    <main class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 content-box text-base">
+        
+        <p class="text-lg text-slate-400 font-medium leading-relaxed italic">
+            For the club runners of South Wales, the annual Rack Raid relay is more than a race; it is a complex mathematical puzzle spread across the hills and valleys. Looking through the data archive reveals a fascinating analytical phenomenon: the Depth vs. Dominance Paradox.
+        </p>
+
+        <h2>1. The Head-to-Head: Parc Bryn Bach vs. Chepstow</h2>
+        <p>
+            When runners check the all-time leaderboards, they frequently expect a linear relationship: the team that crosses the line first on the most individual legs should be the team lifting the championship shield. However, the database tells a completely different story.
+        </p>
+        <p>
+            Looking at the modern era stats, <strong>Parc Bryn Bach</strong> leads the region with 25 stage victories, closely pursued by <strong>Chepstow Harriers</strong> at 24, and <strong>Lliswerry Runners</strong> right behind at 23. Yet, looking at the all-time registry of Series Winners, Chepstow has taken home 13 overall titles, while Parc Bryn Bach holds 2.
+        </p>
+        <p>
+            This is where context changes everything. Chepstow Harriers has been a cornerstone of the Rack Raid series since its inception in 1993. Parc Bryn Bach, by contrast, didn't enter the series until 2014—giving Chepstow a massive 21-year head start. The fact that a club with significantly fewer campaigns under its belt has already overtaken the traditional powerhouse in modern stage wins highlights an incredible shift in regional running power.
+        </p>
+
+        <h2>2. Speed Specialists vs. The Packing Strategy</h2>
+        <p>
+            The explanation for this gap lies entirely in how a title is won compared to a stage win. The overall series winner is determined solely by cumulative time across the entire day. Winning a stage requires just one phenomenal athlete; winning a championship requires thirteen or fourteen mistake-free performances.
+        </p>
+        <p>
+            Parc Bryn Bach's trajectory over the last decade perfectly mirrors the club's exponential growth. For their first few years in the series, the club was finding its footing on the Rack Raid route. But over the last four or five years, an influx of top-tier quality runners has turned the squad into an aggressive, hyper-concentrated force. 
+        </p>
+        <p>
+            When they have a winning squad, they don't just win legs—they annex them, claiming a staggering 8 stage wins on a single day in 2023, and another 7 in 2025. Their elite modern roster targets specific terrain and runs away from the field. 
+        </p>
+        <p>
+            Chepstow Harriers operates on an entirely different historical tactical wavelength: relentless club depth. A title-winning Chepstow squad frequently operates without winning the majority of the stages. Where Chepstow traditionally wins the Rack Raid is in positions 2 through 5. By consistently avoiding weak legs and keeping their runners packed tightly at the front, they steadily chip away at the cumulative clock.
+        </p>
+
+        <h2>3. Terrors of the Terrain: Individual Stage Profiles</h2>
+        <p>
+            The paradox becomes even clearer when we look at the historical data for specific stages, showing how certain clubs lock down specific territories.
+        </p>
+        <p>
+            Take <strong>Stage 6</strong>, which Parc Bryn Bach has turned into an absolute fortress, capturing four consecutive victories on that single leg from 2023 to 2026. Meanwhile, the devastating concluding climb of <strong>Stage 13</strong> up to Castell y Bwch belongs entirely to Lliswerry Runners, who claimed the crown in 2012, 2013, 2016, 2018, and 2022.
+        </p>
+        <p>
+            In contrast, <strong>Stage 8</strong>—traditionally the longest stage of the relay—acts as the great leveler. Over a 13-year span, it has seen an incredible variety of winners, including Fairwater, Chepstow, Pont-y-pwl, Ogmore Phoenix, and San Domenico. Because the long miles expose any structural gaps, Stage 8 frequently resets the cumulative leaderboards.
+        </p>
+
+        <h2>4. The Changing Landscape: The Rise of Parity</h2>
+        <p>
+            Looking at the yearly distribution reveals another major trend: the modern era has become fiercely competitive. In 2012 and 2013, a closed loop of just 5 unique clubs shared all available stage wins between them. If you weren't running for a powerhouse super-club, your chances of a leg victory were remarkably slim.
+        </p>
+        <p>
+            Fast forward to the modern era, and that monopoly has completely collapsed.
+        </p>
+
+        <!-- PARITY METRIC DATA TABLE -->
+        <div class="my-6 overflow-hidden border border-slate-800 rounded-lg shadow-lg max-w-md mx-auto">
+            <table class="min-w-full divide-y divide-slate-800 bg-slate-900/50 text-sm">
+                <thead class="bg-slate-900">
+                    <tr>
+                        <th scope="col" class="px-4 py-2.5 text-left font-bold text-slate-200 uppercase tracking-wide">Year</th>
+                        <th scope="col" class="px-4 py-2.5 text-center font-bold text-slate-200 uppercase tracking-wide">Total Field Rows</th>
+                        <th scope="col" class="px-4 py-2.5 text-right font-bold text-slate-200 uppercase tracking-wide">Unique Stage Winners</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-slate-800 font-mono text-slate-300">
+                    <tr class="hover:bg-slate-800/30 transition">
+                        <td class="px-4 py-2 text-left font-medium">2012</td>
+                        <td class="px-4 py-2 text-center text-slate-400">286</td>
+                        <td class="px-4 py-2 text-right text-emerald-400 font-bold">5 Clubs</td>
+                    </tr>
+                    <tr class="hover:bg-slate-800/30 transition">
+                        <td class="px-4 py-2 text-left font-medium">2013</td>
+                        <td class="px-4 py-2 text-center text-slate-400">296</td>
+                        <td class="px-4 py-2 text-right text-emerald-400 font-bold">5 Clubs</td>
+                    </tr>
+                    <tr class="hover:bg-slate-800/30 transition">
+                        <td class="px-4 py-2 text-left font-medium">2019</td>
+                        <td class="px-4 py-2 text-center text-slate-400">356</td>
+                        <td class="px-4 py-2 text-right text-sky-400 font-bold">8 Clubs</td>
+                    </tr>
+                    <tr class="hover:bg-slate-800/30 transition">
+                        <td class="px-4 py-2 text-left font-medium">2022</td>
+                        <td class="px-4 py-2 text-center text-slate-400">351</td>
+                        <td class="px-4 py-2 text-right text-sky-400 font-bold text-emerald-400">9 Clubs</td>
+                    </tr>
+                    <tr class="hover:bg-slate-800/30 transition">
+                        <td class="px-4 py-2 text-left font-medium">2026</td>
+                        <td class="px-4 py-2 text-center text-slate-400">420</td>
+                        <td class="px-4 py-2 text-right text-sky-400 font-bold">8 Clubs</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p>
+            In 2022, a record-breaking 9 unique clubs claimed at least one individual stage win. By 2026, with the field expanding to a massive 420 row entries, 8 unique clubs took home a stage title, including breakthrough wins for newer contingents like Neath and Builth. This tells us that speed is no longer concentrated in just two or three powerhouse super-clubs; it is distributed across the entire region.
+        </p>
+
+        <blockquote>
+            "If you want to win individual stage titles, find speed specialists and let them hunt for glory on their favorite legs. But if you want your club's name engraved on the historic championship shield, you don't need a lineup of heroes—you need an unbreakable chain of depth."
+        </blockquote>
+
+    </main>
+
+    <!-- DYNAMIC GLOBAL FOOTER CANVAS -->
+    <footer id="global-footer" class="mt-16 border-t border-slate-800 bg-slate-900 py-8 text-xs text-slate-500"></footer>
+
+</body>
+</html>
