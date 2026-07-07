@@ -19367,9 +19367,9 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 1,
-    "name": "Richard JOHNSON",
-    "club": "Pont-y-pwl & District",
-    "time": "01:25:08"
+    "name": "Jacob Tasker",
+    "club": "Ogmore A",
+    "time": "01:17:32"
   },
   {
     "year": 2022,
@@ -19378,9 +19378,9 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 2,
-    "name": "Matt STOTT",
-    "club": "Chepstow A",
-    "time": "01:26:59"
+    "name": "Richard Jones",
+    "club": "Lliswerry A",
+    "time": "01:22:56"
   },
   {
     "year": 2022,
@@ -19389,9 +19389,9 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 3,
-    "name": "Daryll BARNBY",
-    "club": "Fairwater Cwmbran A",
-    "time": "01:29:13"
+    "name": "Sean Taylor",
+    "club": "Griffithstown A",
+    "time": "01:26:15"
   },
   {
     "year": 2022,
@@ -19400,9 +19400,9 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 4,
-    "name": "Sam RYALL",
-    "club": "Pontypridd A",
-    "time": "01:30:39"
+    "name": "Owen Staddon",
+    "club": "Caldicot A",
+    "time": "01:30:20"
   },
   {
     "year": 2022,
@@ -19411,9 +19411,9 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 5,
-    "name": "Ben WILLS",
-    "club": "Spirit of Monmouth A",
-    "time": "01:32:12"
+    "name": "Jonathan Carter",
+    "club": "Chepstow A",
+    "time": "01:31:24"
   },
   {
     "year": 2022,
@@ -19422,9 +19422,9 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 6,
-    "name": "Phil BRISTOW",
-    "club": "San Domenico B",
-    "time": "01:32:26"
+    "name": "David Hazell",
+    "club": "Caerphilly A",
+    "time": "01:32:35"
   },
   {
     "year": 2022,
@@ -19433,9 +19433,9 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 7,
-    "name": "Daman JUKES",
-    "club": "Parc Bryn Bach A",
-    "time": "01:33:54"
+    "name": "Adrian Lewis",
+    "club": "Aberdare A",
+    "time": "01:34:21"
   },
   {
     "year": 2022,
@@ -19444,9 +19444,9 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 8,
-    "name": "Alun KING",
-    "club": "Lliswerry A",
-    "time": "01:37:00"
+    "name": "Paul Josua",
+    "club": "San Domenico A",
+    "time": "01:37:49"
   },
   {
     "year": 2022,
@@ -19455,9 +19455,9 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 9,
-    "name": "Mike HARRIS",
-    "club": "Caerleon A",
-    "time": "01:37:30"
+    "name": "Richard Price",
+    "club": "Parc Bryn Bach A",
+    "time": "01:42:27"
   },
   {
     "year": 2022,
@@ -19466,9 +19466,9 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 10,
-    "name": "Paul HILL",
-    "club": "Pegasus A",
-    "time": "01:38:00"
+    "name": "Colin Wilmott",
+    "club": "Griffithstown B",
+    "time": "01:43:02"
   },
   {
     "year": 2022,
@@ -19477,9 +19477,9 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 11,
-    "name": "Gerry GORMLEY",
-    "club": "Griffithstown A",
-    "time": "01:39:25"
+    "name": "John Keeble",
+    "club": "Pont-y-pwl A",
+    "time": "01:43:50"
   },
   {
     "year": 2022,
@@ -19488,9 +19488,9 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 12,
-    "name": "Stephen POOL",
-    "club": "Rhondda Valley A",
-    "time": "01:41:11"
+    "name": "Ian Davies",
+    "club": "Caerleon A",
+    "time": "01:44:24"
   },
   {
     "year": 2022,
@@ -19499,9 +19499,9 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 13,
-    "name": "Gareth JONES",
-    "club": "Usk A",
-    "time": "01:41:19"
+    "name": "Rob Walker",
+    "club": "Pont-y-pwl B",
+    "time": "01:45:08"
   },
   {
     "year": 2022,
@@ -19510,9 +19510,9 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 14,
-    "name": "Glyn SANSOM",
-    "club": "San Domenico A",
-    "time": "01:44:56"
+    "name": "Craig Thomas",
+    "club": "Caerphilly B",
+    "time": "01:45:43"
   },
   {
     "year": 2022,
@@ -19521,9 +19521,9 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 15,
-    "name": "Dave AUSTIN",
-    "club": "Chepstow B",
-    "time": "01:45:13"
+    "name": "Jordan Brown",
+    "club": "Pontypridd A",
+    "time": "01:46:24"
   },
   {
     "year": 2022,
@@ -19532,9 +19532,9 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 16,
-    "name": "Luke JOHNS",
-    "club": "Brackla A",
-    "time": "01:45:47"
+    "name": "David Brown",
+    "club": "Lliswerry B",
+    "time": "01:47:43"
   },
   {
     "year": 2022,
@@ -19543,9 +19543,9 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 17,
-    "name": "Jason DIXΟΝ",
-    "club": "Islwyn A",
-    "time": "01:47:48"
+    "name": "Alan Aird",
+    "club": "Monmouth A",
+    "time": "01:48:13"
   },
   {
     "year": 2022,
@@ -19554,9 +19554,9 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 18,
-    "name": "Cameron CUMMING",
-    "club": "Pontypridd B",
-    "time": "01:51:34"
+    "name": "Paul Chapman",
+    "club": "Les Croupiers A",
+    "time": "01:52:52"
   },
   {
     "year": 2022,
@@ -19565,9 +19565,9 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 19,
-    "name": "Claire BIDDLECOMBE",
-    "club": "Lliswerry C",
-    "time": "01:55:54"
+    "name": "Andy Hughes",
+    "club": "Chepstow B",
+    "time": "01:53:53"
   },
   {
     "year": 2022,
@@ -19576,8 +19576,52 @@ const relayResults = [
     "miles": 13.1,
     "km": 21.1,
     "position": 20,
-    "name": "Dave TIMSON",
-    "club": "Pont-y-pwl & District B",
+    "name": "Steve Lane",
+    "club": "Islwyn A",
+    "time": "01:54:02"
+  },
+  {
+    "year": 2022,
+    "stage": 8,
+    "stage_name": "Usk to Tintern",
+    "miles": 13.1,
+    "km": 21.1,
+    "position": 21,
+    "name": "Martin Jones",
+    "club": "Islwyn B",
+    "time": "01:54:03"
+  },
+  {
+    "year": 2022,
+    "stage": 8,
+    "stage_name": "Usk to Tintern",
+    "miles": 13.1,
+    "km": 21.1,
+    "position": 22,
+    "name": "Giuseppe Santese",
+    "club": "Brackla A",
+    "time": "01:54:54"
+  },
+  {
+    "year": 2022,
+    "stage": 8,
+    "stage_name": "Usk to Tintern",
+    "miles": 13.1,
+    "km": 21.1,
+    "position": 23,
+    "name": "Gareth Purkis",
+    "club": "Caerleon B",
+    "time": "01:55:39"
+  },
+  {
+    "year": 2022,
+    "stage": 8,
+    "stage_name": "Usk to Tintern",
+    "miles": 13.1,
+    "km": 21.1,
+    "position": 24,
+    "name": "Leonie Roberts",
+    "club": "Fairwater A",
     "time": "01:57:08"
   },
   {
@@ -19586,9 +19630,20 @@ const relayResults = [
     "stage_name": "Usk to Tintern",
     "miles": 13.1,
     "km": 21.1,
-    "position": 21,
-    "name": "Ian WADE",
-    "club": "Chepstow C",
+    "position": 25,
+    "name": "Kevin Raymond",
+    "club": "Ogmore B",
+    "time": "01:57:38"
+  },
+  {
+    "year": 2022,
+    "stage": 8,
+    "stage_name": "Usk to Tintern",
+    "miles": 13.1,
+    "km": 21.1,
+    "position": 26,
+    "name": "Stuart Felix",
+    "club": "Rhondda A",
     "time": "01:58:00"
   },
   {
@@ -19597,318 +19652,329 @@ const relayResults = [
     "stage_name": "Usk to Tintern",
     "miles": 13.1,
     "km": 21.1,
-    "position": 22,
-    "name": "Andrew TAYLOR",
-    "club": "Caerleon B",
-    "time": "01:58:01"
-  },
-  {
-    "year": 2022,
-    "stage": 8,
-    "stage_name": "Usk to Tintern",
-    "miles": 13.1,
-    "km": 21.1,
-    "position": 23,
-    "name": "Ray ELLINGHAM",
-    "club": "Lliswerry B",
-    "time": "01:58:02"
-  },
-  {
-    "year": 2022,
-    "stage": 8,
-    "stage_name": "Usk to Tintern",
-    "miles": 13.1,
-    "km": 21.1,
-    "position": 24,
-    "name": "Sean BIRCH",
-    "club": "Islwyn B",
-    "time": "01:58:03"
-  },
-  {
-    "year": 2022,
-    "stage": 8,
-    "stage_name": "Usk to Tintern",
-    "miles": 13.1,
-    "km": 21.1,
-    "position": 25,
-    "name": "Roger MILLS",
-    "club": "Fairwater Cwmbran B",
-    "time": "01:58:04"
-  },
-  {
-    "year": 2022,
-    "stage": 9,
-    "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
-    "position": 1,
-    "name": "Laurence HUMPHRIES",
-    "club": "Fairwater Cwmbran A",
-    "time": "01:02:31"
-  },
-  {
-    "year": 2022,
-    "stage": 9,
-    "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
-    "position": 2,
-    "name": "James BLORE",
-    "club": "Chepstow A",
-    "time": "01:03:50"
-  },
-  {
-    "year": 2022,
-    "stage": 9,
-    "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
-    "position": 3,
-    "name": "Peter CROALL",
-    "club": "San Domenico A",
-    "time": "01:07:12"
-  },
-  {
-    "year": 2022,
-    "stage": 9,
-    "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
-    "position": 4,
-    "name": "Sam RICHARDS",
-    "club": "Pontypridd A",
-    "time": "01:08:50"
-  },
-  {
-    "year": 2022,
-    "stage": 9,
-    "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
-    "position": 5,
-    "name": "Steve DAVIES",
-    "club": "Pont-y-pwl & District A",
-    "time": "01:09:40"
-  },
-  {
-    "year": 2022,
-    "stage": 9,
-    "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
-    "position": 6,
-    "name": "Nicola GETHING",
-    "club": "Parc Bryn Bach A",
-    "time": "01:10:18"
-  },
-  {
-    "year": 2022,
-    "stage": 9,
-    "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
-    "position": 7,
-    "name": "Gareth JONES",
-    "club": "Spirit of Monmouth A",
-    "time": "01:12:33"
-  },
-  {
-    "year": 2022,
-    "stage": 9,
-    "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
-    "position": 8,
-    "name": "Dave GRIFFITHS",
-    "club": "Brackla A",
-    "time": "01:13:26"
-  },
-  {
-    "year": 2022,
-    "stage": 9,
-    "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
-    "position": 9,
-    "name": "Andrew SPENCER",
-    "club": "Griffithstown A",
-    "time": "01:13:33"
-  },
-  {
-    "year": 2022,
-    "stage": 9,
-    "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
-    "position": 10,
-    "name": "Peter OVEY",
-    "club": "Lliswerry A",
-    "time": "01:13:47"
-  },
-  {
-    "year": 2022,
-    "stage": 9,
-    "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
-    "position": 11,
-    "name": "Dean HOUSE",
+    "position": 27,
+    "name": "Sally Groves",
     "club": "Pegasus A",
-    "time": "01:13:54"
+    "time": "02:08:00"
+  },
+  {
+    "year": 2022,
+    "stage": 8,
+    "stage_name": "Usk to Tintern",
+    "miles": 13.1,
+    "km": 21.1,
+    "position": 28,
+    "name": "Andy Davies",
+    "club": "Fairwater B",
+    "time": "02:08:01"
   },
   {
     "year": 2022,
     "stage": 9,
     "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
-    "position": 12,
-    "name": "Neil GRANT",
-    "club": "Chepstow B",
-    "time": "01:14:47"
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 1,
+    "name": "Nick Tulp",
+    "club": "Lliswerry A",
+    "time": "01:00:02"
   },
   {
     "year": 2022,
     "stage": 9,
     "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
-    "position": 13,
-    "name": "Howard MASON",
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 2,
+    "name": "Tim Batchelor",
+    "club": "Chepstow A",
+    "time": "01:04:02"
+  },
+  {
+    "year": 2022,
+    "stage": 9,
+    "stage_name": "Tintern to Chepstow",
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 3,
+    "name": "Niki Puleio",
+    "club": "Ogmore A",
+    "time": "01:05:10"
+  },
+  {
+    "year": 2022,
+    "stage": 9,
+    "stage_name": "Tintern to Chepstow",
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 4,
+    "name": "Grant Lewis",
+    "club": "Griffithstown A",
+    "time": "01:05:13"
+  },
+  {
+    "year": 2022,
+    "stage": 9,
+    "stage_name": "Tintern to Chepstow",
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 5,
+    "name": "Matt Turner",
     "club": "Caerleon A",
-    "time": "01:15:23"
+    "time": "01:06:41"
   },
   {
     "year": 2022,
     "stage": 9,
     "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
-    "position": 14,
-    "name": "Phil HUGHES",
-    "club": "San Domenico B",
-    "time": "01:16:34"
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 6,
+    "name": "Jon Ford",
+    "club": "Fairwater A",
+    "time": "01:07:45"
   },
   {
     "year": 2022,
     "stage": 9,
     "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
-    "position": 15,
-    "name": "Brian JONES",
-    "club": "Usk A",
-    "time": "01:18:13"
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 7,
+    "name": "Doug Briggs",
+    "club": "Chepstow B",
+    "time": "01:08:01"
   },
   {
     "year": 2022,
     "stage": 9,
     "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
-    "position": 16,
-    "name": "Gary ADAMS",
-    "club": "Fairwater Cwmbran B",
-    "time": "01:18:23"
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 8,
+    "name": "John Seaward",
+    "club": "Caerphilly A",
+    "time": "01:08:22"
   },
   {
     "year": 2022,
     "stage": 9,
     "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
-    "position": 17,
-    "name": "Bryan MERIDETH",
-    "club": "Rhondda Valley A",
-    "time": "01:18:30"
-  },
-  {
-    "year": 2022,
-    "stage": 9,
-    "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
-    "position": 18,
-    "name": "Paul FISHER",
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 9,
+    "name": "Jason Dixon",
     "club": "Islwyn A",
-    "time": "01:19:59"
+    "time": "01:12:20"
   },
   {
     "year": 2022,
     "stage": 9,
     "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
-    "position": 19,
-    "name": "Nick DAVIES",
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 10,
+    "name": "Richard Matthews",
+    "club": "Aberdare A",
+    "time": "01:12:28"
+  },
+  {
+    "year": 2022,
+    "stage": 9,
+    "stage_name": "Tintern to Chepstow",
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 11,
+    "name": "Simon Gill",
     "club": "Lliswerry B",
-    "time": "01:23:59"
+    "time": "01:12:40"
   },
   {
     "year": 2022,
     "stage": 9,
     "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
-    "position": 20,
-    "name": "Pete RODGER",
-    "club": "Caerleon B",
-    "time": "01:24:04"
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 12,
+    "name": "Elizabeth May",
+    "club": "Pontypridd A",
+    "time": "01:13:38"
   },
   {
     "year": 2022,
     "stage": 9,
     "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
-    "position": 21,
-    "name": "Rachel PRANGLEY",
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 13,
+    "name": "Brian Lovett",
+    "club": "San Domenico A",
+    "time": "01:14:04"
+  },
+  {
+    "year": 2022,
+    "stage": 9,
+    "stage_name": "Tintern to Chepstow",
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 14,
+    "name": "Ian Ogilvie",
+    "club": "Brackla A",
+    "time": "01:14:20"
+  },
+  {
+    "year": 2022,
+    "stage": 9,
+    "stage_name": "Tintern to Chepstow",
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 15,
+    "name": "Jamie Edwards",
+    "club": "Pont-y-pwl A",
+    "time": "01:15:18"
+  },
+  {
+    "year": 2022,
+    "stage": 9,
+    "stage_name": "Tintern to Chepstow",
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 16,
+    "name": "Lee Turner",
+    "club": "Griffithstown B",
+    "time": "01:15:25"
+  },
+  {
+    "year": 2022,
+    "stage": 9,
+    "stage_name": "Tintern to Chepstow",
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 17,
+    "name": "David Waters",
     "club": "Islwyn B",
-    "time": "01:24:33"
+    "time": "01:15:43"
   },
   {
     "year": 2022,
     "stage": 9,
     "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 18,
+    "name": "Ethan Sayce",
+    "club": "Parc Bryn Bach A",
+    "time": "01:16:25"
+  },
+  {
+    "year": 2022,
+    "stage": 9,
+    "stage_name": "Tintern to Chepstow",
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 19,
+    "name": "Ieuan Kingston",
+    "club": "Fairwater B",
+    "time": "01:18:40"
+  },
+  {
+    "year": 2022,
+    "stage": 9,
+    "stage_name": "Tintern to Chepstow",
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 20,
+    "name": "Harry Woodward",
+    "club": "Caldicot A",
+    "time": "01:19:09"
+  },
+  {
+    "year": 2022,
+    "stage": 9,
+    "stage_name": "Tintern to Chepstow",
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 21,
+    "name": "Steve Chadwell",
+    "club": "Les Croupiers A",
+    "time": "01:20:24"
+  },
+  {
+    "year": 2022,
+    "stage": 9,
+    "stage_name": "Tintern to Chepstow",
+    "miles": 10.0,
+    "km": 16.0,
     "position": 22,
-    "name": "Stuart DUNCAN",
-    "club": "Chepstow C",
-    "time": "01:25:00"
+    "name": "Peter Rodger",
+    "club": "Caerleon B",
+    "time": "01:20:59"
   },
   {
     "year": 2022,
     "stage": 9,
     "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
+    "miles": 10.0,
+    "km": 16.0,
     "position": 23,
-    "name": "Anne FOLLAN",
-    "club": "Pontypridd B",
-    "time": "01:25:01"
+    "name": "Martin Clayton",
+    "club": "Pont-y-pwl B",
+    "time": "01:22:22"
   },
   {
     "year": 2022,
     "stage": 9,
     "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
+    "miles": 10.0,
+    "km": 16.0,
     "position": 24,
-    "name": "Darren SAMUEL",
-    "club": "Pont-y-pwl & District B",
-    "time": "01:25:02"
+    "name": "Martin Blakeborough",
+    "club": "Monmouth A",
+    "time": "01:22:31"
   },
   {
     "year": 2022,
     "stage": 9,
     "stage_name": "Tintern to Chepstow",
-    "miles": 9.42,
-    "km": 15.2,
+    "miles": 10.0,
+    "km": 16.0,
     "position": 25,
-    "name": "Claire DUNKERTON-MORRIS",
-    "club": "Lliswerry C",
-    "time": "01:25:03"
+    "name": "Wayne Randall",
+    "club": "Ogmore B",
+    "time": "01:22:58"
+  },
+  {
+    "year": 2022,
+    "stage": 9,
+    "stage_name": "Tintern to Chepstow",
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 26,
+    "name": "Joanne Ryan",
+    "club": "Rhondda A",
+    "time": "01:26:58"
+  },
+  {
+    "year": 2022,
+    "stage": 9,
+    "stage_name": "Tintern to Chepstow",
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 27,
+    "name": "Emily Sams",
+    "club": "Caerphilly B",
+    "time": "01:28:15"
+  },
+  {
+    "year": 2022,
+    "stage": 9,
+    "stage_name": "Tintern to Chepstow",
+    "miles": 10.0,
+    "km": 16.0,
+    "position": 28,
+    "name": "Aled Williams",
+    "club": "Pegasus A",
+    "time": "01:28:23"
   },
   {
     "year": 2022,
