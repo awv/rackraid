@@ -411,25 +411,35 @@ input:focus, select:focus {
 
     .home-archive-page .results-table-header { display: none !important; }
 
+    /* Enforce fluid row grid behavior to stop cards stacking vertically */
     .home-archive-page .results-row {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 14px 12px;
-        gap: 6px;
+        display: grid !important;
+        grid-template-columns: 40px 1fr 95px !important;
+        align-items: center !important;
+        padding: 12px !important;
+        gap: 0px !important;
+    }
+
+    .home-archive-page .cell-position,
+    .home-archive-page .cell-name,
+    .home-archive-page .cell-time {
+        display: block !important;
+        width: auto !important;
+    }
+
+    .home-archive-page .cell-position {
+        padding-left: 2px !important;
+    }
+
+    .home-archive-page .cell-time {
+        text-align: right !important;
     }
 
     .home-archive-page .cell-pace {
-        display: flex;
-        flex-direction: row;
-        align-items: baseline;
-        gap: 8px;
-        margin-top: 4px;
-        width: 100%;
+        display: block !important;
+        margin-top: 0px !important;
+        width: auto !important;
     }
-
-    .home-archive-page .cell-pace strong { font-size: 0.95rem; color: #ffffff; }
-    .home-archive-page .cell-pace span.pace-subtext { font-size: 0.8rem; color: #ffffff !important; }
 }
 
 
