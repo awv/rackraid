@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stage Time Trends — Rack Raid Archive</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- LOAD DATASETS -->
+    <script src="data.js"></script>
+    <script src="site-layout.js"></script>
+    <style>
+        body { background-color: #0f172a; }
+        .trend-card {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            border: 1px solid #334155;
+        }
+    </style>
+</head>
+<body class="text-slate-300 font-sans antialiased bg-slate-950">
+
+    <!-- GLOBAL HEADER -->
+    <div id="global-header"></div>
+
+    <main class="max-w-[1400px] mx-auto px-4 mt-8">
+        <!-- Page Header -->
+        <div class="border-b border-slate-800 pb-4 mb-8">
+            <h2 class="text-2xl sm:text-3xl font-black text-slate-100 tracking-tight uppercase">
+                Stage Time Trends (2011—2026)
+            </h2>
+            <p class="text-xs sm:text-sm text-slate-400 font-medium mt-1">
+                Visualising the evolution of winning paces for each of the 13 race stages.
+            </p>
+        </div>
+
+        <!-- 13-CARD CHART GRID -->
+        <div id="charts-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Dynamically generated charts will inject here -->
+        </div>
+    </main>
+
+    <!-- GLOBAL FOOTER -->
+    <div id="global-footer" class="mt-16"></div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Data array resolution logic
+            const targetData = window.relayResults || window.results || (typeof relayResults !== 'undefined' ? relayResults : null);
+            if (!targetData) {
+                console.error("Dataset could not be resolved from data.js.");
+                return;
+            }
+
+            const stagesCount = 13;
+            const gridContainer = document.getElementById('charts-grid');
+
+            // Master club name sanitisation utility
+            function cleanClubName(name) {
+                if (!name) return 'Independent';
+                let club = name.toString().trim();
+                club = club.replace(/['’"“]/g, '');
+                club = club.replace(/ŵ/g, 'w').replace(/Ŵ/g, 'W');
+                
+                let lower = club.toLowerCase();
+                if (lower === 'unattached' || lower === 'independent' || lower === 'none' || lower === 'unattached.') {
+                    return 'Independent';
+                }
+
+                if (lower === 'les') return 'Les Croupiers';
+                if (lower === 'san') return 'San Domenico';
+                if (lower === 'pa' || lower.startsWith('parc bryn') || lower === 'pbb') return 'Parc Bryn Bach';
+                if (lower === 'usk') return 'Usk';
+
+                club = club.replace(/\s+&\s*$/g, '');
+                club = club.replace(/\s+([A-D]|\d+)\s*$/i, '');
+                club = club.replace(/\s*[\(\s]+(Team\s+)?([A-D]|\d+)\s*[\)]?$/i, ''); 
+                club = club.replace(/\s*[\(\s]+(Vets|Senior|Ladies|Men|Masters|Mixed|A|B|C|D).*/i, ''); 
+
+                club = club.replace(/\s*(?:Running Club|Running|RC|Harriers|Roadents|Runners|Athletic Club|AC|AAC|Triathlon)$/i, '');
+                club = club.trim();
+
+                lower = club.toLowerCase();
+                if (lower === 'aberdare') return 'Aberdare Valley';
+                if (lower === 'caerleon') return 'Caerleon';
+                if (lower === 'chepstow') return 'Chepstow';
+                if (lower === 'fairwater') return 'Fairwater';
+                if (lower === 'islwyn') return 'Islwyn';
+                if (lower === 'monmouth' || lower.startsWith('spirit')) return 'Spirit Of Monmouth';
+                if (lower === 'ogmore') return 'Ogmore Phoenix';
+                if (lower.startsWith('pont-y-pwl') || lower.startsWith('pontypool')) return 'Pont-y-pwl';
+                if (lower === 'pegasus') return 'Pegasus';
+                if (lower === 'rhondda') return 'Rhondda Valley';
+
+                return club.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
+            }
+
+            // Helper function to convert "hh:mm:ss" string to numeric decimal minutes
+            function timeStringToMinutes(timeStr) {
+                if (!timeStr) return null;
+                const parts = timeStr.split(':');
+                if (parts.length !== 3) return null;
+                const hrs = parseInt(parts[0], 10);
+                const mins = parseInt(parts[1], 10);
+                const secs = parseInt(parts[2], 10);
+                return (hrs * 60) + mins + (secs / 60);
+            }
+
+            // Helper function to turn decimal minutes back into an "hh:mm:ss" string for tooltips
+            function minutesToTimeString(decimalMins) {
+                const hrs = Math.floor(decimalMins / 60);
+                const mins = Math.floor(decimalMins % 60);
+                const secs = Math.round((decimalMins * 60) % 60);
+                return `${hrs.toString().padStart(2, '0')}:${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+            }
+
+            // Generate years array from 2011 to 2026
+            const yearsRange = [];
+            for (let y = 2011; y <= 2026; y++) {
+                yearsRange.push(y);
+            }
+
+            // Process data for each of the 13 stages
+            for (let stageNum = 1; stageNum <= stagesCount; stageNum++) {
+                
+                // 1. Store full record blocks for the winning performance map
+                const fastestTimesByYear = {};
+                
+                targetData.forEach(row => {
+                    if (parseInt(row.stage, 10) !== stageNum || parseInt(row.position, 10) !== 1) return;
+                    
+                    const currentYear = parseInt(row.year, 10);
+                    const currentMins = timeStringToMinutes(row.time);
+                    
+                    if (currentMins) {
+                        if (!fastestTimesByYear[currentYear] || currentMins < fastestTimesByYear[currentYear].mins) {
+                            fastestTimesByYear[currentYear] = {
+                                mins: currentMins,
+                                name: row.name ? row.name.trim() : 'Unknown',
+                                club: cleanClubName(row.club)
+                            };
+                        }
+                    }
+                });
+
+                // 2. Map coordinates array extracting the numerical coordinates
+                const dataPoints = yearsRange.map(year => fastestTimesByYear[year] ? fastestTimesByYear[year].mins : null);
+
+                // 3. Append the physical card wrapper template structure
+                const cardId = `stage-card-${stageNum}`;
+                const canvasId = `chart-stage-${stageNum}`;
+                
+                gridContainer.insertAdjacentHTML('beforeend', `
+                    <div class="trend-card p-5 rounded-xl shadow-xl flex flex-col justify-between" id="${cardId}">
+                        <div class="mb-3 flex justify-between items-center border-b border-slate-800 pb-2">
+                            <h3 class="text-base font-black text-slate-100 tracking-wide uppercase">Stage ${stageNum}</h3>
+                            <span class="text-xs font-mono text-slate-400">Winning Pace</span>
+                        </div>
+                        <div class="relative h-[180px] w-full">
+                            <canvas id="${canvasId}"></canvas>
+                        </div>
+                    </div>
+                `);
+
+                // 4. Paint the timeline config injecting multi-line hover details
+                const ctx = document.getElementById(canvasId).getContext('2d');
+                new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: yearsRange,
+                        datasets: [{
+                            data: dataPoints,
+                            borderColor: '#34d399',
+                            borderWidth: 2.5,
+                            pointBackgroundColor: '#10b981',
+                            pointHoverRadius: 6,
+                            tension: 0.15,
+                            spanGaps: true
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: { display: false },
+                            tooltip: {
+                                callbacks: {
+                                    label: function(context) {
+                                        return ` Time: ${minutesToTimeString(context.parsed.y)}`;
+                                    },
+                                    footer: function(tooltipItems) {
+                                        const hoveredYear = tooltipItems[0].label;
+                                        const meta = fastestTimesByYear[hoveredYear];
+                                        if (meta) {
+                                            return `Runner: ${meta.name}\nClub: ${meta.club}`;
+                                        }
+                                        return '';
+                                    }
+                                }
+                            }
+                        },
+                        scales: {
+                            x: {
+                                grid: { color: 'rgba(51, 65, 85, 0.1)', drawBorder: false },
+                                ticks: { color: '#94a3b8', font: { size: 10 } }
+                            },
+                            y: {
+                                grid: { color: 'rgba(51, 65, 85, 0.15)', drawBorder: false },
+                                ticks: {
+                                    color: '#94a3b8',
+                                    font: { size: 10 },
+                                    callback: function(value) {
+                                        return minutesToTimeString(value).substring(0, 5);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
