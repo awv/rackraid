@@ -54,9 +54,9 @@ document.addEventListener("DOMContentLoaded", function() {
         footerCanvas.innerHTML = `
             <div class="max-w-[1400px] mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
                 <p class="max-w-2xl leading-relaxed text-slate-500 m-0">
-                    <strong>Archive Disclaimer:</strong> Raw dataset metrics are parsed programmatically from historical results documentation. If you discover an error, misaligned registration, or missing club tracking code, please file a correction patch via the workspace repository.
+                    <strong>Archive Disclaimer:</strong> Raw dataset metrics are parsed programmatically from historical results documentation. If you discover an error, misaligned registration, or missing club tracking code, please file a correction with Robert Gale.
                 </p>
-                <p class="font-bold text-slate-600 m-0">© 2026 Rack Raid Hub</p>
+                <p class="font-bold text-slate-600 m-0">Built by Robert Gale (Parc Bryn Bach)</p>
             </div>
         `;
     }
