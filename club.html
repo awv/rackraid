@@ -179,7 +179,14 @@
                 const runnerStats = {};
 
                 clubResults.forEach(row => {
-                    const cleanName = row.name.replace(/\s*\([MF]\d*\)\s*$/i, '').trim();
+                    const rawName = row.name ? row.name.trim() : '';
+                    const upperName = rawName.toUpperCase();
+
+                    if (!rawName || upperName === 'UNKNOWN') {
+                        return;
+                    }
+
+                    const cleanName = rawName.replace(/\s*\([MF]\d*\)\s*$/i, '').trim();
                     if (row.position === 1) totalWins++;
                     if (row.position <= 3) totalPodiums++;
 
@@ -221,13 +228,16 @@
                     }
                     gridHtml += '</div>';
 
+                    // Added sm:gap-6 to create horizontal breathing room between items on desktop layouts cleanly
                     loyaltyHtml += `
                         <div class="leaderboard-row">
                             <div class="font-bold">${idx + 1}</div>
                             <div><a href="athlete.html?name=${encodeURIComponent(runner.name)}">${runner.name}</a></div>
                             <div>
-                                <span class="font-bold mobile-run-count" style="display:inline-block; min-width:30px;">${runner.runs} ${runner.runs === 1 ? ' appearance' : ' appearances'}</span> 
-                                ${gridHtml}
+                                <div class="flex flex-wrap items-center gap-2 sm:gap-6">
+                                    <span class="font-bold mobile-run-count whitespace-nowrap" style="min-width:30px;">${runner.runs} ${runner.runs === 1 ? ' appearance' : ' appearances'}</span> 
+                                    ${gridHtml}
+                                </div>
                             </div>
                         </div>`;
                 });

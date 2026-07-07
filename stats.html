@@ -103,7 +103,7 @@
                 <h3 class="text-xl font-bold text-slate-100 uppercase tracking-wide">All-Time Hall of Fame</h3>
             </div>
             <div id="metrics-grid-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <!-- Rendered dynamically with correct separating borders and anchor tags -->
+                <!-- Rendered dynamically -->
             </div>
         </section>
 
@@ -114,7 +114,7 @@
                 <p class="text-xs text-slate-400 mt-0.5">Frequent flyers who have repeatedly conquered specific legs of the course.</p>
             </div>
             <div id="stage-stalwarts-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <!-- Rendered dynamically with correct separating borders and anchor tags -->
+                <!-- Rendered dynamically -->
             </div>
         </section>
 
@@ -155,15 +155,54 @@
                 { club: "Islwyn", titles: 2 }
             ];
 
-            function cleanClubName(name) {
+function cleanClubName(name) {
                 if (!name) return 'Independent';
                 let club = name.toString().trim();
-                club = club.replace(/\s*[\(\s]([A-D]|\d+)\s*$/, '').trim(); 
-                club = club.replace(/\s*(?:Running Club|RC|Harriers|Roadents|Runners)$/i, '').trim();
-                return club;
+                
+                // 1. Unify character variations, quotes, and Welsh accents immediately
+                club = club.replace(/['’"“]/g, ''); // Remove single/double quotes around team letters
+                club = club.replace(/ŵ/g, 'w').replace(/Ŵ/g, 'W'); // Standardise Pont-y-pŵl accent variations
+                
+                let lower = club.toLowerCase();
+                if (lower === 'unattached' || lower === 'independent' || lower === 'none' || lower === 'unattached.') {
+                    return 'Independent';
+                }
+
+                // 2. Direct hard matches to intercept severe historical truncations or typos
+                if (lower === 'les') return 'Les Croupiers';
+                if (lower === 'san') return 'San Domenico';
+                if (lower === 'pa' || lower.startsWith('parc bryn') || lower === 'pbb') return 'Parc Bryn Bach';
+                if (lower === 'usk') return 'Usk';
+
+                // 3. Clean up trailing team designators, brackets, and multi-team suffix letters
+                // Handles patterns like "Caerleon A", "Fairwater B", "Pont-y-pwl &", etc.
+                club = club.replace(/\s+&\s*$/g, ''); // Strip stray trailing ampersands
+                club = club.replace(/\s+([A-D]|\d+)\s*$/i, ''); // Strip trailing space-separated letters A, B, C, D
+                club = club.replace(/\s*[\(\s]+(Team\s+)?([A-D]|\d+)\s*[\)]?$/i, ''); 
+                club = club.replace(/\s*[\(\s]+(Vets|Senior|Ladies|Men|Masters|Mixed|A|B|C|D).*/i, ''); 
+
+                // 4. Eliminate standard trailing suffixes so eras merge together
+                club = club.replace(/\s*(?:Running Club|Running|RC|Harriers|Roadents|Runners|Athletic Club|AC|AAC|Triathlon)$/i, '');
+                club = club.trim();
+
+                // 5. Group common local geographic stems into uniform master names
+                lower = club.toLowerCase();
+                if (lower === 'aberdare') return 'Aberdare Valley';
+                if (lower === 'caerleon') return 'Caerleon';
+                if (lower === 'chepstow') return 'Chepstow';
+                if (lower === 'fairwater') return 'Fairwater';
+                if (lower === 'islwyn') return 'Islwyn';
+                if (lower === 'monmouth' || lower.startsWith('spirit')) return 'Spirit Of Monmouth';
+                if (lower === 'ogmore') return 'Ogmore Phoenix';
+                if (lower.startsWith('pont-y-pwl') || lower.startsWith('pontypool')) return 'Pont-y-pwl';
+                if (lower === 'pegasus') return 'Pegasus';
+                if (lower === 'rhondda') return 'Rhondda Valley';
+
+                // 6. Return title-cased fallback for the remaining clean entities
+                return club.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
             }
 
-            // Processing loop pass
+            // Data loop pass
             targetData.forEach(row => {
                 if (!row) return;
 
@@ -213,7 +252,7 @@
             document.getElementById('totalRunnersCount').textContent = uniqueRunnersSet.size.toLocaleString();
             document.getElementById('totalClubsCount').textContent = `${uniqueClubsSet.size} Unique Clubs`;
 
-            // --- RENDER BOARDS WITH ROW SEPARATORS AND ANCHOR LINKS ---
+            // --- RENDER MAIN CORE TABLES ---
             const gridContainer = document.getElementById('metrics-grid-container');
             let overviewHtml = '';
 
