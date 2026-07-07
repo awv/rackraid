@@ -79,6 +79,7 @@
         const metaContainer = document.getElementById('metaContainer');
 
         let activeSelectedYear = "";
+        let isYearTabClicked = false;
 
         const courseRecords = {
             "2026": {"1":"00:31:14","2":"00:38:40","3":"00:43:25","4":"00:36:12","5":"00:41:20","6":"00:33:15","7":"00:39:45","8":"00:42:10","9":"00:35:50","10":"00:38:15","11":"00:40:05","12":"00:37:20","13":"00:44:10","14":"00:31:55"},
@@ -125,6 +126,7 @@
                 document.querySelectorAll('.year-tab').forEach(t => t.classList.remove('active'));
                 e.target.classList.add('active');
                 activeSelectedYear = e.target.getAttribute('data-year');
+                isYearTabClicked = true; // Flag explicit user click execution context
                 performSearch();
             }
         });
@@ -180,8 +182,8 @@
             const selectedStage = stageSelect.value;
             const mappingsExist = typeof clubMappingsMaster !== 'undefined';
 
-            // Guard state: If everything is left blank, do not load the wall of text results
-            if (searchTerm === "" && selectedStage === "" && activeSelectedYear === "") {
+            // Check if user explicitly clicked a year tab or input field data
+            if (searchTerm === "" && selectedStage === "" && activeSelectedYear === "" && !isYearTabClicked) {
                 showInitialWelcomeState();
                 return;
             }
@@ -264,7 +266,7 @@
                                 ${cutoffLabel}
                             </div>
                         </div>
-                        <div class="results-table-header">
+                        <div class="results-table-header hidden sm:grid">
                             <div>Pos</div>
                             <div>Name</div>
                             <div>Club</div>
@@ -292,20 +294,28 @@
                         }
                         
                         let timeMarkup = brokeRecord ? 
-                            `<div class="cell-time"><span class="record-breaker-time bg-emerald-950/80 border border-emerald-500 text-emerald-400 px-2 py-0.5 rounded text-sm font-bold">${row.time}</span></div>` : 
-                            `<div class="cell-time">${row.time}</div>`;
+                            `<span class="record-breaker-time bg-emerald-950/80 border border-emerald-500 text-emerald-400 px-2 py-0.5 rounded text-sm font-bold inline-block">${row.time}</span>` : 
+                            `<span>${row.time}</span>`;
                         
                         const rawClub = cleanLabel(row.club);
                         const lookupKey = rawClub.toLowerCase().trim();
                         const finalClubName = mappingsExist ? (clubMappingsMaster[lookupKey] || rawClub || 'Independent') : (rawClub || 'Independent');
 
                         htmlOutput += `
-                            <div class="results-row ${rowModifierClass}">
-                                <div class="cell-position">${row.position}</div>
-                                <div class="cell-name"><a href="athlete.html?name=${encodeURIComponent(row.name)}" onclick="saveArchiveState('${encodeURIComponent(row.name)}')" style="font-weight: 600;">${row.name}</a></div>
-                                <div class="cell-club"><a href="club.html?club=${encodeURIComponent(finalClubName)}">${finalClubName}</a></div>
-                                ${timeMarkup}
-                                <div class="cell-pace">
+                            <div class="results-row ${rowModifierClass} grid grid-cols-[40px_1fr_95px] sm:block items-center py-3 sm:py-0">
+                                <div class="cell-position sm:inline-block font-mono text-slate-400 font-bold">${row.position}</div>
+                                <div class="cell-name sm:inline-block pl-2 sm:pl-0">
+                                    <a href="athlete.html?name=${encodeURIComponent(row.name)}" onclick="saveArchiveState('${encodeURIComponent(row.name)}')" class="text-white hover:text-emerald-400 transition-colors block sm:inline" style="font-weight: 600;">${row.name}</a>
+                                    <span class="sm:hidden block text-xs text-slate-400 font-medium mt-0.5">
+                                        <a href="club.html?club=${encodeURIComponent(finalClubName)}" class="hover:underline">${finalClubName}</a>
+                                    </span>
+                                    <span class="sm:hidden block text-[11px] text-slate-500 font-mono mt-1">
+                                        Pace: ${milePace}/mi · ${kmPace}/km
+                                    </span>
+                                </div>
+                                <div class="cell-club hidden sm:inline-block"><a href="club.html?club=${encodeURIComponent(finalClubName)}" class="hover:text-emerald-400 transition-colors">${finalClubName}</a></div>
+                                <div class="cell-time text-right sm:text-left font-mono pr-2 sm:pr-0">${timeMarkup}</div>
+                                <div class="cell-pace hidden sm:inline-block">
                                     <strong>${milePace}</strong> <span>/mi</span>
                                     <span class="pace-subtext">${kmPace} /km</span>
                                 </div>
@@ -321,18 +331,28 @@
             resultsContainer.innerHTML = htmlOutput;
         }
 
-        searchBtn.addEventListener('click', performSearch);
-        stageSelect.addEventListener('change', performSearch);
+        searchBtn.addEventListener('click', () => {
+            isYearTabClicked = true; 
+            performSearch();
+        });
+        
+        stageSelect.addEventListener('change', () => {
+            isYearTabClicked = true;
+            performSearch();
+        });
         
         queryInput.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter') { performSearch(); }
+            if (e.key === 'Enter') { 
+                isYearTabClicked = true;
+                performSearch(); 
+            }
         });
 
-        // Clear button listener definition
         resetBtn.addEventListener('click', () => {
             queryInput.value = "";
             stageSelect.value = "";
             activeSelectedYear = "";
+            isYearTabClicked = false;
             document.querySelectorAll('.year-tab').forEach(t => t.classList.remove('active'));
             const allYearsTab = document.querySelector('.year-tab[data-year=""]');
             if (allYearsTab) allYearsTab.classList.add('active');
@@ -345,6 +365,7 @@
             const urlStage = params.get('stage');
 
             if (urlYear || urlStage) {
+                isYearTabClicked = true;
                 if (urlYear) {
                     activeSelectedYear = urlYear;
                     document.querySelectorAll('.year-tab').forEach(t => t.classList.remove('active'));
@@ -364,6 +385,7 @@
                 activeSelectedYear = state.year;
                 stageSelect.value = state.stage;
                 queryInput.value = state.search;
+                isYearTabClicked = true;
 
                 document.querySelectorAll('.year-tab').forEach(t => t.classList.remove('active'));
                 const targetTab = document.querySelector(`.year-tab[data-year="${state.year}"]`);
@@ -375,7 +397,6 @@
                     window.scrollTo({ top: state.scrollPosition, behavior: 'instant' });
                 }, 50);
             } else {
-                // Clear state on normal layout initialization
                 const allYearsTab = document.querySelector('.year-tab[data-year=""]');
                 if (allYearsTab) allYearsTab.classList.add('active');
                 showInitialWelcomeState();
