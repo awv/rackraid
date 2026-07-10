@@ -35999,7 +35999,7 @@ const relayResults = [
     "miles": 5.1,
     "km": 8.2,
     "position": 2,
-    "name": "Sam Jones",
+    "name": "Sam Lewis Jones",
     "club": "Parc Bryn Bach A",
     "time": "00:31:02"
   },
