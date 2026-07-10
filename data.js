@@ -10248,7 +10248,7 @@ const relayResults = [
     "miles": 8.1,
     "km": 13.0,
     "position": 2,
-    "name": "Tim Bachelor",
+    "name": "Tim batchelor",
     "club": "Chepstow Harriers",
     "time": "00:49:17"
   },
